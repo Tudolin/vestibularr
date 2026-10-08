@@ -60,7 +60,7 @@ As imagens ficam hospedadas nas fontes (enem.dev e GitHub); se saírem do ar, ap
 **2024:** a fonte só tem a versão de inglês da língua estrangeira e a questão 124 está anulada (pulada).
 **ENEM 2025:** não há dataset aberto. Opções: importar você mesmo (JSON/CSV) ou usar a extração por IA a partir do PDF oficial do INEP (planejada para depois da Fase 4, quando o Gemini estiver configurado).
 
-**Resoluções comentadas** (ficam versionadas em `data/resolucoes/enem-<ano>.json`; escritas com auxílio de IA, uma por
+**Resoluções comentadas** (ENEM 2020–2024, 891 questões; ficam versionadas em `data/resolucoes/enem-<ano>.json`; escritas com auxílio de IA, uma por
 questão, resolvendo antes de olhar o gabarito e conferindo depois):
 
 ```bash
