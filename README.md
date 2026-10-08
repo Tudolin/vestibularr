@@ -60,6 +60,17 @@ As imagens ficam hospedadas nas fontes (enem.dev e GitHub); se saírem do ar, ap
 **2024:** a fonte só tem a versão de inglês da língua estrangeira e a questão 124 está anulada (pulada).
 **ENEM 2025:** não há dataset aberto. Opções: importar você mesmo (JSON/CSV) ou usar a extração por IA a partir do PDF oficial do INEP (planejada para depois da Fase 4, quando o Gemini estiver configurado).
 
+**Resoluções comentadas** (ficam versionadas em `data/resolucoes/enem-<ano>.json`; escritas com auxílio de IA, uma por
+questão, resolvendo antes de olhar o gabarito e conferindo depois):
+
+```bash
+npm run seed:resolucoes                  # aplica todos os anos disponíveis
+npm run seed:resolucoes -- --years 2023  # só um ano
+```
+Precisa da migration `0007` aplicada. Só grava quando o gabarito do arquivo bate com o do banco (divergências e questões
+ausentes são listadas). Rodar de novo é seguro, e o `seed:enem` não apaga mais as resoluções existentes.
+Questões sem resolução no arquivo são as que dependem de imagem ausente na fonte ou têm enunciado incompleto.
+
 **Importar provas** (admin → Importar, ou aluno → Estudar → Enviar prova, que passa pela aprovação do admin):
 arquivos `.json` ou `.csv`; exemplos em `public/exemplo-importacao.json|csv`. A prévia mostra erros por questão antes de gravar.
 Reimportar a mesma prova atualiza em vez de duplicar (chave: prova + número + idioma).
