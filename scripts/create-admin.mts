@@ -1,13 +1,13 @@
 /**
  * Cria (ou promove) o primeiro administrador. Uso:
- *   npx tsx --env-file=.env.local scripts/create-admin.ts email@exemplo.com "Seu Nome" "senha-forte"
+ *   npx tsx --env-file=.env.local scripts/create-admin.mts email@exemplo.com "Seu Nome" "senha-forte"
  * Roda localmente com a service-role; nunca exponha essa chave ao navegador.
  */
 import { createClient } from "@supabase/supabase-js";
 
 const [email, fullName, password] = process.argv.slice(2);
 if (!email || !fullName || !password) {
-  console.error('Uso: create-admin.ts <email> "<nome>" "<senha (mín. 8)>"');
+  console.error('Uso: create-admin.mts <email> "<nome>" "<senha (mín. 8)>"');
   process.exit(1);
 }
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;

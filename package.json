@@ -10,7 +10,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "db:test:start": "./scripts/pg-test-start.sh",
-    "create-admin": "tsx --env-file=.env.local scripts/create-admin.ts"
+    "create-admin": "tsx --env-file=.env.local scripts/create-admin.mts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.2.0",
