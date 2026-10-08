@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ------------------------------------------------------------------
+   Design tokens. Valores em hex para a checagem automática de contraste
+   (src/lib/contrast.test.ts) — qualquer par texto/fundo novo entra lá.
+   ------------------------------------------------------------------ */
+:root {
+  --background: #f7f7fb;
+  --foreground: #14142b;
+  --card: #ffffff;
+  --card-foreground: #14142b;
+  --muted: #eeeef6;
+  --muted-foreground: #55557a;
+  --border: #dcdcec;
+  --input: #85859f;
+  --ring: #4f46e5;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --primary-soft: #ebeaff;
+  --primary-soft-foreground: #3730a3;
+  --success: #15803d;
+  --success-soft: #e0f5e8;
+  --success-soft-foreground: #14532d;
+  --danger: #b91c1c;
+  --danger-soft: #fde8e8;
+  --danger-soft-foreground: #7f1d1d;
+  --warning-soft: #fff1d6;
+  --warning-soft-foreground: #7c3a06;
+  /* Áreas do conhecimento: tom sólido (barras/ícones) + fundo suave + texto sobre o suave */
+  --area-linguagens: #7c3aed;
+  --area-linguagens-soft: #f0e9ff;
+  --area-linguagens-foreground: #5b21b6;
+  --area-humanas: #d97706;
+  --area-humanas-soft: #fff1d6;
+  --area-humanas-foreground: #8a4204;
+  --area-natureza: #059669;
+  --area-natureza-soft: #dff6ec;
+  --area-natureza-foreground: #046345;
+  --area-matematica: #2563eb;
+  --area-matematica-soft: #e4edff;
+  --area-matematica-foreground: #1e40af;
+  --radius: 1rem;
+}
+
+.dark {
+  --background: #0d0d1a;
+  --foreground: #ececf8;
+  --card: #161628;
+  --card-foreground: #ececf8;
+  --muted: #1f1f36;
+  --muted-foreground: #a9a9c8;
+  --border: #2b2b46;
+  --input: #7373a0;
+  --ring: #8b93ff;
+  --primary: #8b93ff;
+  --primary-foreground: #0d0d1a;
+  --primary-soft: #25254d;
+  --primary-soft-foreground: #c7caff;
+  --success: #4ade80;
+  --success-soft: #11321f;
+  --success-soft-foreground: #a7f3c4;
+  --danger: #f87171;
+  --danger-soft: #3b1618;
+  --danger-soft-foreground: #fecaca;
+  --warning-soft: #3a2a0b;
+  --warning-soft-foreground: #fcd34d;
+  --area-linguagens: #a78bfa;
+  --area-linguagens-soft: #2a1f4d;
+  --area-linguagens-foreground: #d4c6ff;
+  --area-humanas: #fbbf24;
+  --area-humanas-soft: #3a2a0b;
+  --area-humanas-foreground: #fcd34d;
+  --area-natureza: #34d399;
+  --area-natureza-soft: #0f3326;
+  --area-natureza-foreground: #86efc4;
+  --area-matematica: #60a5fa;
+  --area-matematica-soft: #14274d;
+  --area-matematica-foreground: #a9cdff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-soft-foreground: var(--primary-soft-foreground);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-success-soft-foreground: var(--success-soft-foreground);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-danger-soft-foreground: var(--danger-soft-foreground);
+  --color-warning-soft: var(--warning-soft);
+  --color-warning-soft-foreground: var(--warning-soft-foreground);
+  --color-area-linguagens: var(--area-linguagens);
+  --color-area-linguagens-soft: var(--area-linguagens-soft);
+  --color-area-linguagens-foreground: var(--area-linguagens-foreground);
+  --color-area-humanas: var(--area-humanas);
+  --color-area-humanas-soft: var(--area-humanas-soft);
+  --color-area-humanas-foreground: var(--area-humanas-foreground);
+  --color-area-natureza: var(--area-natureza);
+  --color-area-natureza-soft: var(--area-natureza-soft);
+  --color-area-natureza-foreground: var(--area-natureza-foreground);
+  --color-area-matematica: var(--area-matematica);
+  --color-area-matematica-soft: var(--area-matematica-soft);
+  --color-area-matematica-foreground: var(--area-matematica-foreground);
+  --radius-card: var(--radius);
+  --radius-control: 0.75rem;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* espaço para a barra inferior no celular + área segura do iOS */
+.pb-safe-nav {
+  padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
+}
