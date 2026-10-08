@@ -1,5 +1,6 @@
 /**
- * Seed de questões do ENEM (2009–2023) a partir da API pública enem.dev.
+ * Seed de questões do ENEM: 2009–2023 pela API pública enem.dev e 2024 pelo dataset
+ * maritaca-ai/enem (Hugging Face, licença Apache-2.0). ENEM 2025: sem fonte aberta; ver README.
  * Os dados NÃO ficam no repositório: são baixados na hora e enviados via RPC import_bundle
  * (idempotente: rodar de novo atualiza, não duplica).
  *
@@ -7,6 +8,7 @@
  *   npm run seed:enem -- --years 2022,2023 # só alguns anos
  *   npm run seed:enem -- --out /tmp/enem.json   # só baixa e salva o bundle (sem banco)
  *
+ * 2024: a fonte só traz a versão de INGLÊS da língua estrangeira (questões 1–5) e a questão 124 está anulada.
  * Observações: a API informa a ÁREA (não a disciplina/assunto) e não traz resolução comentada.
  * Questões anuladas (sem gabarito) são puladas e listadas no final.
  */
@@ -74,6 +76,48 @@ async function fetchYear(year: number): Promise<ApiQuestion[]> {
   return [...byKey.values()].sort((a, b) => a.index - b.index);
 }
 
+const MARITACA_YEARS = [2024];
+const MARITACA_URL = (y: number) => `https://huggingface.co/datasets/maritaca-ai/enem/resolve/main/${y}.jsonl`;
+type MaritacaRow = { id: string; question: string; alternatives: string[]; label: string; figures: string[]; description: string[] };
+
+/** Normaliza o formato do dataset maritaca para o mesmo formato da API, para reaproveitar o pipeline. */
+async function fetchMaritaca(year: number): Promise<ApiQuestion[]> {
+  await sleep(350);
+  const res = await fetch(MARITACA_URL(year));
+  if (!res.ok) throw new Error(`maritaca ${year}: HTTP ${res.status}`);
+  const rows = (await res.text()).split("\n").filter(Boolean).map((l) => JSON.parse(l) as MaritacaRow);
+  const alt = (d?: string) => (d ?? "").replace(/^Descrição[^:]*:\s*/i, "").replace(/[\[\]\n]+/g, " ").trim().slice(0, 300) || "figura";
+  return rows.map((r) => {
+    // As figuras vêm em ordem: primeiro as do enunciado ([[placeholder]]), depois uma por alternativa-imagem.
+    let fi = 0;
+    const next = () => {
+      const i = fi++;
+      return r.figures[i] ? { url: r.figures[i], alt: alt(r.description?.[i]) } : null;
+    };
+    const statement = r.question.replace(/\[\[placeholder\]\]/g, () => {
+      const f = next();
+      return f ? `\n\n![${f.alt}](${f.url})\n\n` : "";
+    });
+    const alternatives = r.alternatives.map((text, i) => {
+      const isImg = /\[\[placeholder\]\]/.test(text);
+      const f = isImg ? next() : null;
+      return { letter: "ABCDE"[i], text: isImg ? "" : text, file: f?.url ?? null };
+    });
+    const index = Number(r.id.replace(/\D/g, ""));
+    return {
+      index,
+      discipline: "",
+      language: index <= 5 ? "ingles" : null, // 1–5 = língua estrangeira (a fonte só tem inglês)
+      year,
+      context: statement.trim(),
+      files: [],
+      correctAlternative: /^[A-E]$/.test(r.label) ? r.label : null,
+      alternativesIntroduction: null,
+      alternatives,
+    };
+  });
+}
+
 const AREA: Record<string, "linguagens" | "humanas" | "natureza" | "matematica"> = {
   linguagens: "linguagens",
   "ciencias-humanas": "humanas",
@@ -105,16 +149,16 @@ const imageUrls = (md: string) => [...md.matchAll(/!\[[^\]]*\]\((https?:\/\/[^)\
 
 const skipped: string[] = [];
 let mislabeled = 0;
-const years = (onlyYears ?? (await getJson<{ year: number }[]>(`${API}/exams`)).map((e) => e.year)).sort();
+const years = (onlyYears ?? [...(await getJson<{ year: number }[]>(`${API}/exams`)).map((e) => e.year), ...MARITACA_YEARS]).sort();
 const exams: ExamInput[] = [];
 
 for (const year of years) {
-  const list = await fetchYear(year);
+  const list = MARITACA_YEARS.includes(year) ? await fetchMaritaca(year) : await fetchYear(year);
   const byDay = new Map<1 | 2, QuestionInput[]>();
   for (const q of list) {
     const area = areaByPosition(year, q.index);
     if (!area) { skipped.push(`${year} #${q.index}: posição fora de 1–180`); continue; }
-    if (AREA[q.discipline] !== area) mislabeled++;
+    if (q.discipline && AREA[q.discipline] !== area) mislabeled++;
     if (!q.correctAlternative) { skipped.push(`${year} #${q.index}: sem gabarito (anulada?)`); continue; }
     const statement = [q.context, q.alternativesIntroduction].filter(Boolean).join("\n\n").replace(BROKEN, "*[imagem indisponível na fonte]*");
     const day = dayOf(year, area);
@@ -132,8 +176,8 @@ for (const year of years) {
         image_url: a.file ?? undefined,
       })),
       correct: q.correctAlternative as "A" | "B" | "C" | "D" | "E",
-      external_id: `enem.dev:${year}:${q.index}:${q.language ?? "-"}`,
-      source_ref: `https://enem.dev/${year}`,
+      external_id: `${MARITACA_YEARS.includes(year) ? "maritaca" : "enem.dev"}:${year}:${q.index}:${q.language ?? "-"}`,
+      source_ref: MARITACA_YEARS.includes(year) ? "https://huggingface.co/datasets/maritaca-ai/enem" : `https://enem.dev/${year}`,
     });
     byDay.set(day, arr);
   }

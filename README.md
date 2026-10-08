@@ -44,7 +44,7 @@ Depois entre em `/login` e crie os alunos em **Administração → Alunos**.
 
 ## Banco de questões (Fase 2)
 
-**Seed do ENEM** (2009–2023, ~2.700 questões; baixa da API pública enem.dev na hora, não versionamos os dados):
+**Seed do ENEM** (2009–2024, ~2.900 questões; 2009–2023 vêm da API pública enem.dev e 2024 do dataset `maritaca-ai/enem`, Apache-2.0; baixa na hora, não versionamos os dados):
 
 ```bash
 npm run seed:enem                        # tudo (leva ~5 min por causa do limite de taxa da API)
@@ -54,7 +54,9 @@ npm run seed:enem -- --out enem.json     # só baixa e valida, sem tocar no banc
 É idempotente (rodar de novo atualiza). A API traz a **área**, mas não disciplina/assunto nem resolução comentada; a área é
 derivada da posição oficial (blocos de 45 questões), porque a rotulagem da API tem erros. Questões anuladas ou ausentes
 na fonte são puladas e listadas no final (alguns anos têm 1–3 a menos).
-As imagens ficam hospedadas em enem.dev (link direto); se saírem do ar, aparecem como imagem quebrada.
+As imagens ficam hospedadas nas fontes (enem.dev e GitHub); se saírem do ar, aparecem como imagem quebrada.
+**2024:** a fonte só tem a versão de inglês da língua estrangeira e a questão 124 está anulada (pulada).
+**ENEM 2025:** não há dataset aberto. Opções: importar você mesmo (JSON/CSV) ou usar a extração por IA a partir do PDF oficial do INEP (planejada para depois da Fase 4, quando o Gemini estiver configurado).
 
 **Importar provas** (admin → Importar, ou aluno → Estudar → Enviar prova, que passa pela aprovação do admin):
 arquivos `.json` ou `.csv`; exemplos em `public/exemplo-importacao.json|csv`. A prévia mostra erros por questão antes de gravar.
