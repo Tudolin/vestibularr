@@ -4,7 +4,7 @@ Plataforma de estudos para ENEM e Vestibular UFPR (uso familiar: 1 admin + aluno
 Next.js (App Router) · TypeScript · Tailwind · Supabase · Vercel.
 
 Planejamento, edital UFPR 2027 e decisões: [`docs/00-planejamento.md`](docs/00-planejamento.md).
-Status: **Fases 1–4 concluídas** (design system, auth, RLS; banco de questões; simulados com autosave offline; redação ENEM/UFPR com correção por IA).
+Status: **Fases 1–5 concluídas** (auth e RLS; banco de questões; simulados offline; redação com IA; desempenho, metas, conquistas, logs e cursos).
 
 ## Setup local
 
@@ -33,7 +33,7 @@ npm run dev                  # http://localhost:3000
 3. Mantenha o refresh token com validade longa (sessão persistente).
 
 ### Aplicando migrations novas
-Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`; Fase 4: `…0004_essays_ai.sql`).
+Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`; Fase 4: `…0004_essays_ai.sql`; Fase 5: `…0005_performance.sql`).
 Aplique **só as que ainda não rodou**, em ordem. Nunca edite uma migration já aplicada.
 
 ### Primeiro admin
@@ -95,6 +95,19 @@ Reimportar a mesma prova atualiza em vez de duplicar (chave: prova + número + i
 - **IA**: chamada só no servidor; resposta em JSON validada por Zod, com 1 nova tentativa mostrando o erro ao modelo.
   A correção roda depois da resposta (`after()`, até 60 s) e a tela acompanha o status. Notas são **estimativas**.
 - **Cota**: `ai_daily_limit_per_student` (padrão 5/dia, fuso de São Paulo) em `settings`. Falhas não contam. Admin sem limite.
+
+## Desempenho, metas e painel do admin (Fase 5)
+
+- **Aluno (Desempenho)**: questões, % de acerto, sequência de dias (vale até ontem), tempo de estudo da semana,
+  evolução em 8 semanas, pontos fortes/fracos, mapa de calor por assunto, média por competência da redação,
+  conquistas (calculadas no servidor) e metas editáveis. Filtro ENEM / UFPR.
+- **Cursos-alvo**: 62 cursos UFPR já vêm do **Anexo XX do edital 2027** (disciplinas com peso; extraídos do PDF e
+  conferidos contra a regra 6.7.3.1). Cursos Sisu (ex.: UTFPR) e notas de corte são cadastrados pelo admin.
+  A nota UFPR estimada aplica o seu % por disciplina às 80 questões com o peso do curso + CPT; a nota Sisu usa a
+  estimativa por área + média das redações. Quando falta dado, o app diz o que falta em vez de inventar.
+- **Tempo de estudo**: ping a cada 60 s com a aba visível (máx. 90 s por ping). Log de páginas: 1 registro por página a cada 10 min.
+- **Admin**: visão geral por aluno (último acesso, aparelho, logins, questões, simulados, redações, metas, assuntos mais
+  fracos), painel completo de cada aluno, log de acessos e cadastro de cursos/notas de corte. Filtro ENEM / UFPR em tudo.
 
 ## Testes
 

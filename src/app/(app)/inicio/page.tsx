@@ -5,13 +5,17 @@ import { Progress } from "@/components/ui/progress";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { requireUser } from "@/lib/auth";
+import { DEFAULT_GOALS } from "@/lib/achievements";
 import { dueErrorsCount, listOpenAttempts } from "@/lib/attempts/queries";
+import { getStats } from "@/lib/performance";
 
 export const metadata: Metadata = { title: "Início" };
 
 export default async function InicioPage() {
   const user = await requireUser();
-  const [open, errors] = await Promise.all([listOpenAttempts(1), dueErrorsCount()]);
+  const [open, errors, stats] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null)]);
+  const dayGoal = stats.goals.questions_day ?? DEFAULT_GOALS.questions_day;
+  const today = stats.week.answered_today;
   const last = open[0];
   const first = user.fullName.split(" ")[0] || "estudante";
   return (
@@ -37,8 +41,8 @@ export default async function InicioPage() {
           )}
         </HomeCard>
         <HomeCard icon={<Target />} title="Meta do dia" description="Questões resolvidas hoje.">
-          <Progress value={0} label="Meta do dia" />
-          <p className="mt-2 text-sm text-muted-foreground">0 de 10 questões</p>
+          <Progress value={(today / dayGoal) * 100} label="Meta do dia" barClassName={today >= dayGoal ? "bg-success" : undefined} />
+          <p className="mt-2 text-sm text-muted-foreground">{today} de {dayGoal} questões{today >= dayGoal ? " — meta cumprida! 🎉" : ""}</p>
         </HomeCard>
         <HomeCard icon={<RotateCcw />} title="Revisão de erros" description="Questões que você errou e devem ser refeitas.">
           {errors.due > 0 ? (
@@ -63,8 +67,10 @@ export default async function InicioPage() {
           <Flame aria-hidden />
         </span>
         <div>
-          <p className="font-bold">Sequência: 0 dias</p>
-          <p className="text-sm text-muted-foreground">Estude hoje para começar sua sequência.</p>
+          <p className="font-bold">Sequência: {stats.streak.current} {stats.streak.current === 1 ? "dia" : "dias"}</p>
+          <p className="text-sm text-muted-foreground">
+            {stats.streak.studied_today ? `Você já estudou hoje. Melhor sequência: ${stats.streak.best}.` : stats.streak.current > 0 ? "Estude hoje para não perder a sequência!" : "Estude hoje para começar sua sequência."}
+          </p>
         </div>
       </Card>
     </div>

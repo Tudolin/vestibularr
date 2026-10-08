@@ -1,6 +1,6 @@
-import { BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, Home, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
+import { Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
 
-export type NavItem = { href: string; label: string; icon: LucideIcon; match?: string[] };
+export type NavItem = { href: string; label: string; icon: LucideIcon; exact?: boolean };
 
 /** Barra inferior no celular / sidebar no desktop. */
 export const STUDENT_NAV: NavItem[] = [
@@ -12,7 +12,9 @@ export const STUDENT_NAV: NavItem[] = [
 ];
 
 export const ADMIN_NAV: NavItem[] = [
+  { href: "/admin", label: "Visão geral", icon: LayoutDashboard, exact: true },
   { href: "/admin/alunos", label: "Alunos", icon: Users },
+  { href: "/admin/acessos", label: "Acessos", icon: Activity },
   { href: "/admin/questoes", label: "Questões", icon: Database },
   { href: "/admin/importar", label: "Importar", icon: FileUp },
   { href: "/admin/provas", label: "Provas", icon: FileText },
@@ -20,4 +22,5 @@ export const ADMIN_NAV: NavItem[] = [
   { href: "/admin/redacoes", label: "Redações", icon: NotebookPen },
   { href: "/admin/temas", label: "Temas", icon: ListChecks },
   { href: "/admin/rubricas", label: "Rubricas", icon: Scale },
+  { href: "/admin/cursos", label: "Cursos", icon: GraduationCap },
 ];

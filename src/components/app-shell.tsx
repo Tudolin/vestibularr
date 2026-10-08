@@ -4,13 +4,14 @@ import { GraduationCap, LogOut, Shield } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { ActivityPinger } from "./activity-pinger";
 import { ADMIN_NAV, STUDENT_NAV, type NavItem } from "./nav";
 import { ThemeToggle } from "./theme-toggle";
 
 export type ShellUser = { name: string; email: string | null; role: "admin" | "student" };
 
 function isActive(pathname: string, item: NavItem) {
-  return pathname === item.href || pathname.startsWith(`${item.href}/`);
+  return pathname === item.href || (!item.exact && pathname.startsWith(`${item.href}/`));
 }
 
 function Brand() {
@@ -42,6 +43,7 @@ export function AppShell({
 
   return (
     <div className="min-h-dvh md:grid md:grid-cols-[16rem_1fr]">
+      {!pathnameOverride && <ActivityPinger />}
       {/* Sidebar — desktop */}
       <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
         <Brand />
