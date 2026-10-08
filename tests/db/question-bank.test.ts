@@ -85,6 +85,43 @@ describe("import_bundle", () => {
     await c.query("commit");
     expect(r.inserted).toBe(1);
   });
+
+  it("reimportar sem resolução não apaga a que já existe", async () => {
+    const b = bundle();
+    delete (b.exams[0].questions[0] as { explanation_md?: string }).explanation_md;
+    await asUserCommit(admin, b);
+    const { rows } = await c.query("select k.explanation_md from answer_keys k join questions q on q.id = k.question_id where q.number = 1 and q.language is null and q.exam_id is not null");
+    expect(rows[0].explanation_md).toBe("porque C");
+  });
+});
+
+describe("apply_explanations", () => {
+  const apply = (user: string, p: unknown) =>
+    asUser(c, user, async () => (await c.query("select public.apply_explanations($1::jsonb) as r", [JSON.stringify(p)])).rows[0].r);
+  const expl = async (number: number, language: string | null) =>
+    (await c.query("select k.explanation_md e from answer_keys k join questions q on q.id = k.question_id where q.year = 2023 and q.number = $1 and coalesce(q.language,'') = coalesce($2,'') and q.exam_id is not null", [number, language])).rows[0].e;
+
+  it("aluno não pode aplicar", async () => {
+    await expect(apply(alice, { board: "ENEM", year: 2023, items: [] })).rejects.toThrow(/permission denied/);
+  });
+
+  it("grava só quando o gabarito bate; lista divergências e ausentes", async () => {
+    await c.query("begin");
+    await c.query("set local role authenticated");
+    await c.query("select set_config('request.jwt.claim.sub', $1, true)", [admin]);
+    const r = (await c.query("select public.apply_explanations($1::jsonb) as r", [JSON.stringify({ board: "ENEM", year: 2023, items: [
+      { number: 2, correct: "A", explanation_md: "Q2 resolvida" },
+      { number: 1, language: "ingles", correct: "B", explanation_md: "inglês resolvida" },
+      { number: 1, correct: "E", explanation_md: "errada" },
+      { number: 99, correct: "A", explanation_md: "não existe" },
+    ] })])).rows[0].r;
+    await c.query("commit");
+    expect(r).toEqual({ updated: 2, missing: ["99"], mismatch: ["1 (banco C, arquivo E)"] });
+    expect(await expl(2, null)).toBe("Q2 resolvida");
+    expect(await expl(1, "ingles")).toBe("inglês resolvida");
+    expect(await expl(1, "espanhol")).toBeNull();
+    expect(await expl(1, null)).toBe("porque C");
+  });
 });
 
 async function asUserCommit(user: string, b: unknown) {
