@@ -43,3 +43,28 @@ export async function createUser(c: Client, email: string, role: "admin" | "stud
   await c.query("update public.profiles set role = $2, is_active = $3 where id = $1", [id, role, active]);
   return id;
 }
+
+/** Executa como o usuário e CONFIRMA (commit): para RPCs que gravam e são lidas depois. */
+export async function callAs<T = unknown>(c: Client, userId: string, sql: string, params: unknown[] = []): Promise<T> {
+  await c.query("begin");
+  try {
+    await c.query("set local role authenticated");
+    await c.query("select set_config('request.jwt.claim.sub', $1, true)", [userId]);
+    const r = await c.query(sql, params);
+    await c.query("commit");
+    return r.rows as T;
+  } catch (e) {
+    await c.query("rollback");
+    throw e;
+  }
+}
+
+/** Importa um bundle como service-role (igual ao seed). */
+export async function seedBundle(c: Client, bundle: unknown) {
+  await c.query("begin");
+  await c.query("set local role service_role");
+  await c.query(`select set_config('request.jwt.claims', '{"role":"service_role"}', true)`);
+  const r = await c.query("select public.import_bundle($1::jsonb) as r", [JSON.stringify(bundle)]);
+  await c.query("commit");
+  return r.rows[0].r;
+}

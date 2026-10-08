@@ -2,12 +2,17 @@ import { ClipboardList, Flame, Play, RotateCcw, Target } from "lucide-react";
 import type { Metadata } from "next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import { requireUser } from "@/lib/auth";
+import { dueErrorsCount, listOpenAttempts } from "@/lib/attempts/queries";
 
 export const metadata: Metadata = { title: "Início" };
 
 export default async function InicioPage() {
   const user = await requireUser();
+  const [open, errors] = await Promise.all([listOpenAttempts(1), dueErrorsCount()]);
+  const last = open[0];
   const first = user.fullName.split(" ")[0] || "estudante";
   return (
     <div className="flex flex-col gap-6">
@@ -17,18 +22,39 @@ export default async function InicioPage() {
       </header>
 
       <div className="grid gap-4 md:grid-cols-2">
-        <HomeCard icon={<Play />} title="Continuar de onde parei" description="Seu último simulado ou treino aparece aqui.">
-          <p className="text-sm text-muted-foreground">Nada em andamento. Comece um treino na aba Estudar.</p>
+        <HomeCard icon={<Play />} title="Continuar de onde parei" description="Seu último simulado ou treino em andamento.">
+          {last ? (
+            <div className="flex flex-col gap-3">
+              <p className="text-sm"><strong>{last.title}</strong> · {last.answered} de {last.total} respondidas{last.status === "paused" ? " · pausado" : ""}</p>
+              <Progress value={last.total ? (last.answered / last.total) * 100 : 0} label="Progresso" />
+              <Button asChild className="self-start"><Link href={`/prova/${last.id}`}>Continuar</Link></Button>
+            </div>
+          ) : (
+            <div className="flex flex-col gap-3">
+              <p className="text-sm text-muted-foreground">Nada em andamento.</p>
+              <Button asChild variant="soft" className="self-start"><Link href="/estudar/personalizado?modo=treino">Começar um treino</Link></Button>
+            </div>
+          )}
         </HomeCard>
         <HomeCard icon={<Target />} title="Meta do dia" description="Questões resolvidas hoje.">
           <Progress value={0} label="Meta do dia" />
           <p className="mt-2 text-sm text-muted-foreground">0 de 10 questões</p>
         </HomeCard>
         <HomeCard icon={<RotateCcw />} title="Revisão de erros" description="Questões que você errou e devem ser refeitas.">
-          <p className="text-sm text-muted-foreground">Nenhum erro pendente por enquanto.</p>
+          {errors.due > 0 ? (
+            <div className="flex flex-col gap-3">
+              <p className="text-sm"><strong>{errors.due}</strong> para revisar hoje ({errors.total} pendentes no total).</p>
+              <Button asChild className="self-start"><Link href="/estudar/erros">Revisar agora</Link></Button>
+            </div>
+          ) : (
+            <p className="text-sm text-muted-foreground">{errors.total > 0 ? `Em dia! ${errors.total} erros voltam nos próximos dias.` : "Nenhum erro pendente por enquanto."}</p>
+          )}
         </HomeCard>
         <HomeCard icon={<ClipboardList />} title="Próximo simulado sugerido" description="Baseado nos seus alvos e no seu desempenho.">
-          <p className="text-sm text-muted-foreground">Sugestões aparecem depois da sua primeira prova.</p>
+          <div className="flex flex-col gap-3">
+            <p className="text-sm text-muted-foreground">Faça uma prova completa no tempo oficial.</p>
+            <Button asChild variant="soft" className="self-start"><Link href="/estudar/simulados">Ver simulados</Link></Button>
+          </div>
         </HomeCard>
       </div>
 

@@ -4,7 +4,7 @@ Plataforma de estudos para ENEM e Vestibular UFPR (uso familiar: 1 admin + aluno
 Next.js (App Router) · TypeScript · Tailwind · Supabase · Vercel.
 
 Planejamento, edital UFPR 2027 e decisões: [`docs/00-planejamento.md`](docs/00-planejamento.md).
-Status: **Fases 1 e 2 concluídas** (design system, auth, RLS, admin cria alunos; banco de questões, importação JSON/CSV, seed do ENEM).
+Status: **Fases 1–3 concluídas** (design system, auth, RLS; banco de questões e importação; simulados, treino, autosave offline e caderno de erros).
 
 ## Setup local
 
@@ -31,7 +31,7 @@ npm run dev                  # http://localhost:3000
 3. Mantenha o refresh token com validade longa (sessão persistente).
 
 ### Aplicando migrations novas
-Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `20261008000002_question_bank.sql`).
+Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`).
 Aplique **só as que ainda não rodou**, em ordem. Nunca edite uma migration já aplicada.
 
 ### Primeiro admin
@@ -62,11 +62,27 @@ As imagens ficam hospedadas nas fontes (enem.dev e GitHub); se saírem do ar, ap
 arquivos `.json` ou `.csv`; exemplos em `public/exemplo-importacao.json|csv`. A prévia mostra erros por questão antes de gravar.
 Reimportar a mesma prova atualiza em vez de duplicar (chave: prova + número + idioma).
 
+## Simulados e treino (Fase 3)
+
+- **Simulado por prova** (Estudar → Simulados): prova inteira na ordem e no tempo oficial do formato
+  (ENEM dia 1 = 5h30, dia 2 = 5h; UFPR 2027 = 5h30 com cronômetro único). ENEM pede o idioma (inglês/espanhol).
+- **Personalizado / Treino**: filtros por vestibular, área, disciplina, assunto, quantidade e tempo. No treino o gabarito
+  aparece na hora (e a questão trava). Há o **Modelo UFPR 2027** (80 objetivas por disciplina + 2 discursivas), montado
+  com as disciplinas UFPR que existirem no banco.
+- **Autosave**: cada ação vira uma operação gravada primeiro no IndexedDB e enviada com debounce de 2 s, ao trocar de
+  questão, ao esconder a aba e ao reconectar. O servidor aplica por `op_id` (idempotente) com **última escrita por campo**.
+  Indicador: Salvo / Salvando / Offline — será sincronizado.
+- **Cronômetro**: o prazo é do servidor (`deadline_at`); o cliente só calcula a diferença de relógio. Avisos aos 30 e 10 min.
+  Ao zerar, o servidor encerra a prova; respostas dadas antes do prazo e enviadas depois (offline) ainda contam.
+- **Retomar em outro aparelho**: abre na mesma questão, com as mesmas respostas e o mesmo tempo restante.
+- **Caderno de erros**: erros entram sozinhos; revisão em 1, 3, 7, 14 e 30 dias (caixas de Leitner).
+- Atalhos no PC: A–E marcar, Shift+letra riscar, ←/→, M revisão, H marca-texto. No celular: deslizar, toque longo risca.
+
 ## Testes
 
 ```bash
 npm run db:test:start   # Postgres local descartável na porta 54329 (precisa dos binários do PostgreSQL)
-npm test                # RLS/migrations/importação (Postgres real) + parser de import + contraste AA
+npm test                # RLS, importação, tentativas/sincronização (Postgres real), pontuação, fila offline, contraste AA
 npm run typecheck && npm run lint
 ```
 
