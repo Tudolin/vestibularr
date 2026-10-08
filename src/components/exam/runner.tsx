@@ -125,6 +125,15 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
     write(cur.id, "time_spent_ms", total);
   }, [questions, write]);
 
+  // Texto discursivo: eco local imediato + escrita na fila após 600 ms parado. A escrita pendente
+  // guarda A QUAL questão pertence, e é descarregada ao navegar/sair (nunca se perde ao trocar).
+  const pendingText = useRef<{ qid: string; value: string } | null>(null);
+  const flushText = useCallback(() => {
+    if (textTimer.current) { clearTimeout(textTimer.current); textTimer.current = null; }
+    const p = pendingText.current;
+    pendingText.current = null;
+    if (p) write(p.qid, "discursive_text", p.value);
+  }, [write]);
   // ------------------------------------------------------------------ servidor
   const applyServer = useCallback((r: Pick<SyncResponse, "server_now" | "status" | "deadline_at">, sentAt?: number) => {
     if (sentAt) offsetRef.current = estimateOffset(r.server_now, Date.now(), Date.now() - sentAt);
@@ -253,13 +262,14 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
   // ------------------------------------------------------------------ navegação
   const go = useCallback((i: number) => {
     if (i < 0 || i >= n || i === indexRef.current) return;
+    flushText();
     commitTime();
     setIndex(i);
     setShowResolution(false);
     write(null, "current_index", i);
     void engineRef.current?.flush(); // salva ao trocar de questão
     maybeFeedback(i);
-  }, [commitTime, maybeFeedback, n, write]);
+  }, [commitTime, flushText, maybeFeedback, n, write]);
 
   // Espelhos para handlers assíncronos (eventos de janela, timers) lerem o valor atual.
   useEffect(() => {
@@ -292,12 +302,11 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
 
   const onText = (value: string) => {
     if (!q || locked) return;
+    if (pendingText.current && pendingText.current.qid !== q.id) flushText();
     setAnswers((s) => ({ ...s, [q.id]: { ...(s[q.id] ?? emptyAnswer()), discursive_text: value } })); // eco imediato
+    pendingText.current = { qid: q.id, value };
     if (textTimer.current) clearTimeout(textTimer.current);
-    textTimer.current = setTimeout(() => write(q.id, "discursive_text", value), 600);
-  };
-  const flushText = () => {
-    if (textTimer.current && q) { clearTimeout(textTimer.current); textTimer.current = null; write(q.id, "discursive_text", answersRef.current[q.id]?.discursive_text ?? ""); }
+    textTimer.current = setTimeout(flushText, 600);
   };
 
   // ------------------------------------------------------------------ marca-texto
@@ -450,12 +459,11 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
       <div className="grid flex-1 gap-6 px-3 pb-28 pt-4 md:px-6 lg:grid-cols-[minmax(0,1fr)_19rem] lg:pb-8">
         {/* ------------------------------------------------ questão */}
         <main id="conteudo" className="min-w-0" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-          <AnimatePresence mode="wait" initial={false}>
+          {/* Sem animação de saída: a questão anterior some na hora (nada de digitar na questão errada). */}
             <motion.section
               key={q.id}
               initial={{ opacity: 0, x: 12 }}
               animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -12 }}
               transition={{ duration: 0.15 }}
               aria-labelledby="q-title"
               className="flex flex-col gap-4"
@@ -570,7 +578,6 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                 )}
               </div>
             </motion.section>
-          </AnimatePresence>
         </main>
 
         {/* ------------------------------------------------ painel lateral (desktop) */}

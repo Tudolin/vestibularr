@@ -1,9 +1,12 @@
 import { openDB, type DBSchema, type IDBPDatabase } from "idb";
 import type { Op } from "./types";
 
+export type LocalDraft = { essay_id: string; content: string; client_ts: number; synced: boolean; source: "typed" | "photo" };
+
 interface Schema extends DBSchema {
   outbox: { key: string; value: Op; indexes: { byAttempt: string } };
   snapshots: { key: string; value: { attempt_id: string; data: unknown; saved_at: number } };
+  drafts: { key: string; value: LocalDraft };
 }
 
 let dbPromise: Promise<IDBPDatabase<Schema>> | null = null;
@@ -15,10 +18,13 @@ export async function resetOutboxConnection() {
 }
 
 function db() {
-  dbPromise ??= openDB<Schema>("vestibularr", 1, {
-    upgrade(d) {
-      d.createObjectStore("outbox", { keyPath: "op_id" }).createIndex("byAttempt", "attempt_id");
-      d.createObjectStore("snapshots", { keyPath: "attempt_id" });
+  dbPromise ??= openDB<Schema>("vestibularr", 2, {
+    upgrade(d, oldVersion) {
+      if (oldVersion < 1) {
+        d.createObjectStore("outbox", { keyPath: "op_id" }).createIndex("byAttempt", "attempt_id");
+        d.createObjectStore("snapshots", { keyPath: "attempt_id" });
+      }
+      if (oldVersion < 2) d.createObjectStore("drafts", { keyPath: "essay_id" });
     },
   });
   return dbPromise;
@@ -52,3 +58,17 @@ export const outbox = {
   },
 };
 export type Outbox = typeof outbox;
+
+/** Rascunho local de redação: guardado a cada digitação (antes da rede) e marcado ao sincronizar. */
+export const drafts = {
+  async put(d: LocalDraft) {
+    await (await db()).put("drafts", d);
+  },
+  async get(essayId: string) {
+    return (await db()).get("drafts", essayId);
+  },
+  async markSynced(essayId: string, clientTs: number) {
+    const d = await (await db()).get("drafts", essayId);
+    if (d && d.client_ts === clientTs) await (await db()).put("drafts", { ...d, synced: true });
+  },
+};

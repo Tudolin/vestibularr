@@ -14,9 +14,13 @@ import { groupBy, totals, type Row } from "@/lib/scoring/aggregate";
 import { estimateEnem, TRI_NOTICE, type Area } from "@/lib/scoring/enem";
 import { ufprScore } from "@/lib/scoring/ufpr";
 import { createClient } from "@/lib/supabase/server";
+import { aiConfigured } from "@/lib/ai/gemini";
+import { DiscursiveAi } from "./discursive-ai";
 import { RetryButton } from "./retry-button";
 
 export const metadata: Metadata = { title: "Resultado" };
+// A correção das discursivas por IA é disparada desta página (roda depois da resposta).
+export const maxDuration = 60;
 
 type QRow = {
   position: number;
@@ -173,9 +177,9 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
               {keyOf.get(q.id)?.official_mirror_md && (
                 <div className="rounded-control bg-primary-soft p-3 text-primary-soft-foreground"><p className="mb-1 text-xs font-bold uppercase">Espelho oficial</p><Markdown className="text-base">{keyOf.get(q.id)!.official_mirror_md!}</Markdown></div>
               )}
-              <p className="text-sm text-muted-foreground">A correção por IA das discursivas fica disponível em Redação quando o Gemini estiver configurado.</p>
             </Card>
           ))}
+          <DiscursiveAi attemptId={id} questionIds={discursive.map((d) => d.question.id)} aiReady={aiConfigured()} />
         </section>
       )}
 

@@ -4,7 +4,7 @@ Plataforma de estudos para ENEM e Vestibular UFPR (uso familiar: 1 admin + aluno
 Next.js (App Router) · TypeScript · Tailwind · Supabase · Vercel.
 
 Planejamento, edital UFPR 2027 e decisões: [`docs/00-planejamento.md`](docs/00-planejamento.md).
-Status: **Fases 1–3 concluídas** (design system, auth, RLS; banco de questões e importação; simulados, treino, autosave offline e caderno de erros).
+Status: **Fases 1–4 concluídas** (design system, auth, RLS; banco de questões; simulados com autosave offline; redação ENEM/UFPR com correção por IA).
 
 ## Setup local
 
@@ -21,6 +21,8 @@ npm run dev                  # http://localhost:3000
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Project Settings → API | pública |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | idem (anon / publishable) | pública; protegida por RLS |
 | `SUPABASE_SERVICE_ROLE_KEY` | idem (service_role) | **segredo**, só servidor. Ignora RLS |
+| `GEMINI_API_KEY` | Google AI Studio → Get API key | **segredo**, só servidor. Sem ela, o app funciona e a IA fica desligada |
+| `GEMINI_MODEL` | opcional | padrão `gemini-flash-lite-latest` (o mais barato); troque pelo nome que o AI Studio mostrar |
 
 ### Banco (Supabase)
 
@@ -31,7 +33,7 @@ npm run dev                  # http://localhost:3000
 3. Mantenha o refresh token com validade longa (sessão persistente).
 
 ### Aplicando migrations novas
-Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`).
+Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`; Fase 4: `…0004_essays_ai.sql`).
 Aplique **só as que ainda não rodou**, em ordem. Nunca edite uma migration já aplicada.
 
 ### Primeiro admin
@@ -77,6 +79,22 @@ Reimportar a mesma prova atualiza em vez de duplicar (chave: prova + número + i
 - **Retomar em outro aparelho**: abre na mesma questão, com as mesmas respostas e o mesmo tempo restante.
 - **Caderno de erros**: erros entram sozinhos; revisão em 1, 3, 7, 14 e 30 dias (caixas de Leitner).
 - Atalhos no PC: A–E marcar, Shift+letra riscar, ←/→, M revisão, H marca-texto. No celular: deslizar, toque longo risca.
+
+## Redação e correção por IA (Fase 4)
+
+- **ENEM**: 17 temas oficiais (2009–2025, só o título; cole os textos motivadores em Admin → Temas se quiser).
+  Correção nas 5 competências (0–200 em degraus de 40), com justificativa, trechos comentados no texto, sugestões e
+  checagem dos 5 elementos da proposta de intervenção.
+- **UFPR (CPT)**: propostas por tipo de tarefa (resumo, gênero, análise de dados…), limite de linhas por proposta e
+  rubrica com os critérios do edital. **Os pesos de cada critério são estimativas** (o edital não os divulga); edite em Admin → Rubricas.
+- **Discursivas antigas da UFPR**: treino com "Discursivas"; no resultado, "Corrigir com IA" corrige todas as respostas
+  da prova numa única chamada, comparando com o espelho oficial.
+- **Rascunho nunca se perde**: cada digitação vai primeiro para o IndexedDB; versões no servidor (compacta só a digitação
+  contínua do mesmo aparelho; trocar o texto, colar outro ou apagar muito gera versão nova). Histórico com "Restaurar".
+- **Foto da folha**: o navegador reduz a imagem, a IA transcreve sem corrigir e o aluno revisa antes de usar.
+- **IA**: chamada só no servidor; resposta em JSON validada por Zod, com 1 nova tentativa mostrando o erro ao modelo.
+  A correção roda depois da resposta (`after()`, até 60 s) e a tela acompanha o status. Notas são **estimativas**.
+- **Cota**: `ai_daily_limit_per_student` (padrão 5/dia, fuso de São Paulo) em `settings`. Falhas não contam. Admin sem limite.
 
 ## Testes
 

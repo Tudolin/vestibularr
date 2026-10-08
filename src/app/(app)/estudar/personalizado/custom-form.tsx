@@ -35,6 +35,7 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
   const [count, setCount] = useState(20);
   const [minutes, setMinutes] = useState<number | "">(60);
   const [language, setLanguage] = useState<"ingles" | "espanhol">("ingles");
+  const [kind, setKind] = useState<"objective" | "discursive">("objective");
 
   const toggle = (set: (f: (v: string[]) => string[]) => void, v: string) => set((l) => (l.includes(v) ? l.filter((x) => x !== v) : [...l, v]));
   const inBoard = <T extends { board: string }>(l: T[]) => l.filter((x) => !board || x.board === board);
@@ -46,7 +47,8 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
     start(async () => {
       const r = await startAttemptAction({
         mode, board: board || undefined, areas: areas.length ? areas : undefined, subjects: subjects.length ? subjects : undefined,
-        topics: topics.length ? topics : undefined, count, minutes: mode === "custom" && minutes ? Number(minutes) : undefined, language, ...extra,
+        topics: topics.length ? topics : undefined, count, minutes: mode === "custom" && minutes ? Number(minutes) : undefined, language,
+        kinds: [kind], ...extra,
       });
       if (r.ok) router.push(`/prova/${r.id}`);
       else toast.error(r.error);
@@ -99,6 +101,15 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
               <Chip key={b || "all"} on={board === b} onClick={() => { setBoard(b); setAreas([]); setSubjects([]); setTopics([]); }}>{b || "Todos"}</Chip>
             ))}
           </div>
+        </fieldset>
+
+        <fieldset className="grid gap-2">
+          <legend className="mb-1 text-sm font-bold">Questões</legend>
+          <div className="flex flex-wrap gap-2">
+            <Chip on={kind === "objective"} onClick={() => setKind("objective")}>Objetivas</Chip>
+            <Chip on={kind === "discursive"} onClick={() => setKind("discursive")}>Discursivas (UFPR antigas)</Chip>
+          </div>
+          {kind === "discursive" && <p className="text-sm text-muted-foreground">Você escreve a resposta; no fim, a IA compara com o espelho oficial.</p>}
         </fieldset>
 
         {areaOpts.length > 0 && (
