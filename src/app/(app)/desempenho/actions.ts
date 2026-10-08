@@ -34,3 +34,10 @@ export async function setTargetCoursesAction(ids: unknown): Promise<ActionResult
   revalidatePath("/desempenho");
   return { ok: true };
 }
+
+/** Recalcula as conquistas do próprio aluno (regras no servidor). Retorna as recém-ganhas. */
+export async function refreshAchievementsAction(): Promise<string[]> {
+  await requireUser();
+  const { data } = await (await createClient()).rpc("refresh_achievements", { p_user: null });
+  return (data as string[] | null) ?? [];
+}

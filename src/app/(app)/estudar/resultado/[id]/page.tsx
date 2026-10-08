@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { Markdown } from "@/components/markdown";
 import { QuestionView, areaBadge } from "@/components/question-view";
-import { TimeChart } from "@/components/results/time-chart";
+import { TimeChart } from "@/components/charts-lazy";
 import { AREAS as AREA_UI, Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

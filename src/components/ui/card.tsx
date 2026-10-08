@@ -12,8 +12,8 @@ export function Card({ className, ...props }: React.ComponentProps<"div">) {
 export const CardHeader = (p: React.ComponentProps<"div">) => (
   <div {...p} className={cn("flex flex-col gap-1 p-5 pb-3", p.className)} />
 );
-export const CardTitle = (p: React.ComponentProps<"h3">) => (
-  <h3 {...p} className={cn("text-base font-bold leading-tight", p.className)} />
+export const CardTitle = (p: React.ComponentProps<"h2">) => (
+  <h2 {...p} className={cn("text-base font-bold leading-tight", p.className)} />
 );
 export const CardDescription = (p: React.ComponentProps<"p">) => (
   <p {...p} className={cn("text-sm text-muted-foreground", p.className)} />

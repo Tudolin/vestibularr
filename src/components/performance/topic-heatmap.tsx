@@ -15,7 +15,7 @@ export function TopicHeatmap({ topics }: { topics: T[] }) {
     <div className="grid gap-4">
       {[...groups.entries()].map(([g, list]) => (
         <section key={g} aria-label={g}>
-          <h4 className="mb-2 text-sm font-bold">{g}</h4>
+          <h3 className="mb-2 text-sm font-bold">{g}</h3>
           <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
             {list.map((t) => {
               const p = t.answered ? Math.round((t.correct / t.answered) * 100) : 0;

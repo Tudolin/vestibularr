@@ -9,6 +9,9 @@ const jakarta = Plus_Jakarta_Sans({ variable: "--font-jakarta", subsets: ["latin
 export const metadata: Metadata = {
   title: { default: "Vestibularr", template: "%s · Vestibularr" },
   description: "Plataforma de estudos para ENEM e Vestibular UFPR.",
+  applicationName: "Vestibularr",
+  appleWebApp: { capable: true, title: "Vestibularr", statusBarStyle: "default" },
+  icons: { icon: "/icons/favicon-32.png", apple: "/icons/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {

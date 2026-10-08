@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EssayEditor } from "@/components/essay/editor";
 import { Markdown } from "@/components/markdown";
+import { Scaled } from "@/components/scaled";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -46,10 +47,10 @@ export default async function EssayPage({ params }: { params: Promise<{ id: stri
       </header>
       <details className="group rounded-card border border-border bg-card" open={essay.status === "draft"}>
         <summary className="flex min-h-12 cursor-pointer list-none items-center px-4 font-semibold">Proposta e textos de apoio</summary>
-        <div className="grid gap-3 border-t border-border p-4">
+        <Scaled className="grid gap-3 border-t border-border p-4">
           <Markdown className="text-base">{theme.prompt_md}</Markdown>
           {theme.support_texts_md && <Card className="bg-muted p-4"><Markdown className="text-base">{theme.support_texts_md}</Markdown></Card>}
-        </div>
+        </Scaled>
       </details>
       <EssayEditor
         key={`${essay.current_version_id}-${essay.status}`}

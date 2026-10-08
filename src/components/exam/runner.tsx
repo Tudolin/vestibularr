@@ -1,16 +1,16 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, LazyMotion, m } from "framer-motion";
+import dynamic from "next/dynamic";
 import {
   ArrowLeft, ChevronLeft, ChevronRight, Eye, EyeOff, Flag, Grid3x3, Highlighter, Keyboard, Loader2, Minus, Pause, Play, Plus, Send,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { toast } from "sonner";
 import { Alternative, type AltState } from "@/components/exam/alternative";
 import { applyHighlights, selectionSnippets } from "@/components/exam/highlight";
 import { QuestionMap } from "@/components/exam/question-map";
-import { Markdown } from "@/components/markdown";
 import { areaBadge } from "@/components/question-view";
 import { SaveIndicator } from "@/components/save-indicator";
 import { Badge } from "@/components/ui/badge";
@@ -27,9 +27,10 @@ import { useLocalPref } from "@/lib/use-local-pref";
 import { cn } from "@/lib/utils";
 
 export type RunnerQuestion = {
-  id: string; number: number | null; year: number | null; area: string | null; subject: string | null; topic: string | null;
-  kind: "objective" | "discursive"; statement_md: string; images: string[]; language: string | null; section: string | null;
-  alternatives: { label: string; text_md: string; image_url: string | null }[];
+  id: string; number: number | null; year: number | null; area: string | null; subject: string | null;
+  kind: "objective" | "discursive"; statement_html: string; extra_images: string[]; line_limit: number | null; language: string | null; section: string | null;
+  /** HTML já sanitizado no servidor (markdownToHtml) */
+  alternatives: { label: string; html: string; image_url: string | null }[];
 };
 type ServerAnswer = Parameters<typeof answerFromServer>[0] & { question_id: string };
 export type RunnerState = {
@@ -42,8 +43,12 @@ export type RunnerState = {
 };
 type Feedback = { correct: string | null; explanation: string | null; mirror: string | null } | "loading" | "offline";
 
+const noopSubscribe = () => () => {};
+// Framer Motion em modo leve: os recursos de animação carregam depois, fora do caminho crítico.
+const loadMotion = () => import("framer-motion").then((mod) => mod.domAnimation);
+// O parser de markdown só é baixado quando o treino mostra uma resolução.
+const Markdown = dynamic(() => import("@/components/markdown").then((mod) => mod.Markdown), { ssr: false });
 const isTyping = (t: EventTarget | null) => t instanceof HTMLElement && (t.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(t.tagName));
-const lineLimitOf = (md: string) => Number(md.match(/at[ée]\s+(\d{1,2})\s+linhas/i)?.[1]) || null;
 /** Estimativa de linhas manuscritas: ~80 caracteres por linha da folha de resposta. */
 const estimateLines = (t: string) => t.split("\n").reduce((n, p) => n + Math.max(1, Math.ceil(p.length / 80)), 0);
 
@@ -75,6 +80,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
   const [highlighter, setHighlighter] = useState(false);
   const [hideTimer, setHideTimer] = useLocalPref<boolean>("vr:hideTimer", false);
   const [fontScale, setFontScale] = useLocalPref<number>("vr:fontScale", 1);
+  const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
 
   const offsetRef = useRef(0);
   const lastTsRef = useRef(0);
@@ -420,8 +426,8 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
     }
     return a.choice === label ? "selected" : "idle";
   };
-  const extraImages = (q.images ?? []).filter((u) => !q.statement_md.includes(u));
-  const limit = q.kind === "discursive" ? lineLimitOf(q.statement_md) : null;
+  const extraImages = q.extra_images ?? [];
+  const limit = q.kind === "discursive" ? q.line_limit : null;
   const lines = estimateLines(a.discursive_text ?? "");
   const lowTime = remaining != null && remaining <= 10 * 60_000;
 
@@ -438,6 +444,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
   );
 
   return (
+    <LazyMotion features={loadMotion} strict>
     <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col">
       {/* ------------------------------------------------ topo */}
       <header className="sticky top-0 z-30 flex items-center gap-2 border-b border-border bg-background/95 px-3 py-2 backdrop-blur md:px-6">
@@ -460,9 +467,10 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
         {/* ------------------------------------------------ questão */}
         <main id="conteudo" className="min-w-0" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
           {/* Sem animação de saída: a questão anterior some na hora (nada de digitar na questão errada). */}
-            <motion.section
+            <m.section
               key={q.id}
-              initial={{ opacity: 0, x: 12 }}
+              // 1ª questão (HTML do servidor/hidratação) sem animação: aparece já visível (LCP rápido).
+              initial={hydrated ? { opacity: 0, x: 12 } : false}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.15 }}
               aria-labelledby="q-title"
@@ -483,7 +491,8 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
 
               <Card className="p-4 md:p-6" style={{ fontSize: `${fontScale}rem` }}>
                 <div ref={statementRef} key={q.id} onPointerUp={onStatementPointerUp} onClick={onStatementClick} className={cn(highlighter && "cursor-text selection:bg-[#fde047] selection:text-[#1a1a1a]")}>
-                  <Markdown className="text-[1.0625em]">{q.statement_md}</Markdown>
+                  <div className="prose-q space-y-3 text-[1.0625em] leading-relaxed [&_blockquote]:border-l-4 [&_blockquote]:border-border [&_blockquote]:pl-4 [&_blockquote]:text-muted-foreground [&_ol]:list-decimal [&_ol]:pl-6 [&_p]:whitespace-pre-line [&_table]:w-full [&_table]:border-collapse [&_td]:border [&_td]:border-border [&_td]:p-2 [&_th]:border [&_th]:border-border [&_th]:p-2 [&_ul]:list-disc [&_ul]:pl-6"
+                    dangerouslySetInnerHTML={{ __html: q.statement_html }} />
                 </div>
                 {extraImages.map((u) => (
                   // eslint-disable-next-line @next/next/no-img-element -- figura externa da prova
@@ -497,7 +506,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                     <Alternative
                       key={alt.label}
                       label={alt.label}
-                      text={alt.text_md}
+                      html={alt.html}
                       image={alt.image_url}
                       state={altState(alt.label)}
                       struck={a.strikes.includes(alt.label as Label)}
@@ -534,7 +543,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
               {/* ------------------------------------------------ feedback do treino */}
               <AnimatePresence>
                 {immediate && fb && (
-                  <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} role="status" aria-live="polite">
+                  <m.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} role="status" aria-live="polite">
                     {fb === "loading" ? (
                       <p className="flex items-center gap-2 text-sm text-muted-foreground"><Loader2 className="size-4 animate-spin" aria-hidden /> Conferindo…</p>
                     ) : fb === "offline" ? (
@@ -553,9 +562,9 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                             </Button>
                             <AnimatePresence>
                               {showResolution && (
-                                <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden">
+                                <m.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden">
                                   <Markdown className="pt-2 text-base">{(fb.explanation ?? fb.mirror) as string}</Markdown>
-                                </motion.div>
+                                </m.div>
                               )}
                             </AnimatePresence>
                           </>
@@ -564,7 +573,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                         )}
                       </Card>
                     )}
-                  </motion.div>
+                  </m.div>
                 )}
               </AnimatePresence>
 
@@ -577,7 +586,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                   <Button size="lg" onClick={() => setFinishOpen(true)}><Send aria-hidden /> Finalizar</Button>
                 )}
               </div>
-            </motion.section>
+            </m.section>
         </main>
 
         {/* ------------------------------------------------ painel lateral (desktop) */}
@@ -666,5 +675,6 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
         </div>
       )}
     </div>
+    </LazyMotion>
   );
 }

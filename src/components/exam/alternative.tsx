@@ -1,9 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Check, Strikethrough, X } from "lucide-react";
 import { useRef } from "react";
-import { Markdown } from "@/components/markdown";
 import { cn } from "@/lib/utils";
 
 export type AltState = "idle" | "selected" | "correct" | "wrong" | "missed";
@@ -13,9 +12,10 @@ export type AltState = "idle" | "selected" | "correct" | "wrong" | "missed";
  * ou o botão ao lado (acessível por teclado: Shift+letra também).
  */
 export function Alternative({
-  label, text, image, state, struck, disabled, onSelect, onStrike,
+  label, html, image, state, struck, disabled, onSelect, onStrike,
 }: {
-  label: string; text: string; image?: string | null; state: AltState; struck: boolean; disabled?: boolean;
+  /** html: texto da alternativa já sanitizado no servidor */
+  label: string; html: string; image?: string | null; state: AltState; struck: boolean; disabled?: boolean;
   onSelect: () => void; onStrike: () => void;
 }) {
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -30,7 +30,7 @@ export function Alternative({
     : "border-border bg-card hover:border-primary";
 
   return (
-    <motion.li
+    <m.li
       animate={state === "wrong" ? { x: [0, -8, 8, -5, 5, 0] } : state === "correct" ? { scale: [1, 1.025, 1] } : {}}
       transition={{ duration: 0.4 }}
       className={cn("flex min-h-14 items-stretch rounded-card border-2", tone, struck && state === "idle" && "opacity-60")}
@@ -54,7 +54,7 @@ export function Alternative({
       >
         <span className={cn("mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-bold", state === "idle" ? "bg-muted text-foreground" : "bg-card text-foreground")}>{label}</span>
         <span className={cn("min-w-0 flex-1", struck && "line-through decoration-2")}>
-          {text && <Markdown className="text-base [&_p]:whitespace-pre-line">{text}</Markdown>}
+          {html && <div className="text-base [&_p]:whitespace-pre-line" dangerouslySetInnerHTML={{ __html: html }} />}
           {image && (
             // eslint-disable-next-line @next/next/no-img-element -- figura externa da prova
             <img src={image} alt={`Figura da alternativa ${label}`} loading="lazy" className="mt-1 max-h-48 rounded-control bg-white" />
@@ -71,6 +71,6 @@ export function Alternative({
       >
         <Strikethrough className="size-4" aria-hidden />
       </button>
-    </motion.li>
+    </m.li>
   );
 }

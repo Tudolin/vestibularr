@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { QuestionView, areaBadge } from "@/components/question-view";
+import { Scaled } from "@/components/scaled";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { requireUser } from "@/lib/auth";
@@ -33,7 +34,7 @@ export default async function QuestaoPage({ params }: { params: Promise<{ id: st
         {q.work && <Badge tone="primary">{q.work.title}</Badge>}
         {q.exam?.name && <span className="text-sm text-muted-foreground">{q.exam.name}</span>}
       </header>
-      <QuestionView statement={q.statement_md} alternatives={q.alternatives ?? []} correct={key?.correct_label} explanation={key?.explanation_md} mirror={key?.official_mirror_md} />
+      <Scaled><QuestionView statement={q.statement_md} alternatives={q.alternatives ?? []} correct={key?.correct_label} explanation={key?.explanation_md} mirror={key?.official_mirror_md} /></Scaled>
       <div className="flex flex-wrap gap-2">
         {q.exam?.pdf_url && (
           <Button asChild variant="outline"><a href={q.exam.pdf_url} target="_blank" rel="noopener noreferrer"><ExternalLink aria-hidden /> PDF da prova</a></Button>

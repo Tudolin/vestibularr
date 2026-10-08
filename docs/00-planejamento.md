@@ -1,6 +1,6 @@
 # Vestibularr — Planejamento (pré-código)
 
-Status: **aguardando seu OK nas dúvidas da seção 6 antes da Fase 1.**
+Status: **todas as fases implementadas** (ver README). Este documento registra o planejamento original; decisões tomadas depois estão no README (seção "Limitações conhecidas") e nas mensagens de commit.
 
 ## 1. Edital UFPR 2027 — confirmado
 

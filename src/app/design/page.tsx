@@ -15,10 +15,6 @@ import { ToastDemo } from "./toast-demo";
 export default function DesignPage() {
   if (process.env.NODE_ENV === "production") notFound();
 
-  async function noop() {
-    "use server";
-  }
-
   const bars: [keyof typeof AREAS, number][] = [["linguagens", 72], ["humanas", 58], ["natureza", 41], ["matematica", 86]];
   const barColor = {
     linguagens: "bg-area-linguagens",
@@ -28,7 +24,7 @@ export default function DesignPage() {
   } as const;
 
   return (
-    <AppShell user={{ name: "Ana Souza", email: "ana@exemplo.com", role: "admin" }} logoutAction={noop} pathnameOverride="/estudar">
+    <AppShell user={{ name: "Ana Souza", email: "ana@exemplo.com", role: "admin" }} pathnameOverride="/estudar">
       <div className="flex flex-col gap-8">
         <header>
           <h1 className="text-3xl font-extrabold">Design system</h1>

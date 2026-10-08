@@ -1,4 +1,4 @@
-import { Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
+import { Lightbulb, Search, Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
 
 export type NavItem = { href: string; label: string; icon: LucideIcon; exact?: boolean };
 
@@ -9,6 +9,12 @@ export const STUDENT_NAV: NavItem[] = [
   { href: "/redacao", label: "Redação", icon: PenLine },
   { href: "/desempenho", label: "Desempenho", icon: BarChart3 },
   { href: "/perfil", label: "Perfil", icon: User },
+];
+
+/** Só na barra lateral (desktop); no celular ficam no topo e no Perfil. */
+export const EXTRA_NAV: NavItem[] = [
+  { href: "/busca", label: "Buscar", icon: Search },
+  { href: "/dicas", label: "Dicas", icon: Lightbulb },
 ];
 
 export const ADMIN_NAV: NavItem[] = [
@@ -23,4 +29,5 @@ export const ADMIN_NAV: NavItem[] = [
   { href: "/admin/temas", label: "Temas", icon: ListChecks },
   { href: "/admin/rubricas", label: "Rubricas", icon: Scale },
   { href: "/admin/cursos", label: "Cursos", icon: GraduationCap },
+  { href: "/admin/dicas", label: "Dicas", icon: Lightbulb },
 ];

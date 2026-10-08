@@ -6,7 +6,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth";
-import { logoutAction } from "../../login/actions";
+import { LogoutButton } from "@/components/logout-button";
+import { InstallAppButton, ReadingFontControl } from "@/components/reading-prefs";
 
 export const metadata: Metadata = { title: "Perfil" };
 
@@ -36,9 +37,22 @@ export default async function PerfilPage() {
           </CardContent>
         </Card>
       )}
-      <form action={logoutAction}>
-        <Button type="submit" variant="outline" size="lg" className="w-full">Sair</Button>
-      </form>
+      <Card>
+        <CardHeader><CardTitle>Leitura</CardTitle></CardHeader>
+        <CardContent><ReadingFontControl /></CardContent>
+      </Card>
+      <Card>
+        <CardHeader><CardTitle>App no celular</CardTitle></CardHeader>
+        <CardContent className="grid gap-2">
+          <p className="text-sm text-muted-foreground">Instale para abrir como aplicativo e continuar simulados e redações sem internet.</p>
+          <InstallAppButton />
+        </CardContent>
+      </Card>
+      <div className="grid grid-cols-2 gap-2">
+        <Button asChild variant="outline" size="lg"><Link href="/dicas">Dicas</Link></Button>
+        <Button asChild variant="outline" size="lg"><Link href="/busca">Buscar</Link></Button>
+      </div>
+      <LogoutButton variant="full" />
     </div>
   );
 }

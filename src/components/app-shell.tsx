@@ -1,11 +1,12 @@
 "use client";
 
-import { GraduationCap, LogOut, Shield } from "lucide-react";
+import { GraduationCap, Search, Shield } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { ActivityPinger } from "./activity-pinger";
-import { ADMIN_NAV, STUDENT_NAV, type NavItem } from "./nav";
+import { LogoutButton } from "./logout-button";
+import { ADMIN_NAV, EXTRA_NAV, STUDENT_NAV, type NavItem } from "./nav";
 import { ThemeToggle } from "./theme-toggle";
 
 export type ShellUser = { name: string; email: string | null; role: "admin" | "student" };
@@ -28,12 +29,10 @@ function Brand() {
 export function AppShell({
   user,
   children,
-  logoutAction,
   pathnameOverride,
 }: {
   user: ShellUser;
   children: React.ReactNode;
-  logoutAction: () => Promise<void>;
   /** Só para a página /design, que mostra o shell sem rota real. */
   pathnameOverride?: string;
 }) {
@@ -47,8 +46,8 @@ export function AppShell({
       {/* Sidebar — desktop */}
       <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
         <Brand />
-        <nav aria-label="Principal" className="flex flex-1 flex-col gap-1">
-          {STUDENT_NAV.map((item) => (
+        <nav aria-label="Principal" className="flex flex-1 flex-col gap-1 overflow-y-auto">
+          {[...STUDENT_NAV, ...EXTRA_NAV].map((item) => (
             <SideLink key={item.href} item={item} active={isActive(pathname, item)} />
           ))}
           {isAdmin && (
@@ -69,11 +68,7 @@ export function AppShell({
           </div>
           <div className="flex items-center justify-between">
             <ThemeToggle />
-            <form action={logoutAction}>
-              <button aria-label="Sair" className="flex size-11 items-center justify-center rounded-full text-muted-foreground hover:bg-muted md:size-9">
-                <LogOut className="size-4" />
-              </button>
-            </form>
+            {pathnameOverride ? null : <LogoutButton />}
           </div>
         </div>
       </aside>
@@ -82,7 +77,10 @@ export function AppShell({
         {/* Topo — celular */}
         <header className="sticky top-0 z-30 flex items-center justify-between border-b border-border bg-background/90 px-4 py-2 backdrop-blur md:hidden">
           <Brand />
-          <ThemeToggle />
+          <div className="flex items-center gap-1">
+            <Link href="/busca" aria-label="Buscar" className="flex size-11 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"><Search className="size-5" aria-hidden /></Link>
+            <ThemeToggle />
+          </div>
         </header>
         <main id="conteudo" className="pb-safe-nav mx-auto w-full max-w-5xl flex-1 px-4 py-6 md:px-8 md:pb-10">
           {children}

@@ -9,7 +9,7 @@ import { sisuCourseEstimate, ufprCourseEstimate } from "@/lib/scoring/courses";
 import { estimateEnem, TRI_NOTICE, type Area, type SisuWeights } from "@/lib/scoring/enem";
 import { createClient } from "@/lib/supabase/server";
 import { cn } from "@/lib/utils";
-import { AccuracyChart } from "./accuracy-chart";
+import { AccuracyChart } from "@/components/charts-lazy";
 import { CoursesCard, type CourseOption, type CourseResult } from "./courses-card";
 import { GoalsCard } from "./goals-card";
 import { NewAchievements } from "./new-achievements";
@@ -27,8 +27,6 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
     getBands(),
   ]);
   const uid = stats.user_id;
-  // Calcula as conquistas ANTES de ler a lista (em paralelo, a leitura via o estado antigo).
-  const { data: newCodes } = await supabase.rpc("refresh_achievements", { p_user: uid });
   const [{ data: earned }, { data: profile }, { data: courseRows }] = await Promise.all([
     supabase.from("achievements").select("code, earned_at").eq("user_id", uid),
     supabase.from("profiles").select("target_courses").eq("id", uid).maybeSingle(),
@@ -82,7 +80,7 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
   const earnedSet = new Set((earned ?? []).map((e) => e.code));
   return (
     <div className="flex flex-col gap-6">
-      {editable && <NewAchievements codes={(newCodes as string[]) ?? []} />}
+      {editable && <NewAchievements />}
 
       {/* KPIs */}
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">

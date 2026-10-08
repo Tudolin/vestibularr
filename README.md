@@ -4,7 +4,7 @@ Plataforma de estudos para ENEM e Vestibular UFPR (uso familiar: 1 admin + aluno
 Next.js (App Router) · TypeScript · Tailwind · Supabase · Vercel.
 
 Planejamento, edital UFPR 2027 e decisões: [`docs/00-planejamento.md`](docs/00-planejamento.md).
-Status: **Fases 1–5 concluídas** (auth e RLS; banco de questões; simulados offline; redação com IA; desempenho, metas, conquistas, logs e cursos).
+Status: **Fases 1–6 concluídas.** Falta só colar a chave do Gemini (passo 6 do deploy).
 
 ## Setup local
 
@@ -33,7 +33,7 @@ npm run dev                  # http://localhost:3000
 3. Mantenha o refresh token com validade longa (sessão persistente).
 
 ### Aplicando migrations novas
-Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`; Fase 4: `…0004_essays_ai.sql`; Fase 5: `…0005_performance.sql`).
+Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `…0002_question_bank.sql`; Fase 3: `…0003_attempts.sql`; Fase 4: `…0004_essays_ai.sql`; Fase 5: `…0005_performance.sql`; Fase 6: `…0006_tips.sql`).
 Aplique **só as que ainda não rodou**, em ordem. Nunca edite uma migration já aplicada.
 
 ### Primeiro admin
@@ -126,9 +126,45 @@ Vitrine em `/design` (somente em desenvolvimento). Tokens em `src/app/globals.cs
 `src/lib/contrast.test.ts` falha se algum par texto/fundo cair abaixo de AA nos temas claro e escuro.
 Capturas da Fase 1 em `docs/screenshots/fase-1/`.
 
-## Deploy na Vercel
+## Dicas, busca, PWA e acessibilidade (Fase 6)
 
-Adicione as três variáveis acima em Project → Settings → Environment Variables
-(a service-role nunca com prefixo `NEXT_PUBLIC_`). Detalhes completos na Fase 6.
+- **Dicas** (`/dicas`): 7 páginas iniciais (estrutura da redação ENEM, competências, gêneros da CPT, repertórios,
+  conectivos, erros comuns, estratégia de prova). O admin edita em Admin → Dicas, com prévia.
+- **Busca global** (`/busca`, ícone de lupa): questões (texto completo em português), temas de redação e dicas.
+- **PWA**: instalável (manifest + ícones), service worker com página offline. Provas, redações e páginas de estudo
+  abertas recentemente **recarregam sem internet**; ao sair da conta, as páginas guardadas são apagadas.
+- **Acessibilidade**: contraste AA verificado por teste, navegação por teclado, rótulos ARIA, alvos ≥ 44 px,
+  `prefers-reduced-motion`, e tamanho de fonte de leitura ajustável (Perfil e tela da prova).
+- **Lighthouse**: veja [`docs/lighthouse.md`](docs/lighthouse.md).
 
-> O plano gratuito do Supabase pausa projetos sem atividade por alguns dias. A Fase 6 inclui um cron de "manter vivo".
+## Deploy na Vercel (passo a passo)
+
+1. **Banco (Supabase)**: no SQL Editor, rode as migrations que ainda não rodou, **em ordem**
+   (`20261008000003` → `…0004` → `…0005` → `…0006`). Em *Authentication → Sign In / Providers*,
+   deixe "Allow new users to sign up" **desligado**. Em *Authentication → URL Configuration*, coloque a URL da
+   Vercel em **Site URL**.
+2. **Vercel**: *Add New → Project → Import* do repositório no GitHub (framework Next.js detectado).
+   Se for publicar a partir desta branch, em *Settings → Git* ajuste a *Production Branch* (ou faça merge na `main`).
+3. **Variáveis** (*Settings → Environment Variables*, ambiente Production):
+   `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` e
+   `CRON_SECRET` (um texto aleatório longo, ex.: `openssl rand -hex 32`). **Nunca** prefixe a service-role com `NEXT_PUBLIC_`.
+4. **Deploy**. O `vercel.json` agenda uma chamada diária a `/api/keepalive` (protegida pelo `CRON_SECRET`),
+   que impede o Supabase gratuito de pausar o projeto por inatividade.
+5. **Celulares**: abra a URL e use "Instalar app" (Perfil) ou "Adicionar à Tela de Início" no iPhone.
+6. **Por último, a IA**: crie a chave em *Google AI Studio → Get API key*, adicione `GEMINI_API_KEY` na Vercel
+   (e, se quiser, `GEMINI_MODEL`) e faça *Redeploy*. Teste enviando uma redação. Sem a chave, tudo funciona,
+   exceto correção e transcrição (o app avisa).
+
+Custos: Vercel Hobby (uso pessoal, não comercial), Supabase Free (500 MB de banco) e Gemini no plano gratuito
+(limite diário de 5 correções por aluno configurável em `settings`).
+
+## Limitações conhecidas
+
+- **Notas são estimativas**: ENEM por aproximação linear (não é TRI); redação e CPT corrigidas por IA;
+  pesos por critério da CPT UFPR são estimados (o edital não os divulga).
+- **ENEM 2025** não tem fonte aberta: importe por JSON/CSV. 2024 tem só a versão em inglês da língua estrangeira.
+  Imagens das questões ficam hospedadas nas fontes (enem.dev, GitHub).
+- **Arquivos**: PDFs das provas são cadastrados por link; a foto da redação é transcrita e **não fica guardada**
+  (o Storage do Supabase não é usado nesta versão, por privacidade e para economizar cota).
+- **Pausa no simulado**: permitida (o prazo é deslocado pelo tempo parado). Na prova real não existe pausa.
+- **Lighthouse** da `/prova` no modo simulado: 82 (detalhes em `docs/lighthouse.md`).
