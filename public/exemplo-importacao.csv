@@ -1,0 +1,3 @@
+board,exam_name,year,day,format,pdf_url,answer_pdf_url,number,kind,area,subject,topic,work,language,section,statement_md,A,B,C,D,E,correct,explanation_md,official_mirror_md,max_score,external_id,images
+UFPR,Vestibular UFPR 2025 — Exemplo,2025,,UFPR_2fases_ate_2026,https://exemplo.com/prova.pdf,,1,objective,matematica,Matemática,Funções,,,,"Quanto vale f(2) se f(x)=x²?",2,4,8,16,,B,"2² = 4",,,,
+UFPR,Vestibular UFPR 2025 — Exemplo,2025,,UFPR_2fases_ate_2026,,,2,discursive,linguagens,Literatura,,Vidas Secas,,,"Explique o papel da cachorra Baleia.",,,,,,,,"Humanização e afeto",5,,

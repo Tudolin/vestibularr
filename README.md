@@ -4,7 +4,7 @@ Plataforma de estudos para ENEM e Vestibular UFPR (uso familiar: 1 admin + aluno
 Next.js (App Router) · TypeScript · Tailwind · Supabase · Vercel.
 
 Planejamento, edital UFPR 2027 e decisões: [`docs/00-planejamento.md`](docs/00-planejamento.md).
-Status: **Fase 1 concluída** (setup, design system, auth, papéis, RLS, admin cria alunos).
+Status: **Fases 1 e 2 concluídas** (design system, auth, RLS, admin cria alunos; banco de questões, importação JSON/CSV, seed do ENEM).
 
 ## Setup local
 
@@ -30,6 +30,10 @@ npm run dev                  # http://localhost:3000
    (só o admin cria contas; o app também não oferece cadastro).
 3. Mantenha o refresh token com validade longa (sessão persistente).
 
+### Aplicando migrations novas
+Cada fase traz uma migration nova em `supabase/migrations/` (Fase 2: `20261008000002_question_bank.sql`).
+Aplique **só as que ainda não rodou**, em ordem. Nunca edite uma migration já aplicada.
+
 ### Primeiro admin
 
 ```bash
@@ -38,11 +42,29 @@ npm run create-admin -- voce@exemplo.com "Seu Nome" "senha-forte-aqui"
 
 Depois entre em `/login` e crie os alunos em **Administração → Alunos**.
 
+## Banco de questões (Fase 2)
+
+**Seed do ENEM** (2009–2023, ~2.700 questões; baixa da API pública enem.dev na hora, não versionamos os dados):
+
+```bash
+npm run seed:enem                        # tudo (leva ~5 min por causa do limite de taxa da API)
+npm run seed:enem -- --years 2022,2023   # só alguns anos
+npm run seed:enem -- --out enem.json     # só baixa e valida, sem tocar no banco
+```
+É idempotente (rodar de novo atualiza). A API traz a **área**, mas não disciplina/assunto nem resolução comentada; a área é
+derivada da posição oficial (blocos de 45 questões), porque a rotulagem da API tem erros. Questões anuladas ou ausentes
+na fonte são puladas e listadas no final (alguns anos têm 1–3 a menos).
+As imagens ficam hospedadas em enem.dev (link direto); se saírem do ar, aparecem como imagem quebrada.
+
+**Importar provas** (admin → Importar, ou aluno → Estudar → Enviar prova, que passa pela aprovação do admin):
+arquivos `.json` ou `.csv`; exemplos em `public/exemplo-importacao.json|csv`. A prévia mostra erros por questão antes de gravar.
+Reimportar a mesma prova atualiza em vez de duplicar (chave: prova + número + idioma).
+
 ## Testes
 
 ```bash
 npm run db:test:start   # Postgres local descartável na porta 54329 (precisa dos binários do PostgreSQL)
-npm test                # RLS/migrations (Postgres real) + contraste AA dos tokens
+npm test                # RLS/migrations/importação (Postgres real) + parser de import + contraste AA
 npm run typecheck && npm run lint
 ```
 

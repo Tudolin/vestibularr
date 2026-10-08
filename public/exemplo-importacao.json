@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "board": "UFPR",
+  "exams": [
+    {
+      "name": "Vestibular UFPR 2025 — Exemplo",
+      "year": 2025,
+      "format": "UFPR_2fases_ate_2026",
+      "pdf_url": "https://exemplo.com/prova.pdf",
+      "questions": [
+        {
+          "number": 1,
+          "area": "matematica",
+          "subject": "Matemática",
+          "topic": "Funções",
+          "statement_md": "Quanto vale f(2) se f(x) = x²?\n\n![gráfico](https://exemplo.com/grafico.png)",
+          "alternatives": [
+            { "label": "A", "text_md": "2" },
+            { "label": "B", "text_md": "4" },
+            { "label": "C", "text_md": "8" },
+            { "label": "D", "text_md": "16" }
+          ],
+          "correct": "B",
+          "explanation_md": "Substituindo x por 2: 2² = 4."
+        },
+        {
+          "number": 2,
+          "kind": "discursive",
+          "area": "linguagens",
+          "work": "Vidas Secas",
+          "statement_md": "Explique o papel da cachorra Baleia na narrativa.",
+          "official_mirror_md": "Espera-se: humanização, símbolo de afeto e de condição de vida precária.",
+          "max_score": 5
+        }
+      ]
+    }
+  ],
+  "questions": []
+}

@@ -1,4 +1,4 @@
-import { BarChart3, BookOpen, Home, PenLine, User, Users, type LucideIcon } from "lucide-react";
+import { BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, Home, PenLine, User, Users, type LucideIcon } from "lucide-react";
 
 export type NavItem = { href: string; label: string; icon: LucideIcon; match?: string[] };
 
@@ -11,4 +11,10 @@ export const STUDENT_NAV: NavItem[] = [
   { href: "/perfil", label: "Perfil", icon: User },
 ];
 
-export const ADMIN_NAV: NavItem[] = [{ href: "/admin/alunos", label: "Alunos", icon: Users }];
+export const ADMIN_NAV: NavItem[] = [
+  { href: "/admin/alunos", label: "Alunos", icon: Users },
+  { href: "/admin/questoes", label: "Questões", icon: Database },
+  { href: "/admin/importar", label: "Importar", icon: FileUp },
+  { href: "/admin/provas", label: "Provas", icon: FileText },
+  { href: "/admin/obras", label: "Obras UFPR", icon: BookMarked },
+];
