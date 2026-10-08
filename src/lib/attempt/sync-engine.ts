@@ -32,6 +32,8 @@ export class SyncEngine {
   private stopped = false;
   /** Gravações na fila ainda em andamento: flush() espera por elas para não "perder" a última. */
   private writes = new Set<Promise<unknown>>();
+  /** Timestamps padrão estritamente crescentes: duas ops no mesmo milissegundo mantêm a ordem. */
+  private lastTs = 0;
   private d: Required<Pick<SyncDeps, "debounceMs" | "now" | "setTimer" | "clearTimer" | "isOnline">> & SyncDeps;
 
   constructor(deps: SyncDeps) {
@@ -54,7 +56,9 @@ export class SyncEngine {
   }
 
   private async doEnqueue(op: Omit<Op, "op_id" | "attempt_id" | "ts"> & { ts?: number }) {
-    const full = { ...op, op_id: crypto.randomUUID(), attempt_id: this.d.attemptId, ts: op.ts ?? this.d.now() } as Op;
+    const ts = op.ts ?? Math.max(this.d.now(), this.lastTs + 1);
+    this.lastTs = Math.max(this.lastTs, ts);
+    const full = { ...op, op_id: crypto.randomUUID(), attempt_id: this.d.attemptId, ts } as Op;
     // Coalescência: com "última escrita por campo", só a operação mais recente de cada
     // (questão, campo) importa. Evita crescer a fila ao digitar offline por horas.
     const stale = (await this.d.store.list(this.d.attemptId)).filter((o) => o.question_id === full.question_id && o.field === full.field && o.ts <= full.ts);
