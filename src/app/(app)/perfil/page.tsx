@@ -48,9 +48,10 @@ export default async function PerfilPage() {
           <InstallAppButton />
         </CardContent>
       </Card>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-3 gap-2">
         <Button asChild variant="outline" size="lg"><Link href="/dicas">Dicas</Link></Button>
         <Button asChild variant="outline" size="lg"><Link href="/busca">Buscar</Link></Button>
+        <Button asChild variant="outline" size="lg"><Link href="/guia">Guia</Link></Button>
       </div>
       <LogoutButton variant="full" />
     </div>

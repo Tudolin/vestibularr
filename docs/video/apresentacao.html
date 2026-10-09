@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Vestibularr — apresentação</title>
+<style>
+  @font-face { font-family: "Inter"; src: local("Inter"), local("Inter Regular"); }
+  :root {
+    --primary: #4f46e5; --primary-2: #6366f1; --primary-soft: #ebeaff; --ink: #14142b; --muted: #55557a; --bg: #f7f7fb;
+    --lin: #7c3aed; --hum: #d97706; --nat: #059669; --mat: #2563eb; --ok: #15803d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0b0b1e; font-family: "Inter", system-ui, sans-serif; color: var(--ink); }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: var(--bg); }
+  .abs { position: absolute; will-change: transform, opacity; }
+  .scene { position: absolute; inset: 0; opacity: 0; }
+
+  /* fundos */
+  .bg-dark { background: radial-gradient(1200px 800px at 20% 20%, #3b35c9 0%, transparent 60%), radial-gradient(1000px 700px at 85% 90%, #7c3aed 0%, transparent 55%), #12103a; }
+  .bg-light { background: radial-gradient(900px 600px at 0% 0%, #ebeaff 0%, transparent 60%), radial-gradient(900px 600px at 100% 100%, #e4edff 0%, transparent 60%), #f7f7fb; }
+  .blob { position: absolute; border-radius: 50%; filter: blur(60px); opacity: .55; }
+  .grid-dots { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.12) 1.5px, transparent 1.5px); background-size: 36px 36px; }
+  .grid-dots.dark { background-image: radial-gradient(rgba(79,70,229,.10) 1.5px, transparent 1.5px); }
+
+  /* tipografia */
+  .h1 { font-size: 132px; font-weight: 900; letter-spacing: -4px; color: #fff; }
+  .h2 { font-size: 64px; font-weight: 850; letter-spacing: -2px; line-height: 1.05; }
+  .kicker { font-size: 24px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; color: var(--primary); }
+  .lead { font-size: 30px; line-height: 1.4; color: var(--muted); font-weight: 500; }
+  .white { color: #fff; } .w70 { color: rgba(255,255,255,.78); }
+
+  /* logo */
+  .logo { width: 180px; height: 180px; border-radius: 48px; background: linear-gradient(145deg, #6366f1, #4f46e5 55%, #4338ca); display: grid; place-items: center; box-shadow: 0 30px 80px rgba(79,70,229,.55), inset 0 2px 0 rgba(255,255,255,.25); }
+  .logo svg { width: 104px; height: 104px; }
+  .chip { display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 999px; font-size: 24px; font-weight: 700; }
+  .chip.glass { background: rgba(255,255,255,.12); color: #fff; border: 1px solid rgba(255,255,255,.22); }
+
+  /* molduras */
+  .browser { position: absolute; border-radius: 22px; background: #fff; box-shadow: 0 40px 100px rgba(20,20,60,.22), 0 0 0 1px rgba(20,20,60,.06); overflow: hidden; }
+  .browser .bar { height: 46px; background: #f1f1f8; display: flex; align-items: center; gap: 9px; padding: 0 18px; border-bottom: 1px solid #e3e3ef; }
+  .browser .bar i { width: 13px; height: 13px; border-radius: 50%; display: block; }
+  .browser .url { margin-left: 18px; flex: 1; max-width: 520px; height: 28px; border-radius: 8px; background: #fff; border: 1px solid #e3e3ef; font-size: 15px; color: #6b6b8a; display: flex; align-items: center; padding: 0 12px; font-weight: 500; }
+  .browser .view { position: relative; overflow: hidden; }
+  .browser .view img { position: absolute; left: 0; top: 0; width: 100%; will-change: transform; }
+  .phone { position: absolute; width: 400px; height: 846px; border-radius: 64px; background: #0f0f1f; padding: 16px; box-shadow: 0 50px 110px rgba(20,20,60,.35), inset 0 0 0 2px #2b2b46; }
+  .phone .screen { position: relative; width: 100%; height: 100%; border-radius: 50px; overflow: hidden; background: #fff; }
+  .phone .screen img { position: absolute; left: 0; top: 0; width: 100%; will-change: transform; }
+  .phone .notch { position: absolute; top: 26px; left: 50%; transform: translateX(-50%); width: 120px; height: 34px; border-radius: 20px; background: #0f0f1f; z-index: 3; }
+
+  /* destaque + cursor */
+  .ring { position: absolute; border: 5px solid var(--primary); border-radius: 18px; box-shadow: 0 0 0 9999px rgba(20,20,60,.0), 0 0 0 8px rgba(79,70,229,.18); pointer-events: none; }
+  .ring.ok { border-color: var(--ok); box-shadow: 0 0 0 8px rgba(21,128,61,.18); }
+  .cursor { position: absolute; width: 44px; height: 44px; z-index: 20; filter: drop-shadow(0 6px 10px rgba(0,0,0,.3)); }
+  .ripple { position: absolute; width: 80px; height: 80px; margin: -40px 0 0 -40px; border-radius: 50%; border: 4px solid var(--primary); z-index: 19; }
+
+  /* legenda (lower third) */
+  .cap { position: absolute; left: 72px; bottom: 84px; width: 600px; padding: 34px 40px; border-radius: 28px; background: rgba(255,255,255,.92); backdrop-filter: blur(12px); box-shadow: 0 30px 80px rgba(20,20,60,.18); border: 1px solid rgba(79,70,229,.12); }
+  .cap .n { display: inline-grid; place-items: center; width: 52px; height: 52px; border-radius: 16px; background: var(--primary); color: #fff; font-size: 24px; font-weight: 900; margin-bottom: 16px; }
+  .cap h3 { font-size: 42px; font-weight: 850; letter-spacing: -1.2px; margin-bottom: 12px; }
+  .cap p { font-size: 26px; line-height: 1.42; color: var(--muted); font-weight: 500; }
+  .cap b { color: var(--primary); }
+
+  /* cartões de números */
+  .stat { position: absolute; width: 380px; height: 300px; border-radius: 32px; background: #fff; box-shadow: 0 30px 80px rgba(20,20,60,.12); padding: 40px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid #ececf6; }
+  .stat .big { font-size: 84px; font-weight: 900; letter-spacing: -3px; }
+  .stat .lbl { font-size: 26px; color: var(--muted); font-weight: 600; line-height: 1.3; }
+  .stat .ico { width: 64px; height: 64px; border-radius: 18px; display: grid; place-items: center; font-size: 34px; }
+
+  /* passo a passo */
+  .step { position: absolute; left: 260px; width: 1400px; height: 116px; border-radius: 28px; background: #fff; display: flex; align-items: center; gap: 34px; padding: 0 40px; box-shadow: 0 20px 60px rgba(20,20,60,.10); border: 1px solid #ececf6; }
+  .step .k { width: 70px; height: 70px; border-radius: 22px; background: var(--primary); color: #fff; display: grid; place-items: center; font-size: 34px; font-weight: 900; flex: none; }
+  .step .t { font-size: 38px; font-weight: 800; letter-spacing: -.8px; }
+  .step .s { font-size: 25px; color: var(--muted); font-weight: 500; margin-left: auto; }
+
+  /* barra de capítulos */
+  #chapters { position: absolute; left: 96px; right: 96px; bottom: 30px; height: 6px; display: flex; gap: 8px; z-index: 50; }
+  #chapters span { flex: 1; border-radius: 3px; background: rgba(20,20,60,.12); overflow: hidden; position: relative; }
+  #chapters span i { position: absolute; inset: 0; background: var(--primary); transform-origin: left; transform: scaleX(0); }
+  .typing::after { content: "▍"; color: var(--primary); }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- 1. Abertura -->
+  <section class="scene bg-dark" id="s1">
+    <div class="grid-dots"></div>
+    <div class="blob abs" id="s1b1" style="width:620px;height:620px;left:-120px;top:-160px;background:#6366f1"></div>
+    <div class="blob abs" id="s1b2" style="width:560px;height:560px;right:-120px;bottom:-140px;background:#a855f7"></div>
+    <div class="abs" id="s1logo" style="left:870px;top:250px"><div class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div></div>
+    <div class="abs h1" id="s1t" style="left:0;width:1920px;text-align:center;top:470px">Vestibularr</div>
+    <div class="abs w70" id="s1s" style="left:0;width:1920px;text-align:center;top:640px;font-size:38px;font-weight:600">Seu lugar para estudar para o ENEM e a UFPR 2027</div>
+    <div class="abs" id="s1c" style="left:0;width:1920px;top:740px;display:flex;gap:16px;justify-content:center">
+      <span class="chip glass">ENEM</span><span class="chip glass">UFPR 2027</span><span class="chip glass">UTFPR via Sisu</span><span class="chip glass">no celular e no computador</span>
+    </div>
+  </section>
+
+  <!-- 2. O que tem -->
+  <section class="scene bg-light" id="s2">
+    <div class="grid-dots dark"></div>
+    <div class="abs kicker" id="s2k" style="left:150px;top:150px">O que você encontra</div>
+    <div class="abs h2" id="s2h" style="left:150px;top:200px;width:1500px">Tudo para estudar sozinho, no seu ritmo — e sem perder nada.</div>
+    <div class="stat" id="s2a" style="left:150px;top:470px"><div class="ico" style="background:#ebeaff;color:var(--primary)">✓</div><div><div class="big" style="color:var(--primary)" id="s2n1">0</div><div class="lbl">questões do ENEM 2019–2024 com resolução comentada</div></div></div>
+    <div class="stat" id="s2b" style="left:560px;top:470px"><div class="ico" style="background:#e4edff;color:var(--mat)">⏱</div><div><div class="big" style="color:var(--mat)">5h30</div><div class="lbl">simulados no tempo oficial, com cronômetro no servidor</div></div></div>
+    <div class="stat" id="s2c" style="left:970px;top:470px"><div class="ico" style="background:#f0e9ff;color:var(--lin)">✎</div><div><div class="big" style="color:var(--lin)">IA</div><div class="lbl">correção de redação por competência (ENEM e UFPR)</div></div></div>
+    <div class="stat" id="s2d" style="left:1380px;top:470px"><div class="ico" style="background:#dff6ec;color:var(--nat)">↻</div><div><div class="big" style="color:var(--nat)">100%</div><div class="lbl">do progresso salvo sozinho — até sem internet</div></div></div>
+  </section>
+
+  <!-- 3. Entrar / convite -->
+  <section class="scene bg-light" id="s3">
+    <div class="browser" id="s3w" style="left:820px;top:110px;width:1000px;height:640px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/login</div></div><div class="view" style="height:594px"><img src="shots/d-login.png" id="s3img"></div></div>
+    <div class="phone" id="s3p" style="left:1440px;top:260px;transform-origin:center"><div class="notch"></div><div class="screen"><img src="shots/m-convite.png"></div></div>
+    <div class="cap" id="s3cap"><div class="n">1</div><h3>Entre ou aceite o convite</h3><p>Não há cadastro público. Entre com seu e-mail e senha — ou abra o <b>link de convite</b> que o administrador te mandou e crie sua senha em segundos.</p></div>
+  </section>
+
+  <!-- 4. Início -->
+  <section class="scene bg-light" id="s4">
+    <div class="browser" id="s4w" style="left:700px;top:90px;width:1140px;height:740px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/inicio</div></div><div class="view" style="height:694px"><img src="shots/d-inicio.png" id="s4img"></div></div>
+    <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+    <div class="cap" id="s4cap"><div class="n">2</div><h3>Seu painel do dia</h3><p>A tela <b>Início</b> mostra o que fazer hoje: continuar um simulado, revisar erros que venceram, sua sequência de dias e o progresso das metas.</p></div>
+  </section>
+
+  <!-- 5. Estudar -->
+  <section class="scene bg-light" id="s5">
+    <div class="browser" id="s5w" style="left:700px;top:90px;width:1140px;height:740px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/estudar</div></div><div class="view" style="height:694px"><img src="shots/d-estudar.png" id="s5img1"><img src="shots/d-simulados.png" id="s5img2"></div></div>
+    <div class="cap" id="s5cap"><div class="n">3</div><h3>Escolha como estudar</h3><p><b>Simulado</b> da prova inteira, <b>treino</b> com a resposta na hora, <b>personalizado</b> por área e assunto, e <b>revisão</b> do caderno de erros.</p></div>
+  </section>
+
+  <!-- 6. Prova -->
+  <section class="scene bg-light" id="s6">
+    <div class="browser" id="s6w" style="left:160px;top:70px;width:1600px;height:960px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/prova</div></div><div class="view" style="height:914px"><img src="shots/d-prova.png" id="s6img"></div></div>
+    <div class="ring" id="s6r1"></div>
+    <div class="ring" id="s6r2"></div>
+    <div class="cap" id="s6cap" style="left:auto;right:96px;width:700px"><div class="n">4</div><h3>Prova de verdade, sem perder nada</h3><p>O <b>cronômetro roda no servidor</b>: comece no celular e termine no computador. Cada marcação é <b>salva sozinha</b> — e continua funcionando offline.</p></div>
+  </section>
+
+  <!-- 7. Treino no celular -->
+  <section class="scene bg-light" id="s7">
+    <div class="grid-dots dark"></div>
+    <div class="phone" id="s7p1" style="left:560px;top:117px"><div class="notch"></div><div class="screen"><img src="shots/m-treino.png"></div></div>
+    <div class="phone" id="s7p2" style="left:1060px;top:117px"><div class="notch"></div><div class="screen" id="s7scr"><img src="shots/m-treino-feedback.png" id="s7img"></div></div>
+    <div class="cap" id="s7cap" style="width:600px;left:96px;bottom:auto;top:300px"><div class="n">5</div><h3>Treino com resolução</h3><p>Respondeu? A correção aparece na hora, com a <b>resolução comentada</b>: o raciocínio, a resposta e <b>por que as outras alternativas estão erradas</b>.</p></div>
+  </section>
+
+  <!-- 8. Caderno de erros -->
+  <section class="scene bg-light" id="s8">
+    <div class="browser" id="s8w" style="left:700px;top:90px;width:1140px;height:740px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/estudar/erros</div></div><div class="view" style="height:694px"><img src="shots/d-erros.png" id="s8img"></div></div>
+    <div class="abs" id="s8days" style="left:96px;top:120px;display:flex;gap:14px">
+      <span class="chip" style="background:#ebeaff;color:#3730a3">1 dia</span><span class="chip" style="background:#ebeaff;color:#3730a3">3</span><span class="chip" style="background:#ebeaff;color:#3730a3">7</span><span class="chip" style="background:#ebeaff;color:#3730a3">14</span><span class="chip" style="background:#ebeaff;color:#3730a3">30</span>
+    </div>
+    <div class="cap" id="s8cap"><div class="n">6</div><h3>Caderno de erros</h3><p>Toda questão errada entra no caderno e <b>volta para revisão</b> em 1, 3, 7, 14 e 30 dias — até você acertar de vez.</p></div>
+  </section>
+
+  <!-- 9. Redação -->
+  <section class="scene bg-light" id="s9">
+    <div class="browser" id="s9w" style="left:640px;top:80px;width:1200px;height:760px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/redacao</div></div><div class="view" style="height:714px"><img src="shots/d-redacao-correcao.png" id="s9img"></div></div>
+    <div class="phone" id="s9p" style="left:1500px;top:330px;transform-origin:center;width:340px;height:720px;border-radius:56px;padding:14px"><div class="notch" style="top:22px;width:100px;height:28px"></div><div class="screen" style="border-radius:44px"><img src="shots/m-redacao.png"></div></div>
+    <div class="cap" id="s9cap"><div class="n">7</div><h3>Redação com correção por IA</h3><p>Escreva no app — o <b>rascunho é salvo a cada palavra</b> — ou envie a foto da folha. Receba nota e comentários por <b>competência</b>, com o trecho marcado.</p></div>
+  </section>
+
+  <!-- 10. Desempenho -->
+  <section class="scene bg-light" id="s10">
+    <div class="browser" id="s10w" style="left:700px;top:90px;width:1140px;height:740px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/desempenho</div></div><div class="view" style="height:694px"><img src="shots/d-desempenho.png" id="s10img1"><img src="shots/d-desempenho-2.png" id="s10img2"></div></div>
+    <div class="ring r1"></div><div class="ring r2"></div>
+    <div class="cap" id="s10cap"><div class="n">8</div><h3>Veja sua evolução</h3><p>Acertos por área e assunto, <b>pontos fracos</b>, metas da semana, conquistas e a <b>nota estimada</b> para o curso que você quer.</p></div>
+  </section>
+
+  <!-- 11. Celular / PWA -->
+  <section class="scene bg-dark" id="s11">
+    <div class="grid-dots"></div>
+    <div class="phone" id="s11p1" style="left:1000px;top:117px"><div class="notch"></div><div class="screen"><img src="shots/m-inicio.png"></div></div>
+    <div class="phone" id="s11p2" style="left:1440px;top:170px;width:340px;height:720px;border-radius:56px;padding:14px"><div class="notch" style="top:22px;width:100px;height:28px"></div><div class="screen" style="border-radius:44px"><img src="shots/m-desempenho.png"></div></div>
+    <div class="abs kicker" id="s11k" style="left:150px;top:300px;color:#c7c4ff">9 · No celular</div>
+    <div class="abs h2 white" id="s11h" style="left:150px;top:350px;width:760px">Instale como app.</div>
+    <div class="abs lead w70" id="s11l" style="left:150px;top:450px;width:740px;color:rgba(255,255,255,.8)">No navegador do celular, toque em <b style="color:#fff">“Adicionar à tela inicial”</b>. Abre rápido, fica em tela cheia e a prova continua <b style="color:#fff">mesmo sem internet</b> — tudo sincroniza quando a conexão volta.</div>
+  </section>
+
+  <!-- 12. Admin -->
+  <section class="scene bg-light" id="s12">
+    <div class="browser" id="s12w" style="left:700px;top:90px;width:1140px;height:740px"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><div class="url">vestibularr.app/admin/alunos</div></div><div class="view" style="height:694px"><img src="shots/d-admin-alunos.png" id="s12img1"><img src="shots/d-admin-convite-link.png" id="s12img2"><img src="shots/d-admin-questoes.png" id="s12img3"></div></div>
+    <div class="ring r1 ok"></div>
+    <div class="cap" id="s12cap"><div class="n">10</div><h3>Para quem administra</h3><p>Convide alunos ou outro admin por <b>link de uso único</b>, acompanhe cada aluno, importe provas e escolha mostrar só questões <b>com resolução</b>.</p></div>
+  </section>
+
+  <!-- 13. Passo a passo -->
+  <section class="scene bg-light" id="s13">
+    <div class="grid-dots dark"></div>
+    <div class="abs kicker" id="s13k" style="left:260px;top:90px">Comece hoje</div>
+    <div class="abs h2" id="s13h" style="left:260px;top:140px">Seu primeiro dia em 5 passos</div>
+    <div class="step" id="st1" style="top:280px"><div class="k">1</div><div class="t">Abra o convite e crie sua senha</div><div class="s">2 min</div></div>
+    <div class="step" id="st2" style="top:420px"><div class="k">2</div><div class="t">Defina sua meta e seu curso no Perfil</div><div class="s">Perfil</div></div>
+    <div class="step" id="st3" style="top:560px"><div class="k">3</div><div class="t">Faça um treino de 10 questões da sua área mais fraca</div><div class="s">Estudar</div></div>
+    <div class="step" id="st4" style="top:700px"><div class="k">4</div><div class="t">Leia as resoluções e revise os erros nos dias marcados</div><div class="s">Erros</div></div>
+    <div class="step" id="st5" style="top:840px"><div class="k">5</div><div class="t">Escreva uma redação por semana e um simulado por mês</div><div class="s">Redação</div></div>
+  </section>
+
+  <!-- 14. Encerramento -->
+  <section class="scene bg-dark" id="s14">
+    <div class="grid-dots"></div>
+    <div class="blob abs" id="s14b" style="width:700px;height:700px;left:610px;top:190px;background:#6366f1"></div>
+    <div class="abs" id="s14logo" style="left:870px;top:260px"><div class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div></div>
+    <div class="abs h1" id="s14t" style="left:0;width:1920px;text-align:center;top:480px">Bons estudos!</div>
+    <div class="abs w70" id="s14s" style="left:0;width:1920px;text-align:center;top:650px;font-size:36px;font-weight:600">Vestibularr · ENEM · UFPR 2027</div>
+  </section>
+
+  <!-- cursor -->
+  <svg class="cursor abs" id="cur" viewBox="0 0 24 24"><path d="M4 2l16 9-7 2-3 7z" fill="#14142b" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg>
+  <div class="ripple abs" id="rip"></div>
+
+  <div id="chapters"></div>
+</div>
+<script src="engine.js"></script>
+<script src="timeline.js"></script>
+</body>
+</html>
