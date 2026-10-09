@@ -108,6 +108,12 @@
    "explanation_md": "A foto mostra esculturas submersas de pessoas abatidas, amontoadas em um bote. A reportagem explica que Lampedusa é a ilha para onde tentam ir muitos refugiados da África e do Oriente Médio e descreve a obra: rostos com \"a expressão do abandono\", uma menina que \"olha sem esperança o horizonte\".\n\nO título já anuncia a ideia: \"A crise dos refugiados imortalizada para sempre no fundo do mar\". E o texto termina dizendo que a imagem é tão forte que dispensa palavras: \"Exatamente o papel da arte\". Assim, além de apresentar a obra, a reportagem chama a atenção para a arte como forma de eternizar episódios marcantes, para que não sejam esquecidos nem se repitam.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A: Lanzarote aparece só como localização do museu, sem foco turístico.\n- B: o texto trata da crise atual de refugiados, não de travessias \"ao longo dos séculos\".\n- C: a novidade do museu submarino é mencionada, mas não é a função paralela destacada.\n- D: o texto não diz que o museu foi construído como memorial para imigrantes mortos.\n\n**Para lembrar:** títulos e frases finais costumam revelar a intenção do texto (\"imortalizada\", \"o papel da arte\")."
   },
   {
+   "number": 15,
+   "correct": "D",
+   "override_correct": true,
+   "explanation_md": "O Texto II resume o drama de Pestana: ele é célebre nos salões e nas ruas do Rio pelas polcas \"irresistivelmente dançantes\", mas sonha com \"a sublimidade da obra-prima clássica\" e com \"a galeria dos imortais\". Fecha-se num quarto cheio de retratos de compositores europeus, estuda as sonatas de Viena e, quando percebe, compôs mais \"uma inelutável e saltitante polca\". No Texto I, isso aparece na facilidade com que a polca \"escorre\" de sua alma, sem esforço.\n\nO conflito do personagem, dividido entre o prestígio da música erudita europeia e a força da música popular dançante (o maxixe, ligado à escravidão e à mestiçagem), representa a tensão entre o erudito e o popular que marcou a formação da música brasileira.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A: o texto não julga as polcas como pouco complexas; mostra que são irresistíveis e geniais à sua maneira.\n- B: não se fala de predominância de referências africanas no imaginário da população.\n- C: as polcas de Pestana já lhe dão celebridade; o problema não é falta de prestígio social da dança, e sim o conflito interno do compositor.\n- E: o prestígio da música clássica aparece, mas é só um dos polos; o que o conflito representa é o choque entre os dois mundos.\n\n**Para lembrar:** em \"Um homem célebre\", Machado mostra o artista popular que deseja ser erudito: é a tensão erudito x popular."
+  },
+  {
    "number": 16,
    "correct": "B",
    "explanation_md": "A autora critica o \"culto à velocidade\", que gera uma comunicação \"vazia e superficial\". Para não ficar só na ideia abstrata, ela usa a letra de \"Sinal fechado\": dois conhecidos se encontram no semáforo e trocam frases apressadas (\"Me perdoe a pressa / é a alma dos nossos negócios\", \"Eu também só ando a cem\").\n\nA canção funciona como exemplo concreto do comportamento criticado: o leitor reconhece a situação do cotidiano e se identifica com ela. É assim que o recurso sensibiliza.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A: a canção não adverte sobre riscos; apenas retrata o diálogo apressado.\n- C: a letra só mostra aceleração; a serenidade (slow life) aparece no fim do artigo, não na canção.\n- D: a canção não questiona o clichê; ela o confirma.\n- E: as soluções (slow life) são apresentadas pela autora, e não pela letra.\n\n**Para lembrar:** citar um exemplo concreto (canção, caso real) é estratégia argumentativa para ilustrar e aproximar o leitor da tese."
@@ -154,8 +160,37 @@
   },
   {
    "number": 25,
-   "correct": "E",
-   "explanation_md": "O conto mostra dois discursos de intimidação. Primeiro, o delegado ameaça o vizinho, que ele supõe estrangeiro, apoiando-se na autoridade (\"autoridades constituídas\", \"Exército Brasileiro\", \"vai tudo em cana\"). Depois, a mulher do vizinho vira o jogo usando a mesma arma: lista os parentes militares, numa hierarquia crescente (prima de Major, sobrinha de Coronel, filha de General). O delegado, que antes gritava, passa a \"balbuciar humildemente\", e sua única dúvida é se o General é \"da ativa\".\n\nO fragmento põe em evidência, de forma bem marcada e caricata, as relações de poder baseadas em hierarquia e prestígio, o típico \"sabe com quem está falando?\". Quem tem o parente mais graduado manda, e o delegado se curva. É nesse sentido que o discurso intimidador **exalta** (realça, põe em destaque) relações de poder estereotipadas.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A: a xenofobia aparece só na fala do delegado; a cena central, a reviravolta, gira em torno da hierarquia militar, e não do preconceito contra estrangeiros.\n- B: há humor, mas o tom anedótico é consequência; a função do discurso intimidador é expor as relações de poder.\n- C: o ponto de vista do narrador não é escondido; a situação fala por si.\n- D: a hostilidade não é acentuada até o fim; ela se desfaz quando o delegado se submete.\n\n**Para lembrar:** o \"sabe com quem está falando?\" é uma marca cultural brasileira de autoridade apoiada em prestígio e hierarquia, tema comum em crônicas e contos."
+   "correct": "B",
+   "override_correct": true,
+   "statement_md": "– O senhor pensa que só porque o deixaram morar neste país pode logo ir fazendo o que quer? Nunca ouviu falar num troço chamado autoridades constituídas? Não sabe que tem de conhecer as leis do país? Não sabe que existe uma coisa chamada Exército Brasileiro, que o senhor tem de respeitar? Que negócio é esse? [...] Eu ensino o senhor a cumprir a lei, ali no duro: “dura lex”! Seus filhos são uns moleques e outra vez que eu souber que andaram incomodando o General, vai tudo em cana. Morou? Sei como tratar gringos feito o senhor. [...] Foi então que a mulher do vizinho do General interveio:  \n– Era tudo que o senhor tinha a dizer a meu marido? O delegado apenas olhou-a, espantado com o atrevimento.  \n– Pois então fique sabendo que eu também sei tratar tipos como o senhor. Meu marido não é gringo nem meus filhos são moleques. Se por acaso importunaram o General, ele que viesse falar comigo, pois o senhor também está nos importunando. E fique sabendo que sou brasileira, sou prima de um Major do Exército, sobrinha de um Coronel, e filha de um General! Morou? Estarrecido, o delegado só teve força para engolir em seco e balbuciar humildemente: – Da ativa, minha senhora?.\n\n*SABINO, F. A mulher do vizinho. In: **Os melhores contos**. Rio de Janeiro: Record, 1986.*\n\nA representação do discurso intimidador engendrada no fragmento é responsável por",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "ironizar atitudes e ideias xenofóbicas.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "conferir à narrativa um tom anedótico.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "dissimular o ponto de vista do narrador.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "acentuar a hostilidade das personagens.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "exaltar relações de poder estereotipadas.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "O fragmento é construído como uma pequena anedota: uma situação cotidiana que caminha para uma virada cômica e termina numa tirada final. Primeiro, o delegado despeja um discurso intimidador e cheio de bravata (\"autoridades constituídas\", \"dura lex\", \"vai tudo em cana\", \"Morou?\"). Depois, a mulher do vizinho responde **no mesmo tom**, inclusive repetindo o \"Morou?\", e empilha parentes militares cada vez mais graduados: prima de Major, sobrinha de Coronel, filha de General.\n\nO exagero desses discursos de intimidação é o que prepara o desfecho engraçado: o delegado, que gritava, passa a \"balbuciar humildemente\" e só consegue perguntar \"– Da ativa, minha senhora?\". Esse contraste entre a arrogância inicial e a submissão final funciona como a \"piada\" da história. Assim, a representação do discurso intimidador confere à narrativa um **tom anedótico**.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A: a desconfiança do delegado com o \"gringo\" aparece, mas o foco do humor é a inversão de autoridade, não a crítica à xenofobia.\n- C: o narrador não esconde seu ponto de vista; ele apenas encena as falas e deixa a situação provocar o riso.\n- D: a hostilidade não se acentua; ela se desfaz quando o delegado se encolhe diante da mulher.\n- E: as relações de poder aparecem, mas são ridicularizadas pelo exagero, e não exaltadas.\n\n**Para lembrar:** anedota é uma narrativa curta e cômica que se encaminha para um desfecho surpreendente; o exagero das falas costuma ser o motor do humor."
   },
   {
    "number": 26,
@@ -219,8 +254,37 @@
   },
   {
    "number": 38,
-   "correct": "A",
-   "explanation_md": "O poema inteiro se apoia em **condicionais**: \"Se for possível, manda-me dizer\", \"Manda-me buscar se tens o dia / Tão longo como a noite\", \"Se é verdade / Que sem mim só vês monotonia\", \"E se te lembras do brilho das marés...\". O eu lírico deseja o reencontro, mas não tem certeza de que o outro ainda o queira. Ele põe a volta na dependência de um sinal que talvez não venha. Até o rosto do amado é \"incerto\".\n\nEsse desejo condicionado, cheio de \"se\", revela **dúvida (ceticismo)** sobre a possibilidade real do reencontro.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B: a \"monotonia\" é atribuída ao outro (\"sem mim só vês monotonia\"), e não ao eu lírico, e mesmo assim de forma hipotética.\n- C: a memória (marés, peixes, pés molhados) serve para reacender o amor do outro, e não para um sonho de autorrealização.\n- D: não há julgamento nem acusação a quem se afastou; o tom é de pedido.\n- E: o eu lírico não questiona o significado do amor; ele quer o reencontro, mas duvida que aconteça.\n\n**Para lembrar:** em poemas, a repetição de estruturas condicionais (\"se...\") costuma marcar incerteza ou hipótese."
+   "correct": "C",
+   "override_correct": true,
+   "statement_md": "Se for possível, manda-me dizer:  \n— É lua cheia. A casa está vazia —  \nManda-me dizer, e o paraíso  \nHá de ficar mais perto, e mais recente  \nMe há de parecer teu rosto incerto.  \nManda-me buscar se tens o dia  \nTão longo como a noite. Se é verdade  \nQue sem mim só vês monotonia.  \nE se te lembras do brilho das marés  \nDe alguns peixes rosados  \nNumas águas  \nE dos meus pés molhados, manda-me dizer:  \n— É lua nova —  \nE revestida de luz te volto a ver.\n\n*HILST, H. **Júbilo, memória, noviciado da paixão**. São Paulo: Cia. das Letras, 2018.*\n\nFalando ao outro, o eu lírico revela-se vocalizando um desejo que remete ao",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "ceticismo quanto à possibilidade do reencontro.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "tédio provocado pela distância física do ser amado.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "sonho de autorrealização desenhado pela memória.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "julgamento implícito das atitudes de quem se afasta.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "questionamento sobre o significado do amor ausente.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "O eu lírico fala ao ser amado e imagina o reencontro: pede que o outro mande dizer \"É lua cheia\", \"É lua nova\", e então ele voltaria, \"revestida de luz\". Esse desejo é alimentado pela **memória** de momentos vividos juntos: \"o brilho das marés\", \"alguns peixes rosados / Numas águas\", \"meus pés molhados\". A volta é descrita como um \"paraíso\" que \"há de ficar mais perto\", ou seja, a plenitude do eu lírico está nesse reencontro.\n\nO desejo, portanto, projeta uma realização pessoal (estar de novo com o outro, recuperar a luz e o paraíso) construída a partir das lembranças. É um **sonho de autorrealização desenhado pela memória**.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A: as condicionais (\"se for possível\", \"se é verdade\") expressam espera e esperança, não descrença no reencontro; o poema termina afirmando \"te volto a ver\".\n- B: a \"monotonia\" é atribuída hipoteticamente ao outro (\"sem mim só vês monotonia\"), e não ao eu lírico.\n- D: não há censura a quem se afastou; o tom é de convite e pedido.\n- E: o eu lírico não discute o sentido do amor; ele deseja vivê-lo de novo.\n\n**Para lembrar:** em poemas líricos, imagens de lembrança (lugares, sensações) costumam sustentar o desejo do eu lírico e sua idealização do reencontro."
   },
   {
    "number": 39,
@@ -291,6 +355,12 @@
    "number": 52,
    "correct": "D",
    "explanation_md": "A **Lei Aberdeen (Bill Aberdeen, 1845)** foi uma lei britânica que autorizava a Marinha inglesa a apreender navios negreiros brasileiros. Depois da Lei Eusébio de Queirós (1850), o tráfico para o Brasil praticamente acabou, e o governo brasileiro passou a pressionar pela revogação da lei inglesa.\n\nO texto mostra que a Inglaterra resistia: temia que, sem um tratado que a substituísse, os brasileiros \"voltassem aos seus velhos hábitos\", isto é, retomassem o tráfico de escravizados. Logo, o interesse britânico era manter a proibição do comércio de escravos.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A: a Inglaterra queria garantias para si, não um tribunal conciliador neutro.\n- B: não se trata de dividir negócios marítimos, e sim de reprimir o tráfico.\n- C: políticas higienistas são tema do início do século XX, sem relação com o trecho.\n- E: \"negócio familiar\" não tem relação com o conflito diplomático descrito.\n\n**Para lembrar:** a pressão inglesa contra o tráfico negreiro (Bill Aberdeen) levou à Lei Eusébio de Queirós em 1850."
+  },
+  {
+   "number": 53,
+   "correct": "B",
+   "override_correct": true,
+   "explanation_md": "O trecho apresenta Zé de Sila, contador de histórias de Cabaceiras (PB), comparado ao Chicó do *Auto da Compadecida*, e a lembrança da avó que colocava pratos emborcados no terreiro e **rezava para a chuva durar mais**.\n\nDois aspectos se destacam: as **práticas místicas** (a oração e o ritual dos pratos para controlar o vento e a chuva) e o **patrimônio cultural** (a tradição oral do contador de histórias, as crenças populares sertanejas transmitidas entre gerações). Por isso, o conteúdo do texto corresponde à alternativa \"Práticas místicas associadas a patrimônio cultural\".\n\n**Resposta: B**\n\n**Por que não as outras:**\n- \"Alianças afetivas conectadas a ritual matrimonial\": o apelido de \"encantador de viúvas\" é só um detalhe; não há ritual de casamento no texto.\n- \"Manifestações teatrais atreladas a imaginário político\": a menção ao Chicó é uma comparação literária, e não há tema político.\n- \"Narrativas fílmicas relacionadas às intempéries climáticas\": a chuva aparece, mas não há narrativa de cinema.\n- \"Argumentações literárias interligadas às catástrofes ambientais\": não há catástrofe nem argumentação literária.\n\n**Para lembrar:** rezas, simpatias e saberes populares do sertão são tratados no ENEM como patrimônio cultural imaterial."
   },
   {
    "number": 54,
@@ -548,6 +618,39 @@
    "explanation_md": "Os rejeitos de mineração contêm metais pesados e outras substâncias **não biodegradáveis**, que se acumulam nos tecidos dos seres vivos. Ao longo da cadeia alimentar, cada consumidor come muitos organismos do nível anterior e retém a substância. Por isso, a concentração aumenta a cada nível trófico. Esse fenômeno é a **magnificação trófica** (bioacumulação).\n\nEntre os organismos citados, o fitoplâncton e as algas são produtores; esponjas e peixes herbívoros são consumidores primários; e os **golfinhos** são predadores no topo da cadeia. Portanto, são eles que acumulam as maiores concentrações.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) As esponjas são filtradoras e se alimentam de níveis baixos da cadeia.\n- C) O fitoplâncton é o produtor, a base da cadeia, onde a concentração é menor.\n- D) Os peixes herbívoros são consumidores primários e acumulam menos que os predadores.\n- E) As algas macroscópicas também são produtoras.\n\n**Para lembrar:** substâncias persistentes se concentram mais nos predadores de topo de cadeia."
   },
   {
+   "number": 105,
+   "correct": "A",
+   "statement_md": "Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (B⃗), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (g⃗) que atua na região.\n\n![Haltere com carga + à esquerda e − à direita, entre linhas de campo B para a direita; g entrando no plano (⊗)](/questoes/enem/2021/q105-1.png)\n\nVisto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "Força para baixo na carga + e para cima na carga −",
+     "image_url": "/questoes/enem/2021/q105-a.png"
+    },
+    {
+     "label": "B",
+     "text_md": "Forças para baixo nas duas cargas",
+     "image_url": "/questoes/enem/2021/q105-b.png"
+    },
+    {
+     "label": "C",
+     "text_md": "Forças ao longo da haste, apontando para o centro",
+     "image_url": "/questoes/enem/2021/q105-c.png"
+    },
+    {
+     "label": "D",
+     "text_md": "Forças para cima nas duas cargas",
+     "image_url": "/questoes/enem/2021/q105-d.png"
+    },
+    {
+     "label": "E",
+     "text_md": "Força para cima na carga + e para baixo na carga −",
+     "image_url": "/questoes/enem/2021/q105-e.png"
+    }
+   ],
+   "explanation_md": "A força magnética sobre uma carga em movimento é F⃗ = q·v⃗ × B⃗, sempre perpendicular a v⃗ e a B⃗. O sistema cai, então, visto de cima, a velocidade das duas esferas aponta **para dentro do papel** (mesmo sentido de g⃗, ⊗). O campo B⃗ aponta para a direita.\n\nRegra da mão direita para a carga positiva: dedos no sentido de v⃗ (entrando no papel), dobrando em direção a B⃗ (para a direita): o polegar aponta **para baixo** na figura. Em vetores: com x para a direita, y para cima e z saindo do papel, v⃗ = −z e B⃗ = +x, logo v⃗ × B⃗ = (−z) × (+x) = −y, para baixo.\n\nPara a carga negativa, a força tem o mesmo módulo e sentido oposto: **para cima** na figura. Portanto, a carga + é empurrada para baixo e a carga − para cima, formando um binário que tende a girar o haltere.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B: as duas forças no mesmo sentido valeriam para cargas de mesmo sinal.\n- C: forças ao longo da haste seriam paralelas a B⃗, mas a força magnética é sempre perpendicular ao campo.\n- D: mesmo erro de B, agora com as duas forças para cima.\n- E: forças opostas, mas com os sentidos invertidos (erro no uso da regra da mão direita).\n\n**Para lembrar:** F⃗ = q·v⃗ × B⃗; cargas de sinais opostos com a mesma velocidade sofrem forças magnéticas de sentidos opostos."
+  },
+  {
    "number": 106,
    "correct": "C",
    "explanation_md": "Isômeros têm a mesma fórmula molecular e estruturas diferentes. Comparando as estruturas, a bilirrubina tem uma **cadeia aberta**, com os quatro anéis pirrólicos ligados em sequência por pontes de carbono. Na lumirrubina, a luz faz parte da cadeia se **fechar**, formando um **novo anel** (o de sete membros, à esquerda).\n\nPassar de uma cadeia mais aberta para uma com um ciclo a mais muda o **tipo de cadeia** carbônica. Por isso, os dois compostos são isômeros **de cadeia**.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) A isomeria óptica envolve imagens especulares não sobreponíveis (carbono quiral), não um anel novo.\n- B) A isomeria funcional exige funções orgânicas diferentes. Os dois mantêm os grupos COOH, NH e C=O.\n- D) A isomeria de posição muda só a posição de um grupo ou insaturação na mesma cadeia, sem criar um ciclo.\n- E) Na isomeria geométrica (cis-trans) a conectividade se mantém. Aqui surgiu uma nova ligação, que fechou o anel.\n\n**Para lembrar:** quando um isômero é cíclico e o outro aberto (ou muda a ramificação), a isomeria é de cadeia."
@@ -708,6 +811,16 @@
    "explanation_md": "Com o cubo apoiado num vértice e a diagonal que passa por ele vertical, olhar \"de cima\" é olhar ao longo dessa diagonal. Nessa vista:\n\n- os dois vértices da diagonal vertical (o de baixo e o do topo) e a esfera central caem todos no mesmo ponto, o centro da figura;\n- os outros 6 vértices formam um hexágono regular em volta desse centro.\n\nAgora as ligações. As 6 arestas que não tocam o topo nem a base formam o contorno do hexágono. As 3 arestas que saem do topo e as 3 que saem da base viram segmentos do centro até os vértices do hexágono (alternados), ou seja, 6 \"raios\". As outras 3 diagonais do cubo ligam vértices opostos do hexágono passando pelo centro. Esses segmentos coincidem com os raios. A diagonal vertical vira um único ponto.\n\nResultado: um hexágono regular com as três diagonais maiores passando pelo centro.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Lembra uma vista em perspectiva do cubo, não a projeção ortogonal no solo.\n- B) Losango com diagonais seria uma vista lateral, que não corresponde a olhar ao longo da diagonal do cubo.\n- C) Retângulo com diagonais seria a projeção de uma face do cubo, mas ele não está apoiado numa face.\n- D) Dois retângulos lado a lado não representam nenhuma vista ao longo da diagonal.\n\n**Para lembrar:** visto ao longo da diagonal principal, o contorno de um cubo é um hexágono regular."
   },
   {
+   "number": 138,
+   "annulled": true
+  },
+  {
+   "number": 139,
+   "correct": "E",
+   "override_correct": true,
+   "explanation_md": "O critério é a maior média por franquia. Para cada tipo de lanche, basta somar as vendas nas três franquias e dividir por 3. Como o divisor é o mesmo para todos, comparar as somas já resolve:\n\n- Lanche I: 415 + 415 + 415 = 1 245 → média 415\n- Lanche II: 395 + 445 + 390 = 1 230 → média 410\n- Lanche III: 425 + 370 + 425 = 1 220 → média ≈ 406,7\n- Lanche IV: 430 + 370 + 433 = 1 233 → média 411\n- Lanche V: 435 + 425 + 420 = 1 280 → média ≈ 426,7\n\nPelos números deste quadro, a maior média é a do lanche V.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Lanche I: média 415; é o mais regular (vende igual nas três), mas regularidade não é o critério.\n- B) Lanche II: média 410; tem a maior venda isolada (445), mas a média é menor.\n- C) Lanche III: média ≈ 406,7, a menor de todas.\n- D) Lanche IV: média 411.\n\n**Para lembrar:** para comparar médias com o mesmo número de parcelas, basta comparar as somas."
+  },
+  {
    "number": 140,
    "correct": "B",
    "explanation_md": "É preciso calcular a média mensal de faturamento do ano, ponderando cada valor pela quantidade de meses (3 + 2 + 2 + 4 + 1 = 12 meses):\n\n3,5 × 3 = 10,5\n2,5 × 2 = 5\n5 × 2 = 10\n3 × 4 = 12\n7,5 × 1 = 7,5\n\nSoma = 45 milhões\nM = 45 ÷ 12 = 3,75 milhões\n\nComo 2 ≤ 3,75 < 4, o supermercado se enquadra na comissão do tipo II.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Tipo I exigiria M < 2; a média é bem maior.\n- C) Tipo III vem de usar a média simples dos cinco valores, (3,5 + 2,5 + 5 + 3 + 7,5) ÷ 5 = 4,3, sem pesar pelos meses.\n- D) Tipo IV exigiria M ≥ 5.\n- E) Tipo V só considera o maior faturamento (7,5), que ocorreu em apenas 1 mês.\n\n**Para lembrar:** quando os valores aparecem com frequências diferentes, use a média ponderada."
@@ -733,9 +846,48 @@
    "explanation_md": "O gráfico dá a frequência de cada idade: 6 alunos de 9 anos, 12 de 18 anos e 9 de 27 anos. A média é ponderada pelas frequências:\n\nTotal de alunos: 6 + 12 + 9 = 27\nSoma das idades: 9 × 6 + 18 × 12 + 27 × 9 = 54 + 216 + 243 = 513\nMédia = 513 ÷ 27 = 19 anos\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 9 é só a menor idade, ou a média das frequências trocadas pelas idades.\n- B) 12 é a maior frequência, não uma idade média.\n- C) 18 é a média simples das idades (9 + 18 + 27) ÷ 3, sem pesar as frequências; também é a moda.\n- E) 27 é a maior idade (e também o total de alunos).\n\n**Para lembrar:** em gráfico de frequências, a média é Σ(valor × frequência) ÷ Σ frequências."
   },
   {
+   "number": 145,
+   "correct": "C",
+   "override_correct": true,
+   "explanation_md": "A média geral (6 minutos) é a média ponderada das médias de cada faixa, com pesos x%, y% e x%. Duas equações:\n\n1) Percentuais somam 100: x + y + x = 100 → 2x + y = 100\n2) Média ponderada: (3x + 5y + 12x) ÷ 100 = 6 → 15x + 5y = 600 → 3x + y = 120\n\nSubtraindo (1) de (2): x = 20, e então y = 100 − 40 = 60.\n\nConferindo: 3 × 20 + 5 × 60 + 12 × 20 = 60 + 300 + 240 = 600 → média 6. Ok.\n\nPelas contas, os valores são 20 e 60.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 10 e 80 soma 100%, mas dá média (30 + 400 + 120) ÷ 100 = 5,5, não 6.\n- B) 10 e 90 soma 110%, impossível.\n- D) 20 e 80 soma 120%, impossível.\n- E) 25 e 5 soma só 55%.\n\n**Para lembrar:** média geral de grupos = média ponderada pelas proporções de cada grupo."
+  },
+  {
    "number": 146,
    "correct": "E",
    "explanation_md": "A ração nova só substitui a atual se o CV dela for menor.\n\nCV atual = 1 ÷ 10 = 0,1\nCV novo = 1,5 ÷ X\n\nCondição: 1,5 ÷ X < 0,1 → X > 1,5 ÷ 0,1 → X > 15\n\nOu seja, como o desvio padrão da nova ração é 50% maior, a média também precisa ser mais de 50% maior para que a dispersão relativa caia.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 5,0 vem de inverter a desigualdade ou dividir errado; com X = 5 o CV seria 0,3.\n- B) 9,5 não sai de nenhuma relação com os dados.\n- C) 10,0 é a média atual; com ela o CV novo seria 0,15, maior que 0,1.\n- D) 10,5 parece somar a diferença dos desvios (0,5) à média; CV ≈ 0,143, ainda maior.\n\n**Para lembrar:** o coeficiente de variação mede a dispersão relativa à média: quanto menor, mais homogêneo."
+  },
+  {
+   "number": 147,
+   "correct": "C",
+   "statement_md": "A Cifra de César é um exemplo de um método de codificação de mensagens usado por Júlio César para se comunicar com seus generais.\n\nNo método, cada letra era trocada por uma letra que aparecia no alfabeto um número fixo de casas adiante (ou atrás) de forma cíclica. A seguir temos um exemplo em que cada letra é substituída pela que vem três posições à frente.\n\n| Original | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Codificado | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | A | B | C |\n\nPara quebrar um código como esse, a análise de frequências das letras de um texto é uma ferramenta importante.\n\nUma análise do texto do romance *O guarani*, de José de Alencar, que é composto por 491 631 letras, gerou o seguinte gráfico de frequências:\n\n![Gráfico de barras da frequência de cada letra (A a Z) em O guarani](/questoes/enem/2021/q147-1.png)\n\n*Disponível em: www.dominiopublico.gov.br. Acesso em: 7 fev. 2015.*\n\nApós codificar esse texto com a regra do exemplo fornecido, faz-se nova análise de frequência no texto codificado.\n\nAs quatro letras mais frequentes, em ordem decrescente de frequência, do texto codificado são",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "A, E, O e S.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "D, E, F e G.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "D, H, R e V.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "R, L, B e X.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "X, B, L e P.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "No gráfico de frequências de *O guarani*, as quatro letras mais frequentes, em ordem decrescente, são:\n\nA (≈ 70 000) > E (≈ 64 000) > O (≈ 52 000) > S (≈ 39 000)\n\nA codificação só troca cada letra por outra (3 posições à frente), sem mudar quantas vezes ela aparece. Então as letras mais frequentes do texto codificado são as substitutas de A, E, O e S, na mesma ordem:\n\nA → D\nE → H\nO → R\nS → V\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A: A, E, O e S são as mais frequentes do texto original, não do codificado.\n- B: D, E, F e G são só as letras que substituem A, B, C e D, sem relação com a frequência.\n- D: R, L, B e X não correspondem ao deslocamento de 3 casas à frente das letras mais frequentes.\n- E: X, B, L e P vêm de deslocar A, E, O e S 3 casas para trás, no sentido errado.\n\n**Para lembrar:** uma cifra de substituição preserva as frequências; só muda qual letra carrega cada frequência."
   },
   {
    "number": 148,
@@ -756,6 +908,12 @@
    "number": 151,
    "correct": "C",
    "explanation_md": "Lendo o histograma, o número de apartamentos em cada faixa (mil reais) é:\n\n]300,400]: 5 | ]400,500]: 10 | ]500,600]: 5 | ]600,700]: 15 | ]700,800]: 20 | ]800,900]: 15 | ]900,1000]: 15 | ]1000,1100]: 10 | ]1100,1200]: 5 | ]1200,1300]: 5\n\nTotal = 105. Metade é 52,5, então precisamos de pelo menos 53 apartamentos abaixo de p. Acumulando:\n\naté 600: 5 + 10 + 5 = 20\naté 700: 20 + 15 = 35\naté 800: 35 + 20 = 55\n\nSó em 800 a contagem acumulada ultrapassa 52,5. Por isso o casal tinha razão: abaixo de 550 mil há no máximo cerca de 17 a 20 imóveis, bem menos que 50%.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Até 600 há só 20 imóveis (≈ 19%).\n- B) Até 700 há 35 imóveis (≈ 33%), ainda menos da metade.\n- D) 900 também satisfaz, mas não é o menor valor.\n- E) 1 000 satisfaz, mas está longe de ser o menor.\n\n**Para lembrar:** para achar onde está a metade dos dados num histograma, use a frequência acumulada."
+  },
+  {
+   "number": 152,
+   "correct": "E",
+   "override_correct": true,
+   "explanation_md": "Primeiro, substitua b = 1 nas operações:\n\na Δ 1 = a² + a − 1\n1 Δ a = 1 + a − a²\n\nA operação estrela pode ser fatorada: x * y = xy + x = x(y + 1). Então:\n\n(a Δ 1) * (1 Δ a) = (a² + a − 1)(1 + a − a² + 1) = (a² + a − 1)(2 + a − a²) = 0\n\nProduto nulo → algum fator é zero:\n\n- a² + a − 1 = 0 → a = (−1 ± √5)/2, ou seja, ≈ 0,618 e ≈ −1,618\n- a² − a − 2 = 0 → a = 2 ou a = −1\n\nAs duas maiores soluções são 2 e (−1 + √5)/2, cuja soma é:\n\n2 + (−1 + √5)/2 = (4 − 1 + √5)/2 = (3 + √5)/2\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) √5 é a diferença entre as raízes do primeiro fator, não uma soma de soluções.\n- B) √3 não aparece em nenhuma raiz.\n- C) √1 = 1 é a soma das raízes do segundo fator (2 + (−1)).\n- D) (−1 + √5)/2 é só a segunda maior raiz; esquece a raiz 2 que vem do segundo fator.\n\n**Para lembrar:** fatore antes de expandir: x·y + x = x(y + 1) reduz tudo a um produto igual a zero."
   },
   {
    "number": 153,
@@ -816,6 +974,39 @@
    "number": 164,
    "correct": "B",
    "explanation_md": "Chame de c, k e s as massas de camiseta, calça e sapato. A tabela dá:\n\n12c + 4k + 3s = 10 (I)\n18c + 3k + 2s = 10 (II)\n\nQueremos 2k + s + n·c = 10. A ideia é combinar as equações para isolar exatamente \"2k + s\". Fazendo 2 × (II) − (I):\n\n36c + 6k + 4s − 12c − 4k − 3s = 20 − 10\n24c + 2k + s = 10\n\nOu seja, duas calças, um sapato e **24 camisetas** completam exatamente 10 kg.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A (22): faltariam 2 camisetas para chegar aos 10 kg.\n- C (26): passaria do limite de 10 kg.\n- D (33) e E (39): resultam de combinações erradas das equações ou de tentar achar cada massa isoladamente (o sistema tem 3 incógnitas e só 2 equações).\n\n**Para lembrar:** com menos equações que incógnitas, procure uma combinação linear das equações que gere exatamente a expressão pedida."
+  },
+  {
+   "number": 165,
+   "correct": "D",
+   "statement_md": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos.\n\nO valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "15,9.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "16,1.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "16,4.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "17,4.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "18,0.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "Desempenho é distância ÷ consumo. Vamos olhar um trecho de 20 km, que é a distância em que a economia é dada.\n\nMotor antigo, a 16 km/L, gasta em 20 km:\n\n20 ÷ 16 = 1,25 L\n\nO novo motor gasta 0,1 L a menos nesses 20 km:\n\n1,25 − 0,1 = 1,15 L\n\nNovo desempenho:\n\n20 ÷ 1,15 ≈ 17,39 → 17,4 km/L\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A (15,9): subtrai 0,1 do próprio desempenho (16 − 0,1), confundindo litros economizados com km/L.\n- B (16,1): soma 0,1 ao desempenho, com a mesma confusão.\n- C (16,4): não segue da relação entre distância e consumo; subestima o efeito da economia.\n- E (18,0): superestima o ganho: 18 km/L exigiria economizar cerca de 0,14 L a cada 20 km (20 ÷ 18 ≈ 1,11 L).\n\n**Para lembrar:** desempenho (km/L) = distância ÷ consumo; calcule primeiro o novo consumo e só depois divida."
   },
   {
    "number": 166,

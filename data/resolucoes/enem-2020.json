@@ -52,8 +52,7 @@
   },
   {
    "number": 5,
-   "correct": "E",
-   "explanation_md": "Questão de espanhol. A expressão \"con pies de plomo\" significa literalmente \"com pés de chumbo\". Quem anda com pés de chumbo pisa devagar, com cautela. Em espanhol, \"ir/entrar con pies de plomo\" quer dizer agir com muito cuidado.\n\nO contexto confirma: os dois deixaram de lado \"el tema de las rentas\" (o assunto dos aluguéis ou rendimentos) para entrar \"en el espinoso terreno de las confidencias\" (\"no terreno espinhoso das confidências\"). Assunto íntimo e delicado (\"espinoso\") pede cuidado.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A: a expressão não indica determinação; indica cautela, quase hesitação.\n- B: não há insensibilidade; o cuidado mostra o contrário.\n- C: as questões financeiras (\"las rentas\") foram justamente deixadas de lado.\n- D: o texto não fala em resolver problemas de família, e sim em trocar confidências.\n\n**Para lembrar:** expressões idiomáticas se entendem pelo contexto: \"espinoso terreno\" já indica que é preciso pisar com cuidado."
+   "annulled": true
   },
   {
    "number": 6,
@@ -701,6 +700,10 @@
    "explanation_md": "Densidade = massa / volume. O volume de cada moeda é o aumento do nível da água na proveta:\n- A: 5 → 7 mL → 2 cm³ → 26 / 2 = 13 g/cm³\n- B: 7 → 10 mL → 3 cm³ → 27 / 3 = 9 g/cm³\n- C: 10 → 12 mL → 2 cm³ → 10 / 2 = 5 g/cm³\n- D: 12 → 16 mL → 4 cm³ → 36 / 4 = 9 g/cm³\n\nSó B e D têm a densidade do cobre (≈ 9 g/cm³), então são as que o investidor compra.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A tem densidade 13 g/cm³, não é cobre puro.\n- B) A (13) e C (5) estão fora de 9 g/cm³.\n- C) C (5 g/cm³) não é cobre.\n- E) C não é cobre.\n\n**Para lembrar:** volume de sólido irregular = volume de líquido deslocado; 1 mL = 1 cm³."
   },
   {
+   "number": 135,
+   "annulled": true
+  },
+  {
    "number": 136,
    "correct": "D",
    "explanation_md": "A bandeira tem proporção fixa: largura = 14M e comprimento = 20M. Para fazer a maior bandeira possível com o tecido verde de 180 cm × 150 cm, o módulo M precisa respeitar as duas medidas:\n\nComprimento: 20M ≤ 180 → M ≤ 9 cm\nLargura: 14M ≤ 150 → M ≤ 10,7 cm\n\nA condição mais restritiva é a do comprimento, então M = 9 cm.\n\nO círculo azul tem raio 3,5M, logo diâmetro 7M = 7 × 9 = 63 cm. O menor quadrado de tecido que contém esse círculo tem lado igual ao diâmetro: 63 cm.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A (27): equivale a 3 módulos (3 × 9), sem relação com o diâmetro de 7 módulos.\n- B (32): é aproximadamente o raio (3,5 × 9 = 31,5), mas o quadrado precisa caber o círculo inteiro, ou seja, o diâmetro.\n- C (53): não corresponde a 7M para nenhum módulo coerente com o tecido.\n- E (90): é o comprimento de 10 módulos; confunde a medida do círculo.\n\n**Para lembrar:** quando as duas dimensões limitam uma figura proporcional, vale a restrição mais apertada."
@@ -719,6 +722,39 @@
    "number": 139,
    "correct": "C",
    "explanation_md": "Eficiência = peças produzidas ÷ horas trabalhadas. Lendo os dois gráficos e dividindo dia a dia:\n\nDia 1: 800 ÷ 4 = 200\nDia 2: 1 000 ÷ 8 = 125\nDia 3: 1 100 ÷ 5 = 220\nDia 4: 1 800 ÷ 9 = 200\nDia 5: 1 400 ÷ 10 = 140\n\nA maior razão é a do dia 3 (220 peças por hora).\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A (dia 1): 200 peças/h, bom, mas abaixo do dia 3.\n- B (dia 2): 125 peças/h, a pior eficiência.\n- D (dia 4): maior produção total, mas com muitas horas; 200 peças/h. Pegadinha de olhar só a produção.\n- E (dia 5): 140 peças/h.\n\n**Para lembrar:** eficiência é razão; não basta olhar o maior valor absoluto."
+  },
+  {
+   "number": 140,
+   "correct": "C",
+   "statement_md": "O proprietário de um apartamento decidiu instalar porcelanato no piso da sala. Essa sala tem formato retangular com 3,2 m de largura e 3,6 m de comprimento. As peças do porcelanato têm formato de um quadrado com lado medindo 80 cm. Esse porcelanato é vendido em dois tipos de caixas, com os preços indicados a seguir.\n\n*   Caixas do tipo A: 4 unidades de piso, R$ 35,00;\n*   Caixas do tipo B: 3 unidades de piso, R$ 27,00.\n\nNa instalação do porcelanato, as peças podem ser recortadas e devem ser assentadas sem espaçamento entre elas, aproveitando-se ao máximo os recortes feitos.\n\nA compra que atende às necessidades do proprietário, proporciona a menor sobra de pisos e resulta no menor preço é",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "5 caixas do tipo A.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "1 caixa do tipo A e 4 caixas do tipo B.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "3 caixas do tipo A e 2 caixas do tipo B.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "5 caixas do tipo A e 1 caixa do tipo B.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "6 caixas do tipo B.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "Primeiro, quantas peças a sala exige. Cada peça tem 80 cm = 0,8 m de lado:\n\n3,2 ÷ 0,8 = 4 peças na largura\n3,6 ÷ 0,8 = 4,5 peças no comprimento\n\nSão 4 × 4 = 16 peças inteiras mais uma faixa de 4 meias peças. Como os recortes são aproveitados ao máximo, cada peça cortada ao meio rende duas metades, então essa faixa usa 2 peças. Total: 18 peças (confere com a área: 11,52 m² ÷ 0,64 m² = 18).\n\nAgora, as compras que dão exatamente 18 peças (sobra zero):\n- 3 caixas A + 2 caixas B: 12 + 6 = 18 peças → 3 × 35 + 2 × 27 = 105 + 54 = R$ 159,00\n- 6 caixas B: 18 peças → 6 × 27 = R$ 162,00\n\nCom a mesma sobra (nenhuma), a mais barata é 3 caixas do tipo A e 2 do tipo B.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A: 20 peças por R$ 175,00 – atende, mas sobram 2 peças e é mais cara.\n- B: só 4 + 12 = 16 peças, não cobre a sala (erro de esquecer a faixa de meias peças).\n- D: 23 peças por R$ 202,00 – sobram 5 peças e é a mais cara.\n- E: 18 peças sem sobra, mas custa R$ 162,00, mais que os R$ 159,00 da alternativa C.\n\n**Para lembrar:** quando os recortes são aproveitados, a quantidade de peças é a área total dividida pela área de cada peça."
   },
   {
    "number": 141,
@@ -797,8 +833,7 @@
   },
   {
    "number": 157,
-   "correct": "B",
-   "explanation_md": "Pense na ordem em que as 10 pessoas são presenteadas como uma fila aleatória. A primeira a revelar é sorteada entre as 10, e a última a ser presenteada é uma das outras 9.\n\nPara o evento ocorrer:\n1. A primeira a revelar deve ser alguém do casal: probabilidade 2/10.\n2. A última presenteada deve ser exatamente o outro cônjuge, entre as 9 pessoas restantes: probabilidade 1/9.\n\nP = 2/10 × 1/9 = 2/90 = 1/45\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A (1/5): é só a chance de a primeira pessoa ser do casal (2/10).\n- C (1/50): usa 1/10 × 2/10, como se a escolha fosse com reposição.\n- D (1/90): conta só uma ordem (por exemplo, marido primeiro e esposa por último), esquecendo a inversa.\n- E (1/100): 1/10 × 1/10, ignorando que são duas pessoas e que não há reposição.\n\n**Para lembrar:** em eventos sucessivos sem reposição, o denominador diminui a cada etapa."
+   "annulled": true
   },
   {
    "number": 158,

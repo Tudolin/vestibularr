@@ -639,7 +639,35 @@
   {
    "number": 124,
    "correct": "B",
-   "explanation_md": "Na transesterificação, um éster reage com um **álcool** e troca a parte alcoólica: forma-se um novo éster e um novo álcool.\n\nCompare os produtos: o PET tinha a parte alcoólica vinda do etanodiol (–O–CH₂–CH₂–O–). No produto, o tereftalato aparece como –COOCH₃, ou seja, ligado a grupos **metila**. Esses grupos –OCH₃ vieram do reagente A, e o etanodiol foi liberado. Então A tem que ser o álcool CH₃OH: o **metanol** (2n mols, um para cada grupo éster).\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A (metano): é um hidrocarboneto, sem grupo –OH para reagir com o éster.\n- C (éter metílico): éter não tem hidrogênio no oxigênio; não faz transesterificação.\n- D e E (ácido etanoico): um ácido não forneceria o grupo –OCH₃ e geraria outro produto.\n\n**Para lembrar:** transesterificação = éster + álcool → novo éster + novo álcool (é a base da produção de biodiesel)."
+   "statement_md": "Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.\n\n![Esquema: PET + 2n A, sob altas temperaturas e pressão, forma n tereftalato de metila (benzeno com dois grupos COOCH₃) + n etanodiol (HO–CH₂–CH₂–OH)](/questoes/enem/2019/q124-1.png)\n\nO composto **A**, representado no esquema de reação, é o",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "metano.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "metanol.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "éter metílico.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "ácido etanoico.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "anidrido etanoico.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "Na transesterificação, um éster reage com um **álcool** e troca a parte alcoólica: forma-se um novo éster e um novo álcool.\n\nCompare os produtos: no PET, a parte alcoólica dos ésteres vem do etanodiol (–O–CH₂–CH₂–O–). No produto, o tereftalato aparece como –COOCH₃, ou seja, ligado a grupos **metila**. Esses grupos –OCH₃ vieram do reagente A, e o etanodiol foi liberado. Então A tem de ser o álcool CH₃OH: o **metanol** (2n mols, um para cada grupo éster da unidade do polímero).\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A (metano): é um hidrocarboneto, sem grupo –OH para reagir com o éster.\n- C (éter metílico): éter não tem hidrogênio ligado ao oxigênio; não faz transesterificação.\n- D (ácido etanoico): um ácido não forneceria o grupo –OCH₃; geraria outro produto.\n- E (anidrido etanoico): reagiria como agente de acetilação, introduzindo grupos acetila, e não metila.\n\n**Para lembrar:** transesterificação = éster + álcool → novo éster + novo álcool (é a base da produção de biodiesel)."
   },
   {
    "number": 125,
@@ -740,6 +768,39 @@
    "number": 145,
    "correct": "C",
    "explanation_md": "A coroa (pedais) puxa a corrente; numa volta do pedal passa sempre o mesmo comprimento de corrente. Esse comprimento faz a catraca girar um número de voltas inversamente proporcional ao seu perímetro (e, portanto, ao diâmetro). Como a catraca é presa à roda, avançar 50% a mais significa a roda girar 1,5 vez mais, ou seja, a catraca nova deve ter diâmetro 1,5 vez menor:\n\nd × 1,5 = 7\nd = 7 ÷ 1,5 ≈ 4,67 ≈ 4,7 cm\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A: 2,3 ≈ 7 ÷ 3; seria para triplicar o avanço.\n- B: 3,5 = 7 ÷ 2; dobraria o avanço (100% a mais).\n- D: 5,3 ≈ 7 – 7 × 0,25; subtração percentual sem sentido aqui.\n- E: 10,5 = 7 × 1,5; aumentar a catraca faz a bicicleta avançar menos (proporção inversa, não direta).\n\n**Para lembrar:** em engrenagens ligadas por corrente, número de voltas e diâmetro são inversamente proporcionais."
+  },
+  {
+   "number": 146,
+   "correct": "A",
+   "statement_md": "O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população:\n\n- Alerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será inferior a 10 °C, e a umidade relativa do ar for inferior a 40%;\n- Alerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve variar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%;\n- Alerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%.\n\nUm resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico.\n\n![Gráfico com a temperatura (°C, linha contínua) e a umidade relativa do ar (%, linha pontilhada) previstas para os dias 1 a 15](/questoes/enem/2019/q146-1.png)\n\nDecorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:\n\n- Dia 1: alerta cinza;\n- Dia 12: alerta laranja;\n- Dia 13: alerta vermelho.\n\nEm qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "1",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "12",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "1 e 12",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "1 e 13",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "1, 12 e 13",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "Cada alerta exige **duas condições ao mesmo tempo** (temperatura **e** umidade). Basta ler no gráfico os pontos dos dias citados (linha contínua = temperatura, eixo da esquerda; linha pontilhada = umidade, eixo da direita):\n\n- Dia 1: temperatura ≈ 6 °C (< 10 °C) e umidade ≈ 35% (< 40%) → alerta cinza **correto**.\n- Dia 12: temperatura = 40 °C e umidade = 20%. A umidade serve (< 30%), mas a temperatura cai exatamente em 40 °C, no limite da faixa; lendo \"variar entre 35 °C e 40 °C\" de forma estrita (como nos outros critérios, que usam \"inferior\" e \"superior\"), 40 °C não está entre 35 °C e 40 °C → alerta laranja **incorreto**. (E também não é vermelho, pois 40 °C não é superior a 40 °C.)\n- Dia 13: temperatura ≈ 42 °C (> 40 °C), mas umidade = 40%, bem acima de 25% → alerta vermelho **incorreto**.\n\nSó o aviso do dia 1 foi emitido corretamente.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B: o dia 12 tem temperatura exatamente no limite de 40 °C, não estritamente entre 35 °C e 40 °C.\n- C: inclui o dia 12, que não cumpre a faixa de temperatura do alerta laranja.\n- D: no dia 13 a umidade é 40%, e o vermelho exige menos de 25%.\n- E: olha só a temperatura; nos dias 12 e 13 uma das condições falha.\n\n**Para lembrar:** com o conectivo \"e\", todas as condições têm de valer juntas; atenção também aos valores que caem exatamente no limite."
   },
   {
    "number": 147,

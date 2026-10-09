@@ -1,10 +1,11 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { isLocalImage } from "@/lib/local-image";
 import { cn } from "@/lib/utils";
 
 /**
  * Renderiza markdown de enunciados. react-markdown não interpreta HTML cru, e o
- * urlTransform padrão bloqueia `javascript:`; ainda assim só liberamos imagens http(s).
+ * urlTransform padrão bloqueia `javascript:`; ainda assim só liberamos imagens http(s) ou do próprio app (/questoes/).
  */
 export function Markdown({ children, className }: { children: string; className?: string }) {
   return (
@@ -13,7 +14,7 @@ export function Markdown({ children, className }: { children: string; className?
         remarkPlugins={[remarkGfm]}
         components={{
           img: ({ src, alt }) =>
-            typeof src === "string" && /^https?:\/\//i.test(src) ? (
+            typeof src === "string" && (/^https?:\/\//i.test(src) || isLocalImage(src)) ? (
               // eslint-disable-next-line @next/next/no-img-element -- imagens externas de provas; sem otimizador
               <img src={src} alt={alt ?? ""} loading="lazy" className="mx-auto max-h-[28rem] max-w-full rounded-control bg-white" />
             ) : null,

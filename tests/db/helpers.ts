@@ -7,12 +7,17 @@ export const TEST_DB_URL =
 
 const root = join(__dirname, "../../supabase");
 
-/** Recria o banco do zero: shim do Supabase + todas as migrations em ordem. */
-export async function resetDb(admin: Client) {
+/**
+ * Recria o banco do zero: shim do Supabase + todas as migrations em ordem.
+ * Os dados de teste não têm resolução; por isso o filtro "só questões com solução" vem desligado,
+ * exceto quando o teste pede `onlySolved: true`.
+ */
+export async function resetDb(admin: Client, opts: { onlySolved?: boolean } = {}) {
   await admin.query("drop schema if exists public cascade; drop schema if exists auth cascade; create schema public;");
   await admin.query(readFileSync(join(root, "tests/shim.sql"), "utf8"));
   const files = readdirSync(join(root, "migrations")).filter((f) => f.endsWith(".sql")).sort();
   for (const f of files) await admin.query(readFileSync(join(root, "migrations", f), "utf8"));
+  if (!opts.onlySolved) await admin.query("update public.settings set value = 'false' where key = 'only_solved_questions'");
 }
 
 export async function connect() {

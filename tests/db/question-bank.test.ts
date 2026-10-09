@@ -116,7 +116,7 @@ describe("apply_explanations", () => {
       { number: 99, correct: "A", explanation_md: "não existe" },
     ] })])).rows[0].r;
     await c.query("commit");
-    expect(r).toEqual({ updated: 2, missing: ["99"], mismatch: ["1 (banco C, arquivo E)"] });
+    expect(r).toEqual({ updated: 2, fixed: 0, annulled: 0, missing: ["99"], mismatch: ["1 (banco C, arquivo E)"] });
     expect(await expl(2, null)).toBe("Q2 resolvida");
     expect(await expl(1, "ingles")).toBe("inglês resolvida");
     expect(await expl(1, "espanhol")).toBeNull();

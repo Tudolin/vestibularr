@@ -74,3 +74,13 @@ export async function deleteQuestionAction(id: string): Promise<ActionResult> {
   revalidatePath("/admin/questoes");
   return { ok: true };
 }
+
+/** Liga/desliga "alunos só veem questões com resolução" (configuração only_solved_questions). */
+export async function setOnlySolvedAction(on: boolean): Promise<ActionResult> {
+  await requireAdmin();
+  if (typeof on !== "boolean") return { ok: false, error: "Valor inválido." };
+  const { error } = await (await createClient()).from("settings").update({ value: on }).eq("key", "only_solved_questions");
+  if (error) return { ok: false, error: "Não foi possível salvar." };
+  revalidatePath("/", "layout");
+  return { ok: true, data: undefined };
+}

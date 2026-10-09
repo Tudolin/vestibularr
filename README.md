@@ -60,16 +60,24 @@ As imagens ficam hospedadas nas fontes (enem.dev e GitHub); se saírem do ar, ap
 **2024:** a fonte só tem a versão de inglês da língua estrangeira e a questão 124 está anulada (pulada).
 **ENEM 2025:** não há dataset aberto. Opções: importar você mesmo (JSON/CSV) ou usar a extração por IA a partir do PDF oficial do INEP (planejada para depois da Fase 4, quando o Gemini estiver configurado).
 
-**Resoluções comentadas** (ENEM 2020–2024, 891 questões; ficam versionadas em `data/resolucoes/enem-<ano>.json`; escritas com auxílio de IA, uma por
-questão, resolvendo antes de olhar o gabarito e conferindo depois):
+**Resoluções comentadas** (ENEM 2019–2024, todas as questões válidas; versionadas em `data/resolucoes/enem-<ano>.json`;
+escritas com auxílio de IA, uma por questão, resolvendo antes de olhar o gabarito e conferindo depois):
 
 ```bash
 npm run seed:resolucoes                  # aplica todos os anos disponíveis
 npm run seed:resolucoes -- --years 2023  # só um ano
 ```
-Precisa da migration `0007` aplicada. Só grava quando o gabarito do arquivo bate com o do banco (divergências e questões
-ausentes são listadas). Rodar de novo é seguro, e o `seed:enem` não apaga mais as resoluções existentes.
-Questões sem resolução no arquivo são as que dependem de imagem ausente na fonte ou têm enunciado incompleto.
+Precisa das migrations `0007` e `0008`. Só grava quando o gabarito bate com o do banco (divergências e ausentes são listados).
+Os arquivos também trazem **correções conferidas no PDF oficial do INEP** (cadernos 1 e 7 e gabaritos): enunciados e
+alternativas que vieram truncados ou trocados da fonte, figuras recortadas do PDF (em `public/questoes/`), gabaritos errados no
+enem.dev (2021: 15, 25, 38, 53, 139, 145, 152; 2022: 143) e questões anuladas (desativadas). O `seed:enem` aplica as mesmas
+correções, então rodar de novo não traz os defeitos de volta nem apaga resoluções. Ordem recomendada:
+`seed:enem` → `seed:resolucoes`.
+**2024:** a fonte numera as questões por outro caderno; conteúdo e gabarito estão corretos, só a numeração difere do caderno 1/7.
+
+**Só questões com resolução:** com a configuração `only_solved_questions` ligada (padrão), alunos só veem e sorteiam questões
+com resolução comentada (ou espelho, nas discursivas) — no banco, na busca, nos simulados, treinos e revisões. Questões de
+tentativas antigas continuam visíveis no histórico. O admin vê tudo e liga/desliga em **Administração → Questões**.
 
 **Importar provas** (admin → Importar, ou aluno → Estudar → Enviar prova, que passa pela aprovação do admin):
 arquivos `.json` ou `.csv`; exemplos em `public/exemplo-importacao.json|csv`. A prévia mostra erros por questão antes de gravar.

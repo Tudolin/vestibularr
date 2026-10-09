@@ -748,6 +748,78 @@
    "explanation_md": "Use o princípio multiplicativo.\n\n- Modelos: 7\n- Motores: 2\n- Opcionais: cada um dos 3 pode entrar ou não, então são 2 × 2 × 2 = 8 possibilidades (incluindo \"nenhum\").\n\nSem contar a cor: 7 × 2 × 8 = 112 configurações.\n\nCom c cores, são 112 × c configurações, e é preciso ter **mais de 1 000**:\n\n- 112 × 8 = 896 (não basta)\n- 112 × 9 = 1 008 (basta)\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A (8): dá só 896 configurações.\n- C (11): esquece a opção \"nenhum opcional\" (7 × 2 × 7 = 98; 98 × 11 = 1 078).\n- D (18): esquece o fator dos 2 motores (7 × 8 = 56; 56 × 18 = 1 008).\n- E (24): esquece os motores e conta só 6 combinações de opcionais (7 × 6 = 42; 42 × 24 = 1 008).\n\n**Para lembrar:** com n itens que podem ou não ser incluídos, há 2ⁿ escolhas, contando \"nenhum\"."
   },
   {
+   "number": 143,
+   "correct": "D",
+   "override_correct": true,
+   "explanation_md": "Para resolver, numere as faces da planificação: na linha de cima, F1 (esquerda) e F2; na do meio, F3 e F4; na de baixo, F5 e F6 (direita).\n\nDobrando com F3 como base, temos F2 = fundo, F1 = lateral esquerda, F4 = lateral direita, F5 = frente e F6 = tampa (topo).\n\nOs três quadradinhos ficam em três faces que se encontram num mesmo vértice do cubo. Em todas as alternativas, dois deles estão no canto comum superior de F1 e F2. Esse canto é o vértice \"fundo–esquerda–topo\". Agora é preciso achar o canto de F6 (o topo) que cai nesse mesmo vértice.\n\nA aresta superior de F2 (fundo) cola na aresta **direita** de F6. O canto superior esquerdo de F2 corresponde ao canto **inferior direito** de F6. Já o canto superior direito de F6 vai para o vértice \"fundo–direita–topo\", que não pertence a F1.\n\nPor essa dobradura, o terceiro quadrado deveria estar no canto inferior direito do último quadrado, como na alternativa D.\n\n**Resposta: D** (pela dobradura; ver observação)\n\n**Por que não as outras:**\n- B: o quadrado em F4 (lateral direita) não toca o vértice comum de F1 e F2.\n- C: o quadrado em F5 (frente) fica no vértice frente–esquerda–base.\n- E: o quadrado em F5 fica no vértice frente–direita–base.\n\n**Para lembrar:** numere as faces e dobre uma de cada vez, acompanhando qual aresta cola em qual."
+  },
+  {
+   "number": 144,
+   "correct": "C",
+   "statement_md": "Cada número que identifica uma agência bancária tem quatro dígitos: N1, N2, N3, N4 mais um dígito verificador N5.\n\n| N1 | N2 | N3 | N4 | – | N5 |\n|---|---|---|---|---|---|\n\nTodos esses dígitos são números naturais pertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Para a determinação de N5, primeiramente multiplica-se ordenadamente os quatro primeiros dígitos do número da agência por 5, 4, 3 e 2, respectivamente, somam-se os resultados e obtém-se S = 5N1 + 4N2 + 3N3 + 2N4. Posteriormente, encontra-se o resto da divisão de S por 11, denotando por R esse resto. Dessa forma, N5 é a diferença 11 − R.\n\nConsidere o número de uma agência bancária cujos quatro primeiros dígitos são 0100.\n\nQual é o dígito verificador N5 dessa agência bancária?",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "0",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "6",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "7",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "8",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "9",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "Basta aplicar o algoritmo com N1 = 0, N2 = 1, N3 = 0 e N4 = 0, respeitando a ordem dos pesos 5, 4, 3 e 2:\n\nS = 5 × 0 + 4 × 1 + 3 × 0 + 2 × 0 = 4\n\nO resto da divisão de 4 por 11 é o próprio 4 (4 = 0 × 11 + 4), então R = 4.\n\nN5 = 11 − R = 11 − 4 = 7\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A (0): confunde N5 com o quociente da divisão (4 ÷ 11 dá quociente 0) ou supõe S múltiplo de 11.\n- B (6): sairia de S = 5, multiplicando o dígito 1 pelo peso 5 (como se fosse o primeiro dígito).\n- D (8): sairia de S = 3, usando os pesos em ordem invertida (2, 3, 4, 5).\n- E (9): sairia de S = 2, multiplicando o dígito 1 pelo peso 2.\n\n**Para lembrar:** em dígito verificador, cada peso vai para a posição indicada; trocar a ordem muda o resultado."
+  },
+  {
+   "number": 145,
+   "correct": "E",
+   "statement_md": "O pacote básico de um jogo para smartphone, que é vendido a R$ 50,00, contém 2 000 gemas e 100 000 moedas de ouro, que são itens utilizáveis nesse jogo.\n\nA empresa que comercializa esse jogo decidiu criar um pacote especial que será vendido a R$ 100,00 e que se diferenciará do pacote básico por apresentar maiores quantidades de gemas e moedas de ouro. Para estimular as vendas desse novo pacote, a empresa decidiu inserir nele 6 000 gemas a mais, em relação ao que o cliente teria caso optasse por comprar, com a mesma quantia, dois pacotes básicos.\n\nA quantidade de moedas de ouro que a empresa deverá inserir ao pacote especial, para que seja mantida a mesma proporção existente entre as quantidades de gemas e de moedas de ouro contidas no pacote básico, é",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "50 000.",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "100 000.",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "200 000.",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "300 000.",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "400 000.",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "A ideia-chave é a proporção do pacote básico: 2 000 gemas para 100 000 moedas, ou seja, 50 moedas para cada gema.\n\nA alternativa esperada considera que o pacote especial passa a ter 8 000 gemas (as 2 000 do pacote básico mais 6 000 gemas extras). Mantendo a proporção:\n\n8 000 × 50 = 400 000 moedas\n\nAtenção: numa leitura estritamente literal do texto (6 000 gemas a mais do que os dois pacotes básicos, que somam 4 000), o pacote teria 10 000 gemas e 500 000 moedas, valor que não aparece entre as opções. Por isso, a única alternativa coerente com a proporção 1 gema : 50 moedas e com um pacote maior que dois básicos é a E.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A (50 000): metade do pacote básico; não faz sentido para um pacote maior.\n- B (100 000): é só a quantidade de moedas do pacote básico.\n- C (200 000): corresponde a dois pacotes básicos, sem o bônus de gemas.\n- D (300 000): são apenas as moedas proporcionais às 6 000 gemas extras (6 000 × 50).\n\n**Para lembrar:** manter a proporção é manter constante a razão moedas/gemas (aqui, 50 para 1)."
+  },
+  {
    "number": 146,
    "correct": "E",
    "explanation_md": "Chame de a o comprimento do circuito maior e de b o do menor. O enunciado dá:\n\n3a + 2b = 1 800\n2a + b = 1 100\n\nDa segunda equação, b = 1 100 − 2a. Substituindo na primeira:\n\n3a + 2 200 − 4a = 1 800 → a = 400 m, b = 300 m\n\nNo segundo dia: 400x + 300y = 5 000, ou seja, 4x + 3y = 50, com x e y inteiros e x + y o maior possível. Para ter mais voltas, convém usar o circuito **menor** o máximo de vezes:\n\n- y = 16: 3 × 16 = 48 → sobram 2, que não é múltiplo de 4.\n- y = 15: sobram 5, não serve.\n- y = 14: sobram 8 → x = 2. Serve!\n\nTotal: 2 + 14 = 16 voltas.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A (10): nem é uma solução possível; até priorizando o circuito maior (x = 11, y = 2) dá 13 voltas.\n- B (13): corresponde a x = 11 e y = 2, priorizando o circuito maior.\n- C (14): corresponde a x = 8 e y = 6.\n- D (15): corresponde a x = 5 e y = 10, que não é o máximo.\n\n**Para lembrar:** para maximizar o número de voltas, priorize o circuito mais curto."
@@ -778,6 +850,39 @@
    "explanation_md": "Perda de massa: 1,5 kg por hora de atividade. Água recomendada: 40% a mais do que a massa perdida (1 L de água = 1 kg).\n\nPara t horas de atividade:\n\nágua = 1,4 × 1,5 × t = 2,1t litros\n\nCom 1,7 L de água:\n\n2,1t = 1,7 → t = 1,7/2,1 ≈ 0,81 h\n\nEm minutos: 0,81 × 60 ≈ 48,6 min.\n\nEsse tempo está entre 45 e 55 minutos.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A (30 min ou menos): exigiria no máximo 1,05 L de água.\n- B (35 a 45 min): subestima o tempo, por exemplo aplicando 40% de forma errada.\n- D (60 a 70 min): sai ao ignorar os 40% a mais (1,7/1,5 ≈ 1,13 h ≈ 68 min).\n- E (70 min ou mais): superestima o tempo, por exemplo dividindo em vez de multiplicar por 1,4.\n\n**Para lembrar:** \"40% a mais\" significa multiplicar por 1,4."
   },
   {
+   "number": 152,
+   "correct": "C",
+   "statement_md": "Em uma sala de cinema, para garantir que os espectadores vejam toda a imagem projetada na tela, a disposição das poltronas deve obedecer à norma técnica da Associação Brasileira de Normas Técnicas (ABNT), que faz as seguintes indicações:\n\n- Distância mínima (Dmín) entre a tela de projeção e o encosto da poltrona da primeira fileira deve ser de, pelo menos, 60% da largura (L) da tela.\n- Distância máxima (Dmáx) entre a tela de projeção e o encosto da poltrona da última fileira deve ser o dobro da largura (L) da tela, sendo aceitável uma distância de até 2,9 vezes a largura (L) da tela.\n\nPara o espaçamento entre as fileiras de poltronas, é considerada a distância de 1 metro entre os encostos de poltronas em duas fileiras consecutivas.\n\n*Disponível em: www.ctav.gov.br. Acesso em: 14 nov. 2013.*\n\nUma sala de cinema, cuja largura da tela mede 12 m, está montada em conformidade com as normas da ABNT e tem suas dimensões especificadas na figura.\n\n![Planta da sala com Dmín = 0,6L, Dmáx = 2L, Daceitável = 2,9L e fileiras espaçadas de 1 m](/questoes/enem/2022/q152-1.png)\n\nPretende-se ampliar essa sala, mantendo-se na mesma posição a tela e todas as poltronas já instaladas, ampliando-se ao máximo a sala para os fundos (área de instalação de novas poltronas), respeitando-se o limite aceitável da norma da ABNT. A intenção é aumentar, ao máximo, a quantidade de poltronas da sala, instalando-se novas unidades, iguais às já instaladas.\n\nQuantas fileiras de poltronas a sala comportará após essa ampliação?",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "26",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "27",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "28",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "29",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "35",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "Com L = 12 m, a primeira fileira está na distância mínima e a última pode ir até o limite aceitável:\n\n- Primeira fileira: 0,6 × 12 = 7,2 m da tela\n- Limite aceitável: 2,9 × 12 = 34,8 m da tela\n\nAs fileiras ficam de 1 em 1 metro a partir de 7,2 m: 7,2; 8,2; 9,2; ... A última precisa satisfazer 7,2 + k ≤ 34,8, ou seja, k ≤ 27,6. Logo k = 27 intervalos inteiros, e a última fileira fica em 34,2 m.\n\nNúmero de fileiras = número de intervalos + 1 = 27 + 1 = 28.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A (26): erra a contagem para menos, descontando uma fileira a mais.\n- B (27): conta só os intervalos de 1 m e esquece a primeira fileira.\n- D (29): arredonda 27,6 para cima, colocando a última fileira além de 34,8 m.\n- E (35): divide 34,8 m por 1 m e arredonda, ignorando que a primeira fileira começa em 7,2 m.\n\n**Para lembrar:** em fileiras igualmente espaçadas, nº de fileiras = nº de intervalos + 1."
+  },
+  {
    "number": 153,
    "correct": "C",
    "explanation_md": "O volume do cone é V = (1/3)πr²h. Como a altura continua 10 cm, o volume é proporcional a r².\n\nO novo volume é 19% menor, isto é, 81% do original:\n\nr'² = 0,81 × r²\n\nr' = √0,81 × r = 0,9 × r\n\nO raio original é metade do diâmetro: r = 8/2 = 4 cm.\n\nr' = 0,9 × 4 = 3,6 cm\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A (1,52): calcula 19% de 8 (o diâmetro), ou outra conta sem sentido.\n- B (3,24): faz 0,81 × 4, esquecendo a raiz quadrada.\n- D (6,48): faz 0,81 × 8, usando o diâmetro e sem a raiz.\n- E (7,20): faz 0,9 × 8, ou seja, dá o novo diâmetro em vez do raio.\n\n**Para lembrar:** com a altura fixa, o volume do cone varia com o quadrado do raio."
@@ -799,8 +904,7 @@
   },
   {
    "number": 157,
-   "correct": "E",
-   "explanation_md": "O salário é a parte fixa (675) mais a comissão, que muda depois da 50ª peça.\n\n**Até 50 peças (q ≤ 50):**\n\nS(q) = 675 + 5q\n\n**Acima de 50 peças (q > 50):** as 50 primeiras rendem 5 × 50 = 250 reais, e as q − 50 restantes rendem 7 reais cada.\n\nS(q) = 675 + 250 + 7(q − 50) = 925 + 7q − 350 = 575 + 7q\n\nA única alternativa com a expressão correta para q > 50 (575 + 7q) é a E.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A (675 + 12q): soma as duas comissões (5 + 7) como se valessem para todas as peças.\n- B (325 + 12q): mesmo erro de somar as comissões, com ajuste errado na parte fixa.\n- C (675 + 7q): aplica 7 reais a todas as peças.\n- D (925 + 7q): esquece de descontar as 50 peças já pagas a 5 reais, ou seja, não subtrai 7 × 50 = 350.\n\n**Para lembrar:** em funções por partes, a segunda parte deve continuar de onde a primeira parou (em q = 50, as duas dão 925)."
+   "annulled": true
   },
   {
    "number": 158,
@@ -841,6 +945,39 @@
    "number": 165,
    "correct": "A",
    "explanation_md": "Trabalhe em dias terrestres:\n- 1 ano de Z: como 2 anos de Z = 1 ano terrestre = 365 dias, então 1 ano de Z = 365 ÷ 2 = 182,5 dias terrestres.\n- 1 dia de Z = 73 dias terrestres.\n\nQuantos dias de Z cabem em um ano de Z:\n182,5 ÷ 73 = **2,5**\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B (10,0): 730 ÷ 73, usando que um ano de Z é o dobro (e não a metade) do ano terrestre.\n- C (730,0): 365 × 2, sem converter para dias de Z.\n- D (13 322,5): 182,5 × 73, multiplicando em vez de dividir.\n- E (53 290,0): 730 × 73, os dois erros juntos.\n\n**Para lembrar:** em mudança de unidade, divida a duração pelo tamanho da nova unidade."
+  },
+  {
+   "number": 166,
+   "correct": "A",
+   "statement_md": "Em uma competição de velocidade, diz-se que há uma ultrapassagem quando um veículo que está atrás de outro passa à sua frente, com ambos se deslocando no mesmo sentido. Considere uma competição automobilística entre cinco carros em uma pista com 100 m de comprimento, onde todos largam no mesmo instante e da mesma linha.\n\nO gráfico mostra a variação da distância percorrida por cada veículo, em função do tempo, durante toda a competição.\n\n![Gráfico distância (m) × tempo (s) com cinco curvas partindo da origem; a reta chega a 100 m em 15 s](/questoes/enem/2022/q166-1.png)\n\nQual o número de ultrapassagens, após o início da competição, efetuadas pelo veículo que chegou em último lugar?",
+   "alternatives": [
+    {
+     "label": "A",
+     "text_md": "0",
+     "image_url": null
+    },
+    {
+     "label": "B",
+     "text_md": "1",
+     "image_url": null
+    },
+    {
+     "label": "C",
+     "text_md": "2",
+     "image_url": null
+    },
+    {
+     "label": "D",
+     "text_md": "3",
+     "image_url": null
+    },
+    {
+     "label": "E",
+     "text_md": "4",
+     "image_url": null
+    }
+   ],
+   "explanation_md": "No gráfico distância × tempo, quem está mais alto num instante está à frente. Uma ultrapassagem aparece como um cruzamento em que uma curva passa de baixo para cima de outra.\n\nO último colocado é o carro que demora mais para atingir 100 m: o da reta preta, que chega em 15 s (velocidade constante). Essa reta cruza duas curvas que começam devagar (as que \"abrem para cima\"). Antes de cada cruzamento, a reta está acima dessas curvas (o carro da reta está à frente); depois, fica abaixo. Ou seja, nesses encontros ele é ultrapassado, não ultrapassa. Os outros dois carros ficam sempre acima da reta.\n\nPortanto, o carro que chegou em último não efetuou nenhuma ultrapassagem.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B (1): conta uma das vezes em que a reta é cruzada, confundindo ser ultrapassado com ultrapassar.\n- C (2): conta os dois cruzamentos da reta, que são ultrapassagens sofridas.\n- D (3): soma cruzamentos entre outros carros, que não envolvem o último colocado.\n- E (4): conta todos os carros à frente dele, sem analisar cruzamentos.\n\n**Para lembrar:** em posição × tempo, ultrapassar é passar de baixo para cima de outra curva."
   },
   {
    "number": 167,

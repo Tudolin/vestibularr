@@ -12,7 +12,8 @@
  * Observações: a API informa a ÁREA (não a disciplina/assunto) e não traz resolução comentada.
  * Questões anuladas (sem gabarito) são puladas e listadas no final.
  */
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
 import { createClient } from "@supabase/supabase-js";
 import type { z } from "zod";
 import { validateBundle, type questionSchema } from "../src/lib/import/schema";
@@ -181,6 +182,7 @@ for (const year of years) {
     });
     byDay.set(day, arr);
   }
+  applyFixes(year, byDay);
   for (const [day, questions] of byDay) {
     exams.push({ name: `ENEM ${year} — Dia ${day}`, year, day: String(day), format: formatOf(year, day), questions });
   }
@@ -191,6 +193,30 @@ for (const year of years) {
     .join(" · ");
   const lem = (l: string) => all.filter((q) => q.language === l).length;
   console.log(`${year}: ${list.length} baixadas | sem idioma: ${cov} | inglês ${lem("ingles")}/5 · espanhol ${lem("espanhol")}/5`);
+}
+
+/**
+ * Correções conferidas no PDF oficial do INEP (data/resolucoes/enem-<ano>.json): enunciado/alternativas,
+ * gabarito errado na fonte e questões anuladas. Assim, rodar o seed de novo não traz os defeitos de volta.
+ */
+function applyFixes(year: number, byDay: Map<1 | 2, QuestionInput[]>) {
+  const file = join(import.meta.dirname, "..", "data", "resolucoes", `enem-${year}.json`);
+  if (!existsSync(file)) return;
+  type Fix = { number: number; language?: string; annulled?: boolean; override_correct?: boolean; correct?: string;
+    statement_md?: string; alternatives?: { label: string; text_md: string; image_url: string | null }[] };
+  const fixes = new Map((JSON.parse(readFileSync(file, "utf8")).items as Fix[]).map((f) => [`${f.number}|${f.language ?? ""}`, f]));
+  for (const [day, arr] of byDay) {
+    byDay.set(day, arr.flatMap((q) => {
+      const f = fixes.get(`${q.number}|${q.language ?? ""}`);
+      if (!f) return [q];
+      if (f.annulled) { skipped.push(`${year} #${q.number}: anulada pelo INEP`); return []; }
+      const out = { ...q };
+      if (f.statement_md) { out.statement_md = f.statement_md; out.images = []; }
+      if (f.alternatives) out.alternatives = f.alternatives.map((a) => ({ label: a.label as "A", text_md: a.text_md, image_url: a.image_url ?? undefined }));
+      if (f.override_correct && f.correct) out.correct = f.correct as "A";
+      return [out];
+    }));
+  }
 }
 
 const check = validateBundle({ version: 1, board: "ENEM", exams, questions: [] });

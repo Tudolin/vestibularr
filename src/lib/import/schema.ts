@@ -1,11 +1,16 @@
 import { z } from "zod";
+import { isLocalImage } from "../local-image";
 
 export const AREAS = ["linguagens", "humanas", "natureza", "matematica"] as const;
 export const LABELS = ["A", "B", "C", "D", "E"] as const;
 export const BOARDS = ["ENEM", "UFPR"] as const;
 
 const optText = z.string().trim().max(400).nullish().transform((v) => (v ? v : undefined));
-const httpsUrl = z.url().refine((u) => /^https?:\/\//i.test(u), "URL precisa ser http(s)");
+/** Imagem: link http(s) ou figura hospedada no próprio app (public/questoes/…). */
+const httpsUrl = z.union([
+  z.string().refine(isLocalImage, "Caminho inválido"),
+  z.url().refine((u) => /^https?:\/\//i.test(u), "URL precisa ser http(s)"),
+]);
 
 export const alternativeSchema = z.object({
   label: z.enum(LABELS),
