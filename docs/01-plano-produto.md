@@ -34,7 +34,7 @@ Status: **plano, ainda sem código**. A execução começa às 15:30, pela Fase 
 | Treino, caderno de erros, desempenho | ✅ | ✅ | ✅ | ✅ |
 | Correção de redação por IA | 1 por semana | 3 por semana | 2 por dia | Pro × 4 contas |
 | **Tutor IA** (tirar dúvidas) | 5 mensagens/dia | 40 mensagens/dia | 150 mensagens/dia + modelo melhor | Pro × 4 |
-| Exportar EPUB/PDF | 1 por mês (até 20 questões) | 10 por mês | ilimitado | ilimitado |
+| Exportar EPUB/PDF | 5 por mês (até 20 questões cada) | 10 por mês | ilimitado | ilimitado |
 | Cartão-resposta (prova feita no papel ou Kindle) | ✅ | ✅ | ✅ | ✅ |
 | Plano de estudos personalizado (IA) | — | — | ✅ | ✅ |
 | Contas | 1 | 1 | 1 | até 4 (por convite, que já existe) |
