@@ -47,6 +47,20 @@ Depois entre em `/login` e crie os alunos em **Administração → Alunos**: dir
 defina a validade (1–30 dias). O link `/convite/<token>` aparece **uma única vez** (o banco guarda só o hash SHA-256), vale
 para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e senha e já entra logada. Precisa da migration `0009`.
 
+## Guia e vídeo de apresentação
+
+- **Primeiro acesso:** todo usuário vê um vídeo de boas-vindas (2 min) até marcar **"Não mostrar novamente"**
+  (salvo no perfil, vale em todos os aparelhos). Fechar sem marcar esconde só na sessão atual do navegador.
+- **Aba Guia** (menu lateral e Perfil): o vídeo, capítulos que pulam para o trecho e o mesmo conteúdo em texto;
+  dá para religar o vídeo ao entrar.
+- O vídeo (`public/guia/vestibularr-apresentacao.mp4`) é gerado a partir de `docs/video/`: composição em HTML
+  com telas reais do app, motor de animação determinístico e trilha sintetizada (sem direitos autorais):
+  ```bash
+  python3 docs/video/trilha.py /tmp/trilha.wav 126.2
+  node docs/video/render.mjs public/guia/vestibularr-apresentacao.mp4 30 /tmp/trilha.wav
+  ```
+  As capturas usadas ficam em `docs/video/shots/` (geradas pelos testes e2e; não versionadas).
+
 ## Banco de questões (Fase 2)
 
 **Seed do ENEM** (2009–2024, ~2.900 questões; 2009–2023 vêm da API pública enem.dev e 2024 do dataset `maritaca-ai/enem`, Apache-2.0; baixa na hora, não versionamos os dados):
