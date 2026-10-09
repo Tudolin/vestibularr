@@ -50,7 +50,7 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
         {STEPS.map((s, i) => (
           <li key={s} className="flex-1">
             <div className={cn("h-2 rounded-full", i <= step ? "bg-cobalto" : "bg-tinta/10")} />
-            <span className={cn("mt-1 block text-xs font-semibold", i === step ? "text-cobalto" : "text-tinta/50")} aria-current={i === step ? "step" : undefined}>{s}</span>
+            <span className={cn("mt-1 block text-xs font-semibold", i === step ? "text-cobalto" : "text-tinta/65")} aria-current={i === step ? "step" : undefined}>{s}</span>
           </li>
         ))}
       </ol>

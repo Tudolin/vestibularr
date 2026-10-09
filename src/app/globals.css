@@ -143,9 +143,12 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-display);
-  letter-spacing: -0.01em;
+/* em @layer base para que utilitários (ex.: font-brand nas páginas públicas) possam sobrescrever */
+@layer base {
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
 }
 
 :focus-visible {

@@ -90,9 +90,9 @@ export default function Landing() {
               <p className="text-sm text-tinta/60">7 dias de Pro grátis · sem cartão · cancele quando quiser</p>
             </div>
             <div className="relative">
-              <PhoneShot src="/landing/celular-inicio.webp" alt="Tela inicial do app no celular" priority />
+              <PhoneShot src="/landing/celular-inicio.webp" alt="Tela inicial do app no celular" />
               {/* eslint-disable-next-line @next/next/no-img-element -- mascote SVG */}
-              <img src="/brand/grafite-deitado.svg" alt="Mascote do Vestibularr: um gato pirata deitado segurando um lápis" width={600} height={268} className="absolute -bottom-10 left-1/2 w-[min(420px,92vw)] -translate-x-1/2 drop-shadow-[0_10px_0_rgba(20,18,58,.08)]" />
+              <img src="/brand/grafite-deitado.svg" alt="Mascote do Vestibularr: um gato pirata deitado segurando um lápis" width={600} height={268} className="absolute -bottom-20 left-1/2 w-[min(420px,92vw)] -translate-x-1/2 drop-shadow-[0_10px_0_rgba(20,18,58,.08)]" />
             </div>
           </div>
         </section>

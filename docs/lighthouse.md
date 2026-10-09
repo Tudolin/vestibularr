@@ -32,3 +32,15 @@ logado como aluno, com banco de teste local (~2.900 questões). Duas medições 
   complexidade por pontuação; o comportamento offline atual já está validado nos testes.
 - "Boas práticas" 96: o único item é um erro de console do ambiente de teste (o Lighthouse passa a sessão só
   no cabeçalho do documento, então o ping de atividade sai anônimo e recebe 401). Em uso normal não ocorre.
+
+## Páginas públicas (Fase A, mobile, build de produção)
+
+| Página | Desempenho | Acessibilidade | Boas práticas | SEO |
+|---|---|---|---|---|
+| `/` (landing) | 94–95 | 100 | 100 | 100 |
+| `/cadastro` | 99 | 100 | 100 | 100 |
+
+- Fredoka convertida em WOFF2 com subconjunto latino (48 KB → 15 KB); a Jakarta não é pré-carregada nas
+  páginas públicas; a captura do hero não usa `priority` (o LCP é o título).
+- LCP da landing ~2,9 s no modelo simulado (FCP ~1 s, TBT 60–90 ms). O restante é o tempo de hidratação
+  do JS do Next; a página em si é estática (SSG).

@@ -71,7 +71,7 @@ export function SiteFooter() {
           <span className="text-tinta/60">Questões: provas oficiais do INEP (ENEM) e da UFPR, com a fonte citada em cada uma.</span>
         </nav>
       </div>
-      <p className="pb-8 text-center text-xs text-tinta/50">© {new Date().getFullYear()} Vestibularr. Não somos afiliados ao INEP, ao MEC nem à UFPR.</p>
+      <p className="pb-8 text-center text-xs text-tinta/65">© {new Date().getFullYear()} Vestibularr. Não somos afiliados ao INEP, ao MEC nem à UFPR.</p>
     </footer>
   );
 }
