@@ -25,7 +25,7 @@ export async function redeemInviteAction(_prev: ActionResult | null, formData: F
 
   const admin = createAdminClient();
   const invalid: ActionResult = { ok: false, error: "Este convite não é mais válido (já usado, expirado ou revogado)." };
-  const { data: invite } = await admin.from("invites").select("id, role, email").eq("token_hash", hashInviteToken(token)).maybeSingle();
+  const { data: invite } = await admin.from("invites").select("id, role, email, plan_code").eq("token_hash", hashInviteToken(token)).maybeSingle();
   if (!invite) return invalid;
   if (invite.email && invite.email !== email) {
     return { ok: false, error: "Este convite é para outro e-mail.", fieldErrors: { email: ["Use o e-mail do convite"] } };
@@ -56,6 +56,8 @@ export async function redeemInviteAction(_prev: ActionResult | null, formData: F
   // O trigger cria o perfil sempre como 'student'; o papel de admin só vem do convite, aqui no servidor.
   await admin.from("profiles").update({ full_name: fullName, ...(claimed.role === "admin" ? { role: "admin" } : {}) }).eq("id", created.user.id);
   await admin.from("invites").update({ used_by: created.user.id }).eq("id", claimed.id);
+  // a conta recebe o plano do convite (Família do admin, por padrão), sem vencimento
+  await admin.from("subscriptions").upsert({ user_id: created.user.id, plan_code: invite.plan_code ?? "familia", status: "active", trial_end: null, provider: "manual" });
 
   const supabase = await createClient();
   const { error: signInError } = await supabase.auth.signInWithPassword({ email, password });

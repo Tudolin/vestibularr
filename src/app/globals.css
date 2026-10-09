@@ -118,6 +118,15 @@
   --radius-control: 0.75rem;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  /* marca (páginas públicas): Fredoka + paleta do Capitão Grafite */
+  --font-brand: var(--font-fredoka), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --color-cobalto: #2f3cff;
+  --color-cobalto-escuro: #1f29d6;
+  --color-tinta: #14123a;
+  --color-creme: #fff7ea;
+  --color-gema: #ffc83d;
+  --color-coral: #ff6b5e;
+  --color-menta: #1fcb8b;
 }
 
 html {

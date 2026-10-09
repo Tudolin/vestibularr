@@ -6,7 +6,7 @@ Objetivo: transformar o app familiar em produto. Ele terá:
 - recursos de IA (correção de redação e um tutor próprio para tirar dúvidas);
 - estudo offline em EPUB/PDF (Kindle e tablets).
 
-Status: **plano, ainda sem código**. A execução começa às 15:30, pela Fase A.
+Status: **Fase A concluída** (vitrine, cadastro, onboarding, planos e limites). Próxima: Fase B (pagamentos).
 
 ---
 

@@ -26,12 +26,13 @@ const startSchema = z.object({
   preset: z.string().max(40).optional(),
 });
 
-export type StartResult = { ok: true; id: string } | { ok: false; error: string; code?: "language_required" | "no_questions" | "no_errors_due" };
+export type StartResult = { ok: true; id: string } | { ok: false; error: string; code?: "language_required" | "no_questions" | "no_errors_due" | "plan_limit:simulado" };
 
 const MESSAGES: Record<string, string> = {
   language_required: "Escolha o idioma da língua estrangeira (inglês ou espanhol).",
   no_questions: "Nenhuma questão encontrada com esses filtros. Tente ampliar a seleção.",
   no_errors_due: "Você não tem erros para revisar agora. Volte quando houver revisões vencidas.",
+  "plan_limit:simulado": "Seu plano Grátis inclui 1 simulado por prova por mês, e ele já foi usado. Treino, personalizado e revisão continuam liberados.",
 };
 
 /** Cria a tentativa no servidor (RPC security definer): é lá que as regras valem, não aqui. */

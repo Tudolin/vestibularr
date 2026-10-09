@@ -1,7 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const PUBLIC_PATHS = ["/login", "/convite", "/manifest.webmanifest", "/design", "/offline.html", "/api/keepalive", "/robots.txt"];
+const PUBLIC_PATHS = ["/login", "/cadastro", "/auth", "/termos", "/privacidade", "/convite", "/sitemap.xml", "/opengraph-image", "/manifest.webmanifest", "/design", "/offline.html", "/api/keepalive", "/robots.txt"];
 
 /** Renova a sessão (refresh token) e faz o redirecionamento otimista de rotas protegidas. */
 export async function updateSession(request: NextRequest) {
@@ -24,7 +24,8 @@ export async function updateSession(request: NextRequest) {
   // getClaims valida a assinatura do JWT; não confiar em getSession() no servidor.
   const { data } = await supabase.auth.getClaims();
   const path = request.nextUrl.pathname;
-  const isPublic = PUBLIC_PATHS.some((p) => path === p || path.startsWith(`${p}/`));
+  // "/" é a vitrine pública (exata; não libera subrotas)
+  const isPublic = path === "/" || PUBLIC_PATHS.some((p) => path === p || path.startsWith(`${p}/`));
 
   if (!data?.claims && !isPublic) {
     const redirect = request.nextUrl.clone();
@@ -32,7 +33,7 @@ export async function updateSession(request: NextRequest) {
     redirect.searchParams.set("next", path);
     return NextResponse.redirect(redirect);
   }
-  if (data?.claims && path === "/login") {
+  if (data?.claims && (path === "/login" || path === "/" || path === "/cadastro")) {
     const redirect = request.nextUrl.clone();
     redirect.pathname = "/inicio";
     redirect.search = "";

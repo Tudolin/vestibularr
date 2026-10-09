@@ -14,7 +14,7 @@ import { createClient } from "@/lib/supabase/server";
 type R<T = undefined> = { ok: true; data: T } | { ok: false; error: string };
 
 const MSG: Record<string, string> = {
-  quota_exceeded: "Você atingiu o limite diário de correções por IA. Amanhã tem mais!",
+  quota_exceeded: "Você usou todas as correções por IA do seu plano neste período. Elas renovam automaticamente — ou continue escrevendo, o rascunho fica salvo.",
   texto_vazio: "Escreva a redação antes de enviar.",
   essay_submitted: "Esta redação já foi enviada.",
   sem_respostas: "Não há respostas discursivas para corrigir.",

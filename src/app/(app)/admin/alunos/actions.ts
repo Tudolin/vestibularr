@@ -36,8 +36,9 @@ export async function createStudentAction(input: unknown): Promise<ActionResult>
   if (error || !data.user) {
     return fail(/already|registered/i.test(error?.message ?? "") ? "Este e-mail já está cadastrado." : "Não foi possível criar o aluno.");
   }
-  // O trigger já criou o perfil como 'student'; garante o nome.
+  // O trigger já criou o perfil como 'student' (com trial); garante o nome e coloca na Família do admin.
   await admin.from("profiles").update({ full_name: parsed.data.fullName }).eq("id", data.user.id);
+  await admin.from("subscriptions").upsert({ user_id: data.user.id, plan_code: "familia", status: "active", trial_end: null, provider: "manual" });
   revalidatePath("/admin/alunos");
   return { ok: true };
 }

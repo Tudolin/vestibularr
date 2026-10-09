@@ -26,7 +26,7 @@ export default async function RedacaoPage({ searchParams }: { searchParams: Prom
     supabase.rpc("ai_quota"),
     supabase.from("essay_corrections").select("created_at, total, max_total, scores, essay:essays!inner(kind)").eq("status", "done").eq("essay.kind", kind).order("created_at"),
   ]);
-  const q = quota as { limit: number; used: number; unlimited: boolean } | null;
+  const q = quota as { limit: number; used: number; unlimited: boolean; period?: string } | null;
   const evo: EvoPoint[] = (corrections ?? []).map((c) => ({
     date: fmt.format(new Date(c.created_at)),
     pct: Math.round((Number(c.total) / Number(c.max_total)) * 100),
@@ -40,7 +40,7 @@ export default async function RedacaoPage({ searchParams }: { searchParams: Prom
           <h1 className="text-2xl font-extrabold md:text-3xl">Redação</h1>
           <p className="text-muted-foreground">Escreva no app ou envie a foto da folha. A IA corrige com a rubrica oficial.</p>
         </div>
-        {q && <Badge tone="primary"><Bot className="size-3" aria-hidden /> {q.unlimited ? "IA ilimitada (admin)" : `IA hoje: ${q.used}/${q.limit}`}</Badge>}
+        {q && <Badge tone="primary"><Bot className="size-3" aria-hidden /> {q.unlimited ? "IA ilimitada" : `IA ${q.period === "week" ? "na semana" : q.period === "month" ? "no mês" : "hoje"}: ${q.used}/${q.limit}`}</Badge>}
       </header>
 
       {!aiConfigured() && (

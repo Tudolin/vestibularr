@@ -42,3 +42,13 @@ export const redeemInviteSchema = z
     confirm: z.string(),
   })
   .refine((d) => d.password === d.confirm, { message: "As senhas não conferem", path: ["confirm"] });
+
+export const signUpSchema = z
+  .object({
+    fullName: z.string().trim().min(2, "Informe seu nome").max(80),
+    email: z.string().trim().toLowerCase().pipe(z.email("E-mail inválido")),
+    password: z.string().min(8, "A senha precisa ter ao menos 8 caracteres").max(72),
+    confirm: z.string(),
+    terms: z.literal("on", { error: "Para criar a conta, aceite os Termos e a Política de Privacidade" }),
+  })
+  .refine((d) => d.password === d.confirm, { message: "As senhas não conferem", path: ["confirm"] });

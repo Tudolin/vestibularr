@@ -1,5 +1,6 @@
 import { GraduationCap } from "lucide-react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = { title: "Entrar" };
@@ -15,13 +16,20 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
         <h1 className="text-3xl font-extrabold">Vestibularr</h1>
         <p className="text-muted-foreground">Estude para ENEM e UFPR, no celular ou no computador.</p>
       </div>
+      {erro === "link" && (
+        <p role="alert" className="rounded-control bg-warning-soft px-4 py-3 text-sm font-medium text-warning-soft-foreground">
+          O link de confirmação expirou ou já foi usado. Entre com seu e-mail e senha — ou crie a conta de novo.
+        </p>
+      )}
       {erro === "sessao" && (
         <p role="alert" className="rounded-control bg-warning-soft px-4 py-3 text-sm font-medium text-warning-soft-foreground">
           Sua sessão expirou ou a conta foi desativada. Entre novamente.
         </p>
       )}
       <LoginForm next={next} />
-      <p className="text-center text-sm text-muted-foreground">Não há cadastro público. Peça sua conta ou um link de convite ao administrador.</p>
+      <p className="text-center text-sm text-muted-foreground">
+        Ainda não tem conta? <Link href="/cadastro" className="font-semibold text-primary underline underline-offset-2">Comece grátis</Link>
+      </p>
     </main>
   );
 }

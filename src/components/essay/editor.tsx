@@ -23,7 +23,7 @@ export type EditorProps = {
   theme: { line_limit: number; min_lines: number };
   initial: { content: string; client_ts: number; server_now: number };
   versions: { id: string; created_at: string; device: string | null; is_submission: boolean; source: string; length: number }[];
-  quota: { limit: number; used: number; unlimited: boolean };
+  quota: { limit: number; used: number; unlimited: boolean; period?: string };
   aiReady: boolean;
 };
 
@@ -43,6 +43,8 @@ async function shrink(file: File): Promise<{ base64: string; mime: "image/jpeg" 
   const dataUrl = canvas.toDataURL("image/jpeg", 0.82);
   return { base64: dataUrl.split(",")[1], mime: "image/jpeg" };
 }
+
+const periodLabel = (p?: string) => (p === "week" ? "desta semana" : p === "month" ? "deste mês" : "de hoje");
 
 export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }: EditorProps) {
   const router = useRouter();
@@ -239,7 +241,7 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
         <div className="flex flex-wrap items-center gap-3">
           <Button size="lg" disabled={pending || content.trim().length < 20} onClick={() => setConfirmOpen(true)}><Send aria-hidden /> Enviar para correção</Button>
           <span className="text-sm text-muted-foreground">
-            {aiReady ? (quota.unlimited ? "Correções ilimitadas (admin)." : `Correções hoje: ${quota.used}/${quota.limit}`) : "Correção por IA ainda não configurada."}
+            {aiReady ? (quota.unlimited ? "Correções por IA ilimitadas no seu plano." : `Correções ${periodLabel(quota.period)}: ${quota.used}/${quota.limit}`) : "Correção por IA ainda não configurada."}
           </span>
         </div>
       ) : (
@@ -271,7 +273,7 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
           <DialogTitle>Enviar para correção?</DialogTitle>
           <DialogDescription>
             O texto fica congelado como versão enviada. Depois você pode reescrever e enviar de novo.
-            {!quota.unlimited && ` Isso usa 1 das ${quota.limit} correções de hoje (já usou ${quota.used}).`}
+            {!quota.unlimited && ` Isso usa 1 das ${quota.limit} correções ${periodLabel(quota.period)} (já usou ${quota.used}).`}
           </DialogDescription>
           <Button size="lg" disabled={pending} onClick={submit}>{pending ? <Loader2 className="animate-spin" aria-hidden /> : <Send aria-hidden />} Enviar</Button>
         </DialogContent>

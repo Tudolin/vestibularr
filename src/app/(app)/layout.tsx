@@ -8,7 +8,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   return (
     <AppShell user={{ name: user.fullName, email: user.email, role: user.role }}>
       {children}
-      <WelcomeGuide show={user.preferences[GUIDE_PREF] !== true} />
+      <WelcomeGuide show={user.preferences[GUIDE_PREF] !== true && (user.role === "admin" || user.preferences.onboarded === true)} />
     </AppShell>
   );
 }

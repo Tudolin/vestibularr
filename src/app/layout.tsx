@@ -1,14 +1,18 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { Providers } from "@/components/providers";
+import { brandFont } from "./fonts/brand";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
 const jakarta = Plus_Jakarta_Sans({ variable: "--font-jakarta", subsets: ["latin"], display: "swap", weight: ["700", "800"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  openGraph: { type: "website", locale: "pt_BR", siteName: "Vestibularr" },
+  twitter: { card: "summary_large_image" },
   title: { default: "Vestibularr", template: "%s · Vestibularr" },
-  description: "Plataforma de estudos para ENEM e Vestibular UFPR.",
+  description: "Estude para o ENEM e a UFPR com resolução comentada de cada questão, simulados no tempo oficial e IA que corrige sua redação.",
   applicationName: "Vestibularr",
   appleWebApp: { capable: true, title: "Vestibularr", statusBarStyle: "default" },
   icons: { icon: "/icons/favicon-32.png", apple: "/icons/apple-touch-icon.png" },
@@ -25,7 +29,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning className={`${inter.variable} ${jakarta.variable}`}>
+    <html lang="pt-BR" suppressHydrationWarning className={`${inter.variable} ${jakarta.variable} ${brandFont.variable}`}>
       <body className="min-h-dvh antialiased">
         <a
           href="#conteudo"

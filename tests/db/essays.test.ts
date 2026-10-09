@@ -122,21 +122,21 @@ describe("envio para correção e cota diária", () => {
     expect((await c.query("select count(*)::int n from ai_jobs where user_id=$1", [bob])).rows[0].n).toBe(0);
   });
 
-  it("limite diário configurável; falhas não contam; admin sem limite", async () => {
-    await c.query("update settings set value='2' where key='ai_daily_limit_per_student'");
+  it("limite vem do plano (com override por usuário); falhas não contam; admin sem limite", async () => {
+    await c.query("insert into user_limit_overrides (user_id, feature, period, quota) values ($1, 'transcribe', 'day', 2)", [bob]);
     await c.query("delete from ai_jobs where user_id=$1", [bob]);
     await one(bob, "select public.reserve_transcription() r");
     const j2 = await one<string>(bob, "select public.reserve_transcription() r");
     await expect(one(bob, "select public.reserve_transcription() r")).rejects.toThrow(/quota_exceeded/);
     await c.query("update ai_jobs set status='failed' where id=$1", [j2]); // falha nossa: devolve a cota
     await expect(one(bob, "select public.reserve_transcription() r")).resolves.toBeTruthy();
-    const q = await one<any>(bob, "select public.ai_quota() r");
-    expect(q).toMatchObject({ limit: 2, used: 2, unlimited: false });
+    const q = await one<any>(bob, "select public.entitlement('transcribe') r");
+    expect(q).toMatchObject({ quota: 2, used: 2, unlimited: false, period: "day" });
     for (let i = 0; i < 4; i++) await one(admin, "select public.reserve_transcription() r");
     // trabalhos de ontem não contam
     await c.query("update ai_jobs set created_at = now() - interval '2 days' where user_id=$1", [bob]);
-    expect((await one<any>(bob, "select public.ai_quota() r")).used).toBe(0);
-    await c.query("update settings set value='5' where key='ai_daily_limit_per_student'");
+    expect((await one<any>(bob, "select public.entitlement('transcribe') r")).used).toBe(0);
+    await c.query("delete from user_limit_overrides where user_id=$1", [bob]);
   });
 
   it("_reserve_ai_job não é chamável direto pelo aluno", async () => {

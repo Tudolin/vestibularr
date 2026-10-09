@@ -47,6 +47,31 @@ Depois entre em `/login` e crie os alunos em **Administração → Alunos**: dir
 defina a validade (1–30 dias). O link `/convite/<token>` aparece **uma única vez** (o banco guarda só o hash SHA-256), vale
 para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e senha e já entra logada. Precisa da migration `0009`.
 
+## Produto: vitrine, cadastro e planos (Fase A)
+
+- **Vitrine** em `/` para quem não está logado (logado vai direto para `/inicio`), com recursos, vídeo, planos e perguntas
+  frequentes; **Termos** (`/termos`) e **Privacidade** (`/privacidade`) em rascunho — preencha os campos entre colchetes.
+- **Cadastro público** em `/cadastro` ("Comece grátis"): nome, e-mail, senha, aceite dos termos (com aviso para menores)
+  e anti-robô Cloudflare Turnstile. Toda conta nova ganha **7 dias de Pro** e passa por um **onboarding** (vestibular,
+  curso-alvo e meta diária) antes do vídeo de boas-vindas.
+- **Planos e limites** (migration `0010`): `plans`, `plan_limits` (limites editáveis sem deploy), `user_limit_overrides`
+  (limite personalizado por usuário), `subscriptions` e `usage_events`. A função `entitlement(feature)` é a única fonte de
+  verdade; a cota de correção por IA e o limite de simulados por prova já seguem o plano. A família que já usa o app
+  foi migrada para o plano **Família** sem vencimento, e contas criadas pelo admin (convite ou "Novo aluno") também.
+  Os valores exibidos na vitrine ficam em `src/lib/plans.ts` (um teste garante que batem com o banco).
+
+**Configurar no Supabase** (Authentication):
+1. *Sign In / Providers → Email*: ligue **Confirm email**.
+2. *URL Configuration*: **Site URL** = a URL do site (ex.: `https://vestibularr.com.br`) e, em **Redirect URLs**,
+   adicione `https://SEU-DOMINIO/auth/confirm` (e `http://localhost:3000/auth/confirm` para testar local).
+3. (Recomendado) *Emails → Confirm signup*: troque o link por
+   `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email&next=/onboarding` — funciona mesmo se a pessoa
+   abrir o e-mail em outro aparelho. O formato padrão do Supabase também é aceito.
+4. Para volume real de cadastros, configure um SMTP próprio (o envio padrão do Supabase tem limite baixo por hora).
+
+**Variáveis novas** (`.env.local` e Vercel): `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_TURNSTILE_SITE_KEY` e
+`TURNSTILE_SECRET_KEY` (crie um widget gratuito em Cloudflare → Turnstile; sem as chaves, o anti-robô fica desligado).
+
 ## Guia e vídeo de apresentação
 
 - **Primeiro acesso:** todo usuário vê um vídeo de boas-vindas (2 min) até marcar **"Não mostrar novamente"**

@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { ClipboardList, Flame, Play, RotateCcw, Target } from "lucide-react";
 import type { Metadata } from "next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -13,6 +14,8 @@ export const metadata: Metadata = { title: "Início" };
 
 export default async function InicioPage() {
   const user = await requireUser();
+  // conta nova (cadastro público) passa primeiro pelo onboarding
+  if (user.role === "student" && user.preferences.onboarded !== true) redirect("/onboarding");
   const [open, errors, stats] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null)]);
   const dayGoal = stats.goals.questions_day ?? DEFAULT_GOALS.questions_day;
   const today = stats.week.answered_today;
