@@ -49,7 +49,7 @@ export function StudentsManager({ rows }: { rows: StudentRow[] }) {
       <header className="flex items-center justify-between gap-3">
         <div>
           <h1 className="text-2xl font-extrabold md:text-3xl">Alunos</h1>
-          <p className="text-sm text-muted-foreground">Só você cria contas. Não há cadastro público.</p>
+          <p className="text-sm text-muted-foreground">Só você cria contas, direto aqui ou por convite. Não há cadastro público.</p>
         </div>
         <Button onClick={() => setModal({ kind: "create" })}>
           <Plus aria-hidden /> Novo aluno

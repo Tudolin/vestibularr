@@ -1,7 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const PUBLIC_PATHS = ["/login", "/manifest.webmanifest", "/design", "/offline.html", "/api/keepalive", "/robots.txt"];
+const PUBLIC_PATHS = ["/login", "/convite", "/manifest.webmanifest", "/design", "/offline.html", "/api/keepalive", "/robots.txt"];
 
 /** Renova a sessão (refresh token) e faz o redirecionamento otimista de rotas protegidas. */
 export async function updateSession(request: NextRequest) {

@@ -2,8 +2,11 @@
 
 import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/auth";
+import { newInviteToken } from "@/lib/invites";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { createClient } from "@/lib/supabase/server";
 import {
+  createInviteSchema,
   createStudentSchema,
   resetPasswordSchema,
   setActiveSchema,
@@ -76,5 +79,37 @@ export async function resetPasswordAction(input: unknown): Promise<ActionResult>
     password: parsed.data.password,
   });
   if (error) return fail("Não foi possível redefinir a senha.");
+  return { ok: true };
+}
+
+/**
+ * Cria um convite de uso único. Devolve o token UMA vez (o banco guarda só o hash);
+ * o cliente monta o link com a própria origem: <origem>/convite/<token>.
+ */
+export async function createInviteAction(input: unknown): Promise<ActionResult<{ token: string }>> {
+  const me = await requireAdmin();
+  const parsed = createInviteSchema.safeParse(input);
+  if (!parsed.success) return { ok: false, error: "Confira os campos.", fieldErrors: parsed.error.flatten().fieldErrors };
+  const { token, hash } = newInviteToken();
+  const { error } = await (await createClient()).from("invites").insert({
+    token_hash: hash,
+    role: parsed.data.role,
+    email: parsed.data.email ?? null,
+    note: parsed.data.note ?? null,
+    created_by: me.id,
+    expires_at: new Date(Date.now() + parsed.data.days * 86_400_000).toISOString(),
+  });
+  if (error) return fail("Não foi possível criar o convite.") as ActionResult<{ token: string }>;
+  revalidatePath("/admin/alunos");
+  return { ok: true, data: { token } };
+}
+
+export async function revokeInviteAction(id: unknown): Promise<ActionResult> {
+  await requireAdmin();
+  if (typeof id !== "string" || !/^[0-9a-f-]{36}$/i.test(id)) return fail("Convite inválido.");
+  const { error } = await (await createClient())
+    .from("invites").update({ revoked_at: new Date().toISOString() }).eq("id", id).is("used_at", null);
+  if (error) return fail("Não foi possível revogar.");
+  revalidatePath("/admin/alunos");
   return { ok: true };
 }

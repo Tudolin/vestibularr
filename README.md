@@ -42,7 +42,10 @@ Aplique **só as que ainda não rodou**, em ordem. Nunca edite uma migration já
 npm run create-admin -- voce@exemplo.com "Seu Nome" "senha-forte-aqui"
 ```
 
-Depois entre em `/login` e crie os alunos em **Administração → Alunos**.
+Depois entre em `/login` e crie os alunos em **Administração → Alunos**: direto (você define a senha) ou por
+**convite por link**. Em **Convidar**, escolha aluno ou administrador; opcionalmente, anote para quem é, trave o e-mail e
+defina a validade (1–30 dias). O link `/convite/<token>` aparece **uma única vez** (o banco guarda só o hash SHA-256), vale
+para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e senha e já entra logada. Precisa da migration `0009`.
 
 ## Banco de questões (Fase 2)
 

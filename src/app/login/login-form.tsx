@@ -1,7 +1,7 @@
 "use client";
 
 import { Loader2 } from "lucide-react";
-import { useActionState } from "react";
+import { startTransition, useActionState } from "react";
 import { Button } from "@/components/ui/button";
 import { FieldError, Input, Label } from "@/components/ui/input";
 import { loginAction } from "./actions";
@@ -10,7 +10,16 @@ export function LoginForm({ next }: { next?: string }) {
   const [state, action, pending] = useActionState(loginAction, null);
   const errors = state && !state.ok ? state.fieldErrors : undefined;
   return (
-    <form action={action} className="flex flex-col gap-4" noValidate>
+    <form
+      className="flex flex-col gap-4"
+      noValidate
+      onSubmit={(e) => {
+        // Envio manual: com <form action> o React 19 limpa os campos depois de cada envio, inclusive quando há erro.
+        e.preventDefault();
+        const fd = new FormData(e.currentTarget);
+        startTransition(() => action(fd));
+      }}
+    >
       {next && <input type="hidden" name="next" value={next} />}
       <div className="flex flex-col gap-1.5">
         <Label htmlFor="email">E-mail</Label>

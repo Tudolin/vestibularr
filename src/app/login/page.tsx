@@ -21,7 +21,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
         </p>
       )}
       <LoginForm next={next} />
-      <p className="text-center text-sm text-muted-foreground">Não há cadastro público. Peça sua conta ao administrador.</p>
+      <p className="text-center text-sm text-muted-foreground">Não há cadastro público. Peça sua conta ou um link de convite ao administrador.</p>
     </main>
   );
 }
