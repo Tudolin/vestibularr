@@ -28,7 +28,7 @@ export default async function AdminRedacoes({ searchParams }: { searchParams: Pr
       <h1 className="text-2xl font-extrabold md:text-3xl">Redações dos alunos</h1>
       <nav aria-label="Filtro" className="flex gap-1 self-start rounded-full border border-border bg-muted p-1 text-sm font-semibold">
         {[["", "Todas"], ["enem", "ENEM"], ["ufpr", "UFPR"]].map(([v, l]) => (
-          <Link key={v} href={v ? `?tipo=${v}` : "?"} aria-current={(tipo ?? "") === v ? "page" : undefined} className={cn("flex min-h-9 items-center rounded-full px-3", (tipo ?? "") === v ? "bg-card shadow-sm" : "text-muted-foreground")}>{l}</Link>
+          <Link key={v} href={v ? `?tipo=${v}` : "?"} aria-current={(tipo ?? "") === v ? "page" : undefined} className={cn("flex min-h-10 items-center rounded-full px-3", (tipo ?? "") === v ? "bg-card shadow-sm" : "text-muted-foreground")}>{l}</Link>
         ))}
       </nav>
       {(data ?? []).length === 0 ? (
@@ -40,7 +40,7 @@ export default async function AdminRedacoes({ searchParams }: { searchParams: Pr
             const last = cs[0];
             return (
               <li key={e.id}>
-                <Card className="transition-colors focus-within:border-primary hover:border-primary">
+                <Card className="lift focus-within:border-primary hover:border-primary">
                   <Link href={`/admin/redacoes/${e.id}`} className="flex flex-wrap items-center gap-3 rounded-card p-4">
                     <span className="min-w-0 flex-1">
                       <span className="block font-semibold">{(e.user as unknown as { full_name: string } | null)?.full_name}</span>

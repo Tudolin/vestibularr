@@ -15,7 +15,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       <QueryClientProvider client={client}>
         {children}
         <SwRegister />
-        <Toaster position="top-center" richColors closeButton />
+        <Toaster position="top-center" richColors closeButton toastOptions={{ classNames: { closeButton: "!size-7" } }} />
       </QueryClientProvider>
     </ThemeProvider>
   );

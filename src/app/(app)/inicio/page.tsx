@@ -46,7 +46,7 @@ export default async function InicioPage() {
         </Card>
       )}
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="stagger grid gap-4 md:grid-cols-2">
         <HomeCard icon={<Play />} title="Continuar de onde parei" description="Seu último simulado ou treino em andamento.">
           {last ? (
             <div className="flex flex-col gap-3">

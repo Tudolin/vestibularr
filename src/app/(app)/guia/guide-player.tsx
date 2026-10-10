@@ -55,7 +55,7 @@ export function GuidePlayer({ showOnLogin }: { showOnLogin: boolean }) {
                 </div>
                 <p className="text-sm text-muted-foreground">{c.text}</p>
                 {c.href && (
-                  <Link href={c.href} className="mt-auto self-start text-sm font-semibold text-primary underline underline-offset-2">{c.cta} →</Link>
+                  <Link href={c.href} className="mt-auto inline-flex min-h-10 items-center self-start text-sm font-semibold text-primary underline underline-offset-2">{c.cta} →</Link>
                 )}
               </Card>
             </li>

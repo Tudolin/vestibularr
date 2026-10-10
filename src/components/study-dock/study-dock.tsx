@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { NOTES_MAX, fmtClock, PHASE_LABEL, readTools, type Phase, type StudyTools } from "@/lib/study-tools";
 import { cn } from "@/lib/utils";
 import { saveStudyNotesAction, saveStudyToolsAction } from "./actions";
+import { Breathing } from "./breathing";
 import { usePomodoro } from "./use-pomodoro";
 import { chime, useNoise } from "./use-noise";
 
@@ -79,12 +80,12 @@ export function StudyDock({ initialTools, initialNotes, context = "app" }: { ini
   const progress = pomo.total ? 1 - pomo.remaining / pomo.total : 0;
 
   return (
-    <div className={cn("fixed z-40 flex flex-col gap-2 print:hidden", side, tools.side === "left" ? "items-start" : "items-end",
+    <div style={{ viewTransitionName: "study-dock" }} className={cn("fixed z-40 flex flex-col gap-2 print:hidden", side, tools.side === "left" ? "items-start" : "items-end",
       // acima da barra inferior: a do app some no md, a da prova só no lg
       context === "exam" ? "bottom-[calc(5.5rem+env(safe-area-inset-bottom))] lg:bottom-6" : "bottom-[calc(5rem+env(safe-area-inset-bottom))] md:bottom-6")}>
       {open && (
         <section id={panelId} role="dialog" aria-label="Ferramentas de estudo"
-          className="flex max-h-[min(34rem,calc(100dvh-10rem))] w-[min(22rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-card border border-border bg-card shadow-xl">
+          className="animate-[vr-zoom-in_200ms_cubic-bezier(0.2,0.8,0.2,1)] origin-bottom-right flex max-h-[min(34rem,calc(100dvh-10rem))] w-[min(22rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-card border border-border bg-card shadow-xl">
           <header className="flex items-center justify-between border-b border-border px-4 py-2">
             <p className="font-bold">Ferramentas de estudo</p>
             <button type="button" onClick={() => toggle(false)} aria-label="Fechar" className="flex size-9 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"><X className="size-4" aria-hidden /></button>
@@ -147,7 +148,7 @@ export function StudyDock({ initialTools, initialNotes, context = "app" }: { ini
             )}
 
             {tab === "notas" && <Notes initial={initialNotes} />}
-            {tab === "respirar" && <Breathing />}
+            {tab === "respirar" && <Breathing pattern={tools.breath} onPattern={(p) => update({ breath: p })} />}
 
             {tab === "ajustes" && (
               <div className="flex flex-col gap-3 text-sm">
@@ -275,29 +276,6 @@ function Notes({ initial }: { initial: string }) {
         <span>{state === "saving" ? "Salvando…" : state === "ok" ? "Salvo" : state === "erro" ? "Sem conexão: salvo só neste aparelho" : ""}</span>
         <span>{text.length}/{NOTES_MAX}</span>
       </p>
-    </div>
-  );
-}
-
-/** Respiração guiada 4-4-6 (inspira, segura, solta): bom para a pausa e antes de prova. */
-const BREATH = [{ t: "Inspire", s: 4 }, { t: "Segure", s: 4 }, { t: "Solte", s: 6 }];
-function Breathing() {
-  const [on, setOn] = useState(false);
-  const [step, setStep] = useState(0);
-  useEffect(() => {
-    if (!on) return;
-    const id = window.setTimeout(() => setStep((x) => (x + 1) % 3), BREATH[step].s * 1000);
-    return () => window.clearTimeout(id);
-  }, [on, step]);
-  const cur = BREATH[step];
-  return (
-    <div className="flex flex-col items-center gap-4 py-2">
-      <div className={cn("flex size-36 items-center justify-center rounded-full bg-primary-soft text-primary-soft-foreground transition-transform ease-in-out",
-        on && step === 0 && "scale-110", on && step === 2 && "scale-75")} style={{ transitionDuration: `${cur.s}s` }}>
-        <span className="text-lg font-bold" aria-live="polite">{on ? cur.t : "Pronto?"}</span>
-      </div>
-      <Button variant={on ? "soft" : "primary"} onClick={() => { setOn(!on); setStep(0); }}>{on ? "Parar" : "Começar"}</Button>
-      <p className="text-center text-xs text-muted-foreground">Inspire 4 s, segure 4 s, solte 6 s. Três ou quatro ciclos já acalmam.</p>
     </div>
   );
 }

@@ -167,7 +167,64 @@ body {
   }
 }
 
-/* espaço para a barra inferior no celular + área segura do iOS */
-.pb-safe-nav {
-  padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
+/* espaço para a barra inferior no celular + botão "Foco" do painel de estudo + área segura do iOS */
+@layer utilities {
+  .pb-safe-nav {
+    padding-bottom: calc(9rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* ------------------------------------------------------------------
+   Movimento. Só transform/opacity (rodam na GPU, sem recalcular layout);
+   tudo some com "reduzir movimento" (regra global acima + bloco no fim).
+   ------------------------------------------------------------------ */
+@keyframes vr-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes vr-fade-in { from { opacity: 0; } }
+@keyframes vr-fade-out { to { opacity: 0; } }
+@keyframes vr-sheet-in { from { transform: translateY(100%); } }
+@keyframes vr-sheet-out { to { transform: translateY(100%); } }
+@keyframes vr-zoom-in { from { opacity: 0; transform: scale(0.96); } }
+@keyframes vr-zoom-out { to { opacity: 0; transform: scale(0.96); } }
+@keyframes vr-pop { 0% { transform: scale(0.8); } 60% { transform: scale(1.1); } 100% { transform: scale(1); } }
+@keyframes vr-vt-in { from { opacity: 0; transform: translateY(12px); } }
+@keyframes vr-vt-out { to { opacity: 0; transform: translateY(-6px); } }
+
+/* cartões clicáveis: sobem um pouco no hover (só onde existe mouse) e afundam no toque */
+.lift { transition: transform 200ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 200ms, border-color 150ms; }
+@media (hover: hover) {
+  .lift:hover { transform: translateY(-2px); box-shadow: 0 10px 24px -12px rgb(20 18 58 / 0.25); }
+}
+.lift:active { transform: scale(0.99); }
+
+/* listas que entram em cascata */
+.stagger > * { animation: vr-rise 380ms cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.stagger > :nth-child(2) { animation-delay: 40ms; }
+.stagger > :nth-child(3) { animation-delay: 80ms; }
+.stagger > :nth-child(4) { animation-delay: 120ms; }
+.stagger > :nth-child(5) { animation-delay: 160ms; }
+.stagger > :nth-child(6) { animation-delay: 200ms; }
+.stagger > :nth-child(n + 7) { animation-delay: 240ms; }
+
+/* ícone da aba ativa da barra inferior dá um "pulinho" */
+[aria-current="page"] > .nav-pill { animation: vr-pop 320ms cubic-bezier(0.2, 0.8, 0.2, 1); }
+
+/* troca de página (React <ViewTransition> no template do app): conteúdo sai rápido e entra subindo;
+   topo, barra inferior, barra lateral e o botão Foco ficam parados como âncora */
+::view-transition { pointer-events: none; }
+::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+::view-transition-old(.page) { animation: 110ms ease-in both vr-vt-out; }
+::view-transition-new(.page) { animation: 260ms cubic-bezier(0.2, 0.8, 0.2, 1) 60ms both vr-vt-in; }
+::view-transition-group(app-header), ::view-transition-group(app-nav), ::view-transition-group(app-side), ::view-transition-group(study-dock) {
+  animation: none;
+  z-index: 100;
+}
+::view-transition-old(app-header), ::view-transition-old(app-nav), ::view-transition-old(app-side), ::view-transition-old(study-dock) { display: none; }
+::view-transition-new(app-header), ::view-transition-new(app-nav), ::view-transition-new(app-side), ::view-transition-new(study-dock) { animation: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(*), ::view-transition-new(*), ::view-transition-group(*) {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+  }
+  .lift:hover, .lift:active { transform: none; }
 }

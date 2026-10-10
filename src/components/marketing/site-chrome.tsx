@@ -21,7 +21,7 @@ export function SiteHeader() {
           <Link href="/#recursos" className="hidden rounded-full px-3 py-2 text-sm font-semibold text-tinta/80 hover:text-tinta md:block">Recursos</Link>
           <Link href="/#planos" className="hidden rounded-full px-3 py-2 text-sm font-semibold text-tinta/80 hover:text-tinta md:block">Planos</Link>
           <Link href="/#perguntas" className="hidden rounded-full px-3 py-2 text-sm font-semibold text-tinta/80 hover:text-tinta md:block">Dúvidas</Link>
-          <Link href="/login" className="rounded-full px-3 py-2 text-sm font-bold text-tinta hover:bg-tinta/5">Entrar</Link>
+          <Link href="/login" className="inline-flex min-h-11 items-center rounded-full px-3 text-sm font-bold text-tinta hover:bg-tinta/5">Entrar</Link>
           <CtaButton href="/cadastro" size="sm">Comece grátis</CtaButton>
         </nav>
       </div>
@@ -57,17 +57,17 @@ export function SiteFooter() {
           <Logo />
           <p className="max-w-sm text-sm text-tinta/70">Estude para o ENEM e a UFPR com resolução comentada de cada questão, simulados no tempo oficial e IA que corrige sua redação.</p>
         </div>
-        <nav aria-label="Produto" className="flex flex-col gap-2 text-sm">
+        <nav aria-label="Produto" className="flex flex-col items-start text-sm">
           <span className="font-brand text-base font-bold text-tinta">Produto</span>
-          <Link href="/#recursos" className="text-tinta/70 hover:text-tinta">Recursos</Link>
-          <Link href="/#planos" className="text-tinta/70 hover:text-tinta">Planos</Link>
-          <Link href="/cadastro" className="text-tinta/70 hover:text-tinta">Criar conta</Link>
-          <Link href="/login" className="text-tinta/70 hover:text-tinta">Entrar</Link>
+          <Link href="/#recursos" className="inline-flex min-h-10 items-center text-tinta/70 hover:text-tinta">Recursos</Link>
+          <Link href="/#planos" className="inline-flex min-h-10 items-center text-tinta/70 hover:text-tinta">Planos</Link>
+          <Link href="/cadastro" className="inline-flex min-h-10 items-center text-tinta/70 hover:text-tinta">Criar conta</Link>
+          <Link href="/login" className="inline-flex min-h-10 items-center text-tinta/70 hover:text-tinta">Entrar</Link>
         </nav>
-        <nav aria-label="Legal" className="flex flex-col gap-2 text-sm">
+        <nav aria-label="Legal" className="flex flex-col items-start text-sm">
           <span className="font-brand text-base font-bold text-tinta">Transparência</span>
-          <Link href="/termos" className="text-tinta/70 hover:text-tinta">Termos de Uso</Link>
-          <Link href="/privacidade" className="text-tinta/70 hover:text-tinta">Política de Privacidade</Link>
+          <Link href="/termos" className="inline-flex min-h-10 items-center text-tinta/70 hover:text-tinta">Termos de Uso</Link>
+          <Link href="/privacidade" className="inline-flex min-h-10 items-center text-tinta/70 hover:text-tinta">Política de Privacidade</Link>
           <span className="text-tinta/60">Questões: provas oficiais do INEP (ENEM) e da UFPR, com a fonte citada em cada uma.</span>
         </nav>
       </div>

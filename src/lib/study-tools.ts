@@ -12,12 +12,13 @@ export const studyToolsSchema = z.object({
   noise: z.enum(["branco", "rosa", "marrom"]),
   volume: z.number().min(0).max(1),
   side: z.enum(["right", "left"]),
+  breath: z.enum(["calma", "quadrada", "sono"]), // padrão da respiração guiada
 });
 export type StudyTools = z.infer<typeof studyToolsSchema>;
 
 export const DEFAULT_TOOLS: StudyTools = {
   focusMin: 25, shortMin: 5, longMin: 15, cycles: 4, autoStart: false, chime: true, notify: false,
-  noise: "marrom", volume: 0.35, side: "right",
+  noise: "marrom", volume: 0.35, side: "right", breath: "calma",
 };
 
 export const NOTES_MAX = 4000;

@@ -190,7 +190,7 @@ export default function Landing() {
           <div className="mt-8 flex flex-col gap-3">
             {FAQ.map(([q, a]) => (
               <details key={q} className="group rounded-2xl border border-tinta/10 bg-white p-5 open:shadow-sm">
-                <summary className="cursor-pointer list-none font-brand text-lg font-bold marker:hidden">
+                <summary className="flex min-h-11 cursor-pointer list-none items-center font-brand text-lg font-bold marker:hidden">
                   <span className="flex items-center justify-between gap-4">{q}<span className="text-cobalto transition-transform group-open:rotate-45" aria-hidden>+</span></span>
                 </summary>
                 <p className="mt-3 text-tinta/75">{a}</p>

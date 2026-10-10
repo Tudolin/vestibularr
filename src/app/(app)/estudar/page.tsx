@@ -28,7 +28,7 @@ export default async function EstudarPage() {
           <ul className="grid gap-2">
             {open.map((a) => (
               <li key={a.id}>
-                <Card className="border-primary/40 transition-colors focus-within:border-primary hover:border-primary">
+                <Card className="border-primary/40 lift focus-within:border-primary hover:border-primary">
                   <Link href={`/prova/${a.id}`} className="flex items-center justify-between gap-3 rounded-card p-4">
                     <span>
                       <span className="block font-bold">{a.title}</span>
@@ -43,9 +43,9 @@ export default async function EstudarPage() {
         </section>
       )}
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="stagger grid gap-4 md:grid-cols-2">
         {items.map(({ href, title, desc, icon: Icon, badge }) => (
-          <Card key={href} className="transition-colors focus-within:border-primary hover:border-primary">
+          <Card key={href} className="lift focus-within:border-primary hover:border-primary">
             <Link href={href} className="flex items-center gap-4 rounded-card p-5">
               <span className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-primary-soft text-primary-soft-foreground"><Icon aria-hidden /></span>
               <span className="min-w-0 flex-1">

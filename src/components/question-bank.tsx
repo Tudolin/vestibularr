@@ -57,7 +57,7 @@ export async function QuestionBank({ filters: f, basePath, detailPath, admin = f
         <ul className="flex flex-col gap-3">
           {items.map((q) => (
             <li key={q.id}>
-              <Card className="transition-colors focus-within:border-primary hover:border-primary">
+              <Card className="lift focus-within:border-primary hover:border-primary">
                 <Link href={`${detailPath}/${q.id}`} className="flex flex-col gap-2 rounded-card p-4">
                   <div className="flex flex-wrap items-center gap-2">
                     {q.board && <Badge tone="neutral">{q.board.code}</Badge>}

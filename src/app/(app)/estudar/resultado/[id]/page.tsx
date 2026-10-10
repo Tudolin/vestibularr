@@ -202,7 +202,7 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
           <nav aria-label="Filtrar questões" className="flex gap-1 rounded-full border border-border bg-muted p-1 text-sm font-semibold">
             {[["todas", "Todas"], ["erradas", "Erradas"], ["branco", "Em branco"]].map(([v, l]) => (
               <Link key={v} href={`?filtro=${v}`} scroll={false} aria-current={filtro === v ? "page" : undefined}
-                className={`flex min-h-9 items-center rounded-full px-3 ${filtro === v ? "bg-card shadow-sm" : "text-muted-foreground"}`}>{l}</Link>
+                className={`flex min-h-10 items-center rounded-full px-3 ${filtro === v ? "bg-card shadow-sm" : "text-muted-foreground"}`}>{l}</Link>
             ))}
           </nav>
         </div>

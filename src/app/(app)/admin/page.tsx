@@ -43,7 +43,7 @@ export default async function AdminHome({ searchParams }: { searchParams: Promis
             const met = (Object.keys(g) as GoalKind[]).filter((k) => prog[k] >= g[k]).length;
             return (
               <li key={r.id}>
-                <Card className="transition-colors focus-within:border-primary hover:border-primary">
+                <Card className="lift focus-within:border-primary hover:border-primary">
                   <Link href={`/admin/alunos/${r.id}${board ? `?vestibular=${board}` : ""}`} className="flex flex-col gap-3 rounded-card p-5">
                     <div className="flex flex-wrap items-center gap-2">
                       <p className="flex-1 text-lg font-bold">{r.name || r.email}</p>

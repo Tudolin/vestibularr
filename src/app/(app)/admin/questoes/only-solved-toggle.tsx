@@ -26,7 +26,7 @@ export function OnlySolvedToggle({ initial, solved, total }: { initial: boolean;
         </span>
         <button
           type="button" role="switch" aria-checked={on} disabled={pending} onClick={toggle}
-          className={`relative h-7 w-12 shrink-0 rounded-full transition-colors disabled:opacity-60 ${on ? "bg-primary" : "bg-muted"}`}
+          className={`relative h-7 w-12 shrink-0 rounded-full transition-colors after:absolute after:-inset-2 after:content-[""] disabled:opacity-60 ${on ? "bg-primary" : "bg-muted"}`}
         >
           <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-transform ${on ? "translate-x-6" : "translate-x-1"}`} />
           <span className="sr-only">{on ? "Ligado" : "Desligado"}</span>

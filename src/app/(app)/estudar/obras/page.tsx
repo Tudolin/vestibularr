@@ -45,7 +45,7 @@ export default async function ObrasPage({ searchParams }: { searchParams: Promis
         <ul className="grid gap-3 md:grid-cols-2">
           {list.map((w) => (
             <li key={w.id}>
-              <Card className="transition-colors focus-within:border-primary hover:border-primary">
+              <Card className="lift focus-within:border-primary hover:border-primary">
                 <Link href={`/estudar/questoes?work=${w.id}`} className="flex flex-col gap-1 rounded-card p-4">
                   <span className="font-bold">{w.title}</span>
                   {w.author && <span className="text-sm text-muted-foreground">{w.author}</span>}

@@ -17,7 +17,7 @@ function isActive(pathname: string, item: NavItem) {
 
 function Brand() {
   return (
-    <Link href="/inicio" className="flex min-w-0 items-center gap-2 font-display text-lg font-extrabold">
+    <Link href="/inicio" className="flex min-h-11 min-w-0 items-center gap-2 font-display text-lg font-extrabold">
       <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground">
         <GraduationCap className="size-5" aria-hidden />
       </span>
@@ -44,7 +44,7 @@ export function AppShell({
     <div className="min-h-dvh overflow-x-clip md:grid md:grid-cols-[16rem_1fr]">
       {!pathnameOverride && <ActivityPinger />}
       {/* Sidebar — desktop */}
-      <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
+      <aside style={{ viewTransitionName: "app-side" }} className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
         <Brand />
         <nav aria-label="Principal" className="flex flex-1 flex-col gap-1 overflow-y-auto">
           {[...STUDENT_NAV, ...EXTRA_NAV].map((item) => (
@@ -75,7 +75,7 @@ export function AppShell({
 
       <div className="flex min-w-0 flex-col">
         {/* Topo — celular */}
-        <header className="sticky top-0 z-30 flex items-center justify-between gap-2 border-b border-border bg-background/90 px-4 py-2 backdrop-blur md:hidden">
+        <header style={{ viewTransitionName: "app-header" }} className="sticky top-0 z-30 flex items-center justify-between gap-2 border-b border-border bg-background/90 px-4 py-2 backdrop-blur md:hidden">
           <Brand />
           {/* compacto: com fonte grande do sistema, o seletor de 3 botões alargava a página */}
           <div className="flex shrink-0 items-center gap-1">
@@ -83,7 +83,7 @@ export function AppShell({
             <ThemeCycleButton />
           </div>
         </header>
-        <main id="conteudo" className="pb-safe-nav mx-auto w-full max-w-5xl flex-1 px-4 py-6 md:px-8 md:pb-10">
+        <main id="conteudo" className="pb-safe-nav mx-auto w-full max-w-5xl flex-1 px-4 pt-6 md:px-8 md:pb-24">
           {children}
         </main>
       </div>
@@ -91,6 +91,7 @@ export function AppShell({
       {/* Barra inferior — celular */}
       <nav
         aria-label="Principal"
+        style={{ viewTransitionName: "app-nav" }}
         // minmax(0,1fr): com fonte grande do sistema (Android/iOS), as 5 colunas encolhem em vez de alargar a página
         className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-[repeat(5,minmax(0,1fr))] border-t border-border bg-card pb-[env(safe-area-inset-bottom)] md:hidden"
       >
@@ -107,7 +108,7 @@ export function AppShell({
                 active ? "text-primary" : "text-muted-foreground",
               )}
             >
-              <span className={cn("flex h-7 w-full max-w-12 items-center justify-center rounded-full", active && "bg-primary-soft")}>
+              <span className={cn("nav-pill flex h-7 w-full max-w-12 items-center justify-center rounded-full transition-colors duration-200", active && "bg-primary-soft")}>
                 <Icon className="size-5 shrink-0" aria-hidden />
               </span>
               <span className="max-w-full truncate">{item.label}</span>

@@ -52,7 +52,7 @@ export default async function BuscaPage({ searchParams }: { searchParams: Promis
           {questions.map((x) => (
             <Card key={x.id}><Link href={`/estudar/questoes/${x.id}`} className="flex flex-col gap-1 rounded-card p-4"><span className="flex gap-2">{areaBadge(x.area)}{x.year && <Badge>{x.year}</Badge>}</span><span className="text-sm">{excerpt(x.statement_md, 180)}</span></Link></Card>
           ))}
-          {totalQ > 10 && <Link className="text-sm font-semibold text-primary underline" href={`/estudar/questoes?q=${encodeURIComponent(q)}`}>Ver todas no banco de questões</Link>}
+          {totalQ > 10 && <Link className="inline-flex min-h-10 items-center text-sm font-semibold text-primary underline" href={`/estudar/questoes?q=${encodeURIComponent(q)}`}>Ver todas no banco de questões</Link>}
         </section>
       )}
       {themes.length > 0 && (

@@ -59,12 +59,12 @@ export default async function RedacaoPage({ searchParams }: { searchParams: Prom
       {(essays ?? []).length > 0 && (
         <section aria-labelledby="minhas" className="flex flex-col gap-3">
           <h2 id="minhas" className="text-lg font-bold">Minhas redações</h2>
-          <ul className="grid gap-2">
+          <ul className="stagger grid gap-2">
             {(essays ?? []).map((e) => {
               const last = [...((e.essay_corrections as unknown as { total: number | null; max_total: number | null; status: string; created_at: string }[]) ?? [])].sort((a, b) => b.created_at.localeCompare(a.created_at))[0];
               return (
                 <li key={e.id}>
-                  <Card className="transition-colors focus-within:border-primary hover:border-primary">
+                  <Card className="lift focus-within:border-primary hover:border-primary">
                     <Link href={`/redacao/${e.id}`} className="flex items-center gap-3 rounded-card p-4">
                       <FileText className="size-5 shrink-0 text-muted-foreground" aria-hidden />
                       <span className="min-w-0 flex-1">
@@ -95,7 +95,7 @@ export default async function RedacaoPage({ searchParams }: { searchParams: Prom
         {(themes ?? []).length === 0 ? (
           <EmptyState icon={<PenLine aria-hidden />} title="Nenhum tema ainda" description="O administrador ainda não cadastrou propostas." />
         ) : (
-          <ul className="grid gap-3 md:grid-cols-2">
+          <ul className="stagger grid gap-3 md:grid-cols-2">
             {(themes ?? []).map((t) => (
               <li key={t.id}>
                 <Card className="flex h-full flex-col gap-3 p-4">
