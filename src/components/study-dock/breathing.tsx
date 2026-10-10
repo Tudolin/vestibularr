@@ -106,16 +106,16 @@ export function Breathing({ pattern, onPattern }: { pattern: BreathPattern; onPa
                 return (
                   <m.span key={i} className="absolute left-1/2 top-1/2 -ml-8 -mt-8 size-16 rounded-full mix-blend-multiply dark:mix-blend-screen"
                     style={{ background: color, opacity: 0.55 }}
-                    animate={{ x: Math.cos(a) * (open ? r : 6), y: Math.sin(a) * (open ? r : 6), scale: open ? 1 : 0.55 }}
+                    animate={{ x: Math.cos(a) * (open ? r : 14), y: Math.sin(a) * (open ? r : 14), scale: open ? 1 : 0.7 }}
                     transition={{ duration: dur, ease: "easeInOut" }} />
                 );
               })}
             </m.div>
           )}
           {/* centro: etapa e contagem */}
-          <div className="relative flex size-20 flex-col items-center justify-center rounded-full bg-card/90 shadow-sm backdrop-blur">
-            <span className="text-sm font-bold">{finished ? "Pronto ✨" : step ? step.label : "Respire"}</span>
-            {step && <span className="font-display text-2xl font-extrabold tabular-nums">{pos!.left}</span>}
+          <div className="relative flex size-16 flex-col items-center justify-center rounded-full bg-card/90 shadow-sm backdrop-blur">
+            <span className="text-xs font-bold">{finished ? "Pronto ✨" : step ? step.label : "Respire"}</span>
+            {step && <span className="font-display text-xl font-extrabold leading-none tabular-nums">{pos!.left}</span>}
           </div>
         </div>
 
