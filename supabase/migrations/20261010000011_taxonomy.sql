@@ -1,12 +1,13 @@
 -- E1 (plano de engajamento): assunto de cada questão + dados oficiais do INEP (habilidade da Matriz e TRI).
 -- Base da triagem, do plano de estudos e do desafio diário: o domínio por assunto sai daqui.
 
+-- "if not exists": pode rodar de novo sem erro (ex.: aplicada pela metade no SQL Editor)
 alter table public.questions
-  add column skill smallint check (skill between 1 and 30),       -- habilidade da Matriz de Referência (H1–H30 da área)
-  add column irt_a real check (irt_a > 0),                          -- TRI 3PL: discriminação
-  add column irt_b real,                                            --          dificuldade (escala ENEM: nota = 500 + 100·θ)
-  add column irt_c real check (irt_c between 0 and 1),              --          acerto ao acaso
-  add column inep_item int;                                         -- CO_ITEM nos microdados (rastreabilidade)
+  add column if not exists skill smallint check (skill between 1 and 30),       -- habilidade da Matriz de Referência (H1–H30 da área)
+  add column if not exists irt_a real check (irt_a > 0),                          -- TRI 3PL: discriminação
+  add column if not exists irt_b real,                                            --          dificuldade (escala ENEM: nota = 500 + 100·θ)
+  add column if not exists irt_c real check (irt_c between 0 and 1),              --          acerto ao acaso
+  add column if not exists inep_item int;                                         -- CO_ITEM nos microdados (rastreabilidade)
 
 -- Aplica assunto (data/taxonomia) e dados do INEP (data/inep) a uma prova.
 -- p: { board, year, items: [{ number, language?, subject?, topic?, skill?, irt?: {a,b,c}, item? }] }

@@ -5,18 +5,19 @@
 -- uma vez: o servidor escolhe a próxima a cada resposta (TRI, com os parâmetros oficiais do INEP), alternando as 4 áreas
 -- do ENEM. O aluno só escreve pela RPC triagem_answer; o gabarito só aparece no fim (policy answer_keys_student).
 
-alter table public.exam_attempts drop constraint exam_attempts_mode_check;
+alter table public.exam_attempts drop constraint if exists exam_attempts_mode_check;
 alter table public.exam_attempts add constraint exam_attempts_mode_check
   check (mode in ('simulado', 'custom', 'treino', 'revisao', 'triagem'));
 
-alter table public.plan_limits drop constraint plan_limits_feature_check;
+alter table public.plan_limits drop constraint if exists plan_limits_feature_check;
 alter table public.plan_limits add constraint plan_limits_feature_check check (feature in
   ('simulado', 'essay_ai', 'transcribe', 'tutor_msg', 'export', 'export_size', 'study_plan', 'triagem', 'triagem_report'));
 
 -- limites: quantas triagens por mês e se o relatório detalhado (por assunto) está liberado
 insert into public.plan_limits (plan_code, feature, period, quota) values
   ('free', 'triagem', 'month', 1), ('estudante', 'triagem', 'month', 2), ('pro', 'triagem', 'month', null), ('familia', 'triagem', 'month', null),
-  ('free', 'triagem_report', 'none', 0), ('estudante', 'triagem_report', 'none', null), ('pro', 'triagem_report', 'none', null), ('familia', 'triagem_report', 'none', null);
+  ('free', 'triagem_report', 'none', 0), ('estudante', 'triagem_report', 'none', null), ('pro', 'triagem_report', 'none', null), ('familia', 'triagem_report', 'none', null)
+on conflict (plan_code, feature) do nothing;
 
 -- As respostas da triagem só mudam pela RPC (nada de sync_attempt mexendo no caminho adaptativo).
 create or replace function public.trg_triagem_answers_guard()
@@ -28,6 +29,7 @@ begin
   end if;
   return coalesce(new, old);
 end $$;
+drop trigger if exists attempt_answers_triagem_guard on public.attempt_answers;
 create trigger attempt_answers_triagem_guard before insert or update or delete on public.attempt_answers
   for each row execute function public.trg_triagem_answers_guard();
 
