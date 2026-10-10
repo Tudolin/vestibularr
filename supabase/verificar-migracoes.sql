@@ -12,5 +12,8 @@ select
   exists (select 1 from pg_proc where proname = 'answer_facts')                                      as "0011_taxonomy",
   exists (select 1 from pg_proc where proname = 'triagem_start')                                     as "0012_triagem",
   exists (select 1 from pg_proc where proname = '_triagem_available')                                as "0013_triagem_vazia",
+  to_regclass('public.friendships') is not null                                                      as "0014_social",
+  to_regclass('public.push_subscriptions') is not null                                               as "0015_notifications",
+  to_regclass('public.exports') is not null                                                          as "0016_exports",
   -- dados: questões com TRI (precisa do npm run seed:taxonomia). A triagem exige pelo menos 8 por área.
   (select count(*) from public.questions where irt_b is not null)                                    as "questoes_com_tri";

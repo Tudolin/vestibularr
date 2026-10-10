@@ -42,7 +42,7 @@ export default async function PerfilPage() {
         <CardContent><AccountForms name={user.fullName} email={user.email} /></CardContent>
       </Card>
       {user.role === "student" && my && (
-        <Card>
+        <Card id="plano">
           <CardHeader>
             <CardTitle className="flex flex-wrap items-center gap-2">
               Plano {plan.name}

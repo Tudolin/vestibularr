@@ -1,4 +1,4 @@
-import { ArrowLeft, Clock, Info, RotateCcw } from "lucide-react";
+import { ArrowLeft, Clock, Download, Info, RotateCcw } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
@@ -130,6 +130,7 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
           <div className="flex flex-wrap gap-2">
             <RetryButton attemptId={id} count={wrongOrBlank} />
             <Button asChild variant="outline"><Link href="/estudar/erros"><RotateCcw aria-hidden /> Caderno de erros</Link></Button>
+            <Button asChild variant="ghost"><Link href={`/estudar/exportar?tentativa=${id}`}><Download aria-hidden /> Baixar em PDF/EPUB</Link></Button>
           </div>
         </Card>
       )}
