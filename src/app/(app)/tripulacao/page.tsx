@@ -88,12 +88,14 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
         <div className="grid gap-6 lg:grid-cols-[1.2fr_1fr]">
           <div className="flex flex-col gap-4">
             <Card>
-              <CardHeader className="flex-row flex-wrap items-center justify-between gap-2">
+              <CardHeader>
                 <CardTitle className="flex items-center gap-2"><Users className="size-4" aria-hidden /> Ranking da semana</CardTitle>
-                <ShareInvite path={`/amigo/${me.username}`} text={`Bora estudar juntos no Vestibularr? Me adiciona: @${me.username}`} />
               </CardHeader>
               <CardContent className="grid gap-4">
-                <FriendSearch />
+                <div className="grid gap-2 sm:grid-cols-[1fr_auto]">
+                  <FriendSearch />
+                  <ShareInvite path={`/amigo/${me.username}`} text={`Bora estudar juntos no Vestibularr? Me adiciona: @${me.username}`} />
+                </div>
                 {o.incoming.length > 0 && (
                   <section aria-label="Pedidos de amizade" className="grid gap-2">
                     <h2 className="flex items-center gap-1.5 text-sm font-bold"><Inbox className="size-4" aria-hidden /> Pedidos</h2>
@@ -105,7 +107,7 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
                     Adicione amigos pelo @apelido ou mande seu link. O ranking da semana zera toda segunda.
                   </p>
                 ) : (
-                  <ol className="stagger grid gap-1">
+                  <ol className="stagger grid grid-cols-[minmax(0,1fr)] gap-1">
                     {o.friends.map((c, i) => (
                       <FriendRow key={c.id} card={c} rank={i + 1} isMe={c.id === me.id} ventoUsed={o.sent_today.vento} nudged={o.sent_today.empurrao.includes(c.id)} />
                     ))}
@@ -130,7 +132,7 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
             <CardHeader><CardTitle>Suas tripulações</CardTitle></CardHeader>
             <CardContent className="grid gap-2">
               {o.crews.length === 0 && <p className="text-sm text-muted-foreground">Grupo de até 12 pessoas com ranking próprio e mural. Crie uma ou entre com o código de um amigo.</p>}
-              <ul className="stagger grid gap-2">
+              <ul className="stagger grid grid-cols-[minmax(0,1fr)] gap-2">
                 {o.crews.map((c) => (
                   <li key={c.id}>
                     <Link href={`/tripulacao/${c.id}`} className="lift flex items-center gap-3 rounded-card border border-border p-3 hover:border-primary">

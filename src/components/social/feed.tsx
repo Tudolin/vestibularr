@@ -19,7 +19,7 @@ const ago = (iso: string, now: number) => {
 /** Mural: atividades automáticas com reações prontas (sem comentários livres). */
 export function Feed({ events, now }: { events: FeedEvent[]; now: number }) {
   if (!events.length) return <p className="text-sm text-muted-foreground">Ainda não há atividade. Faça um simulado ou a triagem e apareça aqui!</p>;
-  return <ul className="stagger grid gap-2">{events.map((e) => <FeedItem key={e.id} e={e} now={now} />)}</ul>;
+  return <ul className="stagger grid grid-cols-[minmax(0,1fr)] gap-2">{events.map((e) => <FeedItem key={e.id} e={e} now={now} />)}</ul>;
 }
 
 function FeedItem({ e, now }: { e: FeedEvent; now: number }) {

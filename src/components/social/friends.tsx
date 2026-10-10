@@ -114,19 +114,20 @@ export function FriendRow({ card, rank, isMe, ventoUsed, nudged, canRemove = tru
   });
   const medal = rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : null;
   return (
-    <li className={cn("flex items-center gap-3 rounded-card p-2.5", isMe ? "bg-primary-soft text-primary-soft-foreground" : "")}>
-      <span className="w-6 text-center text-sm font-extrabold tabular-nums">{medal ?? rank}</span>
+    <li className={cn("flex items-center gap-2 rounded-card p-2 sm:gap-3 sm:p-2.5", isMe ? "bg-primary-soft text-primary-soft-foreground" : "")}>
+      <span className="w-5 shrink-0 text-center text-sm font-extrabold tabular-nums">{medal ?? rank}</span>
       <Avatar card={card} size="sm" />
+      {/* XP fica sob o nome: a linha cabe em 360px mesmo com os botões de boost */}
       <span className="min-w-0 flex-1">
         <span className="block truncate font-semibold">{handle(card)}{isMe && " (você)"}</span>
         <span className="flex items-center gap-2 text-xs text-muted-foreground">
-          <span>nível {card.level}</span>
+          <strong className="text-foreground tabular-nums">{card.week_xp} XP</strong>
+          <span>nv {card.level}</span>
           {card.streak > 0 && <span className="inline-flex items-center gap-0.5"><Flame className="size-3 text-[var(--area-humanas)]" aria-hidden />{card.streak}</span>}
         </span>
       </span>
-      <span className="text-sm font-extrabold tabular-nums">{card.week_xp} XP</span>
       {!isMe && (
-        <span className="flex items-center">
+        <span className="flex shrink-0 items-center">
           <Button size="icon" variant="ghost" disabled={pending || ventoUsed} onClick={() => boost("vento")}
             aria-label={ventoUsed ? "Vento a favor já usado hoje" : `Mandar vento a favor para ${handle(card)}`} title="Vento a favor (+50% XP por 15 min)">
             <Wind aria-hidden />

@@ -44,7 +44,7 @@ export function League({ league, meId, weekEnd }: { league: { tier: number; move
           <p className="text-sm">{league.moved === 1 ? "Você subiu na semana passada! 🎉 " : league.moved === -1 ? "Você desceu, mas dá para voltar. " : ""}Termina em <strong>{left}</strong></p>
         </div>
       </div>
-      <ol className="stagger grid gap-1">
+      <ol className="stagger grid grid-cols-[minmax(0,1fr)] gap-1">
         {league.members.map((c, i) => {
           const zone = i < PROMOTE && league.tier < TIERS.length - 1 && c.week_xp > 0 ? "up" : i >= demoteFrom && league.tier > 0 ? "down" : null;
           return (

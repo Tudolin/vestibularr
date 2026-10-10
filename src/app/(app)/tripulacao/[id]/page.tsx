@@ -49,7 +49,7 @@ export default async function CrewPage({ params }: { params: Promise<{ id: strin
         <Card>
           <CardHeader><CardTitle>Ranking da semana</CardTitle></CardHeader>
           <CardContent>
-            <ol className="stagger grid gap-1">
+            <ol className="stagger grid grid-cols-[minmax(0,1fr)] gap-1">
               {crew.members.map((m, i) => (
                 <FriendRow key={m.id} card={m} rank={i + 1} isMe={m.id === user.id} ventoUsed={o.sent_today.vento} nudged={o.sent_today.empurrao.includes(m.id)} canRemove={false} />
               ))}
