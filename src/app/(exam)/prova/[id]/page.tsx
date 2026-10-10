@@ -12,6 +12,7 @@ export default async function ProvaPage({ params }: { params: Promise<{ id: stri
   const supabase = await createClient();
   const { data: state, error } = await supabase.rpc("attempt_state", { p_attempt: id });
   if (error || !state) notFound();
+  if (state.attempt.mode === "triagem") redirect(`/triagem/${id}`);
   if (state.attempt.status === "finished" || state.attempt.status === "expired") redirect(`/estudar/resultado/${id}`);
 
   const { data: rows } = await supabase

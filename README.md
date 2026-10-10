@@ -133,6 +133,14 @@ aproximação linear, e mostram **Pontos fortes** e **Onde focar** (assuntos que
 matéria/assunto do treino e o mapa de calor passam a funcionar para o ENEM. É a base da triagem e do plano de estudos
 (`docs/02-plano-engajamento.md`).
 
+**Triagem** (migration `0012`, rota `/triagem`): ~32 questões reais do ENEM (8 por área, alternando) escolhidas uma a uma
+pelo servidor com a TRI (item com dificuldade mais perto do θ atual, sorteado entre os 6 mais próximos; prefere questões
+inéditas para o aluno). "Não sei" conta como erro; dá para encerrar antes. O gabarito só aparece no fim. O relatório mostra
+nível, nota por área com faixa de incerteza, comparação com a nota de corte do curso, onde focar e pontos fortes (detalhado
+nos planos pagos). Logo após o onboarding o aluno cai na triagem (com "Pular, faço depois"); o início mostra o convite até a
+primeira triagem. Cota por plano: `triagem` (Grátis 1/mês, Estudante 2/mês, Pro e Família ilimitada) e `triagem_report`.
+As respostas entram no Desempenho, no domínio por assunto e no caderno de erros.
+
 **Só questões com resolução:** com a configuração `only_solved_questions` ligada (padrão), alunos só veem e sorteiam questões
 com resolução comentada (ou espelho, nas discursivas) — no banco, na busca, nos simulados, treinos e revisões. Questões de
 tentativas antigas continuam visíveis no histórico. O admin vê tudo e liga/desliga em **Administração → Questões**.

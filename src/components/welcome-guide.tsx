@@ -33,7 +33,8 @@ export function WelcomeGuide({ show }: { show: boolean }) {
   const pathname = usePathname();
   const [closed, close] = useClosedThisSession();
   const [never, setNever] = useState(false);
-  const open = show && !closed && pathname !== "/guia";
+  // não interrompe o guia nem a triagem (que vem logo depois do onboarding)
+  const open = show && !closed && pathname !== "/guia" && !pathname.startsWith("/triagem");
 
   const finish = () => {
     close();

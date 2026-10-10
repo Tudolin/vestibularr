@@ -2,8 +2,8 @@
 
 Objetivo: fazer o aluno voltar todo dia e estudar o que mais precisa.
 
-Status: **E1 concluída** (assunto de cada questão + habilidade e TRI oficiais do INEP + nota TRI e "Onde focar" no
-Desempenho). Próxima: E2 (triagem). Pagamentos (Fase B do plano de produto) ficam por último, provavelmente com AbacatePay.
+Status: **E1 e E2 concluídas** (assunto + TRI oficial de cada questão, nota TRI e "Onde focar" no Desempenho; triagem
+adaptativa com relatório). Próxima: E3 (desafio diário, XP, sequência e notificações). Pagamentos (Fase B do plano de produto) ficam por último, provavelmente com AbacatePay.
 As quatro features formam um ciclo só:
 
 ```
@@ -207,11 +207,14 @@ Isso convive com as fases do plano de produto:
 
 ---
 
-## 7. Decisões para você
+## 7. Decisões (respondidas)
 
-1. **Ordem:** começar por E1 → E2 (triagem), ou fazer a Fase B (pagamentos) primeiro?
-2. **Chat:** concorda em começar sem chat livre (só reações e mensagens prontas) por causa dos menores de idade?
-3. **Competição pública:** ligas semanais com desconhecidos (como as divisões do Duolingo) ou só entre amigos e tripulação? Recomendo só entre amigos na primeira versão.
-4. **Planos:** aprova a divisão grátis/pago da §5?
-5. **Notificações:** push + e-mail estão ok? (O e-mail precisa de um provedor como o Resend, com plano grátis de 3 mil por mês.)
-6. **Mascote:** confirma a v5 (o seu esboço) como o personagem? Ele vai aparecer na triagem, nas reações do desafio e nos níveis.
+1. **Ordem:** E1 → E5; pagamentos (Fase B) por último, provavelmente com AbacatePay.
+2. **Chat:** sem chat livre na primeira versão (só reações e mensagens prontas).
+3. **Competição:** **as duas** — ranking entre amigos/tripulação **e** ligas públicas semanais com **divisões**
+   (promoção e rebaixamento ao fim da semana, estilo Duolingo). Ligas com grupos de ~30 pessoas de XP parecido;
+   no perfil público da liga só aparecem @apelido, avatar do mascote e XP da semana.
+4. **Planos:** divisão grátis/pago da §5 aprovada. Na implementação, a cota da triagem usa o período mensal da tabela de
+   limites: Grátis 1 por mês, Estudante 2 por mês, Pro/Família ilimitada (o relatório detalhado por assunto é dos planos pagos).
+5. **Notificações:** pendente (push + e-mail).
+6. **Mascote:** o dono vai redesenhar; por enquanto fica o vetor inicial.

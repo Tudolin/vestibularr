@@ -1,4 +1,7 @@
+import { Compass } from "lucide-react";
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import { Suspense } from "react";
 import { BoardFilter } from "@/components/performance/board-filter";
 import { PerformanceDashboard } from "@/components/performance/dashboard";
@@ -13,7 +16,10 @@ export default async function DesempenhoPage({ searchParams }: { searchParams: P
     <div className="flex flex-col gap-6">
       <header className="flex flex-wrap items-end justify-between gap-3">
         <h1 className="text-2xl font-extrabold md:text-3xl">Desempenho</h1>
-        <BoardFilter base="/desempenho" board={board} />
+        <div className="flex flex-wrap items-center gap-2">
+          <Button asChild variant="soft" size="sm"><Link href="/triagem"><Compass aria-hidden /> Triagem</Link></Button>
+          <BoardFilter base="/desempenho" board={board} />
+        </div>
       </header>
       <Suspense key={board ?? "all"} fallback={<DashboardSkeleton />}>
         <PerformanceDashboard userId={null} board={board} editable />

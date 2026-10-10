@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { ClipboardList, Flame, Play, RotateCcw, Target } from "lucide-react";
+import { ClipboardList, Compass, Flame, Play, RotateCcw, Target } from "lucide-react";
 import type { Metadata } from "next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -9,6 +9,7 @@ import { requireUser } from "@/lib/auth";
 import { DEFAULT_GOALS } from "@/lib/achievements";
 import { dueErrorsCount, listOpenAttempts } from "@/lib/attempts/queries";
 import { getStats } from "@/lib/performance";
+import { listTriagens } from "@/lib/triagem";
 
 export const metadata: Metadata = { title: "Início" };
 
@@ -16,7 +17,9 @@ export default async function InicioPage() {
   const user = await requireUser();
   // conta nova (cadastro público) passa primeiro pelo onboarding
   if (user.role === "student" && user.preferences.onboarded !== true) redirect("/onboarding");
-  const [open, errors, stats] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null)]);
+  const [open, errors, stats, triagens] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens()]);
+  const triagemOpen = triagens.find((t) => t.status === "in_progress");
+  const triagemDone = triagens.some((t) => t.status === "finished");
   const dayGoal = stats.goals.questions_day ?? DEFAULT_GOALS.questions_day;
   const today = stats.week.answered_today;
   const last = open[0];
@@ -27,6 +30,21 @@ export default async function InicioPage() {
         <h1 className="text-2xl font-extrabold md:text-3xl">Olá, {first}! 👋</h1>
         <p className="text-muted-foreground">Vamos estudar um pouco hoje?</p>
       </header>
+
+      {!triagemDone && (
+        <Card className="flex flex-col gap-4 border-primary bg-primary-soft p-5 text-primary-soft-foreground sm:flex-row sm:items-center">
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground"><Compass aria-hidden /></span>
+          <div className="flex-1">
+            <p className="font-bold">{triagemOpen ? "Termine sua triagem" : "Descubra seu nível"}</p>
+            <p className="text-sm">
+              {triagemOpen
+                ? "Continue de onde parou para ver sua nota por área e onde focar."
+                : "Cerca de 30 questões que se ajustam a você. No fim: nota estimada por área e os assuntos onde focar."}
+            </p>
+          </div>
+          <Button asChild className="self-start sm:self-center"><Link href={triagemOpen ? `/triagem/${triagemOpen.id}` : "/triagem"}>{triagemOpen ? "Continuar" : "Fazer a triagem"}</Link></Button>
+        </Card>
+      )}
 
       <div className="grid gap-4 md:grid-cols-2">
         <HomeCard icon={<Play />} title="Continuar de onde parei" description="Seu último simulado ou treino em andamento.">

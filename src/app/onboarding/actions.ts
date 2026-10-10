@@ -27,5 +27,5 @@ export async function finishOnboardingAction(input: unknown): Promise<ActionResu
     [{ user_id: me.id, kind: "questions_day", target: p.data.questionsDay, updated_at: new Date().toISOString() }],
     { onConflict: "user_id,kind" },
   );
-  redirect("/inicio");
+  redirect("/triagem");
 }
