@@ -72,6 +72,8 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
   const [save, setSave] = useState<{ state: SaveState; pending: number }>({ state: "saving", pending: 0 });
   const [feedback, setFeedback] = useState<Record<string, Feedback>>({});
   const [showResolution, setShowResolution] = useState(false);
+  // treino/revisão: tocar só marca; "Responder" confirma (evita responder por um toque errado)
+  const [pending, setPending] = useState<Record<string, Label | null>>({});
   const [mapOpen, setMapOpen] = useState(false);
   const [finishOpen, setFinishOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
@@ -288,11 +290,22 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
   // ------------------------------------------------------------------ ações
   const choose = useCallback((label: Label) => {
     if (!q || locked || q.kind !== "objective") return;
-    if (immediate && fb) return; // treino: depois do feedback a resposta fica travada
-    const value = a.choice === label ? null : label;
-    write(q.id, "choice", value);
-    if (immediate && value) void loadFeedback(q.id);
-  }, [a.choice, fb, immediate, loadFeedback, locked, q, write]);
+    if (immediate && (fb || a.choice)) return; // treino: depois de responder a resposta fica travada
+    if (immediate) {
+      setPending((p) => ({ ...p, [q.id]: p[q.id] === label ? null : label }));
+      return;
+    }
+    write(q.id, "choice", a.choice === label ? null : label);
+  }, [a.choice, fb, immediate, locked, q, write]);
+
+  /** Treino/revisão: confirma a alternativa marcada e mostra o gabarito. */
+  const confirm = useCallback(() => {
+    if (!q || locked || !immediate || fb || a.choice) return;
+    const label = pending[q.id];
+    if (!label) return;
+    write(q.id, "choice", label);
+    void loadFeedback(q.id);
+  }, [a.choice, fb, immediate, loadFeedback, locked, pending, q, write]);
 
   const strike = useCallback((label: Label) => {
     if (!q || locked) return;
@@ -387,6 +400,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
       const k = e.key.toUpperCase();
       const labels = q?.alternatives.map((x) => x.label) ?? [];
       if (labels.includes(k)) { e.preventDefault(); return e.shiftKey ? strike(k as Label) : choose(k as Label); }
+      if (e.key === "Enter" && immediate) { e.preventDefault(); return confirm(); }
       if (e.key === "ArrowRight") { e.preventDefault(); go(index + 1); }
       else if (e.key === "ArrowLeft") { e.preventDefault(); go(index - 1); }
       else if (k === "M") toggleFlag();
@@ -395,7 +409,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [choose, finishOpen, go, helpOpen, index, mapOpen, q, strike, toggleFlag]);
+  }, [choose, confirm, finishOpen, go, helpOpen, immediate, index, mapOpen, q, strike, toggleFlag]);
 
   const touch = useRef<{ x: number; y: number } | null>(null);
   const onTouchStart = (e: React.TouchEvent) => { touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }; };
@@ -424,6 +438,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
       if (label === a.choice) return "wrong";
       return "idle";
     }
+    if (immediate && !a.choice) return pending[q.id] === label ? "selected" : "idle";
     return a.choice === label ? "selected" : "idle";
   };
   const extraImages = q.extra_images ?? [];
@@ -510,11 +525,18 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                       image={alt.image_url}
                       state={altState(alt.label)}
                       struck={a.strikes.includes(alt.label as Label)}
-                      disabled={locked || (immediate && !!fb)}
+                      disabled={locked || (immediate && (!!fb || !!a.choice))}
                       onSelect={() => choose(alt.label as Label)}
                       onStrike={() => strike(alt.label as Label)}
                     />
                   ))}
+                  {immediate && !a.choice && !fb && (
+                    <li className="list-none pt-1">
+                      <Button size="lg" className="w-full sm:w-auto" disabled={locked || !pending[q.id]} onClick={confirm}>
+                        {pending[q.id] ? `Responder ${pending[q.id]}` : "Escolha uma alternativa"}
+                      </Button>
+                    </li>
+                  )}
                 </ol>
               ) : (
                 <div className="grid gap-2">
@@ -602,7 +624,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
               <QuestionMap statuses={statuses} current={index} onGo={go} />
             </Card>
             <Button size="lg" variant="soft" onClick={() => setFinishOpen(true)}><Send aria-hidden /> Finalizar {immediate ? "treino" : "prova"}</Button>
-            <p className="text-xs text-muted-foreground">Atalhos: A–{q.alternatives.at(-1)?.label ?? "E"} marcar · Shift+letra riscar · ←/→ navegar · M revisão · H marca-texto</p>
+            <p className="text-xs text-muted-foreground">Atalhos: A–{q.alternatives.at(-1)?.label ?? "E"} marcar{immediate ? " · Enter responder" : ""} · Shift+letra riscar · ←/→ navegar · M revisão · H marca-texto</p>
           </div>
         </aside>
       </div>
@@ -653,6 +675,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
           <DialogTitle>Atalhos e gestos</DialogTitle>
           <ul className="grid gap-2 text-sm">
             <li><kbd className="rounded bg-muted px-1.5 font-mono">A</kbd>–<kbd className="rounded bg-muted px-1.5 font-mono">E</kbd> marcar alternativa (de novo desmarca)</li>
+            {immediate && <li><kbd className="rounded bg-muted px-1.5 font-mono">Enter</kbd> responder a alternativa marcada (treino)</li>}
             <li><kbd className="rounded bg-muted px-1.5 font-mono">Shift</kbd>+letra riscar alternativa · celular: toque longo · mouse: botão direito</li>
             <li><kbd className="rounded bg-muted px-1.5 font-mono">←</kbd> <kbd className="rounded bg-muted px-1.5 font-mono">→</kbd> navegar · celular: deslize para o lado</li>
             <li><kbd className="rounded bg-muted px-1.5 font-mono">M</kbd> marcar para revisão · <kbd className="rounded bg-muted px-1.5 font-mono">H</kbd> marca-texto</li>
