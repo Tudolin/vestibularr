@@ -1,11 +1,29 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { after } from "next/server";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import { AVATAR_COLORS, AVATAR_EMOJIS, NUDGES, REACTIONS, socialError, type SearchCard } from "@/lib/social";
+import { notifyUser } from "@/lib/notify";
+import type { PushPayload } from "@/lib/notifications";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
+
+/** Avisa outro aluno depois da resposta (não atrasa a tela). Falha de envio nunca quebra a ação. */
+function notifyLater(target: () => Promise<string | null>, payload: (me: string) => PushPayload) {
+  after(async () => {
+    try {
+      const user = await requireUser();
+      const admin = createAdminClient();
+      const [{ data: me }, to] = await Promise.all([admin.from("profiles").select("username").eq("id", user.id).maybeSingle(), target()]);
+      if (to) await notifyUser(to, "social", payload(me?.username ? `@${me.username}` : "Alguém"));
+    } catch { /* notificação é melhor-esforço */ }
+  });
+}
+const idByUsername = (u: string) => async () =>
+  (await createAdminClient().from("profiles").select("id").eq("username", u.replace(/^@/, "").toLowerCase()).maybeSingle()).data?.id ?? null;
 import type { ActionResult } from "@/lib/validation";
 
 const uuid = z.uuid();
@@ -40,13 +58,18 @@ export async function searchUsersAction(q: string): Promise<SearchCard[]> {
 export async function friendRequestAction(username: string): Promise<ActionResult<string>> {
   const r = await rpc<string>("friend_request", { p_username: String(username).slice(0, 30) });
   if (!r.ok) return { ok: false, error: r.error };
+  notifyLater(idByUsername(String(username)), (me) => r.data === "accepted"
+    ? { title: "🤝 Nova amizade", body: `${me} aceitou sua amizade. Bora ver quem estuda mais na semana!`, url: "/tripulacao", tag: "amizade" }
+    : { title: "👋 Pedido de amizade", body: `${me} quer estudar junto com você.`, url: "/tripulacao", tag: "amizade" });
   revalidatePath("/tripulacao", "layout");
   return { ok: true, data: r.data };
 }
 
 export async function friendRespondAction(userId: string, action: "accept" | "decline" | "remove" | "block"): Promise<ActionResult> {
   if (!uuid.safeParse(userId).success || !["accept", "decline", "remove", "block"].includes(action)) return { ok: false, error: "Inválido." };
-  return done(await rpc("friend_respond", { p_user: userId, p_action: action }));
+  const r = done(await rpc("friend_respond", { p_user: userId, p_action: action }));
+  if (r.ok && action === "accept") notifyLater(async () => userId, (me) => ({ title: "🤝 Nova amizade", body: `${me} aceitou seu pedido. Agora vocês disputam o ranking da semana!`, url: "/tripulacao", tag: "amizade" }));
+  return r;
 }
 
 export async function reportAction(userId: string, reason: "apelido" | "spam" | "assedio" | "outro"): Promise<ActionResult> {
@@ -57,7 +80,11 @@ export async function reportAction(userId: string, reason: "apelido" | "spam" | 
 export async function sendBoostAction(to: string, kind: "vento" | "empurrao", message?: string): Promise<ActionResult> {
   if (!uuid.safeParse(to).success || !["vento", "empurrao"].includes(kind)) return { ok: false, error: "Inválido." };
   if (kind === "empurrao" && !(NUDGES as readonly string[]).includes(message ?? "")) return { ok: false, error: "Mensagem inválida." };
-  return done(await rpc("send_boost", { p_to: to, p_kind: kind, p_message: kind === "empurrao" ? message : null }));
+  const r = done(await rpc("send_boost", { p_to: to, p_kind: kind, p_message: kind === "empurrao" ? message : null }));
+  if (r.ok) notifyLater(async () => to, (me) => kind === "vento"
+    ? { title: "⛵ Vento a favor!", body: `${me} te deu +50% de XP pelos próximos 15 minutos. Aproveita!`, url: "/estudar", tag: "boost" }
+    : { title: `👋 ${me}`, body: message ?? "Bora estudar!", url: "/estudar", tag: "boost" });
+  return r;
 }
 
 export async function reactAction(eventId: number, emoji: string): Promise<ActionResult<Record<string, number>>> {

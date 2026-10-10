@@ -4,7 +4,7 @@
  * - Dados (Supabase, server actions, RSC): sempre rede — a fila offline do app cuida das respostas.
  * - Ao sair da conta, o app pede para apagar as páginas em cache (mensagem "clear-pages").
  */
-const VERSION = "v1";
+const VERSION = "v2";
 const STATIC = `vr-static-${VERSION}`;
 const PAGES = `vr-pages-${VERSION}`;
 const OFFLINE = "/offline.html";
@@ -67,4 +67,30 @@ self.addEventListener("fetch", (event) => {
         .catch(async () => (await caches.match(req, { cacheName: PAGES })) || (await caches.match(OFFLINE))),
     );
   }
+});
+
+// ------------------------------------------------------------------ notificações (push)
+self.addEventListener("push", (event) => {
+  let data = {};
+  try { data = event.data ? event.data.json() : {}; } catch { data = { title: "Vestibularr", body: event.data && event.data.text() }; }
+  event.waitUntil(self.registration.showNotification(data.title || "Vestibularr", {
+    body: data.body || "",
+    icon: "/icons/icon-192.png",
+    badge: "/icons/icon-192.png",
+    tag: data.tag || undefined,
+    renotify: !!data.tag,
+    data: { url: data.url || "/inicio" },
+  }));
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const url = new URL((event.notification.data && event.notification.data.url) || "/inicio", self.location.origin).href;
+  event.waitUntil((async () => {
+    const wins = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
+    for (const w of wins) {
+      if (new URL(w.url).origin === self.location.origin && "focus" in w) { await w.focus(); if ("navigate" in w) await w.navigate(url); return; }
+    }
+    await self.clients.openWindow(url);
+  })());
 });

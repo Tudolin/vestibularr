@@ -5,8 +5,8 @@ import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = { title: "Entrar" };
 
-export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string; erro?: string }> }) {
-  const { next, erro } = await searchParams;
+export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string; erro?: string; saiu?: string }> }) {
+  const { next, erro, saiu } = await searchParams;
   return (
     <main id="conteudo" className="mx-auto flex min-h-dvh w-full max-w-sm flex-col justify-center gap-8 px-4 py-10">
       <div className="flex flex-col items-center gap-3 text-center">
@@ -19,6 +19,11 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
       {erro === "link" && (
         <p role="alert" className="rounded-control bg-warning-soft px-4 py-3 text-sm font-medium text-warning-soft-foreground">
           O link de confirmação expirou ou já foi usado. Entre com seu e-mail e senha — ou crie a conta de novo.
+        </p>
+      )}
+      {saiu === "todos" && (
+        <p role="status" className="rounded-control bg-success-soft px-4 py-3 text-sm font-medium text-success-soft-foreground">
+          Pronto: você saiu de todos os aparelhos. Entre de novo neste.
         </p>
       )}
       {erro === "sessao" && (
