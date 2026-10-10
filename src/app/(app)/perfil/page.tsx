@@ -13,7 +13,6 @@ import { NotificationSettings } from "@/components/account/notification-settings
 import { OfflineLists } from "@/components/offline/offline-banner";
 import { OfflinePrep } from "@/components/offline/offline-prep";
 import { readNotifyPrefs } from "@/lib/notifications";
-import { emailConfigured } from "@/lib/notify";
 import { Badge } from "@/components/ui/badge";
 import { describeLimit, PLANS } from "@/lib/plans";
 import { isStoreApp } from "@/lib/platform";
@@ -21,7 +20,8 @@ import { createClient } from "@/lib/supabase/server";
 
 type MyPlan = {
   plan: string;
-  subscription: { status: string; trial_end: string | null; current_period_end: string | null } | null;
+  beta?: boolean;
+  subscription: { status: string; plan_code: string; trial_end: string | null; current_period_end: string | null } | null;
   limits: Record<string, { quota: number | null; used: number; remaining: number | null; unlimited: boolean; period: string }>;
 };
 const fmtDate = (iso: string) => new Date(iso).toLocaleDateString("pt-BR", { day: "2-digit", month: "long", timeZone: "America/Sao_Paulo" });
@@ -46,7 +46,8 @@ export default async function PerfilPage() {
           <CardHeader>
             <CardTitle className="flex flex-wrap items-center gap-2">
               Plano {plan.name}
-              {sub?.status === "trialing" && sub.trial_end && <Badge tone="warning">teste até {fmtDate(sub.trial_end)}</Badge>}
+              {my.beta && !(sub?.status === "active" && sub.plan_code !== "free") && <Badge tone="success">Beta: tudo liberado</Badge>}
+              {!my.beta && sub?.status === "trialing" && sub.trial_end && <Badge tone="warning">teste até {fmtDate(sub.trial_end)}</Badge>}
               {sub?.status === "active" && sub.current_period_end && <Badge tone="success">renova em {fmtDate(sub.current_period_end)}</Badge>}
             </CardTitle>
           </CardHeader>
@@ -64,6 +65,7 @@ export default async function PerfilPage() {
             </ul>
             {/* Modelo "Netflix": assinatura só pelo site. No app das lojas não há preço nem botão de assinar. */}
             <p className="text-muted-foreground">
+              {my.beta && "Durante o beta, todos os recursos do Pro estão liberados de graça. "}
               {storeApp ? "Para mudar de plano, acesse sua conta pelo site do Vestibularr no navegador." : "A troca de plano e a assinatura são feitas pelo site. Em breve, com pagamento por Pix."}
             </p>
           </CardContent>
@@ -71,7 +73,7 @@ export default async function PerfilPage() {
       )}
       <Card>
         <CardHeader><CardTitle>Notificações</CardTitle></CardHeader>
-        <CardContent><NotificationSettings initial={readNotifyPrefs(user.preferences.notifications)} emailAvailable={emailConfigured()} /></CardContent>
+        <CardContent><NotificationSettings initial={readNotifyPrefs(user.preferences.notifications)} /></CardContent>
       </Card>
       <Card id="offline">
         <CardHeader><CardTitle>Estudar sem internet</CardTitle></CardHeader>

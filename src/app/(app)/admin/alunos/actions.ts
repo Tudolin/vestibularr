@@ -114,3 +114,13 @@ export async function revokeInviteAction(id: unknown): Promise<ActionResult> {
   revalidatePath("/admin/alunos");
   return { ok: true };
 }
+
+/** Beta: liga/desliga "todos os alunos com acesso do plano Pro" (desligar quando o pagamento entrar). */
+export async function setBetaAction(on: boolean): Promise<ActionResult> {
+  await requireAdmin();
+  if (typeof on !== "boolean") return fail("Valor inválido.");
+  const { error } = await (await createClient()).from("settings").update({ value: on }).eq("key", "beta_open_access");
+  if (error) return fail("Não foi possível salvar (aplicou a migration 0017?).");
+  revalidatePath("/", "layout");
+  return { ok: true, data: undefined };
+}

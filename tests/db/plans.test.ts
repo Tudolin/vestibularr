@@ -85,3 +85,16 @@ describe("planos e limites", () => {
     expect(r.subscription.provider_sub_id).toBeUndefined();
   });
 });
+
+describe("beta: tudo liberado enquanto não há pagamento", () => {
+  it("com o beta ligado, quem está no Grátis usa o Pro; ao desligar, volta ao Grátis", async () => {
+    const u = await createUser(c, "beta@x.com");
+    await c.query("update subscriptions set trial_end = now() - interval '1 minute' where user_id = $1", [u]);
+    const plan = async () => (await asUser(c, u, async () => (await c.query("select public.my_plan() p")).rows[0].p)) as { plan: string; beta: boolean };
+    expect((await plan()).plan).toBe("free");
+    await c.query("update settings set value = 'true' where key = 'beta_open_access'");
+    expect(await plan()).toMatchObject({ plan: "pro", beta: true });
+    await c.query("update settings set value = 'false' where key = 'beta_open_access'");
+    expect(await plan()).toMatchObject({ plan: "free", beta: false });
+  });
+});

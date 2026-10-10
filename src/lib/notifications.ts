@@ -3,14 +3,13 @@ import { z } from "zod";
 /** Preferências de notificação (profiles.preferences.notifications). */
 export const notifyPrefsSchema = z.object({
   push: z.boolean(),
-  email: z.boolean(),
   hour: z.number().int().min(6).max(22),
   lembrete: z.boolean(),
   social: z.boolean(),
   liga: z.boolean(),
 });
 export type NotifyPrefs = z.infer<typeof notifyPrefsSchema>;
-export const DEFAULT_NOTIFY: NotifyPrefs = { push: false, email: false, hour: 19, lembrete: true, social: true, liga: true };
+export const DEFAULT_NOTIFY: NotifyPrefs = { push: false, hour: 19, lembrete: true, social: true, liga: true };
 export function readNotifyPrefs(raw: unknown): NotifyPrefs {
   const p = notifyPrefsSchema.safeParse({ ...DEFAULT_NOTIFY, ...(raw && typeof raw === "object" ? raw : {}) });
   return p.success ? p.data : DEFAULT_NOTIFY;

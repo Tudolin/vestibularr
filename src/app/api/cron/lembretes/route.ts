@@ -28,7 +28,7 @@ export async function GET(req: NextRequest) {
     const { error } = await admin.from("notification_log").insert({ user_id: u.user_id, kind: "lembrete" });
     if (error) continue;
     const r = await notifyUser(u.user_id, "lembrete", reminderText(u.first_name, u.streak));
-    if (r.push || r.email) reminders++;
+    if (r.push) reminders++;
   }
 
   if (sp.getDay() === 0 && hour >= 18) {
@@ -42,7 +42,7 @@ export async function GET(req: NextRequest) {
         ? `Você está em ${s.rank}º na liga ${tier.name} e na zona de subir! A semana fecha hoje à meia-noite.`
         : `Você está em ${s.rank}º na liga ${tier.name}. Faltam ${Math.max(1, s.promo_xp - s.week_xp + 1)} XP para entrar na zona de subir. Fecha hoje!`;
       const r = await notifyUser(s.user_id, "liga", { title: `${tier.emoji} Última chamada da liga`, body, url: "/tripulacao?aba=liga", tag: "liga" });
-      if (r.push || r.email) league++;
+      if (r.push) league++;
     }
   }
   return NextResponse.json({ ok: true, hour, reminders, league });

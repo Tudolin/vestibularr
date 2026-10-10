@@ -18,7 +18,7 @@ function b64ToBytes(b64: string) {
 const VAPID = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY ?? "";
 
 /** Notificações: ativar neste aparelho (push), e-mail, horário do lembrete e tipos de aviso. */
-export function NotificationSettings({ initial, emailAvailable }: { initial: NotifyPrefs; emailAvailable: boolean }) {
+export function NotificationSettings({ initial }: { initial: NotifyPrefs }) {
   const [prefs, setPrefs] = useState(initial);
   const [support, setSupport] = useState<Support>("checking");
   const [subscribed, setSubscribed] = useState(false);
@@ -107,13 +107,12 @@ export function NotificationSettings({ initial, emailAvailable }: { initial: Not
         )}
         <Toggle label="Amigos e boosts" hint="Pedido de amizade, vento a favor e empurrões." checked={prefs.social} onChange={(v) => save({ ...prefs, social: v })} />
         <Toggle label="Liga da semana" hint="Domingo à tarde: sua posição e quanto falta para subir." checked={prefs.liga} onChange={(v) => save({ ...prefs, liga: v })} />
-        {emailAvailable && <Toggle label="Também por e-mail" hint="Só o lembrete e a liga (nada de spam)." checked={prefs.email} onChange={(v) => save({ ...prefs, email: v })} />}
       </fieldset>
 
       <Button variant="outline" disabled={pending} onClick={() => start(async () => {
         const r = await testNotificationAction();
         if (!r.ok) return void toast.error(r.error);
-        toast.success(`Teste enviado${r.data?.push ? ` para ${r.data.push} aparelho(s)` : ""}${r.data?.email ? " e por e-mail" : ""}.`);
+        toast.success(`Teste enviado${r.data?.push ? ` para ${r.data.push} aparelho(s)` : ""}$.`);
       })}>
         <Send aria-hidden /> Enviar um teste
       </Button>

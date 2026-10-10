@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { inviteStatus } from "@/lib/invites";
+import { BetaToggle } from "./beta-toggle";
 import { InvitesManager, type InviteRow } from "./invites-manager";
 import { StudentsManager, type StudentRow } from "./students-manager";
 
@@ -24,9 +25,10 @@ function toInviteRows(list: DbInvite[], names: Map<string, string | null>, now =
 export default async function AlunosPage() {
   const me = await requireAdmin();
   const supabase = await createClient(); // RLS: admin enxerga todos os perfis
-  const [{ data }, { data: inv }] = await Promise.all([
+  const [{ data }, { data: inv }, { data: beta }] = await Promise.all([
     supabase.from("profiles").select("id, full_name, email, role, is_active, last_seen_at, created_at").order("created_at", { ascending: true }),
     supabase.from("invites").select("id, role, email, note, created_at, expires_at, used_at, revoked_at, used_by").order("created_at", { ascending: false }).limit(50),
+    supabase.from("settings").select("value").eq("key", "beta_open_access").maybeSingle(),
   ]);
   const names = new Map((data ?? []).map((p) => [p.id, p.full_name || p.email]));
   const invites = toInviteRows(inv ?? [], names);
@@ -42,6 +44,7 @@ export default async function AlunosPage() {
   }));
   return (
     <div className="flex flex-col gap-8">
+      <BetaToggle initial={beta?.value === true} />
       <StudentsManager rows={rows} />
       <InvitesManager rows={invites} />
     </div>

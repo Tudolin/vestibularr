@@ -3,7 +3,7 @@
 import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import { notifyPrefsSchema } from "@/lib/notifications";
-import { emailConfigured, notifyUser, pushConfigured } from "@/lib/notify";
+import { notifyUser, pushConfigured } from "@/lib/notify";
 import { createClient } from "@/lib/supabase/server";
 import type { ActionResult } from "@/lib/validation";
 
@@ -31,10 +31,10 @@ export async function saveNotifyPrefsAction(input: unknown): Promise<ActionResul
   return error ? { ok: false, error: "Não foi possível salvar." } : { ok: true };
 }
 
-export async function testNotificationAction(): Promise<ActionResult<{ push: number; email: boolean }>> {
+export async function testNotificationAction(): Promise<ActionResult<{ push: number }>> {
   const user = await requireUser();
-  if (!pushConfigured() && !emailConfigured()) return { ok: false, error: "As notificações ainda não foram configuradas no servidor (chaves VAPID/Resend)." };
+  if (!pushConfigured()) return { ok: false, error: "As notificações ainda não foram configuradas no servidor (chaves VAPID)." };
   const r = await notifyUser(user.id, "teste", { title: "🔔 Teste do Vestibularr", body: "Se você está vendo isto, os avisos estão funcionando!", url: "/perfil", tag: "teste" });
-  if (!r.push && !r.email) return { ok: false, error: "Nenhum aparelho recebeu. Ative as notificações neste aparelho primeiro." };
+  if (!r.push) return { ok: false, error: "Nenhum aparelho recebeu. Ative as notificações neste aparelho primeiro." };
   return { ok: true, data: r };
 }

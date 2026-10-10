@@ -4,8 +4,8 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { readNotifyPrefs, type NotifyKind, type PushPayload } from "./notifications";
 
 /**
- * Envio de notificações (só no servidor). Push via Web Push/VAPID e e-mail via Resend — os dois são opcionais:
- * sem as chaves no ambiente, o envio é ignorado em silêncio (o app funciona igual).
+ * Envio de notificações (só no servidor), por push (Web Push/VAPID; no app das lojas vira notificação nativa).
+ * Sem as chaves no ambiente, o envio é ignorado em silêncio (o app funciona igual). Sem e-mail, por decisão do produto.
  */
 let configured: boolean | null = null;
 function vapidReady() {
@@ -16,7 +16,6 @@ function vapidReady() {
   return configured;
 }
 export const pushConfigured = () => vapidReady();
-export const emailConfigured = () => !!(process.env.RESEND_API_KEY && process.env.EMAIL_FROM);
 
 /** Manda push para todos os aparelhos do aluno; inscrições mortas (404/410) são apagadas. Devolve quantos chegaram. */
 export async function sendPush(userId: string, payload: PushPayload): Promise<number> {
@@ -37,30 +36,12 @@ export async function sendPush(userId: string, payload: PushPayload): Promise<nu
   return ok;
 }
 
-export async function sendEmail(to: string, subject: string, text: string, url: string): Promise<boolean> {
-  if (!emailConfigured()) return false;
-  const site = process.env.NEXT_PUBLIC_SITE_URL ?? "";
-  const html = `<div style="font-family:system-ui,sans-serif;font-size:16px;line-height:1.5;max-width:480px">
-    <p>${text.replace(/</g, "&lt;")}</p>
-    <p><a href="${site}${url}" style="display:inline-block;background:#2f3cff;color:#fff;padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:700">Abrir o Vestibularr</a></p>
-    <p style="color:#666;font-size:13px">Você recebe este e-mail porque ativou os lembretes. Para parar, desligue em Perfil → Notificações.</p></div>`;
-  const r = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { authorization: `Bearer ${process.env.RESEND_API_KEY}`, "content-type": "application/json" },
-    body: JSON.stringify({ from: process.env.EMAIL_FROM, to, subject, html, text: `${text}\n\n${site}${url}` }),
-  }).catch(() => null);
-  return !!r?.ok;
-}
-
-/** Notifica respeitando as preferências do aluno (tipo ligado? push ligado?). E-mail só para lembrete e liga. */
-export async function notifyUser(userId: string, kind: NotifyKind, payload: PushPayload): Promise<{ push: number; email: boolean }> {
+/** Notifica respeitando as preferências do aluno (o tipo de aviso está ligado?). Devolve quantos aparelhos receberam. */
+export async function notifyUser(userId: string, kind: NotifyKind, payload: PushPayload): Promise<{ push: number }> {
   const admin = createAdminClient();
-  const { data: p } = await admin.from("profiles").select("email, preferences, is_active").eq("id", userId).maybeSingle();
-  if (!p?.is_active) return { push: 0, email: false };
+  const { data: p } = await admin.from("profiles").select("preferences, is_active").eq("id", userId).maybeSingle();
+  if (!p?.is_active) return { push: 0 };
   const prefs = readNotifyPrefs((p.preferences as Record<string, unknown> | null)?.notifications);
-  if (kind !== "teste" && !prefs[kind]) return { push: 0, email: false };
-  const push = await sendPush(userId, payload);
-  const email = (kind === "lembrete" || kind === "liga" || kind === "teste") && prefs.email && !!p.email
-    ? await sendEmail(p.email, payload.title.replace(/^[^\p{L}\p{N}]+/u, ""), payload.body, payload.url) : false;
-  return { push, email };
+  if (kind !== "teste" && !prefs[kind]) return { push: 0 };
+  return { push: await sendPush(userId, payload) };
 }

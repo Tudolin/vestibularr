@@ -24,7 +24,6 @@ npm run dev                  # http://localhost:3000
 | `GEMINI_API_KEY` | Google AI Studio → Get API key | **segredo**, só servidor. Sem ela, o app funciona e a IA fica desligada |
 | `NEXT_PUBLIC_VAPID_PUBLIC_KEY` / `VAPID_PRIVATE_KEY` | `npm run vapid` (gera o par) | notificações push; a privada é **segredo** |
 | `VAPID_SUBJECT` | opcional | `mailto:seu@email.com` (contato para os serviços de push) |
-| `RESEND_API_KEY` / `EMAIL_FROM` | resend.com → API Keys (opcional) | lembretes também por e-mail; **segredo** |
 | `GEMINI_MODEL` | opcional | padrão `gemini-flash-lite-latest` (o mais barato); troque pelo nome que o AI Studio mostrar |
 
 ### Banco (Supabase)
@@ -99,10 +98,12 @@ Aba **Tripulação** na barra inferior (o Perfil foi para o topo, no celular):
 - **Perfil → Conta**: trocar nome, e-mail (com link de confirmação) e senha; sair de todos os aparelhos; **baixar meus
   dados** (JSON, LGPD) e **excluir conta** (digitar EXCLUIR + senha).
 - **Notificações** (Perfil): push no aparelho (Android, PC e iPhone com o app instalado na Tela de Início), lembrete
-  para estudar só nos dias sem estudo (no horário escolhido), amigos/boosts e posição na liga. E-mail opcional (Resend).
+  para estudar só nos dias sem estudo (no horário escolhido), amigos/boosts e posição na liga. Sem e-mail (decisão do produto).
   Configurar: `npm run vapid` → copie as chaves para a Vercel; o `vercel.json` chama `/api/cron/lembretes` todo dia às 19h
   (horário de Brasília; o plano Hobby permite 1 cron por dia).
-- **Pagamento**: como a Netflix, só pelo site (o app das lojas não vende assinatura). AbacatePay fica para a próxima fase.
+- **Pagamento**: como a Netflix, só pelo site (o app das lojas não vende assinatura). AbacatePay fica por último.
+- **Beta (migration `0017`)**: enquanto não há pagamento, todos os alunos usam o plano Pro (a cota diária de IA continua).
+  O admin desliga em **Admin → Alunos → Beta: tudo liberado** quando a assinatura entrar.
 
 ## Estudar sem internet
 
@@ -299,7 +300,7 @@ Capturas da Fase 1 em `docs/screenshots/fase-1/`.
 3. **Variáveis** (*Settings → Environment Variables*, ambiente Production):
    `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` e
    `CRON_SECRET` (um texto aleatório longo, ex.: `openssl rand -hex 32`). **Nunca** prefixe a service-role com `NEXT_PUBLIC_`.
-   Para notificações: `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, `VAPID_SUBJECT` (e, opcional, `RESEND_API_KEY` e `EMAIL_FROM`).
+   Para notificações: `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, `VAPID_SUBJECT`.
 4. **Deploy**. O `vercel.json` agenda uma chamada diária a `/api/keepalive` (protegida pelo `CRON_SECRET`),
    que impede o Supabase gratuito de pausar o projeto por inatividade.
 5. **Celulares**: abra a URL e use "Instalar app" (Perfil) ou "Adicionar à Tela de Início" no iPhone.

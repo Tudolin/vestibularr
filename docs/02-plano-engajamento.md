@@ -211,12 +211,13 @@ Isso convive com as fases do plano de produto:
 
 ## 7. Decisões (respondidas)
 
-1. **Ordem:** E1 → E5; pagamentos (Fase B) por último, provavelmente com AbacatePay.
+1. **Ordem:** E1 → E5; pagamentos (Fase B) por último, provavelmente com AbacatePay. Enquanto isso o app está em
+   **beta com tudo liberado** (todos no Pro; o admin desliga em Admin → Alunos quando o pagamento entrar).
 2. **Chat:** sem chat livre na primeira versão (só reações e mensagens prontas).
 3. **Competição:** **as duas** — ranking entre amigos/tripulação **e** ligas públicas semanais com **divisões**
    (promoção e rebaixamento ao fim da semana, estilo Duolingo). Ligas com grupos de ~30 pessoas de XP parecido;
    no perfil público da liga só aparecem @apelido, avatar do mascote e XP da semana.
 4. **Planos:** divisão grátis/pago da §5 aprovada. Na implementação, a cota da triagem usa o período mensal da tabela de
    limites: Grátis 1 por mês, Estudante 2 por mês, Pro/Família ilimitada (o relatório detalhado por assunto é dos planos pagos).
-5. **Notificações:** pendente (push + e-mail).
-6. **Mascote:** o dono vai redesenhar; por enquanto fica o vetor inicial.
+5. **Notificações:** só push (sem e-mail).
+6. **Mascote:** fica a V1 (vetor inicial) por enquanto; o dono vai redesenhar.
