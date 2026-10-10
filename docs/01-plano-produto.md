@@ -7,6 +7,7 @@ Objetivo: transformar o app familiar em produto. Ele terá:
 - estudo offline em EPUB/PDF (Kindle e tablets).
 
 Status: **Fase A concluída** (vitrine, cadastro, onboarding, planos e limites). Próxima: Fase B (pagamentos).
+Novas features de engajamento (triagem, plano de estudos, desafios diários, tripulação): ver `docs/02-plano-engajamento.md`.
 
 ---
 
