@@ -72,6 +72,20 @@ para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e se
 **Variáveis novas** (`.env.local` e Vercel): `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_TURNSTILE_SITE_KEY` e
 `TURNSTILE_SECRET_KEY` (crie um widget gratuito em Cloudflare → Turnstile; sem as chaves, o anti-robô fica desligado).
 
+## Ferramentas de estudo (painel flutuante)
+
+Botão **Foco** em todas as páginas (inclusive durante a prova), que abre um painel com:
+- **Pomodoro**: foco, pausa curta e longa, ciclos até a pausa longa, emendar sozinho, aviso sonoro, notificação do
+  navegador e contagem de pomodoros do dia. O tempo é guardado como "instante de término" no aparelho: continua certo ao
+  trocar de página, recarregar, bloquear a tela ou abrir em outra aba.
+- **Som ambiente**: ruído branco, rosa ou marrom gerado no navegador (sem baixar áudio), com volume.
+- **Notas**: bloco de anotações rápidas.
+- **Respirar**: respiração guiada 4-4-6 para as pausas e antes da prova.
+- **Ajustes**: durações, avisos e lado do botão.
+
+Ajustes e notas ficam no perfil (`profiles.preferences.study_tools` e `study_notes`): valem na próxima sessão e em
+qualquer aparelho. Código em `src/components/study-dock/` e `src/lib/study-tools.ts`.
+
 ## Guia e vídeo de apresentação
 
 - **Primeiro acesso:** todo usuário vê um vídeo de boas-vindas (2 min) até marcar **"Não mostrar novamente"**

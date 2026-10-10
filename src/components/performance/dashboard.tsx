@@ -210,13 +210,14 @@ function MasteryList({ title, icon, items, tone, hint, empty }: { title: string;
   return (
     <Card>
       <CardHeader><CardTitle className="flex items-center gap-2">{icon} {title}</CardTitle></CardHeader>
-      <CardContent className="grid gap-3">
+      <CardContent className="grid grid-cols-[minmax(0,1fr)] gap-3">
         {items.length === 0 && <p className="text-sm text-muted-foreground">{empty}</p>}
-        <ul className="grid gap-2">
+        <ul className="grid grid-cols-[minmax(0,1fr)] gap-2">
           {items.map((t) => (
-            <li key={`${t.subject}-${t.topic}`} className="flex items-center justify-between gap-2 text-sm">
-              <span className="min-w-0 truncate">{t.topic}<span className="ml-1 text-xs text-muted-foreground">{t.subject}</span></span>
-              <span className={cn("shrink-0 font-bold", tone === "success" ? "text-success" : "text-danger")}>
+            // quebra a linha em telas estreitas ou com fonte grande, em vez de alargar a página
+            <li key={`${t.subject}-${t.topic}`} className="flex flex-wrap items-baseline justify-between gap-x-2 text-sm">
+              <span className="min-w-0 max-w-full truncate">{t.topic}<span className="ml-1 text-xs text-muted-foreground">{t.subject}</span></span>
+              <span className={cn("font-bold", tone === "success" ? "text-success" : "text-danger")}>
                 ~{t.score} <span className="text-xs font-normal text-muted-foreground">({t.correct}/{t.n}{t.weight != null ? ` · ${Math.round(t.weight * 1000) / 10}% da prova` : ""})</span>
               </span>
             </li>

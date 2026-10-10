@@ -93,10 +93,10 @@ export default async function TriagemReportPage({ params }: { params: Promise<{ 
       <div className="grid gap-4 md:grid-cols-2">
         <Card>
           <CardHeader><CardTitle className="flex items-center gap-2"><Target className="size-4 text-danger" aria-hidden /> Onde focar</CardTitle></CardHeader>
-          <CardContent className="grid gap-2">
+          <CardContent className="grid grid-cols-[minmax(0,1fr)] gap-2">
             {(full ? focus : focus.slice(0, 3)).map((t) => (
-              <div key={`${t.subject}-${t.topic}`} className="flex items-center justify-between gap-2 text-sm">
-                <span className="min-w-0 truncate">{t.topic} <span className="text-xs text-muted-foreground">{t.subject}</span></span>
+              <div key={`${t.subject}-${t.topic}`} className="flex flex-wrap items-baseline justify-between gap-x-2 text-sm">
+                <span className="min-w-0 max-w-full truncate">{t.topic} <span className="text-xs text-muted-foreground">{t.subject}</span></span>
                 {full && <span className="shrink-0 text-xs text-muted-foreground">{Math.round(t.weight * 1000) / 10}% da prova</span>}
               </div>
             ))}
@@ -106,11 +106,11 @@ export default async function TriagemReportPage({ params }: { params: Promise<{ 
         </Card>
         <Card>
           <CardHeader><CardTitle className="flex items-center gap-2"><TrendingUp className="size-4 text-success" aria-hidden /> Pontos fortes</CardTitle></CardHeader>
-          <CardContent className="grid gap-2">
+          <CardContent className="grid grid-cols-[minmax(0,1fr)] gap-2">
             {full ? (
               strengths.length ? strengths.map((t) => (
-                <div key={`${t.subject}-${t.topic}`} className="flex items-center justify-between gap-2 text-sm">
-                  <span className="min-w-0 truncate">{t.topic} <span className="text-xs text-muted-foreground">{t.subject}</span></span>
+                <div key={`${t.subject}-${t.topic}`} className="flex flex-wrap items-baseline justify-between gap-x-2 text-sm">
+                  <span className="min-w-0 max-w-full truncate">{t.topic} <span className="text-xs text-muted-foreground">{t.subject}</span></span>
                   <span className="shrink-0 font-bold text-success">~{t.score}</span>
                 </div>
               )) : <p className="text-sm text-muted-foreground">Continue praticando: seus pontos fortes aparecem aqui.</p>

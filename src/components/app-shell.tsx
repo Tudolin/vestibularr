@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { ActivityPinger } from "./activity-pinger";
 import { LogoutButton } from "./logout-button";
 import { ADMIN_NAV, EXTRA_NAV, STUDENT_NAV, type NavItem } from "./nav";
-import { ThemeToggle } from "./theme-toggle";
+import { ThemeCycleButton, ThemeToggle } from "./theme-toggle";
 
 export type ShellUser = { name: string; email: string | null; role: "admin" | "student" };
 
@@ -17,11 +17,11 @@ function isActive(pathname: string, item: NavItem) {
 
 function Brand() {
   return (
-    <Link href="/inicio" className="flex items-center gap-2 font-display text-lg font-extrabold">
-      <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+    <Link href="/inicio" className="flex min-w-0 items-center gap-2 font-display text-lg font-extrabold">
+      <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground">
         <GraduationCap className="size-5" aria-hidden />
       </span>
-      Vestibularr
+      <span className="truncate">Vestibularr</span>
     </Link>
   );
 }
@@ -41,7 +41,7 @@ export function AppShell({
   const isAdmin = user.role === "admin";
 
   return (
-    <div className="min-h-dvh md:grid md:grid-cols-[16rem_1fr]">
+    <div className="min-h-dvh overflow-x-clip md:grid md:grid-cols-[16rem_1fr]">
       {!pathnameOverride && <ActivityPinger />}
       {/* Sidebar — desktop */}
       <aside className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
@@ -75,11 +75,12 @@ export function AppShell({
 
       <div className="flex min-w-0 flex-col">
         {/* Topo — celular */}
-        <header className="sticky top-0 z-30 flex items-center justify-between border-b border-border bg-background/90 px-4 py-2 backdrop-blur md:hidden">
+        <header className="sticky top-0 z-30 flex items-center justify-between gap-2 border-b border-border bg-background/90 px-4 py-2 backdrop-blur md:hidden">
           <Brand />
-          <div className="flex items-center gap-1">
+          {/* compacto: com fonte grande do sistema, o seletor de 3 botões alargava a página */}
+          <div className="flex shrink-0 items-center gap-1">
             <Link href="/busca" aria-label="Buscar" className="flex size-11 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"><Search className="size-5" aria-hidden /></Link>
-            <ThemeToggle />
+            <ThemeCycleButton />
           </div>
         </header>
         <main id="conteudo" className="pb-safe-nav mx-auto w-full max-w-5xl flex-1 px-4 py-6 md:px-8 md:pb-10">
@@ -90,7 +91,8 @@ export function AppShell({
       {/* Barra inferior — celular */}
       <nav
         aria-label="Principal"
-        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-border bg-card pb-[env(safe-area-inset-bottom)] md:hidden"
+        // minmax(0,1fr): com fonte grande do sistema (Android/iOS), as 5 colunas encolhem em vez de alargar a página
+        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-[repeat(5,minmax(0,1fr))] border-t border-border bg-card pb-[env(safe-area-inset-bottom)] md:hidden"
       >
         {STUDENT_NAV.map((item) => {
           const active = isActive(pathname, item);
@@ -101,14 +103,14 @@ export function AppShell({
               href={item.href}
               aria-current={active ? "page" : undefined}
               className={cn(
-                "flex min-h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-semibold",
+                "flex min-h-14 min-w-0 flex-col items-center justify-center gap-0.5 px-0.5 text-[11px] font-semibold",
                 active ? "text-primary" : "text-muted-foreground",
               )}
             >
-              <span className={cn("flex h-7 w-12 items-center justify-center rounded-full", active && "bg-primary-soft")}>
-                <Icon className="size-5" aria-hidden />
+              <span className={cn("flex h-7 w-full max-w-12 items-center justify-center rounded-full", active && "bg-primary-soft")}>
+                <Icon className="size-5 shrink-0" aria-hidden />
               </span>
-              {item.label}
+              <span className="max-w-full truncate">{item.label}</span>
             </Link>
           );
         })}

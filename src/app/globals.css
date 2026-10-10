@@ -131,6 +131,8 @@
 
 html {
   color-scheme: light;
+  /* rede de segurança: nada alarga a página na horizontal (clip não quebra o sticky, ao contrário de hidden) */
+  overflow-x: clip;
 }
 html.dark {
   color-scheme: dark;

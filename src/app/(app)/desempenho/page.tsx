@@ -16,7 +16,7 @@ export default async function DesempenhoPage({ searchParams }: { searchParams: P
     <div className="flex flex-col gap-6">
       <header className="flex flex-wrap items-end justify-between gap-3">
         <h1 className="text-2xl font-extrabold md:text-3xl">Desempenho</h1>
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="flex min-w-0 max-w-full flex-wrap items-center gap-2">
           <Button asChild variant="soft" size="sm"><Link href="/triagem"><Compass aria-hidden /> Triagem</Link></Button>
           <BoardFilter base="/desempenho" board={board} />
         </div>

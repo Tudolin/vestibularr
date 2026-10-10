@@ -22,7 +22,7 @@ export default async function PerfilPage() {
       </Card>
       <Card>
         <CardHeader><CardTitle>Aparência</CardTitle></CardHeader>
-        <CardContent className="flex items-center justify-between gap-4">
+        <CardContent className="flex flex-wrap items-center justify-between gap-4">
           <span className="text-sm text-muted-foreground">Claro, escuro ou seguir o sistema.</span>
           <ThemeToggle />
         </CardContent>
