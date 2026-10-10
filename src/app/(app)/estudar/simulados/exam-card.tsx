@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { startAttemptAction } from "../actions";
+import { needsInternet } from "@/lib/use-online";
 
 export type ExamItem = { id: string; name: string; year: number; board: string; minutes: number | null; count: number; pdf_url: string | null; openAttempt: string | null };
 
@@ -19,6 +20,7 @@ export function ExamCard({ exam }: { exam: ExamItem }) {
 
   function go(language?: "ingles" | "espanhol") {
     start(async () => {
+      if (needsInternet("Começar um simulado novo")) return;
       const r = await startAttemptAction({ mode: "simulado", exam_id: exam.id, language });
       if (r.ok) return router.push(`/prova/${r.id}`);
       if (r.code === "language_required") return setAskLang(true);

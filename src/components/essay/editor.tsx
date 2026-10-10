@@ -17,6 +17,7 @@ import { estimateLines, lineStatus, wordCount } from "@/lib/essay/lines";
 import { createClient } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 import { CorrectionView, type Correction } from "./correction-view";
+import { correctionQueue, useOnline } from "@/lib/use-online";
 
 export type EditorProps = {
   essay: { id: string; status: "draft" | "submitted"; kind: "enem" | "ufpr" };
@@ -53,6 +54,14 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
   const [save, setSave] = useState<{ state: SaveState; pending: number }>({ state: "saved", pending: 0 });
   const [pending, start] = useTransition();
   const [confirmOpen, setConfirmOpen] = useState(false);
+  const online = useOnline();
+  const [queued, setQueued] = useState(false);
+  useEffect(() => {
+    const read = () => setQueued(correctionQueue.has(essay.id));
+    read();
+    window.addEventListener("vr:fila", read);
+    return () => window.removeEventListener("vr:fila", read);
+  }, [essay.id]);
   const [historyOpen, setHistoryOpen] = useState(false);
   const [photo, setPhoto] = useState<{ text: string; illegible: string[]; confidence: string } | null>(null);
   const [transcribing, setTranscribing] = useState(false);
@@ -160,6 +169,10 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
   // ------------------------------------------------------------------ foto → texto
   async function onPhoto(file?: File) {
     if (!file) return;
+    if (!navigator.onLine) {
+      if (fileRef.current) fileRef.current.value = "";
+      return void toast.error("Ler a foto precisa de internet (a IA faz a transcrição). Tire a foto agora e envie quando a conexão voltar, ou digite o texto.");
+    }
     if (!aiReady) return void toast.error("A transcrição por IA ainda não foi configurada.");
     setTranscribing(true);
     try {
@@ -177,6 +190,12 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
 
   // ------------------------------------------------------------------ enviar / reescrever
   function submit() {
+    if (!navigator.onLine) {
+      // sem internet: o texto já está no aparelho; a correção vai para a fila e sai sozinha quando a conexão voltar
+      correctionQueue.add({ id: essay.id, title: document.title.split(" ·")[0] || "Sua redação", at: Date.now() });
+      setConfirmOpen(false);
+      return void toast.success("Sem internet agora: sua redação entrou na fila e vai para correção assim que a conexão voltar.");
+    }
     start(async () => {
       if (timer.current) clearTimeout(timer.current);
       await push();
@@ -239,7 +258,16 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
 
       {!readOnly ? (
         <div className="flex flex-wrap items-center gap-3">
-          <Button size="lg" disabled={pending || content.trim().length < 20} onClick={() => setConfirmOpen(true)}><Send aria-hidden /> Enviar para correção</Button>
+          {queued ? (
+            <div role="status" className="flex flex-wrap items-center gap-2 rounded-control bg-warning-soft px-3 py-2 text-sm text-warning-soft-foreground">
+              <Loader2 className="size-4 animate-spin" aria-hidden /> Na fila: vai para correção quando a internet voltar.
+              <button type="button" className="min-h-10 font-bold underline" onClick={() => correctionQueue.remove(essay.id)}>Cancelar</button>
+            </div>
+          ) : (
+            <Button size="lg" disabled={pending || content.trim().length < 20} onClick={() => setConfirmOpen(true)}>
+              <Send aria-hidden /> {online ? "Enviar para correção" : "Corrigir quando voltar a internet"}
+            </Button>
+          )}
           <span className="text-sm text-muted-foreground">
             {aiReady ? (quota.unlimited ? "Correções por IA ilimitadas no seu plano." : `Correções ${periodLabel(quota.period)}: ${quota.used}/${quota.limit}`) : "Correção por IA ainda não configurada."}
           </span>
@@ -270,12 +298,13 @@ export function EssayEditor({ essay, theme, initial, versions, quota, aiReady }:
       {/* confirmar envio */}
       <Dialog open={confirmOpen} onOpenChange={setConfirmOpen}>
         <DialogContent>
-          <DialogTitle>Enviar para correção?</DialogTitle>
+          <DialogTitle>{online ? "Enviar para correção?" : "Sem internet agora"}</DialogTitle>
           <DialogDescription>
+            {!online && "A correção por IA precisa de internet. Sua redação fica salva no aparelho e entra na fila: ela é enviada sozinha quando a conexão voltar (com o app aberto). "}
             O texto fica congelado como versão enviada. Depois você pode reescrever e enviar de novo.
             {!quota.unlimited && ` Isso usa 1 das ${quota.limit} correções ${periodLabel(quota.period)} (já usou ${quota.used}).`}
           </DialogDescription>
-          <Button size="lg" disabled={pending} onClick={submit}>{pending ? <Loader2 className="animate-spin" aria-hidden /> : <Send aria-hidden />} Enviar</Button>
+          <Button size="lg" disabled={pending} onClick={submit}>{pending ? <Loader2 className="animate-spin" aria-hidden /> : <Send aria-hidden />} {online ? "Enviar" : "Colocar na fila"}</Button>
         </DialogContent>
       </Dialog>
 

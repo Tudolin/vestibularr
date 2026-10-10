@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { NUDGES, type Card, type SearchCard } from "@/lib/social";
 import { cn } from "@/lib/utils";
 import { Avatar, handle } from "./avatar";
+import { needsInternet } from "@/lib/use-online";
 
 /** Compartilhar o link "me adiciona" (WhatsApp, Instagram… pelo menu nativo; senão copia). */
 export function ShareInvite({ path, label = "Convidar amigos", text }: { path: string; label?: string; text: string }) {
@@ -62,6 +63,7 @@ export function FriendSearch() {
                 : u.relation === "pending" && u.requested_by_me ? <span className="text-xs text-muted-foreground">Pedido enviado</span>
                 : (
                   <Button size="sm" disabled={pending} onClick={() => start(async () => {
+      if (needsInternet("A Tripulação")) return;
                     const r = await friendRequestAction(u.username!);
                     if (!r.ok) return void toast.error(r.error);
                     toast.success(r.data === "accepted" ? `Agora vocês são amigos! 🎉` : `Pedido enviado para ${handle(u)}`);
@@ -84,6 +86,7 @@ export function IncomingRequest({ card }: { card: Card }) {
   const router = useRouter();
   const [pending, start] = useTransition();
   const act = (a: "accept" | "decline") => start(async () => {
+      if (needsInternet("A Tripulação")) return;
     const r = await friendRespondAction(card.id, a);
     if (!r.ok) toast.error(r.error);
     else if (a === "accept") toast.success(`Agora você e ${handle(card)} são amigos! 🎉`);
@@ -106,6 +109,7 @@ export function FriendRow({ card, rank, isMe, ventoUsed, nudged, canRemove = tru
   const [nudgeOpen, setNudgeOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const boost = (kind: "vento" | "empurrao", message?: string) => start(async () => {
+      if (needsInternet("A Tripulação")) return;
     const r = await sendBoostAction(card.id, kind, message);
     if (!r.ok) return void toast.error(r.error);
     toast.success(kind === "vento" ? `Vento a favor enviado! ${handle(card)} ganha +50% de XP por 15 min ⛵` : `Empurrão enviado para ${handle(card)} 👋`);
@@ -153,12 +157,15 @@ export function FriendRow({ card, rank, isMe, ventoUsed, nudged, canRemove = tru
         <DialogContent>
           <DialogTitle>{handle(card)}</DialogTitle>
           <div className="grid gap-2">
-            {canRemove && <Button variant="outline" size="lg" disabled={pending} onClick={() => start(async () => { await friendRespondAction(card.id, "remove"); setMenuOpen(false); router.refresh(); })}>Desfazer amizade</Button>}
-            <Button variant="outline" size="lg" disabled={pending} onClick={() => start(async () => { await friendRespondAction(card.id, "block"); toast.success("Bloqueado."); setMenuOpen(false); router.refresh(); })}>Bloquear</Button>
+            {canRemove && <Button variant="outline" size="lg" disabled={pending} onClick={() => start(async () => {
+      if (needsInternet("A Tripulação")) return; await friendRespondAction(card.id, "remove"); setMenuOpen(false); router.refresh(); })}>Desfazer amizade</Button>}
+            <Button variant="outline" size="lg" disabled={pending} onClick={() => start(async () => {
+      if (needsInternet("A Tripulação")) return; await friendRespondAction(card.id, "block"); toast.success("Bloqueado."); setMenuOpen(false); router.refresh(); })}>Bloquear</Button>
             <p className="mt-2 text-sm font-semibold">Denunciar (também bloqueia)</p>
             {([["apelido", "Apelido ofensivo"], ["assedio", "Assédio"], ["spam", "Spam"], ["outro", "Outro motivo"]] as const).map(([r, l]) => (
               <Button key={r} variant="ghost" className="justify-start text-danger" disabled={pending}
-                onClick={() => start(async () => { await reportAction(card.id, r); toast.success("Denúncia enviada. Obrigado por avisar."); setMenuOpen(false); router.refresh(); })}>{l}</Button>
+                onClick={() => start(async () => {
+      if (needsInternet("A Tripulação")) return; await reportAction(card.id, r); toast.success("Denúncia enviada. Obrigado por avisar."); setMenuOpen(false); router.refresh(); })}>{l}</Button>
             ))}
           </div>
         </DialogContent>

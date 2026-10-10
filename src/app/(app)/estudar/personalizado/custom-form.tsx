@@ -11,6 +11,7 @@ import type { Facets } from "@/lib/attempts/queries";
 import { UFPR_2027_SUBJECTS } from "@/lib/scoring/ufpr";
 import { cn } from "@/lib/utils";
 import { startAttemptAction } from "../actions";
+import { needsInternet } from "@/lib/use-online";
 
 const AREA_LABEL: Record<string, string> = { linguagens: "Linguagens", humanas: "Humanas", natureza: "Natureza", matematica: "Matemática" };
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
@@ -45,6 +46,7 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
 
   function submit(extra: Record<string, unknown> = {}) {
     start(async () => {
+      if (needsInternet("Montar um simulado novo")) return;
       const r = await startAttemptAction({
         mode, board: board || undefined, areas: areas.length ? areas : undefined, subjects: subjects.length ? subjects : undefined,
         topics: topics.length ? topics : undefined, count, minutes: mode === "custom" && minutes ? Number(minutes) : undefined, language,
@@ -68,6 +70,7 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
     if (!Object.keys(quotas).length) return toast.error("Ainda não há questões UFPR com disciplina no banco. Importe provas da UFPR primeiro.");
     if (missing.length) toast.message(`Sem questões de: ${missing.join(", ")}. O modelo será montado com o que existe.`);
     start(async () => {
+      if (needsInternet("Montar um simulado novo")) return;
       const r = await startAttemptAction({ mode: "custom", board: "UFPR", quotas, discursive: 2, minutes: 330, title: "Modelo UFPR 2027 (80 objetivas + CPT)", preset: "ufpr2027" });
       if (r.ok) router.push(`/prova/${r.id}`);
       else toast.error(r.error);

@@ -4,12 +4,12 @@
  * - Dados (Supabase, server actions, RSC): sempre rede — a fila offline do app cuida das respostas.
  * - Ao sair da conta, o app pede para apagar as páginas em cache (mensagem "clear-pages").
  */
-const VERSION = "v2";
+const VERSION = "v3";
 const STATIC = `vr-static-${VERSION}`;
 const PAGES = `vr-pages-${VERSION}`;
 const OFFLINE = "/offline.html";
-const CACHEABLE_PAGE = /^\/(inicio|estudar|prova|redacao|desempenho|dicas)(\/|$)/;
-const MAX_PAGES = 40;
+const CACHEABLE_PAGE = /^\/(inicio|estudar|prova|redacao|desempenho|dicas|guia|perfil|tripulacao)(\/|$)/;
+const MAX_PAGES = 80;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(STATIC).then((c) => c.addAll([OFFLINE, "/icons/icon-192.png", "/icons/icon-512.png"])).then(() => self.skipWaiting()));
@@ -25,7 +25,38 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("message", (event) => {
   if (event.data === "clear-pages") event.waitUntil(caches.delete(PAGES));
+  // "Baixar para estudar sem internet": guarda as páginas pedidas e os arquivos de que cada uma precisa
+  if (event.data && event.data.type === "cache-urls") event.waitUntil(precache(event.data.urls || [], event.data.quiet ? null : event.source));
 });
+
+/** Baixa cada página (com a sessão do aluno) e os JS/CSS que ela usa; avisa o progresso para a tela. */
+async function precache(urls, client) {
+  const pages = await caches.open(PAGES);
+  const stat = await caches.open(STATIC);
+  let done = 0, ok = 0;
+  for (const u of urls) {
+    try {
+      const url = new URL(u, self.location.origin);
+      if (url.origin !== self.location.origin || !CACHEABLE_PAGE.test(url.pathname)) continue;
+      const res = await fetch(url.href, { credentials: "same-origin", headers: { accept: "text/html" } });
+      if (res.ok && !res.redirected) {
+        const html = await res.clone().text();
+        await pages.put(new Request(url.href), res);
+        const assets = [...html.matchAll(/(?:src|href)="(\/_next\/static\/[^"]+)"/g)].map((m) => m[1]);
+        await Promise.all([...new Set(assets)].map(async (a) => {
+          if (await stat.match(a)) return;
+          const r = await fetch(a).catch(() => null);
+          if (r && r.ok) await stat.put(a, r);
+        }));
+        ok++;
+      }
+    } catch { /* uma página falhar não para as outras */ }
+    done++;
+    if (client) client.postMessage({ type: "cache-progress", done, ok, total: urls.length });
+  }
+  await trim(PAGES, MAX_PAGES);
+  if (client) client.postMessage({ type: "cache-done", ok, total: urls.length });
+}
 
 async function trim(cacheName, max) {
   const cache = await caches.open(cacheName);

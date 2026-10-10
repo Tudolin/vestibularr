@@ -467,7 +467,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
           <ArrowLeft />
         </Button>
         <div className="min-w-0 flex-1">
-          <p className="truncate text-sm font-bold">{initial.attempt.title}</p>
+          <p className="truncate text-sm font-bold" data-offline-title={initial.attempt.title}>{initial.attempt.title}</p>
           <SaveIndicator state={save.state} pending={save.pending} />
         </div>
         {timerChip}

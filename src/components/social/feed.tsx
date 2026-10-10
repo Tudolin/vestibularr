@@ -6,6 +6,7 @@ import { reactAction } from "@/app/(app)/tripulacao/actions";
 import { describeEvent, REACTIONS, type FeedEvent } from "@/lib/social";
 import { cn } from "@/lib/utils";
 import { Avatar, handle } from "./avatar";
+import { needsInternet } from "@/lib/use-online";
 
 const ago = (iso: string, now: number) => {
   const m = Math.max(0, Math.round((now - new Date(iso).getTime()) / 60000));
@@ -33,6 +34,7 @@ function FeedItem({ e, now }: { e: FeedEvent; now: number }) {
     setMine(next);
     setReactions((r) => ({ ...r, [emoji]: Math.max(0, (r[emoji] ?? 0) + (had ? -1 : 1)) }));
     start(async () => {
+      if (needsInternet("A Tripulação")) return;
       const r = await reactAction(e.id, emoji);
       if (r.ok && r.data) setReactions(r.data); else if (!r.ok) toast.error(r.error);
     });

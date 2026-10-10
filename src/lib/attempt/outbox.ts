@@ -67,6 +67,9 @@ export const drafts = {
   async get(essayId: string) {
     return (await db()).get("drafts", essayId);
   },
+  async list() {
+    return (await db()).getAll("drafts");
+  },
   async markSynced(essayId: string, clientTs: number) {
     const d = await (await db()).get("drafts", essayId);
     if (d && d.client_ts === clientTs) await (await db()).put("drafts", { ...d, synced: true });

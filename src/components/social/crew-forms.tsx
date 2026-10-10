@@ -7,6 +7,7 @@ import { createCrewAction, joinCrewAction } from "@/app/(app)/tripulacao/actions
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { needsInternet } from "@/lib/use-online";
 
 const FLAGS = ["🏴‍☠️", "⚓", "🦜", "🐙", "🦈", "🧭", "🌊", "⭐", "🔥", "📚"];
 
@@ -19,6 +20,7 @@ export function CreateCrew() {
     <form className="grid gap-3" onSubmit={(e) => {
       e.preventDefault();
       start(async () => {
+      if (needsInternet("A Tripulação")) return;
         const r = await createCrewAction({ name, emoji });
         if (!r.ok) return void toast.error(r.error);
         toast.success("Tripulação criada! Agora chame a galera ⚓");
@@ -47,6 +49,7 @@ export function JoinCrew({ initialCode = "" }: { initialCode?: string }) {
     <form className="flex gap-2" onSubmit={(e) => {
       e.preventDefault();
       start(async () => {
+      if (needsInternet("A Tripulação")) return;
         const r = await joinCrewAction(code);
         if (!r.ok) return void toast.error(r.error);
         toast.success("Bem-vindo a bordo! 🏴‍☠️");

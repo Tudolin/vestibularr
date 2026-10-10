@@ -43,7 +43,7 @@ export default async function EssayPage({ params }: { params: Promise<{ id: stri
           {theme.genre && <Badge tone="warning">{theme.genre}</Badge>}
           <Badge>até {theme.line_limit} linhas · {Number(theme.max_score).toLocaleString("pt-BR")} pts</Badge>
         </div>
-        <h1 className="text-xl font-extrabold leading-snug md:text-2xl">{theme.title}</h1>
+        <h1 className="text-xl font-extrabold leading-snug md:text-2xl" data-offline-title={theme.title}>{theme.title}</h1>
       </header>
       <details className="group rounded-card border border-border bg-card" open={essay.status === "draft"}>
         <summary className="flex min-h-12 cursor-pointer list-none items-center px-4 font-semibold">Proposta e textos de apoio</summary>

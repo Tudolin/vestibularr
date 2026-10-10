@@ -7,6 +7,7 @@ import { requireUser } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { getEntitlement, listTriagens } from "@/lib/triagem";
 import { skipTriagemAction, startTriagemAction } from "./actions";
+import { OnlineSubmit } from "@/components/offline/online-submit";
 
 export const metadata: Metadata = { title: "Triagem" };
 
@@ -57,7 +58,7 @@ export default async function TriagemPage({ searchParams }: { searchParams: Prom
       <div className="flex flex-col gap-3 sm:flex-row">
         {canStart ? (
           <form action={startTriagemAction}>
-            <Button type="submit" size="lg" className="w-full sm:w-auto">{open ? "Continuar a triagem" : first ? "Começar a triagem" : "Refazer a triagem"}</Button>
+            <OnlineSubmit size="lg" className="w-full sm:w-auto">{open ? "Continuar a triagem" : first ? "Começar a triagem" : "Refazer a triagem"}</OnlineSubmit>
           </form>
         ) : (
           <Button size="lg" disabled>{ready ? "Triagem do mês já usada" : "Triagem indisponível"}</Button>

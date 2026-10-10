@@ -6,6 +6,9 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { ActivityPinger } from "./activity-pinger";
 import { LogoutButton } from "./logout-button";
+import { OfflineBanner } from "./offline/offline-banner";
+import { PageCacher } from "./offline/page-cacher";
+import { QueueRunner } from "./offline/queue-runner";
 import { ADMIN_NAV, EXTRA_NAV, PROFILE_NAV, STUDENT_NAV, type NavItem } from "./nav";
 import { ThemeCycleButton, ThemeToggle } from "./theme-toggle";
 
@@ -42,7 +45,7 @@ export function AppShell({
 
   return (
     <div className="min-h-dvh overflow-x-clip md:grid md:grid-cols-[16rem_1fr]">
-      {!pathnameOverride && <ActivityPinger />}
+      {!pathnameOverride && <><ActivityPinger /><QueueRunner /><PageCacher /></>}
       {/* Sidebar — desktop */}
       <aside style={{ viewTransitionName: "app-side" }} className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
         <Brand />
@@ -87,6 +90,7 @@ export function AppShell({
             </Link>
           </div>
         </header>
+        {!pathnameOverride && <OfflineBanner />}
         <main id="conteudo" className="pb-safe-nav mx-auto w-full max-w-5xl flex-1 px-4 pt-6 md:px-8 md:pb-24">
           {children}
         </main>

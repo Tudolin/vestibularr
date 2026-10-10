@@ -1,4 +1,4 @@
-import { BookMarked, ClipboardList, Database, Dumbbell, FileUp, RotateCcw, Settings2, type LucideIcon } from "lucide-react";
+import { BookMarked, ClipboardList, CloudDownload, Database, Download, Dumbbell, FileUp, RotateCcw, Settings2, type LucideIcon } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
@@ -16,6 +16,8 @@ export default async function EstudarPage() {
     { href: "/estudar/erros", title: "Caderno de erros", desc: "Revise o que errou com repetição espaçada.", icon: RotateCcw, badge: errors.due > 0 ? `${errors.due} para revisar` : undefined },
     { href: "/estudar/questoes", title: "Banco de questões", desc: "Busque e filtre por vestibular, ano, área e obra.", icon: Database },
     { href: "/estudar/obras", title: "Obras literárias UFPR", desc: "Lista do ano e questões por obra.", icon: BookMarked },
+    { href: "/estudar/exportar", title: "Baixar PDF ou EPUB", desc: "Monte uma lista de questões para imprimir ou ler no Kindle, com gabarito.", icon: Download },
+    { href: "/perfil#offline", title: "Estudar sem internet", desc: "Guarde treinos, simulados e redações no aparelho.", icon: CloudDownload },
     { href: "/estudar/enviar", title: "Enviar prova", desc: "Mande um arquivo de prova para o admin revisar.", icon: FileUp },
   ];
   return (

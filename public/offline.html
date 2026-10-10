@@ -13,6 +13,10 @@
   main { max-width:26rem; background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; text-align:center; }
   h1 { font-size:1.4rem; margin:.5rem 0; }
   p { color:var(--muted); }
+  h2 { font-size:1rem; margin:1.5rem 0 .5rem; text-align:left; }
+  ul { list-style:none; padding:0; margin:0; display:grid; gap:6px; text-align:left; }
+  li a { display:flex; min-height:44px; align-items:center; padding:0 12px; border:1px solid var(--border); border-radius:10px; color:var(--fg); text-decoration:none; font-weight:600; }
+  .tip { font-size:.85rem; margin-top:1.25rem; }
   button { min-height:48px; padding:0 24px; border:0; border-radius:12px; background:var(--primary); color:var(--on-primary); font:inherit; font-weight:700; cursor:pointer; }
 </style>
 </head>
@@ -22,6 +26,50 @@
   <h1>Você está sem conexão</h1>
   <p>Simulados e redações que você abriu recentemente continuam funcionando offline. Suas respostas ficam guardadas no aparelho e são enviadas quando a internet voltar.</p>
   <button onclick="location.reload()">Tentar de novo</button>
+  <div id="salvas" hidden>
+    <h2>Guardado neste aparelho</h2>
+    <ul id="lista"></ul>
+  </div>
+  <p class="tip">Dica: em Perfil → “Estudar sem internet”, baixe treinos e redações antes de ficar offline. Correção por IA, triagem e Tripulação precisam de internet; o pedido de correção fica na fila e é enviado sozinho quando a conexão voltar.</p>
 </main>
+<script>
+  // lista as telas que o service worker guardou, para o aluno abrir direto
+  var NAMES = { inicio: "Início", estudar: "Estudar", redacao: "Redação", desempenho: "Desempenho", dicas: "Dicas", guia: "Guia", perfil: "Perfil", tripulacao: "Tripulação", prova: "Simulado/treino", erros: "Caderno de erros", resultado: "Resultado" };
+  function label(path) {
+    var p = path.split("/").filter(Boolean);
+    if (p[0] === "prova") return "📝 " + NAMES.prova;
+    if (p[0] === "redacao" && p[1]) return "✍️ Redação";
+    if (p[1] === "erros") return "🔁 " + NAMES.erros;
+    if (p[1] === "resultado") return "📊 " + NAMES.resultado;
+    return NAMES[p[0]] || path;
+  }
+  if (window.caches) caches.keys().then(function (keys) {
+    var k = keys.filter(function (x) { return x.indexOf("vr-pages") === 0; })[0];
+    if (!k) return;
+    return caches.open(k).then(function (c) {
+      return c.keys().then(function (reqs) {
+        // usa o <title> de cada página guardada (ex.: "Treino de Matemática · Vestibularr")
+        return Promise.all(reqs.map(function (r) {
+          var path = new URL(r.url).pathname;
+          return c.match(r).then(function (res) { return res.text(); }).then(function (html) {
+            // prova/redação marcam o título de verdade (nome do treino, tema da redação) com data-offline-title
+            var m = html.match(/data-offline-title="([^"]*)"/) || html.match(/<title>([^<]*)<\/title>/);
+            var d = document.createElement("textarea"); d.innerHTML = m ? m[1] : "";
+            var t = d.value.replace(/\s*[·|]\s*Vestibularr\s*$/, "").trim();
+            return { path: path, text: (label(path).match(/^\S+ /) || [""])[0] + (t && t !== "Vestibularr" ? t : label(path).replace(/^\S+ /, "")) };
+          }).catch(function () { return { path: path, text: label(path) }; });
+        }));
+      });
+    }).then(function (items) {
+      if (!items.length) return;
+      var ul = document.getElementById("lista");
+      items.sort(function (a, b) { return a.text.localeCompare(b.text, "pt-BR"); }).forEach(function (it) {
+        var li = document.createElement("li"), a = document.createElement("a");
+        a.href = it.path; a.textContent = it.text; li.appendChild(a); ul.appendChild(li);
+      });
+      document.getElementById("salvas").hidden = false;
+    });
+  });
+</script>
 </body>
 </html>

@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { answerTriagemAction, finishTriagemAction } from "../actions";
+import { needsInternet } from "@/lib/use-online";
 
 type Alt = { label: string; content: React.ReactNode };
 
@@ -22,6 +23,7 @@ export function TriagemQuestion({ attemptId, questionId, statement, alternatives
   const send = (c: string | null) => {
     setError(null);
     const ms = startedAt.current === null ? 0 : Date.now() - startedAt.current;
+    if (needsInternet("A triagem (a próxima questão vem do servidor)")) return;
     start(async () => {
       const r = await answerTriagemAction(attemptId, questionId, c, ms);
       if (!r.ok) setError(r.error);

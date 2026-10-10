@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { AVATAR_COLORS, AVATAR_EMOJIS, type AvatarColor } from "@/lib/social";
 import { cn } from "@/lib/utils";
 import { Avatar } from "./avatar";
+import { needsInternet } from "@/lib/use-online";
 
 /** Escolher @apelido e avatar (primeiro acesso à Tripulação, ou editar). */
 export function ProfileSetup({ initial, onDone }: { initial?: { username: string | null; emoji: string; color: AvatarColor }; onDone?: () => void }) {
@@ -26,6 +27,7 @@ export function ProfileSetup({ initial, onDone }: { initial?: { username: string
         e.preventDefault();
         setError(null);
         start(async () => {
+      if (needsInternet("A Tripulação")) return;
           const r = await saveSocialProfileAction({ username: clean, emoji, color });
           if (!r.ok) return setError(r.error);
           router.refresh();

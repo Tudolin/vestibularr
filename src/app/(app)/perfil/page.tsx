@@ -10,6 +10,8 @@ import { LogoutButton } from "@/components/logout-button";
 import { InstallAppButton, ReadingFontControl } from "@/components/reading-prefs";
 import { AccountForms } from "@/components/account/account-forms";
 import { NotificationSettings } from "@/components/account/notification-settings";
+import { OfflineLists } from "@/components/offline/offline-banner";
+import { OfflinePrep } from "@/components/offline/offline-prep";
 import { readNotifyPrefs } from "@/lib/notifications";
 import { emailConfigured } from "@/lib/notify";
 import { Badge } from "@/components/ui/badge";
@@ -70,6 +72,16 @@ export default async function PerfilPage() {
       <Card>
         <CardHeader><CardTitle>Notificações</CardTitle></CardHeader>
         <CardContent><NotificationSettings initial={readNotifyPrefs(user.preferences.notifications)} emailAvailable={emailConfigured()} /></CardContent>
+      </Card>
+      <Card id="offline">
+        <CardHeader><CardTitle>Estudar sem internet</CardTitle></CardHeader>
+        <CardContent className="grid gap-4">
+          <OfflinePrep />
+          <details className="rounded-card bg-muted p-3">
+            <summary className="min-h-10 cursor-pointer content-center text-sm font-semibold">O que funciona offline e o que precisa de internet</summary>
+            <div className="pt-3"><OfflineLists /></div>
+          </details>
+        </CardContent>
       </Card>
       <Card>
         <CardHeader><CardTitle>Aparência</CardTitle></CardHeader>

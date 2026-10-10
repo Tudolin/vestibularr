@@ -7,6 +7,7 @@ import { toast } from "sonner";
 import { friendRequestAction } from "@/app/(app)/tripulacao/actions";
 import { Button } from "@/components/ui/button";
 import type { SearchCard } from "@/lib/social";
+import { needsInternet } from "@/lib/use-online";
 
 export function AddFriendButton({ card }: { card: SearchCard }) {
   const [rel, setRel] = useState(card.relation === "pending" && card.requested_by_me ? "sent" : card.relation);
@@ -15,6 +16,7 @@ export function AddFriendButton({ card }: { card: SearchCard }) {
   if (rel === "sent") return <p className="text-sm font-semibold text-muted-foreground">Pedido enviado ✓</p>;
   return (
     <Button size="lg" disabled={pending} onClick={() => start(async () => {
+      if (needsInternet("A Tripulação")) return;
       const r = await friendRequestAction(card.username!);
       if (!r.ok) return void toast.error(r.error);
       setRel(r.data === "accepted" ? "accepted" : "sent");

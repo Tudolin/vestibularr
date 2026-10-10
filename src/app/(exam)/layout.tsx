@@ -1,4 +1,6 @@
 import { ActivityPinger } from "@/components/activity-pinger";
+import { PageCacher } from "@/components/offline/page-cacher";
+import { QueueRunner } from "@/components/offline/queue-runner";
 import { StudyDock } from "@/components/study-dock/study-dock";
 import { requireUser } from "@/lib/auth";
 
@@ -8,6 +10,8 @@ export default async function ExamLayout({ children }: { children: React.ReactNo
   return (
     <div className="min-h-dvh bg-background">
       <ActivityPinger />
+      <QueueRunner />
+      <PageCacher />
       {children}
       {/* pomodoro continua contando durante a prova (o botão fica recolhido) */}
       <StudyDock context="exam" initialTools={user.preferences.study_tools} initialNotes={typeof user.preferences.study_notes === "string" ? user.preferences.study_notes : ""} />
