@@ -56,10 +56,12 @@ export function sisuCourseEstimate(
   redacao: number | null,
   weights: SisuWeights,
   bands: Bands = DEFAULT_BANDS,
+  /** Notas já estimadas por TRI (têm prioridade sobre a aproximação linear). */
+  tri: Partial<Record<Area, number>> = {},
 ) {
   const areas: Partial<Record<Area | "redacao", number>> = {};
   for (const a of byArea) {
-    const est = estimateArea(a.correct, a.answered, bands[a.key as Area] ?? [300, 800]);
+    const est = tri[a.key as Area] ?? estimateArea(a.correct, a.answered, bands[a.key as Area] ?? [300, 800]);
     if (est != null && a.key in bands) areas[a.key as Area] = est;
   }
   if (redacao != null) areas.redacao = redacao;

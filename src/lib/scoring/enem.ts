@@ -17,6 +17,9 @@ export const DEFAULT_BANDS: Bands = {
 export const TRI_NOTICE =
   "O ENEM usa TRI (Teoria de Resposta ao Item): a nota real depende de quais questões você acerta, não só de quantas. Este valor é uma estimativa.";
 
+export const TRI_OFFICIAL_NOTICE =
+  "Nota estimada pela TRI com os parâmetros oficiais do INEP para cada questão que você fez. É uma estimativa: quanto mais questões, mais precisa.";
+
 export function estimateArea(correct: number, total: number, band: [number, number]): number | null {
   if (total <= 0) return null;
   const pct = Math.min(Math.max(correct / total, 0), 1);

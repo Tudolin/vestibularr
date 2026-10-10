@@ -1,5 +1,6 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
+import type { Fact } from "@/lib/mastery";
 import type { Bands } from "@/lib/scoring/enem";
 
 export type Bucket = { key: string; board?: string; subject?: string; answered: number; correct: number };
@@ -36,3 +37,11 @@ export async function getBands(): Promise<Bands | undefined> {
 }
 
 export const pct = (c: number, a: number) => (a ? Math.round((c / a) * 100) : 0);
+
+/** Respostas corrigidas com assunto e parâmetros TRI (motor de domínio, src/lib/mastery.ts). */
+export async function getFacts(userId: string | null, board: "ENEM" | "UFPR" | null): Promise<Fact[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("answer_facts", { p_user: userId, p_board: board });
+  if (error) throw new Error(error.message);
+  return (data ?? []) as Fact[];
+}

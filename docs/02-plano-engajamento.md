@@ -1,6 +1,9 @@
 # Plano de engajamento: triagem, plano de estudos, desafios diários e tripulação
 
 Objetivo: fazer o aluno voltar todo dia e estudar o que mais precisa.
+
+Status: **E1 concluída** (assunto de cada questão + habilidade e TRI oficiais do INEP + nota TRI e "Onde focar" no
+Desempenho). Próxima: E2 (triagem). Pagamentos (Fase B do plano de produto) ficam por último, provavelmente com AbacatePay.
 As quatro features formam um ciclo só:
 
 ```

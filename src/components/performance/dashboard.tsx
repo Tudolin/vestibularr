@@ -4,9 +4,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { Progress } from "@/components/ui/progress";
 import { ACHIEVEMENTS } from "@/lib/achievements";
-import { getBands, getStats, pct, type Stats } from "@/lib/performance";
+import { bankFacets } from "@/lib/attempts/queries";
+import { computeMastery, rankTopics, type TopicMastery } from "@/lib/mastery";
+import { getBands, getFacts, getStats, pct, type Stats } from "@/lib/performance";
 import { sisuCourseEstimate, ufprCourseEstimate } from "@/lib/scoring/courses";
-import { estimateEnem, TRI_NOTICE, type Area, type SisuWeights } from "@/lib/scoring/enem";
+import { estimateEnem, TRI_NOTICE, TRI_OFFICIAL_NOTICE, type Area, type SisuWeights } from "@/lib/scoring/enem";
 import { createClient } from "@/lib/supabase/server";
 import { cn } from "@/lib/utils";
 import { AccuracyChart } from "@/components/charts-lazy";
@@ -20,11 +22,13 @@ const AREA_BAR: Record<string, string> = { linguagens: "bg-area-linguagens", hum
 /** Painel de desempenho de um aluno. `userId` null = o próprio usuário logado. */
 export async function PerformanceDashboard({ userId, board, editable }: { userId: string | null; board: "ENEM" | "UFPR" | null; editable: boolean }) {
   const supabase = await createClient();
-  const [stats, enemStats, ufprStats, bands] = await Promise.all([
+  const [stats, enemStats, ufprStats, bands, enemFacts, facets] = await Promise.all([
     getStats(userId, board),
     board === "UFPR" ? null : getStats(userId, "ENEM"),
     board === "ENEM" ? null : getStats(userId, "UFPR"),
     getBands(),
+    board === "UFPR" ? [] : getFacts(userId, "ENEM"),
+    bankFacets(),
   ]);
   const uid = stats.user_id;
   const [{ data: earned }, { data: profile }, { data: courseRows }] = await Promise.all([
@@ -34,7 +38,18 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
   ]);
 
   const t = stats.totals;
-  const enem = enemStats ? estimateEnem(Object.fromEntries(enemStats.by_area.map((a) => [a.key, { correct: a.correct, total: a.answered }])) as Record<Area, { correct: number; total: number }>, bands) : null;
+  const linear = enemStats ? estimateEnem(Object.fromEntries(enemStats.by_area.map((a) => [a.key, { correct: a.correct, total: a.answered }])) as Record<Area, { correct: number; total: number }>, bands) : null;
+  // TRI com os parâmetros oficiais quando a área tem questões com parâmetros; senão, a aproximação linear
+  const mastery = computeMastery(enemFacts);
+  const tri: Partial<Record<Area, number>> = Object.fromEntries(mastery.areas.filter((a) => a.official > 0).map((a) => [a.area, a.score]));
+  const enem = linear ? (() => {
+    const areas = { ...linear.areas, ...tri };
+    const vals = Object.values(areas);
+    return { areas, average: vals.length ? Math.round(vals.reduce((x, y) => x + y, 0) / vals.length) : null, official: Object.keys(tri).length > 0 };
+  })() : null;
+  const weights = facets.topics.filter((t) => t.board === "ENEM" && t.subject).map((t) => ({ subject: t.subject as string, topic: t.name, n: t.n }));
+  const ranked = rankTopics(mastery.topics, weights);
+  // sem assuntos com TRI (ex.: só UFPR): ranking por % de acerto, como antes
   const topics = stats.by_topic.filter((x) => x.answered >= 5).map((x) => ({ ...x, p: pct(x.correct, x.answered) }));
   const strong = [...topics].sort((a, b) => b.p - a.p || b.answered - a.answered).slice(0, 5);
   const weak = [...topics].sort((a, b) => a.p - b.p || b.answered - a.answered).slice(0, 5);
@@ -61,8 +76,8 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
       return { id: c.id, label: label(c), via: "ufpr", score: est?.score ?? null, scale: "0–1000, estimativa", cutoff, notes };
     }
     const w = c.sisu_weights ?? { linguagens: 1, humanas: 1, natureza: 1, matematica: 1, redacao: 1 };
-    const est = sisuCourseEstimate(enemStats?.by_area ?? [], stats.essays.enem?.avg_total ?? null, w, bands);
-    const notes = est.missing.length ? [`Falta estimar: ${est.missing.join(", ")}.`] : ["Notas por área são aproximação linear (não é TRI)."];
+    const est = sisuCourseEstimate(enemStats?.by_area ?? [], stats.essays.enem?.avg_total ?? null, w, bands, tri);
+    const notes = est.missing.length ? [`Falta estimar: ${est.missing.join(", ")}.`] : [Object.keys(tri).length ? "Notas por área estimadas pela TRI (parâmetros oficiais do INEP)." : "Notas por área são aproximação linear (não é TRI)."];
     if (!c.sisu_weights) notes.push("Pesos do curso não cadastrados: usado peso 1 em tudo.");
     return { id: c.id, label: label(c), via: "sisu", score: est.score, scale: "média ponderada ENEM", cutoff, notes };
   });
@@ -113,7 +128,7 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
                 </div>
               ))}
               {enem?.average != null && board !== "UFPR" && (
-                <p className="flex gap-2 rounded-control bg-primary-soft p-3 text-xs text-primary-soft-foreground"><Info className="mt-0.5 size-3.5 shrink-0" aria-hidden /> Média estimada ENEM: <strong>{enem.average}</strong>. {TRI_NOTICE}</p>
+                <p className="flex gap-2 rounded-control bg-primary-soft p-3 text-xs text-primary-soft-foreground"><Info className="mt-0.5 size-3.5 shrink-0" aria-hidden /> <span>Média estimada ENEM: <strong>{enem.average}</strong>. {enem.official ? TRI_OFFICIAL_NOTICE : TRI_NOTICE}</span></p>
               )}
             </CardContent>
           </Card>
@@ -121,7 +136,15 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
         <CoursesCard results={results} options={options} selected={targets} editable={editable} />
       </div>
 
-      {topics.length > 0 && (
+      {ranked.focus.length + ranked.strengths.length > 0 ? (
+        <div className="grid gap-4 md:grid-cols-2">
+          <MasteryList title="Pontos fortes" icon={<TrendingUp className="size-4 text-success" aria-hidden />} items={ranked.strengths} tone="success"
+            empty="Continue praticando: os assuntos em que você vai bem aparecem aqui." />
+          <MasteryList title="Onde focar" icon={<Target className="size-4 text-danger" aria-hidden />} items={ranked.focus} tone="danger"
+            hint="Assuntos que mais caem no ENEM e em que você mais erra: é onde cada hora de estudo rende mais pontos."
+            empty="Nenhum assunto fraco por enquanto. Faça mais questões para afinar." />
+        </div>
+      ) : topics.length > 0 && (
         <div className="grid gap-4 md:grid-cols-2">
           <TopicList title="Pontos fortes" icon={<TrendingUp className="size-4 text-success" aria-hidden />} items={strong} tone="success" />
           <TopicList title="Pontos fracos" icon={<TrendingDown className="size-4 text-danger" aria-hidden />} items={weak} tone="danger" />
@@ -179,6 +202,28 @@ function Kpi({ icon, label, value, sub }: { icon: React.ReactNode; label: string
       <span className="flex items-center gap-1.5 text-sm text-muted-foreground [&_svg]:size-4">{icon} {label}</span>
       <span className="text-2xl font-extrabold">{value}</span>
       <span className="text-xs text-muted-foreground">{sub}</span>
+    </Card>
+  );
+}
+
+function MasteryList({ title, icon, items, tone, hint, empty }: { title: string; icon: React.ReactNode; items: (TopicMastery & { weight?: number })[]; tone: "success" | "danger"; hint?: string; empty: string }) {
+  return (
+    <Card>
+      <CardHeader><CardTitle className="flex items-center gap-2">{icon} {title}</CardTitle></CardHeader>
+      <CardContent className="grid gap-3">
+        {items.length === 0 && <p className="text-sm text-muted-foreground">{empty}</p>}
+        <ul className="grid gap-2">
+          {items.map((t) => (
+            <li key={`${t.subject}-${t.topic}`} className="flex items-center justify-between gap-2 text-sm">
+              <span className="min-w-0 truncate">{t.topic}<span className="ml-1 text-xs text-muted-foreground">{t.subject}</span></span>
+              <span className={cn("shrink-0 font-bold", tone === "success" ? "text-success" : "text-danger")}>
+                ~{t.score} <span className="text-xs font-normal text-muted-foreground">({t.correct}/{t.n}{t.weight != null ? ` · ${Math.round(t.weight * 1000) / 10}% da prova` : ""})</span>
+              </span>
+            </li>
+          ))}
+        </ul>
+        {hint && items.length > 0 && <p className="text-xs text-muted-foreground">{hint}</p>}
+      </CardContent>
     </Card>
   );
 }

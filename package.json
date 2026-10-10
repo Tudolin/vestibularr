@@ -12,7 +12,8 @@
     "db:test:start": "./scripts/pg-test-start.sh",
     "create-admin": "tsx --env-file=.env.local scripts/create-admin.mts",
     "seed:enem": "tsx --env-file=.env.local scripts/seed-enem.mts",
-    "seed:resolucoes": "tsx --env-file=.env.local scripts/seed-resolucoes.mts"
+    "seed:resolucoes": "tsx --env-file=.env.local scripts/seed-resolucoes.mts",
+    "seed:taxonomia": "tsx --env-file=.env.local scripts/seed-taxonomia.mts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.2.0",

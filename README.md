@@ -114,8 +114,24 @@ Os arquivos também trazem **correções conferidas no PDF oficial do INEP** (ca
 alternativas que vieram truncados ou trocados da fonte, figuras recortadas do PDF (em `public/questoes/`), gabaritos errados no
 enem.dev (2021: 15, 25, 38, 53, 139, 145, 152; 2022: 143) e questões anuladas (desativadas). O `seed:enem` aplica as mesmas
 correções, então rodar de novo não traz os defeitos de volta nem apaga resoluções. Ordem recomendada:
-`seed:enem` → `seed:resolucoes`.
+`seed:enem` → `seed:resolucoes` → `seed:taxonomia`.
 **2024:** a fonte numera as questões por outro caderno; conteúdo e gabarito estão corretos, só a numeração difere do caderno 1/7.
+
+**Assuntos e TRI oficial** (migration `0011`): cada questão do ENEM 2019–2024 tem matéria e assunto
+(`data/taxonomia/enem-<ano>.json`, taxonomia em `data/taxonomia/taxonomia.json`; classificados com auxílio de IA a partir das
+resoluções) e os **dados oficiais do INEP** (`data/inep/enem-<ano>.json`): habilidade da Matriz de Referência (H1–H30) e os
+parâmetros TRI (a, b, c) de cada item, tirados dos microdados do ENEM (`ITENS_PROVA_<ano>.csv`) e casados com as nossas
+questões pelo gabarito (100% de concordância em todos os anos).
+
+```bash
+npm run seed:taxonomia                  # aplica assunto + habilidade + TRI em todos os anos
+npm run seed:taxonomia -- --years 2023  # só um ano
+python3 scripts/inep-itens.py <pasta>   # regenera data/inep a partir dos ITENS_PROVA_<ano>.csv dos microdados
+```
+Com isso, o **Desempenho** e o **Resultado** do simulado estimam a nota pela TRI (EAP, escala 500 + 100·θ) em vez da
+aproximação linear, e mostram **Pontos fortes** e **Onde focar** (assuntos que mais caem × chance de errar). Os filtros de
+matéria/assunto do treino e o mapa de calor passam a funcionar para o ENEM. É a base da triagem e do plano de estudos
+(`docs/02-plano-engajamento.md`).
 
 **Só questões com resolução:** com a configuração `only_solved_questions` ligada (padrão), alunos só veem e sorteiam questões
 com resolução comentada (ou espelho, nas discursivas) — no banco, na busca, nos simulados, treinos e revisões. Questões de

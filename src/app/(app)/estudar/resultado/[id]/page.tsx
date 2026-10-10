@@ -11,7 +11,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { formatClock } from "@/lib/attempt/timer";
 import { groupBy, totals, type Row } from "@/lib/scoring/aggregate";
-import { estimateEnem, TRI_NOTICE, type Area } from "@/lib/scoring/enem";
+import { computeMastery } from "@/lib/mastery";
+import { estimateEnem, TRI_NOTICE, TRI_OFFICIAL_NOTICE, type Area } from "@/lib/scoring/enem";
 import { ufprScore } from "@/lib/scoring/ufpr";
 import { createClient } from "@/lib/supabase/server";
 import { aiConfigured } from "@/lib/ai/gemini";
@@ -26,7 +27,7 @@ type QRow = {
   position: number;
   question: {
     id: string; number: number | null; year: number | null; area: string | null; subject: string | null; topic: string | null;
-    kind: "objective" | "discursive"; statement_md: string; board: { code: string } | null;
+    kind: "objective" | "discursive"; statement_md: string; irt_a: number | null; irt_b: number | null; irt_c: number | null; board: { code: string } | null;
     alternatives: { id: string; label: string; text_md: string; image_url: string | null }[];
   };
 };
@@ -45,7 +46,7 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
   const [{ data: qrows }, { data: keys }] = await Promise.all([
     supabase
       .from("attempt_questions")
-      .select("position, question:questions(id, number, year, area, subject, topic, kind, statement_md, board:exam_boards(code), alternatives(id, label, text_md, image_url))")
+      .select("position, question:questions(id, number, year, area, subject, topic, kind, statement_md, irt_a, irt_b, irt_c, board:exam_boards(code), alternatives(id, label, text_md, image_url))")
       .eq("attempt_id", id)
       .order("position"),
     supabase.from("answer_keys").select("question_id, correct_label, explanation_md, official_mirror_md"),
@@ -68,7 +69,19 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
   const boards = new Set(list.map((r) => r.question.board?.code));
   const isEnem = boards.size === 1 && boards.has("ENEM");
   const isUfpr = boards.size === 1 && boards.has("UFPR");
-  const enem = isEnem ? estimateEnem(Object.fromEntries(byArea.map((b) => [b.key, { correct: b.correct, total: b.total }])) as Record<Area, { correct: number; total: number }>) : null;
+  const linear = isEnem ? estimateEnem(Object.fromEntries(byArea.map((b) => [b.key, { correct: b.correct, total: b.total }])) as Record<Area, { correct: number; total: number }>) : null;
+  // TRI com os parâmetros oficiais do INEP (questão em branco conta como erro, como no ENEM)
+  const tri = isEnem
+    ? computeMastery(list.flatMap(({ question: q }, i) => q.kind !== "objective" ? [] : [{
+        board: "ENEM", area: q.area, subject: q.subject, topic: q.topic, irt_a: q.irt_a, irt_b: q.irt_b, irt_c: q.irt_c,
+        ok: rows[i].choice != null && rows[i].choice === rows[i].correct,
+      }])).areas.filter((a) => a.official > 0)
+    : [];
+  const enem = linear ? (() => {
+    const areas: Partial<Record<Area, number>> = { ...linear.areas, ...Object.fromEntries(tri.map((a) => [a.area, a.score])) };
+    const vals = Object.values(areas);
+    return { areas, average: vals.length ? Math.round(vals.reduce((x, y) => x + y, 0) / vals.length) : null, official: tri.length > 0 };
+  })() : null;
   const ufpr = isUfpr && bySubject.length ? ufprScore({ bySubject: Object.fromEntries(bySubject.map((b) => [b.key, { correct: b.correct, total: b.total }])) }) : null;
 
   const discursive = list.filter((r) => r.question.kind === "discursive");
@@ -96,7 +109,7 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
         <Card className="p-5"><p className="text-sm text-muted-foreground">Acertos</p><p className="text-3xl font-extrabold">{t.correct}<span className="text-lg text-muted-foreground">/{t.total}</span></p><p className="text-sm font-semibold text-primary">{t.pct}%</p></Card>
         <Card className="p-5"><p className="text-sm text-muted-foreground">Erros</p><p className="text-3xl font-extrabold text-danger">{t.wrong}</p><p className="text-sm text-muted-foreground">{t.blank} em branco</p></Card>
         {enem?.average != null ? (
-          <Card className="p-5"><p className="text-sm text-muted-foreground">Nota estimada (média)</p><p className="text-3xl font-extrabold">{enem.average}</p><p className="text-xs text-muted-foreground">aproximação, não é TRI</p></Card>
+          <Card className="p-5"><p className="text-sm text-muted-foreground">Nota estimada (média)</p><p className="text-3xl font-extrabold">{enem.average}</p><p className="text-xs text-muted-foreground">{enem.official ? "TRI com parâmetros oficiais" : "aproximação, não é TRI"}</p></Card>
         ) : ufpr ? (
           <Card className="p-5"><p className="text-sm text-muted-foreground">Nota UFPR (objetiva)</p><p className="text-3xl font-extrabold">{ufpr.score.toLocaleString("pt-BR")}</p><p className="text-xs text-muted-foreground">escala 0–1000, sem pesos de curso</p></Card>
         ) : (
@@ -105,7 +118,7 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
       </div>
 
       {enem && (
-        <p className="flex gap-2 rounded-control bg-primary-soft p-3 text-sm text-primary-soft-foreground"><Info className="mt-0.5 size-4 shrink-0" aria-hidden /> {TRI_NOTICE}</p>
+        <p className="flex gap-2 rounded-control bg-primary-soft p-3 text-sm text-primary-soft-foreground"><Info className="mt-0.5 size-4 shrink-0" aria-hidden /> {enem.official ? TRI_OFFICIAL_NOTICE : TRI_NOTICE}</p>
       )}
 
       {wrongOrBlank > 0 && (

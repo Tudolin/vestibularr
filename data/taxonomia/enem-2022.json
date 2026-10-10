@@ -1,0 +1,936 @@
+{
+ "board": "ENEM",
+ "year": 2022,
+ "items": [
+  {
+   "number": 1,
+   "language": "espanhol",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol"
+  },
+  {
+   "number": 1,
+   "language": "ingles",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês"
+  },
+  {
+   "number": 2,
+   "language": "espanhol",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol"
+  },
+  {
+   "number": 2,
+   "language": "ingles",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês"
+  },
+  {
+   "number": 3,
+   "language": "espanhol",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol"
+  },
+  {
+   "number": 3,
+   "language": "ingles",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês"
+  },
+  {
+   "number": 4,
+   "language": "espanhol",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol"
+  },
+  {
+   "number": 4,
+   "language": "ingles",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês"
+  },
+  {
+   "number": 5,
+   "language": "espanhol",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol"
+  },
+  {
+   "number": 5,
+   "language": "ingles",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês"
+  },
+  {
+   "number": 6,
+   "subject": "Língua Portuguesa",
+   "topic": "Variação linguística"
+  },
+  {
+   "number": 7,
+   "subject": "Língua Portuguesa",
+   "topic": "Argumentação e intencionalidade"
+  },
+  {
+   "number": 8,
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto"
+  },
+  {
+   "number": 9,
+   "subject": "Língua Portuguesa",
+   "topic": "Argumentação e intencionalidade"
+  },
+  {
+   "number": 10,
+   "subject": "Comunicação e Tecnologia",
+   "topic": "Mídias e tecnologias digitais"
+  },
+  {
+   "number": 11,
+   "subject": "Comunicação e Tecnologia",
+   "topic": "Mídias e tecnologias digitais"
+  },
+  {
+   "number": 12,
+   "subject": "Língua Portuguesa",
+   "topic": "Variação linguística"
+  },
+  {
+   "number": 13,
+   "subject": "Comunicação e Tecnologia",
+   "topic": "Mídias e tecnologias digitais"
+  },
+  {
+   "number": 14,
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto"
+  },
+  {
+   "number": 15,
+   "subject": "Língua Portuguesa",
+   "topic": "Gêneros textuais"
+  },
+  {
+   "number": 16,
+   "subject": "Língua Portuguesa",
+   "topic": "Gêneros textuais"
+  },
+  {
+   "number": 17,
+   "subject": "Língua Portuguesa",
+   "topic": "Figuras de linguagem"
+  },
+  {
+   "number": 18,
+   "subject": "Língua Portuguesa",
+   "topic": "Gramática"
+  },
+  {
+   "number": 19,
+   "subject": "Educação Física",
+   "topic": "Práticas corporais, esporte e saúde"
+  },
+  {
+   "number": 20,
+   "subject": "Educação Física",
+   "topic": "Práticas corporais, esporte e saúde"
+  },
+  {
+   "number": 21,
+   "subject": "Literatura Brasileira",
+   "topic": "Romantismo"
+  },
+  {
+   "number": 22,
+   "subject": "Comunicação e Tecnologia",
+   "topic": "Mídias e tecnologias digitais"
+  },
+  {
+   "number": 23,
+   "subject": "Literatura Brasileira",
+   "topic": "Pré-Modernismo e Modernismo"
+  },
+  {
+   "number": 24,
+   "subject": "Língua Portuguesa",
+   "topic": "Variação linguística"
+  },
+  {
+   "number": 25,
+   "subject": "Educação Física",
+   "topic": "Práticas corporais, esporte e saúde"
+  },
+  {
+   "number": 26,
+   "subject": "Língua Portuguesa",
+   "topic": "Funções da linguagem"
+  },
+  {
+   "number": 27,
+   "subject": "Língua Portuguesa",
+   "topic": "Argumentação e intencionalidade"
+  },
+  {
+   "number": 28,
+   "subject": "Língua Portuguesa",
+   "topic": "Variação linguística"
+  },
+  {
+   "number": 29,
+   "subject": "Literatura Brasileira",
+   "topic": "Realismo e Naturalismo"
+  },
+  {
+   "number": 30,
+   "subject": "Literatura Brasileira",
+   "topic": "Realismo e Naturalismo"
+  },
+  {
+   "number": 31,
+   "subject": "Literatura Brasileira",
+   "topic": "Pré-Modernismo e Modernismo"
+  },
+  {
+   "number": 32,
+   "subject": "Língua Portuguesa",
+   "topic": "Gêneros textuais"
+  },
+  {
+   "number": 33,
+   "subject": "Língua Portuguesa",
+   "topic": "Figuras de linguagem"
+  },
+  {
+   "number": 34,
+   "subject": "Educação Física",
+   "topic": "Práticas corporais, esporte e saúde"
+  },
+  {
+   "number": 35,
+   "subject": "Língua Portuguesa",
+   "topic": "Gêneros textuais"
+  },
+  {
+   "number": 36,
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto"
+  },
+  {
+   "number": 37,
+   "subject": "Comunicação e Tecnologia",
+   "topic": "Mídias e tecnologias digitais"
+  },
+  {
+   "number": 38,
+   "subject": "Artes",
+   "topic": "Artes visuais"
+  },
+  {
+   "number": 39,
+   "subject": "Artes",
+   "topic": "Arte contemporânea e patrimônio"
+  },
+  {
+   "number": 40,
+   "subject": "Literatura Brasileira",
+   "topic": "Pré-Modernismo e Modernismo"
+  },
+  {
+   "number": 41,
+   "subject": "Literatura Brasileira",
+   "topic": "Pré-Modernismo e Modernismo"
+  },
+  {
+   "number": 42,
+   "subject": "Literatura Brasileira",
+   "topic": "Literatura contemporânea"
+  },
+  {
+   "number": 43,
+   "subject": "Literatura Brasileira",
+   "topic": "Literatura contemporânea"
+  },
+  {
+   "number": 44,
+   "subject": "Artes",
+   "topic": "Arte contemporânea e patrimônio"
+  },
+  {
+   "number": 45,
+   "subject": "Artes",
+   "topic": "Música, dança e teatro"
+  },
+  {
+   "number": 46,
+   "subject": "Geografia",
+   "topic": "Clima"
+  },
+  {
+   "number": 47,
+   "subject": "Filosofia",
+   "topic": "Filosofia contemporânea"
+  },
+  {
+   "number": 48,
+   "subject": "História",
+   "topic": "Escravidão e cultura afro-brasileira"
+  },
+  {
+   "number": 49,
+   "subject": "Geografia",
+   "topic": "Urbanização"
+  },
+  {
+   "number": 50,
+   "subject": "História",
+   "topic": "Primeira República"
+  },
+  {
+   "number": 51,
+   "subject": "Geografia",
+   "topic": "Globalização e economia"
+  },
+  {
+   "number": 52,
+   "subject": "Geografia",
+   "topic": "Espaço agrário"
+  },
+  {
+   "number": 53,
+   "subject": "História",
+   "topic": "Brasil Império"
+  },
+  {
+   "number": 54,
+   "subject": "História",
+   "topic": "Brasil Império"
+  },
+  {
+   "number": 55,
+   "subject": "Geografia",
+   "topic": "Relevo, solos e geologia"
+  },
+  {
+   "number": 56,
+   "subject": "História",
+   "topic": "Cidadania e direitos"
+  },
+  {
+   "number": 57,
+   "subject": "Filosofia",
+   "topic": "Filosofia contemporânea"
+  },
+  {
+   "number": 58,
+   "subject": "Sociologia",
+   "topic": "Cultura e identidade"
+  },
+  {
+   "number": 59,
+   "subject": "Geografia",
+   "topic": "Espaço agrário"
+  },
+  {
+   "number": 60,
+   "subject": "Sociologia",
+   "topic": "Cultura e identidade"
+  },
+  {
+   "number": 61,
+   "subject": "Sociologia",
+   "topic": "Trabalho e sociedade"
+  },
+  {
+   "number": 62,
+   "subject": "Geografia",
+   "topic": "Globalização e economia"
+  },
+  {
+   "number": 63,
+   "subject": "História",
+   "topic": "Idade Média"
+  },
+  {
+   "number": 64,
+   "subject": "Geografia",
+   "topic": "Relevo, solos e geologia"
+  },
+  {
+   "number": 65,
+   "subject": "História",
+   "topic": "Cidadania e direitos"
+  },
+  {
+   "number": 66,
+   "subject": "História",
+   "topic": "Brasil Império"
+  },
+  {
+   "number": 67,
+   "subject": "Sociologia",
+   "topic": "Movimentos sociais"
+  },
+  {
+   "number": 68,
+   "subject": "Geografia",
+   "topic": "Geopolítica e conflitos"
+  },
+  {
+   "number": 69,
+   "subject": "Geografia",
+   "topic": "Geopolítica e conflitos"
+  },
+  {
+   "number": 70,
+   "subject": "Sociologia",
+   "topic": "Cultura e identidade"
+  },
+  {
+   "number": 71,
+   "subject": "Sociologia",
+   "topic": "Estado, poder e democracia"
+  },
+  {
+   "number": 72,
+   "subject": "Geografia",
+   "topic": "Urbanização"
+  },
+  {
+   "number": 73,
+   "subject": "História",
+   "topic": "Revoluções e século XIX"
+  },
+  {
+   "number": 74,
+   "subject": "Geografia",
+   "topic": "Clima"
+  },
+  {
+   "number": 75,
+   "subject": "História",
+   "topic": "Povos indígenas"
+  },
+  {
+   "number": 76,
+   "subject": "História",
+   "topic": "Era Vargas"
+  },
+  {
+   "number": 77,
+   "subject": "História",
+   "topic": "Brasil Colônia"
+  },
+  {
+   "number": 78,
+   "subject": "Geografia",
+   "topic": "Cartografia"
+  },
+  {
+   "number": 79,
+   "subject": "Sociologia",
+   "topic": "Cultura e identidade"
+  },
+  {
+   "number": 80,
+   "subject": "Filosofia",
+   "topic": "Filosofia antiga"
+  },
+  {
+   "number": 81,
+   "subject": "História",
+   "topic": "Era Vargas"
+  },
+  {
+   "number": 82,
+   "subject": "Geografia",
+   "topic": "Relevo, solos e geologia"
+  },
+  {
+   "number": 83,
+   "subject": "História",
+   "topic": "Cidadania e direitos"
+  },
+  {
+   "number": 84,
+   "subject": "Filosofia",
+   "topic": "Filosofia contemporânea"
+  },
+  {
+   "number": 85,
+   "subject": "História",
+   "topic": "Idade Moderna"
+  },
+  {
+   "number": 86,
+   "subject": "Filosofia",
+   "topic": "Filosofia antiga"
+  },
+  {
+   "number": 87,
+   "subject": "Geografia",
+   "topic": "Urbanização"
+  },
+  {
+   "number": 88,
+   "subject": "Filosofia",
+   "topic": "Filosofia antiga"
+  },
+  {
+   "number": 89,
+   "subject": "História",
+   "topic": "Povos indígenas"
+  },
+  {
+   "number": 90,
+   "subject": "Sociologia",
+   "topic": "Cultura e identidade"
+  },
+  {
+   "number": 91,
+   "subject": "Química",
+   "topic": "Eletroquímica"
+  },
+  {
+   "number": 92,
+   "subject": "Biologia",
+   "topic": "Microbiologia e doenças"
+  },
+  {
+   "number": 93,
+   "subject": "Física",
+   "topic": "Energia e trabalho"
+  },
+  {
+   "number": 94,
+   "subject": "Química",
+   "topic": "Funções inorgânicas"
+  },
+  {
+   "number": 95,
+   "subject": "Física",
+   "topic": "Magnetismo"
+  },
+  {
+   "number": 96,
+   "subject": "Física",
+   "topic": "Eletrodinâmica"
+  },
+  {
+   "number": 97,
+   "subject": "Química",
+   "topic": "Separação de misturas"
+  },
+  {
+   "number": 98,
+   "subject": "Biologia",
+   "topic": "Biotecnologia"
+  },
+  {
+   "number": 99,
+   "subject": "Biologia",
+   "topic": "Ecologia"
+  },
+  {
+   "number": 100,
+   "subject": "Física",
+   "topic": "Cinemática"
+  },
+  {
+   "number": 101,
+   "subject": "Química",
+   "topic": "Soluções"
+  },
+  {
+   "number": 102,
+   "subject": "Biologia",
+   "topic": "Biotecnologia"
+  },
+  {
+   "number": 103,
+   "subject": "Física",
+   "topic": "Dinâmica"
+  },
+  {
+   "number": 104,
+   "subject": "Biologia",
+   "topic": "Fisiologia humana"
+  },
+  {
+   "number": 105,
+   "subject": "Física",
+   "topic": "Dinâmica"
+  },
+  {
+   "number": 106,
+   "subject": "Química",
+   "topic": "Equilíbrio químico"
+  },
+  {
+   "number": 107,
+   "subject": "Química",
+   "topic": "Cinética química"
+  },
+  {
+   "number": 108,
+   "subject": "Química",
+   "topic": "Soluções"
+  },
+  {
+   "number": 109,
+   "subject": "Química",
+   "topic": "Radioatividade"
+  },
+  {
+   "number": 110,
+   "subject": "Biologia",
+   "topic": "Zoologia"
+  },
+  {
+   "number": 111,
+   "subject": "Física",
+   "topic": "Gravitação"
+  },
+  {
+   "number": 112,
+   "subject": "Física",
+   "topic": "Dinâmica"
+  },
+  {
+   "number": 113,
+   "subject": "Química",
+   "topic": "Eletroquímica"
+  },
+  {
+   "number": 114,
+   "subject": "Biologia",
+   "topic": "Citologia"
+  },
+  {
+   "number": 115,
+   "subject": "Física",
+   "topic": "Termologia"
+  },
+  {
+   "number": 116,
+   "subject": "Física",
+   "topic": "Termologia"
+  },
+  {
+   "number": 117,
+   "subject": "Química",
+   "topic": "Funções inorgânicas"
+  },
+  {
+   "number": 118,
+   "subject": "Biologia",
+   "topic": "Fisiologia humana"
+  },
+  {
+   "number": 119,
+   "subject": "Física",
+   "topic": "Eletrodinâmica"
+  },
+  {
+   "number": 120,
+   "subject": "Biologia",
+   "topic": "Bioquímica"
+  },
+  {
+   "number": 121,
+   "subject": "Biologia",
+   "topic": "Citologia"
+  },
+  {
+   "number": 122,
+   "subject": "Biologia",
+   "topic": "Fisiologia humana"
+  },
+  {
+   "number": 123,
+   "subject": "Física",
+   "topic": "Gravitação"
+  },
+  {
+   "number": 124,
+   "subject": "Química",
+   "topic": "Química ambiental"
+  },
+  {
+   "number": 125,
+   "subject": "Biologia",
+   "topic": "Genética"
+  },
+  {
+   "number": 126,
+   "subject": "Química",
+   "topic": "Separação de misturas"
+  },
+  {
+   "number": 127,
+   "subject": "Biologia",
+   "topic": "Citologia"
+  },
+  {
+   "number": 128,
+   "subject": "Física",
+   "topic": "Eletrodinâmica"
+  },
+  {
+   "number": 129,
+   "subject": "Química",
+   "topic": "Equilíbrio químico"
+  },
+  {
+   "number": 130,
+   "subject": "Biologia",
+   "topic": "Fisiologia humana"
+  },
+  {
+   "number": 131,
+   "subject": "Química",
+   "topic": "Química orgânica"
+  },
+  {
+   "number": 132,
+   "subject": "Biologia",
+   "topic": "Ecologia"
+  },
+  {
+   "number": 133,
+   "subject": "Biologia",
+   "topic": "Fisiologia humana"
+  },
+  {
+   "number": 134,
+   "subject": "Física",
+   "topic": "Ondulatória"
+  },
+  {
+   "number": 135,
+   "subject": "Física",
+   "topic": "Óptica"
+  },
+  {
+   "number": 136,
+   "subject": "Matemática",
+   "topic": "Funções"
+  },
+  {
+   "number": 137,
+   "subject": "Matemática",
+   "topic": "Probabilidade"
+  },
+  {
+   "number": 138,
+   "subject": "Matemática",
+   "topic": "Leitura de gráficos e tabelas"
+  },
+  {
+   "number": 139,
+   "subject": "Matemática",
+   "topic": "Grandezas, medidas e escala"
+  },
+  {
+   "number": 140,
+   "subject": "Matemática",
+   "topic": "Lógica e problemas"
+  },
+  {
+   "number": 141,
+   "subject": "Matemática",
+   "topic": "Probabilidade"
+  },
+  {
+   "number": 142,
+   "subject": "Matemática",
+   "topic": "Análise combinatória"
+  },
+  {
+   "number": 143,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 144,
+   "subject": "Matemática",
+   "topic": "Operações e aritmética"
+  },
+  {
+   "number": 145,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 146,
+   "subject": "Matemática",
+   "topic": "Lógica e problemas"
+  },
+  {
+   "number": 147,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 148,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 149,
+   "subject": "Matemática",
+   "topic": "Estatística"
+  },
+  {
+   "number": 150,
+   "subject": "Matemática",
+   "topic": "Função afim e quadrática"
+  },
+  {
+   "number": 151,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 152,
+   "subject": "Matemática",
+   "topic": "Sequências (PA e PG)"
+  },
+  {
+   "number": 153,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 154,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 155,
+   "subject": "Matemática",
+   "topic": "Análise combinatória"
+  },
+  {
+   "number": 156,
+   "subject": "Matemática",
+   "topic": "Geometria plana"
+  },
+  {
+   "number": 158,
+   "subject": "Matemática",
+   "topic": "Função afim e quadrática"
+  },
+  {
+   "number": 159,
+   "subject": "Matemática",
+   "topic": "Operações e aritmética"
+  },
+  {
+   "number": 160,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 161,
+   "subject": "Matemática",
+   "topic": "Grandezas, medidas e escala"
+  },
+  {
+   "number": 162,
+   "subject": "Matemática",
+   "topic": "Leitura de gráficos e tabelas"
+  },
+  {
+   "number": 163,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 164,
+   "subject": "Matemática",
+   "topic": "Grandezas, medidas e escala"
+  },
+  {
+   "number": 165,
+   "subject": "Matemática",
+   "topic": "Grandezas, medidas e escala"
+  },
+  {
+   "number": 166,
+   "subject": "Matemática",
+   "topic": "Leitura de gráficos e tabelas"
+  },
+  {
+   "number": 167,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 168,
+   "subject": "Matemática",
+   "topic": "Lógica e problemas"
+  },
+  {
+   "number": 169,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 170,
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem"
+  },
+  {
+   "number": 171,
+   "subject": "Matemática",
+   "topic": "Estatística"
+  },
+  {
+   "number": 172,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 173,
+   "subject": "Matemática",
+   "topic": "Leitura de gráficos e tabelas"
+  },
+  {
+   "number": 174,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 175,
+   "subject": "Matemática",
+   "topic": "Operações e aritmética"
+  },
+  {
+   "number": 176,
+   "subject": "Matemática",
+   "topic": "Geometria analítica"
+  },
+  {
+   "number": 177,
+   "subject": "Matemática",
+   "topic": "Operações e aritmética"
+  },
+  {
+   "number": 178,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  },
+  {
+   "number": 179,
+   "subject": "Matemática",
+   "topic": "Estatística"
+  },
+  {
+   "number": 180,
+   "subject": "Matemática",
+   "topic": "Geometria espacial"
+  }
+ ]
+}

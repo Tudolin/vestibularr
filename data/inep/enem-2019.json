@@ -1,0 +1,2402 @@
+{
+ "board": "ENEM",
+ "year": 2019,
+ "source": "INEP, microdados ENEM 2019 (ITENS_PROVA)",
+ "items": [
+  {
+   "number": 1,
+   "area": "LC",
+   "skill": 8,
+   "item": 96705,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.62651,
+    "b": 0.79268,
+    "c": 0.1043
+   },
+   "abandoned": false,
+   "language": "espanhol"
+  },
+  {
+   "number": 1,
+   "area": "LC",
+   "skill": 7,
+   "item": 55166,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.66039,
+    "b": 0.6113,
+    "c": 0.19627
+   },
+   "abandoned": false,
+   "language": "ingles"
+  },
+  {
+   "number": 2,
+   "area": "LC",
+   "skill": 5,
+   "item": 118222,
+   "gabarito": "B",
+   "irt": {
+    "a": 4.32465,
+    "b": 0.4917,
+    "c": 0.2523
+   },
+   "abandoned": false,
+   "language": "espanhol"
+  },
+  {
+   "number": 2,
+   "area": "LC",
+   "skill": 7,
+   "item": 54110,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.82077,
+    "b": 0.63692,
+    "c": 0.16707
+   },
+   "abandoned": false,
+   "language": "ingles"
+  },
+  {
+   "number": 3,
+   "area": "LC",
+   "skill": 7,
+   "item": 39016,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.76151,
+    "b": 0.92828,
+    "c": 0.14061
+   },
+   "abandoned": false,
+   "language": "espanhol"
+  },
+  {
+   "number": 3,
+   "area": "LC",
+   "skill": 6,
+   "item": 23564,
+   "gabarito": "A",
+   "irt": {
+    "a": 4.08473,
+    "b": 0.41261,
+    "c": 0.20536
+   },
+   "abandoned": false,
+   "language": "ingles"
+  },
+  {
+   "number": 4,
+   "area": "LC",
+   "skill": 8,
+   "item": 118167,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.4633,
+    "b": 0.48099,
+    "c": 0.09893
+   },
+   "abandoned": false,
+   "language": "espanhol"
+  },
+  {
+   "number": 4,
+   "area": "LC",
+   "skill": 8,
+   "item": 31954,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.02433,
+    "b": 0.34872,
+    "c": 0.20967
+   },
+   "abandoned": false,
+   "language": "ingles"
+  },
+  {
+   "number": 5,
+   "area": "LC",
+   "skill": 6,
+   "item": 48558,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.74411,
+    "b": 0.68157,
+    "c": 0.13769
+   },
+   "abandoned": false,
+   "language": "espanhol"
+  },
+  {
+   "number": 5,
+   "area": "LC",
+   "skill": 5,
+   "item": 118180,
+   "gabarito": "E",
+   "irt": {
+    "a": 5.61439,
+    "b": 0.49582,
+    "c": 0.1457
+   },
+   "abandoned": false,
+   "language": "ingles"
+  },
+  {
+   "number": 6,
+   "area": "LC",
+   "skill": 3,
+   "item": 86563,
+   "gabarito": "B",
+   "irt": {
+    "a": 0.92314,
+    "b": 1.22467,
+    "c": 0.09006
+   },
+   "abandoned": false
+  },
+  {
+   "number": 7,
+   "area": "LC",
+   "skill": 24,
+   "item": 118161,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.77698,
+    "b": 0.04697,
+    "c": 0.05812
+   },
+   "abandoned": false
+  },
+  {
+   "number": 8,
+   "area": "LC",
+   "skill": 23,
+   "item": 118147,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.41373,
+    "b": -0.17071,
+    "c": 0.01187
+   },
+   "abandoned": false
+  },
+  {
+   "number": 9,
+   "area": "LC",
+   "skill": 9,
+   "item": 118118,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.00154,
+    "b": 0.66248,
+    "c": 0.15753
+   },
+   "abandoned": false
+  },
+  {
+   "number": 10,
+   "area": "LC",
+   "skill": 2,
+   "item": 118215,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.60176,
+    "b": 0.95343,
+    "c": 0.15078
+   },
+   "abandoned": false
+  },
+  {
+   "number": 11,
+   "area": "LC",
+   "skill": 11,
+   "item": 118207,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.28486,
+    "b": 0.98541,
+    "c": 0.11899
+   },
+   "abandoned": false
+  },
+  {
+   "number": 12,
+   "area": "LC",
+   "skill": 23,
+   "item": 118170,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.60663,
+    "b": 0.41552,
+    "c": 0.00227
+   },
+   "abandoned": false
+  },
+  {
+   "number": 13,
+   "area": "LC",
+   "skill": 15,
+   "item": 90165,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.81799,
+    "b": 0.97593,
+    "c": 0.19228
+   },
+   "abandoned": false
+  },
+  {
+   "number": 14,
+   "area": "LC",
+   "skill": 16,
+   "item": 118232,
+   "gabarito": "E",
+   "irt": {
+    "a": 0.78671,
+    "b": 1.66055,
+    "c": 0.07838
+   },
+   "abandoned": false
+  },
+  {
+   "number": 15,
+   "area": "LC",
+   "skill": 19,
+   "item": 118174,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.99087,
+    "b": 0.86875,
+    "c": 0.1868
+   },
+   "abandoned": false
+  },
+  {
+   "number": 16,
+   "area": "LC",
+   "skill": 1,
+   "item": 76167,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.82086,
+    "b": 0.2283,
+    "c": 0.00715
+   },
+   "abandoned": false
+  },
+  {
+   "number": 17,
+   "area": "LC",
+   "skill": 30,
+   "item": 68624,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.7516,
+    "b": -0.24965,
+    "c": 0.17322
+   },
+   "abandoned": false
+  },
+  {
+   "number": 18,
+   "area": "LC",
+   "skill": 28,
+   "item": 96525,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.89027,
+    "b": 0.76252,
+    "c": 0.11963
+   },
+   "abandoned": false
+  },
+  {
+   "number": 19,
+   "area": "LC",
+   "skill": 28,
+   "item": 89317,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.23142,
+    "b": -0.1884,
+    "c": 0.16189
+   },
+   "abandoned": false
+  },
+  {
+   "number": 20,
+   "area": "LC",
+   "skill": 30,
+   "item": 86496,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.30147,
+    "b": 0.21937,
+    "c": 0.08452
+   },
+   "abandoned": false
+  },
+  {
+   "number": 21,
+   "area": "LC",
+   "skill": 17,
+   "item": 118256,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.92141,
+    "b": 1.54986,
+    "c": 0.12387
+   },
+   "abandoned": false
+  },
+  {
+   "number": 22,
+   "area": "LC",
+   "skill": 16,
+   "item": 118306,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.85223,
+    "b": 1.042,
+    "c": 0.12609
+   },
+   "abandoned": false
+  },
+  {
+   "number": 23,
+   "area": "LC",
+   "skill": 21,
+   "item": 118264,
+   "gabarito": "E",
+   "irt": {
+    "a": 1.88081,
+    "b": 0.20842,
+    "c": 0.03365
+   },
+   "abandoned": false
+  },
+  {
+   "number": 24,
+   "area": "LC",
+   "skill": 1,
+   "item": 89550,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.10874,
+    "b": 0.76811,
+    "c": 0.16616
+   },
+   "abandoned": false
+  },
+  {
+   "number": 25,
+   "area": "LC",
+   "skill": 14,
+   "item": 14169,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.00635,
+    "b": 1.13504,
+    "c": 0.10103
+   },
+   "abandoned": false
+  },
+  {
+   "number": 26,
+   "area": "LC",
+   "skill": 22,
+   "item": 118235,
+   "gabarito": "E",
+   "irt": {
+    "a": 1.44895,
+    "b": 1.42761,
+    "c": 0.14063
+   },
+   "abandoned": false
+  },
+  {
+   "number": 27,
+   "area": "LC",
+   "skill": 10,
+   "item": 118117,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.52418,
+    "b": 0.19306,
+    "c": 0.22915
+   },
+   "abandoned": false
+  },
+  {
+   "number": 28,
+   "area": "LC",
+   "skill": 16,
+   "item": 118278,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.48291,
+    "b": 1.15452,
+    "c": 0.08973
+   },
+   "abandoned": false
+  },
+  {
+   "number": 29,
+   "area": "LC",
+   "skill": 30,
+   "item": 59976,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.49523,
+    "b": 0.62543,
+    "c": 0.17905
+   },
+   "abandoned": false
+  },
+  {
+   "number": 30,
+   "area": "LC",
+   "skill": 20,
+   "item": 23833,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.34117,
+    "b": 0.44968,
+    "c": 0.20117
+   },
+   "abandoned": false
+  },
+  {
+   "number": 31,
+   "area": "LC",
+   "skill": 12,
+   "item": 81992,
+   "gabarito": "D",
+   "irt": {
+    "a": 3.58061,
+    "b": 0.76482,
+    "c": 0.09494
+   },
+   "abandoned": false
+  },
+  {
+   "number": 32,
+   "area": "LC",
+   "skill": 24,
+   "item": 32261,
+   "gabarito": "E",
+   "irt": {
+    "a": 4.49928,
+    "b": 0.23211,
+    "c": 0.20659
+   },
+   "abandoned": false
+  },
+  {
+   "number": 33,
+   "area": "LC",
+   "skill": 15,
+   "item": 118260,
+   "gabarito": "E",
+   "irt": null,
+   "abandoned": true
+  },
+  {
+   "number": 34,
+   "area": "LC",
+   "skill": 26,
+   "item": 118134,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.34867,
+    "b": 1.04002,
+    "c": 0.20217
+   },
+   "abandoned": false
+  },
+  {
+   "number": 35,
+   "area": "LC",
+   "skill": 10,
+   "item": 89874,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.50294,
+    "b": -0.16837,
+    "c": 0.05346
+   },
+   "abandoned": false
+  },
+  {
+   "number": 36,
+   "area": "LC",
+   "skill": 14,
+   "item": 86932,
+   "gabarito": "A",
+   "irt": {
+    "a": 0.6609,
+    "b": 0.48081,
+    "c": 0.02482
+   },
+   "abandoned": false
+  },
+  {
+   "number": 37,
+   "area": "LC",
+   "skill": 28,
+   "item": 24785,
+   "gabarito": "D",
+   "irt": {
+    "a": 4.0897,
+    "b": -0.15593,
+    "c": 0.18836
+   },
+   "abandoned": false
+  },
+  {
+   "number": 38,
+   "area": "LC",
+   "skill": 29,
+   "item": 118028,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.78473,
+    "b": 1.21063,
+    "c": 0.13942
+   },
+   "abandoned": false
+  },
+  {
+   "number": 39,
+   "area": "LC",
+   "skill": 17,
+   "item": 118246,
+   "gabarito": "B",
+   "irt": {
+    "a": 0.98835,
+    "b": 2.9006,
+    "c": 0.22558
+   },
+   "abandoned": false
+  },
+  {
+   "number": 40,
+   "area": "LC",
+   "skill": 13,
+   "item": 77356,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.62272,
+    "b": 0.75063,
+    "c": 0.23761
+   },
+   "abandoned": false
+  },
+  {
+   "number": 41,
+   "area": "LC",
+   "skill": 16,
+   "item": 118276,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.59876,
+    "b": 0.75076,
+    "c": 0.13733
+   },
+   "abandoned": false
+  },
+  {
+   "number": 42,
+   "area": "LC",
+   "skill": 18,
+   "item": 118299,
+   "gabarito": "D",
+   "irt": {
+    "a": 3.76828,
+    "b": 1.13537,
+    "c": 0.08402
+   },
+   "abandoned": false
+  },
+  {
+   "number": 43,
+   "area": "LC",
+   "skill": 4,
+   "item": 118165,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.57957,
+    "b": 0.47485,
+    "c": 0.17883
+   },
+   "abandoned": false
+  },
+  {
+   "number": 44,
+   "area": "LC",
+   "skill": 27,
+   "item": 118103,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.38734,
+    "b": 2.25308,
+    "c": 0.15051
+   },
+   "abandoned": false
+  },
+  {
+   "number": 45,
+   "area": "LC",
+   "skill": 25,
+   "item": 118192,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.36624,
+    "b": 2.31528,
+    "c": 0.19736
+   },
+   "abandoned": false
+  },
+  {
+   "number": 46,
+   "area": "CH",
+   "skill": 27,
+   "item": 111894,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.21881,
+    "b": 1.10809,
+    "c": 0.13721
+   },
+   "abandoned": false
+  },
+  {
+   "number": 47,
+   "area": "CH",
+   "skill": 28,
+   "item": 118054,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.07127,
+    "b": 1.3472,
+    "c": 0.07736
+   },
+   "abandoned": false
+  },
+  {
+   "number": 48,
+   "area": "CH",
+   "skill": 29,
+   "item": 118067,
+   "gabarito": "C",
+   "irt": null,
+   "abandoned": true
+  },
+  {
+   "number": 49,
+   "area": "CH",
+   "skill": 30,
+   "item": 66498,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.31749,
+    "b": 0.44063,
+    "c": 0.18259
+   },
+   "abandoned": false
+  },
+  {
+   "number": 50,
+   "area": "CH",
+   "skill": 23,
+   "item": 86751,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.45284,
+    "b": 1.65017,
+    "c": 0.09484
+   },
+   "abandoned": false
+  },
+  {
+   "number": 51,
+   "area": "CH",
+   "skill": 12,
+   "item": 83820,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.24266,
+    "b": 0.19945,
+    "c": 0.14787
+   },
+   "abandoned": false
+  },
+  {
+   "number": 52,
+   "area": "CH",
+   "skill": 16,
+   "item": 77940,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.69265,
+    "b": -0.16281,
+    "c": 0.19993
+   },
+   "abandoned": false
+  },
+  {
+   "number": 53,
+   "area": "CH",
+   "skill": 9,
+   "item": 118034,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.89911,
+    "b": 0.93429,
+    "c": 0.16213
+   },
+   "abandoned": false
+  },
+  {
+   "number": 54,
+   "area": "CH",
+   "skill": 15,
+   "item": 84888,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.3107,
+    "b": 1.45829,
+    "c": 0.17477
+   },
+   "abandoned": false
+  },
+  {
+   "number": 55,
+   "area": "CH",
+   "skill": 15,
+   "item": 88233,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.39689,
+    "b": 1.31818,
+    "c": 0.11442
+   },
+   "abandoned": false
+  },
+  {
+   "number": 56,
+   "area": "CH",
+   "skill": 17,
+   "item": 86934,
+   "gabarito": "D",
+   "irt": {
+    "a": 0.61655,
+    "b": 1.00168,
+    "c": 0.04145
+   },
+   "abandoned": false
+  },
+  {
+   "number": 57,
+   "area": "CH",
+   "skill": 6,
+   "item": 118158,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.22546,
+    "b": 0.46653,
+    "c": 0.15939
+   },
+   "abandoned": false
+  },
+  {
+   "number": 58,
+   "area": "CH",
+   "skill": 23,
+   "item": 88306,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.78628,
+    "b": 1.34891,
+    "c": 0.18079
+   },
+   "abandoned": false
+  },
+  {
+   "number": 59,
+   "area": "CH",
+   "skill": 6,
+   "item": 118033,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.33353,
+    "b": 0.6595,
+    "c": 0.32563
+   },
+   "abandoned": false
+  },
+  {
+   "number": 60,
+   "area": "CH",
+   "skill": 11,
+   "item": 84769,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.20133,
+    "b": 1.01836,
+    "c": 0.12996
+   },
+   "abandoned": false
+  },
+  {
+   "number": 61,
+   "area": "CH",
+   "skill": 26,
+   "item": 118022,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.17381,
+    "b": 0.77149,
+    "c": 0.09188
+   },
+   "abandoned": false
+  },
+  {
+   "number": 62,
+   "area": "CH",
+   "skill": 11,
+   "item": 111844,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.33881,
+    "b": 0.22143,
+    "c": 0.04965
+   },
+   "abandoned": false
+  },
+  {
+   "number": 63,
+   "area": "CH",
+   "skill": 14,
+   "item": 33960,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.73216,
+    "b": 1.13742,
+    "c": 0.16303
+   },
+   "abandoned": false
+  },
+  {
+   "number": 64,
+   "area": "CH",
+   "skill": 11,
+   "item": 78903,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.5682,
+    "b": -0.25115,
+    "c": 0.00814
+   },
+   "abandoned": false
+  },
+  {
+   "number": 65,
+   "area": "CH",
+   "skill": 1,
+   "item": 97975,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.45676,
+    "b": 1.3618,
+    "c": 0.21595
+   },
+   "abandoned": false
+  },
+  {
+   "number": 66,
+   "area": "CH",
+   "skill": 22,
+   "item": 118108,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.80224,
+    "b": 0.44492,
+    "c": 0.21353
+   },
+   "abandoned": false
+  },
+  {
+   "number": 67,
+   "area": "CH",
+   "skill": 1,
+   "item": 66219,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.471,
+    "b": 1.73902,
+    "c": 0.23765
+   },
+   "abandoned": false
+  },
+  {
+   "number": 68,
+   "area": "CH",
+   "skill": 10,
+   "item": 111877,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.54319,
+    "b": 0.68737,
+    "c": 0.16087
+   },
+   "abandoned": false
+  },
+  {
+   "number": 69,
+   "area": "CH",
+   "skill": 19,
+   "item": 88194,
+   "gabarito": "E",
+   "irt": {
+    "a": 1.35668,
+    "b": 1.69195,
+    "c": 0.10234
+   },
+   "abandoned": false
+  },
+  {
+   "number": 70,
+   "area": "CH",
+   "skill": 21,
+   "item": 118125,
+   "gabarito": "E",
+   "irt": {
+    "a": 1.14176,
+    "b": 0.61713,
+    "c": 0.00161
+   },
+   "abandoned": false
+  },
+  {
+   "number": 71,
+   "area": "CH",
+   "skill": 20,
+   "item": 87057,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.22262,
+    "b": 0.2453,
+    "c": 0.17471
+   },
+   "abandoned": false
+  },
+  {
+   "number": 72,
+   "area": "CH",
+   "skill": 24,
+   "item": 85139,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.89534,
+    "b": 0.60872,
+    "c": 0.22906
+   },
+   "abandoned": false
+  },
+  {
+   "number": 73,
+   "area": "CH",
+   "skill": 3,
+   "item": 88308,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.40104,
+    "b": 1.15692,
+    "c": 0.09673
+   },
+   "abandoned": false
+  },
+  {
+   "number": 74,
+   "area": "CH",
+   "skill": 3,
+   "item": 87709,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.06585,
+    "b": 1.48052,
+    "c": 0.17341
+   },
+   "abandoned": false
+  },
+  {
+   "number": 75,
+   "area": "CH",
+   "skill": 27,
+   "item": 112135,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.05925,
+    "b": 0.34452,
+    "c": 0.21848
+   },
+   "abandoned": false
+  },
+  {
+   "number": 76,
+   "area": "CH",
+   "skill": 23,
+   "item": 81689,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.34674,
+    "b": 1.87883,
+    "c": 0.11625
+   },
+   "abandoned": false
+  },
+  {
+   "number": 77,
+   "area": "CH",
+   "skill": 5,
+   "item": 118029,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.63717,
+    "b": 1.07054,
+    "c": 0.22582
+   },
+   "abandoned": false
+  },
+  {
+   "number": 78,
+   "area": "CH",
+   "skill": 4,
+   "item": 118024,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.44871,
+    "b": 1.81367,
+    "c": 0.12029
+   },
+   "abandoned": false
+  },
+  {
+   "number": 79,
+   "area": "CH",
+   "skill": 24,
+   "item": 97013,
+   "gabarito": "A",
+   "irt": {
+    "a": 0.73411,
+    "b": 1.20733,
+    "c": 0.01008
+   },
+   "abandoned": false
+  },
+  {
+   "number": 80,
+   "area": "CH",
+   "skill": 15,
+   "item": 11601,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.20499,
+    "b": 0.975,
+    "c": 0.146
+   },
+   "abandoned": false
+  },
+  {
+   "number": 81,
+   "area": "CH",
+   "skill": 18,
+   "item": 89147,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.04427,
+    "b": 1.36609,
+    "c": 0.23176
+   },
+   "abandoned": false
+  },
+  {
+   "number": 82,
+   "area": "CH",
+   "skill": 2,
+   "item": 84811,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.78428,
+    "b": 0.48121,
+    "c": 0.18255
+   },
+   "abandoned": false
+  },
+  {
+   "number": 83,
+   "area": "CH",
+   "skill": 20,
+   "item": 96447,
+   "gabarito": "D",
+   "irt": {
+    "a": 3.56414,
+    "b": 0.51626,
+    "c": 0.13663
+   },
+   "abandoned": false
+  },
+  {
+   "number": 84,
+   "area": "CH",
+   "skill": 7,
+   "item": 96302,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.13705,
+    "b": 0.24894,
+    "c": 0.00655
+   },
+   "abandoned": false
+  },
+  {
+   "number": 85,
+   "area": "CH",
+   "skill": 5,
+   "item": 111820,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.43499,
+    "b": 2.25728,
+    "c": 0.06711
+   },
+   "abandoned": false
+  },
+  {
+   "number": 86,
+   "area": "CH",
+   "skill": 7,
+   "item": 96596,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.69675,
+    "b": 2.03032,
+    "c": 0.19839
+   },
+   "abandoned": false
+  },
+  {
+   "number": 87,
+   "area": "CH",
+   "skill": 25,
+   "item": 84147,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.067,
+    "b": 0.32546,
+    "c": 0.20034
+   },
+   "abandoned": false
+  },
+  {
+   "number": 88,
+   "area": "CH",
+   "skill": 8,
+   "item": 95648,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.21046,
+    "b": 1.12907,
+    "c": 0.18621
+   },
+   "abandoned": false
+  },
+  {
+   "number": 89,
+   "area": "CH",
+   "skill": 26,
+   "item": 118038,
+   "gabarito": "D",
+   "irt": {
+    "a": 3.49023,
+    "b": 1.02573,
+    "c": 0.18725
+   },
+   "abandoned": false
+  },
+  {
+   "number": 90,
+   "area": "CH",
+   "skill": 27,
+   "item": 76955,
+   "gabarito": "B",
+   "irt": null,
+   "abandoned": true
+  },
+  {
+   "number": 91,
+   "area": "CN",
+   "skill": 27,
+   "item": 82364,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.43167,
+    "b": 1.13773,
+    "c": 0.22233
+   },
+   "abandoned": false
+  },
+  {
+   "number": 92,
+   "area": "CN",
+   "skill": 23,
+   "item": 117836,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.87838,
+    "b": 1.45214,
+    "c": 0.07496
+   },
+   "abandoned": false
+  },
+  {
+   "number": 93,
+   "area": "CN",
+   "skill": 30,
+   "item": 29776,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.80865,
+    "b": 0.58402,
+    "c": 0.21207
+   },
+   "abandoned": false
+  },
+  {
+   "number": 94,
+   "area": "CN",
+   "skill": 3,
+   "item": 117999,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.76618,
+    "b": 0.41535,
+    "c": 0.10709
+   },
+   "abandoned": false
+  },
+  {
+   "number": 95,
+   "area": "CN",
+   "skill": 9,
+   "item": 117746,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.2139,
+    "b": 2.21432,
+    "c": 0.09924
+   },
+   "abandoned": false
+  },
+  {
+   "number": 96,
+   "area": "CN",
+   "skill": 4,
+   "item": 86521,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.71979,
+    "b": 0.25498,
+    "c": 0.14498
+   },
+   "abandoned": false
+  },
+  {
+   "number": 97,
+   "area": "CN",
+   "skill": 28,
+   "item": 31718,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.90483,
+    "b": 0.48421,
+    "c": 0.21286
+   },
+   "abandoned": false
+  },
+  {
+   "number": 98,
+   "area": "CN",
+   "skill": 22,
+   "item": 89150,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.482,
+    "b": 0.29664,
+    "c": 0.15617
+   },
+   "abandoned": false
+  },
+  {
+   "number": 99,
+   "area": "CN",
+   "skill": 27,
+   "item": 117988,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.11909,
+    "b": 0.80483,
+    "c": 0.08561
+   },
+   "abandoned": false
+  },
+  {
+   "number": 100,
+   "area": "CN",
+   "skill": 29,
+   "item": 7529,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.26543,
+    "b": 0.62256,
+    "c": 0.1662
+   },
+   "abandoned": false
+  },
+  {
+   "number": 101,
+   "area": "CN",
+   "skill": 11,
+   "item": 88853,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.39212,
+    "b": 0.70901,
+    "c": 0.165
+   },
+   "abandoned": false
+  },
+  {
+   "number": 102,
+   "area": "CN",
+   "skill": 7,
+   "item": 117883,
+   "gabarito": "B",
+   "irt": {
+    "a": 0.38139,
+    "b": 3.36471,
+    "c": 0.06869
+   },
+   "abandoned": false
+  },
+  {
+   "number": 103,
+   "area": "CN",
+   "skill": 19,
+   "item": 82490,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.75058,
+    "b": 1.02204,
+    "c": 0.23374
+   },
+   "abandoned": false
+  },
+  {
+   "number": 104,
+   "area": "CN",
+   "skill": 12,
+   "item": 111624,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.03081,
+    "b": -0.00312,
+    "c": 0.01163
+   },
+   "abandoned": false
+  },
+  {
+   "number": 105,
+   "area": "CN",
+   "skill": 22,
+   "item": 82236,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.77263,
+    "b": 1.28601,
+    "c": 0.13618
+   },
+   "abandoned": false
+  },
+  {
+   "number": 106,
+   "area": "CN",
+   "skill": 17,
+   "item": 83441,
+   "gabarito": "D",
+   "irt": {
+    "a": 4.60881,
+    "b": 1.94111,
+    "c": 0.12462
+   },
+   "abandoned": false
+  },
+  {
+   "number": 107,
+   "area": "CN",
+   "skill": 14,
+   "item": 19223,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.06769,
+    "b": -0.11974,
+    "c": 0.19742
+   },
+   "abandoned": false
+  },
+  {
+   "number": 108,
+   "area": "CN",
+   "skill": 24,
+   "item": 78504,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.20779,
+    "b": 1.67408,
+    "c": 0.16383
+   },
+   "abandoned": false
+  },
+  {
+   "number": 109,
+   "area": "CN",
+   "skill": 20,
+   "item": 7629,
+   "gabarito": "B",
+   "irt": {
+    "a": 0.75316,
+    "b": 1.83643,
+    "c": 0.10672
+   },
+   "abandoned": false
+  },
+  {
+   "number": 110,
+   "area": "CN",
+   "skill": 13,
+   "item": 14273,
+   "gabarito": "D",
+   "irt": {
+    "a": 3.90297,
+    "b": 2.19782,
+    "c": 0.05798
+   },
+   "abandoned": false
+  },
+  {
+   "number": 111,
+   "area": "CN",
+   "skill": 20,
+   "item": 97169,
+   "gabarito": "A",
+   "irt": {
+    "a": 5.93339,
+    "b": 1.98881,
+    "c": 0.13188
+   },
+   "abandoned": false
+  },
+  {
+   "number": 112,
+   "area": "CN",
+   "skill": 23,
+   "item": 49600,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.14904,
+    "b": 2.36402,
+    "c": 0.1148
+   },
+   "abandoned": false
+  },
+  {
+   "number": 113,
+   "area": "CN",
+   "skill": 21,
+   "item": 96556,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.66258,
+    "b": 1.3767,
+    "c": 0.17468
+   },
+   "abandoned": false
+  },
+  {
+   "number": 114,
+   "area": "CN",
+   "skill": 8,
+   "item": 39290,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.00073,
+    "b": 0.8684,
+    "c": 0.16452
+   },
+   "abandoned": false
+  },
+  {
+   "number": 115,
+   "area": "CN",
+   "skill": 26,
+   "item": 89298,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.02022,
+    "b": 0.29761,
+    "c": 0.0167
+   },
+   "abandoned": false
+  },
+  {
+   "number": 116,
+   "area": "CN",
+   "skill": 15,
+   "item": 55328,
+   "gabarito": "B",
+   "irt": {
+    "a": 0.54974,
+    "b": 0.97948,
+    "c": 0.05877
+   },
+   "abandoned": false
+  },
+  {
+   "number": 117,
+   "area": "CN",
+   "skill": 21,
+   "item": 89515,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.14647,
+    "b": 1.67856,
+    "c": 0.32644
+   },
+   "abandoned": false
+  },
+  {
+   "number": 118,
+   "area": "CN",
+   "skill": 25,
+   "item": 117868,
+   "gabarito": "E",
+   "irt": {
+    "a": 0.05808,
+    "b": 8.96186,
+    "c": 0.22071
+   },
+   "abandoned": false
+  },
+  {
+   "number": 119,
+   "area": "CN",
+   "skill": 6,
+   "item": 117890,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.85268,
+    "b": 0.99689,
+    "c": 0.12401
+   },
+   "abandoned": false
+  },
+  {
+   "number": 120,
+   "area": "CN",
+   "skill": 18,
+   "item": 54381,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.20714,
+    "b": 2.14905,
+    "c": 0.08067
+   },
+   "abandoned": false
+  },
+  {
+   "number": 121,
+   "area": "CN",
+   "skill": 6,
+   "item": 117979,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.19339,
+    "b": 2.04675,
+    "c": 0.26041
+   },
+   "abandoned": false
+  },
+  {
+   "number": 122,
+   "area": "CN",
+   "skill": 18,
+   "item": 83609,
+   "gabarito": "E",
+   "irt": null,
+   "abandoned": true
+  },
+  {
+   "number": 123,
+   "area": "CN",
+   "skill": 10,
+   "item": 60311,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.79351,
+    "b": 0.15609,
+    "c": 0.14102
+   },
+   "abandoned": false
+  },
+  {
+   "number": 124,
+   "area": "CN",
+   "skill": 8,
+   "item": 81478,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.37739,
+    "b": 1.59193,
+    "c": 0.20921
+   },
+   "abandoned": false
+  },
+  {
+   "number": 125,
+   "area": "CN",
+   "skill": 16,
+   "item": 83526,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.62997,
+    "b": 1.70518,
+    "c": 0.1628
+   },
+   "abandoned": false
+  },
+  {
+   "number": 126,
+   "area": "CN",
+   "skill": 5,
+   "item": 111601,
+   "gabarito": "B",
+   "irt": {
+    "a": 7.09582,
+    "b": 2.42384,
+    "c": 0.23686
+   },
+   "abandoned": false
+  },
+  {
+   "number": 127,
+   "area": "CN",
+   "skill": 9,
+   "item": 111545,
+   "gabarito": "E",
+   "irt": {
+    "a": 0.54124,
+    "b": 3.79854,
+    "c": 0.17374
+   },
+   "abandoned": false
+  },
+  {
+   "number": 128,
+   "area": "CN",
+   "skill": 17,
+   "item": 19407,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.32962,
+    "b": 1.67314,
+    "c": 0.14993
+   },
+   "abandoned": false
+  },
+  {
+   "number": 129,
+   "area": "CN",
+   "skill": 7,
+   "item": 89772,
+   "gabarito": "C",
+   "irt": {
+    "a": 0.67587,
+    "b": 1.59601,
+    "c": 0.02169
+   },
+   "abandoned": false
+  },
+  {
+   "number": 130,
+   "area": "CN",
+   "skill": 3,
+   "item": 24104,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.41094,
+    "b": 1.15715,
+    "c": 0.16829
+   },
+   "abandoned": false
+  },
+  {
+   "number": 131,
+   "area": "CN",
+   "skill": 2,
+   "item": 111705,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.78669,
+    "b": 1.78124,
+    "c": 0.20473
+   },
+   "abandoned": false
+  },
+  {
+   "number": 132,
+   "area": "CN",
+   "skill": 1,
+   "item": 117875,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.78539,
+    "b": 1.58564,
+    "c": 0.13602
+   },
+   "abandoned": false
+  },
+  {
+   "number": 133,
+   "area": "CN",
+   "skill": 2,
+   "item": 117642,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.92967,
+    "b": 1.07472,
+    "c": 0.22014
+   },
+   "abandoned": false
+  },
+  {
+   "number": 134,
+   "area": "CN",
+   "skill": 24,
+   "item": 85548,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.96175,
+    "b": 0.58267,
+    "c": 0.11175
+   },
+   "abandoned": false
+  },
+  {
+   "number": 135,
+   "area": "CN",
+   "skill": 1,
+   "item": 84568,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.42831,
+    "b": 1.66707,
+    "c": 0.29842
+   },
+   "abandoned": false
+  },
+  {
+   "number": 136,
+   "area": "MT",
+   "skill": 6,
+   "item": 117635,
+   "gabarito": "E",
+   "irt": {
+    "a": 1.84162,
+    "b": 0.88644,
+    "c": 0.35048
+   },
+   "abandoned": false
+  },
+  {
+   "number": 137,
+   "area": "MT",
+   "skill": 21,
+   "item": 9779,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.287,
+    "b": 2.217,
+    "c": 0.085
+   },
+   "abandoned": false
+  },
+  {
+   "number": 138,
+   "area": "MT",
+   "skill": 5,
+   "item": 111608,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.47366,
+    "b": 1.61606,
+    "c": 0.04665
+   },
+   "abandoned": false
+  },
+  {
+   "number": 139,
+   "area": "MT",
+   "skill": 15,
+   "item": 111696,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.05561,
+    "b": 3.05197,
+    "c": 0.11848
+   },
+   "abandoned": false
+  },
+  {
+   "number": 140,
+   "area": "MT",
+   "skill": 1,
+   "item": 63187,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.86876,
+    "b": 0.4293,
+    "c": 0.12552
+   },
+   "abandoned": false
+  },
+  {
+   "number": 141,
+   "area": "MT",
+   "skill": 17,
+   "item": 117612,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.94459,
+    "b": 2.78766,
+    "c": 0.16241
+   },
+   "abandoned": false
+  },
+  {
+   "number": 142,
+   "area": "MT",
+   "skill": 9,
+   "item": 63808,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.89605,
+    "b": 1.98685,
+    "c": 0.08712
+   },
+   "abandoned": false
+  },
+  {
+   "number": 143,
+   "area": "MT",
+   "skill": 20,
+   "item": 54448,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.06326,
+    "b": 0.80679,
+    "c": 0.08034
+   },
+   "abandoned": false
+  },
+  {
+   "number": 144,
+   "area": "MT",
+   "skill": 1,
+   "item": 86432,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.12267,
+    "b": 0.37213,
+    "c": 0.26876
+   },
+   "abandoned": false
+  },
+  {
+   "number": 145,
+   "area": "MT",
+   "skill": 14,
+   "item": 23065,
+   "gabarito": "C",
+   "irt": null,
+   "abandoned": true
+  },
+  {
+   "number": 146,
+   "area": "MT",
+   "skill": 26,
+   "item": 117798,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.72919,
+    "b": 1.92868,
+    "c": 0.23186
+   },
+   "abandoned": false
+  },
+  {
+   "number": 147,
+   "area": "MT",
+   "skill": 12,
+   "item": 30740,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.64938,
+    "b": 1.94549,
+    "c": 0.20724
+   },
+   "abandoned": false
+  },
+  {
+   "number": 148,
+   "area": "MT",
+   "skill": 12,
+   "item": 30436,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.64692,
+    "b": 0.47926,
+    "c": 0.18811
+   },
+   "abandoned": false
+  },
+  {
+   "number": 149,
+   "area": "MT",
+   "skill": 24,
+   "item": 117725,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.20999,
+    "b": 2.11115,
+    "c": 0.06509
+   },
+   "abandoned": false
+  },
+  {
+   "number": 150,
+   "area": "MT",
+   "skill": 23,
+   "item": 84409,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.77601,
+    "b": 1.53793,
+    "c": 0.14814
+   },
+   "abandoned": false
+  },
+  {
+   "number": 151,
+   "area": "MT",
+   "skill": 16,
+   "item": 28434,
+   "gabarito": "A",
+   "irt": {
+    "a": 2.45024,
+    "b": 3.01267,
+    "c": 0.14322
+   },
+   "abandoned": false
+  },
+  {
+   "number": 152,
+   "area": "MT",
+   "skill": 16,
+   "item": 117607,
+   "gabarito": "B",
+   "irt": {
+    "a": 2.28084,
+    "b": 1.24447,
+    "c": 0.12125
+   },
+   "abandoned": false
+  },
+  {
+   "number": 153,
+   "area": "MT",
+   "skill": 3,
+   "item": 30570,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.17618,
+    "b": 2.35696,
+    "c": 0.27294
+   },
+   "abandoned": false
+  },
+  {
+   "number": 154,
+   "area": "MT",
+   "skill": 21,
+   "item": 84374,
+   "gabarito": "C",
+   "irt": {
+    "a": 1.7206,
+    "b": 2.05336,
+    "c": 0.18597
+   },
+   "abandoned": false
+  },
+  {
+   "number": 155,
+   "area": "MT",
+   "skill": 2,
+   "item": 83754,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.93635,
+    "b": 3.78057,
+    "c": 0.19828
+   },
+   "abandoned": false
+  },
+  {
+   "number": 156,
+   "area": "MT",
+   "skill": 3,
+   "item": 39708,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.45518,
+    "b": 2.61221,
+    "c": 0.15911
+   },
+   "abandoned": false
+  },
+  {
+   "number": 157,
+   "area": "MT",
+   "skill": 7,
+   "item": 117950,
+   "gabarito": "A",
+   "irt": {
+    "a": 3.76775,
+    "b": 2.42062,
+    "c": 0.20831
+   },
+   "abandoned": false
+  },
+  {
+   "number": 158,
+   "area": "MT",
+   "skill": 11,
+   "item": 117845,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.1849,
+    "b": 1.31578,
+    "c": 0.14485
+   },
+   "abandoned": false
+  },
+  {
+   "number": 159,
+   "area": "MT",
+   "skill": 30,
+   "item": 117726,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.31939,
+    "b": 1.41653,
+    "c": 0.07186
+   },
+   "abandoned": false
+  },
+  {
+   "number": 160,
+   "area": "MT",
+   "skill": 28,
+   "item": 8368,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.17954,
+    "b": 1.95289,
+    "c": 0.13818
+   },
+   "abandoned": false
+  },
+  {
+   "number": 161,
+   "area": "MT",
+   "skill": 27,
+   "item": 13303,
+   "gabarito": "B",
+   "irt": {
+    "a": 3.1073,
+    "b": 1.87878,
+    "c": 0.18717
+   },
+   "abandoned": false
+  },
+  {
+   "number": 162,
+   "area": "MT",
+   "skill": 10,
+   "item": 14324,
+   "gabarito": "D",
+   "irt": {
+    "a": 3.8143,
+    "b": 2.48432,
+    "c": 0.09189
+   },
+   "abandoned": false
+  },
+  {
+   "number": 163,
+   "area": "MT",
+   "skill": 4,
+   "item": 18002,
+   "gabarito": "C",
+   "irt": {
+    "a": 3.41848,
+    "b": 1.95818,
+    "c": 0.16938
+   },
+   "abandoned": false
+  },
+  {
+   "number": 164,
+   "area": "MT",
+   "skill": 13,
+   "item": 42803,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.30372,
+    "b": 1.40103,
+    "c": 0.13792
+   },
+   "abandoned": false
+  },
+  {
+   "number": 165,
+   "area": "MT",
+   "skill": 19,
+   "item": 117743,
+   "gabarito": "E",
+   "irt": {
+    "a": 3.9588,
+    "b": 1.47023,
+    "c": 0.11919
+   },
+   "abandoned": false
+  },
+  {
+   "number": 166,
+   "area": "MT",
+   "skill": 8,
+   "item": 10360,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.52296,
+    "b": 2.72201,
+    "c": 0.36496
+   },
+   "abandoned": false
+  },
+  {
+   "number": 167,
+   "area": "MT",
+   "skill": 29,
+   "item": 31184,
+   "gabarito": "C",
+   "irt": {
+    "a": 2.662,
+    "b": 2.957,
+    "c": 0.068
+   },
+   "abandoned": false
+  },
+  {
+   "number": 168,
+   "area": "MT",
+   "skill": 19,
+   "item": 8401,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.25899,
+    "b": 1.51757,
+    "c": 0.09598
+   },
+   "abandoned": false
+  },
+  {
+   "number": 169,
+   "area": "MT",
+   "skill": 9,
+   "item": 117818,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.62365,
+    "b": 1.98136,
+    "c": 0.18076
+   },
+   "abandoned": false
+  },
+  {
+   "number": 170,
+   "area": "MT",
+   "skill": 14,
+   "item": 117783,
+   "gabarito": "B",
+   "irt": {
+    "a": 1.96646,
+    "b": 2.01615,
+    "c": 0.1547
+   },
+   "abandoned": false
+  },
+  {
+   "number": 171,
+   "area": "MT",
+   "skill": 2,
+   "item": 83792,
+   "gabarito": "E",
+   "irt": {
+    "a": 1.25552,
+    "b": 1.93449,
+    "c": 0.06675
+   },
+   "abandoned": false
+  },
+  {
+   "number": 172,
+   "area": "MT",
+   "skill": 25,
+   "item": 8442,
+   "gabarito": "D",
+   "irt": {
+    "a": 1.51,
+    "b": 3.003,
+    "c": 0.147
+   },
+   "abandoned": false
+  },
+  {
+   "number": 173,
+   "area": "MT",
+   "skill": 28,
+   "item": 89634,
+   "gabarito": "E",
+   "irt": {
+    "a": 2.5937,
+    "b": 1.91179,
+    "c": 0.07742
+   },
+   "abandoned": false
+  },
+  {
+   "number": 174,
+   "area": "MT",
+   "skill": 26,
+   "item": 78445,
+   "gabarito": "C",
+   "irt": {
+    "a": 5.31206,
+    "b": 3.34343,
+    "c": 0.16052
+   },
+   "abandoned": false
+  },
+  {
+   "number": 175,
+   "area": "MT",
+   "skill": 8,
+   "item": 17642,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.24304,
+    "b": 2.30004,
+    "c": 0.20665
+   },
+   "abandoned": false
+  },
+  {
+   "number": 176,
+   "area": "MT",
+   "skill": 18,
+   "item": 117767,
+   "gabarito": "D",
+   "irt": {
+    "a": 0.1828,
+    "b": 12.4166,
+    "c": 0.11617
+   },
+   "abandoned": false
+  },
+  {
+   "number": 177,
+   "area": "MT",
+   "skill": 21,
+   "item": 83955,
+   "gabarito": "D",
+   "irt": {
+    "a": 2.5833,
+    "b": 1.63345,
+    "c": 0.16356
+   },
+   "abandoned": false
+  },
+  {
+   "number": 178,
+   "area": "MT",
+   "skill": 25,
+   "item": 111593,
+   "gabarito": "B",
+   "irt": {
+    "a": 4.12689,
+    "b": 2.8894,
+    "c": 0.12635
+   },
+   "abandoned": false
+  },
+  {
+   "number": 179,
+   "area": "MT",
+   "skill": 20,
+   "item": 111518,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.57287,
+    "b": 1.15345,
+    "c": 0.11072
+   },
+   "abandoned": false
+  },
+  {
+   "number": 180,
+   "area": "MT",
+   "skill": 4,
+   "item": 83994,
+   "gabarito": "A",
+   "irt": {
+    "a": 1.78432,
+    "b": 1.1667,
+    "c": 0.0455
+   },
+   "abandoned": false
+  }
+ ]
+}

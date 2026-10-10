@@ -1,0 +1,152 @@
+{
+  "_comment": "Taxonomia de assuntos: área -> matéria -> assuntos. Os nomes de matéria seguem os do edital da UFPR (pesos por disciplina). Mudou aqui? Rode npm run seed:taxonomia.",
+  "linguagens": {
+    "Língua Portuguesa": [
+      "Interpretação de texto",
+      "Gêneros textuais",
+      "Variação linguística",
+      "Funções da linguagem",
+      "Figuras de linguagem",
+      "Coesão e coerência",
+      "Gramática",
+      "Argumentação e intencionalidade",
+      "Intertextualidade"
+    ],
+    "Literatura Brasileira": [
+      "Do Quinhentismo ao Arcadismo",
+      "Romantismo",
+      "Realismo e Naturalismo",
+      "Parnasianismo e Simbolismo",
+      "Pré-Modernismo e Modernismo",
+      "Literatura contemporânea",
+      "Poesia e análise de poemas"
+    ],
+    "Língua Estrangeira": [
+      "Inglês",
+      "Espanhol"
+    ],
+    "Artes": [
+      "Artes visuais",
+      "Música, dança e teatro",
+      "Arte contemporânea e patrimônio"
+    ],
+    "Educação Física": [
+      "Práticas corporais, esporte e saúde"
+    ],
+    "Comunicação e Tecnologia": [
+      "Mídias e tecnologias digitais"
+    ]
+  },
+  "humanas": {
+    "História": [
+      "Antiguidade",
+      "Idade Média",
+      "Idade Moderna",
+      "Revoluções e século XIX",
+      "Guerras mundiais e século XX",
+      "Guerra Fria e mundo contemporâneo",
+      "Brasil Colônia",
+      "Brasil Império",
+      "Primeira República",
+      "Era Vargas",
+      "República populista (1945–1964)",
+      "Ditadura militar e redemocratização",
+      "Escravidão e cultura afro-brasileira",
+      "Povos indígenas",
+      "Cidadania e direitos",
+      "Historiografia e memória"
+    ],
+    "Geografia": [
+      "Cartografia",
+      "Clima",
+      "Relevo, solos e geologia",
+      "Hidrografia",
+      "Biomas e questões ambientais",
+      "População e migrações",
+      "Urbanização",
+      "Espaço agrário",
+      "Indústria e energia",
+      "Globalização e economia",
+      "Geopolítica e conflitos"
+    ],
+    "Filosofia": [
+      "Filosofia antiga",
+      "Filosofia medieval",
+      "Filosofia moderna",
+      "Filosofia contemporânea",
+      "Ética e política"
+    ],
+    "Sociologia": [
+      "Cultura e identidade",
+      "Trabalho e sociedade",
+      "Movimentos sociais",
+      "Estado, poder e democracia",
+      "Pensadores clássicos"
+    ]
+  },
+  "natureza": {
+    "Biologia": [
+      "Ecologia",
+      "Genética",
+      "Evolução",
+      "Citologia",
+      "Bioquímica",
+      "Fisiologia humana",
+      "Botânica",
+      "Zoologia",
+      "Microbiologia e doenças",
+      "Biotecnologia"
+    ],
+    "Química": [
+      "Atomística e tabela periódica",
+      "Ligações e propriedades",
+      "Funções inorgânicas",
+      "Estequiometria",
+      "Soluções",
+      "Termoquímica",
+      "Cinética química",
+      "Equilíbrio químico",
+      "Eletroquímica",
+      "Química orgânica",
+      "Reações orgânicas e polímeros",
+      "Radioatividade",
+      "Química ambiental",
+      "Separação de misturas"
+    ],
+    "Física": [
+      "Cinemática",
+      "Dinâmica",
+      "Energia e trabalho",
+      "Hidrostática",
+      "Gravitação",
+      "Termologia",
+      "Óptica",
+      "Ondulatória",
+      "Eletrostática",
+      "Eletrodinâmica",
+      "Magnetismo",
+      "Física moderna"
+    ]
+  },
+  "matematica": {
+    "Matemática": [
+      "Operações e aritmética",
+      "Razão, proporção e porcentagem",
+      "Matemática financeira",
+      "Grandezas, medidas e escala",
+      "Leitura de gráficos e tabelas",
+      "Estatística",
+      "Probabilidade",
+      "Análise combinatória",
+      "Funções",
+      "Função afim e quadrática",
+      "Exponencial e logaritmo",
+      "Sequências (PA e PG)",
+      "Geometria plana",
+      "Geometria espacial",
+      "Trigonometria",
+      "Geometria analítica",
+      "Lógica e problemas"
+    ]
+  }
+}

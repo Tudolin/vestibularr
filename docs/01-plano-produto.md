@@ -6,7 +6,8 @@ Objetivo: transformar o app familiar em produto. Ele terá:
 - recursos de IA (correção de redação e um tutor próprio para tirar dúvidas);
 - estudo offline em EPUB/PDF (Kindle e tablets).
 
-Status: **Fase A concluída** (vitrine, cadastro, onboarding, planos e limites). Próxima: Fase B (pagamentos).
+Status: **Fase A concluída** (vitrine, cadastro, onboarding, planos e limites). Pagamentos (Fase B) ficaram para o fim,
+provavelmente com **AbacatePay** (Pix); antes vêm as features de engajamento.
 Novas features de engajamento (triagem, plano de estudos, desafios diários, tripulação): ver `docs/02-plano-engajamento.md`.
 
 ---
