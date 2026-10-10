@@ -1,4 +1,4 @@
-import { BookOpenCheck, Bot, Check, CloudOff, FileText, Gauge, PenLine, Timer } from "lucide-react";
+import { BookOpenCheck, Bot, Check, CloudOff, Compass, FileText, Flame, Gauge, PenLine, Ship, Timer } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CtaButton, SiteFooter, SiteHeader } from "@/components/marketing/site-chrome";
@@ -6,14 +6,24 @@ import { GUIDE_POSTER, GUIDE_VIDEO } from "@/lib/guide";
 import { brl, describeLimit, PLANS } from "@/lib/plans";
 
 export const metadata: Metadata = {
-  title: { absolute: "Vestibularr — estude para o ENEM e a UFPR com resolução de cada questão" },
-  description: "Questões do ENEM com resolução comentada, simulados no tempo oficial (até offline), caderno de erros e redação corrigida por IA. Comece grátis.",
+  title: { absolute: "Vestibularr — sua vaga na federal não depende de quanto você pode pagar" },
+  description: "Questões oficiais do ENEM e da UFPR com resolução, simulados, IA que corrige a redação e um desafio de 10 minutos por dia. Grátis para começar; o completo por um valor simbólico.",
   alternates: { canonical: "/" },
 };
 
 const RECURSOS = [
   {
-    icon: Timer, kicker: "Simulado de verdade", title: "Prova inteira, no tempo oficial — sem perder nada",
+    icon: Flame, kicker: "10 minutos por dia", title: "O desafio do dia transforma estudo em hábito",
+    text: "Todo dia, 7 questões escolhidas para você: o assunto em que você mais erra, revisão dos erros e um chefão no final, com XP em dobro. Sequência de dias, escudos para os dias difíceis e nada de culpa.",
+    img: "/landing/celular-desafio-feito.webp", w: 780, h: 1688, alt: "Desafio do dia concluído: acertos, sequência de 7 dias e escudo ganho", phone: true,
+  },
+  {
+    icon: Ship, kicker: "Tripulação", title: "Ninguém passa sozinho",
+    text: "Chame os amigos da escola, monte uma tripulação e disputem a liga da semana. Mande um “vento a favor” para quem está desanimando. Sem chat aberto e sem nome real: só @apelido, avatar e XP.",
+    img: "/landing/celular-tripulacao.webp", w: 780, h: 1688, alt: "Tela da Tripulação com nível, sequência e a liga da semana", phone: true,
+  },
+  {
+    icon: Timer, kicker: "Simulado de verdade", title: "Treine como no dia da prova",
     text: "O cronômetro roda no servidor: comece no celular e termine no computador. Cada marcação é salva sozinha e a prova continua funcionando sem internet.",
     img: "/landing/simulado.webp", w: 1440, h: 900, alt: "Tela de simulado com a questão, as alternativas e o mapa de questões", phone: false,
   },
@@ -29,24 +39,25 @@ const RECURSOS = [
   },
   {
     icon: Gauge, kicker: "Desempenho", title: "Saiba onde focar — e quanto falta para o seu curso",
-    text: "Acertos por área e assunto, mapa de calor dos pontos fracos, metas, sequência de estudo e a nota estimada para o curso que você quer.",
+    text: "Comece pela triagem: em 20 minutos, sua nota estimada por área com a TRI oficial do INEP. Depois, acertos por assunto, pontos fracos e quanto falta para o curso que você quer.",
     img: "/landing/desempenho.webp", w: 1440, h: 900, alt: "Painel de desempenho com evolução, metas e cursos-alvo", phone: false,
   },
 ];
 
 const MAIS = [
   { icon: Check, t: "Caderno de erros", d: "O que você errou volta em 1, 3, 7, 14 e 30 dias." },
-  { icon: CloudOff, t: "Funciona offline", d: "Instale no celular; tudo sincroniza quando a internet volta." },
-  { icon: Bot, t: "Tutor IA (em breve)", d: "Tire dúvidas de qualquer questão com um professor de bolso." },
-  { icon: FileText, t: "EPUB e PDF (em breve)", d: "Monte cadernos para estudar no Kindle, tablet ou papel." },
+  { icon: CloudOff, t: "Funciona sem internet", d: "Baixe treinos e redações; tudo sincroniza quando a internet volta. Celular simples também roda." },
+  { icon: FileText, t: "PDF e EPUB", d: "Monte listas para imprimir, resolver no papel ou ler no Kindle, com gabarito." },
+  { icon: Bot, t: "Tutor IA (em breve)", d: "Tire dúvidas de qualquer questão com um agente de IA que explica passo a passo." },
 ];
 
 const FAQ = [
   ["As questões são oficiais?", "Sim. São das provas do ENEM (INEP) e da UFPR, com a fonte citada em cada questão. As resoluções comentadas são nossas e foram conferidas com o gabarito oficial."],
   ["Serve para a UTFPR e outras federais?", "Sim. A UTFPR e muitas outras usam a nota do ENEM pelo Sisu. Para a UFPR 2027 temos o formato próprio da fase única."],
   ["Funciona sem internet?", "Funciona. Instalado no celular, o simulado em andamento e a redação continuam offline; ao reconectar, tudo é enviado sozinho."],
-  ["O Grátis é grátis mesmo?", "É. Banco de questões e resoluções ilimitados, sem cartão. Os planos pagos aumentam os limites de IA, simulados e exportações."],
-  ["Posso cancelar quando quiser?", "Pode, direto no app. O acesso pago segue até o fim do período já pago, e você tem 7 dias de arrependimento com reembolso integral."],
+  ["O Grátis é grátis mesmo?", "É, e vai continuar sendo: banco de questões e resoluções ilimitados, sem cartão. Estamos em beta e, por enquanto, todos os recursos estão liberados de graça para todo mundo."],
+  ["Por que é tão barato?", "Porque esse é o motivo de o Vestibularr existir: a vaga na universidade pública não pode depender de quanto a família consegue pagar. Quando os planos pagos começarem, o completo vai custar R$ 9,90 por mês, e quem não puder pagar continua estudando no Grátis."],
+  ["Posso cancelar quando quiser?", "Pode, pelo site, a qualquer momento. O acesso pago segue até o fim do período já pago, e você tem 7 dias de arrependimento com reembolso integral."],
   ["É seguro para menores de idade?", "Sim. Coletamos só o necessário para os estudos, não há anúncios e o cadastro de menores de 18 anos pede a autorização do responsável."],
 ];
 
@@ -80,17 +91,20 @@ export default function Landing() {
             <div className="flex flex-col gap-6">
               <span className="inline-flex w-fit items-center gap-2 rounded-full bg-gema/30 px-3 py-1 text-sm font-bold text-tinta">ENEM · UFPR 2027 · UTFPR via Sisu</span>
               <h1 className="font-brand text-[2.6rem] font-bold leading-[1.02] tracking-tight sm:text-6xl">
-                Estude para o vestibular com <span className="text-cobalto">resolução de cada questão</span> e IA que corrige sua redação.
+                Sua vaga na federal <span className="text-cobalto">não depende de quanto você pode pagar.</span>
               </h1>
-              <p className="max-w-xl text-lg text-tinta/75">Simulados no tempo oficial, treino com a resposta na hora, caderno de erros e nota estimada para o seu curso. No celular ou no computador — até sem internet.</p>
+              <p className="max-w-xl text-lg text-tinta/75">
+                Um app para estudar do seu jeito, onde e quando quiser: questões oficiais do ENEM e da UFPR com resolução,
+                simulados, IA que ajuda na estrutura da sua redação e mostra seus pontos fortes e fracos. Grátis para começar.
+              </p>
               <div className="flex flex-wrap gap-3">
                 <CtaButton href="/cadastro" size="lg">Comece grátis</CtaButton>
                 <a href="#video" className="inline-flex min-h-14 items-center rounded-2xl px-5 font-brand text-xl font-bold text-cobalto hover:bg-cobalto/5">▶ Ver em 2 minutos</a>
               </div>
-              <p className="text-sm text-tinta/60">7 dias de Pro grátis · sem cartão · cancele quando quiser</p>
+              <p className="text-sm text-tinta/60">Em beta: tudo liberado de graça · sem cartão</p>
             </div>
             <div className="relative">
-              <PhoneShot src="/landing/celular-inicio.webp" alt="Tela inicial do app no celular" />
+              <PhoneShot src="/landing/celular-desafio.webp" alt="Tela inicial do app com o desafio do dia, a sequência e os escudos" />
               {/* eslint-disable-next-line @next/next/no-img-element -- mascote SVG */}
               <img src="/brand/grafite-deitado.svg" alt="Mascote do Vestibularr: um gato pirata deitado segurando um lápis" width={600} height={268} className="absolute -bottom-20 left-1/2 w-[min(420px,92vw)] -translate-x-1/2 drop-shadow-[0_10px_0_rgba(20,18,58,.08)]" />
             </div>
@@ -100,7 +114,7 @@ export default function Landing() {
         {/* ------------------------------------------------ números */}
         <section aria-label="Em números" className="bg-cobalto text-white">
           <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4">
-            {[["1.088", "questões do ENEM 2019–2024 com resolução comentada"], ["5h30", "simulados no tempo oficial, com cronômetro no servidor"], ["5", "competências na correção de redação por IA"], ["100%", "do progresso salvo sozinho, até offline"]].map(([n, d]) => (
+            {[["R$ 0", "para começar, com questões e resoluções ilimitadas"], ["1.088", "questões do ENEM 2019–2024 com resolução comentada"], ["10 min", "por dia no desafio: o hábito que leva à vaga"], ["100%", "do progresso salvo sozinho, até sem internet"]].map(([n, d]) => (
               <div key={n} className="flex flex-col gap-1">
                 <dt className="sr-only">{d}</dt>
                 <dd className="font-brand text-4xl font-bold sm:text-5xl">{n}</dd>
@@ -108,6 +122,24 @@ export default function Landing() {
               </div>
             ))}
           </dl>
+        </section>
+
+        {/* ------------------------------------------------ por que existimos */}
+        <section id="por-que" aria-labelledby="porque-t" className="mx-auto max-w-3xl px-4 pt-20 text-center">
+          <span className="inline-flex items-center gap-2 font-brand text-lg font-bold text-cobalto"><Compass className="size-5" aria-hidden /> Por que o Vestibularr existe</span>
+          <h2 id="porque-t" className="mt-3 font-brand text-4xl font-bold leading-tight sm:text-5xl">A faculdade mudou a minha vida. Agora é a sua vez.</h2>
+          <blockquote className="mt-6 text-left text-lg leading-relaxed text-tinta/80 sm:text-center">
+            <p>
+              Nasci numa família humilde e estudei em colégio público. Foi a faculdade que mudou a minha vida e a minha educação.
+              Mas eu sei quantos colegas ficaram pelo caminho porque não tinham como pagar por ajuda para estudar.
+            </p>
+            <p className="mt-4">
+              Criei o Vestibularr para incentivar e ajudar quem está nessa: um jeito mais prático de estudar, no celular, onde e
+              como você quiser, com simulados, a resolução de cada questão e IA que ajuda na estrutura da redação e mostra onde
+              você está forte e onde precisa melhorar. De graça para começar, e com um valor acessível para ter tudo.
+            </p>
+            <footer className="mt-5 font-brand text-base font-bold text-tinta">— Fundador do Vestibularr</footer>
+          </blockquote>
         </section>
 
         {/* ------------------------------------------------ recursos */}
@@ -141,7 +173,7 @@ export default function Landing() {
             <div>
               <h2 id="video-t" className="font-brand text-4xl font-bold">Como funciona</h2>
               <ol className="mt-6 flex flex-col gap-5">
-                {[["Crie sua conta", "Em menos de um minuto, com 7 dias de Pro grátis."], ["Diga seu objetivo", "Vestibular, curso e meta diária — o app se ajusta a você."], ["Estude todo dia", "Treinos curtos, simulados no fim de semana e revisão dos erros na hora certa."]].map(([t, d], i) => (
+                {[["Crie sua conta grátis", "Em menos de um minuto, sem cartão."], ["Descubra seu nível", "A triagem estima sua nota por área com a TRI do INEP e mostra onde focar."], ["10 minutos por dia", "Desafio do dia, revisão dos erros na hora certa e simulados no fim de semana, com a sua tripulação."]].map(([t, d], i) => (
                   <li key={t} className="flex gap-4">
                     <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-gema font-brand text-xl font-bold text-tinta">{i + 1}</span>
                     <span><b className="block font-brand text-xl">{t}</b><span className="text-white/75">{d}</span></span>
@@ -155,8 +187,12 @@ export default function Landing() {
 
         {/* ------------------------------------------------ planos */}
         <section id="planos" aria-labelledby="planos-t" className="mx-auto max-w-6xl px-4 py-20">
-          <h2 id="planos-t" className="text-center font-brand text-4xl font-bold sm:text-5xl">Planos que cabem no bolso</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-center text-lg text-tinta/70">O banco de questões e as resoluções são ilimitados em todos os planos. Os pagos liberam mais IA, simulados e exportações.</p>
+          <h2 id="planos-t" className="text-center font-brand text-4xl font-bold sm:text-5xl">Preço simbólico, de propósito</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-lg text-tinta/70">
+            Quem não pode pagar estuda no Grátis, com questões e resoluções ilimitadas, para sempre. Os planos pagos liberam mais IA,
+            simulados e exportações por menos que um lanche por mês.
+          </p>
+          <p className="mx-auto mt-4 w-fit rounded-full bg-gema/30 px-4 py-1.5 text-center text-sm font-bold">Em beta: por enquanto, tudo liberado de graça para todo mundo</p>
           <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {PLANS.map((p) => {
               const featured = p.code === "estudante";
@@ -173,15 +209,15 @@ export default function Landing() {
                     <li>✓ Redação com IA: {describeLimit(p.limits.essay_ai)}</li>
                     <li>✓ Tutor IA: {describeLimit(p.limits.tutor_msg, "mensagens")}</li>
                     <li>✓ EPUB/PDF: {describeLimit(p.limits.export)}</li>
-                    {p.limits.study_plan.quota !== 0 && <li>✓ Plano de estudos com IA</li>}
+                    {p.limits.study_plan.quota !== 0 && <li>✓ Plano de estudos (em breve)</li>}
                     {p.code === "familia" && <li>✓ Até 4 contas</li>}
                   </ul>
-                  <CtaButton href="/cadastro" size="md" tone={featured ? "primary" : "gema"} className="mt-6 w-full">{p.priceCents ? "Testar 7 dias grátis" : "Comece grátis"}</CtaButton>
+                  <CtaButton href="/cadastro" size="md" tone={featured ? "primary" : "gema"} className="mt-6 w-full">Comece grátis</CtaButton>
                 </li>
               );
             })}
           </ul>
-          <p className="mt-6 text-center text-sm text-tinta/60">Toda conta nova começa com 7 dias de Pro. Os planos pagos estarão disponíveis em breve.</p>
+          <p className="mt-6 text-center text-sm text-tinta/60">Os planos pagos chegam depois do beta, com pagamento pelo site. Desafio do dia, sequência e Tripulação são grátis em todos os planos.</p>
         </section>
 
         {/* ------------------------------------------------ FAQ */}
@@ -202,8 +238,8 @@ export default function Landing() {
         {/* ------------------------------------------------ CTA final */}
         <section className="mx-auto mb-20 max-w-6xl px-4">
           <div className="relative overflow-hidden rounded-[2.5rem] bg-cobalto px-6 py-14 text-center text-white sm:px-12">
-            <h2 className="font-brand text-4xl font-bold sm:text-5xl">Bora, tripulação?</h2>
-            <p className="mx-auto mt-3 max-w-xl text-lg text-white/85">Crie sua conta grátis e faça sua primeira questão hoje.</p>
+            <h2 className="font-brand text-4xl font-bold sm:text-5xl">Agora é a sua vez.</h2>
+            <p className="mx-auto mt-3 max-w-xl text-lg text-white/85">Crie sua conta grátis e faça o seu primeiro desafio hoje. São 10 minutos. Bora, tripulação?</p>
             <CtaButton href="/cadastro" tone="gema" size="lg" className="mt-8">Comece grátis</CtaButton>
           </div>
         </section>

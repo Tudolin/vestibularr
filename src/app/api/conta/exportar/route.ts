@@ -22,6 +22,7 @@ export async function GET() {
     exportado_em: new Date().toISOString(),
     conta: { id: user.id, email: user.email, criado_em: user.created_at },
     perfil: (await supabase.from("profiles").select("full_name, username, avatar, role, target_boards, target_courses, preferences, created_at").eq("id", user.id).maybeSingle()).data,
+    sobre_voce: (await supabase.from("profile_demographics").select("age_range, gender, school_type, school_year, state, city, referral, updated_at").eq("user_id", user.id).maybeSingle()).data,
     assinatura: (await supabase.from("subscriptions").select("plan_code, status, provider, current_period_end, trial_end, created_at").eq("user_id", user.id).maybeSingle()).data,
     metas: await pick("student_goals"),
     tentativas: attempts,

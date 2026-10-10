@@ -4,10 +4,12 @@ import { ArrowLeft, Check, Loader2, Search } from "lucide-react";
 import { useMemo, useState, useTransition } from "react";
 import { cn } from "@/lib/utils";
 import { finishOnboardingAction } from "./actions";
+import { AboutYouFields } from "@/components/account/about-you-fields";
+import type { Demographics } from "@/lib/demographics";
 
 type Course = { id: string; label: string };
 
-const STEPS = ["Vestibular", "Curso", "Meta"] as const;
+const STEPS = ["Vestibular", "Curso", "Sobre você", "Meta"] as const;
 const META = [
   { n: 10, t: "Leve", d: "10 questões por dia" },
   { n: 20, t: "Firme", d: "20 questões por dia" },
@@ -25,6 +27,7 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
   const [picked, setPicked] = useState<string[]>([]);
   const [q, setQ] = useState("");
   const [meta, setMeta] = useState(20);
+  const [about, setAbout] = useState<Demographics>({});
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const filtered = useMemo(() => {
@@ -37,9 +40,9 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
   const next = () => {
     setError(null);
     if (step === 0 && boards.length === 0) return setError("Escolha ao menos um vestibular.");
-    if (step < 2) return setStep(step + 1);
+    if (step < 3) return setStep(step + 1);
     start(async () => {
-      const r = await finishOnboardingAction({ boards, courses: picked, questionsDay: meta });
+      const r = await finishOnboardingAction({ boards, courses: picked, questionsDay: meta, about });
       if (r && !r.ok) setError(r.error);
     });
   };
@@ -92,6 +95,17 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
       )}
 
       {step === 2 && (
+        <section className="flex flex-col gap-3" aria-labelledby="ts">
+          <h1 id="ts" className="font-brand text-3xl font-bold text-tinta">Conta um pouco sobre você?</h1>
+          <p className="text-tinta/70">
+            Tudo opcional. Ninguém mais vê: usamos só em números gerais para entender quem estuda com a gente e melhorar o app.
+            Dá para mudar ou apagar no Perfil.
+          </p>
+          <AboutYouFields value={about} onChange={setAbout} tone="brand" />
+        </section>
+      )}
+
+      {step === 3 && (
         <section className="flex flex-col gap-3" aria-labelledby="t2">
           <h1 id="t2" className="font-brand text-3xl font-bold text-tinta">Qual o seu ritmo?</h1>
           <p className="text-tinta/70">Sua meta diária. Dá para mudar quando quiser no Desempenho.</p>
@@ -115,7 +129,7 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
         )}
         <button type="button" onClick={next} disabled={pending} className="ml-auto inline-flex min-h-13 items-center gap-2 rounded-2xl bg-cobalto px-8 font-brand text-xl font-bold text-white shadow-[0_4px_0_var(--color-cobalto-escuro)] active:translate-y-0.5 disabled:opacity-70">
           {pending && <Loader2 className="animate-spin" aria-hidden />}
-          {step < 2 ? (step === 1 && picked.length === 0 ? "Pular" : "Continuar") : "Começar a estudar"}
+          {step < 3 ? ((step === 1 && picked.length === 0) || (step === 2 && !Object.values(about).some(Boolean)) ? "Pular" : "Continuar") : "Começar a estudar"}
         </button>
       </div>
     </div>

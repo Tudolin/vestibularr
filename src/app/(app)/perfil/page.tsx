@@ -10,6 +10,8 @@ import { LogoutButton } from "@/components/logout-button";
 import { InstallAppButton, ReadingFontControl } from "@/components/reading-prefs";
 import { AccountForms } from "@/components/account/account-forms";
 import { NotificationSettings } from "@/components/account/notification-settings";
+import { AboutYouCard } from "@/components/account/about-you-card";
+import type { Demographics } from "@/lib/demographics";
 import { OfflineLists } from "@/components/offline/offline-banner";
 import { OfflinePrep } from "@/components/offline/offline-prep";
 import { readNotifyPrefs } from "@/lib/notifications";
@@ -30,7 +32,11 @@ export const metadata: Metadata = { title: "Perfil" };
 
 export default async function PerfilPage() {
   const user = await requireUser();
-  const [{ data: mp }, storeApp] = await Promise.all([(await createClient()).rpc("my_plan"), isStoreApp()]);
+  const supabase = await createClient();
+  const [{ data: mp }, storeApp, { data: demo }] = await Promise.all([
+    supabase.rpc("my_plan"), isStoreApp(),
+    supabase.from("profile_demographics").select("age_range, gender, school_type, school_year, state, city, referral").eq("user_id", user.id).maybeSingle(),
+  ]);
   const my = mp as MyPlan | null;
   const plan = PLANS.find((p) => p.code === my?.plan) ?? PLANS[0];
   const sub = my?.subscription;
@@ -75,6 +81,12 @@ export default async function PerfilPage() {
         <CardHeader><CardTitle>Notificações</CardTitle></CardHeader>
         <CardContent><NotificationSettings initial={readNotifyPrefs(user.preferences.notifications)} /></CardContent>
       </Card>
+      {user.role === "student" && (
+        <Card id="sobre">
+          <CardHeader><CardTitle>Sobre você <span className="text-sm font-normal text-muted-foreground">(opcional)</span></CardTitle></CardHeader>
+          <CardContent><AboutYouCard initial={(demo ?? {}) as Demographics} /></CardContent>
+        </Card>
+      )}
       <Card id="offline">
         <CardHeader><CardTitle>Estudar sem internet</CardTitle></CardHeader>
         <CardContent className="grid gap-4">

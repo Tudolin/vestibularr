@@ -17,5 +17,6 @@ select
   to_regclass('public.exports') is not null                                                          as "0016_exports",
   exists (select 1 from pg_proc where proname = '_beta_open')                                        as "0017_beta",
   to_regclass('public.daily_challenges') is not null                                                 as "0018_desafio",
+  to_regclass('public.profile_demographics') is not null                                             as "0019_demografia",
   -- dados: questões com TRI (precisa do npm run seed:taxonomia). A triagem exige pelo menos 8 por área.
   (select count(*) from public.questions where irt_b is not null)                                    as "questoes_com_tri";

@@ -11,6 +11,7 @@ export default function PrivacidadePage() {
       <ul>
         <li><b>Cadastro:</b> nome, e-mail e senha (guardada de forma criptografada pelo nosso provedor de autenticação).</li>
         <li><b>Estudo:</b> respostas, simulados, redações e suas versões, metas, tempo de estudo e conquistas.</li>
+        <li><b>“Sobre você” (opcional):</b> faixa de idade, gênero, tipo de escola, ano escolar, estado/cidade e como conheceu o app. Responder é opcional, toda pergunta aceita “prefiro não dizer” e você pode mudar ou apagar em Perfil → Sobre você.</li>
         <li><b>Uso e segurança:</b> registros de acesso (data, tipo de aparelho e navegador) e dados técnicos para prevenir fraude e abuso.</li>
         <li><b>Pagamento:</b> quando houver assinatura, os dados do cartão ou Pix ficam com o processador de pagamentos; nós recebemos apenas o status da assinatura.</li>
       </ul>
@@ -18,6 +19,7 @@ export default function PrivacidadePage() {
       <ul>
         <li>Prestar o serviço: salvar seu progresso, corrigir provas, gerar estatísticas e recomendações (execução de contrato).</li>
         <li>Correção por IA: o texto da redação e das respostas é enviado ao provedor de IA apenas para gerar a correção, sem seu nome ou e-mail.</li>
+        <li>“Sobre você”: só em estatísticas agregadas para entender o público e melhorar o app (por exemplo, quantos alunos vêm de escola pública). Com o seu consentimento, que pode ser retirado apagando as respostas. Nunca aparece para outros alunos e não é usado para anúncios.</li>
         <li>Segurança, prevenção a fraudes e cumprimento de obrigações legais (legítimo interesse e obrigação legal).</li>
         <li>Comunicações sobre a conta e, se você permitir, novidades do produto.</li>
       </ul>

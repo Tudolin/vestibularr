@@ -67,7 +67,7 @@ export function SignUpForm() {
         {pending && <Loader2 className="animate-spin" aria-hidden />}
         Criar conta grátis
       </button>
-      <p className="text-center text-sm text-tinta/70">7 dias de Pro grátis, sem cartão. Depois, continua no Grátis se não assinar.</p>
+      <p className="text-center text-sm text-tinta/70">Grátis, sem cartão. Durante o beta, todos os recursos estão liberados.</p>
     </form>
   );
 }

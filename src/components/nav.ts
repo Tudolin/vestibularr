@@ -1,4 +1,4 @@
-import { Compass, Ship, Lightbulb, Search, Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
+import { Compass, Ship, Lightbulb, Search, Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon, PieChart } from "lucide-react";
 
 export type NavItem = { href: string; label: string; icon: LucideIcon; exact?: boolean };
 
@@ -25,6 +25,7 @@ export const ADMIN_NAV: NavItem[] = [
   { href: "/admin", label: "Visão geral", icon: LayoutDashboard, exact: true },
   { href: "/admin/alunos", label: "Alunos", icon: Users },
   { href: "/admin/acessos", label: "Acessos", icon: Activity },
+  { href: "/admin/publico", label: "Público", icon: PieChart },
   { href: "/admin/questoes", label: "Questões", icon: Database },
   { href: "/admin/importar", label: "Importar", icon: FileUp },
   { href: "/admin/provas", label: "Provas", icon: FileText },

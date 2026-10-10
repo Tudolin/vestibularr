@@ -98,3 +98,17 @@ describe("beta: tudo liberado enquanto não há pagamento", () => {
     expect(await plan()).toMatchObject({ plan: "free", beta: false });
   });
 });
+
+describe("sobre você (dados demográficos opcionais)", () => {
+  it("o aluno grava e lê só os seus; o admin vê totais, com grupos pequenos escondidos", async () => {
+    const a = await createUser(c, "demo-a@x.com"), b = await createUser(c, "demo-b@x.com"), adm = await createUser(c, "demo-adm@x.com", "admin");
+    await callAs(c, a, "insert into profile_demographics (user_id, gender, school_type, state) values ($1, 'feminino', 'publica', 'PR')", [a]);
+    await expect(callAs(c, a, "insert into profile_demographics (user_id, gender) values ($1, 'masculino')", [b])).rejects.toThrow();
+    await expect(callAs(c, a, "update profile_demographics set gender = 'x' where user_id = $1", [a])).rejects.toThrow(); // valor fora da lista
+    expect(await asUser(c, b, async () => (await c.query("select * from profile_demographics")).rows)).toEqual([]);
+    await expect(callAs(c, a, "select public.demographics_summary()")).rejects.toThrow(/permission denied/);
+    const [{ s }] = await callAs<{ s: any }[]>(c, adm, "select public.demographics_summary() s");
+    expect(s.answered).toBe(1);
+    expect(s.school_type).toEqual(expect.arrayContaining([{ value: "publica", n: null }])); // só 1 pessoa: escondido
+  });
+});

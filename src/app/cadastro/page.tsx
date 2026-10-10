@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Logo } from "@/components/marketing/site-chrome";
 import { SignUpForm } from "./signup-form";
 
-export const metadata: Metadata = { title: "Criar conta grátis", description: "Crie sua conta no Vestibularr e ganhe 7 dias de Pro grátis." };
+export const metadata: Metadata = { title: "Criar conta grátis", description: "Crie sua conta grátis no Vestibularr: questões oficiais com resolução, simulados, redação com IA e desafio diário." };
 
 export default function CadastroPage() {
   return (
