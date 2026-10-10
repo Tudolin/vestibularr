@@ -19,9 +19,9 @@ export type NotifyKind = "lembrete" | "social" | "liga" | "teste";
 export type PushPayload = { title: string; body: string; url: string; tag?: string };
 
 /** Lembrete do dia: tom divertido, sem culpa; muda com a sequência. */
-export function reminderText(firstName: string, streak: number): PushPayload {
+export function reminderText(firstName: string, streak: number, shields = 0): PushPayload {
   const n = firstName || "pirata";
-  if (streak >= 2) return { title: `🔥 ${streak} dias seguidos!`, body: `${n}, não deixa a sequência afundar: 10 minutinhos hoje já contam.`, url: "/inicio", tag: "lembrete" };
-  if (streak === 1) return { title: "⚓ O convés tá te esperando", body: `${n}, estudou ontem? Bora fazer de novo hoje e começar uma sequência.`, url: "/inicio", tag: "lembrete" };
-  return { title: "📚 Bora estudar um pouco?", body: `${n}, umas questões hoje e o Capitão fica orgulhoso. Leva 10 minutos.`, url: "/estudar", tag: "lembrete" };
+  if (streak >= 2) return { title: `🔥 ${streak} dias seguidos!`, body: `${n}, o desafio do dia leva 10 minutos e mantém a sequência${shields ? ` (você tem ${shields} escudo${shields > 1 ? "s" : ""} 🛡️, mas melhor não gastar)` : ""}.`, url: "/inicio", tag: "lembrete" };
+  if (streak === 1) return { title: "⚓ O convés tá te esperando", body: `${n}, faz o desafio do dia de hoje e começa uma sequência. São só 7 questões.`, url: "/inicio", tag: "lembrete" };
+  return { title: "⚔️ Desafio do dia liberado", body: `${n}, 7 questões escolhidas para você, com um chefão no final. Leva 10 minutos.`, url: "/inicio", tag: "lembrete" };
 }

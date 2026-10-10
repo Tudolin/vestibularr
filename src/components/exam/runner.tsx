@@ -497,6 +497,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                 {q.subject && <Badge>{q.subject}</Badge>}
                 {q.year && <Badge>{q.year}{q.number ? ` · Q${q.number}` : ""}</Badge>}
                 {q.language && <Badge tone="primary">{q.language === "ingles" ? "Inglês" : "Espanhol"}</Badge>}
+                {q.section === "chefao" && <Badge tone="danger">⚔️ Chefão · XP em dobro</Badge>}
                 <div className="ml-auto flex gap-1">
                   <Button variant={highlighter ? "soft" : "ghost"} size="icon" aria-pressed={highlighter} aria-label="Marca-texto (H)" onClick={() => setHighlighter((h) => !h)}><Highlighter /></Button>
                   <Button variant={a.flagged ? "soft" : "ghost"} size="icon" aria-pressed={a.flagged} aria-label="Marcar para revisão (M)" onClick={toggleFlag} disabled={locked}><Flag /></Button>

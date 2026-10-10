@@ -27,7 +27,8 @@ export async function GET(req: NextRequest) {
     // registra antes de enviar: se duas execuções se cruzarem, só uma manda
     const { error } = await admin.from("notification_log").insert({ user_id: u.user_id, kind: "lembrete" });
     if (error) continue;
-    const r = await notifyUser(u.user_id, "lembrete", reminderText(u.first_name, u.streak));
+    const { data: sh } = await admin.from("streak_shields").select("available").eq("user_id", u.user_id).maybeSingle();
+    const r = await notifyUser(u.user_id, "lembrete", reminderText(u.first_name, u.streak, sh?.available ?? 0));
     if (r.push) reminders++;
   }
 

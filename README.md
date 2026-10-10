@@ -105,6 +105,14 @@ Aba **Tripulação** na barra inferior (o Perfil foi para o topo, no celular):
 - **Beta (migration `0017`)**: enquanto não há pagamento, todos os alunos usam o plano Pro (a cota diária de IA continua).
   O admin desliga em **Admin → Alunos → Beta: tudo liberado** quando a assinatura entrar.
 
+## Desafio do dia, sequência e escudos (migration `0018`)
+
+- Cartão no **Início**: 7 questões por dia (as mesmas o dia todo; vira à meia-noite de Brasília), escolhidas no servidor:
+  3 do assunto mais fraco, 2 do caderno de erros, 1 de um assunto forte e o **chefão** (a mais difícil, XP em dobro).
+  Completar dá +30 XP, comemoração no resultado e um post no mural da Tripulação.
+- **Sequência** = dias seguidos com estudo (XP). **Escudo**: protege 1 dia perdido; ganha 1 a cada 7 dias seguidos (máx. 2);
+  é gasto sozinho quando o aluno volta. Não se compra escudo. O lembrete diário (push) chama para o desafio.
+
 ## Estudar sem internet
 
 - **Perfil → Estudar sem internet**: guarda no aparelho as telas principais, simulados em andamento, redações (para

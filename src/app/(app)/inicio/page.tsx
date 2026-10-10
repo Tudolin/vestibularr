@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { ClipboardList, Compass, Flame, Play, RotateCcw, Target } from "lucide-react";
+import { ClipboardList, Compass, Play, RotateCcw, Target } from "lucide-react";
 import type { Metadata } from "next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -11,6 +11,8 @@ import { dueErrorsCount, listOpenAttempts } from "@/lib/attempts/queries";
 import { getStats } from "@/lib/performance";
 import { listTriagens } from "@/lib/triagem";
 import { Avatar } from "@/components/social/avatar";
+import { DailyCard } from "@/components/daily/daily-card";
+import type { DailyStatus } from "@/lib/daily";
 import { TIERS, type Overview } from "@/lib/social";
 import { createClient } from "@/lib/supabase/server";
 
@@ -21,7 +23,7 @@ export default async function InicioPage() {
   // conta nova (cadastro público) passa primeiro pelo onboarding
   if (user.role === "student" && user.preferences.onboarded !== true) redirect("/onboarding");
   const supabase = await createClient();
-  const [open, errors, stats, triagens, { data: ov }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview")]);
+  const [open, errors, stats, triagens, { data: ov }, { data: daily }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview"), supabase.rpc("daily_status")]);
   const social = ov as Overview | null;
   const nudge = social?.boosts.find((b) => b.kind === "empurrao"); // a RPC já traz só os dos últimos 3 dias
   const leaguePos = social?.league ? social.league.members.findIndex((m) => m.id === social.me.id) + 1 : 0;
@@ -37,6 +39,8 @@ export default async function InicioPage() {
         <h1 className="text-2xl font-extrabold md:text-3xl">Olá, {first}! 👋</h1>
         <p className="text-muted-foreground">Vamos estudar um pouco hoje?</p>
       </header>
+
+      {daily && <DailyCard s={daily as DailyStatus} />}
 
       {!triagemDone && (
         <Card className="flex flex-col gap-4 border-primary bg-primary-soft p-5 text-primary-soft-foreground sm:flex-row sm:items-center">
@@ -107,17 +111,6 @@ export default async function InicioPage() {
         </HomeCard>
       </div>
 
-      <Card className="flex items-center gap-4 p-5">
-        <span className="flex size-12 items-center justify-center rounded-full bg-warning-soft text-warning-soft-foreground">
-          <Flame aria-hidden />
-        </span>
-        <div>
-          <p className="font-bold">Sequência: {stats.streak.current} {stats.streak.current === 1 ? "dia" : "dias"}</p>
-          <p className="text-sm text-muted-foreground">
-            {stats.streak.studied_today ? `Você já estudou hoje. Melhor sequência: ${stats.streak.best}.` : stats.streak.current > 0 ? "Estude hoje para não perder a sequência!" : "Estude hoje para começar sua sequência."}
-          </p>
-        </div>
-      </Card>
     </div>
   );
 }

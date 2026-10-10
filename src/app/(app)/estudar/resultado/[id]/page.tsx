@@ -18,6 +18,8 @@ import { createClient } from "@/lib/supabase/server";
 import { aiConfigured } from "@/lib/ai/gemini";
 import { DiscursiveAi } from "./discursive-ai";
 import { RetryButton } from "./retry-button";
+import { DailyDone } from "@/components/daily/daily-done";
+import type { DailyStatus } from "@/lib/daily";
 
 export const metadata: Metadata = { title: "Resultado" };
 // A correção das discursivas por IA é disparada desta página (roda depois da resposta).
@@ -96,6 +98,9 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
     return true;
   });
   const wrongOrBlank = t.wrong + t.blank;
+  // desafio do dia de hoje: mostra a sequência e os escudos
+  const daily = state.attempt.config?.daily ? ((await supabase.rpc("daily_status")).data as DailyStatus | null) : null;
+  const dailyToday = daily && daily.attempt_id === id && daily.completed ? daily : null;
 
   return (
     <div className="flex flex-col gap-6">
@@ -104,6 +109,8 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
         <h1 className="text-2xl font-extrabold md:text-3xl">{state.attempt.title}</h1>
         <p className="text-muted-foreground">{state.attempt.status === "expired" ? "Encerrada por tempo." : "Finalizada."} Tempo total respondendo: {formatClock(totalTime)}.</p>
       </header>
+
+      {dailyToday && <DailyDone streak={dailyToday.streak} shields={dailyToday.shields} correct={dailyToday.correct ?? t.correct} total={dailyToday.total} />}
 
       <div className="grid gap-4 sm:grid-cols-3">
         <Card className="p-5"><p className="text-sm text-muted-foreground">Acertos</p><p className="text-3xl font-extrabold">{t.correct}<span className="text-lg text-muted-foreground">/{t.total}</span></p><p className="text-sm font-semibold text-primary">{t.pct}%</p></Card>

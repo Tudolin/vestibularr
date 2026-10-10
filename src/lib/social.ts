@@ -4,7 +4,7 @@ export type Card = { id: string; username: string | null; avatar: { emoji: strin
 export type SearchCard = Card & { relation: "none" | "pending" | "accepted"; requested_by_me: boolean | null };
 export type Boost = { id: number; kind: "vento" | "empurrao"; message: string | null; at: string; expires_at: string | null; from: Card };
 export type FeedEvent = {
-  id: number; kind: "simulado" | "triagem" | "redacao" | "nivel" | "sequencia" | "liga" | "tripulacao";
+  id: number; kind: "simulado" | "triagem" | "redacao" | "nivel" | "sequencia" | "liga" | "tripulacao" | "desafio" | "escudo";
   payload: Record<string, unknown>; at: string; user: Card; reactions: Record<string, number>; mine: string[];
 };
 export type CrewSummary = { id: string; name: string; emoji: string; role: "captain" | "member"; members: number; week_xp: number };
@@ -67,6 +67,8 @@ export function describeEvent(e: FeedEvent): string {
     case "sequencia": return `chegou a ${p.days} dias seguidos 🔥`;
     case "liga": return `subiu para a divisão ${TIERS[Number(p.tier)]?.name ?? ""} ${TIERS[Number(p.tier)]?.emoji ?? ""}`;
     case "tripulacao": return `entrou na tripulação ${p.emoji ?? ""} ${p.crew}`;
+    case "desafio": return `completou o desafio do dia: ${p.correct}/${p.total} acertos${Number(p.streak) > 1 ? ` · 🔥 ${p.streak} dias` : ""}`;
+    case "escudo": return `usou ${Number(p.days) > 1 ? `${p.days} escudos` : "um escudo"} 🛡️ e manteve a sequência`;
   }
 }
 

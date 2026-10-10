@@ -11,6 +11,7 @@ export async function listOpenAttempts(limit = 10): Promise<OpenAttempt[]> {
     .select("id, title, mode, status, deadline_at, started_at, exam_id, attempt_questions(count), attempt_answers(count)")
     .in("status", ["in_progress", "paused"])
     .neq("mode", "triagem") // a triagem tem tela própria (/triagem)
+    .is("config->daily", null) // o desafio do dia aparece no cartão próprio (Início)
     .order("updated_at", { ascending: false })
     .limit(limit);
   return (data ?? []).map((a) => ({
