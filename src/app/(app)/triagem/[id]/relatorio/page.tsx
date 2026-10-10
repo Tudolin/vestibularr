@@ -24,6 +24,7 @@ export default async function TriagemReportPage({ params }: { params: Promise<{ 
   const report = await triagemReport(id);
   if (!report) notFound();
   if (report.attempt.status === "in_progress") redirect(`/triagem/${id}`);
+  if ((report.attempt.score?.total ?? 0) === 0) redirect("/triagem");
 
   const supabase = await createClient();
   const [detail, { data: profile }] = await Promise.all([

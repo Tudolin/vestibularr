@@ -96,12 +96,36 @@ describe("triagem adaptativa", () => {
     expect(score).toMatchObject({ total: 2, correct: 1, blank: 1 });
   });
 
+  it("encerrar sem responder nada descarta a triagem e devolve a cota", async () => {
+    const id = await one(caio, "select public.triagem_start() r");
+    const used = async () => (await c.query("select count(*)::int n from usage_events where user_id = $1 and feature = 'triagem'", [caio])).rows[0].n;
+    expect(await used()).toBe(1);
+    expect(await one(caio, "select public.triagem_finish($1) r", [id])).toMatchObject({ status: "discarded" });
+    expect(await used()).toBe(0);
+    expect((await c.query("select count(*)::int n from exam_attempts where id = $1", [id])).rows[0].n).toBe(0);
+  });
+
   it("plano grátis: 1 triagem por mês", async () => {
     const id = await one(caio, "select public.triagem_start() r");
+    const s = await state(caio, id);
+    await one(caio, "select public.triagem_answer($1, $2, 'A') r", [id, s.question_id]);
     await one(caio, "select public.triagem_finish($1) r", [id]);
     await expect(callAs(c, caio, "select public.triagem_start()")).rejects.toThrow(/plan_limit:triagem/);
     const rep = await one(caio, "select public.entitlement('triagem_report') r");
     expect(rep.quota).toBe(0);
+  });
+
+  it("sem questões calibradas (TRI) no banco: recusa antes de criar e de cobrar", async () => {
+    const dani = await createUser(c, "dani@x.com");
+    await c.query("alter table questions add column if not exists irt_b_bak real; update questions set irt_b_bak = irt_b, irt_b = null");
+    try {
+      expect(await one(dani, "select public._triagem_available() r")).toBe(false);
+      await expect(callAs(c, dani, "select public.triagem_start()")).rejects.toThrow(/triagem_unavailable/);
+      const n = (await c.query("select (select count(*) from exam_attempts where user_id = $1)::int a, (select count(*) from usage_events where user_id = $1)::int u", [dani])).rows[0];
+      expect(n).toEqual({ a: 0, u: 0 });
+    } finally {
+      await c.query("update questions set irt_b = irt_b_bak; alter table questions drop column irt_b_bak");
+    }
   });
 
   it("só o dono vê o estado", async () => {

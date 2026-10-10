@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
 import { getEntitlement, listTriagens } from "@/lib/triagem";
 import { skipTriagemAction, startTriagemAction } from "./actions";
 
@@ -14,10 +15,12 @@ const fmt = (iso: string) => new Date(iso).toLocaleDateString("pt-BR", { day: "2
 export default async function TriagemPage({ searchParams }: { searchParams: Promise<{ erro?: string }> }) {
   const user = await requireUser();
   const { erro } = await searchParams;
-  const [history, ent] = await Promise.all([listTriagens(), getEntitlement("triagem")]);
+  const supabase = await createClient();
+  const [history, ent, { data: available }] = await Promise.all([listTriagens(), getEntitlement("triagem"), supabase.rpc("_triagem_available")]);
   const open = history.find((h) => h.status === "in_progress");
   const done = history.filter((h) => h.status === "finished");
-  const canStart = !!open || !ent || ent.unlimited || (ent.remaining ?? 0) > 0;
+  const ready = available !== false;
+  const canStart = !!open || (ready && (!ent || ent.unlimited || (ent.remaining ?? 0) > 0));
   const first = done.length === 0;
 
   return (
@@ -33,6 +36,12 @@ export default async function TriagemPage({ searchParams }: { searchParams: Prom
       {erro === "limite" && (
         <p role="alert" className="rounded-control bg-warning-soft p-3 text-sm text-warning-soft-foreground">
           Você já usou a triagem deste mês no seu plano. A próxima libera {ent?.resets_at ? `em ${fmt(ent.resets_at)}` : "no mês que vem"}.
+        </p>
+      )}
+      {(erro === "indisponivel" || (!ready && !open)) && (
+        <p role="alert" className="rounded-control bg-warning-soft p-3 text-sm text-warning-soft-foreground">
+          A triagem ainda não está disponível: o banco de questões precisa dos dados da TRI.
+          {user.role === "admin" ? " Rode npm run seed:taxonomia (README → Banco de questões)." : " Avise o administrador."}
         </p>
       )}
       {erro === "falha" && <p role="alert" className="rounded-control bg-danger-soft p-3 text-sm text-danger-soft-foreground">Não foi possível começar agora. Tente de novo.</p>}
@@ -51,7 +60,7 @@ export default async function TriagemPage({ searchParams }: { searchParams: Prom
             <Button type="submit" size="lg" className="w-full sm:w-auto">{open ? "Continuar a triagem" : first ? "Começar a triagem" : "Refazer a triagem"}</Button>
           </form>
         ) : (
-          <Button size="lg" disabled>Triagem do mês já usada</Button>
+          <Button size="lg" disabled>{ready ? "Triagem do mês já usada" : "Triagem indisponível"}</Button>
         )}
         {first && user.role === "student" && (
           <form action={skipTriagemAction}>

@@ -27,7 +27,9 @@ export async function listTriagens() {
     .eq("mode", "triagem")
     .order("started_at", { ascending: false })
     .limit(12);
-  return (data ?? []) as { id: string; status: string; started_at: string; finished_at: string | null; score: { total: number; correct: number } | null }[];
+  type Row = { id: string; status: string; started_at: string; finished_at: string | null; score: { total: number; correct: number } | null };
+  // encerradas sem nenhuma questão não contam (não deveriam existir; ver migration 0013)
+  return ((data ?? []) as Row[]).filter((t) => t.status !== "finished" || (t.score?.total ?? 0) > 0);
 }
 
 type QRow = {

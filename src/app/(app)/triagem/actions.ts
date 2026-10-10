@@ -13,7 +13,7 @@ const UUID = /^[0-9a-f-]{36}$/i;
 export async function startTriagemAction() {
   await requireUser();
   const { data, error } = await (await createClient()).rpc("triagem_start");
-  if (error) redirect(error.message.includes("plan_limit:triagem") ? "/triagem?erro=limite" : "/triagem?erro=falha");
+  if (error) redirect(error.message.includes("plan_limit:triagem") ? "/triagem?erro=limite" : error.message.includes("triagem_unavailable") ? "/triagem?erro=indisponivel" : "/triagem?erro=falha");
   redirect(`/triagem/${data}`);
 }
 
@@ -43,8 +43,9 @@ export async function answerTriagemAction(id: string, questionId: string, choice
 export async function finishTriagemAction(id: string) {
   await requireUser();
   if (!UUID.test(id)) return;
-  await (await createClient()).rpc("triagem_finish", { p_attempt: id });
-  redirect(`/triagem/${id}/relatorio`);
+  const { data } = await (await createClient()).rpc("triagem_finish", { p_attempt: id });
+  // sem nenhuma resposta a triagem é descartada (e a cota devolvida)
+  redirect((data as { status?: string } | null)?.status === "discarded" ? "/triagem" : `/triagem/${id}/relatorio`);
 }
 
 /** Treino com os assuntos de "Onde focar" (15 questões, gabarito na hora). */

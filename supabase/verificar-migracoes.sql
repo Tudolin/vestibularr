@@ -10,4 +10,7 @@ select
   to_regclass('public.invites') is not null                                                          as "0009_invites",
   to_regclass('public.plan_limits') is not null                                                      as "0010_plans",
   exists (select 1 from pg_proc where proname = 'answer_facts')                                      as "0011_taxonomy",
-  exists (select 1 from pg_proc where proname = 'triagem_start')                                     as "0012_triagem";
+  exists (select 1 from pg_proc where proname = 'triagem_start')                                     as "0012_triagem",
+  exists (select 1 from pg_proc where proname = '_triagem_available')                                as "0013_triagem_vazia",
+  -- dados: questões com TRI (precisa do npm run seed:taxonomia). A triagem exige pelo menos 8 por área.
+  (select count(*) from public.questions where irt_b is not null)                                    as "questoes_com_tri";
