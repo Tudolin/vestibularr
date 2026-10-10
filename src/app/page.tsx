@@ -84,7 +84,7 @@ export default function Landing() {
   return (
     <>
       <SiteHeader />
-      <main id="conteudo" className="overflow-x-clip bg-creme text-tinta">
+      <main id="conteudo" className="marca-clara overflow-x-clip bg-creme text-tinta">
         {/* ------------------------------------------------ hero */}
         <section className="relative">
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 md:grid-cols-[1.15fr_1fr] md:pt-16">

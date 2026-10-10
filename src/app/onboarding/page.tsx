@@ -17,7 +17,7 @@ export default async function OnboardingPage() {
     label: [c.name, c.institution, c.campus, c.shift].filter(Boolean).join(" · "),
   }));
   return (
-    <main id="conteudo" className="min-h-dvh bg-creme">
+    <main id="conteudo" className="marca-clara min-h-dvh bg-creme">
       <div className="mx-auto flex max-w-xl flex-col gap-8 px-4 py-8">
         <div className="flex items-center justify-between">
           <Logo />

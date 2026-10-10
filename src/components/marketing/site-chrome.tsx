@@ -14,7 +14,7 @@ export function Logo({ className, light = false }: { className?: string; light?:
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-tinta/5 bg-creme/90 backdrop-blur">
+    <header className="marca-clara sticky top-0 z-40 border-b border-tinta/5 bg-creme/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4">
         <Logo />
         <nav aria-label="Principal" className="flex items-center gap-1 sm:gap-2">
@@ -51,7 +51,7 @@ export function CtaButton({ href, children, size = "md", tone = "primary", class
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-tinta/10 bg-creme">
+    <footer className="marca-clara border-t border-tinta/10 bg-creme">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="flex flex-col gap-3">
           <Logo />

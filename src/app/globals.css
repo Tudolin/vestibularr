@@ -6,6 +6,8 @@
    Design tokens. Valores em hex para a checagem automática de contraste
    (src/lib/contrast.test.ts) — qualquer par texto/fundo novo entra lá.
    ------------------------------------------------------------------ */
+/* .marca-clara: páginas da marca (fundo creme) ficam sempre no tema claro, mesmo com o aparelho no modo escuro */
+.marca-clara,
 :root {
   --background: #f7f7fb;
   --foreground: #14142b;
@@ -133,6 +135,10 @@ html {
   color-scheme: light;
   /* rede de segurança: nada alarga a página na horizontal (clip não quebra o sticky, ao contrário de hidden) */
   overflow-x: clip;
+}
+.marca-clara {
+  color-scheme: light;
+  color: var(--foreground);
 }
 html.dark {
   color-scheme: dark;
