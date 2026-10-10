@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import { Switch } from "@/components/ui/switch";
 import { setOnlySolvedAction } from "./actions";
 
 /** Interruptor: alunos só veem/sorteiam questões com resolução comentada. */
@@ -24,13 +25,7 @@ export function OnlySolvedToggle({ initial, solved, total }: { initial: boolean;
             {solved} de {total} questões ativas têm resolução comentada (ou espelho, nas discursivas). Vale para banco, busca, simulados e treinos.
           </span>
         </span>
-        <button
-          type="button" role="switch" aria-checked={on} disabled={pending} onClick={toggle}
-          className={`relative h-7 w-12 shrink-0 rounded-full transition-colors after:absolute after:-inset-2 after:content-[""] disabled:opacity-60 ${on ? "bg-primary" : "bg-muted"}`}
-        >
-          <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-transform ${on ? "translate-x-6" : "translate-x-1"}`} />
-          <span className="sr-only">{on ? "Ligado" : "Desligado"}</span>
-        </button>
+        <Switch checked={on} onCheckedChange={() => toggle()} disabled={pending} label="Alunos só veem questões com resolução" />
       </label>
       {error && <p role="alert" className="text-sm text-danger">{error}</p>}
     </div>

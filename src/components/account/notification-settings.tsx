@@ -5,8 +5,8 @@ import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import { toast } from "sonner";
 import { removePushSubscriptionAction, saveNotifyPrefsAction, savePushSubscriptionAction, testNotificationAction } from "@/app/(app)/perfil/notify-actions";
 import { Button } from "@/components/ui/button";
+import { Switch } from "@/components/ui/switch";
 import type { NotifyPrefs } from "@/lib/notifications";
-import { cn } from "@/lib/utils";
 
 type Support = "checking" | "ok" | "ios-install" | "unsupported" | "denied" | "no-server";
 
@@ -124,11 +124,7 @@ function Toggle({ label, hint, checked, onChange }: { label: string; hint: strin
   return (
     <label className="flex min-h-12 cursor-pointer items-center justify-between gap-3 rounded-control px-1 py-1">
       <span className="min-w-0"><span className="block text-sm font-semibold">{label}</span><span className="block text-xs text-muted-foreground">{hint}</span></span>
-      <button type="button" role="switch" aria-checked={checked} onClick={() => onChange(!checked)}
-        className={cn("relative h-7 w-12 shrink-0 rounded-full transition-colors after:absolute after:-inset-2 after:content-['']", checked ? "bg-primary" : "bg-muted-foreground/40")}>
-        <span className={cn("absolute top-1 size-5 rounded-full bg-white shadow transition-transform", checked ? "translate-x-6" : "translate-x-1")} />
-        <span className="sr-only">{label}</span>
-      </button>
+      <Switch checked={checked} onCheckedChange={onChange} label={label} />
     </label>
   );
 }

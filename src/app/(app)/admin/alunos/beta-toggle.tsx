@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import { Switch } from "@/components/ui/switch";
 import { setBetaAction } from "./actions";
 
 /** Interruptor do beta: todos os alunos com acesso Pro enquanto não há pagamento. */
@@ -22,11 +23,7 @@ export function BetaToggle({ initial }: { initial: boolean }) {
             Enquanto não há pagamento, todos os alunos usam o plano Pro (a cota diária de IA continua valendo). Desligue quando a assinatura entrar.
           </span>
         </span>
-        <button type="button" role="switch" aria-checked={on} disabled={pending} onClick={toggle}
-          className={`relative h-7 w-12 shrink-0 rounded-full transition-colors after:absolute after:-inset-2 after:content-[""] disabled:opacity-60 ${on ? "bg-primary" : "bg-muted"}`}>
-          <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-transform ${on ? "translate-x-6" : "translate-x-1"}`} />
-          <span className="sr-only">{on ? "Ligado" : "Desligado"}</span>
-        </button>
+        <Switch checked={on} onCheckedChange={() => toggle()} disabled={pending} label="Beta: tudo liberado" />
       </label>
       {error && <p role="alert" className="text-sm text-danger">{error}</p>}
     </div>
