@@ -25,6 +25,7 @@ import type { AnswersMap, AttemptMode, AttemptStatus, FieldName, Label, LocalAns
 import { createClient } from "@/lib/supabase/client";
 import { useLocalPref } from "@/lib/use-local-pref";
 import { cn } from "@/lib/utils";
+import { ARR, ERR, pick } from "@/lib/pirata";
 
 export type RunnerQuestion = {
   id: string; number: number | null; year: number | null; area: string | null; subject: string | null;
@@ -570,12 +571,12 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                     {fb === "loading" ? (
                       <p className="flex items-center gap-2 text-sm text-muted-foreground"><Loader2 className="size-4 animate-spin" aria-hidden /> Conferindo…</p>
                     ) : fb === "offline" ? (
-                      <p className="rounded-control bg-warning-soft p-3 text-sm text-warning-soft-foreground">Sem conexão: sua resposta está salva e o gabarito aparece quando a internet voltar.</p>
+                      <p className="rounded-control bg-warning-soft p-3 text-sm text-warning-soft-foreground">Err… sem internet a bordo: sua resposta está salva e o gabarito aparece quando a conexão voltar.</p>
                     ) : (
                       <Card className={cn("p-4", q.kind === "objective" && (fb.correct === a.choice ? "border-success" : "border-danger"))}>
                         {q.kind === "objective" && (
                           <p className={cn("text-lg font-extrabold", fb.correct === a.choice ? "text-success" : "text-danger")}>
-                            {fb.correct === a.choice ? "Acertou! 🎉" : `Resposta certa: ${fb.correct ?? "—"}`}
+                            {fb.correct === a.choice ? pick(ARR, index) : `${pick(ERR, index)} A certa é ${fb.correct ?? "—"}.`}
                           </p>
                         )}
                         {(fb.explanation || fb.mirror) ? (

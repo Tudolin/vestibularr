@@ -115,3 +115,24 @@ describe("sequência e escudos", () => {
     expect(await shields(u)).toBe(2);
   });
 });
+
+describe("mapa do tesouro da semana", () => {
+  it("o 5º desafio da semana abre o baú uma vez: +100 XP e +1 escudo", async () => {
+    const u = await createUser(c, "mapa@x.com");
+    const w = (await c.query("select public._week_day0() w")).rows[0].w as Date;
+    const att = (await c.query("insert into exam_attempts (user_id, mode, title, config) values ($1, 'treino', 'x', '{}') returning id", [u])).rows[0].id;
+    // 5 desafios na semana (dias 0–4 da semana; não importa se o dia é futuro neste teste)
+    for (let i = 0; i < 5; i++) {
+      await c.query("insert into daily_challenges (user_id, day, attempt_id) values ($1, $2::date + $3::int, $4)", [u, w, i, att]);
+    }
+    const map = async () => (await asUser(c, u, async () => (await c.query("select public.treasure_week() r")).rows[0].r));
+    for (let i = 0; i < 4; i++) await c.query("update daily_challenges set completed_at = now() where user_id = $1 and day = $2::date + $3::int", [u, w, i]);
+    expect(await map()).toMatchObject({ goal: 5, done: 4, opened: false });
+    expect((await map()).days).toHaveLength(7);
+    await c.query("update daily_challenges set completed_at = now() where user_id = $1 and day = $2::date + 4", [u, w]);
+    expect(await map()).toMatchObject({ done: 5, opened: true });
+    expect((await c.query("select xp from xp_events where user_id = $1 and ref like 'bau:%'", [u])).rows).toEqual([{ xp: 100 }]);
+    expect((await c.query("select available from streak_shields where user_id = $1", [u])).rows[0].available).toBe(1);
+    expect((await c.query("select count(*)::int n from activity_events where user_id = $1 and kind = 'bau'", [u])).rows[0].n).toBe(1);
+  });
+});

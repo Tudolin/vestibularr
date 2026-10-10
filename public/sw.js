@@ -4,7 +4,7 @@
  * - Dados (Supabase, server actions, RSC): sempre rede — a fila offline do app cuida das respostas.
  * - Ao sair da conta, o app pede para apagar as páginas em cache (mensagem "clear-pages").
  */
-const VERSION = "v3";
+const VERSION = "v4";
 const STATIC = `vr-static-${VERSION}`;
 const PAGES = `vr-pages-${VERSION}`;
 const OFFLINE = "/offline.html";
@@ -12,7 +12,7 @@ const CACHEABLE_PAGE = /^\/(inicio|estudar|prova|redacao|desempenho|dicas|guia|p
 const MAX_PAGES = 80;
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(STATIC).then((c) => c.addAll([OFFLINE, "/icons/icon-192.png", "/icons/icon-512.png"])).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(STATIC).then((c) => c.addAll([OFFLINE, "/icons/icon-192.png", "/icons/icon-512.png", "/brand/grafite-rosto.svg"])).then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (event) => {
@@ -72,7 +72,7 @@ self.addEventListener("fetch", (event) => {
   if (url.pathname.startsWith("/api/")) return;
 
   // estáticos versionados
-  if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/icons/")) {
+  if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/icons/") || url.pathname.startsWith("/brand/")) {
     event.respondWith(
       caches.match(req).then((hit) => hit || fetch(req).then((res) => {
         if (res.ok) caches.open(STATIC).then((c) => c.put(req, res.clone()));

@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sem conexão · Vestibularr</title>
-<meta name="theme-color" content="#4f46e5">
+<meta name="theme-color" content="#2f3cff">
 <style>
-  :root { --bg:#f7f7fb; --fg:#14142b; --muted:#55557a; --card:#fff; --primary:#4f46e5; --on-primary:#fff; --border:#dcdcec; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0d0d1a; --fg:#ececf8; --muted:#a9a9c8; --card:#161628; --primary:#8b93ff; --on-primary:#0d0d1a; --border:#2b2b46; } }
+  :root { --bg:#fff7ea; --fg:#14123a; --muted:#57506e; --card:#fff; --primary:#2f3cff; --on-primary:#fff; --border:#ecdfc6; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d0c22; --fg:#f6f1e7; --muted:#b6b0d6; --card:#17153a; --primary:#8f97ff; --on-primary:#0d0c22; --border:#302c5e; } }
   * { box-sizing: border-box; }
   body { margin:0; min-height:100dvh; display:grid; place-items:center; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; padding:16px; }
   main { max-width:26rem; background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; text-align:center; }
@@ -22,10 +22,10 @@
 </head>
 <body>
 <main>
-  <div aria-hidden="true" style="font-size:2.5rem">📶</div>
-  <h1>Você está sem conexão</h1>
+  <img src="/brand/grafite-rosto.svg" alt="" width="88" height="80" style="display:block;margin:0 auto">
+  <h1>Err… sem internet a bordo</h1>
   <p>Simulados e redações que você abriu recentemente continuam funcionando offline. Suas respostas ficam guardadas no aparelho e são enviadas quando a internet voltar.</p>
-  <button onclick="location.reload()">Tentar de novo</button>
+  <button onclick="location.reload()">Tentar de novo ⚓</button>
   <div id="salvas" hidden>
     <h2>Guardado neste aparelho</h2>
     <ul id="lista"></ul>

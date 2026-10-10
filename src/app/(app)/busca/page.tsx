@@ -45,7 +45,7 @@ export default async function BuscaPage({ searchParams }: { searchParams: Promis
         <Button type="submit" aria-label="Buscar"><Search aria-hidden /></Button>
       </form>
       {q.length > 0 && q.length < 2 && <p className="text-sm text-muted-foreground">Digite ao menos 2 letras.</p>}
-      {nothing && <EmptyState icon={<Search aria-hidden />} title="Nada encontrado" description="Tente outra palavra ou um termo mais geral." />}
+      {nothing && <EmptyState icon={<Search aria-hidden />} title="Err… nada encontrado" description="Tente outra palavra ou um termo mais geral." />}
       {questions.length > 0 && (
         <section className="flex flex-col gap-2" aria-labelledby="r-q">
           <h2 id="r-q" className="flex items-center gap-2 font-bold"><BookOpen className="size-4" aria-hidden /> Questões ({totalQ})</h2>

@@ -1,4 +1,3 @@
-import { GraduationCap } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -32,10 +31,9 @@ export default async function ConvitePage({ params }: { params: Promise<{ token:
   return (
     <main id="conteudo" className="mx-auto flex min-h-dvh w-full max-w-sm flex-col justify-center gap-8 px-4 py-10">
       <div className="flex flex-col items-center gap-3 text-center">
-        <span className="flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
-          <GraduationCap className="size-8" aria-hidden />
-        </span>
-        <h1 className="text-3xl font-extrabold">Vestibularr</h1>
+        {/* eslint-disable-next-line @next/next/no-img-element -- SVG estático da marca */}
+        <img src="/brand/grafite-rosto.svg" alt="" width={88} height={80} className="h-20 w-22" />
+        <h1 className="font-brand text-4xl font-bold text-primary">vestibularr</h1>
         {!problem && invite && (
           <p className="text-muted-foreground">
             Você foi convidado{invite.note ? ` (${invite.note})` : ""} para criar sua conta

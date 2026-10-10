@@ -12,6 +12,7 @@ import { getStats } from "@/lib/performance";
 import { listTriagens } from "@/lib/triagem";
 import { Avatar } from "@/components/social/avatar";
 import { DailyCard } from "@/components/daily/daily-card";
+import { TreasureMap, type TreasureWeek } from "@/components/daily/treasure-map";
 import type { DailyStatus } from "@/lib/daily";
 import { TIERS, type Overview } from "@/lib/social";
 import { createClient } from "@/lib/supabase/server";
@@ -23,7 +24,7 @@ export default async function InicioPage() {
   // conta nova (cadastro público) passa primeiro pelo onboarding
   if (user.role === "student" && user.preferences.onboarded !== true) redirect("/onboarding");
   const supabase = await createClient();
-  const [open, errors, stats, triagens, { data: ov }, { data: daily }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview"), supabase.rpc("daily_status")]);
+  const [open, errors, stats, triagens, { data: ov }, { data: daily }, { data: treasure }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview"), supabase.rpc("daily_status"), supabase.rpc("treasure_week")]);
   const social = ov as Overview | null;
   const nudge = social?.boosts.find((b) => b.kind === "empurrao"); // a RPC já traz só os dos últimos 3 dias
   const leaguePos = social?.league ? social.league.members.findIndex((m) => m.id === social.me.id) + 1 : 0;
@@ -36,11 +37,12 @@ export default async function InicioPage() {
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold md:text-3xl">Olá, {first}! 👋</h1>
-        <p className="text-muted-foreground">Vamos estudar um pouco hoje?</p>
+        <h1 className="text-2xl font-extrabold md:text-3xl">Ahoy, {first}! ⚓</h1>
+        <p className="text-muted-foreground">Bora içar as velas e estudar um pouco hoje?</p>
       </header>
 
       {daily && <DailyCard s={daily as DailyStatus} />}
+      {treasure && <TreasureMap w={treasure as TreasureWeek} />}
 
       {!triagemDone && (
         <Card className="flex flex-col gap-4 border-primary bg-primary-soft p-5 text-primary-soft-foreground sm:flex-row sm:items-center">

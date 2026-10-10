@@ -188,7 +188,7 @@ export function StudyDock({ initialTools, initialNotes, context = "app" }: { ini
       <button type="button" onClick={() => toggle(!open)} aria-expanded={open} aria-controls={open ? panelId : undefined}
         aria-label={pomo.running ? `Ferramentas de estudo — ${pomo.label}: ${fmtClock(pomo.remaining)}` : "Ferramentas de estudo"}
         className={cn("flex h-12 items-center gap-2 rounded-full px-4 font-bold shadow-lg transition-colors",
-          pomo.running ? (pomo.phase === "focus" ? "bg-primary text-primary-foreground" : "bg-success text-white dark:text-[#0d0d1a]") : "bg-card text-foreground ring-1 ring-border hover:bg-muted")}>
+          pomo.running ? (pomo.phase === "focus" ? "bg-primary text-primary-foreground" : "bg-success text-white dark:text-[#0d0c22]") : "bg-card text-foreground ring-1 ring-border hover:bg-muted")}>
         <Timer className="size-5" aria-hidden />
         {pomo.running ? <span className="tabular-nums">{fmtClock(pomo.remaining)}</span> : <span className="text-sm">Foco</span>}
         {noise.playing && <Headphones className="size-4" aria-label="som ambiente tocando" />}

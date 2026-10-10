@@ -6,7 +6,7 @@ import { useTransition } from "react";
 import { toast } from "sonner";
 import { startDailyAction } from "@/app/(app)/inicio/actions";
 import { Button } from "@/components/ui/button";
-import { type DailyStatus, WEEKDAY } from "@/lib/daily";
+import type { DailyStatus } from "@/lib/daily";
 import { needsInternet } from "@/lib/use-online";
 import { cn } from "@/lib/utils";
 
@@ -31,10 +31,10 @@ export function DailyCard({ s }: { s: DailyStatus }) {
           <Flame className={cn("size-7", s.studied_today && "animate-[pulse_2s_ease-in-out_infinite] text-orange-500")} aria-hidden />
           <span className="text-sm font-extrabold tabular-nums leading-none">{s.streak}</span>
         </div>
-        <div className="min-w-0 flex-1">
+        <div className="min-w-[12rem] flex-1">
           <h2 id="desafio" className="text-lg font-extrabold">Desafio do dia</h2>
           <p className="text-sm text-muted-foreground">
-            {s.completed ? `Feito! ${s.correct}/${s.total} acertos. Volte amanhã para manter a sequência 🔥`
+            {s.completed ? `Arr! Desafio vencido: ${s.correct}/${s.total} acertos. Volte amanhã para manter a sequência 🔥`
               : s.attempt_id ? `${s.answered} de ${s.total} respondidas${s.focus ? ` · foco: ${s.focus}` : ""}`
               : "7 questões, ~10 minutos, escolhidas para você. A última é o chefão: XP em dobro ⚔️"}
           </p>
@@ -50,7 +50,7 @@ export function DailyCard({ s }: { s: DailyStatus }) {
           <span className="inline-flex items-center gap-1.5 rounded-full bg-success-soft px-4 py-2 text-sm font-bold text-success-soft-foreground"><Check className="size-4" aria-hidden /> +30 XP</span>
         ) : (
           <Button size="lg" disabled={pending} onClick={go} className="w-full sm:w-auto">
-            {pending ? <Loader2 className="animate-spin" aria-hidden /> : <Swords aria-hidden />} {s.attempt_id ? "Continuar" : "Começar"}
+            {pending ? <Loader2 className="animate-spin" aria-hidden /> : <Swords aria-hidden />} {s.attempt_id ? "Seguir viagem" : "Zarpar!"}
           </Button>
         )}
       </div>
@@ -59,23 +59,6 @@ export function DailyCard({ s }: { s: DailyStatus }) {
           <div className="h-full bg-primary transition-[width] duration-500" style={{ width: `${pct}%` }} />
         </div>
       )}
-      <ol aria-label="Últimos 7 dias" className="grid grid-cols-7 gap-1 border-t border-border bg-muted/50 px-4 py-3">
-        {s.week.map((d, i) => {
-          const wd = WEEKDAY[new Date(`${d.day}T12:00:00`).getDay()];
-          const today = i === s.week.length - 1;
-          const label = d.daily ? "desafio feito" : d.active ? "estudou" : d.shield ? "protegido por escudo" : "sem estudo";
-          return (
-            <li key={d.day} className="flex flex-col items-center gap-1 text-[11px] font-semibold text-muted-foreground">
-              <span className={cn(today && "text-foreground")}>{wd}</span>
-              <span aria-label={`${d.day}: ${label}`} className={cn("flex size-7 items-center justify-center rounded-full text-xs",
-                d.active ? "bg-orange-500 text-white" : d.shield ? "bg-primary-soft text-primary" : "border border-dashed border-border",
-                today && !d.active && "border-2 border-primary")}>
-                {d.daily ? "★" : d.active ? <Flame className="size-3.5" aria-hidden /> : d.shield ? <Shield className="size-3.5" aria-hidden /> : null}
-              </span>
-            </li>
-          );
-        })}
-      </ol>
     </section>
   );
 }

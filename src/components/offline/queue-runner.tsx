@@ -31,7 +31,7 @@ export function QueueRunner() {
           const r = await submitEssayAction(q.id);
           if (r.ok || /enviada|submitted|já foi/i.test(r.error ?? "")) {
             correctionQueue.remove(q.id);
-            if (r.ok) toast.success(`“${q.title}” foi enviada para correção 📝`, { action: { label: "Ver", onClick: () => location.assign(`/redacao/${q.id}`) } });
+            if (r.ok) toast.success(`Arr! “${q.title}” foi enviada para correção 📝`, { action: { label: "Ver", onClick: () => location.assign(`/redacao/${q.id}`) } });
           } else if (/limite|cota|plan_limit/i.test(r.error ?? "")) {
             correctionQueue.remove(q.id);
             toast.error(`“${q.title}”: ${r.error}`);

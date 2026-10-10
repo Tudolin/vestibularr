@@ -38,7 +38,7 @@ export default async function ErrosPage() {
       </header>
 
       {total === 0 ? (
-        <EmptyState icon={<CheckCircle2 aria-hidden />} title="Nenhum erro pendente" description="Quando você errar questões em simulados ou treinos, elas aparecem aqui automaticamente." />
+        <EmptyState icon={<CheckCircle2 aria-hidden />} title="Arr! Nenhum erro pendente" description="Quando você errar questões em simulados ou treinos, elas aparecem aqui automaticamente." />
       ) : (
         <>
           <Card className="flex flex-col gap-3 p-5 md:flex-row md:items-center">

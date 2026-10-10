@@ -9,19 +9,19 @@
 /* .marca-clara: páginas da marca (fundo creme) ficam sempre no tema claro, mesmo com o aparelho no modo escuro */
 .marca-clara,
 :root {
-  --background: #f7f7fb;
-  --foreground: #14142b;
+  --background: #fff7ea;
+  --foreground: #14123a;
   --card: #ffffff;
-  --card-foreground: #14142b;
-  --muted: #eeeef6;
-  --muted-foreground: #55557a;
-  --border: #dcdcec;
-  --input: #85859f;
-  --ring: #4f46e5;
-  --primary: #4f46e5;
+  --card-foreground: #14123a;
+  --muted: #f6ecda;
+  --muted-foreground: #57506e;
+  --border: #ecdfc6;
+  --input: #8a8299;
+  --ring: #2f3cff;
+  --primary: #2f3cff;
   --primary-foreground: #ffffff;
-  --primary-soft: #ebeaff;
-  --primary-soft-foreground: #3730a3;
+  --primary-soft: #e7e9ff;
+  --primary-soft-foreground: #1f29d6;
   --success: #15803d;
   --success-soft: #e0f5e8;
   --success-soft-foreground: #14532d;
@@ -44,22 +44,23 @@
   --area-matematica-soft: #e4edff;
   --area-matematica-foreground: #1e40af;
   --radius: 1rem;
+  --primary-shadow: #1f29d6;
 }
 
 .dark {
-  --background: #0d0d1a;
-  --foreground: #ececf8;
-  --card: #161628;
-  --card-foreground: #ececf8;
-  --muted: #1f1f36;
-  --muted-foreground: #a9a9c8;
-  --border: #2b2b46;
-  --input: #7373a0;
-  --ring: #8b93ff;
-  --primary: #8b93ff;
-  --primary-foreground: #0d0d1a;
-  --primary-soft: #25254d;
-  --primary-soft-foreground: #c7caff;
+  --background: #0d0c22;
+  --foreground: #f6f1e7;
+  --card: #17153a;
+  --card-foreground: #f6f1e7;
+  --muted: #221f4b;
+  --muted-foreground: #b6b0d6;
+  --border: #302c5e;
+  --input: #7d77aa;
+  --ring: #8f97ff;
+  --primary: #8f97ff;
+  --primary-foreground: #0d0c22;
+  --primary-soft: #262a6e;
+  --primary-soft-foreground: #d3d6ff;
   --success: #4ade80;
   --success-soft: #11321f;
   --success-soft-foreground: #a7f3c4;
@@ -80,6 +81,7 @@
   --area-matematica: #60a5fa;
   --area-matematica-soft: #14274d;
   --area-matematica-foreground: #a9cdff;
+  --primary-shadow: #545ccc;
 }
 
 @theme inline {
@@ -119,7 +121,8 @@
   --radius-card: var(--radius);
   --radius-control: 0.75rem;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  /* títulos do app e da marca: Fredoka (a mesma fonte da homepage) */
+  --font-display: var(--font-fredoka), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   /* marca (páginas públicas): Fredoka + paleta do Capitão Grafite */
   --font-brand: var(--font-fredoka), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --color-cobalto: #2f3cff;
@@ -184,6 +187,10 @@ body {
    Movimento. Só transform/opacity (rodam na GPU, sem recalcular layout);
    tudo some com "reduzir movimento" (regra global acima + bloco no fim).
    ------------------------------------------------------------------ */
+@keyframes vr-bob {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-3px) rotate(2deg); }
+}
 @keyframes vr-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @keyframes vr-fade-in { from { opacity: 0; } }
 @keyframes vr-fade-out { to { opacity: 0; } }

@@ -27,7 +27,7 @@ export function OfflineBanner() {
   const [open, setOpen] = useState(false);
   const was = useRef(online);
   useEffect(() => {
-    if (!was.current && online) toast.success("Internet de volta! Enviando o que ficou guardado…");
+    if (!was.current && online) toast.success("Arr! Internet de volta. Enviando o que ficou guardado…");
     was.current = online;
   }, [online]);
   if (online) return null;
@@ -35,7 +35,7 @@ export function OfflineBanner() {
     <>
       <div role="status" className="sticky top-[calc(3.75rem)] z-20 flex items-center gap-2 border-b border-border bg-warning-soft px-4 py-2 text-sm text-warning-soft-foreground md:top-0">
         <CloudOff className="size-4 shrink-0" aria-hidden />
-        <span className="min-w-0 flex-1">Sem internet. Você continua estudando; o que fizer fica salvo no aparelho.</span>
+        <span className="min-w-0 flex-1">Err… sem internet a bordo. Você continua estudando; o que fizer fica salvo no aparelho.</span>
         <button type="button" onClick={() => setOpen(true)} className="min-h-10 shrink-0 font-bold underline underline-offset-2">O que funciona?</button>
       </div>
       <Dialog open={open} onOpenChange={setOpen}>

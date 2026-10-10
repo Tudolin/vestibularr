@@ -18,7 +18,7 @@ export function DailyDone({ streak, shields, correct, total }: { streak: number;
             animate={{ x: Math.cos((i / SPARKS.length) * Math.PI * 2) * 140, y: Math.sin((i / SPARKS.length) * Math.PI * 2) * 70, opacity: 0, scale: 1.2 }}
             transition={{ duration: 1.1, delay: 0.15, ease: "easeOut" }}>{s}</m.span>
         ))}
-        <p className="text-lg font-extrabold">Desafio do dia concluído! 🎉</p>
+        <p className="text-lg font-extrabold">Arr! Desafio do dia vencido! 🏴‍☠️</p>
         <p className="text-sm">{correct}/{total} acertos · +30 XP de bônus</p>
         <p className="mt-2 flex flex-wrap gap-4 text-sm font-bold">
           <span className="inline-flex items-center gap-1"><Flame className="size-4 text-orange-500" aria-hidden /> {streak} {streak === 1 ? "dia seguido" : "dias seguidos"}</span>

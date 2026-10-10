@@ -14,13 +14,13 @@ export const metadata: Metadata = {
 const RECURSOS = [
   {
     icon: Flame, kicker: "10 minutos por dia", title: "O desafio do dia transforma estudo em hábito",
-    text: "Todo dia, 7 questões escolhidas para você: o assunto em que você mais erra, revisão dos erros e um chefão no final, com XP em dobro. Sequência de dias, escudos para os dias difíceis e nada de culpa.",
-    img: "/landing/celular-desafio-feito.webp", w: 780, h: 1688, alt: "Desafio do dia concluído: acertos, sequência de 7 dias e escudo ganho", phone: true,
+    text: "Todo dia, 7 questões escolhidas para você: o assunto em que você mais erra, revisão dos erros e um chefão no final, com XP em dobro. Cada desafio leva seu navio a uma ilha do mapa do tesouro: com 5 na semana, o baú abre. Sequência de dias, escudos para os dias difíceis e nada de culpa.",
+    img: "/landing/celular-desafio-feito-v2.webp", w: 780, h: 1688, alt: "Desafio do dia concluído: acertos, sequência de 7 dias e escudo ganho", phone: true,
   },
   {
     icon: Ship, kicker: "Tripulação", title: "Ninguém passa sozinho",
     text: "Chame os amigos da escola, monte uma tripulação e disputem a liga da semana. Mande um “vento a favor” para quem está desanimando. Sem chat aberto e sem nome real: só @apelido, avatar e XP.",
-    img: "/landing/celular-tripulacao.webp", w: 780, h: 1688, alt: "Tela da Tripulação com nível, sequência e a liga da semana", phone: true,
+    img: "/landing/celular-tripulacao-v2.webp", w: 780, h: 1688, alt: "Tela da Tripulação com nível, sequência e a liga da semana", phone: true,
   },
   {
     icon: Timer, kicker: "Simulado de verdade", title: "Treine como no dia da prova",
@@ -30,7 +30,7 @@ const RECURSOS = [
   {
     icon: BookOpenCheck, kicker: "Treino com resolução", title: "Errou? Entenda o porquê na hora",
     text: "Toda questão do ENEM 2019–2024 tem resolução comentada: o raciocínio, a resposta e por que cada alternativa errada está errada. Conferida com o gabarito oficial do INEP.",
-    img: "/landing/celular-resolucao.webp", w: 780, h: 1688, alt: "Treino no celular mostrando 'Acertou!' e a resolução comentada", phone: true,
+    img: "/landing/celular-resolucao-v2.webp", w: 780, h: 1688, alt: "Treino no celular mostrando 'Arr, acertou!' e o botão de ver a resolução", phone: true,
   },
   {
     icon: PenLine, kicker: "Redação com IA", title: "Nota por competência em minutos",
@@ -40,7 +40,7 @@ const RECURSOS = [
   {
     icon: Gauge, kicker: "Desempenho", title: "Saiba onde focar — e quanto falta para o seu curso",
     text: "Comece pela triagem: em 20 minutos, sua nota estimada por área com a TRI oficial do INEP. Depois, acertos por assunto, pontos fracos e quanto falta para o curso que você quer.",
-    img: "/landing/desempenho.webp", w: 1440, h: 900, alt: "Painel de desempenho com evolução, metas e cursos-alvo", phone: false,
+    img: "/landing/desempenho-v2.webp", w: 1440, h: 900, alt: "Painel de desempenho com evolução, metas e cursos-alvo", phone: false,
   },
 ];
 
@@ -104,7 +104,7 @@ export default function Landing() {
               <p className="text-sm text-tinta/60">Em beta: tudo liberado de graça · sem cartão</p>
             </div>
             <div className="relative">
-              <PhoneShot src="/landing/celular-desafio.webp" alt="Tela inicial do app com o desafio do dia, a sequência e os escudos" />
+              <PhoneShot src="/landing/celular-desafio-v2.webp" alt="Tela inicial do app com o desafio do dia, a sequência e os escudos" />
               {/* eslint-disable-next-line @next/next/no-img-element -- mascote SVG */}
               <img src="/brand/grafite-deitado.svg" alt="Mascote do Vestibularr: um gato pirata deitado segurando um lápis" width={600} height={268} className="absolute -bottom-20 left-1/2 w-[min(420px,92vw)] -translate-x-1/2 drop-shadow-[0_10px_0_rgba(20,18,58,.08)]" />
             </div>

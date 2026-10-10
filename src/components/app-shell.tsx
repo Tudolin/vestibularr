@@ -1,6 +1,6 @@
 "use client";
 
-import { GraduationCap, Search, Shield, User } from "lucide-react";
+import { Search, Shield, User } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -20,11 +20,11 @@ function isActive(pathname: string, item: NavItem) {
 
 function Brand() {
   return (
-    <Link href="/inicio" className="flex min-h-11 min-w-0 items-center gap-2 font-display text-lg font-extrabold">
-      <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-        <GraduationCap className="size-5" aria-hidden />
-      </span>
-      <span className="truncate">Vestibularr</span>
+    <Link href="/inicio" aria-label="Vestibularr — início" className="flex min-h-11 min-w-0 items-center gap-1.5">
+      {/* o mesmo logo da homepage: Capitão Grafite + "vestibularr" em Fredoka */}
+      {/* eslint-disable-next-line @next/next/no-img-element -- SVG estático da marca */}
+      <img src="/brand/grafite-rosto.svg" alt="" width={44} height={40} className="h-9 w-10 shrink-0" />
+      <span className="truncate font-brand text-[1.45rem] font-bold leading-none tracking-tight text-primary">vestibularr</span>
     </Link>
   );
 }

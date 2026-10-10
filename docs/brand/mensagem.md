@@ -54,6 +54,33 @@ por dia, de graça para começar.
   máximo, nunca ironia com o erro. Na prova, o mascote some.
 - O “rr” do nome é o “arrr” de pirata: assumir a brincadeira no mascote e nos microtextos, nunca explicar demais.
 
+## Vocabulário pirata (identidade do app)
+
+O tema é náutico/pirata em tudo: o mascote é o Capitão Grafite (gato pirata), o nome tem o “rr” do “arrr”.
+Regras: no máximo uma piada por tela, nunca ironia com o erro, nada de pirata no simulado cronometrado e os nomes
+das abas continuam claros (Início, Estudar, Tripulação, Redação, Desempenho).
+
+| Situação | Como falamos |
+|---|---|
+| Acerto | “Arr, acertou! 🏴‍☠️”, “Arr! Mandou bem, marujo!”, “Na mosca, capitão!” |
+| Erro | “Err… quase! A certa é C.”, “Err… bora ver o pulo do gato?” |
+| Saudação | “Ahoy, Ana! ⚓” · “Bem-vindo a bordo” (login) |
+| Começar / continuar | “Zarpar!” / “Seguir viagem” |
+| Sem internet | “Err… sem internet a bordo” |
+| Erro inesperado / 404 | “Err… algo deu errado a bordo” / “Err… essa página afundou” |
+| Desafio do dia concluído | “Arr! Desafio vencido” |
+| Semana | **Mapa do tesouro**: cada desafio leva o navio a uma ilha; 5 na semana abrem o **baú** (+100 XP e 1 escudo) |
+| Grupo de estudo | **Tripulação**; ligas com divisões de Grumete a Lenda dos Mares; boost “vento a favor” |
+| Proteção da sequência | **Escudo** |
+
+## Identidade visual (app e homepage iguais)
+
+- Cores: cobalto `#2f3cff` (principal), tinta `#14123a` (texto), creme `#fff7ea` (fundo), gema `#ffc83d`, coral `#ff6b5e`, menta `#1fcb8b`.
+  Modo escuro: fundo azul-noite `#0d0c22`, cartões `#17153a`, cobalto claro `#8f97ff`.
+- Fontes: Fredoka nos títulos e botões; Inter no texto.
+- Logo: rosto do Capitão Grafite + “vestibularr” em Fredoka cobalto (igual no site, no app, no login e nos ícones).
+- Botão principal com “degrau” embaixo que afunda ao tocar.
+
 ## Usamos / evitamos
 
 | Usamos | Evitamos |
