@@ -10,6 +10,9 @@ import { DEFAULT_GOALS } from "@/lib/achievements";
 import { dueErrorsCount, listOpenAttempts } from "@/lib/attempts/queries";
 import { getStats } from "@/lib/performance";
 import { listTriagens } from "@/lib/triagem";
+import { Avatar } from "@/components/social/avatar";
+import { TIERS, type Overview } from "@/lib/social";
+import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = { title: "Início" };
 
@@ -17,7 +20,11 @@ export default async function InicioPage() {
   const user = await requireUser();
   // conta nova (cadastro público) passa primeiro pelo onboarding
   if (user.role === "student" && user.preferences.onboarded !== true) redirect("/onboarding");
-  const [open, errors, stats, triagens] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens()]);
+  const supabase = await createClient();
+  const [open, errors, stats, triagens, { data: ov }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview")]);
+  const social = ov as Overview | null;
+  const nudge = social?.boosts.find((b) => b.kind === "empurrao"); // a RPC já traz só os dos últimos 3 dias
+  const leaguePos = social?.league ? social.league.members.findIndex((m) => m.id === social.me.id) + 1 : 0;
   const triagemOpen = triagens.find((t) => t.status === "in_progress");
   const triagemDone = triagens.some((t) => t.status === "finished");
   const dayGoal = stats.goals.questions_day ?? DEFAULT_GOALS.questions_day;
@@ -44,6 +51,23 @@ export default async function InicioPage() {
           </div>
           <Button asChild className="self-start sm:self-center"><Link href={triagemOpen ? `/triagem/${triagemOpen.id}` : "/triagem"}>{triagemOpen ? "Continuar" : "Fazer a triagem"}</Link></Button>
         </Card>
+      )}
+
+      {social && (
+        <Link href="/tripulacao" className="lift flex flex-wrap items-center gap-4 rounded-card border border-border bg-card p-4 hover:border-primary">
+          <Avatar card={social.me} />
+          <div className="min-w-0 flex-1">
+            <p className="font-bold">{social.me.username ? "Sua tripulação" : "Monte sua tripulação ⚓"}</p>
+            <p className="text-sm text-muted-foreground">
+              {social.me.username
+                ? `${social.me.week_xp} XP na semana · 🔥 ${social.me.streak} ${social.me.streak === 1 ? "dia" : "dias"}${social.league ? ` · ${TIERS[social.league.tier].emoji} ${leaguePos}º na liga ${TIERS[social.league.tier].name}` : ""}`
+                : "Adicione amigos, dispute a liga da semana e mande boosts."}
+            </p>
+          </div>
+          {social.incoming.length > 0 && <span className="rounded-full bg-danger px-2.5 py-1 text-xs font-bold text-white">{social.incoming.length} {social.incoming.length === 1 ? "pedido" : "pedidos"}</span>}
+          {social.me.boost_until && <span className="rounded-full bg-success-soft px-2.5 py-1 text-xs font-bold text-success-soft-foreground">⛵ Vento a favor ativo</span>}
+          {nudge && <span className="w-full text-sm">👋 <strong>@{nudge.from.username}</strong>: {nudge.message}</span>}
+        </Link>
       )}
 
       <div className="stagger grid gap-4 md:grid-cols-2">

@@ -2,7 +2,9 @@
 
 Objetivo: fazer o aluno voltar todo dia e estudar o que mais precisa.
 
-Status: **E1 e E2 concluídas** (assunto + TRI oficial de cada questão, nota TRI e "Onde focar" no Desempenho; triagem
+Status: **E1, E2 e o núcleo de E3 + E5 concluídos** (XP, níveis, sequência social, amigos, ligas com divisões,
+tripulações, mural, reações e boosts — ver README "Tripulação"). Faltam: desafio diário, escudos de sequência,
+notificações (push/e-mail), duelos 1×1 e competições criadas pelo capitão. Antes: **E1 e E2 concluídas** (assunto + TRI oficial de cada questão, nota TRI e "Onde focar" no Desempenho; triagem
 adaptativa com relatório). Próxima: E3 (desafio diário, XP, sequência e notificações). Pagamentos (Fase B do plano de produto) ficam por último, provavelmente com AbacatePay.
 As quatro features formam um ciclo só:
 

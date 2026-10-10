@@ -72,6 +72,25 @@ para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e se
 **Variáveis novas** (`.env.local` e Vercel): `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_TURNSTILE_SITE_KEY` e
 `TURNSTILE_SECRET_KEY` (crie um widget gratuito em Cloudflare → Turnstile; sem as chaves, o anti-robô fica desligado).
 
+## Tripulação: social e gamificação (migration `0014`)
+
+Aba **Tripulação** na barra inferior (o Perfil foi para o topo, no celular):
+- **@apelido e avatar** (bichinho + cor). Nome real e e-mail nunca aparecem para outros alunos: tudo passa por RPCs que
+  devolvem só @apelido, avatar, nível, XP da semana e sequência.
+- **XP** calculado só no servidor (triggers): acerto 10/15/20 conforme a dificuldade TRI, erro 2; simulado encerrado
+  +40 (+100 se for prova inteira); triagem +50; redação corrigida +30. Uma vez por questão por dia e teto de 2.000/dia.
+  **Nível** n exige 50·n·(n+1) XP no total. **Sequência** social = dias seguidos com XP.
+- **Amigos**: busca por @apelido, link "me adiciona" (`/amigo/<apelido>`), pedidos, ranking da semana (zera na segunda),
+  desfazer, bloquear e denunciar (o admin vê em `reports`).
+- **Ligas semanais com divisões** (Grumete → Marujo → Navegante → Imediato → Capitão → Almirante → Lenda dos Mares):
+  entra no primeiro XP da semana, grupos de até 30; top 7 sobe, 5 últimos (ou 0 XP) descem. Sem cron: a promoção é
+  calculada na entrada da semana seguinte.
+- **Tripulações**: até 12 pessoas, código de 8 caracteres e link `/tripulacao/entrar/<código>`, ranking e mural próprios.
+- **Mural**: atividades automáticas (simulado, triagem, redação, nível, sequência 7/30/100/365, promoção de liga, entrada
+  na tripulação) com reações prontas 🔥👏💪🎉🧠. **Sem chat livre** (decisão por causa dos menores).
+- **Boosts**: *vento a favor* (+50% de XP por 15 min, 1 por dia) e *empurrão* (mensagens prontas, 1 por amigo por dia),
+  só entre amigos ou colegas de tripulação.
+
 ## Ferramentas de estudo (painel flutuante)
 
 Botão **Foco** em todas as páginas (inclusive durante a prova), que abre um painel com:

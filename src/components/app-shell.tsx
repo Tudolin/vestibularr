@@ -1,12 +1,12 @@
 "use client";
 
-import { GraduationCap, Search, Shield } from "lucide-react";
+import { GraduationCap, Search, Shield, User } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { ActivityPinger } from "./activity-pinger";
 import { LogoutButton } from "./logout-button";
-import { ADMIN_NAV, EXTRA_NAV, STUDENT_NAV, type NavItem } from "./nav";
+import { ADMIN_NAV, EXTRA_NAV, PROFILE_NAV, STUDENT_NAV, type NavItem } from "./nav";
 import { ThemeCycleButton, ThemeToggle } from "./theme-toggle";
 
 export type ShellUser = { name: string; email: string | null; role: "admin" | "student" };
@@ -47,7 +47,7 @@ export function AppShell({
       <aside style={{ viewTransitionName: "app-side" }} className="sticky top-0 hidden h-dvh flex-col gap-6 border-r border-border bg-card p-4 md:flex">
         <Brand />
         <nav aria-label="Principal" className="flex flex-1 flex-col gap-1 overflow-y-auto">
-          {[...STUDENT_NAV, ...EXTRA_NAV].map((item) => (
+          {[...STUDENT_NAV, PROFILE_NAV, ...EXTRA_NAV].map((item) => (
             <SideLink key={item.href} item={item} active={isActive(pathname, item)} />
           ))}
           {isAdmin && (
@@ -81,6 +81,10 @@ export function AppShell({
           <div className="flex shrink-0 items-center gap-1">
             <Link href="/busca" aria-label="Buscar" className="flex size-11 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"><Search className="size-5" aria-hidden /></Link>
             <ThemeCycleButton />
+            <Link href="/perfil" aria-label="Perfil" aria-current={pathname.startsWith("/perfil") ? "page" : undefined}
+              className={cn("flex size-11 items-center justify-center rounded-full text-muted-foreground hover:bg-muted", pathname.startsWith("/perfil") && "bg-primary-soft text-primary-soft-foreground")}>
+              <User className="size-5" aria-hidden />
+            </Link>
           </div>
         </header>
         <main id="conteudo" className="pb-safe-nav mx-auto w-full max-w-5xl flex-1 px-4 pt-6 md:px-8 md:pb-24">

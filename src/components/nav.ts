@@ -1,4 +1,4 @@
-import { Compass, Lightbulb, Search, Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
+import { Compass, Ship, Lightbulb, Search, Activity, BarChart3, BookMarked, BookOpen, Database, FileText, FileUp, GraduationCap, Home, LayoutDashboard, ListChecks, NotebookPen, PenLine, Scale, User, Users, type LucideIcon } from "lucide-react";
 
 export type NavItem = { href: string; label: string; icon: LucideIcon; exact?: boolean };
 
@@ -6,10 +6,13 @@ export type NavItem = { href: string; label: string; icon: LucideIcon; exact?: b
 export const STUDENT_NAV: NavItem[] = [
   { href: "/inicio", label: "Início", icon: Home },
   { href: "/estudar", label: "Estudar", icon: BookOpen },
+  { href: "/tripulacao", label: "Tripulação", icon: Ship },
   { href: "/redacao", label: "Redação", icon: PenLine },
   { href: "/desempenho", label: "Desempenho", icon: BarChart3 },
-  { href: "/perfil", label: "Perfil", icon: User },
 ];
+
+/** Perfil: no celular fica no topo (avatar); no computador, na barra lateral. */
+export const PROFILE_NAV: NavItem = { href: "/perfil", label: "Perfil", icon: User };
 
 /** Só na barra lateral (desktop); no celular ficam no topo e no Perfil. */
 export const EXTRA_NAV: NavItem[] = [
