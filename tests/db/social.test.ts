@@ -116,7 +116,10 @@ describe("boosts", () => {
     await one(ana, "select public.send_boost($1, 'vento') r", [bia]);
     await expect(callAs(c, ana, "select public.send_boost($1, 'vento')", [caio])).rejects.toThrow(/boost_used_today/);
     const before = await xp(bia);
-    await answer(bia, ["s30"], true); // média: 15 × 1,5
+    // questão média que a Bia ainda não respondeu hoje (o simulado anterior sorteou 12 das 60)
+    const fresh = (await c.query(`select external_id from questions q where irt_b = 1 and not exists (
+      select 1 from xp_events e where e.user_id = $1 and e.ref like 'q:' || q.id || ':%') order by external_id limit 1`, [bia])).rows[0].external_id;
+    await answer(bia, [fresh], true); // média: 15 × 1,5
     expect(await xp(bia)).toBe(before + 23);
   });
 
