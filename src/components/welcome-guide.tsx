@@ -44,7 +44,7 @@ export function WelcomeGuide({ show }: { show: boolean }) {
   return (
     <Dialog open={open} onOpenChange={(o) => { if (!o) finish(); }}>
       <DialogContent className="md:max-w-3xl">
-        <DialogTitle>Bem-vindo ao Vestibularr! 👋</DialogTitle>
+        <DialogTitle>Ahoy! Bem-vindo a bordo do Vestibularr ⚓</DialogTitle>
         <DialogDescription>Um tour de 2 minutos mostrando como estudar por aqui. Você pode rever quando quiser na aba Guia.</DialogDescription>
         <GuideVideo />
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">

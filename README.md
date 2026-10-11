@@ -30,8 +30,8 @@ npm run dev                  # http://localhost:3000
 
 1. Aplique as migrations de `supabase/migrations/` em ordem: SQL Editor do painel, ou
    `npx supabase link --project-ref <ref> && npx supabase db push`.
-2. Authentication → Sign In / Providers → **desligue "Allow new users to sign up"**
-   (só o admin cria contas; o app também não oferece cadastro).
+2. Authentication → Sign In / Providers → **deixe "Allow new users to sign up" ligado** (o cadastro público
+   "Comece grátis" depende disso). Veja "Configurar no Supabase" abaixo para o e-mail de confirmação.
 3. Mantenha o refresh token com validade longa (sessão persistente).
 
 ### Aplicando migrations novas
@@ -63,7 +63,11 @@ para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e se
   Os valores exibidos na vitrine ficam em `src/lib/plans.ts` (um teste garante que batem com o banco).
 
 **Configurar no Supabase** (Authentication):
-1. *Sign In / Providers → Email*: ligue **Confirm email**.
+1. *Sign In / Providers → Email*: **Confirm email**.
+   - **No beta, sem SMTP próprio: desligue.** O envio padrão do Supabase só entrega para os e-mails da equipe do
+     projeto e tem limite baixo por hora; os testadores não receberiam o link. Desligado, a pessoa entra direto
+     depois do cadastro (o app já trata isso).
+   - Com SMTP próprio configurado (item 4): ligue, para confirmar que o e-mail existe.
 2. *URL Configuration*: **Site URL** = a URL do site (ex.: `https://vestibularr.com.br`) e, em **Redirect URLs**,
    adicione `https://SEU-DOMINIO/auth/confirm` (e `http://localhost:3000/auth/confirm` para testar local).
 3. (Recomendado) *Emails → Confirm signup*: troque o link por
@@ -300,9 +304,9 @@ Capturas da Fase 1 em `docs/screenshots/fase-1/`.
 ## Deploy na Vercel (passo a passo)
 
 1. **Banco (Supabase)**: no SQL Editor, rode as migrations que ainda não rodou, **em ordem**
-   (`20261008000003` → `…0004` → `…0005` → `…0006`). Em *Authentication → Sign In / Providers*,
-   deixe "Allow new users to sign up" **desligado**. Em *Authentication → URL Configuration*, coloque a URL da
-   Vercel em **Site URL**.
+   (confira com `supabase/verificar-migracoes.sql`). Em *Authentication → Sign In / Providers*,
+   deixe "Allow new users to sign up" **ligado** (cadastro público). Em *Authentication → URL Configuration*,
+   coloque a URL da Vercel em **Site URL** e `https://SEU-SITE/auth/confirm` em **Redirect URLs**.
 2. **Vercel**: *Add New → Project → Import* do repositório no GitHub (framework Next.js detectado).
    Se for publicar a partir desta branch, em *Settings → Git* ajuste a *Production Branch* (ou faça merge na `main`).
 3. **Variáveis** (*Settings → Environment Variables*, ambiente Production):
