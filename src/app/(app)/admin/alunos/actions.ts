@@ -1,6 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { z } from "zod";
 import { requireAdmin } from "@/lib/auth";
 import { newInviteToken } from "@/lib/invites";
 import { createAdminClient } from "@/lib/supabase/admin";
@@ -122,5 +123,30 @@ export async function setBetaAction(on: boolean): Promise<ActionResult> {
   const { error } = await (await createClient()).from("settings").update({ value: on }).eq("key", "beta_open_access");
   if (error) return fail("Não foi possível salvar (aplicou a migration 0017?).");
   revalidatePath("/", "layout");
+  return { ok: true, data: undefined };
+}
+
+const planSchema = z.object({
+  id: z.uuid(),
+  plan: z.enum(["free", "estudante", "pro", "familia"]),
+  // data final (AAAA-MM-DD) ou vazio = sem vencimento
+  until: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).nullable(),
+});
+
+/** Define o plano de um aluno (cortesia, bolsa, teste ou correção manual). Vale assim que o beta for desligado. */
+export async function setPlanAction(input: unknown): Promise<ActionResult> {
+  await requireAdmin();
+  const p = planSchema.safeParse(input);
+  if (!p.success) return fail("Escolha um plano válido.");
+  const { id, plan, until } = p.data;
+  // fim do dia escolhido no horário de Brasília
+  const end = until ? new Date(`${until}T23:59:59-03:00`) : null;
+  if (end && end.getTime() < Date.now()) return fail("A data de vencimento já passou.");
+  const { error } = await (await createClient()).from("subscriptions").upsert({
+    user_id: id, plan_code: plan, status: "active", trial_end: null,
+    current_period_end: plan === "free" ? null : end?.toISOString() ?? null, provider: "manual",
+  });
+  if (error) return fail("Não foi possível salvar o plano.");
+  revalidatePath("/admin/alunos");
   return { ok: true, data: undefined };
 }

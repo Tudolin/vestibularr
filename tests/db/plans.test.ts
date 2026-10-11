@@ -112,3 +112,20 @@ describe("sobre você (dados demográficos opcionais)", () => {
     expect(s.school_type).toEqual(expect.arrayContaining([{ value: "publica", n: null }])); // só 1 pessoa: escondido
   });
 });
+
+describe("admin gerencia o plano dos alunos", () => {
+  it("admin define plano com vencimento; o aluno não consegue mudar o próprio plano", async () => {
+    const adm = await createUser(c, "plano-adm@x.com", "admin"), al = await createUser(c, "plano-al@x.com");
+    await c.query("update subscriptions set trial_end = now() - interval '1 minute' where user_id = $1", [al]);
+    const plan = async () => (await asUser(c, al, async () => (await c.query("select public.my_plan() p")).rows[0].p)).plan as string;
+    expect(await plan()).toBe("free");
+    await callAs(c, adm, "update subscriptions set plan_code = 'estudante', status = 'active', trial_end = null, current_period_end = now() + interval '30 days', provider = 'manual' where user_id = $1", [al]);
+    expect(await plan()).toBe("estudante");
+    // o aluno não escreve na própria assinatura (RLS): nada muda
+    await callAs(c, al, "update subscriptions set plan_code = 'familia', current_period_end = null where user_id = $1", [al]);
+    expect(await plan()).toBe("estudante");
+    // vencido volta ao Grátis
+    await c.query("update subscriptions set current_period_end = now() - interval '1 minute' where user_id = $1", [al]);
+    expect(await plan()).toBe("free");
+  });
+});

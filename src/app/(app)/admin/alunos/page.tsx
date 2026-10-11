@@ -25,11 +25,13 @@ function toInviteRows(list: DbInvite[], names: Map<string, string | null>, now =
 export default async function AlunosPage() {
   const me = await requireAdmin();
   const supabase = await createClient(); // RLS: admin enxerga todos os perfis
-  const [{ data }, { data: inv }, { data: beta }] = await Promise.all([
+  const [{ data }, { data: inv }, { data: beta }, { data: subs }] = await Promise.all([
     supabase.from("profiles").select("id, full_name, email, role, is_active, last_seen_at, created_at").order("created_at", { ascending: true }),
     supabase.from("invites").select("id, role, email, note, created_at, expires_at, used_at, revoked_at, used_by").order("created_at", { ascending: false }).limit(50),
     supabase.from("settings").select("value").eq("key", "beta_open_access").maybeSingle(),
+    supabase.from("subscriptions").select("user_id, plan_code, status, trial_end, current_period_end, provider"),
   ]);
+  const subOf = new Map((subs ?? []).map((s) => [s.user_id, s]));
   const names = new Map((data ?? []).map((p) => [p.id, p.full_name || p.email]));
   const invites = toInviteRows(inv ?? [], names);
 
@@ -41,11 +43,12 @@ export default async function AlunosPage() {
     isActive: p.is_active,
     lastSeenAt: p.last_seen_at,
     isMe: p.id === me.id,
+    plan: subOf.has(p.id) ? (({ plan_code, status, trial_end, current_period_end }) => ({ code: plan_code, status, trialEnd: trial_end, periodEnd: current_period_end }))(subOf.get(p.id)!) : null,
   }));
   return (
     <div className="flex flex-col gap-8">
       <BetaToggle initial={beta?.value === true} />
-      <StudentsManager rows={rows} />
+      <StudentsManager rows={rows} beta={beta?.value === true} />
       <InvitesManager rows={invites} />
     </div>
   );
