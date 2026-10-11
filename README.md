@@ -156,13 +156,16 @@ qualquer aparelho. Código em `src/components/study-dock/` e `src/lib/study-tool
   (salvo no perfil, vale em todos os aparelhos). Fechar sem marcar esconde só na sessão atual do navegador.
 - **Aba Guia** (menu lateral e Perfil): o vídeo, capítulos que pulam para o trecho e o mesmo conteúdo em texto;
   dá para religar o vídeo ao entrar.
-- O vídeo (`public/guia/vestibularr-apresentacao.mp4`) é gerado a partir de `docs/video/`: composição em HTML
-  com telas reais do app, motor de animação determinístico e trilha sintetizada (sem direitos autorais):
+- O vídeo (`public/guia/vestibularr-apresentacao-v2.mp4`, ~1 min 52 s) segue a mensagem da marca (`docs/brand/mensagem.md`):
+  manifesto, todas as funcionalidades com telas reais do app e o tom pirata. É gerado a partir de `docs/video/`:
+  composição em HTML, motor de animação determinístico e trilha sintetizada (sem direitos autorais):
   ```bash
-  python3 docs/video/trilha.py /tmp/trilha.wav 126.2
-  node docs/video/render.mjs public/guia/vestibularr-apresentacao.mp4 30 /tmp/trilha.wav
+  npx tsx docs/video/mapa.tsx                       # mapa do tesouro (mesmo componente do app) em 6 estados
+  python3 docs/video/trilha.py /tmp/trilha.wav 112.2
+  node docs/video/render.mjs public/guia/vestibularr-apresentacao-v2.mp4 30 /tmp/trilha.wav
   ```
-  As capturas usadas ficam em `docs/video/shots/` (geradas pelos testes e2e; não versionadas).
+  As capturas usadas ficam em `docs/video/shots/` (geradas pelos testes e2e; não versionadas). Ao trocar o vídeo,
+  mude o nome do arquivo (e `GUIDE_VIDEO` em `src/lib/guide.ts`) para nenhum cache servir o antigo.
 
 ## Banco de questões (Fase 2)
 

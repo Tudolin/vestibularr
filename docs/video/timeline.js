@@ -1,179 +1,146 @@
-// Roteiro do vídeo de apresentação (≈126 s). Coordenadas das telas medidas no app real (viewport 1440×900).
+// Roteiro do vídeo de apresentação (≈112 s): a mensagem da marca + todas as funcionalidades, com o tom pirata.
 (() => {
-  const { tw, type, count, scene, hook } = window.MD;
+  const { tw, count, scene, hook } = window.MD;
+  const $$ = (s) => [...document.querySelectorAll(s)];
+  const pop = (sel, t, from = {}) => tw(sel, t, 0.7, { from: { opacity: 0, scale: 0.6, y: 30, ...from }, to: { opacity: 1, scale: 1, y: 0 } }, "back");
+  const out = (sel, t) => tw(sel, t, 0.4, { to: { opacity: 0, scale: 0.92 } }, "in");
+  const rise = (sel, t, d = 0.8) => tw(sel, t, d, { from: { opacity: 0, y: 50 }, to: { opacity: 1, y: 0 } });
+  const float = (sel, t0, t1, amp = 10) => hook((t) => { if (t < t0 || t > t1) return; const el = document.querySelector(sel); el.style.translate = `0 ${Math.sin((t - t0) * 2.2) * amp}px`; });
 
-  // ---------- utilitários de posição
-  // moldura de navegador: left, top, width → converte coordenada CSS da tela (1440 de largura) para o palco
-  const frame = (L, T, W) => (x, y, pan = 0) => [L + x * (W / 1440), T + 46 + (y - pan) * (W / 1440)];
-  const ring = (sel, t0, t1, [x, y], w, h, s, pad = 10) => {
-    const el = document.querySelector(sel);
-    el.style.left = `${x - pad}px`; el.style.top = `${y - pad}px`;
-    el.style.width = `${w * s + pad * 2}px`; el.style.height = `${h * s + pad * 2}px`;
-    tw(el, t0, 0.5, { from: { opacity: 0, scale: 1.12 }, to: { opacity: 1, scale: 1 } }, "back");
-    tw(el, t1 - 0.3, 0.3, { to: { opacity: 0 } }, "in");
-  };
-  // cursor: lista de [t, x, y, clique?]
-  const cur = document.getElementById("cur"), rip = document.getElementById("rip");
-  const path = [];
-  const move = (t, x, y, click = false) => path.push({ t, x, y, click });
-  hook((t) => {
-    if (!path.length) return;
-    let a = path[0], b = path[0];
-    for (let i = 0; i < path.length; i++) { if (path[i].t <= t) { a = path[i]; b = path[i + 1] ?? path[i]; } }
-    if (t < path[0].t) { cur.style.opacity = 0; rip.style.opacity = 0; return; }
-    const p = b === a ? 1 : Math.min(1, (t - a.t) / Math.max(0.001, b.t - a.t));
-    const e = MD.E.inOut(p);
-    const x = a.x + (b.x - a.x) * e, y = a.y + (b.y - a.y) * e;
-    const vis = a.hide ? 0 : 1;
-    cur.style.transform = `translate(${x}px, ${y}px)`; cur.style.opacity = vis;
-    // clique: anel que cresce por 0,5 s
-    const c = path.filter((k) => k.click && t >= k.t && t < k.t + 0.55).pop();
-    if (c) { const q = (t - c.t) / 0.55; rip.style.transform = `translate(${c.x + 6}px, ${c.y + 6}px) scale(${0.4 + q * 1.2})`; rip.style.opacity = 1 - q; }
-    else rip.style.opacity = 0;
-  });
-  const hideCursor = (t) => path.push({ t, x: path.at(-1)?.x ?? 960, y: path.at(-1)?.y ?? 540, hide: true });
+  // ondas do mar sempre em movimento
+  hook((t) => $$(".mar").forEach((el, i) => { el.style.backgroundPositionX = `${(t * (i % 2 ? -38 : 26)) % 160}px`; }));
 
   // ---------- capítulos
-  const CH = [[0, 7.5], [7, 16], [15.5, 24.5], [24, 32.5], [32, 42], [41.5, 52.5], [52, 63], [62.5, 70.5], [70, 80.5], [80, 90.5], [90, 98.5], [98, 110], [109.5, 120], [119.5, 126]];
+  const CH = [[0, 6.5], [6, 13.5], [13, 20.5], [20, 28.5], [28, 37.5], [37, 46], [45.5, 55], [54.5, 63], [62.5, 71], [70.5, 79.5], [79, 88.5], [88, 97.5], [97, 104.5], [104, 112]];
+  const DARK = [1, 6, 10, 12];
   const bar = document.getElementById("chapters");
   CH.forEach(() => { const s = document.createElement("span"); s.appendChild(document.createElement("i")); bar.appendChild(s); });
   hook((t) => {
     [...bar.children].forEach((s, i) => { const [a, b] = CH[i]; s.firstChild.style.transform = `scaleX(${Math.max(0, Math.min(1, (t - a) / (b - a)))})`; });
-    bar.style.opacity = t < 6.5 || t > 120 ? 0 : 1;
+    bar.style.opacity = t < 5.8 || t > 110.5 ? 0 : 1;
+    const cur = CH.findIndex(([a, b]) => t >= a && t < b);
+    bar.classList.toggle("dark", DARK.includes(cur));
   });
 
-  // ---------- 1. abertura (0–7,5)
-  scene("#s1", 0, 7.5, { inDur: 0.01 });
-  tw("#s1b1", 0, 7.5, { from: { x: -40, y: -20, scale: 0.9 }, to: { x: 80, y: 60, scale: 1.1 } }, "linear");
-  tw("#s1b2", 0, 7.5, { from: { x: 40, y: 30 }, to: { x: -90, y: -50 } }, "linear");
-  tw("#s1logo", 0.3, 1.1, { from: { opacity: 0, scale: 0.3, rot: -18 }, to: { opacity: 1, scale: 1, rot: 0 } }, "back");
-  tw("#s1t", 1.0, 0.9, { from: { opacity: 0, y: 50, blur: 12 }, to: { opacity: 1, y: 0, blur: 0 } });
-  tw("#s1s", 1.7, 0.8, { from: { opacity: 0, y: 30 }, to: { opacity: 1, y: 0 } });
-  tw("#s1c", 2.4, 0.8, { from: { opacity: 0, y: 30 }, to: { opacity: 1, y: 0 } });
-  tw("#s1logo", 6.6, 0.8, { to: { scale: 0.85, y: -20, opacity: 0 } }, "in");
+  // ---------- 1. abertura (0–6,5)
+  scene("#s1", 0, 6.5, { inDur: 0.01 });
+  tw("#s1masc", 0.2, 1.0, { from: { opacity: 0, scale: 0.2, rot: -25, y: 120 }, to: { opacity: 1, scale: 1, rot: 0, y: 0 } }, "back");
+  tw("#s1masc", 1.2, 0.5, { to: { rot: -6 } }, "out"); tw("#s1masc", 1.7, 0.6, { to: { rot: 0 } }, "back");
+  tw("#s1word", 0.9, 0.9, { from: { opacity: 0, y: 90, scale: 0.8 }, to: { opacity: 1, y: 0, scale: 1 } }, "back");
+  pop("#s1bub", 1.9, { rot: 8 });
+  ["#s1chips"].forEach((s) => rise(s, 2.6));
+  tw("#s1masc", 5.7, 0.7, { to: { y: -40, opacity: 0, scale: 0.9 } }, "in");
+  tw("#s1word", 5.8, 0.6, { to: { y: -30, opacity: 0 } }, "in");
 
-  // ---------- 2. números (7–16)
-  scene("#s2", 7, 16);
-  tw("#s2k", 7.3, 0.6, { from: { opacity: 0, x: -30 }, to: { opacity: 1, x: 0 } });
-  tw("#s2h", 7.5, 0.8, { from: { opacity: 0, y: 30 }, to: { opacity: 1, y: 0 } });
-  ["#s2a", "#s2b", "#s2c", "#s2d"].forEach((s, i) => tw(s, 8.4 + i * 0.25, 0.9, { from: { opacity: 0, y: 80, scale: 0.92 }, to: { opacity: 1, y: 0, scale: 1 } }, "back"));
-  count("#s2n1", 8.6, 2.2, 0, 1088);
-  ["#s2a", "#s2b", "#s2c", "#s2d"].forEach((s, i) => tw(s, 11.5 + i * 0.6, 0.5, { to: { y: -14 } }, "out"));
-  ["#s2a", "#s2b", "#s2c", "#s2d"].forEach((s, i) => tw(s, 12.0 + i * 0.6, 0.5, { to: { y: 0 } }, "out"));
+  // ---------- 2. manifesto (6–13,5)
+  scene("#s2", 6, 13.5);
+  $$("#s2 .word").forEach((w, i) => tw(w, 6.4 + i * 0.16, 0.6, { from: { opacity: 0, y: 70, blur: 10 }, to: { opacity: 1, y: 0, blur: 0 } }, "back"));
+  rise("#s2d", 9.2);
+  tw("#s2masc", 9.6, 0.9, { from: { opacity: 0, x: 200, rot: 20 }, to: { opacity: 1, x: 0, rot: -4 } }, "back");
+  tw("#s2c", 10.6, 0.5, { to: { scale: 1.04 } }, "out"); tw("#s2c", 11.1, 0.6, { to: { scale: 1 } }, "back");
 
-  // ---------- 3. entrar / convite (15,5–24,5)
-  scene("#s3", 15.5, 24.5);
-  tw("#s3w", 15.6, 1, { from: { opacity: 0, x: 120, scale: 0.94 }, to: { opacity: 1, x: 0, scale: 1 } });
-  tw("#s3cap", 16.2, 0.8, { from: { opacity: 0, y: 40 }, to: { opacity: 1, y: 0 } });
-  tw("#s3p", 18.6, 1.0, { from: { opacity: 0, y: 160, rot: 6 }, to: { opacity: 1, y: 0, rot: -3 } }, "back");
-  tw("#s3w", 18.6, 1.0, { to: { x: -120, scale: 0.92, opacity: 0.85 } });
+  // ---------- 3. a bordo (13–20,5)
+  scene("#s3", 13, 20.5);
+  rise("#s3k", 13.2, 0.6); rise("#s3h", 13.35);
+  ["#s3a", "#s3b", "#s3c", "#s3d"].forEach((s, i) => tw(s, 14.1 + i * 0.22, 0.9, { from: { opacity: 0, y: 120, scale: 0.85, rot: i % 2 ? 4 : -4 }, to: { opacity: 1, y: 0, scale: 1, rot: 0 } }, "back"));
+  count("#s3n", 14.4, 2.0, 0, 1088);
+  ["#s3a", "#s3b", "#s3c", "#s3d"].forEach((s, i) => { tw(s, 17 + i * 0.35, 0.4, { to: { y: -18 } }, "out"); tw(s, 17.4 + i * 0.35, 0.5, { to: { y: 0 } }, "back"); });
 
-  // ---------- 4. início (24–32,5)
-  scene("#s4", 24, 32.5);
-  tw("#s4w", 24.1, 1, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-  tw("#s4cap", 24.6, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  { const f = frame(700, 90, 1140), s = 1140 / 1440;
-    ring("#s4 .r1", 26, 28.4, f(368, 112), 472, 224, s);
-    ring("#s4 .r2", 27.2, 29.6, f(856, 112), 472, 224, s);
-    ring("#s4 .r3", 28.6, 31.6, f(368, 578), 960, 90, s); }
+  // ---------- 4. triagem (20–28,5)
+  scene("#s4", 20, 28.5);
+  tw("#s4p", 20.2, 1.0, { from: { opacity: 0, y: 220, rot: 8 }, to: { opacity: 1, y: 0, rot: -2 } }, "back");
+  tw("#s4cap", 20.5, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  tw("#s4img", 23, 3.6, { from: { y: 0 }, to: { y: -900 } }, "inOut");
+  pop("#s4b1", 21.8, { rot: -10 }); pop("#s4b2", 22.6, { rot: 10 });
+  tw("#s4masc", 23.6, 0.8, { from: { opacity: 0, y: 120 }, to: { opacity: 1, y: 0 } }, "back");
+  float("#s4b1", 22.5, 28.5); float("#s4b2", 23.3, 28.5, 8);
 
-  // ---------- 5. estudar (32–42)
-  scene("#s5", 32, 42);
-  tw("#s5w", 32.1, 1, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-  tw("#s5cap", 32.6, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  { const f = frame(700, 90, 1140);
-    tw("#s5img2", 32, 0.01, { from: { opacity: 0 }, to: { opacity: 0 } });
-    move(33.6, 1500, 950); move(35.4, ...f(600, 615)); move(36.0, ...f(600, 615), true);
-    tw("#s5img2", 36.3, 0.6, { from: { opacity: 0, x: 80 }, to: { opacity: 1, x: 0 } });
-    tw("#s5img1", 36.3, 0.6, { to: { opacity: 0, x: -80 } });
-    move(37.4, ...f(465, 311)); move(38.1, ...f(465, 311), true); hideCursor(38.9); }
+  // ---------- 5. desafio do dia (28–37,5)
+  scene("#s5", 28, 37.5);
+  tw("#s5p1", 28.2, 1.0, { from: { opacity: 0, y: 220 }, to: { opacity: 1, y: 0, rot: -3 } }, "back");
+  tw("#s5p2", 28.6, 1.0, { from: { opacity: 0, y: 260 }, to: { opacity: 1, y: 0, rot: 3 } }, "back");
+  tw("#s5cap", 28.5, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  tw("#s5img1", 31.5, 2.4, { from: { y: 0 }, to: { y: -360 } }, "inOut");
+  pop("#s5b", 30.2, { rot: -12 }); float("#s5b", 31, 37.5, 8);
+  tw("#s5p2", 34.2, 0.5, { to: { scale: 1.06 } }, "out"); tw("#s5p2", 34.7, 0.6, { to: { scale: 1 } }, "back");
 
-  // ---------- 6. prova (41,5–52,5)
-  scene("#s6", 41.5, 52.5);
-  tw("#s6w", 41.6, 1.1, { from: { opacity: 0, scale: 0.9 }, to: { opacity: 1, scale: 1 } });
-  { const f = frame(160, 70, 1600), s = 1600 / 1440;
-    ring("#s6r1", 43.2, 46.2, f(1040, 14), 80, 32, s, 12);
-    move(46.4, ...f(500, 640)); move(47.3, ...f(400, 676)); move(47.8, ...f(400, 676), true);
-    ring("#s6r2", 48.4, 51.6, f(968, 77), 304, 760, s, 8); hideCursor(49.5); }
-  tw("#s6cap", 44.4, 0.8, { from: { opacity: 0, y: 40 }, to: { opacity: 1, y: 0 } });
-  tw("#s6cap", 48.0, 0.5, { to: { opacity: 0, y: 30 } }, "in");
+  // ---------- 6. Arr / Err (37–46)
+  scene("#s6", 37, 46);
+  tw("#s6p1", 37.2, 1.0, { from: { opacity: 0, y: 220 }, to: { opacity: 1, y: 0, rot: -3 } }, "back");
+  tw("#s6cap", 37.5, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  tw("#s6b", 38.8, 0.4, { from: { opacity: 0 }, to: { opacity: 1 } }, "out");
+  pop("#s6arr", 39.1, { rot: -8 });
+  tw("#s6p2", 40.4, 1.0, { from: { opacity: 0, y: 260 }, to: { opacity: 1, y: 0, rot: 3 } }, "back");
+  pop("#s6err", 41.2, { rot: 8 });
+  tw("#s6c", 42.6, 0.5, { from: { opacity: 0, y: 40 }, to: { opacity: 1, y: 0 } }, "out");
+  out("#s6arr", 42.4);
 
-  // ---------- 7. treino no celular (52–63)
-  scene("#s7", 52, 63);
-  tw("#s7cap", 52.4, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  tw("#s7p1", 52.2, 1.0, { from: { opacity: 0, y: 120, rot: -4 }, to: { opacity: 1, y: 0, rot: -3 } }, "back");
-  tw("#s7p2", 53.0, 1.0, { from: { opacity: 0, y: 120, rot: 4 }, to: { opacity: 1, y: 0, rot: 2 } }, "back");
-  // a imagem do feedback tem 7020 px a 3x (390 css) → na tela do celular (368 px) altura ≈ 2208 px; janela ≈ 814 px
-  tw("#s7img", 54.5, 2.6, { from: { y: 0 }, to: { y: -560 } }, "inOut");
-  tw("#s7img", 57.8, 3.6, { to: { y: -1395 } }, "inOut");
-  tw("#s7p1", 56.5, 1, { to: { opacity: 0.35, scale: 0.94 } });
+  // ---------- 7. mapa do tesouro (45,5–55)
+  scene("#s7", 45.5, 55);
+  (window.MAPAS || []).forEach((svg, k) => { const el = document.getElementById(`m${k}`); if (el) el.innerHTML = svg; });
+  rise("#s7k", 45.7, 0.6); rise("#s7h", 45.85);
+  tw("#s7map", 46.1, 1.0, { from: { opacity: 0, y: 120, scale: 0.9 }, to: { opacity: 1, y: 0, scale: 1 } }, "back");
+  rise("#s7coins", 46.6); rise("#s7t", 46.9);
+  for (let k = 0; k <= 5; k++) {
+    const t = 47.4 + k * 1.15;
+    if (k === 0) tw("#m0", 46.1, 0.01, { from: { opacity: 1 }, to: { opacity: 1 } });
+    // corte rápido (sem "fantasma" de dois navios): o novo estado entra em 0,1 s e o anterior sai junto
+    else { tw(`#m${k}`, t, 0.1, { from: { opacity: 0 }, to: { opacity: 1 } }, "out"); tw(`#m${k - 1}`, t + 0.1, 0.01, { to: { opacity: 0 } }, "linear"); tw("#s7map", t, 0.12, { to: { scale: 1.012 } }, "out"); tw("#s7map", t + 0.12, 0.3, { to: { scale: 1 } }, "out"); }
+    if (k >= 1) tw(`#c${k - 1}`, t, 0.6, { from: { opacity: 0, scale: 0.2, y: -60 }, to: { opacity: 1, scale: 1, y: 0 } }, "back");
+    if (k < 1) for (let c = 0; c < 5; c++) tw(`#c${c}`, 46, 0.01, { from: { opacity: 0 }, to: { opacity: 0 } });
+  }
+  tw("#s7map", 53.2, 0.35, { to: { scale: 1.03 } }, "out"); tw("#s7map", 53.55, 0.5, { to: { scale: 1 } }, "back");
+  pop("#s7prize", 53.3, { rot: 10 }); float("#s7prize", 54, 55, 6);
 
-  // ---------- 8. caderno de erros (62,5–70,5)
-  scene("#s8", 62.5, 70.5);
-  tw("#s8w", 62.6, 1, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-  tw("#s8cap", 63.0, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  [...document.querySelectorAll("#s8days .chip")].forEach((c, i) => tw(c, 64.2 + i * 0.3, 0.6, { from: { opacity: 0, y: 30, scale: 0.6 }, to: { opacity: 1, y: 0, scale: 1 } }, "back"));
-  { const f = frame(700, 90, 1140); move(66.2, 1500, 980); move(67.6, ...f(1210, 217)); move(68.2, ...f(1210, 217), true); hideCursor(69.0); }
+  // ---------- 8. simulados (54,5–63)
+  scene("#s8", 54.5, 63);
+  tw("#s8w", 54.7, 1.0, { from: { opacity: 0, x: 200, scale: 0.94 }, to: { opacity: 1, x: 0, scale: 1 } });
+  tw("#s8cap", 55, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  pop("#s8b", 56.4, { rot: -8 }); float("#s8b", 57, 63, 7);
+  tw("#s8w", 58, 4.5, { to: { scale: 1.04 } }, "inOut");
 
-  // ---------- 9. redação (70–80,5)
-  scene("#s9", 70, 80.5);
-  tw("#s9w", 70.1, 1, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-  tw("#s9cap", 70.6, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  // rola a correção (página com 1995 px de altura → até ≈ 1100 px)
-  tw("#s9img", 72.5, 5.5, { from: { y: 0 }, to: { y: -(window.REDACAO_PAN ?? 900) } }, "inOut");
-  tw("#s9p", 74.2, 1.1, { from: { opacity: 0, y: 140, rot: 8 }, to: { opacity: 1, y: 0, rot: 4 } }, "back");
+  // ---------- 9. desempenho (62,5–71)
+  scene("#s9", 62.5, 71);
+  tw("#s9w", 62.7, 1.0, { from: { opacity: 0, x: 200, scale: 0.94 }, to: { opacity: 1, x: 0, scale: 1 } });
+  tw("#s9cap", 63, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  tw("#s9img", 64.6, 5.2, { from: { y: 0 }, to: { y: -1500 } }, "inOut");
+  pop("#s9b", 65.4, { rot: 8 }); float("#s9b", 66, 71, 7);
 
-  // ---------- 10. desempenho (80–90,5)
-  scene("#s10", 80, 90.5);
-  tw("#s10w", 80.1, 1, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-  tw("#s10cap", 80.6, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  tw("#s10img2", 80, 0.01, { from: { opacity: 0 }, to: { opacity: 0 } });
-  { const f = frame(700, 90, 1140), s = 1140 / 1440;
-    ring("#s10 .r1", 82.2, 84.6, f(935, 232), 393, 338, s);
-    ring("#s10 .r2", 84.8, 87.0, f(368, 594), 472, 300, s);
-    tw("#s10img2", 87.0, 0.7, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-    tw("#s10img1", 87.0, 0.7, { to: { opacity: 0, y: -60 } }); }
+  // ---------- 10. redação (70,5–79,5)
+  scene("#s10", 70.5, 79.5);
+  tw("#s10p", 70.7, 1.0, { from: { opacity: 0, y: 220, rot: -8 }, to: { opacity: 1, y: 0, rot: 2 } }, "back");
+  tw("#s10cap", 71, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  tw("#s10img", 72.6, 5.6, { from: { y: 0 }, to: { y: -2400 } }, "inOut");
+  pop("#s10b1", 72.2, { rot: -10 }); pop("#s10b2", 73.0, { rot: 10 }); pop("#s10b3", 73.8, { rot: -6 });
+  float("#s10b1", 73, 79.5, 8); float("#s10b2", 73.8, 79.5, 7); float("#s10b3", 74.6, 79.5, 9);
 
-  // ---------- 11. celular / PWA (90–98,5)
-  scene("#s11", 90, 98.5);
-  tw("#s11k", 90.4, 0.6, { from: { opacity: 0, x: -30 }, to: { opacity: 1, x: 0 } });
-  tw("#s11h", 90.6, 0.8, { from: { opacity: 0, y: 40 }, to: { opacity: 1, y: 0 } });
-  tw("#s11l", 91.1, 0.8, { from: { opacity: 0, y: 30 }, to: { opacity: 1, y: 0 } });
-  tw("#s11p1", 90.6, 1.2, { from: { opacity: 0, y: 200, rot: -10 }, to: { opacity: 1, y: 0, rot: -4 } }, "back");
-  tw("#s11p2", 91.2, 1.2, { from: { opacity: 0, y: 220, rot: 10 }, to: { opacity: 1, y: 0, rot: 5 } }, "back");
-  tw("#s11p1", 92.5, 6, { to: { y: -18 } }, "inOut");
-  tw("#s11p2", 92.5, 6, { to: { y: 16 } }, "inOut");
+  // ---------- 11. tripulação (79–88,5)
+  scene("#s11", 79, 88.5);
+  tw("#s11p1", 79.2, 1.0, { from: { opacity: 0, y: 220 }, to: { opacity: 1, y: 0, rot: -3 } }, "back");
+  tw("#s11p2", 79.6, 1.0, { from: { opacity: 0, y: 260 }, to: { opacity: 1, y: 0, rot: 3 } }, "back");
+  tw("#s11cap", 79.5, 0.9, { from: { opacity: 0, x: -80 }, to: { opacity: 1, x: 0 } });
+  tw("#s11img2", 82, 4.5, { from: { y: 0 }, to: { y: -1400 } }, "inOut");
+  pop("#s11vento", 81.2, { rot: -8 }); float("#s11vento", 82, 88.5, 8);
+  $$("#s11tiers .chip").forEach((c, i) => tw(c, 82.6 + i * 0.3, 0.6, { from: { opacity: 0, y: 40, scale: 0.7 }, to: { opacity: 1, y: 0, scale: 1 } }, "back"));
 
-  // ---------- 12. admin (98–110)
-  scene("#s12", 98, 110);
-  tw("#s12w", 98.1, 1, { from: { opacity: 0, y: 60 }, to: { opacity: 1, y: 0 } });
-  tw("#s12cap", 98.6, 0.8, { from: { opacity: 0, x: -40 }, to: { opacity: 1, x: 0 } });
-  tw("#s12img2", 98, 0.01, { from: { opacity: 0 }, to: { opacity: 0 } });
-  tw("#s12img3", 98, 0.01, { from: { opacity: 0 }, to: { opacity: 0 } });
-  { const f = frame(700, 90, 1140), s = 1140 / 1440;
-    move(99.6, 1500, 980); move(101.2, ...f(1268, 294)); move(101.8, ...f(1268, 294), true);
-    tw("#s12img2", 102.1, 0.5, { from: { opacity: 0, scale: 0.98 }, to: { opacity: 1, scale: 1 } });
-    move(103.2, ...f(720, 480)); move(103.8, ...f(720, 480), true); hideCursor(104.6);
-    tw("#s12img3", 105.6, 0.6, { from: { opacity: 0, x: 80 }, to: { opacity: 1, x: 0 } });
-    tw("#s12img2", 105.6, 0.6, { to: { opacity: 0 } });
-    ring("#s12 .r1", 106.6, 109.6, f(368, 92), 960, 98, s); }
+  // ---------- 12. do seu jeito (88–97,5)
+  scene("#s12", 88, 97.5);
+  rise("#s12k", 88.2, 0.6); rise("#s12h", 88.35);
+  ["#s12a", "#s12b", "#s12c", "#s12d"].forEach((s, i) => tw(s, 89 + i * 0.3, 0.9, { from: { opacity: 0, y: 160, rot: i % 2 ? 5 : -5 }, to: { opacity: 1, y: 0, rot: 0 } }, "back"));
+  ["#s12a", "#s12b", "#s12c", "#s12d"].forEach((s, i) => { tw(s, 92.5 + i * 0.6, 0.4, { to: { y: -22, scale: 1.03 } }, "out"); tw(s, 92.9 + i * 0.6, 0.5, { to: { y: 0, scale: 1 } }, "back"); });
 
-  // ---------- 13. passo a passo (109,5–120)
-  scene("#s13", 109.5, 120);
-  tw("#s13k", 109.8, 0.6, { from: { opacity: 0, x: -30 }, to: { opacity: 1, x: 0 } });
-  tw("#s13h", 110.0, 0.8, { from: { opacity: 0, y: 30 }, to: { opacity: 1, y: 0 } });
-  ["#st1", "#st2", "#st3", "#st4", "#st5"].forEach((s, i) => {
-    tw(s, 110.9 + i * 1.3, 0.8, { from: { opacity: 0, x: -140 }, to: { opacity: 1, x: 0 } }, "back");
-    tw(s + " .k", 110.9 + i * 1.3 + 0.3, 0.6, { from: { scale: 0.4, rot: -20 }, to: { scale: 1, rot: 0 } }, "back");
-  });
+  // ---------- 13. preço (97–104,5)
+  scene("#s13", 97, 104.5);
+  tw("#s13a", 97.3, 0.9, { from: { opacity: 0, y: 70, scale: 0.9 }, to: { opacity: 1, y: 0, scale: 1 } }, "back");
+  pop("#s13b", 98.4, { rot: -6 });
+  rise("#s13c", 99.2); rise("#s13d", 100.6);
 
-  // ---------- 14. encerramento (119,5–126)
-  scene("#s14", 119.5, 126.2, { outDur: 0.8 });
-  tw("#s14b", 119.5, 6.5, { from: { scale: 0.8, opacity: 0.3 }, to: { scale: 1.15, opacity: 0.6 } }, "linear");
-  tw("#s14logo", 119.9, 1.1, { from: { opacity: 0, scale: 0.3, rot: 18 }, to: { opacity: 1, scale: 1, rot: 0 } }, "back");
-  tw("#s14t", 120.6, 0.9, { from: { opacity: 0, y: 50, blur: 12 }, to: { opacity: 1, y: 0, blur: 0 } });
-  tw("#s14s", 121.3, 0.8, { from: { opacity: 0, y: 30 }, to: { opacity: 1, y: 0 } });
+  // ---------- 14. agora é a sua vez (104–112)
+  scene("#s14", 104, 112.2, { outDur: 0.9 });
+  tw("#s14masc", 104.2, 1.0, { from: { opacity: 0, scale: 0.3, y: 160, rot: 20 }, to: { opacity: 1, scale: 1, y: 0, rot: 0 } }, "back");
+  rise("#s14a", 104.9); tw("#s14b", 105.6, 1.0, { from: { opacity: 0, y: 80, scale: 0.85 }, to: { opacity: 1, y: 0, scale: 1 } }, "back");
+  pop("#s14c", 106.8);
+  hook((t) => { if (t < 107.5) return; const el = document.querySelector("#s14masc"); el.style.translate = `0 ${Math.abs(Math.sin((t - 107.5) * 3)) * -18}px`; });
 
-  window.DURATION = 126.2;
-  window.seek(0);
+  window.DURATION = 112.2;
 })();
