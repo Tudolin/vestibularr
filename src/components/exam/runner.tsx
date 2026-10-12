@@ -261,6 +261,25 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
     setFeedback((f) => ({ ...f, [qid]: { correct: data?.correct_label ?? null, explanation: data?.explanation_md ?? null, mirror: data?.official_mirror_md ?? null } }));
   }, [attemptId, supabase]);
 
+  /** Treino retomado: busca de uma vez o gabarito das questões já respondidas, para o mapa mostrar acertos e erros. */
+  useEffect(() => {
+    if (!immediate) return;
+    let alive = true;
+    void (async () => {
+      await Promise.resolve();
+      const ids = questions.filter((x) => x.kind === "objective" && answersRef.current[x.id]?.choice && !feedbackRef.current[x.id]).map((x) => x.id);
+      if (!ids.length || !navigator.onLine) return;
+      const { data } = await supabase.from("answer_keys").select("question_id, correct_label, explanation_md, official_mirror_md").in("question_id", ids);
+      if (!alive || !data) return;
+      setFeedback((f) => {
+        const next = { ...f };
+        for (const k of data) if (!next[k.question_id]) next[k.question_id] = { correct: k.correct_label ?? null, explanation: k.explanation_md ?? null, mirror: k.official_mirror_md ?? null };
+        return next;
+      });
+    })();
+    return () => { alive = false; };
+  }, [immediate, questions, supabase]);
+
   /** Ao abrir (ou voltar a) uma questão já respondida no treino, mostra o feedback dela. */
   const maybeFeedback = useCallback((i: number) => {
     const qq = questions[i];
@@ -425,6 +444,11 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
 
   // ------------------------------------------------------------------ derivados
   const statuses = useMemo(() => questions.map((x) => statusOf(answers[x.id], x.kind === "discursive")), [answers, questions]);
+  // treino: acertou (true) / errou (false) por questão, para o mapa diferenciar
+  const results = useMemo(() => immediate ? questions.map((x) => {
+    const f = feedback[x.id]; const c = answers[x.id]?.choice;
+    return x.kind === "objective" && c && f && typeof f === "object" && f.correct ? c === f.correct : null;
+  }) : undefined, [immediate, questions, feedback, answers]);
   const counts = useMemo(() => ({
     answered: statuses.filter((s) => s === "answered").length + questions.filter((x, i) => statuses[i] === "flagged" && (answers[x.id]?.choice || answers[x.id]?.discursive_text?.trim())).length,
     flagged: statuses.filter((s) => s === "flagged").length,
@@ -623,7 +647,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                   <Button variant="ghost" size="sm" onClick={pause}><Pause aria-hidden /> Pausar</Button>
                 )}
               </div>
-              <QuestionMap statuses={statuses} current={index} onGo={go} />
+              <QuestionMap statuses={statuses} current={index} onGo={go} results={results} />
             </Card>
             <Button size="lg" variant="soft" onClick={() => setFinishOpen(true)}><Send aria-hidden /> Finalizar {immediate ? "treino" : "prova"}</Button>
             <p className="text-xs text-muted-foreground">Atalhos: A–{q.alternatives.at(-1)?.label ?? "E"} marcar{immediate ? " · Enter responder" : ""} · Shift+letra riscar · ←/→ navegar · M revisão · H marca-texto</p>
@@ -647,7 +671,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
         <DialogContent>
           <DialogTitle>Mapa de questões</DialogTitle>
           <DialogDescription>{counts.answered} respondidas · {blank} em branco · {counts.flagged} para revisar</DialogDescription>
-          <QuestionMap statuses={statuses} current={index} onGo={(i) => { go(i); setMapOpen(false); }} />
+          <QuestionMap statuses={statuses} current={index} onGo={(i) => { go(i); setMapOpen(false); }} results={results} />
           <div className="grid grid-cols-2 gap-2">
             {deadline != null && status === "in_progress" && <Button variant="outline" size="lg" onClick={() => { setMapOpen(false); void pause(); }}><Pause aria-hidden /> Pausar</Button>}
             <Button size="lg" className={deadline == null ? "col-span-2" : ""} onClick={() => { setMapOpen(false); setFinishOpen(true); }}><Send aria-hidden /> Finalizar</Button>
