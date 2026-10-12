@@ -108,6 +108,7 @@ class Seg:
     y1: float
     spans: list
     text: str
+    math: bool = False  # parte de fração/expressão desenhada (vira imagem)
 
     @property
     def cy(self):
@@ -138,7 +139,7 @@ class Row:
         return any(b.x0 - a.x1 > 18 for a, b in zip(self.segs, self.segs[1:]))
 
     def mathy(self) -> bool:
-        return any(bad_glyph(ch) for s in self.segs for sp in s.spans for ch in sp["text"])
+        return any(s.math or any(bad_glyph(ch) for sp in s.spans for ch in sp["text"]) for s in self.segs)
 
 
 @dataclass
@@ -167,10 +168,12 @@ def page_items(doc, pno):
     page = doc[pno]
     W, H = page.rect.width, page.rect.height
     segs = []
-    for b in page.get_text("dict", flags=pymupdf.TEXT_PRESERVE_WHITESPACE)["blocks"]:
+    for b in page.get_text("rawdict", flags=pymupdf.TEXT_PRESERVE_WHITESPACE)["blocks"]:
         for l in b.get("lines", []):
             if abs(l["dir"][0] - 1) > 0.01:
                 continue  # texto girado (rótulo "Geral" na lateral)
+            for sp in l["spans"]:
+                sp["text"] = "".join(c["c"] for c in sp["chars"])
             spans = [s for s in l["spans"] if s["text"]]
             text = "".join(s["text"] for s in spans)
             if not text.strip():
@@ -179,6 +182,68 @@ def page_items(doc, pno):
             if y1 < 36 or y0 > H - 30:
                 continue  # cabeçalho/rodapé
             segs.append(Seg(pno, x0, y0, x1, y1, spans, text))
+
+    # traços finos: barra de fração (texto curto em cima e embaixo) ou sublinhado (grifo)
+    thin = []
+    fracs = []  # (segmentos, centro do numerador, centro do denominador)
+    for d in page.get_drawings():
+        for item in d["items"]:
+            if item[0] == "l":
+                p1, p2 = item[1], item[2]
+                if abs(p1.y - p2.y) < 0.8 and abs(p2.x - p1.x) > 3:
+                    thin.append((min(p1.x, p2.x), (p1.y + p2.y) / 2, max(p1.x, p2.x)))
+            elif item[0] == "re":
+                rr = item[1]
+                if rr.height <= 1.6 and rr.width > 3:
+                    thin.append((rr.x0, (rr.y0 + rr.y1) / 2, rr.x1))
+    for lx0, ly, lx1 in thin:
+        if lx1 - lx0 > 300:
+            continue
+        above = [sg for sg in segs if sg.y1 - 3 <= ly <= sg.y1 + 3.5 and sg.x0 < lx1 and sg.x1 > lx0]
+        # fração: um trecho curto logo acima e outro logo abaixo, os dois dentro da largura da barra
+        def near(sp, top):
+            b = sp["bbox"]
+            centered = abs((b[0] + b[2]) / 2 - (lx0 + lx1) / 2) <= max(3, 0.25 * (lx1 - lx0))
+            return sp["text"].strip() and centered and b[0] >= lx0 - 4 and b[2] <= lx1 + 4 and (
+                (not top and b[3] - 3 <= ly <= b[3] + 3.5) or (top and b[1] - 3.5 <= ly <= b[1] + 2))
+        radical = any(c["c"] == "√" and abs(c["bbox"][2] - lx0) < 2.5 and c["bbox"][1] - 2 <= ly <= c["bbox"][3]
+                      for sg in segs for sp in sg.spans for c in sp["chars"])
+        if radical:
+            continue  # traço de raiz quadrada, não é fração
+        num = [sg for sg in segs if any(near(sp, False) for sp in sg.spans)]
+        den = [sg for sg in segs if any(near(sp, True) for sp in sg.spans)]
+        if num and den:
+            for sg in num + den:
+                sg.math = True
+            cys = [(sp["bbox"][1] + sp["bbox"][3]) / 2 for sg in num + den for sp in sg.spans if near(sp, False) or near(sp, True)]
+            fracs.append((num + den, min(cys), max(cys)))
+            continue
+        hit = [c for sg in above for sp in sg.spans for c in sp["chars"]
+               if c["c"].strip() and lx0 - 1 <= (c["bbox"][0] + c["bbox"][2]) / 2 <= lx1 + 1]
+        if hit and (lx1 - lx0) <= 1.3 * sum(c["bbox"][2] - c["bbox"][0] for c in hit) + 10:
+            for c in hit:
+                c["u"] = True
+    # trechos sublinhados viram spans próprios
+    for sg in segs:
+        out = []
+        for sp in sg.spans:
+            chars = sp["chars"]
+            if not any(c.get("u") for c in chars):
+                out.append(sp)
+                continue
+            i = 0
+            while i < len(chars):
+                j = i
+                u = bool(chars[i].get("u")) or (not chars[i]["c"].strip() and i > 0 and chars[i - 1].get("u")
+                                                and any(c.get("u") for c in chars[i + 1:i + 2]))
+                while j < len(chars) and (bool(chars[j].get("u")) or (u and not chars[j]["c"].strip() and any(c.get("u") for c in chars[j + 1:j + 2]))) == u:
+                    j += 1
+                part = chars[i:j]
+                b = sp["bbox"]
+                out.append({**sp, "chars": part, "text": "".join(c["c"] for c in part), "underline": u,
+                            "bbox": (part[0]["bbox"][0], b[1], part[-1]["bbox"][2], b[3])})
+                i = j
+        sg.spans = out
 
     # figuras: imagens + desenhos vetoriais (gráficos, tabelas com bordas, esquemas)
     rects = []
@@ -222,8 +287,8 @@ def page_items(doc, pno):
             return False
         if any(overlaps(r, ir) for ir in image_rects):
             return True
-        if len(txt) == 1 and (txt[0].x1 - txt[0].x0) > 0.3 * (r[2] - r[0]) and (r[3] - r[1]) < 3 * (txt[0].y1 - txt[0].y0):
-            return False  # título numa caixa sombreada
+        if txt and (r[3] - r[1]) < 30:
+            return False  # título/trecho numa caixa sombreada (baixa demais para ser figura)
         # só traços (sublinhados, caixas de texto): o texto ocupa quase tudo
         area = max((r[2] - r[0]) * (r[3] - r[1]), 1)
         covered = sum((sg.x1 - sg.x0) * (sg.y1 - sg.y0) for sg in txt)
@@ -241,20 +306,35 @@ def page_items(doc, pno):
             rest.append(s)
 
     # linhas na mesma altura = uma "linha visual" (células de tabela, alternativas lado a lado)
-    rest.sort(key=lambda s: (s.cy, s.x0))
+    rest.sort(key=lambda s: (s.cy, s.x0))  # (agrupadas pela linha de base)
     rows: list[Row] = []
+    def baseline(sg):
+        sp = max(sg.spans, key=lambda x: len(x["text"].strip()))
+        return sp["origin"][1]
+
     for s in rest:
         host = None
-        for r in rows[-3:]:
-            ov = min(r.y1, s.y1) - max(r.y0, s.y0)
-            hmin = min(r.y1 - r.y0, s.y1 - s.y0)
-            if abs(r.segs[-1].cy - s.cy) < 3.2 or (ov > 0.45 * hmin and abs(r.segs[-1].cy - s.cy) < 0.6 * hmin):
+        for r in rows[-4:]:
+            if any(abs(baseline(o) - baseline(s)) < 2.5 for o in r.segs):
                 host = r
         if host:
             host.segs.append(s)
             host.__post_init__()
         else:
             rows.append(Row(pno, [s]))
+    # fração empilhada: numerador, linha do meio e denominador viram uma linha só
+    changed = True
+    while changed and fracs:
+        changed = False
+        for fsegs, lo, hi in fracs:
+            group = [r for r in rows if any(any(sg is f for f in fsegs) for sg in r.segs) or lo <= (r.y0 + r.y1) / 2 <= hi]
+            if len(group) > 1:
+                merged = Row(pno, [sg for r in group for sg in r.segs])
+                rows = [r for r in rows if not any(r is g for g in group)] + [merged]
+                changed = True
+                break
+    rows.sort(key=lambda r: r.y0)
+
     items = rows + figs
     # figura "ao lado" do enunciado começa acima da linha do número: ordena pelo centro dela
     items.sort(key=lambda it: ((it.y0 + it.y1) / 2 if isinstance(it, Fig) else it.y0, it.x0))
@@ -266,42 +346,62 @@ def page_items(doc, pno):
 MD_ESC = re.compile(r"([\\`*_\[\]<>])")
 
 
-def span_md(row_size: float, row_cy: float, sp) -> str:
+def span_piece(row_size: float, row_cy: float, sp, emph: bool) -> tuple[str, str]:
+    """(texto, estilo) de um trecho: estilo "" | "i" (itálico) | "b" (destaque) | "bi" | "raw" (sobrescrito pronto)."""
     t = "".join(nfkc(c) for c in sp["text"]).replace("►", "")
     if not t:
-        return ""
+        return "", ""
     size = sp["size"]
     if size < row_size * 0.82 and t.strip():
         cy = (sp["bbox"][1] + sp["bbox"][3]) / 2
         tr = SUP if cy < row_cy - 0.8 else SUB
         conv = t.strip().translate(tr)
         if all(c in SUP_OK or c in " ,." for c in conv):
-            return conv
-        return ("^" if tr is SUP else "_") + "(" + t.strip() + ")"
+            return conv, "raw"
+        return ("^" if tr is SUP else "_") + "(" + MD_ESC.sub(r"\\\1", t.strip()) + ")", "raw"
     t = MD_ESC.sub(r"\\\1", t)
-    italic = "Italic" in sp["font"] or "Oblique" in sp["font"]
-    if italic and t.strip():
-        lead = t[: len(t) - len(t.lstrip())]
-        trail = t[len(t.rstrip()):]
-        return f"{lead}*{t.strip()}*{trail}"
-    return t
+    style = ""
+    if "Italic" in sp["font"] or "Oblique" in sp["font"]:
+        style += "i"
+    if sp.get("underline") or (emph and "Bold" in sp["font"]):
+        style = "b" + style
+    return t, style
 
 
-def row_md(row: Row) -> str:
+def wrap(t: str, style: str) -> str:
+    mark = {"i": "*", "b": "**", "bi": "***"}.get(style, "")
+    if not mark or not t.strip():
+        return t
+    lead = t[: len(t) - len(t.lstrip())]
+    trail = t[len(t.rstrip()):]
+    return f"{lead}{mark}{t.strip()}{mark}{trail}"
+
+
+def row_md(row: Row, emph: bool = False) -> str:
+    """Linha em markdown. emph: realça negrito (só em textos que não são todos em negrito) e sublinhado."""
     sizes = {}
     for s in row.segs:
         for sp in s.spans:
             if sp["text"].strip():
                 sizes[round(sp["size"], 1)] = sizes.get(round(sp["size"], 1), 0) + len(sp["text"])
     main = max(sizes, key=sizes.get) if sizes else 10
-    cy = None
     parts = []
     for s in row.segs:
         big = [sp for sp in s.spans if sp["size"] >= main * 0.82 and sp["text"].strip()]
         cy = (sum((sp["bbox"][1] + sp["bbox"][3]) / 2 for sp in big) / len(big)) if big else s.cy
-        parts.append("".join(span_md(main, cy, sp) for sp in s.spans))
+        groups: list[list[str]] = []  # [texto, estilo]
+        for sp in s.spans:
+            t, st = span_piece(main, cy, sp, emph)
+            if not t:
+                continue
+            if groups and (groups[-1][1] == st or (not t.strip() and st != "raw")):
+                groups[-1][0] += t
+            elif groups and not groups[-1][0].strip() and groups[-1][1] != "raw":
+                groups[-1] = [groups[-1][0] + t, st]
+            else:
+                groups.append([t, st])
+        parts.append("".join(wrap(t, st) for t, st in groups))
     out = " ".join(p.strip() for p in parts)
-    out = re.sub(r"\*\s*\*", "", out)  # itálicos colados
     return re.sub(r"[ \t]+", " ", out).strip()
 
 
@@ -326,12 +426,13 @@ def paragraphs(rows: list[Row]) -> list[list[Row]]:
         h = max(prev.y1 - prev.y0, 6)
         new = (
             r.page != prev.page
+            or prev.x0 - r.x0 > 30  # saiu de uma referência alinhada à direita
+            or (LIST_MARK.match(plain(out[-1][0])) and prev.x0 - r.x0 > 10)  # fim do item da lista
             or r.y0 - prev.y1 > 0.55 * h
             or prev.x1 < right - 45
             or LIST_MARK.match(plain(r))
             or (r.x0 - prev.x0 > 10 and not LIST_MARK.match(plain(out[-1][0])))
             or r.tabular() != prev.tabular()
-            or (r.mathy() != prev.mathy() and not (r.mathy() and abs(r.y0 - prev.y1) < 2))
         )
         if new:
             out.append([r])
@@ -340,10 +441,23 @@ def paragraphs(rows: list[Row]) -> list[list[Row]]:
     return out
 
 
+def emph_ok(rows: list[Row]) -> bool:
+    """Negrito só é destaque quando o trecho não é todo em negrito (os comandos da UFPR são)."""
+    total = bold = 0
+    for r in rows:
+        for sg in r.segs:
+            for sp in sg.spans:
+                n = len(sp["text"].strip())
+                total += n
+                bold += n if "Bold" in sp["font"] else 0
+    return total > 0 and bold / total < 0.5
+
+
 def join_rows(rows: list[Row]) -> str:
     text = ""
+    emph = emph_ok(rows)
     for r in rows:
-        t = row_md(r)
+        t = row_md(r, emph)
         if not text:
             text = t
         elif text.endswith("-") and not text.endswith(" -"):
@@ -364,18 +478,18 @@ class Cropper:
         self.count: dict[str, int] = {}
         self.done: dict[tuple, str] = {}
 
-    def save(self, key: str, page: int, rect) -> str:
+    def save(self, key: str, page: int, rect, pad_y: float = 4) -> str:
         """Recorta a região como PNG; a mesma região (texto-base compartilhado) reaproveita o arquivo."""
         k = (page, *(round(v) for v in rect))
         if k in self.done:
             return self.done[k]
-        self.done[k] = url = self._save(key, page, rect)
+        self.done[k] = url = self._save(key, page, rect, pad_y)
         return url
 
-    def _save(self, key: str, page: int, rect) -> str:
+    def _save(self, key: str, page: int, rect, pad_y: float) -> str:
         n = self.count[key] = self.count.get(key, 0) + 1
         name = f"{key}-{n}.png"
-        clip = pymupdf.Rect(rect[0] - 3, rect[1] - 4, rect[2] + 3, rect[3] + 4) & self.doc[page].rect
+        clip = pymupdf.Rect(rect[0] - 3, rect[1] - pad_y, rect[2] + 3, rect[3] + pad_y) & self.doc[page].rect
         pix = self.doc[page].get_pixmap(clip=clip, dpi=DPI)
         img = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
         colors = img.getcolors(1 << 16)
@@ -413,7 +527,7 @@ def region_md(items, cropper: Cropper, key: str) -> tuple[str, list[str]]:
                 for r in para:
                     by_page.setdefault(r.page, []).append(r)
                 for pg, rs in by_page.items():
-                    url = cropper.save(key, pg, bbox_of(rs))
+                    url = cropper.save(key, pg, bbox_of(rs), pad_y=2)
                     images.append(url)
                     label = "Tabela" if rs[0].tabular() else "Trecho com fórmula"
                     blocks.append(f"![{label}: {alt_text(' '.join(plain(r) for r in rs))}]({url})")
@@ -439,18 +553,30 @@ def region_md(items, cropper: Cropper, key: str) -> tuple[str, list[str]]:
 
 # ---------------------------------------------------------------- caderno -> questões
 
-REF = re.compile(r"quest(?:ão|ões)\s+((?:\d{1,2}\s*(?:,|e|a|à)\s*)*\d{1,2})", re.I)
+RANGE_SEP = r"(?:a|à|ao|to|bis|al|do|-|–|~|〜)"
+LIST_SEP = r"(?:e|and|und|y|et|i|ou|,|と)"
+PAIR = re.compile(r"(?<!\d)(\d{1,2})\s*(?:(" + RANGE_SEP + r")|" + LIST_SEP + r")\s*(\d{1,2})(?!\d)")
+REF_HINT = re.compile(r"quest|refer|Frage|pregunta|domand|pyta|textu|text|質問|問", re.I)
 
 
 def ref_numbers(text: str) -> set[int]:
-    m = REF.search(text)
-    if not m:
+    """Números das questões a que um texto-base se refere ("questões 10 a 12", "Fragen 88 bis 89", "85 と86")."""
+    if not REF_HINT.search(text):
         return set()
-    spec = m.group(1)
-    nums = [int(n) for n in re.findall(r"\d{1,2}", spec)]
-    if re.search(r"\d\s*(a|à)\s*\d", spec) and len(nums) >= 2:
-        return set(range(nums[0], nums[-1] + 1))
-    return set(nums)
+    nums: set[int] = set()
+    for m in PAIR.finditer(text):
+        lo, hi = int(m.group(1)), int(m.group(3))
+        if m.group(2) and lo < hi <= lo + 15:
+            nums |= set(range(lo, hi + 1))
+        elif not m.group(2) and lo != hi:
+            nums |= {lo, hi}
+    if nums:
+        # "questões 10, 11 e 12": junta os números soltos da mesma lista
+        for m in re.finditer(r"(?<!\d)(\d{1,2})(?!\d)", text[:200]):
+            n = int(m.group(1))
+            if min(nums) - 1 <= n <= max(nums) + 1:
+                nums.add(n)
+    return nums
 
 
 @dataclass
@@ -483,6 +609,7 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
     qs: list[Q] = []
     cur: Q | None = None
     used: set[str] = set()
+    note_at = None  # nota de rodapé ("* Questão anulada..."): o resto da página é ignorado
     left = False  # já saiu das alternativas (o que vier é texto-base da próxima)
     pre: list = []  # texto entre questões (texto-base compartilhado)
     shared: list[dict] = []  # textos-base: {subject, nums, items, next_only}
@@ -516,7 +643,10 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
     for it in stream:
         if isinstance(it, Row):
             t = plain(it)
-            if re.fullmatch(r"\d+/\d+", t) or re.match(r"^\*{1,2}\s*Questão (anulada|com resposta)", t):
+            if re.match(r"^\*{1,2}\s*Questão (anulada|com resposta)", t):
+                note_at = (it.page, it.y0)
+                continue
+            if re.fullmatch(r"\d+/\d+", t) or (note_at and it.page == note_at[0] and it.y0 > note_at[1]):
                 continue
             if len(re.findall(r"\b\d{2}\s*-", t)) >= 3:
                 continue  # grade de respostas da capa
@@ -569,24 +699,26 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
                         mark = m.group(1) == "►" or any("►" in sp["text"] for sp in x.spans)
                         label = seg_label = x.text[: len(x.text) - len(x.text.lstrip())] + m.group(0)
                         size = x.spans[-1]["size"] if x.spans else 10
-                        end = x.x0 + pymupdf.get_text_length(label.replace("►", "► "), fontname="helv", fontsize=size)
-                        cur.alts.append([letter, mark, x.x0, end, [], label])
                         sp_cut = cut_spans(x.spans, label)
+                        end = sp_cut[0]["bbox"][0] if sp_cut else x.x0 + pymupdf.get_text_length(label.replace("►", "► "), fontname="helv", fontsize=size)
+                        cur.alts.append([letter, mark, x.x0, end, [], label, (x.page, x.y0)])
                         if "".join(sp["text"] for sp in sp_cut).strip():
                             cur.alts[-1][4].append(Row(it.page, [Seg(x.page, end, x.y0, x.x1, x.y1, sp_cut, "".join(sp["text"] for sp in sp_cut))]))
                     elif cur.alts:
-                        owner_alt(cur, x.x0)[4].append(Row(it.page, [x]))
+                        owner_alt(cur, x.x0, (x.page, x.cy))[4].append(Row(it.page, [x]))
                 continue
             if cur.alts:
                 lead = min(a[2] for a in cur.alts)
                 last = cur.alts[-1][4][-1] if cur.alts[-1][4] else None
-                if done() and (left or it.x0 < lead - 8 or (last is not None and it.y0 - last.y1 > 14 and it.page == last.page)):
+                content_x = min(a[3] for a in cur.alts)
+                if done() and (left or it.x0 < lead - 8 or it.x0 < content_x - 6
+                               or (last is not None and it.y0 - last.y1 > 14 and it.page == last.page)):
                     left = True
                     pre.append(it)
                     continue
                 # continuação de alternativa (ou célula de tabela da alternativa)
                 for x in it.segs:
-                    owner_alt(cur, x.x0)[4].append(Row(it.page, [x]))
+                    owner_alt(cur, x.x0, (x.page, x.cy))[4].append(Row(it.page, [x]))
                 continue
             cur.stem.append(it)
         else:  # figura
@@ -600,18 +732,22 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
                 elif it.x0 > 280 and all(a[2] < 300 for a in cur.alts) and it.y0 < cur.alts[0][4][0].y0 if cur.alts[0][4] else False:
                     cur.stem.append(it)  # figura "ao lado" do enunciado, ao lado também das alternativas
                 else:
-                    owner_alt(cur, it.x0)[4].append(it)
+                    owner_alt(cur, it.x0, (it.page, (it.y0 + it.y1) / 2))[4].append(it)
             else:
                 cur.stem.append(it)
     close_pre()
     return qs, warnings
 
 
-def owner_alt(q: Q, x: float):
-    """Alternativa dona de um trecho: a última iniciada na mesma coluna."""
+def owner_alt(q: Q, x: float, y: tuple | None = None):
+    """Alternativa dona de um trecho: na mesma coluna, a de rótulo mais próximo acima (ou a última iniciada)."""
     cols = sorted({round(a[2]) for a in q.alts})
     col = max([c for c in cols if c <= x + 12] or [cols[0]])
     same = [a for a in q.alts if round(a[2]) == col]
+    if y is not None:
+        above = [a for a in same if a[6] <= (y[0], y[1] + 4)]
+        if above:
+            return max(above, key=lambda a: a[6])
     return same[-1]
 
 
@@ -625,9 +761,14 @@ def cut_spans(spans, label):
             continue
         sp = dict(sp)
         if n:
-            shift = pymupdf.get_text_length(t[:n].replace("►", "> "), fontname="helv", fontsize=sp["size"])
+            chars = sp.get("chars") or []
             b = sp["bbox"]
-            sp["bbox"] = (b[0] + shift, b[1], b[2], b[3])
+            if len(chars) == len(t):
+                sp["chars"] = chars[n:]
+                sp["bbox"] = (chars[n]["bbox"][0], b[1], b[2], b[3])
+            else:
+                shift = pymupdf.get_text_length(t[:n].replace("►", "> "), fontname="helv", fontsize=sp["size"])
+                sp["bbox"] = (b[0] + shift, b[1], b[2], b[3])
         sp["text"] = t[n:]
         n = 0
         out.append(sp)
@@ -702,7 +843,7 @@ def extract(pdf_path: str, rel: str, year: int, subjects: dict, lang_range=(83, 
             parts.append(f"![Tabela{': ' + alt_text(hdr, 300) if hdr else ''}]({table_img})")
             imgs.append(table_img)
         alts = []
-        for letter, _, lx, lend, items, _label in q.alts:
+        for letter, _, lx, lend, items, _label, _pos in sorted(q.alts, key=lambda a: a[0]):
             rows = [x for x in items if isinstance(x, Row)]
             figs = [x for x in items if isinstance(x, Fig)]
             if tab_alts:
@@ -711,15 +852,15 @@ def extract(pdf_path: str, rel: str, year: int, subjects: dict, lang_range=(83, 
                 continue
             if figs or any(r.mathy() for r in rows):
                 box = bbox_of(items)
-                box = (max(box[0], lend - 1), box[1], box[2], box[3])
+                box = (max(box[0], lend + 1.5), box[1], box[2], box[3])
                 pages = {x.page for x in items}
-                url = cropper.save(f"{key}-{letter}", min(pages), box)
+                url = cropper.save(f"{key}-{letter}", min(pages), box, pad_y=1 if not figs else 3)
                 imgs.append(url)
                 text = alt_text(" ".join(plain(r) for r in rows), 300) if rows and not figs else ""
                 alts.append({"label": letter, "text_md": "", "image_url": url, **({"_alt": text} if text else {})})
                 continue
-            ps = paragraphs(rows)
-            alts.append({"label": letter, "text_md": "\n\n".join(join_rows(p) for p in ps)})
+            rows.sort(key=lambda r: (r.page, r.y0, r.x0))
+            alts.append({"label": letter, "text_md": join_rows(rows)})
         statement = "\n\n".join(p for p in parts if p.strip())
         if not statement.strip():
             warnings.append(f"{year} {key}: enunciado vazio")
@@ -816,7 +957,7 @@ def concursos(pdf_dir: str | None):
                 if shared:
                     common.append(q)
             own = [q for q in qs if q["number"] > c["common_until"]]
-            exams.append({"name": f"{c['title']} {c['year']} — {cargo}", "year": c["year"], "pdf_url": url,
+            exams.append({"name": f"{c['title']} {c['year']} — {cargo}", "year": c["year"], "format": "NCUFPR_medio_40", "pdf_url": url,
                           "questions": common + own})
             print(f"{c['slug']} {code} ({cargo}): {len(common)} comuns + {len(own)} específicas; puladas: {', '.join(skipped) or 'nenhuma'}")
             for w in warnings:

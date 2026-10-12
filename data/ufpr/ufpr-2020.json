@@ -87,7 +87,7 @@
       },
       {
        "label": "B",
-       "text_md": "Coelhos, ratos e morcegos são consumidores de 1ª ordem, enquanto\n\nraposas são simultaneamente consumidores de 2ª, 3ª e 4ª ordens."
+       "text_md": "Coelhos, ratos e morcegos são consumidores de 1ª ordem, enquanto raposas são simultaneamente consumidores de 2ª, 3ª e 4ª ordens."
       },
       {
        "label": "C",
@@ -127,7 +127,7 @@
       },
       {
        "label": "D",
-       "text_md": "A queda na cobertura vacinal diminui a imunidade de grupo, o que aumenta a incidência e a taxa de transmissão do\n\nsarampo na população."
+       "text_md": "A queda na cobertura vacinal diminui a imunidade de grupo, o que aumenta a incidência e a taxa de transmissão do sarampo na população."
       },
       {
        "label": "E",
@@ -174,30 +174,31 @@
      "number": 6,
      "area": null,
      "subject": null,
-     "statement_md": "O hipotálamo é uma importante região encefálica, responsável pela homeostase corporal, a qual desencadeia mudanças fisiológicas como parte do processo de controle da temperatura corporal em humanos quando está abaixo do normal. Assinale a alternativa na qual estão apresentadas as mudanças desencadeadas nessa situação.\n\n![Tabela: Calibre dos vasos Atividade de Pequenos | sanguíneos periféricos glândulas sudoríparas espasmos musculares](/questoes/ufpr/2020/q06-tabela-1.png)",
+     "statement_md": "O hipotálamo é uma importante região encefálica, responsável pela homeostase corporal, a qual desencadeia mudanças fisiológicas como parte do processo de controle da temperatura corporal em humanos quando está abaixo do normal. Assinale a alternativa na qual estão apresentadas as mudanças desencadeadas nessa situação.\n\nCalibre dos vasos | Atividade de | Pequenos",
      "images": [
-      "/questoes/ufpr/2020/q06-tabela-1.png"
+      "/questoes/ufpr/2020/q06-A-1.png"
      ],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "constrição | diminuição | aumento"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q06-A-1.png"
       },
       {
        "label": "B",
-       "text_md": "dilatação | aumento | aumento"
+       "text_md": "dilatação aumento aumento"
       },
       {
        "label": "C",
-       "text_md": "dilatação | diminuição | aumento"
+       "text_md": "dilatação diminuição aumento"
       },
       {
        "label": "D",
-       "text_md": "dilatação | aumento | diminuição"
+       "text_md": "dilatação aumento diminuição"
       },
       {
        "label": "E",
-       "text_md": "constrição | aumento | diminuição"
+       "text_md": "constrição aumento diminuição"
       }
      ],
      "correct": "A",
@@ -650,7 +651,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Revela a supremacia da união entre guerreiros e\n\ntrabalhadores sobre os membros do clero."
+       "text_md": "Revela a supremacia da união entre guerreiros e trabalhadores sobre os membros do clero."
       },
       {
        "label": "B",
@@ -662,7 +663,7 @@
       },
       {
        "label": "D",
-       "text_md": "Representa\n\numa\n\nconfiguração\n\nsocial\n\nbaseada\n\nna cooperação e no serviço para a harmonia social no medievo."
+       "text_md": "Representa uma configuração social baseada na cooperação e no serviço para a harmonia social no medievo."
       },
       {
        "label": "E",
@@ -718,7 +719,7 @@
       },
       {
        "label": "B",
-       "text_md": "A ditadura civil-militar realizou escassos investimentos tanto em obras de infraestrutura rodoviária quanto em sistemas de\n\ncomunicação."
+       "text_md": "A ditadura civil-militar realizou escassos investimentos tanto em obras de infraestrutura rodoviária quanto em sistemas de comunicação."
       },
       {
        "label": "C",
@@ -782,7 +783,7 @@
       },
       {
        "label": "B",
-       "text_md": "Os jesuítas segregavam os indígenas em aldeias, para evitar a escravização da mão de obra nativa durante a colonização\n\nportuguesa."
+       "text_md": "Os jesuítas segregavam os indígenas em aldeias, para evitar a escravização da mão de obra nativa durante a colonização portuguesa."
       },
       {
        "label": "C",
@@ -826,7 +827,7 @@
       },
       {
        "label": "E",
-       "text_md": "As hostilidades dos trabalhadores ingleses às novas técnicas industriais informam o modo como os indivíduos foram\n\nafetados pelo surgimento da industrialização."
+       "text_md": "As hostilidades dos trabalhadores ingleses às novas técnicas industriais informam o modo como os indivíduos foram afetados pelo surgimento da industrialização."
       }
      ],
      "correct": "E",
@@ -882,7 +883,7 @@
       },
       {
        "label": "C",
-       "text_md": "O processo contra Galileu foi além de uma admoestação, ordenando que abjurasse da teoria heliocentrista defendida por\n\nCopérnico e não a divulgasse e nem a ensinasse."
+       "text_md": "O processo contra Galileu foi além de uma admoestação, ordenando que abjurasse da teoria heliocentrista defendida por Copérnico e não a divulgasse e nem a ensinasse."
       },
       {
        "label": "D",
@@ -901,7 +902,7 @@
      "number": 28,
      "area": null,
      "subject": null,
-     "statement_md": "![Trecho com fórmula: Um objeto de massa m constante está situado no topo de um plano inclinado sem atrito, de ângulo de inclinação , conforme mostra a](/questoes/ufpr/2020/q28-1.png)\n\nfigura ao lado. O objeto está inicialmente em repouso, a uma altura *H* da base do plano inclinado, e pode ser considerado uma partícula, tendo em conta as dimensões envolvidas. Num dado instante, ele é\n\n![Figura](/questoes/ufpr/2020/q28-2.png)\n\nsolto e desce o plano inclinado, chegando à sua base num instante\n\nposterior. Durante o movimento, o objeto não fica sujeito a nenhum\n\ntipo de atrito e as observações são feitas por um referencial inercial.\n\nNo local, a aceleração gravitacional vale, em módulo, *g*.\n\nLevando em consideração os dados apresentados, assinale a alternativa que corresponde ao valor do módulo da quantidade de movimento (momento linear) *Q* que o objeto de massa *m* adquire ao chegar à base do plano inclinado.",
+     "statement_md": "![Trecho com fórmula: Um objeto de massa m constante está situado no topo de um plano inclinado sem atrito, de ângulo de inclinação , conforme mostra a figura ao lado. O objeto está inicialmente em repouso, a uma altura H da base do plano inclinado, e pode ser considerado uma partícula, tendo em conta as dimensões envolvidas. Num dado instante, ele é](/questoes/ufpr/2020/q28-1.png)\n\n![Figura](/questoes/ufpr/2020/q28-2.png)\n\nsolto e desce o plano inclinado, chegando à sua base num instante\n\nposterior. Durante o movimento, o objeto não fica sujeito a nenhum\n\ntipo de atrito e as observações são feitas por um referencial inercial.\n\nNo local, a aceleração gravitacional vale, em módulo, *g*.\n\nLevando em consideração os dados apresentados, assinale a alternativa que corresponde ao valor do módulo da quantidade de movimento (momento linear) *Q* que o objeto de massa *m* adquire ao chegar à base do plano inclinado.",
      "images": [
       "/questoes/ufpr/2020/q28-1.png",
       "/questoes/ufpr/2020/q28-2.png"
@@ -1035,7 +1036,7 @@
      "number": 32,
      "area": null,
      "subject": null,
-     "statement_md": "As propriedades elétricas de dois resistores A e B foram investigadas, e os dados obtidos para eles foram dispostos na forma de um gráfico *V* x *i*, em que *V* é a tensão aplicada e *i* é a corrente elétrica que por eles circula. As curvas para os resistores A (linha cheia) e B (linha tracejada) são apresentadas na figura ao lado.\n\nCom base nos dados apresentados, considere as seguintes afirmativas:\n\n1. O resistor B é ôhmico.\n\n![Figura](/questoes/ufpr/2020/q32-1.png)\n\n2. Os resistores têm resistências iguais quando submetidos a uma tensão de 10 V.\n\n3. A potência dissipada pelo resistor A quando submetido a uma tensão de 20 V vale 0,6 W.\n\n![Trecho com fórmula: 4. O resistor B apresenta uma resistência de 50 quando](/questoes/ufpr/2020/q32-2.png)\n\nsubmetido a uma tensão de 5 V.\n\nAssinale a alternativa correta.",
+     "statement_md": "As propriedades elétricas de dois resistores A e B foram investigadas, e os dados obtidos para eles foram dispostos na forma de um gráfico *V* x *i*, em que *V* é a tensão aplicada e *i* é a corrente elétrica que por eles circula. As curvas para os resistores A (linha cheia) e B (linha tracejada) são apresentadas na figura ao lado.\n\nCom base nos dados apresentados, considere as seguintes afirmativas:\n\n1. O resistor B é ôhmico.\n\n![Figura](/questoes/ufpr/2020/q32-1.png)\n\n2. Os resistores têm resistências iguais quando submetidos a uma tensão de 10 V.\n\n3. A potência dissipada pelo resistor A quando submetido a uma tensão de 20 V vale 0,6 W.\n\n![Trecho com fórmula: 4. O resistor B apresenta uma resistência de 50 quando submetido a uma tensão de 5 V.](/questoes/ufpr/2020/q32-2.png)\n\nAssinale a alternativa correta.",
      "images": [
       "/questoes/ufpr/2020/q32-1.png",
       "/questoes/ufpr/2020/q32-2.png"
@@ -1104,7 +1105,7 @@
      "number": 34,
      "area": null,
      "subject": null,
-     "statement_md": "![Trecho com fórmula: Um objeto de massa m = 500 g recebe uma certa quantidade de calor Q e, com isso, sofre uma variação de temperatura T. A relação entre T](/questoes/ufpr/2020/q34-1.png)\n\ne *Q* está representada no gráfico ao lado.\n\nAssinale a alternativa que apresenta corretamente o valor do calor específico *c* desse objeto.\n\n![Figura](/questoes/ufpr/2020/q34-2.png)",
+     "statement_md": "![Trecho com fórmula: Um objeto de massa m = 500 g recebe uma certa quantidade de calor Q e, com isso, sofre uma variação de temperatura T. A relação entre T e Q está representada no gráfico ao lado.](/questoes/ufpr/2020/q34-1.png)\n\nAssinale a alternativa que apresenta corretamente o valor do calor específico *c* desse objeto.\n\n![Figura](/questoes/ufpr/2020/q34-2.png)",
      "images": [
       "/questoes/ufpr/2020/q34-1.png",
       "/questoes/ufpr/2020/q34-2.png"
@@ -1139,19 +1140,25 @@
      "number": 35,
      "area": null,
      "subject": null,
-     "statement_md": "Um objeto de massa *m* = 10 kg está suspenso por dois cabos que exercem\n\n![Trecho com fórmula: trações T 1 e T 2 de mesma intensidade T, de modo que |T 1| = |T 2| = T. As](/questoes/ufpr/2020/q35-1.png)\n\ntrações exercidas pelos cabos estão dispostas conforme mostra a figura ao lado, fazendo um ângulo de 30º com a direção horizontal. O objeto está em equilíbrio estático e sujeito à atração gravitacional da Terra. Nesse local, a aceleração gravitacional é g = 10 m/s².\n\n![Figura](/questoes/ufpr/2020/q35-2.png)\n\nAs medições no local são executadas por um observador inercial. Sabe-se que sen 30º = cos 60º = 2, e que sen 60º = cos 30º = √3 2.\n\n1\n\nLevando em consideração os dados apresentados, assinale a alternativa que apresenta corretamente o valor do módulo da tração exercida por cada cabo.",
+     "statement_md": "![Trecho com fórmula: Um objeto de massa m = 10 kg está suspenso por dois cabos que exercem trações T 1 e T 2 de mesma intensidade T, de modo que |T 1| = |T 2| = T. As trações exercidas pelos cabos estão dispostas conforme mostra a figura ao lado, fazendo um ângulo de 30º com a direção horizontal. O objeto está em equilíbrio estático e sujeito à atração gravitacional da Terra. Nesse local, a aceleração gravitacional é…](/questoes/ufpr/2020/q35-1.png)\n\n![Figura](/questoes/ufpr/2020/q35-2.png)\n\n![Trecho com fórmula: As medições no local são executadas por um observador inercial. Sabe-se que sen 30º = cos 60º = 1 2, e que sen 60º = cos 30º = √3 2.](/questoes/ufpr/2020/q35-3.png)\n\nLevando em consideração os dados apresentados, assinale a alternativa que apresenta corretamente o valor do módulo da tração exercida por cada cabo.",
      "images": [
       "/questoes/ufpr/2020/q35-1.png",
-      "/questoes/ufpr/2020/q35-2.png"
+      "/questoes/ufpr/2020/q35-2.png",
+      "/questoes/ufpr/2020/q35-3.png",
+      "/questoes/ufpr/2020/q35-A-1.png",
+      "/questoes/ufpr/2020/q35-B-1.png",
+      "/questoes/ufpr/2020/q35-D-1.png"
      ],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "T=\n\n50√3\n\nN. 3"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q35-A-1.png"
       },
       {
        "label": "B",
-       "text_md": "T=\n\n100√3\n\nN. 3"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q35-B-1.png"
       },
       {
        "label": "C",
@@ -1159,7 +1166,8 @@
       },
       {
        "label": "D",
-       "text_md": "T=\n\n200√3\n\nN. 3"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q35-D-1.png"
       },
       {
        "label": "E",
@@ -1238,7 +1246,7 @@
      "number": 38,
      "area": null,
      "subject": null,
-     "statement_md": "O texto a seguir é referência para as questões 38 a 40.\n\nDiverti-me imensamente com a história dos imbecis da web. Para quem não acompanhou, foi publicado em alguns jornais e também on-line que no curso de uma chamada *lectio magistralis* em Turim eu teria dito que a web está cheia de imbecis. É falso. A *lectio* era sobre um tema completamente diferente, mas isso mostra como as notícias circulam e se deformam entre os jornais e a web. A história dos imbecis surgiu numa conferência de imprensa durante a qual, respondendo a uma pergunta que não me lembro mais, fiz uma observação de puro bom senso. Admitindo que em 7 bilhões de habitantes exista uma taxa inevitável de imbecis, muitíssimos deles costumavam comunicar seus delírios aos íntimos ou aos amigos do bar – e assim suas opiniões permaneciam limitadas a um círculo restrito. Hoje uma parte consistente dessas pessoas tem a possibilidade de expressar as próprias opiniões nas redes sociais e, portanto, tais opiniões alcançam audiências altíssimas e se misturam com tantas outras ideias expressas por pessoas razoáveis.\n\n\\[...\\]\n\nÉ justo que a rede permita que mesmo quem não diz coisas sensatas se expresse, mas o excesso de besteira congestiona as linhas. E algumas reações descompensadas que vi na internet confirmam minha razoabilíssima tese. Alguém chegou a dizer que, para mim, as opiniões de um tolo e aquelas de um ganhador do prêmio Nobel têm a mesma evidência e não demorou para que se difundisse viralmente uma inútil discussão sobre o fato de eu ter ou não recebido um prêmio Nobel – sem que ninguém consultasse sequer a Wikipédia.\n\n(Umberto Eco – Os imbecis e a imprensa responsável, 2017.)\n\nNo trecho “Admitindo que em 7 bilhões de habitantes exista uma taxa inevitável de imbecis, muitíssimos deles costumavam comunicar seus delírios aos íntimos ou aos amigos do bar – e assim suas opiniões permaneciam limitadas a um círculo restrito”, as orações, cujos inícios estão sublinhados, correspondem, respectivamente, a:",
+     "statement_md": "O texto a seguir é referência para as questões 38 a 40.\n\nDiverti-me imensamente com a história dos imbecis da web. Para quem não acompanhou, foi publicado em alguns jornais e também on-line que no curso de uma chamada *lectio magistralis* em Turim eu teria dito que a web está cheia de imbecis. É falso. A *lectio* era sobre um tema completamente diferente, mas isso mostra como as notícias circulam e se deformam entre os jornais e a web. A história dos imbecis surgiu numa conferência de imprensa durante a qual, respondendo a uma pergunta que não me lembro mais, fiz uma observação de puro bom senso. Admitindo que em 7 bilhões de habitantes exista uma taxa inevitável de imbecis, muitíssimos deles costumavam comunicar seus delírios aos íntimos ou aos amigos do bar – e assim suas opiniões permaneciam limitadas a um círculo restrito. Hoje uma parte consistente dessas pessoas tem a possibilidade de expressar as próprias opiniões nas redes sociais e, portanto, tais opiniões alcançam audiências altíssimas e se misturam com tantas outras ideias expressas por pessoas razoáveis.\n\n\\[...\\]\n\nÉ justo que a rede permita que mesmo quem não diz coisas sensatas se expresse, mas o excesso de besteira congestiona as linhas. E algumas reações descompensadas que vi na internet confirmam minha razoabilíssima tese. Alguém chegou a dizer que, para mim, as opiniões de um tolo e aquelas de um ganhador do prêmio Nobel têm a mesma evidência e não demorou para que se difundisse viralmente uma inútil discussão sobre o fato de eu ter ou não recebido um prêmio Nobel – sem que ninguém consultasse sequer a Wikipédia.\n\n(Umberto Eco – Os imbecis e a imprensa responsável, 2017.)\n\nNo trecho “**Admitindo** que em 7 bilhões de habitantes exista uma taxa inevitável de imbecis, muitíssimos deles costumavam comunicar seus delírios aos íntimos ou aos amigos do bar – **e assim suas opiniões** permaneciam limitadas a um círculo restrito”, as orações, cujos inícios estão sublinhados, correspondem, respectivamente, a:",
      "images": [],
      "alternatives": [
       {
@@ -1375,7 +1383,7 @@
       },
       {
        "label": "B",
-       "text_md": "O travessão antes de “isso quando não há atraso no pagamento” (linhas 4-5) poderia ser substituído por ponto final, sem\n\nprejuízo gramatical e do sentido básico do enunciado."
+       "text_md": "O travessão antes de “isso quando não há atraso no pagamento” (linhas 4-5) poderia ser substituído por ponto final, sem prejuízo gramatical e do sentido básico do enunciado."
       },
       {
        "label": "C",
@@ -1521,7 +1529,7 @@
       },
       {
        "label": "E",
-       "text_md": "Eufemismo.\n\nO texto a seguir é referência para as questões 47 e 48.\n\nPor que as lhamas podem guardar o segredo para combater a gripe\n\nCientistas americanos recrutaram uma curiosa aliada para desenvolver tratamentos contra a gripe: a lhama. O sangue desse animal sul-americano foi utilizado para produzir uma nova terapia com anticorpos que têm o potencial de combater todos os tipos de gripe.\n\nA gripe é uma das doenças mais hábeis na hora de mudar de forma. Constantemente, modifica sua aparência para despistar nosso sistema imunológico. Isso explica porque as vacinas nem sempre são efetivas e, a cada inverno, é necessário receber uma nova injeção para prevenir a doença.\n\nPor isso, a ciência está à procura de uma forma de acabar com todos os tipos de gripe, não importando de qual cepa provenha ou o quanto possa sofrer mutações. É aí que entra a lhama.\n\nEsses animais, nativos dos Andes, têm anticorpos incrivelmente pequenos em comparação com os dos humanos. Os anticorpos são as armas do sistema imunológico, e aderem às proteínas que sobressaem na superfície dos vírus.\n\nOs anticorpos humanos tendem a atacar as pontas dessas proteínas, \\_\\_\\_\\_\\_\\_\\_ essa é a parte em que o vírus da gripe muda com mais rapidez. \\_\\_\\_\\_\\_\\_\\_ os anticorpos da lhama, com seu tamanho diminuto, conseguem atacar as partes do vírus da gripe que não sofrem mutação.\n\nUma equipe do Instituto Scripps, nos Estados Unidos, infectou lhamas com múltiplos tipos de gripe, para estimular uma resposta do seu sistema imunológico. Em seguida, analisou o sangue dos animais, procurando pelos anticorpos mais potentes, que poderiam atacar uma ampla variedade de vírus.\n\nOs cientistas, \\_\\_\\_\\_\\_\\_\\_, identificaram quatro anticorpos das lhamas. Depois, começaram a desenvolver um anticorpo sintético, que une elementos desses quatro tipos.\n\nO trabalho, que foi publicado na revista científica *Science*, ainda está em estágios muito iniciais. A equipe de cientistas pretende realizar mais experimentos antes de fazer testes com humanos. “Ter um tratamento que possa funcionar contra uma variedade de cepas diferentes do vírus da gripe é algo muito desejado. É o Santo Graal da gripe”, afirma o professor Jonathan Ball, da Universidade de Nottingham.\n\n(James Gallagher, Correspondente de Saúde e Ciência, BBC News. Disponível em: https://www.bbc.com/portuguese/geral-46101443?ocid=socialflow\\_ facebook&fbclid=IwAR1Bj0yRbAN1yzVPG9X8H0KC2B5I59XTXbPwX7w0kk9O4kfMIop3H-wjmIY. Acesso em 07/07/2019. Adaptado.)"
+       "text_md": "Eufemismo."
       }
      ],
      "correct": "D",
@@ -1532,7 +1540,7 @@
      "number": 47,
      "area": null,
      "subject": null,
-     "statement_md": "Assinale a alternativa que preenche corretamente as lacunas acima, na ordem em que aparecem no texto.",
+     "statement_md": "O texto a seguir é referência para as questões 47 e 48.\n\nPor que as lhamas podem guardar o segredo para combater a gripe\n\nCientistas americanos recrutaram uma curiosa aliada para desenvolver tratamentos contra a gripe: a lhama. O sangue desse animal sul-americano foi utilizado para produzir uma nova terapia com anticorpos que têm o potencial de combater todos os tipos de gripe.\n\nA gripe é uma das doenças mais hábeis na hora de mudar de forma. Constantemente, modifica sua aparência para despistar nosso sistema imunológico. Isso explica porque as vacinas nem sempre são efetivas e, a cada inverno, é necessário receber uma nova injeção para prevenir a doença.\n\nPor isso, a ciência está à procura de uma forma de acabar com todos os tipos de gripe, não importando de qual cepa provenha ou o quanto possa sofrer mutações. É aí que entra a lhama.\n\nEsses animais, nativos dos Andes, têm anticorpos incrivelmente pequenos em comparação com os dos humanos. Os anticorpos são as armas do sistema imunológico, e aderem às proteínas que sobressaem na superfície dos vírus.\n\nOs anticorpos humanos tendem a atacar as pontas dessas proteínas, \\_\\_\\_\\_\\_\\_\\_ essa é a parte em que o vírus da gripe muda com mais rapidez. \\_\\_\\_\\_\\_\\_\\_ os anticorpos da lhama, com seu tamanho diminuto, conseguem atacar as partes do vírus da gripe que não sofrem mutação.\n\nUma equipe do Instituto Scripps, nos Estados Unidos, infectou lhamas com múltiplos tipos de gripe, para estimular uma resposta do seu sistema imunológico. Em seguida, analisou o sangue dos animais, procurando pelos anticorpos mais potentes, que poderiam atacar uma ampla variedade de vírus.\n\nOs cientistas, \\_\\_\\_\\_\\_\\_\\_, identificaram quatro anticorpos das lhamas. Depois, começaram a desenvolver um anticorpo sintético, que une elementos desses quatro tipos.\n\nO trabalho, que foi publicado na revista científica *Science*, ainda está em estágios muito iniciais. A equipe de cientistas pretende realizar mais experimentos antes de fazer testes com humanos. “Ter um tratamento que possa funcionar contra uma variedade de cepas diferentes do vírus da gripe é algo muito desejado. É o Santo Graal da gripe”, afirma o professor Jonathan Ball, da Universidade de Nottingham.\n\n(James Gallagher, Correspondente de Saúde e Ciência, BBC News. Disponível em: https://www.bbc.com/portuguese/geral-46101443?ocid=socialflow\\_ facebook&fbclid=IwAR1Bj0yRbAN1yzVPG9X8H0KC2B5I59XTXbPwX7w0kk9O4kfMIop3H-wjmIY. Acesso em 07/07/2019. Adaptado.)\n\nAssinale a alternativa que preenche corretamente as lacunas acima, na ordem em que aparecem no texto.",
      "images": [],
      "alternatives": [
       {
@@ -1564,7 +1572,7 @@
      "number": 48,
      "area": null,
      "subject": null,
-     "statement_md": "Ao comparar a vacina contra diferentes cepas do vírus da gripe ao Santo Graal, o professor Jonathan Ball quis dizer que:",
+     "statement_md": "O texto a seguir é referência para as questões 47 e 48.\n\nPor que as lhamas podem guardar o segredo para combater a gripe\n\nCientistas americanos recrutaram uma curiosa aliada para desenvolver tratamentos contra a gripe: a lhama. O sangue desse animal sul-americano foi utilizado para produzir uma nova terapia com anticorpos que têm o potencial de combater todos os tipos de gripe.\n\nA gripe é uma das doenças mais hábeis na hora de mudar de forma. Constantemente, modifica sua aparência para despistar nosso sistema imunológico. Isso explica porque as vacinas nem sempre são efetivas e, a cada inverno, é necessário receber uma nova injeção para prevenir a doença.\n\nPor isso, a ciência está à procura de uma forma de acabar com todos os tipos de gripe, não importando de qual cepa provenha ou o quanto possa sofrer mutações. É aí que entra a lhama.\n\nEsses animais, nativos dos Andes, têm anticorpos incrivelmente pequenos em comparação com os dos humanos. Os anticorpos são as armas do sistema imunológico, e aderem às proteínas que sobressaem na superfície dos vírus.\n\nOs anticorpos humanos tendem a atacar as pontas dessas proteínas, \\_\\_\\_\\_\\_\\_\\_ essa é a parte em que o vírus da gripe muda com mais rapidez. \\_\\_\\_\\_\\_\\_\\_ os anticorpos da lhama, com seu tamanho diminuto, conseguem atacar as partes do vírus da gripe que não sofrem mutação.\n\nUma equipe do Instituto Scripps, nos Estados Unidos, infectou lhamas com múltiplos tipos de gripe, para estimular uma resposta do seu sistema imunológico. Em seguida, analisou o sangue dos animais, procurando pelos anticorpos mais potentes, que poderiam atacar uma ampla variedade de vírus.\n\nOs cientistas, \\_\\_\\_\\_\\_\\_\\_, identificaram quatro anticorpos das lhamas. Depois, começaram a desenvolver um anticorpo sintético, que une elementos desses quatro tipos.\n\nO trabalho, que foi publicado na revista científica *Science*, ainda está em estágios muito iniciais. A equipe de cientistas pretende realizar mais experimentos antes de fazer testes com humanos. “Ter um tratamento que possa funcionar contra uma variedade de cepas diferentes do vírus da gripe é algo muito desejado. É o Santo Graal da gripe”, afirma o professor Jonathan Ball, da Universidade de Nottingham.\n\n(James Gallagher, Correspondente de Saúde e Ciência, BBC News. Disponível em: https://www.bbc.com/portuguese/geral-46101443?ocid=socialflow\\_ facebook&fbclid=IwAR1Bj0yRbAN1yzVPG9X8H0KC2B5I59XTXbPwX7w0kk9O4kfMIop3H-wjmIY. Acesso em 07/07/2019. Adaptado.)\n\nAo comparar a vacina contra diferentes cepas do vírus da gripe ao Santo Graal, o professor Jonathan Ball quis dizer que:",
      "images": [],
      "alternatives": [
       {
@@ -1613,7 +1621,7 @@
       },
       {
        "label": "D",
-       "text_md": "A descrição do meio físico é mediada pela visão do narrador, que apresenta a natureza como elemento tão reversível\n\nquanto a condição humana."
+       "text_md": "A descrição do meio físico é mediada pela visão do narrador, que apresenta a natureza como elemento tão reversível quanto a condição humana."
       },
       {
        "label": "E",
@@ -1628,12 +1636,10 @@
      "number": 50,
      "area": null,
      "subject": null,
-     "statement_md": "Leia os versos abaixo, de Gonçalves Dias e Basílio da Gama:\n\nO Gigante de Pedra | A Tempestade | O Uraguai\n\n(II, Estrofes 5 e 6) | (Estrofes 1-4) | (Canto IV, v. 30-52)\n\nTornam prados a despir-se, | Um raio | Assim quem olha do escarpado cume\n\n![Tabela: Tornam flores a murchar, Fulgura Não vê mais do que o céu, que o mais lhe encobre Tornam de novo a vestir-se, No espaço, A tarda e fria névoa, escura e densa.](/questoes/ufpr/2020/q50-1.png)\n\nTornam depois a secar; | Esparso | Mas quando o sol, de lá do eterno e fixo\n\nE como gota filtrada | De luz; | Purpúreo encosto de dourado assento,\n\nDe uma abóboda escavada | E trêmulo | Co’a criadora mão desfaz e corre\n\nSempre, incessante a cair, | E puro | O véu cinzento de ondeadas nuvens,\n\n![Tabela: Tombam as horas e os dias, Se aviva, Que alegre cena para nossos olhos! Podem Como fantasmas sombrias, S’esquiva, Daquela altura, por espaço imenso,](/questoes/ufpr/2020/q50-2.png)\n\nNos abismos do porvir! | Rutila. | Ver as longas campinas retalhadas\n\nSeduz! | De trêmulos ribeiros, claras fontes\n\nE no féretro de montes | E lagos cristalinos, onde molha\n\nInconcusso, imóvel, fito, | Vem a aurora | As leves asas o lascivo vento.\n\nEscurece os horizontes | Pressurosa, | Engraçados outeiros, fundos vales\n\nO gigante de granito. | Côr-de-rosa, | E arvoredos copados e confusos,\n\nCom soberba indiferença | Que se cora | Verde teatro onde se admira quanto\n\nSente extinta a antiga crença | De carmim; | Produziu a supérflua Natureza.\n\nDos Tamoios, dos Pajés; | A seus raios | A terra sofredora de cultura\n\n![Tabela: Nem vê que duras desgraças, As estrelas, Mostra o rasgado seio; e as várias plantas, Que lutas de novas raças Que eram belas, Dando as mãos entre si, tecem compridas](/questoes/ufpr/2020/q50-3.png)\n\nSe lhe atropelam aos pés! | Têm desmaios, | Ruas, por onde a vista saudosa\n\nGonçalves Dias | Já por fim. | Se estende e se perde. O vagaroso gado\n\nO sol desponta | Mal se move no campo, e se divisam\n\n![Tabela: Lá no horizonte, Por entre as sombras da verdura, ao longe, Doirando a fronte, As casas branquejando e os altos templos. E o prado e o monte Basílio da Gama](/questoes/ufpr/2020/q50-4.png)\n\nE o céu e o mar;\n\nE um manto belo\n\nDe vivas cores\n\nAdorna as flores\n\nQue entre verdores\n\nSe vê brilhar.\n\nUm ponto aparece,\n\nQue o dia entristece,\n\nO céu, onde cresce,\n\nDe negro a tingir;\n\nOh! Vede a procela\n\nInfrene, mais bela,\n\nNo ar s’encapela\n\nJá pronta a rugir!\n\nGonçalves Dias\n\nCom base na análise dos versos acima e na leitura integral de *O Uraguai* e de *Os últimos cantos*, considere as seguintes afirmativas:\n\n1. Embora as “Poesias Americanas” tenham alcançado grande destaque nas leituras posteriores da obra de Gonçalves Dias, em *Últimos Cantos* elas ocupam um espaço menor do que o conjunto das outras duas partes: “Poesias Diversas” e “Hinos”.\n\n2. No poema “O gigante de pedra”, é a montanha, da sua altura, quem assiste aos acontecimentos da história. Os versos acima citados de *O Uraguai*, por sua vez, adotam a perspectiva do olhar humano para descrever a natureza que se descortina do alto de uma montanha.\n\n3. O hino “A tempestade” recria em seus versos os efeitos do fenômeno atmosférico que deslumbra o poeta. Nas três estrofes citadas, podem-se perceber os recursos poéticos utilizados: métrica crescente, esquema de rimas diferente a cada estrofe, adjetivos e verbos que vão do claro ao escuro, do tranquilo ao agitado.\n\n4. A reiteração sonora do verbo “tornar”, na mesma posição dos versos iniciais da estrofe 5 de “O Gigante de Pedra”, marca a variação das estações do ano, sendo que a mesma característica é atribuída à montanha na estrofe seguinte e ao longo de todo o poema.\n\n5. A partir de acidentes geográficos de localização precisa, a cadeia de montanhas localizada na atual cidade do Rio de Janeiro e o rio Uruguai, localizado na fronteira sul do país, “O Gigante de Pedra” e *O Uraguai* narram um episódio específico e datado da história brasileira.\n\nAssinale a alternativa correta.",
+     "statement_md": "Leia os versos abaixo, de Gonçalves Dias e Basílio da Gama:\n\nO Gigante de Pedra | A Tempestade | O Uraguai\n\n(II, Estrofes 5 e 6) | (Estrofes 1-4) | (Canto IV, v. 30-52)\n\nTornam prados a despir-se, | Um raio | Assim quem olha do escarpado cume\n\n![Tabela: Tornam flores a murchar, Fulgura Não vê mais do que o céu, que o mais lhe encobre Tornam de novo a vestir-se, No espaço, A tarda e fria névoa, escura e densa.](/questoes/ufpr/2020/q50-1.png)\n\nTornam depois a secar; | Esparso | Mas quando o sol, de lá do eterno e fixo\n\nE como gota filtrada | De luz; | Purpúreo encosto de dourado assento,\n\nDe uma abóboda escavada | E trêmulo | Co’a criadora mão desfaz e corre\n\nSempre, incessante a cair, | E puro | O véu cinzento de ondeadas nuvens,\n\n![Tabela: Tombam as horas e os dias, Se aviva, Que alegre cena para nossos olhos! Podem Como fantasmas sombrias, S’esquiva, Daquela altura, por espaço imenso,](/questoes/ufpr/2020/q50-2.png)\n\nNos abismos do porvir! | Rutila. | Ver as longas campinas retalhadas\n\nSeduz! | De trêmulos ribeiros, claras fontes\n\nE no féretro de montes\n\nE lagos cristalinos, onde molha\n\nInconcusso, imóvel, fito, | Vem a aurora\n\nAs leves asas o lascivo vento.\n\nEscurece os horizontes | Pressurosa,\n\nEngraçados outeiros, fundos vales\n\nO gigante de granito. | Côr-de-rosa,\n\nE arvoredos copados e confusos,\n\nCom soberba indiferença | Que se cora\n\nVerde teatro onde se admira quanto\n\nSente extinta a antiga crença | De carmim;\n\nProduziu a supérflua Natureza.\n\nDos Tamoios, dos Pajés; | A seus raios\n\nA terra sofredora de cultura\n\nNem vê que duras desgraças, | As estrelas,\n\nMostra o rasgado seio; e as várias plantas,\n\nQue lutas de novas raças | Que eram belas,\n\nDando as mãos entre si, tecem compridas\n\nSe lhe atropelam aos pés! | Têm desmaios,\n\nRuas, por onde a vista saudosa\n\nJá por fim.\n\nGonçalves Dias | Se estende e se perde. O vagaroso gado\n\nMal se move no campo, e se divisam\n\nO sol desponta\n\nPor entre as sombras da verdura, ao longe,\n\nLá no horizonte,\n\nAs casas branquejando e os altos templos.\n\nDoirando a fronte,\n\nE o prado e o monte | Basílio da Gama\n\nE o céu e o mar;\n\nE um manto belo\n\nDe vivas cores\n\nAdorna as flores\n\nQue entre verdores\n\nSe vê brilhar.\n\nUm ponto aparece,\n\nQue o dia entristece,\n\nO céu, onde cresce,\n\nDe negro a tingir;\n\nOh! Vede a procela\n\nInfrene, mais bela,\n\nNo ar s’encapela\n\nJá pronta a rugir!\n\nGonçalves Dias\n\nCom base na análise dos versos acima e na leitura integral de *O Uraguai* e de *Os últimos cantos*, considere as seguintes afirmativas:\n\n1. Embora as “Poesias Americanas” tenham alcançado grande destaque nas leituras posteriores da obra de Gonçalves Dias, em *Últimos Cantos* elas ocupam um espaço menor do que o conjunto das outras duas partes: “Poesias Diversas” e “Hinos”.\n\n2. No poema “O gigante de pedra”, é a montanha, da sua altura, quem assiste aos acontecimentos da história. Os versos acima citados de *O Uraguai*, por sua vez, adotam a perspectiva do olhar humano para descrever a natureza que se descortina do alto de uma montanha.\n\n3. O hino “A tempestade” recria em seus versos os efeitos do fenômeno atmosférico que deslumbra o poeta. Nas três estrofes citadas, podem-se perceber os recursos poéticos utilizados: métrica crescente, esquema de rimas diferente a cada estrofe, adjetivos e verbos que vão do claro ao escuro, do tranquilo ao agitado.\n\n4. A reiteração sonora do verbo “tornar”, na mesma posição dos versos iniciais da estrofe 5 de “O Gigante de Pedra”, marca a variação das estações do ano, sendo que a mesma característica é atribuída à montanha na estrofe seguinte e ao longo de todo o poema.\n\n5. A partir de acidentes geográficos de localização precisa, a cadeia de montanhas localizada na atual cidade do Rio de Janeiro e o rio Uruguai, localizado na fronteira sul do país, “O Gigante de Pedra” e *O Uraguai* narram um episódio específico e datado da história brasileira.\n\nAssinale a alternativa correta.",
      "images": [
       "/questoes/ufpr/2020/q50-1.png",
-      "/questoes/ufpr/2020/q50-2.png",
-      "/questoes/ufpr/2020/q50-3.png",
-      "/questoes/ufpr/2020/q50-4.png"
+      "/questoes/ufpr/2020/q50-2.png"
      ],
      "alternatives": [
       {
@@ -1674,7 +1680,7 @@
       },
       {
        "label": "B",
-       "text_md": "“Muita vez chorou de ternura, mas sempre às escondidas; muita vez sentiu o coração saltar para o filho, mas sempre se\n\nconteve, receoso de cair no ridículo./ E não se lembrava, o imprudente, de que o amor de pai é bem ao contrário do amor de filho; não se lembrava de que aquele nasce e subsiste por si e que este precisa ser criado; que aquele é um princípio e que este é uma consequência; que um vem de dentro para fora e que o outro vem de fora para dentro”."
+       "text_md": "“Muita vez chorou de ternura, mas sempre às escondidas; muita vez sentiu o coração saltar para o filho, mas sempre se conteve, receoso de cair no ridículo./ E não se lembrava, o imprudente, de que o amor de pai é bem ao contrário do amor de filho; não se lembrava de que aquele nasce e subsiste por si e que este precisa ser criado; que aquele é um princípio e que este é uma consequência; que um vem de dentro para fora e que o outro vem de fora para dentro”."
       },
       {
        "label": "C",
@@ -1718,7 +1724,7 @@
       },
       {
        "label": "E",
-       "text_md": "“Na primeira noite, ele me falou de uma ilha no Pacífico, onde os índios são negros. Me falou do tempo que passou entre\n\nesses índios e de uma aldeia, que chamou de Nakoroka, onde cada um decide o que quer ser, pode escolher sua irmã, seu primo, sua família, e também sua casta, seu lugar em relação aos outros \\[...\\] o sonho de aventura do menino antropólogo”."
+       "text_md": "“Na primeira noite, ele me falou de uma ilha no Pacífico, onde os índios são negros. Me falou do tempo que passou entre esses índios e de uma aldeia, que chamou de Nakoroka, onde cada um decide o que quer ser, pode escolher sua irmã, seu primo, sua família, e também sua casta, seu lugar em relação aos outros \\[...\\] o sonho de aventura do menino antropólogo”."
       }
      ],
      "correct": "E",
@@ -1744,7 +1750,7 @@
       },
       {
        "label": "C",
-       "text_md": "Ao final, fica claro para o leitor que a vida no Recife também seria semelhante à das regiões menos desenvolvidas da\n\nCaatinga, do Agreste e da Zona da Mata, porque a pobreza não é causada pelas condições naturais, mas por uma estrutura social excludente."
+       "text_md": "Ao final, fica claro para o leitor que a vida no Recife também seria semelhante à das regiões menos desenvolvidas da Caatinga, do Agreste e da Zona da Mata, porque a pobreza não é causada pelas condições naturais, mas por uma estrutura social excludente."
       },
       {
        "label": "D",
@@ -1763,7 +1769,7 @@
      "number": 54,
      "area": null,
      "subject": null,
-     "statement_md": "Leia o trecho abaixo, de *Relato de um certo oriente*, de Milton Hatoum:\n\nNo meu íntimo, creio que deixei a família e a cidade também por não suportar a convivência estúpida com os serviçais. Lembro Dorner dizer que o privilégio aqui no norte não decorre apenas da posse de riquezas.\n\n– Aqui reina uma forma estranha de escravidão – opinava Dorner. – A humilhação e a ameaça são o açoite; a comida e a integração ilusória à família do senhor são as correntes e golilhas.\n\nHavia alguma verdade nesta sentença.\n\n(HATOUM, Milton. *Relato de um certo oriente*. São Paulo: Companhia das Letras, 1989, p. 88.)\n\nA respeito desse romance, considere as seguintes afirmativas:\n\n1. Quem narra essa parte do relato é Hakim, filho preferido de Emilie, a quem ela ensinou o árabe na infância e que muito jovem se mudaria para o Sul do Brasil, jamais vendo a mãe novamente.\n\n2. Dorner é um comerciante alemão, concorrente da loja da família de Emilie, a Parisiense, mas que se mantivera próximo à família por sua antiga amizade com Emir, o irmão suicida da matriarca.\n\n3. O julgamento de Dorner, com o qual o narrador concorda, é injusto, e o tratamento cordial que toda a família de Emilie dedica à serviçal Anastácia Socorro é prova desse equívoco.\n\n4. A referência à escravidão permite que se localize a ação de *Relato de um certo oriente* no final do século XIX, período em que o Ciclo da Borracha atraiu imigrantes para a região Norte.\n\nAssinale a alternativa correta.",
+     "statement_md": "Leia o trecho abaixo, de *Relato de um certo oriente*, de Milton Hatoum:\n\nNo meu íntimo, creio que deixei a família e a cidade também por não suportar a convivência estúpida com os serviçais. Lembro Dorner dizer que o privilégio aqui no norte não decorre apenas da posse de riquezas.\n\n– Aqui reina uma forma estranha de escravidão – opinava Dorner. – A humilhação e a ameaça são o açoite; a comida e\n\na integração ilusória à família do senhor são as correntes e golilhas.\n\nHavia alguma verdade nesta sentença.\n\n(HATOUM, Milton. *Relato de um certo oriente*. São Paulo: Companhia das Letras, 1989, p. 88.)\n\nA respeito desse romance, considere as seguintes afirmativas:\n\n1. Quem narra essa parte do relato é Hakim, filho preferido de Emilie, a quem ela ensinou o árabe na infância e que muito jovem se mudaria para o Sul do Brasil, jamais vendo a mãe novamente.\n\n2. Dorner é um comerciante alemão, concorrente da loja da família de Emilie, a Parisiense, mas que se mantivera próximo à família por sua antiga amizade com Emir, o irmão suicida da matriarca.\n\n3. O julgamento de Dorner, com o qual o narrador concorda, é injusto, e o tratamento cordial que toda a família de Emilie dedica à serviçal Anastácia Socorro é prova desse equívoco.\n\n4. A referência à escravidão permite que se localize a ação de *Relato de um certo oriente* no final do século XIX, período em que o Ciclo da Borracha atraiu imigrantes para a região Norte.\n\nAssinale a alternativa correta.",
      "images": [],
      "alternatives": [
       {
@@ -1995,28 +2001,39 @@
      "number": 61,
      "area": null,
      "subject": null,
-     "statement_md": "Recentemente, foi divulgada a descoberta de um fóssil de um lobo gigante, pertencente ao período Pleistoceno. A idade do fóssil foi determinada por meio de datação por carbono-14. A quantidade desse isótopo presente no animal vivo corresponde à sua abundância natural. Após a morte, a quantidade desse isótopo decresce em função da sua taxa de decaimento, cujo tempo de meia-vida é de 5.730 anos. A idade do fóssil foi determinada em 32.000 anos. A fração da quantidade de matéria de carbono-14 presente nesse fóssil em relação à sua abundância natural está entre:\n\n1 1",
-     "images": [],
+     "statement_md": "Recentemente, foi divulgada a descoberta de um fóssil de um lobo gigante, pertencente ao período Pleistoceno. A idade do fóssil foi determinada por meio de datação por carbono-14. A quantidade desse isótopo presente no animal vivo corresponde à sua abundância natural. Após a morte, a quantidade desse isótopo decresce em função da sua taxa de decaimento, cujo tempo de meia-vida é de 5.730 anos. A idade do fóssil foi determinada em 32.000 anos. A fração da quantidade de matéria de carbono-14 presente nesse fóssil em relação à sua abundância natural está entre:",
+     "images": [
+      "/questoes/ufpr/2020/q61-A-1.png",
+      "/questoes/ufpr/2020/q61-B-1.png",
+      "/questoes/ufpr/2020/q61-C-1.png",
+      "/questoes/ufpr/2020/q61-D-1.png",
+      "/questoes/ufpr/2020/q61-E-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "*e*\n\n. 4\n\n2\n\n1\n\n1"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q61-A-1.png"
       },
       {
        "label": "B",
-       "text_md": "*e*\n\n. 8\n\n4\n\n1\n\n1"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q61-B-1.png"
       },
       {
        "label": "C",
-       "text_md": "*e*\n\n. 16\n\n8\n\n1\n\n1"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q61-C-1.png"
       },
       {
        "label": "D",
-       "text_md": "*e*\n\n. 32 16"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q61-D-1.png"
       },
       {
        "label": "E",
-       "text_md": "1\n\n*e* 1 . 64\n\n32"
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2020/q61-E-1.png"
       }
      ],
      "correct": "E",
@@ -2326,7 +2343,7 @@
       },
       {
        "label": "B",
-       "text_md": "O domínio tecnológico para a geração de energia nuclear pode possibilitar a produção de armas nucleares, razão pela\n\nqual os Estados Unidos exercem uma forte pressão sobre o projeto nuclear do Irã."
+       "text_md": "O domínio tecnológico para a geração de energia nuclear pode possibilitar a produção de armas nucleares, razão pela qual os Estados Unidos exercem uma forte pressão sobre o projeto nuclear do Irã."
       },
       {
        "label": "C",
@@ -2354,7 +2371,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "O Rio Grande limita os EUA e o México e se configura num tipo de fronteira, a natural, com uma significativa carga\n\nsimbólica, por servir de passagem entre a cidade mais violenta do mundo – Ciudad Juárez – e a segura cidade de El Paso."
+       "text_md": "O Rio Grande limita os EUA e o México e se configura num tipo de fronteira, a natural, com uma significativa carga simbólica, por servir de passagem entre a cidade mais violenta do mundo – Ciudad Juárez – e a segura cidade de El Paso."
       },
       {
        "label": "B",
@@ -2494,7 +2511,7 @@
       },
       {
        "label": "D",
-       "text_md": "No sul da Europa, onde predominam verões quentes e secos, o turismo representa uma pressão adicional sobre os\n\nsistemas de águas."
+       "text_md": "No sul da Europa, onde predominam verões quentes e secos, o turismo representa uma pressão adicional sobre os sistemas de águas."
       },
       {
        "label": "E",
@@ -2562,7 +2579,7 @@
       },
       {
        "label": "E",
-       "text_md": "Observar as práticas culturais e todo o sistema de valores de uma sociedade que estruturalmente diferencia-se dos\n\npadrões referenciais de quem observa permite não só compreender as dinâmicas sociais dos grupos observados como também refletir sobre as categorias de análise que possibilitam a mesma observação."
+       "text_md": "Observar as práticas culturais e todo o sistema de valores de uma sociedade que estruturalmente diferencia-se dos padrões referenciais de quem observa permite não só compreender as dinâmicas sociais dos grupos observados como também refletir sobre as categorias de análise que possibilitam a mesma observação."
       }
      ],
      "correct": "E",
@@ -2578,7 +2595,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "o conceito de poder tem a possibilidade de ser interpretado a partir de noções como “disciplina” ou “adestramento”,\n\nconstruídas no próprio sujeito, considerando ao mesmo tempo a natureza estrutural e as condicionantes macrossociais do poder que orientam os indivíduos à ação social."
+       "text_md": "o conceito de poder tem a possibilidade de ser interpretado a partir de noções como “disciplina” ou “adestramento”, construídas no próprio sujeito, considerando ao mesmo tempo a natureza estrutural e as condicionantes macrossociais do poder que orientam os indivíduos à ação social."
       },
       {
        "label": "B",
@@ -2618,7 +2635,7 @@
       },
       {
        "label": "C",
-       "text_md": "As mudanças sociais que ocorreram no Brasil desde sua colonização produziram um tipo de dominação secular, que\n\nassociou as elites empresarial, burocrática e eclesiástica a um processo civilizacional intimamente associado a um estado de barbárie, em que as camadas subalternas sempre cumpriram um papel marginal no seu processo emancipação e esclarecimento."
+       "text_md": "As mudanças sociais que ocorreram no Brasil desde sua colonização produziram um tipo de dominação secular, que associou as elites empresarial, burocrática e eclesiástica a um processo civilizacional intimamente associado a um estado de barbárie, em que as camadas subalternas sempre cumpriram um papel marginal no seu processo emancipação e esclarecimento."
       },
       {
        "label": "D",
@@ -2646,7 +2663,7 @@
       },
       {
        "label": "B",
-       "text_md": "Em sua obra, Maquiavel coloca em relevo a dimensão efetivamente social, histórica e política das relações humanas,\n\nexplicitando que sua regra metodológica implica o exame da realidade tal como ela é e não como se gostaria que ela fosse."
+       "text_md": "Em sua obra, Maquiavel coloca em relevo a dimensão efetivamente social, histórica e política das relações humanas, explicitando que sua regra metodológica implica o exame da realidade tal como ela é e não como se gostaria que ela fosse."
       },
       {
        "label": "C",
@@ -2754,7 +2771,7 @@
       },
       {
        "label": "D",
-       "text_md": "Im Text steht, dass sich in den letzten Jahren immer mehr junge Menschen für die Arbeit als Au-Pair in den\n\ndeutschsprachigen Ländern interessieren."
+       "text_md": "Im Text steht, dass sich in den letzten Jahren immer mehr junge Menschen für die Arbeit als Au-Pair in den deutschsprachigen Ländern interessieren."
       },
       {
        "label": "E",
@@ -2975,7 +2992,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "El texto a seguir es referencia para las cuestiones 83 a 86.\n\nEl Gobierno Vasco modificará los materiales del programa educativo Herenegun sobre la historia reciente de ETA, con la incorporación de testimonios que “amplíen” los perfiles de víctimas representados en los vídeos y evitando afirmaciones que puedan “alentar el odio o la exclusión, ni sugerir teorías de legitimación del terrorismo”. Es decir, dará más voz a las víctimas de ETA. Así lo ha confirmado la Secretaría General de Derechos Humanos, Convivencia y Cooperación del Ejecutivo.\n\nLas asociaciones y fundaciones de víctimas del terrorismo exigieron en octubre del año pasado la retirada de la unidad didáctica ‘Herenegun!’ con la que el Gobierno Vasco plantea llevar la historia del terrorismo a los institutos, al considerar que su contenido ofrece “una visión sesgada, carente de todo rigor, que alimenta la teoría del conflicto, en un claro intento de blanquear la actividad terrorista de ETA”. El material educativo se insertará en la asignatura de historia de 4º ESO y 2º de Bachillerato, el periodo correspondiente a la Memoria Reciente (1960-2018).\n\nTambién algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco. Las críticas llevaron al Ejecutivo a retrasar la aplicación del programa y recoger aportaciones, plazo que se cerró el 21 de diciembre del año pasado.\n\nSegún ha explicado el propio Ejecutivo, la propuesta de cambios que se incorporarán al material didáctico Herenegun ha obtenido una respuesta “receptiva” que es “lo suficientemente amplia y transversal” como para iniciar la modificación de los documentales de cara a preparar el pilotaje en el curso 2019-2020.\n\n(Disponible en: https://www.eldiario.es/norte/euskadi/Gobierno-programa-educativo-ETA-victimas\\_0\\_904310465.html.)\n\nSegún el texto, la unidad didáctica de historia Herenegun se imparte en:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 83 a 86.\n\nEl Gobierno Vasco modificará los materiales del programa educativo Herenegun sobre la historia reciente de ETA, con la incorporación de testimonios que “amplíen” los perfiles de víctimas representados en los vídeos y evitando afirmaciones que puedan “alentar el odio o la exclusión, ni sugerir teorías de legitimación del terrorismo”. **Es decir**, dará más voz a las víctimas de ETA. Así lo ha confirmado la Secretaría General de Derechos Humanos, Convivencia y Cooperación del Ejecutivo.\n\nLas asociaciones y fundaciones de víctimas del terrorismo exigieron en octubre del año pasado la retirada de la unidad didáctica ‘Herenegun!’ con la que el Gobierno Vasco plantea llevar la historia del terrorismo a los institutos, al considerar que su contenido ofrece “una visión sesgada, carente de todo rigor, que alimenta la teoría del conflicto, en un claro intento de blanquear la actividad terrorista de ETA”. El material educativo se insertará en la asignatura de historia de 4º ESO y 2º de Bachillerato, el periodo correspondiente a la Memoria Reciente (1960-2018).\n\nTambién algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco. Las críticas llevaron al Ejecutivo a retrasar la aplicación del programa y recoger aportaciones, plazo que se cerró el 21 de diciembre del año pasado.\n\nSegún ha explicado el propio Ejecutivo, la propuesta de cambios que se incorporarán al material didáctico Herenegun ha obtenido una respuesta “receptiva” que es “lo suficientemente amplia y transversal” como para iniciar la modificación de los documentales de cara a preparar el pilotaje en el curso 2019-2020.\n\n(Disponible en: https://www.eldiario.es/norte/euskadi/Gobierno-programa-educativo-ETA-victimas\\_0\\_904310465.html.)\n\nSegún el texto, la unidad didáctica de historia Herenegun se imparte en:",
      "images": [],
      "alternatives": [
       {
@@ -3009,7 +3026,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "En el texto, la expresión subrayada “Es decir...” es utilizada para:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 83 a 86.\n\nEl Gobierno Vasco modificará los materiales del programa educativo Herenegun sobre la historia reciente de ETA, con la incorporación de testimonios que “amplíen” los perfiles de víctimas representados en los vídeos y evitando afirmaciones que puedan “alentar el odio o la exclusión, ni sugerir teorías de legitimación del terrorismo”. **Es decir**, dará más voz a las víctimas de ETA. Así lo ha confirmado la Secretaría General de Derechos Humanos, Convivencia y Cooperación del Ejecutivo.\n\nLas asociaciones y fundaciones de víctimas del terrorismo exigieron en octubre del año pasado la retirada de la unidad didáctica ‘Herenegun!’ con la que el Gobierno Vasco plantea llevar la historia del terrorismo a los institutos, al considerar que su contenido ofrece “una visión sesgada, carente de todo rigor, que alimenta la teoría del conflicto, en un claro intento de blanquear la actividad terrorista de ETA”. El material educativo se insertará en la asignatura de historia de 4º ESO y 2º de Bachillerato, el periodo correspondiente a la Memoria Reciente (1960-2018).\n\nTambién algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco. Las críticas llevaron al Ejecutivo a retrasar la aplicación del programa y recoger aportaciones, plazo que se cerró el 21 de diciembre del año pasado.\n\nSegún ha explicado el propio Ejecutivo, la propuesta de cambios que se incorporarán al material didáctico Herenegun ha obtenido una respuesta “receptiva” que es “lo suficientemente amplia y transversal” como para iniciar la modificación de los documentales de cara a preparar el pilotaje en el curso 2019-2020.\n\n(Disponible en: https://www.eldiario.es/norte/euskadi/Gobierno-programa-educativo-ETA-victimas\\_0\\_904310465.html.)\n\nEn el texto, la expresión subrayada “Es decir...” es utilizada para:",
      "images": [],
      "alternatives": [
       {
@@ -3043,7 +3060,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "De acuerdo con la frase: “...algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco”, es correcto afirmar que algunos partidos políticos españoles:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 83 a 86.\n\nEl Gobierno Vasco modificará los materiales del programa educativo Herenegun sobre la historia reciente de ETA, con la incorporación de testimonios que “amplíen” los perfiles de víctimas representados en los vídeos y evitando afirmaciones que puedan “alentar el odio o la exclusión, ni sugerir teorías de legitimación del terrorismo”. **Es decir**, dará más voz a las víctimas de ETA. Así lo ha confirmado la Secretaría General de Derechos Humanos, Convivencia y Cooperación del Ejecutivo.\n\nLas asociaciones y fundaciones de víctimas del terrorismo exigieron en octubre del año pasado la retirada de la unidad didáctica ‘Herenegun!’ con la que el Gobierno Vasco plantea llevar la historia del terrorismo a los institutos, al considerar que su contenido ofrece “una visión sesgada, carente de todo rigor, que alimenta la teoría del conflicto, en un claro intento de blanquear la actividad terrorista de ETA”. El material educativo se insertará en la asignatura de historia de 4º ESO y 2º de Bachillerato, el periodo correspondiente a la Memoria Reciente (1960-2018).\n\nTambién algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco. Las críticas llevaron al Ejecutivo a retrasar la aplicación del programa y recoger aportaciones, plazo que se cerró el 21 de diciembre del año pasado.\n\nSegún ha explicado el propio Ejecutivo, la propuesta de cambios que se incorporarán al material didáctico Herenegun ha obtenido una respuesta “receptiva” que es “lo suficientemente amplia y transversal” como para iniciar la modificación de los documentales de cara a preparar el pilotaje en el curso 2019-2020.\n\n(Disponible en: https://www.eldiario.es/norte/euskadi/Gobierno-programa-educativo-ETA-victimas\\_0\\_904310465.html.)\n\nDe acuerdo con la frase: “...algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco”, es correcto afirmar que algunos partidos políticos españoles:",
      "images": [
       "/questoes/ufpr/2020/q85-espanhol-B-1.png"
      ],
@@ -3080,7 +3097,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "Según el texto, hay una propuesta que exige la retirada de la unidad didáctica “Herenegun”. Eso se debe a que el contenido:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 83 a 86.\n\nEl Gobierno Vasco modificará los materiales del programa educativo Herenegun sobre la historia reciente de ETA, con la incorporación de testimonios que “amplíen” los perfiles de víctimas representados en los vídeos y evitando afirmaciones que puedan “alentar el odio o la exclusión, ni sugerir teorías de legitimación del terrorismo”. **Es decir**, dará más voz a las víctimas de ETA. Así lo ha confirmado la Secretaría General de Derechos Humanos, Convivencia y Cooperación del Ejecutivo.\n\nLas asociaciones y fundaciones de víctimas del terrorismo exigieron en octubre del año pasado la retirada de la unidad didáctica ‘Herenegun!’ con la que el Gobierno Vasco plantea llevar la historia del terrorismo a los institutos, al considerar que su contenido ofrece “una visión sesgada, carente de todo rigor, que alimenta la teoría del conflicto, en un claro intento de blanquear la actividad terrorista de ETA”. El material educativo se insertará en la asignatura de historia de 4º ESO y 2º de Bachillerato, el periodo correspondiente a la Memoria Reciente (1960-2018).\n\nTambién algunos partidos políticos rechazaron el borrador planteado por el Gobierno Vasco. Las críticas llevaron al Ejecutivo a retrasar la aplicación del programa y recoger aportaciones, plazo que se cerró el 21 de diciembre del año pasado.\n\nSegún ha explicado el propio Ejecutivo, la propuesta de cambios que se incorporarán al material didáctico Herenegun ha obtenido una respuesta “receptiva” que es “lo suficientemente amplia y transversal” como para iniciar la modificación de los documentales de cara a preparar el pilotaje en el curso 2019-2020.\n\n(Disponible en: https://www.eldiario.es/norte/euskadi/Gobierno-programa-educativo-ETA-victimas\\_0\\_904310465.html.)\n\nSegún el texto, hay una propuesta que exige la retirada de la unidad didáctica “Herenegun”. Eso se debe a que el contenido:",
      "images": [],
      "alternatives": [
       {
@@ -3114,7 +3131,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "El texto a seguir es referencia para las cuestiones 87 a 89.\n\nLa población del sur de España apenas tiene ADN africano\n\nUn estudio muestra su similitud genética a otros habitantes de la península y pueblos europeos\n\nAlmerienses, granadinos y malagueños tienen tanto de africanos como los gallegos o castellanos. A pesar de la larga presencia árabe y norteafricana en esta porción de España, un estudio genético muestra ahora que su huella genética en el sur apenas ha pervivido. Ni siquiera hay diferencias genéticas significativas con otros pueblos europeos. Investigadores de la Universidad de Granada (UGR) han analizado el ADN del cromosoma Y, de transmisión patrilineal y presente solo en los varones, de casi 150 andaluces de las provincias de Almería, Granada y Málaga. Junto a porciones limítrofes, formaron el grueso del reino nazarí de Granada, la última entidad política musulmana española hasta la derrota de Boabdil en 1492. Sería de esperar que allí donde se mantuvo la presencia árabe y norteafricana más tiempo, su huella genética fuera mayor. “Pero el legado genético norteafricano en esta zona es igual al de otras regiones de España, incluso menor que en algunas, como en partes aisladas de Galicia”, explica la investigadora del Laboratorio de Identificación Genética de la UGR y coautora del estudio María Saiz. La lógica de la historia induce a pensar que debería de haber un gradiente norte-sur de la huella genética norteafricana en la geografía española que fuera casi en paralelo al avance cristiano. Sin embargo, este trabajo muestra lo contrario, con un peso genético africano en el sur que es igual o inferior al observado en el norte en otros estudios.\n\n(Disponible en: ttps://elpais.com/elpais/2019/06/04/ciencia/1559654994\\_049558.html.)\n\nEl texto tiene como uno de sus objetivos:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 87 a 89.\n\nLa población del sur de España **apenas** tiene ADN africano\n\nUn estudio muestra su similitud genética a otros habitantes de la península y pueblos europeos\n\nAlmerienses, granadinos y malagueños tienen tanto de africanos como los gallegos o castellanos. A pesar de la larga presencia árabe y norteafricana en esta porción de España, un estudio genético muestra ahora que su huella genética en el sur **apenas** ha pervivido. **Ni siquiera** hay diferencias genéticas significativas con otros pueblos europeos. Investigadores de la Universidad de Granada (UGR) han analizado el ADN del cromosoma Y, de transmisión patrilineal y presente solo en los varones, de casi 150 andaluces de las provincias de Almería, Granada y Málaga. Junto a porciones limítrofes, formaron el grueso del reino nazarí de Granada, la última entidad política musulmana española hasta la derrota de Boabdil en 1492. Sería de esperar que allí donde se mantuvo la presencia árabe y norteafricana más tiempo, su huella genética fuera mayor. “Pero el legado genético norteafricano en esta zona es igual al de otras regiones de España, incluso menor que en algunas, como en partes aisladas de Galicia”, explica la investigadora del Laboratorio de Identificación Genética de la UGR y coautora del estudio María Saiz. La lógica de la historia induce a pensar que debería de haber un gradiente norte-sur de la huella genética norteafricana en la geografía española que fuera casi en paralelo al avance cristiano. Sin embargo, este trabajo muestra lo contrario, con un peso genético africano en el sur que es igual o inferior al observado en el norte en otros estudios.\n\n(Disponible en: ttps://elpais.com/elpais/2019/06/04/ciencia/1559654994\\_049558.html.)\n\nEl texto tiene como uno de sus objetivos:",
      "images": [],
      "alternatives": [
       {
@@ -3135,7 +3152,7 @@
       },
       {
        "label": "E",
-       "text_md": "informar que, aunque haya habido una gran presencia africana en el sur de España, esa transmisión genética es muy\n\nparecida con la que existe en el norte del país."
+       "text_md": "informar que, aunque haya habido una gran presencia africana en el sur de España, esa transmisión genética es muy parecida con la que existe en el norte del país."
       }
      ],
      "correct": "E",
@@ -3148,7 +3165,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "En el texto, la palabra “apenas” que en dos veces aparece subrayada puede ser sustituida, sin alterar el significado de las frases, por:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 87 a 89.\n\nLa población del sur de España **apenas** tiene ADN africano\n\nUn estudio muestra su similitud genética a otros habitantes de la península y pueblos europeos\n\nAlmerienses, granadinos y malagueños tienen tanto de africanos como los gallegos o castellanos. A pesar de la larga presencia árabe y norteafricana en esta porción de España, un estudio genético muestra ahora que su huella genética en el sur **apenas** ha pervivido. **Ni siquiera** hay diferencias genéticas significativas con otros pueblos europeos. Investigadores de la Universidad de Granada (UGR) han analizado el ADN del cromosoma Y, de transmisión patrilineal y presente solo en los varones, de casi 150 andaluces de las provincias de Almería, Granada y Málaga. Junto a porciones limítrofes, formaron el grueso del reino nazarí de Granada, la última entidad política musulmana española hasta la derrota de Boabdil en 1492. Sería de esperar que allí donde se mantuvo la presencia árabe y norteafricana más tiempo, su huella genética fuera mayor. “Pero el legado genético norteafricano en esta zona es igual al de otras regiones de España, incluso menor que en algunas, como en partes aisladas de Galicia”, explica la investigadora del Laboratorio de Identificación Genética de la UGR y coautora del estudio María Saiz. La lógica de la historia induce a pensar que debería de haber un gradiente norte-sur de la huella genética norteafricana en la geografía española que fuera casi en paralelo al avance cristiano. Sin embargo, este trabajo muestra lo contrario, con un peso genético africano en el sur que es igual o inferior al observado en el norte en otros estudios.\n\n(Disponible en: ttps://elpais.com/elpais/2019/06/04/ciencia/1559654994\\_049558.html.)\n\nEn el texto, la palabra “apenas” que en dos veces aparece subrayada puede ser sustituida, sin alterar el significado de las frases, por:",
      "images": [],
      "alternatives": [
       {
@@ -3182,7 +3199,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "En la tercera línea del texto, la expresión “ni siquiera” que aparece subrayada puede ser sustituida por:",
+     "statement_md": "El texto a seguir es referencia para las cuestiones 87 a 89.\n\nLa población del sur de España **apenas** tiene ADN africano\n\nUn estudio muestra su similitud genética a otros habitantes de la península y pueblos europeos\n\nAlmerienses, granadinos y malagueños tienen tanto de africanos como los gallegos o castellanos. A pesar de la larga presencia árabe y norteafricana en esta porción de España, un estudio genético muestra ahora que su huella genética en el sur **apenas** ha pervivido. **Ni siquiera** hay diferencias genéticas significativas con otros pueblos europeos. Investigadores de la Universidad de Granada (UGR) han analizado el ADN del cromosoma Y, de transmisión patrilineal y presente solo en los varones, de casi 150 andaluces de las provincias de Almería, Granada y Málaga. Junto a porciones limítrofes, formaron el grueso del reino nazarí de Granada, la última entidad política musulmana española hasta la derrota de Boabdil en 1492. Sería de esperar que allí donde se mantuvo la presencia árabe y norteafricana más tiempo, su huella genética fuera mayor. “Pero el legado genético norteafricano en esta zona es igual al de otras regiones de España, incluso menor que en algunas, como en partes aisladas de Galicia”, explica la investigadora del Laboratorio de Identificación Genética de la UGR y coautora del estudio María Saiz. La lógica de la historia induce a pensar que debería de haber un gradiente norte-sur de la huella genética norteafricana en la geografía española que fuera casi en paralelo al avance cristiano. Sin embargo, este trabajo muestra lo contrario, con un peso genético africano en el sur que es igual o inferior al observado en el norte en otros estudios.\n\n(Disponible en: ttps://elpais.com/elpais/2019/06/04/ciencia/1559654994\\_049558.html.)\n\nEn la tercera línea del texto, la expresión “ni siquiera” que aparece subrayada puede ser sustituida por:",
      "images": [],
      "alternatives": [
       {
@@ -3288,7 +3305,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\n![Figura](/questoes/ufpr/2020/q83-frances-texto-1.png)\n\nLa curiosité en continu\n\n![Figura: Accueil > Sciences > Qui était Marie Curie? Le 5 juillet 2017](/questoes/ufpr/2020/q83-frances-texto-2.png)\n\nQui était Marie Curie?\n\nMarie Curie est la première personne — et aujourd’hui encore, la seule femme — à avoir reçu deux prix Nobel. Elle fut, avec son mari Pierre Curie, à l’origine des premières recherches sur la radioactivité.\n\nMarie Sklodowska (son nom de jeune fille) est née en 1867. Excellente élève, elle arrive à Paris à l’âge de 24 ans pour suivre des cours de physique et de mathématiques. Reçue brillamment à ses licences de mathématiques et de physique, elle entame des recherches à l’École de physique et chimie de Paris. C’est là qu’elle rencontre son futur mari, physicien déjà célèbre.\n\n![Figura: (Pierre et Marie Curie. © Wellcome Library, London (Creative commons), via Wikimedia commons.)](/questoes/ufpr/2020/q83-frances-texto-3.png)\n\nPour sa thèse de physique, Marie s’appuie sur les découvertes d’un\n\nnouveau type de radiation par Henri Becquerel. Elle étudie les minéraux qui\n\némettent ces radiations et tente d’en isoler le principe actif. Marie est épaulée\n\ndans ses recherches par son mari qui met au point de nouveaux appareils de\n\nmesure.\n\nEn 1898, le couple découvre un nouvel élément chimique, 400 fois plus\n\nradioactif que l’uranium, le polonium, dénommé ainsi en hommage au pays\n\nnatal de Marie Curie. Deux ans plus tard, ils découvrent le radium: la\n\nradioactivité est née.\n\nLe radium, utilisé pour soigner des cancers\n\nLe prix Nobel de 1903 récompense Pierre et Marie Curie ainsi qu’Henri Becquerel. Pierre Curie meurt trois ans plus tard, à 46 ans, dans un accident de la circulation. En 1911, Marie Curie reçoit un deuxième prix Nobel, en chimie cette fois, pour avoir réussi à extraire du radium et montré qu’il s’agissait d’un métal.\n\nElle passera le restant de sa vie à mettre à profit les effets du radium sur les organismes vivants pour soigner les cancers. La «curiethérapie», pratique qui consiste à implanter des aiguilles contenant du radium pour irradier localement une tumeur, est mise au point. En 1914, l’institut du radium (aujourd’hui institut Curie) est fondé à Paris afin d’associer différentes disciplines scientifiques dans la recherche de nouvelles thérapies.\n\nMarie Curie souffre d’une trop grande exposition aux éléments radioactifs sur lesquels portent ses recherches. Atteinte d’une leucémie radio-induite, elle meurt en 1934. 61 ans plus tard, en 1995, les cendres de Pierre et Marie Curie ont été transférées au Panthéon. Dans son discours, le président de l’époque, François Mitterrand, salue «la première femme de notre histoire honorée pour ses propres mérites*»*.\n\nPar Marie Conquy\n\n(Adapté de: https://www.caminteresse.fr/sciences/qui-etait-marie-curie-1140745/)\n\nDans la phrase «elle entame des recherches à l’École de physique et de chimie de Paris» le mot souligné peut être remplacé par laquelle des options ci-dessous sans que cela change le sens de la phrase?",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\n![Figura](/questoes/ufpr/2020/q83-frances-texto-1.png)\n\nLa curiosité en continu\n\n![Figura: Accueil > Sciences > Qui était Marie Curie? Le 5 juillet 2017](/questoes/ufpr/2020/q83-frances-texto-2.png)\n\nQui était Marie Curie?\n\nMarie Curie est la première personne — et aujourd’hui encore, la seule femme — à avoir reçu deux prix Nobel. Elle fut, avec son mari Pierre Curie, à l’origine des premières recherches sur la radioactivité.\n\nMarie Sklodowska (son nom de jeune fille) est née en 1867. Excellente élève, elle arrive à Paris à l’âge de 24 ans pour suivre des cours de physique et de mathématiques. Reçue brillamment à ses licences de mathématiques et de physique, elle entame des recherches à l’École de physique et chimie de Paris. C’est là qu’elle rencontre son futur mari, physicien déjà célèbre.\n\n![Figura: (Pierre et Marie Curie. © Wellcome Library, London (Creative commons), via Wikimedia commons.)](/questoes/ufpr/2020/q83-frances-texto-3.png)\n\nPour sa thèse de physique, Marie s’appuie sur les découvertes d’un\n\nnouveau type de radiation par Henri Becquerel. Elle étudie les minéraux qui\n\némettent ces radiations et tente d’en isoler le principe actif. Marie est épaulée\n\ndans ses recherches par son mari qui met au point de nouveaux appareils de\n\nmesure.\n\nEn 1898, le couple découvre un nouvel élément chimique, 400 fois plus\n\nradioactif que l’uranium, le polonium, dénommé ainsi en hommage au pays\n\nnatal de Marie Curie. Deux ans plus tard, ils découvrent le radium: la\n\nradioactivité est née.\n\nLe radium, utilisé pour soigner des cancers\n\nLe prix Nobel de 1903 récompense Pierre et Marie Curie ainsi qu’Henri Becquerel. Pierre Curie meurt trois ans plus tard, à 46 ans, dans un accident de la circulation. En 1911, Marie Curie reçoit un deuxième prix Nobel, en chimie cette fois, pour avoir réussi à extraire du radium et montré qu’il s’agissait d’un métal.\n\nElle passera le restant de sa vie à mettre à profit les effets du radium sur les organismes vivants pour soigner les cancers. La «curiethérapie», pratique qui consiste à implanter des aiguilles contenant du radium pour irradier localement une tumeur, est mise au point. En 1914, l’institut du radium (aujourd’hui institut Curie) est fondé à Paris afin d’associer différentes disciplines scientifiques dans la recherche de nouvelles thérapies.\n\nMarie Curie souffre d’une trop grande exposition aux éléments radioactifs sur lesquels portent ses recherches. Atteinte d’une leucémie radio-induite, elle meurt en 1934. 61 ans plus tard, en 1995, les cendres de Pierre et Marie Curie ont été transférées au Panthéon. Dans son discours, le président de l’époque, François Mitterrand, salue «la première femme de notre histoire honorée pour ses propres mérites*»*.\n\nPar Marie Conquy\n\n(Adapté de: https://www.caminteresse.fr/sciences/qui-etait-marie-curie-1140745/)\n\nDans la phrase «elle **entame** des recherches à l’École de physique et de chimie de Paris» le mot souligné peut être remplacé par laquelle des options ci-dessous sans que cela change le sens de la phrase?",
      "images": [
       "/questoes/ufpr/2020/q83-frances-texto-1.png",
       "/questoes/ufpr/2020/q83-frances-texto-2.png",
@@ -3441,7 +3458,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\n![Figura](/questoes/ufpr/2020/q83-frances-texto-1.png)\n\nLa curiosité en continu\n\n![Figura: Accueil > Sciences > Qui était Marie Curie? Le 5 juillet 2017](/questoes/ufpr/2020/q83-frances-texto-2.png)\n\nQui était Marie Curie?\n\nMarie Curie est la première personne — et aujourd’hui encore, la seule femme — à avoir reçu deux prix Nobel. Elle fut, avec son mari Pierre Curie, à l’origine des premières recherches sur la radioactivité.\n\nMarie Sklodowska (son nom de jeune fille) est née en 1867. Excellente élève, elle arrive à Paris à l’âge de 24 ans pour suivre des cours de physique et de mathématiques. Reçue brillamment à ses licences de mathématiques et de physique, elle entame des recherches à l’École de physique et chimie de Paris. C’est là qu’elle rencontre son futur mari, physicien déjà célèbre.\n\n![Figura: (Pierre et Marie Curie. © Wellcome Library, London (Creative commons), via Wikimedia commons.)](/questoes/ufpr/2020/q83-frances-texto-3.png)\n\nPour sa thèse de physique, Marie s’appuie sur les découvertes d’un\n\nnouveau type de radiation par Henri Becquerel. Elle étudie les minéraux qui\n\némettent ces radiations et tente d’en isoler le principe actif. Marie est épaulée\n\ndans ses recherches par son mari qui met au point de nouveaux appareils de\n\nmesure.\n\nEn 1898, le couple découvre un nouvel élément chimique, 400 fois plus\n\nradioactif que l’uranium, le polonium, dénommé ainsi en hommage au pays\n\nnatal de Marie Curie. Deux ans plus tard, ils découvrent le radium: la\n\nradioactivité est née.\n\nLe radium, utilisé pour soigner des cancers\n\nLe prix Nobel de 1903 récompense Pierre et Marie Curie ainsi qu’Henri Becquerel. Pierre Curie meurt trois ans plus tard, à 46 ans, dans un accident de la circulation. En 1911, Marie Curie reçoit un deuxième prix Nobel, en chimie cette fois, pour avoir réussi à extraire du radium et montré qu’il s’agissait d’un métal.\n\nElle passera le restant de sa vie à mettre à profit les effets du radium sur les organismes vivants pour soigner les cancers. La «curiethérapie», pratique qui consiste à implanter des aiguilles contenant du radium pour irradier localement une tumeur, est mise au point. En 1914, l’institut du radium (aujourd’hui institut Curie) est fondé à Paris afin d’associer différentes disciplines scientifiques dans la recherche de nouvelles thérapies.\n\nMarie Curie souffre d’une trop grande exposition aux éléments radioactifs sur lesquels portent ses recherches. Atteinte d’une leucémie radio-induite, elle meurt en 1934. 61 ans plus tard, en 1995, les cendres de Pierre et Marie Curie ont été transférées au Panthéon. Dans son discours, le président de l’époque, François Mitterrand, salue «la première femme de notre histoire honorée pour ses propres mérites*»*.\n\nPar Marie Conquy\n\n(Adapté de: https://www.caminteresse.fr/sciences/qui-etait-marie-curie-1140745/)\n\nDans l’extrait «En 1898, le couple découvre un nouvel élément chimique...» le mot couple fait référence à:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\n![Figura](/questoes/ufpr/2020/q83-frances-texto-1.png)\n\nLa curiosité en continu\n\n![Figura: Accueil > Sciences > Qui était Marie Curie? Le 5 juillet 2017](/questoes/ufpr/2020/q83-frances-texto-2.png)\n\nQui était Marie Curie?\n\nMarie Curie est la première personne — et aujourd’hui encore, la seule femme — à avoir reçu deux prix Nobel. Elle fut, avec son mari Pierre Curie, à l’origine des premières recherches sur la radioactivité.\n\nMarie Sklodowska (son nom de jeune fille) est née en 1867. Excellente élève, elle arrive à Paris à l’âge de 24 ans pour suivre des cours de physique et de mathématiques. Reçue brillamment à ses licences de mathématiques et de physique, elle entame des recherches à l’École de physique et chimie de Paris. C’est là qu’elle rencontre son futur mari, physicien déjà célèbre.\n\n![Figura: (Pierre et Marie Curie. © Wellcome Library, London (Creative commons), via Wikimedia commons.)](/questoes/ufpr/2020/q83-frances-texto-3.png)\n\nPour sa thèse de physique, Marie s’appuie sur les découvertes d’un\n\nnouveau type de radiation par Henri Becquerel. Elle étudie les minéraux qui\n\némettent ces radiations et tente d’en isoler le principe actif. Marie est épaulée\n\ndans ses recherches par son mari qui met au point de nouveaux appareils de\n\nmesure.\n\nEn 1898, le couple découvre un nouvel élément chimique, 400 fois plus\n\nradioactif que l’uranium, le polonium, dénommé ainsi en hommage au pays\n\nnatal de Marie Curie. Deux ans plus tard, ils découvrent le radium: la\n\nradioactivité est née.\n\nLe radium, utilisé pour soigner des cancers\n\nLe prix Nobel de 1903 récompense Pierre et Marie Curie ainsi qu’Henri Becquerel. Pierre Curie meurt trois ans plus tard, à 46 ans, dans un accident de la circulation. En 1911, Marie Curie reçoit un deuxième prix Nobel, en chimie cette fois, pour avoir réussi à extraire du radium et montré qu’il s’agissait d’un métal.\n\nElle passera le restant de sa vie à mettre à profit les effets du radium sur les organismes vivants pour soigner les cancers. La «curiethérapie», pratique qui consiste à implanter des aiguilles contenant du radium pour irradier localement une tumeur, est mise au point. En 1914, l’institut du radium (aujourd’hui institut Curie) est fondé à Paris afin d’associer différentes disciplines scientifiques dans la recherche de nouvelles thérapies.\n\nMarie Curie souffre d’une trop grande exposition aux éléments radioactifs sur lesquels portent ses recherches. Atteinte d’une leucémie radio-induite, elle meurt en 1934. 61 ans plus tard, en 1995, les cendres de Pierre et Marie Curie ont été transférées au Panthéon. Dans son discours, le président de l’époque, François Mitterrand, salue «la première femme de notre histoire honorée pour ses propres mérites*»*.\n\nPar Marie Conquy\n\n(Adapté de: https://www.caminteresse.fr/sciences/qui-etait-marie-curie-1140745/)\n\nDans l’extrait «En 1898, le couple découvre un nouvel élément chimique...» le mot **couple** fait référence à:",
      "images": [
       "/questoes/ufpr/2020/q83-frances-texto-1.png",
       "/questoes/ufpr/2020/q83-frances-texto-2.png",
@@ -3678,7 +3695,7 @@
       },
       {
        "label": "E",
-       "text_md": "offering an illustrated children’s book so that the people who were in the store could buy it.\n\nO texto a seguir é referência para as questões 87 a 90."
+       "text_md": "offering an illustrated children’s book so that the people who were in the store could buy it."
       }
      ],
      "correct": "C",
@@ -3691,7 +3708,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "How the American Dream has changed\n\nThe phrase ‘American Dream’ was officially coined just under 90 years ago in a book called *The Epic of America* by James Truslow Adams. He argued it was “that dream of a land in which life should be better and richer and fuller for everyone, with opportunity for each according to ability or achievement.”\n\nToday: No single American Dream?\n\nFor some today the American Dream means a chance for fame and celebrity, while for others it means succeeding through the old adage of family values and hard work. Still others believe that the American Dream just represents a world closed to all but the elite with their wealth and contacts \\[…\\]. Meanwhile, surveys have found that almost half of all millennials believe the American Dream is dead. In an ever-changing country, the idea of what the American Dream means to different people is changing too.\n\n(Disponível em: https://www.msn.com/en-us/news/other/what-the-american-dream-looked-like-the-decade-you-were-born/ss-AABbxjy)\n\nIn the first sentence of the text, the underlined words mean that ‘American Dream’ was:",
+     "statement_md": "O texto a seguir é referência para as questões 87 a 90.\n\nHow the American Dream has changed\n\nThe phrase ‘American Dream’ was **officially coined** just under 90 years ago in a book called *The Epic of America* by James Truslow Adams. He argued it was “that dream of a land in which life should be better and richer and fuller for everyone, with opportunity for each according to ability or achievement.”\n\nToday: No single American Dream?\n\nFor some today the American Dream means a chance for fame and celebrity, while for others it means succeeding through the old adage of family values and hard work. Still others believe that the American Dream just represents a world closed to all but the elite with their wealth and contacts \\[…\\]. Meanwhile, surveys have found that almost half of all millennials believe the American Dream is dead. In an ever-changing country, the idea of what the American Dream means to different people is changing too.\n\n(Disponível em: https://www.msn.com/en-us/news/other/what-the-american-dream-looked-like-the-decade-you-were-born/ss-AABbxjy)\n\nIn the first sentence of the text, the underlined words mean that ‘American Dream’ was:",
      "images": [],
      "alternatives": [
       {
@@ -3725,12 +3742,12 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "According to the text, it is correct to say that James Truslow Adams:",
+     "statement_md": "O texto a seguir é referência para as questões 87 a 90.\n\nHow the American Dream has changed\n\nThe phrase ‘American Dream’ was **officially coined** just under 90 years ago in a book called *The Epic of America* by James Truslow Adams. He argued it was “that dream of a land in which life should be better and richer and fuller for everyone, with opportunity for each according to ability or achievement.”\n\nToday: No single American Dream?\n\nFor some today the American Dream means a chance for fame and celebrity, while for others it means succeeding through the old adage of family values and hard work. Still others believe that the American Dream just represents a world closed to all but the elite with their wealth and contacts \\[…\\]. Meanwhile, surveys have found that almost half of all millennials believe the American Dream is dead. In an ever-changing country, the idea of what the American Dream means to different people is changing too.\n\n(Disponível em: https://www.msn.com/en-us/news/other/what-the-american-dream-looked-like-the-decade-you-were-born/ss-AABbxjy)\n\nAccording to the text, it is correct to say that James Truslow Adams:",
      "images": [],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "supported the idea that the American Dream was to be associated with an abundant life determined by the level of skill\n\nsomeone had in a particular job or activity."
+       "text_md": "supported the idea that the American Dream was to be associated with an abundant life determined by the level of skill someone had in a particular job or activity."
       },
       {
        "label": "B",
@@ -3759,7 +3776,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "According to the part of the text that starts with “For some today the American Dream…”, how many different meanings can be related to the American Dream today?",
+     "statement_md": "O texto a seguir é referência para as questões 87 a 90.\n\nHow the American Dream has changed\n\nThe phrase ‘American Dream’ was **officially coined** just under 90 years ago in a book called *The Epic of America* by James Truslow Adams. He argued it was “that dream of a land in which life should be better and richer and fuller for everyone, with opportunity for each according to ability or achievement.”\n\nToday: No single American Dream?\n\nFor some today the American Dream means a chance for fame and celebrity, while for others it means succeeding through the old adage of family values and hard work. Still others believe that the American Dream just represents a world closed to all but the elite with their wealth and contacts \\[…\\]. Meanwhile, surveys have found that almost half of all millennials believe the American Dream is dead. In an ever-changing country, the idea of what the American Dream means to different people is changing too.\n\n(Disponível em: https://www.msn.com/en-us/news/other/what-the-american-dream-looked-like-the-decade-you-were-born/ss-AABbxjy)\n\nAccording to the part of the text that starts with “For some today the American Dream…”, how many different meanings can be related to the American Dream today?",
      "images": [],
      "alternatives": [
       {
@@ -3793,7 +3810,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "One meaning described in the paragraph related to the American Dream today is that:",
+     "statement_md": "O texto a seguir é referência para as questões 87 a 90.\n\nHow the American Dream has changed\n\nThe phrase ‘American Dream’ was **officially coined** just under 90 years ago in a book called *The Epic of America* by James Truslow Adams. He argued it was “that dream of a land in which life should be better and richer and fuller for everyone, with opportunity for each according to ability or achievement.”\n\nToday: No single American Dream?\n\nFor some today the American Dream means a chance for fame and celebrity, while for others it means succeeding through the old adage of family values and hard work. Still others believe that the American Dream just represents a world closed to all but the elite with their wealth and contacts \\[…\\]. Meanwhile, surveys have found that almost half of all millennials believe the American Dream is dead. In an ever-changing country, the idea of what the American Dream means to different people is changing too.\n\n(Disponível em: https://www.msn.com/en-us/news/other/what-the-american-dream-looked-like-the-decade-you-were-born/ss-AABbxjy)\n\nOne meaning described in the paragraph related to the American Dream today is that:",
      "images": [],
      "alternatives": [
       {
@@ -4295,7 +4312,7 @@
       },
       {
        "label": "E",
-       "text_md": "二度とここに戻らないでください。\n\nO texto abaixo é referência para as questões 89 e 90.\n\n司会者:えー、本日は、美術評論家の山本一男先生をお迎えして、「民芸について」という演題でお話を伺わせていただきます。山本先生は、東京芸術大 学で工芸を専攻されまして、皆様も御存知のとおり、現在は美術評論家として活躍されています。本日は、お忙しいところ、先生には、御無理をお願いし ておいでいただきました。では、先生宜しくお願い致します。\n\n講師:ただいま御紹介にあずかりました山本でございます。えー、本日は、「民芸について」ということで、民芸の特色と言いますが、民芸の美とは何か というようなことを、お話したいと思います。さて、「民芸」というのは何でしょうか。この言葉は、今日、広い意味では、庶民の生活の中から生まれた 、その地方特有の芸術ということで、各地の民謡や舞踊、彫刻、陶器、玩具や各種の工芸品など、広く民族芸能、郷土芸術を指す場合もありますが、もと もとは、庶民の生活の中から生まれた、実用性と素朴な美しさを備えた工芸という意味で、地方独特の手工芸品を指すのに用いられたのであります。"
+       "text_md": "二度とここに戻らないでください。"
       }
      ],
      "correct": "A",
@@ -4308,7 +4325,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "Com base no texto, assinale a alternativa INCORRETA.",
+     "statement_md": "O texto abaixo é referência para as questões 89 e 90.\n\n司会者:えー、本日は、美術評論家の山本一男先生をお迎えして、「民芸について」という演題でお話を伺わせていただきます。山本先生は、東京芸術大 学で工芸を専攻されまして、皆様も御存知のとおり、現在は美術評論家として活躍されています。本日は、お忙しいところ、先生には、御無理をお願いし ておいでいただきました。では、先生宜しくお願い致します。\n\n講師:ただいま御紹介にあずかりました山本でございます。えー、本日は、「民芸について」ということで、民芸の特色と言いますが、民芸の美とは何か というようなことを、お話したいと思います。さて、「民芸」というのは何でしょうか。この言葉は、今日、広い意味では、庶民の生活の中から生まれた 、その地方特有の芸術ということで、各地の民謡や舞踊、彫刻、陶器、玩具や各種の工芸品など、広く民族芸能、郷土芸術を指す場合もありますが、もと もとは、庶民の生活の中から生まれた、実用性と素朴な美しさを備えた工芸という意味で、地方独特の手工芸品を指すのに用いられたのであります。\n\nCom base no texto, assinale a alternativa INCORRETA.",
      "images": [],
      "alternatives": [
       {
@@ -4342,7 +4359,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "Como se lê o nome 「山本一男」?",
+     "statement_md": "O texto abaixo é referência para as questões 89 e 90.\n\n司会者:えー、本日は、美術評論家の山本一男先生をお迎えして、「民芸について」という演題でお話を伺わせていただきます。山本先生は、東京芸術大 学で工芸を専攻されまして、皆様も御存知のとおり、現在は美術評論家として活躍されています。本日は、お忙しいところ、先生には、御無理をお願いし ておいでいただきました。では、先生宜しくお願い致します。\n\n講師:ただいま御紹介にあずかりました山本でございます。えー、本日は、「民芸について」ということで、民芸の特色と言いますが、民芸の美とは何か というようなことを、お話したいと思います。さて、「民芸」というのは何でしょうか。この言葉は、今日、広い意味では、庶民の生活の中から生まれた 、その地方特有の芸術ということで、各地の民謡や舞踊、彫刻、陶器、玩具や各種の工芸品など、広く民族芸能、郷土芸術を指す場合もありますが、もと もとは、庶民の生活の中から生まれた、実用性と素朴な美しさを備えた工芸という意味で、地方独特の手工芸品を指すのに用いられたのであります。\n\nComo se lê o nome 「山本一男」?",
      "images": [],
      "alternatives": [
       {
@@ -4376,7 +4393,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nProszę zaznaczyć odpowiedź zgodną z informacjami podanymi w powyższym tekście:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nProszę zaznaczyć odpowiedź zgodną z informacjami podanymi w powyższym tekście:",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4414,7 +4431,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nAssinale a alternativa que apresenta a tradução correta do trecho ,,Chodzi tu przede wszystkim o kryteria polityczne, narodowe”.",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nAssinale a alternativa que apresenta a tradução correta do trecho ,,Chodzi tu przede wszystkim o kryteria polityczne, narodowe”.",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4452,7 +4469,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nBiorąc pod uwagę informacje o językach indoeuropejskich podane w powyższym tekście, proszę zaznaczyć poprawną odpowiedź co do polszczyzny:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nBiorąc pod uwagę informacje o językach indoeuropejskich podane w powyższym tekście, proszę zaznaczyć poprawną odpowiedź co do polszczyzny:",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4490,7 +4507,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nWe fragmencie „Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków”, zaimek nim odnosi się do:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nWe fragmencie „Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków”, zaimek **nim** odnosi się do:",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4528,7 +4545,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nFragment „czasem nawet widoczne jest daleko idące podobieństwo” znaczy, że podobieństwo, o którym się mówi, jest:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nFragment „czasem nawet widoczne jest daleko idące podobieństwo” znaczy, że podobieństwo, o którym się mówi, jest:",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4566,7 +4583,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nW zdaniu „Na świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji” spójnik ponieważ odpowiada słowu:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nW zdaniu „Na świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, **ponieważ** zależy od sposobu klasyfikacji” spójnik **ponieważ** odpowiada słowu:",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4604,7 +4621,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nW zdaniu „Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka”. Słowo czyli odpowiada portugalskiemu wyrażeniu:",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nW zdaniu „Są to języki pokrewne, **czyli** pochodące od jednego wspólnego przodka”. Słowo **czyli** odpowiada portugalskiemu wyrażeniu:",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",
@@ -4642,7 +4659,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. Język polski. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nNa podstawie informacji podanych w tekście, proszę się zastanowić nad następującymi zdaniami dotyczącymi języków indoeuropejskich:\n\n1. Niemiecki jest językiem aryjskim.\n\n2. Języki celtyckie są językami martwymi.\n\n3. Italski jest bezpośrednim przodkiem języka polskiego.\n\n4. Polski i niemiecki pochodzą z tej samej gałęzi językowej.\n\nProszę zaznaczyć poprawną odpowiedź.",
+     "statement_md": "O texto a seguir é referência para as questões 83 a 90.\n\nWśród Sąsiadów\n\nNa świecie istnieje kilka tysięcy języków. Dokładna liczba jest trudna do określenia, ponieważ zależy od sposobu klasyfikacji. Za dolną granicę przyjmuje się 2500, a za górną – 5600. Tak ogromne wahania są wynikiem stosowania różnych kryteriów przy określaniu języka, w odróżnieniu np. od dialektu czy gwary. Chodzi tu przede wszystkim o kryteria polityczne, narodowe (język może być traktowany jako jedna z cech wyróżniających naród), a także o istnienie słowników dwujęzycznych lub tłumaczeń (np. *Biblii*).\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-1.png)\n\nIstniejące na ziemi języki mogą mieć cechy wspólne, czasem nawet widoczne jest daleko idące podobieństwo. Są to języki pokrewne, czyli pochodące od jednego wspólnego przodka. Warto wspomnieć, że możliwe jest też upodabnianie się do siebie języków w wyniku sąsiedztwa geograficznego i długotrwałych kontaktów mówiących nimi społeczności.\n\nLudy indoeuropejskie różnicowały się kilka tysięcy lat temu. Schematyczne drzewo pokazuje, jak wyodrębniały się poszczególne grupy etniczne. Widać na nim, że Słowianie stanowią północną, stosunkowo młodą, gałąź Indoeuropejczyków.\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-2.png)\n\n![Figura](/questoes/ufpr/2020/q83-polones-texto-3.png)\n\n(Tekst został zaadaptowany z książki Anny Dąbrowskiej pt. **Język polski**. Wrocław: Wyd. Dolonśląskie, 1999. pp. 5, 6, 11,13.)\n\nNa podstawie informacji podanych w tekście, proszę się zastanowić nad następującymi zdaniami dotyczącymi języków indoeuropejskich:\n\n1. Niemiecki jest językiem aryjskim.\n\n2. Języki celtyckie są językami martwymi.\n\n3. Italski jest bezpośrednim przodkiem języka polskiego.\n\n4. Polski i niemiecki pochodzą z tej samej gałęzi językowej.\n\nProszę zaznaczyć poprawną odpowiedź.",
      "images": [
       "/questoes/ufpr/2020/q83-polones-texto-1.png",
       "/questoes/ufpr/2020/q83-polones-texto-2.png",

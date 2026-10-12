@@ -65,7 +65,7 @@
       },
       {
        "label": "E",
-       "text_md": "A produção do hormônio calcitonina e do peptídeo relacionado ao gene calcitonina (CGRP) a partir de um mesmo gene\n\nse deve ao mecanismo de *splicing* alternativo."
+       "text_md": "A produção do hormônio calcitonina e do peptídeo relacionado ao gene calcitonina (CGRP) a partir de um mesmo gene se deve ao mecanismo de *splicing* alternativo."
       }
      ],
      "correct": "E",
@@ -81,7 +81,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Agentes infecciosos conseguem infectar células humanas porque interagem com receptores celulares específicos,\n\nenganando esse sistema de reconhecimento que permite a entrada desses agentes nas células."
+       "text_md": "Agentes infecciosos conseguem infectar células humanas porque interagem com receptores celulares específicos, enganando esse sistema de reconhecimento que permite a entrada desses agentes nas células."
       },
       {
        "label": "B",
@@ -117,7 +117,7 @@
       },
       {
        "label": "B",
-       "text_md": "A respiração traqueal, presente em alguns animais adaptados à vida terrestre, não possui relação com a circulação, uma\n\nvez que os sistemas de traqueias levam diretamente o oxigênio às células do corpo."
+       "text_md": "A respiração traqueal, presente em alguns animais adaptados à vida terrestre, não possui relação com a circulação, uma vez que os sistemas de traqueias levam diretamente o oxigênio às células do corpo."
       },
       {
        "label": "C",
@@ -149,7 +149,7 @@
       },
       {
        "label": "B",
-       "text_md": "Estímulos nervosos promovem a liberação de acetilcolina na fenda sináptica, o que leva à despolarização da membrana\n\nda célula muscular."
+       "text_md": "Estímulos nervosos promovem a liberação de acetilcolina na fenda sináptica, o que leva à despolarização da membrana da célula muscular."
       },
       {
        "label": "C",
@@ -189,7 +189,7 @@
       },
       {
        "label": "D",
-       "text_md": "Seres fotossintetizantes são base de cadeia alimentar e servem de alimento para consumidores primários, que são\n\nalimento para consumidores secundários."
+       "text_md": "Seres fotossintetizantes são base de cadeia alimentar e servem de alimento para consumidores primários, que são alimento para consumidores secundários."
       },
       {
        "label": "E",
@@ -204,12 +204,12 @@
      "number": 7,
      "area": "natureza",
      "subject": "Biologia",
-     "statement_md": "Existem 39 espécies diferentes de aves-do-paraíso que vivem na Nova Guiné e nas ilhas vizinhas. São pássaros coloridos e com plumagem incomum e rituais de acasalamento complexos que incluem dança, canto e poses. Os jovens machos herdam esses passos de dança de seus pais, depois os refinam através da prática e da observação dos adultos. Menos óbvias, mas igualmente importantes, são as fêmeas vigilantes: são suas escolhas que decidem quais danças chegam à próxima geração.\n\n(Cornell Lab of Ornithology‘s Birds of Paradise project. Disponível em: https://thekidshouldseethis.com/post/birds-of-paradise-cornell-lab-ornithology. Adaptado.)\n\nA respeito da evolução dos rituais de acasalamento das aves-do-paraíso, é correto afirmar:",
+     "statement_md": "Existem 39 espécies diferentes de aves-do-paraíso que vivem na Nova Guiné e nas ilhas vizinhas. São pássaros coloridos e com plumagem incomum e rituais de acasalamento complexos que incluem dança, canto e poses. Os jovens machos herdam esses passos de dança de seus pais, depois os refinam através da prática e da observação dos adultos. Menos óbvias, mas igualmente importantes, são as fêmeas vigilantes: são suas escolhas que decidem quais danças chegam à próxima geração.\n\n(Cornell Lab of Ornithology‘s Birds of Paradise project.\n\nDisponível em: https://thekidshouldseethis.com/post/birds-of-paradise-cornell-lab-ornithology. Adaptado.)\n\nA respeito da evolução dos rituais de acasalamento das aves-do-paraíso, é correto afirmar:",
      "images": [],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Os rituais de acasalamento são sujeitos à seleção sexual que altera o código genético dos machos para atrair mais parceiras e aumentar o sucesso reprodutivo."
+       "text_md": "Os rituais de acasalamento são sujeitos à seleção sexual que altera o código genético dos machos para atrair mais parceiras e aumentar o sucesso reprodutivo**.**"
       },
       {
        "label": "B",
@@ -225,7 +225,7 @@
       },
       {
        "label": "E",
-       "text_md": "Danças, cantos e poses das aves-do-paraíso são consequência da seleção sexual, promovida pela preferência das fêmeas\n\npor tais características."
+       "text_md": "Danças, cantos e poses das aves-do-paraíso são consequência da seleção sexual, promovida pela preferência das fêmeas por tais características."
       }
      ],
      "correct": "E",
@@ -236,12 +236,12 @@
      "number": 8,
      "area": "natureza",
      "subject": "Biologia",
-     "statement_md": "O uso em larga escala de agrotóxicos no cultivo de alimentos tem consequências negativas para o ambiente e para a saúde dos consumidores. O Brasil é um dos países com maior consumo de agrotóxicos e a exposição aos agrotóxicos pode causar uma série de doenças.\n\n(INCA - Instituto Nacional do Câncer, Ministério da Saúde. Disponível em: https://www.inca.gov.br/exposicao-no-trabalho-e-no-ambiente/agrotoxicos. Adaptado.)\n\nA respeito de alternativas disponíveis ao uso de agrotóxicos, é correto afirmar:",
+     "statement_md": "O uso em larga escala de agrotóxicos no cultivo de alimentos tem consequências negativas para o ambiente e para a saúde dos consumidores. O Brasil é um dos países com maior consumo de agrotóxicos e a exposição aos agrotóxicos pode causar uma série de doenças.\n\n(INCA - Instituto Nacional do Câncer, Ministério da Saúde.\n\nDisponível em: https://www.inca.gov.br/exposicao-no-trabalho-e-no-ambiente/agrotoxicos. Adaptado.)\n\nA respeito de alternativas disponíveis ao uso de agrotóxicos, é correto afirmar:",
      "images": [],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "O controle biológico de pragas propõe conter a proliferação de pragas utilizando seus inimigos naturais, como predadores\n\ne parasitas."
+       "text_md": "O controle biológico de pragas propõe conter a proliferação de pragas utilizando seus inimigos naturais, como predadores e parasitas."
       },
       {
        "label": "B",
@@ -281,7 +281,7 @@
       },
       {
        "label": "C",
-       "text_md": "Devido à baixa disponibilidade de oxigênio dissolvido na água ou presente no solo, plantas de mangues retiram oxigênio\n\ndo ar por meio de pneumatóforos."
+       "text_md": "Devido à baixa disponibilidade de oxigênio dissolvido na água ou presente no solo, plantas de mangues retiram oxigênio do ar por meio de pneumatóforos."
       },
       {
        "label": "D",
@@ -300,7 +300,7 @@
      "number": 10,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Considere as equações a b c2 e a b c 20. Assinale a alternativa que corresponde à quantidade de triplas ordenadas a, b, c que satisfazem simultaneamente essas duas equações, sendo a, b, c números inteiros](/questoes/ufpr/2023/q10-1.png)\n\npositivos.",
+     "statement_md": "![Trecho com fórmula: Considere as equações a b c2 e a b c 20. Assinale a alternativa que corresponde à quantidade de triplas ordenadas a, b, c que satisfazem simultaneamente essas duas equações, sendo a, b, c números inteiros positivos.](/questoes/ufpr/2023/q10-1.png)",
      "images": [
       "/questoes/ufpr/2023/q10-1.png"
      ],
@@ -334,10 +334,9 @@
      "number": 11,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "O Índice de Massa Corporal (IMC) de uma pessoa adulta é dado pela fórmula:\n\n![Trecho com fórmula: IMC altura 2 massa medida em quilogramas massa](/questoes/ufpr/2023/q11-1.png)\n\n![Trecho com fórmula: altura medida em metros](/questoes/ufpr/2023/q11-2.png)\n\nAdmitindo-se que a altura de uma pessoa adulta é constante, se, durante um ano, ela aumentar sua massa, então é correto afirmar que nesse período o gráfico de seu IMC em função de sua massa é parte de uma:",
+     "statement_md": "O Índice de Massa Corporal (IMC) de uma pessoa adulta é dado pela fórmula:\n\n![Tabela: IMC altura 2 massa medida em quilogramas massa altura medida em metros](/questoes/ufpr/2023/q11-1.png)\n\nAdmitindo-se que a altura de uma pessoa adulta é constante, se, durante um ano, ela aumentar sua massa, então é correto afirmar que nesse período o gráfico de seu IMC em função de sua massa é parte de uma:",
      "images": [
-      "/questoes/ufpr/2023/q11-1.png",
-      "/questoes/ufpr/2023/q11-2.png"
+      "/questoes/ufpr/2023/q11-1.png"
      ],
      "alternatives": [
       {
@@ -369,7 +368,7 @@
      "number": 12,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Na figura ao lado, estão representadas quatro circunferências de raio r 1 cm](/questoes/ufpr/2023/q12-1.png)\n\nque são tangentes nos pontos A, B, C e D. Assinale a alternativa que corresponde ao valor, em cm², da área hachurada em cinza.\n\n![Figura](/questoes/ufpr/2023/q12-2.png)",
+     "statement_md": "![Trecho com fórmula: Na figura ao lado, estão representadas quatro circunferências de raio r 1 cm que são tangentes nos pontos A, B, C e D. Assinale a alternativa que corresponde ao valor, em cm2, da área hachurada em cinza.](/questoes/ufpr/2023/q12-1.png)\n\n![Figura](/questoes/ufpr/2023/q12-2.png)",
      "images": [
       "/questoes/ufpr/2023/q12-1.png",
       "/questoes/ufpr/2023/q12-2.png",
@@ -414,7 +413,7 @@
      "number": 13,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Na figura ao lado, tem-se duas circunferências que se tangenciam no ponto Q. Os raios dessas circunferências são R1 e R2, com R1 R2. Cada uma das retas r e s é](/questoes/ufpr/2023/q13-1.png)\n\ntangente simultaneamente às duas circunferências; adicionalmente, essas retas se intersectam no ponto P. Qual é a distância entre os pontos P e Q?\n\n![Figura](/questoes/ufpr/2023/q13-2.png)",
+     "statement_md": "![Trecho com fórmula: Na figura ao lado, tem-se duas circunferências que se tangenciam no ponto Q. Os raios dessas circunferências são R1 e R2, com R1 R2. Cada uma das retas r e s é tangente simultaneamente às duas circunferências; adicionalmente, essas retas se intersectam no ponto P. Qual é a distância entre os pontos P e Q?](/questoes/ufpr/2023/q13-1.png)\n\n![Figura](/questoes/ufpr/2023/q13-2.png)",
      "images": [
       "/questoes/ufpr/2023/q13-1.png",
       "/questoes/ufpr/2023/q13-2.png",
@@ -557,7 +556,7 @@
      "number": 17,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: As únicas raízes reais do polinômio p x dado pelo determinante abaixo são –2 e –1.](/questoes/ufpr/2023/q17-1.png)\n\n![Trecho com fórmula: q x x 2 x2 2x](/questoes/ufpr/2023/q17-2.png)\n\n![Tabela: p x det x2 x 0 1](/questoes/ufpr/2023/q17-3.png)\n\n![Tabela: x 1 1 1](/questoes/ufpr/2023/q17-4.png)\n\n![Trecho com fórmula: Sabendo-se que o polinômio q x ax2 bx c (com a, b e c constantes) tem as mesmas raízes reais de p x , é](/questoes/ufpr/2023/q17-5.png)\n\ncorreto afirmar que:",
+     "statement_md": "![Trecho com fórmula: As únicas raízes reais do polinômio p x dado pelo determinante abaixo são –2 e –1.](/questoes/ufpr/2023/q17-1.png)\n\n![Trecho com fórmula: q x x 2 x2 2x](/questoes/ufpr/2023/q17-2.png)\n\n![Tabela: p x det x2 x 0 1](/questoes/ufpr/2023/q17-3.png)\n\n![Tabela: x 1 1 1](/questoes/ufpr/2023/q17-4.png)\n\n![Trecho com fórmula: Sabendo-se que o polinômio q x ax2 bx c (com a, b e c constantes) tem as mesmas raízes reais de p x , é correto afirmar que:](/questoes/ufpr/2023/q17-5.png)",
      "images": [
       "/questoes/ufpr/2023/q17-1.png",
       "/questoes/ufpr/2023/q17-2.png",
@@ -605,7 +604,7 @@
      "number": 18,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "Na figura ao lado, tem-se um reservatório no formato de um cone circular reto com altura h e área do topo igual a 12 m². Esse reservatório está sendo preenchido com um líquido cujo volume em m³ é dado por:\n\n![Trecho com fórmula: V t log2 t2 1](/questoes/ufpr/2023/q18-1.png)\n\n![Trecho com fórmula: sendo t 0 o tempo. Em quanto tempo o líquido atingirá metade da](/questoes/ufpr/2023/q18-2.png)\n\ncapacidade desse reservatório?\n\n![Figura](/questoes/ufpr/2023/q18-3.png)",
+     "statement_md": "Na figura ao lado, tem-se um reservatório no formato de um cone circular reto com altura h e área do topo igual a 12 m². Esse reservatório está sendo preenchido com um líquido cujo volume em m³ é dado por:\n\n![Trecho com fórmula: V t log2 t2 1](/questoes/ufpr/2023/q18-1.png)\n\n![Trecho com fórmula: sendo t 0 o tempo. Em quanto tempo o líquido atingirá metade da capacidade desse reservatório?](/questoes/ufpr/2023/q18-2.png)\n\n![Figura](/questoes/ufpr/2023/q18-3.png)",
      "images": [
       "/questoes/ufpr/2023/q18-1.png",
       "/questoes/ufpr/2023/q18-2.png",
@@ -672,7 +671,7 @@
       },
       {
        "label": "E",
-       "text_md": "A estrutura econômica egípcia permitia a contratação de trabalhadores assalariados para atuarem em construções\n\npúblicas, como pirâmides e obras de irrigação."
+       "text_md": "A estrutura econômica egípcia permitia a contratação de trabalhadores assalariados para atuarem em construções públicas, como pirâmides e obras de irrigação."
       }
      ],
      "correct": "E",
@@ -700,7 +699,7 @@
       },
       {
        "label": "D",
-       "text_md": "O pedido de auxílio militar feito ao ocidente pelo Império Bizantino contra o avanço dos turcos seljúcidas foi uma das\n\njustificativas para as Cruzadas."
+       "text_md": "O pedido de auxílio militar feito ao ocidente pelo Império Bizantino contra o avanço dos turcos seljúcidas foi uma das justificativas para as Cruzadas."
       },
       {
        "label": "E",
@@ -720,7 +719,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "A Etiópia se tornou um importante símbolo de luta e independência para pessoas africanas e afrodescendentes por ter\n\nsido um dos únicos estados africanos a resguardar sua soberania durante o processo conhecido como “Partilha da África”."
+       "text_md": "A Etiópia se tornou um importante símbolo de luta e independência para pessoas africanas e afrodescendentes por ter sido um dos únicos estados africanos a resguardar sua soberania durante o processo conhecido como “Partilha da África”."
       },
       {
        "label": "B",
@@ -971,7 +970,7 @@
      "number": 29,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma partícula com uma carga elétrica Q 1, 6 10 19 C tem uma velocidade de módulo v 5, 0 104 m/s. Num dado instante, ela entra numa região onde há um campo magnético de módulo B 10 mT. Nesse instante, o ângulo entre o campo magnético e a velocidade da partícula vale θ, e sabe-se que cos θ 0, 80 e sen θ 0, 60. Considerando as](/questoes/ufpr/2023/q29-1.png)\n\ninformações apresentadas, assinale a alternativa que apresenta corretamente o valor do módulo F da força magnética que surge sobre a partícula quando ela entra na região onde há o campo magnético.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma partícula com uma carga elétrica Q 1, 6 10 19 C tem uma velocidade de módulo v 5, 0 104 m/s. Num dado instante, ela entra numa região onde há um campo magnético de módulo B 10 mT. Nesse instante, o ângulo entre o campo magnético e a velocidade da partícula vale θ, e sabe-se que cos θ 0, 80 e sen θ 0, 60. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamen…](/questoes/ufpr/2023/q29-1.png)",
      "images": [
       "/questoes/ufpr/2023/q29-1.png",
       "/questoes/ufpr/2023/q29-A-1.png",
@@ -1015,7 +1014,7 @@
      "number": 30,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma barra metálica retilínea tem um comprimento inicial L0 a uma temperatura T0. O material do qual a barra é feita tem um coeficiente de dilatação linear térmico de valor α 5 10 6 oC-1. Considerando as informações apresentadas,](/questoes/ufpr/2023/q30-1.png)\n\nassinale a alternativa que apresenta corretamente o valor da variação de temperatura ΔT necessária para que essa barra apresente uma variação ΔL em seu comprimento igual a 0,2% de seu comprimento inicial.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma barra metálica retilínea tem um comprimento inicial L0 a uma temperatura T0. O material do qual a barra é feita tem um coeficiente de dilatação linear térmico de valor α 5 10 6 oC-1. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da variação de temperatura ΔT necessária para que essa barra apresente uma variação ΔL em seu comprimento igual …](/questoes/ufpr/2023/q30-1.png)",
      "images": [
       "/questoes/ufpr/2023/q30-1.png",
       "/questoes/ufpr/2023/q30-A-1.png",
@@ -1059,7 +1058,7 @@
      "number": 31,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um objeto de massa m constante está inicialmente parado sobre uma pista retilínea horizontal. Sobre ele passa a agir, num dado instante, uma força resultante constante de módulo F, também horizontal, paralela à pista, que produz no objeto um deslocamento d ao longo da pista. A atuação da força cessa após produzir o deslocamento d. Sabe-se que m 500 g, F 160 N e d 10 cm. Considerando as informaçõe…](/questoes/ufpr/2023/q31-1.png)\n\ncorretamente o valor do módulo v da velocidade do objeto após ele sofrer o deslocamento d.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um objeto de massa m constante está inicialmente parado sobre uma pista retilínea horizontal. Sobre ele passa a agir, num dado instante, uma força resultante constante de módulo F, também horizontal, paralela à pista, que produz no objeto um deslocamento d ao longo da pista. A atuação da força cessa após produzir o deslocamento d. Sabe-se que m 500 g, F 160 N e d 10 cm. Considerando as informaçõe…](/questoes/ufpr/2023/q31-1.png)",
      "images": [
       "/questoes/ufpr/2023/q31-1.png",
       "/questoes/ufpr/2023/q31-A-1.png",
@@ -1103,7 +1102,7 @@
      "number": 32,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um dado resistor ôhmico, de resistência R, quando submetido a uma tensão V1 5 V, dissipa uma potência P1. Se o mesmo resistor for submetido a uma tensão V2 10 V, a potência dissipada será P2. Considerando as informações](/questoes/ufpr/2023/q32-1.png)\n\napresentadas, assinale a alternativa que apresenta corretamente a relação entre as potências dissipadas.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um dado resistor ôhmico, de resistência R, quando submetido a uma tensão V1 5 V, dissipa uma potência P1. Se o mesmo resistor for submetido a uma tensão V2 10 V, a potência dissipada será P2. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente a relação entre as potências dissipadas.](/questoes/ufpr/2023/q32-1.png)",
      "images": [
       "/questoes/ufpr/2023/q32-1.png",
       "/questoes/ufpr/2023/q32-A-1.png",
@@ -1147,7 +1146,7 @@
      "number": 33,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nA figura a seguir mostra uma prancha retilínea AB que deve ser mantida na horizontal, em equilíbrio estático.\n\n![Figura](/questoes/ufpr/2023/q33-1.png)\n\n![Trecho com fórmula: O peso da prancha pode ser desprezado em comparação com as outras forças envolvidas. A prancha está apoiada num suporte triangular no ponto C, e sobre ela está colocado um objeto (que pode ser considerado pontual) de massa m 2, 0 kg a uma distância d1 3, 0 m do suporte em C. Do outro lado do suporte, há uma força vertical F orientada para baixo, de módulo F 15 N, que está aplicada na prancha num …](/questoes/ufpr/2023/q33-2.png)\n\nConsiderando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da distância d₂ para que a prancha seja mantida em equilíbrio estático.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nA figura a seguir mostra uma prancha retilínea AB que deve ser mantida na horizontal, em equilíbrio estático.\n\n![Figura](/questoes/ufpr/2023/q33-1.png)\n\n![Trecho com fórmula: O peso da prancha pode ser desprezado em comparação com as outras forças envolvidas. A prancha está apoiada num suporte triangular no ponto C, e sobre ela está colocado um objeto (que pode ser considerado pontual) de massa m 2, 0 kg a uma distância d1 3, 0 m do suporte em C. Do outro lado do suporte, há uma força vertical F orientada para baixo, de módulo F 15 N, que está aplicada na prancha num …](/questoes/ufpr/2023/q33-2.png)",
      "images": [
       "/questoes/ufpr/2023/q33-1.png",
       "/questoes/ufpr/2023/q33-2.png",
@@ -1192,10 +1191,9 @@
      "number": 34,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Num dado local, a velocidade do som vale vs 340 m/s. Considerando essa informação, assinale a alternativa que](/questoes/ufpr/2023/q34-1.png)\n\n![Trecho com fórmula: apresenta corretamente o valor do comprimento de onda de uma onda sonora produzida nesse local e que tenha um período T 20 ms.](/questoes/ufpr/2023/q34-2.png)",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Num dado local, a velocidade do som vale vs 340 m/s. Considerando essa informação, assinale a alternativa que apresenta corretamente o valor do comprimento de onda de uma onda sonora produzida nesse local e que tenha um período T 20 ms.](/questoes/ufpr/2023/q34-1.png)",
      "images": [
       "/questoes/ufpr/2023/q34-1.png",
-      "/questoes/ufpr/2023/q34-2.png",
       "/questoes/ufpr/2023/q34-A-1.png",
       "/questoes/ufpr/2023/q34-B-1.png",
       "/questoes/ufpr/2023/q34-C-1.png",
@@ -1237,7 +1235,7 @@
      "number": 35,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um objeto de massa m constante se move sobre uma pista retilínea, paralela ao eixo x. No instante t1 2 s, esse objeto está na posição x1 10 cm. No instante t2 6 s, ele é encontrado na posição x2 20 cm. Sabe-se que em todo o](/questoes/ufpr/2023/q35-1.png)\n\nmovimento a força resultante sobre o objeto é nula. Diante do exposto, assinale a alternativa que apresenta corretamente o valor da velocidade v desse objeto durante esse movimento.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um objeto de massa m constante se move sobre uma pista retilínea, paralela ao eixo x. No instante t1 2 s, esse objeto está na posição x1 10 cm. No instante t2 6 s, ele é encontrado na posição x2 20 cm. Sabe-se que em todo o movimento a força resultante sobre o objeto é nula. Diante do exposto, assinale a alternativa que apresenta corretamente o valor da velocidade v desse objeto durante esse movi…](/questoes/ufpr/2023/q35-1.png)",
      "images": [
       "/questoes/ufpr/2023/q35-1.png",
       "/questoes/ufpr/2023/q35-A-1.png",
@@ -1281,7 +1279,7 @@
      "number": 36,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um raio luminoso se propaga de forma retilínea em um dado meio com uma velocidade de módulo v 5 106 m/s. Sabendo que a velocidade da luz no vácuo vale, em módulo, v 3 108 m/s, e considerando as informações](/questoes/ufpr/2023/q36-1.png)\n\napresentadas, assinale a alternativa que apresenta corretamente o valor do índice de refração n desse material.",
+     "statement_md": "O texto a seguir é referência para as questões 28 a 36.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um raio luminoso se propaga de forma retilínea em um dado meio com uma velocidade de módulo v 5 106 m/s. Sabendo que a velocidade da luz no vácuo vale, em módulo, v 3 108 m/s, e considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor do índice de refração n desse material.](/questoes/ufpr/2023/q36-1.png)",
      "images": [
       "/questoes/ufpr/2023/q36-1.png",
       "/questoes/ufpr/2023/q36-A-1.png",
@@ -1325,7 +1323,7 @@
      "number": 37,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de positividade se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente disseminada entre os animais em estado selvagem. Trata-se de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar para que, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. Por isso, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que se assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nConsidere o seguinte excerto do texto:\n\nTambém a crescente sobrecarga de trabalho torna necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção.\n\nNessa passagem, o autor aponta um efeito de:",
+     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de **positividade** se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente **disseminada** entre os animais em estado selvagem. Trata-**se** de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar **para que**, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. **Por isso**, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que **se** assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nConsidere o seguinte excerto do texto:\n\nTambém a crescente sobrecarga de trabalho torna necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção.\n\nNessa passagem, o autor aponta um efeito de:",
      "images": [],
      "alternatives": [
       {
@@ -1357,7 +1355,7 @@
      "number": 38,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de positividade se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente disseminada entre os animais em estado selvagem. Trata-se de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar para que, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. Por isso, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que se assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nNo excerto *O animal não pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo* *o que tem atrás de si*, é correto afirmar, a respeito das expressões grifadas, que no texto:",
+     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de **positividade** se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente **disseminada** entre os animais em estado selvagem. Trata-**se** de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar **para que**, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. **Por isso**, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que **se** assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\n**No excerto** *O animal não pode* ***mergulhar contemplativamente*** *no que tem diante de si, pois tem de elaborar ao mesmo tempo* ***o que tem atrás de si*****, é correto afirmar, a respeito das expressões grifadas, que no texto:**",
      "images": [],
      "alternatives": [
       {
@@ -1389,7 +1387,7 @@
      "number": 39,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de positividade se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente disseminada entre os animais em estado selvagem. Trata-se de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar para que, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. Por isso, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que se assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nPara a adequada interpretação do texto, é necessário identificar a que informações, apresentadas previamente, correspondem algumas expressões de sentido vago e empregadas pelo autor. Isso posto, considere as seguintes afirmativas:\n\n1. Na expressão “para que”, linha 9, “que” é pronome relativo cujo referente é “ele próprio”.\n\n2. O termo destacado na expressão “trata-se”, linha 6, refere-se a “técnica de atenção”.\n\n3. O termo grifado na expressão “que se assemelha”, linha 12, é marca de indeterminação.\n\n4. “Por isso”, linha 10, estabelece relação conclusiva com o período imediatamente anterior.\n\nAssinale a alternativa correta.",
+     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de **positividade** se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente **disseminada** entre os animais em estado selvagem. Trata-**se** de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar **para que**, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. **Por isso**, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que **se** assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nPara a adequada interpretação do texto, é necessário identificar a que informações, apresentadas previamente, correspondem algumas expressões de sentido vago e empregadas pelo autor. Isso posto, considere as seguintes afirmativas:\n\n1. Na expressão “para que”, linha 9, “que” é pronome relativo cujo referente é “ele próprio”.\n\n2. O termo destacado na expressão “trata-**se**”, linha 6, refere-se a “técnica de atenção”.\n\n3. O termo grifado na expressão “que **se** assemelha”, linha 12, é marca de indeterminação.\n\n4. “Por isso”, linha 10, estabelece relação conclusiva com o período imediatamente anterior.\n\nAssinale a alternativa correta.",
      "images": [],
      "alternatives": [
       {
@@ -1421,7 +1419,7 @@
      "number": 40,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de positividade se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente disseminada entre os animais em estado selvagem. Trata-se de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar para que, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. Por isso, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que se assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nAssinale a alternativa que recupera a tese central do texto de Byung-Chul Han.",
+     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de **positividade** se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente **disseminada** entre os animais em estado selvagem. Trata-**se** de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar **para que**, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. **Por isso**, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que **se** assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nAssinale a alternativa que recupera a tese central do texto de Byung-Chul Han.",
      "images": [],
      "alternatives": [
       {
@@ -1442,7 +1440,7 @@
       },
       {
        "label": "E",
-       "text_md": "As mudanças na estrutura de atenção humana, atualmente, ao invés de serem um ganho civilizatório apresentam um\n\nretorno ao comportamento animal."
+       "text_md": "As mudanças na estrutura de atenção humana, atualmente, ao invés de serem um ganho civilizatório apresentam um retorno ao comportamento animal."
       }
      ],
      "correct": "E",
@@ -1453,7 +1451,7 @@
      "number": 41,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de positividade se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente disseminada entre os animais em estado selvagem. Trata-se de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar para que, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. Por isso, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que se assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nConsidere as seguintes sequências extraídas do texto:\n\nO excesso de positividade se manifesta também como excesso de estímulos \\[...\\];\n\nA multitarefa está amplamente disseminada entre os animais em estado selvagem.\n\nAssinale a alternativa cujos termos podem substituir, respectivamente, os vocábulos grifados, na acepção que lhes confere o texto.",
+     "statement_md": "O texto a seguir é referência para as questões 37 a 41.\n\nO tédio profundo\n\n1 O excesso de **positividade** se manifesta também como excesso de estímulos, informações e impulsos. Modifica radicalmente a 2 estrutura e economia da atenção. Com isso se fragmenta e destrói a atenção. Também a crescente sobrecarga de trabalho torna 3 necessária uma técnica específica relacionada ao tempo e à atenção, que tem efeitos novamente na estrutura da atenção. A técnica 4 temporal e de atenção *multitasking* (multitarefa) não representa nenhum progresso civilizatório. A multitarefa não é uma capacidade 5 para a qual só seria capaz o homem na sociedade trabalhista e de informação pós-moderna. Trata-se antes de um retrocesso. A 6 multitarefa está amplamente **disseminada** entre os animais em estado selvagem. Trata-**se** de uma técnica de atenção, indispensável 7 para sobreviver na vida selvagem.\n\n8 Um animal ocupado no exercício da mastigação de sua comida tem de ocupar-se ao mesmo tempo com outras atividades. Deve 9 cuidar **para que**, ao comer, ele próprio não acabe comido. Na vida selvagem, o animal está obrigado a dividir sua atenção em 10 diversas atividades. **Por isso**, não é capaz de aprofundamento contemplativo – nem para comer, nem no copular. O animal não 11 pode mergulhar contemplativamente no que tem diante de si, pois tem de elaborar ao mesmo tempo o que tem atrás de si. Não 12 apenas a multitarefa, mas também atividades como jogos de computador geram uma atenção ampla, mas rasa, que **se** assemelha 13 à atenção de um animal selvagem. As mais recentes evoluções sociais e a mudança de estrutura da atenção aproximam cada vez 14 mais a sociedade humana da vida selvagem.\n\n(Extraído e Adaptado de: HAN, Byung-Chul. *Sociedade do cansaço*. Petrópolis, RJ: Vozes, 2017. p. 31-32.)\n\nConsidere as seguintes sequências extraídas do texto:\n\nO excesso de **positividade** se manifesta também como excesso de estímulos \\[...\\];\n\nA multitarefa está amplamente **disseminada** entre os animais em estado selvagem.\n\nAssinale a alternativa cujos termos podem substituir, respectivamente, os vocábulos grifados, na acepção que lhes confere o texto.",
      "images": [],
      "alternatives": [
       {
@@ -1549,7 +1547,7 @@
      "number": 44,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o antagonista. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de revogar a alcunha de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem seus defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar suas histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nObserve as seguintes afirmativas, relacionadas ao texto.\n\n1. Uma possível razão pela qual gostamos tanto de vilões é que os padrões morais de nossa sociedade são injustos e pouco profundos.\n\n2. Como a figura do herói e a figura do vilão representam características morais antagônicas, são figuras complementares em uma narrativa.\n\n3. O conceito de “herói” é variável porque está intimamente relacionado à cultura do povo que o criou e ao momento histórico em que foi criado.\n\nAssinale a alternativa correta.",
+     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que **ele** varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o **antagonista**. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de **revogar** a **alcunha** de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem **seus** defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar **suas** histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nObserve as seguintes afirmativas, relacionadas ao texto.\n\n1. Uma possível razão pela qual gostamos tanto de vilões é que os padrões morais de nossa sociedade são injustos e pouco profundos.\n\n2. Como a figura do herói e a figura do vilão representam características morais antagônicas, são figuras complementares em uma narrativa.\n\n3. O conceito de “herói” é variável porque está intimamente relacionado à cultura do povo que o criou e ao momento histórico em que foi criado.\n\nAssinale a alternativa correta.",
      "images": [],
      "alternatives": [
       {
@@ -1581,7 +1579,7 @@
      "number": 45,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o antagonista. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de revogar a alcunha de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem seus defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar suas histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nAssinale a alternativa que contém a afirmativa que resume adequadamente o argumento central do texto.",
+     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que **ele** varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o **antagonista**. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de **revogar** a **alcunha** de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem **seus** defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar **suas** histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nAssinale a alternativa que contém a afirmativa que resume adequadamente o argumento central do texto.",
      "images": [],
      "alternatives": [
       {
@@ -1598,7 +1596,7 @@
       },
       {
        "label": "D",
-       "text_md": "O silenciamento sobre a história de um indivíduo é estratégia eficaz para vilanizá-lo e é utilizado por narrativas que criam\n\nvilões na ficção e na realidade."
+       "text_md": "O silenciamento sobre a história de um indivíduo é estratégia eficaz para vilanizá-lo e é utilizado por narrativas que criam vilões na ficção e na realidade."
       },
       {
        "label": "E",
@@ -1613,7 +1611,7 @@
      "number": 46,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o antagonista. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de revogar a alcunha de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem seus defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar suas histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nOs termos sublinhados no texto – “antagonista”, “revogar” e “alcunha” – podem ser respectivamente substituídos, sem prejuízo de sentido, por:",
+     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que **ele** varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o **antagonista**. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de **revogar** a **alcunha** de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem **seus** defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar **suas** histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nOs termos sublinhados no texto – “antagonista”, “revogar” e “alcunha” – podem ser respectivamente substituídos, sem prejuízo de sentido, por:",
      "images": [],
      "alternatives": [
       {
@@ -1645,7 +1643,7 @@
      "number": 47,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o antagonista. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de revogar a alcunha de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem seus defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar suas histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nAssinale a alternativa que contém os elementos a que apontam, respectivamente, os termos “ele”, “seus” e “suas”, destacados no texto.",
+     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que **ele** varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o **antagonista**. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de **revogar** a **alcunha** de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem **seus** defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar **suas** histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nAssinale a alternativa que contém os elementos a que apontam, respectivamente, os termos “ele”, “seus” e “suas”, destacados no texto.",
      "images": [],
      "alternatives": [
       {
@@ -1677,7 +1675,7 @@
      "number": 48,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o antagonista. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de revogar a alcunha de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem seus defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar suas histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nConsidere o primeiro parágrafo do texto:\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nAssinale, dentre as alternativas abaixo, aquela que caracteriza a relação semântica que a conjunção sublinhada estabelece entre as orações conectadas.",
+     "statement_md": "O texto a seguir é referência para as questões 44 a 48.\n\nA fronteira tênue entre heróis e vilões\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que **ele** varia muito de lugar para lugar e de época para época. Mesmo assim, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nApesar do protagonismo do herói, o que seria dele se não houvesse um vilão? Nas narrativas, o vilão costuma ser o **antagonista**. Os vilões representam aquilo que é errado, injusto, que foge à moral defendida pelo herói. Por não carregar o protagonismo das histórias, o vilão costuma ser um personagem sem profundidade, sem dilemas, sem uma história que nos explique o porquê de suas ações. E isso reforça sua vilania.\n\nConhecer a história de alguém é um processo humanizador, capaz até de **revogar** a **alcunha** de vilão e conferir ao personagem o título de herói, ou só de uma pessoa comum que tem **seus** defeitos e qualidades. Assim, uma maneira de fabricar vilões é não deixar **suas** histórias serem contadas, é criar uma imagem sobre esses personagens e mantê-los em silêncio.\n\n(MIRANDA, Lucas Mascarenhas de. A fronteira tênue entre heróis e vilões. *Ciência hoje*, Rio de Janeiro, 21 nov. 2021. Disponível em:\n\nhttps://cienciahoje.org.br/artigo/a-fronteira-tenue-entre-herois-e-viloes/. Adaptado.)\n\nConsidere o primeiro parágrafo do texto:\n\nO conceito de herói está profundamente ligado à cultura que o criou e a quando foi criado, o que significa que ele varia muito de lugar para lugar e de época para época. **Mesmo assim**, a figura do herói aparece nas mais diversas sociedades e eras, sempre atendendo a critérios morais e desejos em comum de determinado povo.\n\nAssinale, dentre as alternativas abaixo, aquela que caracteriza a relação semântica que a conjunção sublinhada estabelece entre as orações conectadas.",
      "images": [],
      "alternatives": [
       {
@@ -1730,7 +1728,7 @@
       },
       {
        "label": "E",
-       "text_md": "“Beijos que são? — Ai do peito,/ Selo breve, laço estreito/ Dum cansado bem querer;/ Saibo de gozos divinos,/ Que nos\n\nlábios femininos/ Quis Deus bondoso verter.” (Os beijos)."
+       "text_md": "“Beijos que são? — Ai do peito,/ Selo breve, laço estreito/ Dum cansado bem querer;/ Saibo de gozos divinos,/ Que nos lábios femininos/ Quis Deus bondoso verter.” (Os beijos)."
       }
      ],
      "correct": "E",
@@ -1754,7 +1752,7 @@
       },
       {
        "label": "C",
-       "text_md": "Nini, filha de madame Brizard, tornou-se histérica depois da morte de seu filho; durante crises nervosas, ela comete atos\n\ninesperados, como quando agarrou Amâncio no corredor da casa de pensão."
+       "text_md": "Nini, filha de madame Brizard, tornou-se histérica depois da morte de seu filho; durante crises nervosas, ela comete atos inesperados, como quando agarrou Amâncio no corredor da casa de pensão."
       },
       {
        "label": "D",
@@ -1782,7 +1780,7 @@
       },
       {
        "label": "B",
-       "text_md": "Chegando à Zona da Mata, Severino se anima ao perceber que os rios que correm naquela região não se interrompem, o\n\nque torna a terra mais fértil, porém em seguida ele se depara com mais um enterro."
+       "text_md": "Chegando à Zona da Mata, Severino se anima ao perceber que os rios que correm naquela região não se interrompem, o que torna a terra mais fértil, porém em seguida ele se depara com mais um enterro."
       },
       {
        "label": "C",
@@ -1858,7 +1856,7 @@
       },
       {
        "label": "E",
-       "text_md": "A morte de Matraga é o desfecho de um combate que resulta em morte dupla, sinalizando a redenção que Nhô Augusto\n\nprenuncia quando diz “P’ra o céu eu vou, nem que seja a porrete!...”."
+       "text_md": "A morte de Matraga é o desfecho de um combate que resulta em morte dupla, sinalizando a redenção que Nhô Augusto prenuncia quando diz “P’ra o céu eu vou, nem que seja a porrete!...”."
       }
      ],
      "correct": "E",
@@ -2243,7 +2241,7 @@
       },
       {
        "label": "B",
-       "text_md": "“Tudo que posso fazer é formar ideias na minha própria mente. \\[...\\] E isso está longe de ser prova de que posso concebê-las\n\nexistindo fora das mentes de todos os espíritos.”"
+       "text_md": "“Tudo que posso fazer é formar ideias na minha própria mente. \\[...\\] E isso está longe de ser prova de que posso concebê-las existindo fora das mentes de todos os espíritos.”"
       },
       {
        "label": "C",
@@ -2298,7 +2296,7 @@
      "number": 67,
      "area": "humanas",
      "subject": "Filosofia",
-     "statement_md": "Maquiavel considera que é muito útil “poder acusar perante o povo, perante um magistrado ou mesmo perante um conselho, os cidadãos que praticarem algum ato contra o estado livre”. Pois, com isso, escreve ele, “se institui um lugar para o desafogo daqueles humores que crescem nas cidades contra qualquer cidadão. Quando estes humores não têm onde se desafogar ordinariamente, buscam modos extraordinários”.\n\n(MAQUIAVEL, Nicolau. Discursos sobre a Primeira década de Tito Livio. *In*: MARÇAL, J. (org.). *Antologia de textos filosóficos*. Curitiba: SEED, 2009. p. 437.)\n\nNessa passagem, Maquiavel elogia a instituição romana da acusação pública porque ela:",
+     "statement_md": "Maquiavel considera que é muito útil “poder acusar perante o povo, perante um magistrado ou mesmo perante um conselho, os cidadãos que praticarem algum ato contra o estado livre”. Pois, com isso, escreve ele, “se institui um lugar para o desafogo daqueles humores que crescem nas cidades contra qualquer cidadão. Quando estes humores não têm onde se desafogar ordinariamente, buscam modos extraordinários”.\n\n(MAQUIAVEL, Nicolau. Discursos sobre a Primeira década de Tito Livio.\n\n*In*: MARÇAL, J. (org.). *Antologia de textos filosóficos*. Curitiba: SEED, 2009. p. 437.)\n\nNessa passagem, Maquiavel elogia a instituição romana da acusação pública porque ela:",
      "images": [],
      "alternatives": [
       {
@@ -2379,7 +2377,7 @@
       },
       {
        "label": "D",
-       "text_md": "A instalação de shopping centers de grande porte reforça a centralidade urbana das cidades de porte médio e grande,\n\npois esses estabelecimentos atendem consumidores distribuídos em diversos municípios de uma região."
+       "text_md": "A instalação de shopping centers de grande porte reforça a centralidade urbana das cidades de porte médio e grande, pois esses estabelecimentos atendem consumidores distribuídos em diversos municípios de uma região."
       },
       {
        "label": "E",
@@ -2411,7 +2409,7 @@
       },
       {
        "label": "D",
-       "text_md": "O Índice de Desenvolvimento Humano Municipal (IDHM) mede a evolução dos municípios brasileiros de acordo com as\n\nmesmas dimensões do Índice de Desenvolvimento Humano Global, que são longevidade, educação e renda."
+       "text_md": "O Índice de Desenvolvimento Humano Municipal (IDHM) mede a evolução dos municípios brasileiros de acordo com as mesmas dimensões do Índice de Desenvolvimento Humano Global, que são longevidade, educação e renda."
       },
       {
        "label": "E",
@@ -2431,7 +2429,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Nos anos 1970, duas iniciativas governamentais de ocupação da Amazônia foram a construção da Rodovia\n\nTransamazônica e a política de reforma agrária baseada na distribuição de lotes de terras em áreas distantes com o fim de criar uma frente pioneira."
+       "text_md": "Nos anos 1970, duas iniciativas governamentais de ocupação da Amazônia foram a construção da Rodovia Transamazônica e a política de reforma agrária baseada na distribuição de lotes de terras em áreas distantes com o fim de criar uma frente pioneira."
       },
       {
        "label": "B",
@@ -2463,7 +2461,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Um problema ambiental típico das metrópoles de países em desenvolvimento é a ocupação de áreas de mananciais por\n\nloteamentos regulares e irregulares, pois a construção de moradias e de benfeitorias urbanas nessas áreas impermeabiliza os solos."
+       "text_md": "Um problema ambiental típico das metrópoles de países em desenvolvimento é a ocupação de áreas de mananciais por loteamentos regulares e irregulares, pois a construção de moradias e de benfeitorias urbanas nessas áreas impermeabiliza os solos."
       },
       {
        "label": "B",
@@ -2503,7 +2501,7 @@
       },
       {
        "label": "C",
-       "text_md": "Nos anos 1930 e 1940, o conceito geográfico político de \"espaço vital\" foi utilizado como justificativa para o expansionismo\n\nterritorial por parte de nações com regimes políticos imperialistas."
+       "text_md": "Nos anos 1930 e 1940, o conceito geográfico político de \"espaço vital\" foi utilizado como justificativa para o expansionismo territorial por parte de nações com regimes políticos imperialistas."
       },
       {
        "label": "D",
@@ -2531,7 +2529,7 @@
       },
       {
        "label": "B",
-       "text_md": "As tecnologias modernas permitiram o plantio em áreas onde as condições naturais não eram ideais para a agricultura, o\n\nque não mudou o fato de os cultivos de cana, café, cacau, algodão, laranja e banana continuarem sendo mais comuns nas regiões tropicais, enquanto trigo, cevada, aveia e centeio são mais comuns em áreas temperadas."
+       "text_md": "As tecnologias modernas permitiram o plantio em áreas onde as condições naturais não eram ideais para a agricultura, o que não mudou o fato de os cultivos de cana, café, cacau, algodão, laranja e banana continuarem sendo mais comuns nas regiões tropicais, enquanto trigo, cevada, aveia e centeio são mais comuns em áreas temperadas."
       },
       {
        "label": "C",
@@ -2575,7 +2573,7 @@
       },
       {
        "label": "E",
-       "text_md": "Nos EUA, as duas primeiras revoluções industriais favoreceram regiões ricas em carvão e ferro, como a região dos\n\nGrandes Lagos, enquanto a terceira favoreceu regiões com trabalhadores qualificados e universidades de ponta, como a Califórnia."
+       "text_md": "Nos EUA, as duas primeiras revoluções industriais favoreceram regiões ricas em carvão e ferro, como a região dos Grandes Lagos, enquanto a terceira favoreceu regiões com trabalhadores qualificados e universidades de ponta, como a Califórnia."
       }
      ],
      "correct": "E",
@@ -2599,7 +2597,7 @@
       },
       {
        "label": "C",
-       "text_md": "Em meados do século XX, a rápida queda das taxas de mortalidade, somada à manutenção de taxas de natalidade\n\nelevadas, fortaleceu a ideia de que o controle populacional era necessário para evitar a expansão da pobreza mundial."
+       "text_md": "Em meados do século XX, a rápida queda das taxas de mortalidade, somada à manutenção de taxas de natalidade elevadas, fortaleceu a ideia de que o controle populacional era necessário para evitar a expansão da pobreza mundial."
       },
       {
        "label": "D",
@@ -2627,7 +2625,7 @@
       },
       {
        "label": "B",
-       "text_md": "Os critérios de regionalização utilizados criam algumas distorções, como se vê no caso de Minas Gerais, dado que os\n\nmunicípios do Triângulo Mineiro e Região Metropolitana de Belo Horizonte apresentam indicadores dentro da média dos municípios do Sudeste, e os municípios do Norte mineiro apresentam indicadores dentro da média dos municípios do interior do Nordeste."
+       "text_md": "Os critérios de regionalização utilizados criam algumas distorções, como se vê no caso de Minas Gerais, dado que os municípios do Triângulo Mineiro e Região Metropolitana de Belo Horizonte apresentam indicadores dentro da média dos municípios do Sudeste, e os municípios do Norte mineiro apresentam indicadores dentro da média dos municípios do interior do Nordeste."
       },
       {
        "label": "C",
@@ -2663,7 +2661,7 @@
       },
       {
        "label": "C",
-       "text_md": "A flexibilização das leis que regulam as atividades laborais resulta em aumento da assimetria nas relações entre capital e\n\ntrabalho, dificultando especialmente a ação de sindicatos em favor dos trabalhadores e trabalhadoras."
+       "text_md": "A flexibilização das leis que regulam as atividades laborais resulta em aumento da assimetria nas relações entre capital e trabalho, dificultando especialmente a ação de sindicatos em favor dos trabalhadores e trabalhadoras."
       },
       {
        "label": "D",
@@ -2682,7 +2680,7 @@
      "number": 79,
      "area": "humanas",
      "subject": "Sociologia",
-     "statement_md": "Considere o trecho a seguir:\n\nOs problemas de diversidade e pluralismo colocados em pauta pelas sociedades multiculturais, a partir da década de 1980, obrigaram-nos a uma nova reflexão sobre o reconhecimento universalista proposto pela Modernidade. Os movimentos sociais organizados por homossexuais, negros, mulheres, entre outros grupos, passaram a reivindicar a efetiva realização da igualdade de oportunidades e o fim dos princípios discriminatórios. Deu-se, então, o estabelecimento de políticas públicas que ficaram conhecidas como políticas de ação afirmativa.\n\n(O’DONNEL, Julia *et al.Tempos modernos, tempos de sociologia*. Rio de Janeiro: Editora do Brasil, 2018.)\n\nCom base na argumentação das autoras, pode-se afirmar que:",
+     "statement_md": "Considere o trecho a seguir:\n\nOs problemas de diversidade e pluralismo colocados em pauta pelas sociedades multiculturais, a partir da década de 1980, obrigaram-nos a uma nova reflexão sobre o reconhecimento universalista proposto pela Modernidade. Os movimentos sociais organizados por homossexuais, negros, mulheres, entre outros grupos, passaram a reivindicar a efetiva realização da igualdade de oportunidades e o fim dos princípios discriminatórios. Deu-se, então, o estabelecimento de políticas públicas que ficaram conhecidas como políticas de ação afirmativa.\n\n(O’DONNEL, Julia *et al. Tempos modernos, tempos de sociologia*. Rio de Janeiro: Editora do Brasil, 2018.)\n\nCom base na argumentação das autoras, pode-se afirmar que:",
      "images": [],
      "alternatives": [
       {
@@ -2703,7 +2701,7 @@
       },
       {
        "label": "E",
-       "text_md": "ações afirmativas se baseiam em um pressuposto que leva em conta as condições desiguais de determinados grupos\n\nsociais para acesso às oportunidades sociais."
+       "text_md": "ações afirmativas se baseiam em um pressuposto que leva em conta as condições desiguais de determinados grupos sociais para acesso às oportunidades sociais."
       }
      ],
      "correct": "E",
@@ -2719,7 +2717,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "O autor demonstra que uma das particularidades do caso brasileiro é a vigência da ideia de que somos uma democracia\n\nracial, o que não é senão um mito que assegura a manutenção da desigualdade entre brancas e brancos por um lado e negras e negros de outro."
+       "text_md": "O autor demonstra que uma das particularidades do caso brasileiro é a vigência da ideia de que somos uma democracia racial, o que não é senão um mito que assegura a manutenção da desigualdade entre brancas e brancos por um lado e negras e negros de outro."
       },
       {
        "label": "B",
@@ -2755,7 +2753,7 @@
       },
       {
        "label": "B",
-       "text_md": "Para a sociologia, identidade de gênero se constitui no contexto das relações sociais, base na qual se formulam sentidos\n\ne significados aos aspectos anatômicos e se institucionalizam diferenciações psíquicas e comportamentais e divisões sexuais do trabalho social."
+       "text_md": "Para a sociologia, identidade de gênero se constitui no contexto das relações sociais, base na qual se formulam sentidos e significados aos aspectos anatômicos e se institucionalizam diferenciações psíquicas e comportamentais e divisões sexuais do trabalho social."
       },
       {
        "label": "C",
@@ -2795,7 +2793,7 @@
       },
       {
        "label": "D",
-       "text_md": "Uma ação orientada por expectativas em relação à(s) outra(s) pessoa(s), sejam elas conhecidas ou não, vivas, mortas\n\n(ancenstrais) ou nem nascidas (visando as gerações futuras)."
+       "text_md": "Uma ação orientada por expectativas em relação à(s) outra(s) pessoa(s), sejam elas conhecidas ou não, vivas, mortas (ancenstrais) ou nem nascidas (visando as gerações futuras)."
       },
       {
        "label": "E",
@@ -2812,7 +2810,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 85.\n\nNadia - vom Flüchtlingskind zum Fußballprofi\n\nDer Dokumentarfilm \"Nadia\" erzählt diese unglaubliche Geschichte von Nadia Nadim, die als Kind vor den Taliban fliehen musste und zu einem Fußballstar wurde.\n\nNadia Nadim ist 8 Jahre alt, als ihr Vater von den Taliban ermordet wird - hingerichtet mit einem Schuss in den Hinterkopf. So zumindest wurde es ihrer Mutter Hamida zugetragen, erzählt Nadia Nadim zu Beginn des Dokumentarfilms \"Nadia\", für den sie sich anderthalb Jahre lang von der Kamera begleiten ließ.\n\n\"Ich habe einfach versucht, so ehrlich wie möglich gegenüber Nadia zu sein\", sagt Regisseurin Anissa Bonnefont im Gespräch mit der DW, \"und Nadia vereint all diese komplexen Themen in ihrer Person.\" \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Anissa Bonnefont ihre junge Protagonistin 2019 zum ersten Mal trifft, verstehen sich die Frauen auf Anhieb. Diese Nähe ist durch den ganzen Dokumentarfilm hindurch zu spüren. Nadia Nadim lässt Anissa Bonnefont und damit die Zuschauenden sehr nah an sich und ihre Geschichte heran.\n\n(Verfügbar unter: https://www.dw.com/de/nadia-vom-fl%C3%BCchtlingskind-zum-fu%C3%9Fballprofi/a-61780159. Angeglichener Text.)\n\nDas Wort “die”, in Linie 1, bezieht sich auf:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 85.\n\nNadia - vom Flüchtlingskind zum Fußballprofi\n\nDer Dokumentarfilm \"Nadia\" erzählt diese unglaubliche Geschichte von Nadia Nadim, **die** als Kind vor den Taliban fliehen musste und zu einem Fußballstar wurde.\n\nNadia Nadim ist 8 Jahre alt, als ihr Vater von den Taliban ermordet wird - hingerichtet mit einem Schuss in den Hinterkopf. So zumindest wurde es ihrer Mutter Hamida zugetragen, erzählt Nadia Nadim zu Beginn des Dokumentarfilms \"Nadia\", für den sie sich anderthalb Jahre lang von der Kamera begleiten ließ.\n\n\"Ich habe einfach versucht, so ehrlich wie möglich gegenüber Nadia zu sein\", sagt Regisseurin Anissa Bonnefont im Gespräch mit der DW, \"und Nadia vereint all diese komplexen Themen in ihrer Person.\" **\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_** Anissa Bonnefont ihre junge Protagonistin 2019 zum ersten Mal trifft, verstehen sich die Frauen auf Anhieb. Diese Nähe ist durch den ganzen Dokumentarfilm hindurch zu spüren. Nadia Nadim lässt Anissa Bonnefont und damit die Zuschauenden sehr nah an sich und ihre Geschichte heran.\n\n(Verfügbar unter: https://www.dw.com/de/nadia-vom-fl%C3%BCchtlingskind-zum-fu%C3%9Fballprofi/a-61780159. Angeglichener Text.)\n\nDas Wort “die”, in Linie 1, bezieht sich auf:",
      "images": [],
      "alternatives": [
       {
@@ -2846,7 +2844,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Markieren Sie die korrekte Aussage.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 85.\n\nNadia - vom Flüchtlingskind zum Fußballprofi\n\nDer Dokumentarfilm \"Nadia\" erzählt diese unglaubliche Geschichte von Nadia Nadim, **die** als Kind vor den Taliban fliehen musste und zu einem Fußballstar wurde.\n\nNadia Nadim ist 8 Jahre alt, als ihr Vater von den Taliban ermordet wird - hingerichtet mit einem Schuss in den Hinterkopf. So zumindest wurde es ihrer Mutter Hamida zugetragen, erzählt Nadia Nadim zu Beginn des Dokumentarfilms \"Nadia\", für den sie sich anderthalb Jahre lang von der Kamera begleiten ließ.\n\n\"Ich habe einfach versucht, so ehrlich wie möglich gegenüber Nadia zu sein\", sagt Regisseurin Anissa Bonnefont im Gespräch mit der DW, \"und Nadia vereint all diese komplexen Themen in ihrer Person.\" **\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_** Anissa Bonnefont ihre junge Protagonistin 2019 zum ersten Mal trifft, verstehen sich die Frauen auf Anhieb. Diese Nähe ist durch den ganzen Dokumentarfilm hindurch zu spüren. Nadia Nadim lässt Anissa Bonnefont und damit die Zuschauenden sehr nah an sich und ihre Geschichte heran.\n\n(Verfügbar unter: https://www.dw.com/de/nadia-vom-fl%C3%BCchtlingskind-zum-fu%C3%9Fballprofi/a-61780159. Angeglichener Text.)\n\nMarkieren Sie die korrekte Aussage.",
      "images": [],
      "alternatives": [
       {
@@ -2880,7 +2878,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Lesen Sie den folgenden Text:\n\nNadia - vom Flüchtlingskind zum Fußballprofi\n\nÜber Umwege gelangten die sechs Frauen und Mädchen schließlich nach Dänemark. Dort entdeckt Nadia \\_\\_\\_\\_\\_ Fußball für sich. Ein Glücksfall - Nadia liebt \\_\\_\\_\\_\\_ Sport, ihr Talent bleibt nicht lange unentdeckt. Als junge Frau spielt sie unter anderem für \\_\\_\\_\\_\\_ dänische Nationalmannschaft und Manchester City.\n\n(Verfügbar unter: https://www.dw.com/de/nadia-vom-fl%C3%BCchtlingskind-zum-fu%C3%9Fballprofi/a-61780159.)\n\nMarkieren Sie die Alternative, die richtig und die respektive Lücken ergänzt.",
+     "statement_md": "Lesen Sie den folgenden Text:\n\nNadia - vom Flüchtlingskind zum Fußballprofi\n\nÜber Umwege gelangten die sechs Frauen und Mädchen schließlich nach Dänemark. Dort entdeckt Nadia **\\_\\_\\_\\_\\_** Fußball für sich. Ein Glücksfall - Nadia liebt **\\_\\_\\_\\_\\_** Sport, ihr Talent bleibt nicht lange unentdeckt. Als junge Frau spielt sie unter anderem für **\\_\\_\\_\\_\\_** dänische Nationalmannschaft und Manchester City.\n\n(Verfügbar unter: https://www.dw.com/de/nadia-vom-fl%C3%BCchtlingskind-zum-fu%C3%9Fballprofi/a-61780159.)\n\nMarkieren Sie die Alternative, die richtig und die respektive Lücken ergänzt.",
      "images": [],
      "alternatives": [
       {
@@ -2914,7 +2912,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Der folgende Text bezieht sich auf Fragen 87 und 88.\n\nDW Spezial: Gutenberg im Cyberstorm\n\nDer Sturm um das Buch und seine Zukunft - er tobt in Deutschland und den USA besonders heftig. Während viele Deutsche die Digitalisierung eher skeptisch hinterfragen, begegnen Amerikaner ihr oft unbefangen und neugierig.\n\nDie Digitalisierung ist längst Teil unserer Kultur, unserer Lebenswelt. Sie beeinflusst immer stärker unser Verhalten und Denken. Lineares Denken - das war gestern. Heute können wir in Sekundenbruchteilen auf zahllose gigantische Datenspeicher zugreifen, klicken, hasten - taumeln durch eine nie dagewesene Flut von Informationen, Angeboten, Reizen. Dieser tiefgreifende Wandel wird immer mehr auch sichtbar im Umbruch auf dem Buchmarkt - über Ländergrenzen hinweg. In den USA ist das E-Book bereits etabliert, der gläserne Leser fast schon eine Selbstverständlichkeit, die Buchläden verschwinden.\n\n(Verfügbar unter: https://www.dw.com/de/dw-spezial-gutenberg-im-cyberstorm/t-50386410.)\n\nmotivo pelo qual será anulada. De acordo com o subitem 8.1.5.1 do Edital 41/2022, para preservar o princípio da isonomia entre os candidatos, essa anulação atingirá as demais línguas na questão correspondente.)\n\nLaut des Textes:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 87 und 88.\n\nDW Spezial: Gutenberg im Cyberstorm\n\nDer Sturm um das Buch und seine Zukunft - er tobt in Deutschland und den USA besonders heftig. Während viele Deutsche die Digitalisierung eher skeptisch hinterfragen, begegnen Amerikaner ihr oft unbefangen und neugierig.\n\nDie Digitalisierung ist längst Teil unserer Kultur, unserer Lebenswelt. Sie beeinflusst immer stärker unser Verhalten und Denken. Lineares Denken - das war gestern. Heute können wir in Sekundenbruchteilen auf zahllose gigantische Datenspeicher zugreifen, klicken, hasten - taumeln durch eine nie dagewesene Flut von Informationen, Angeboten, Reizen. Dieser tiefgreifende Wandel wird immer mehr auch sichtbar im Umbruch auf dem Buchmarkt - über Ländergrenzen hinweg. In den USA ist das E-Book bereits etabliert, der gläserne Leser fast schon eine Selbstverständlichkeit, die Buchläden verschwinden.\n\n(Verfügbar unter: https://www.dw.com/de/dw-spezial-gutenberg-im-cyberstorm/t-50386410.)\n\nLaut des Textes:",
      "images": [],
      "alternatives": [
       {
@@ -2948,7 +2946,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Die Stelle „taumeln durch eine nie dagewesene Flut von Informationen“ kann genauso umschrieben sein durch:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 87 und 88.\n\nDW Spezial: Gutenberg im Cyberstorm\n\nDer Sturm um das Buch und seine Zukunft - er tobt in Deutschland und den USA besonders heftig. Während viele Deutsche die Digitalisierung eher skeptisch hinterfragen, begegnen Amerikaner ihr oft unbefangen und neugierig.\n\nDie Digitalisierung ist längst Teil unserer Kultur, unserer Lebenswelt. Sie beeinflusst immer stärker unser Verhalten und Denken. Lineares Denken - das war gestern. Heute können wir in Sekundenbruchteilen auf zahllose gigantische Datenspeicher zugreifen, klicken, hasten - taumeln durch eine nie dagewesene Flut von Informationen, Angeboten, Reizen. Dieser tiefgreifende Wandel wird immer mehr auch sichtbar im Umbruch auf dem Buchmarkt - über Ländergrenzen hinweg. In den USA ist das E-Book bereits etabliert, der gläserne Leser fast schon eine Selbstverständlichkeit, die Buchläden verschwinden.\n\n(Verfügbar unter: https://www.dw.com/de/dw-spezial-gutenberg-im-cyberstorm/t-50386410.)\n\nDie Stelle „taumeln durch eine nie dagewesene Flut von Informationen“ kann genauso umschrieben sein durch:",
      "images": [],
      "alternatives": [
       {
@@ -3016,7 +3014,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Markieren Sie die korrekte Aussage.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 89 und 90.\n\nWenn der Mond blutig wird\n\nAm frühen Montagmorgen kommt es zu einer totalen Mondfinsternis. Wie und wann man das Schauspiel - mit etwas Glück - beobachten kann.\n\nIn der Nacht auf Montag wird sich der Mond blutrot einfärben. Zumindest wird es in Teilen von Afrika, Nord- und Südamerika, dem Nahen Osten, Neuseeland, der Antarktis und auch in Europa danach aussehen. Zum ersten Mal in diesem Jahr ist eine totale Mondfinsternis zu beobachten, die Erde wird sich genau zwischen Mond und Sonne schieben.\n\nNormalerweise strahlt die Sonne auf den Mond und dieser reflektiert das Licht zur Erde - somit sieht es aus, als würde der Mond selbst leuchten. Schiebt sich jedoch bei einer Mondfinsternis die Erde zwischen Mond und Sonne, dann gerät der Mond in den Kernschatten der Erde. Das passiert durchschnittlich ein paar Mal im Jahr.\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ sich das Naturschauspiel Mondfinsternis nennt, ist der Mond dann alles andere als finster - vielmehr erscheint er rötlich eingefärbt. Der Grund dafür ist, dass das Sonnenlicht von der Erdatmosphäre gebrochen und in seine Farbanteile zerlegt wird. Kurzwelliges blaues Licht wird dabei stärker gestreut, rotes Licht weniger. Vor allem letzteres wird dadurch in den Kernschatten der Erde abgelenkt. Dadurch färbt sich der Mond rot.\n\n(Verfügbar unter: https://www.sueddeutsche.de/wissen/mondfinsternis-kernschatten-mai-2022-1.5584240.)\n\nMarkieren Sie die korrekte Aussage.",
      "images": [],
      "alternatives": [
       {
@@ -3118,7 +3116,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "El texto a continuación sirve como referencia para las cuestiones 86 e 87.\n\nUn conductor de camión que circulaba por un descampado aledaño a un polígono industrial vio a una mujer caminando con las piernas manchadas de sangre y con una especie de hatillo de mantas en sus brazos que, además, se dirigía a una casa en ruinas. El hombre llamó de inmediato a la Guardia Civil que, al llegar al lugar, encontraron a un bebé recién nacido dentro de unos bidones.\n\n(Disponible en: https://www.tuotrodiario.com/noticias/20220523210916/.)\n\nSegún el fragmento de la noticia, es correcto afirmar que el conductor de un camión:",
+     "statement_md": "El texto a continuación sirve como referencia para las cuestiones 86 e 87.\n\nUn conductor de camión que circulaba por un descampado aledaño a un polígono **industrial vio a una mujer caminando con las** piernas manchadas de sangre y con una especie de hatillo de mantas en sus brazos **que, además, se dirigía a una casa en ruinas.** El hombre llamó de inmediato a la Guardia Civil que, al llegar al lugar, encontraron a un bebé recién nacido dentro de unos bidones.\n\n(Disponible en: https://www.tuotrodiario.com/noticias/20220523210916/.)\n\nSegún el fragmento de la noticia, es correcto afirmar que el conductor de un camión:",
      "images": [],
      "alternatives": [
       {
@@ -3152,7 +3150,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "Según el fragmento de la noticia, es correcto afirmar que el conductor estaba en un descampado:",
+     "statement_md": "El texto a continuación sirve como referencia para las cuestiones 86 e 87.\n\nUn conductor de camión que circulaba por un descampado aledaño a un polígono **industrial vio a una mujer caminando con las** piernas manchadas de sangre y con una especie de hatillo de mantas en sus brazos **que, además, se dirigía a una casa en ruinas.** El hombre llamó de inmediato a la Guardia Civil que, al llegar al lugar, encontraron a un bebé recién nacido dentro de unos bidones.\n\n(Disponible en: https://www.tuotrodiario.com/noticias/20220523210916/.)\n\nSegún el fragmento de la noticia, es correcto afirmar que el conductor estaba en un descampado:",
      "images": [],
      "alternatives": [
       {
@@ -3220,7 +3218,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "motivo pelo qual será anulada. De acordo com o subitem 8.1.5.1 do Edital 41/2022, para preservar o princípio da isonomia entre os candidatos, essa anulação atingirá as demais línguas na questão correspondente.)\n\nConsidera el siguiente texto:\n\nPese a las malas noticias en cuestión sanitaria de los últimos días, parece que hay algunos que no escarmientan. Alrededor de 120 personas celebraron ayer una fiesta privada en un catamarán saltándose las actuales normativas sanitarias.\n\n(Disponible en: lasprovincias.es/marina-alta/.)\n\nSegún el texto, la expresión subrayada y en negrita significa que algunas personas no:",
+     "statement_md": "Considera el siguiente texto:\n\nPese a las malas noticias en cuestión sanitaria de los últimos días, parece que hay algunos que **no escarmientan**. Alrededor de 120 personas celebraron ayer una fiesta privada en un catamarán saltándose las actuales normativas sanitarias.\n\n(Disponible en: lasprovincias.es/marina-alta/.)\n\nSegún el texto, la expresión subrayada y en negrita significa que algunas personas no:",
      "images": [],
      "alternatives": [
       {
@@ -3322,7 +3320,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Selon les informations données par le texte, il est correct d’affirmer que l’artiste :",
+     "statement_md": "Les questions 83 à 89 portent sur le texte suivant.\n\nRhode Bath-Schéba Makoumbou\n\nPasserelles | Portraits \\> Par Annie-Monia Kakou\n\nRhode Bath-Schéba Makoumbou est une artiste plasticienne congolaise qui porte en elle le goût de la création. Très tôt, elle est initiée à la peinture par son père, le peintre David Makoumbou, mais c’est en 1989 qu’elle se lance véritablement dans l’art. Influencée par les courants de l’art réaliste, expressionniste et cubiste, Rhode est connue pour son engagement dans la valorisation de la culture congolaise et les activités sociales de la femme africaine. Depuis 2002, elle a créé de nombreuses sculptures en matière composée (sciure et colle à bois sur une structure métallique) représentant les métiers des villages qui tendent à disparaître. Elle crée des œuvres qui racontent des traces de vie. Qui, d’une part, valorisent le statut de la femme – « J’aime fabriquer et travailler la matière pour raconter une histoire : celle de la femme, son quotidien », dit-elle – et qui, d’autre part, contribuent au devoir de mémoire.\n\nEn décembre 2012, le président de la République du Congo lui attribue le Grand Prix des arts et des lettres. En juillet 2013, elle est nommée au grade d’officier de l’ordre du Dévouement congolais par le président de la République Denis Sassou n’Guesso.\n\nRhode est une artiste engagée sur les valeurs de la diversité et du partage. Elle définit la langue française comme un lien servant de trait d’union entre les peuples. À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire rayonner cette langue. Pour elle, la francophonie est un bien commun qui doit permettre de relier les peuples et partager des cultures : « Les artistes ont un rôle à jouer pour transmettre et sauvegarder ce patrimoine linguistique. Car derrière une langue, il y a une façon d’être et d’avoir, un style de vie. C’est grâce à la francophonie que je peux aussi expliquer mes œuvres au monde entier. Je l’ai personnellement vécu avec ma participation en 2005 au Jeux de la Francophonie, à Niamey, au Niger. »\n\nEn 2021, elle réalise l’un de ses plus grands rêves. Elle ouvre à Brazzaville un espace culturel inclusif : l’Espace-Mak, situé à Brazzaville (quartier Mansimou), exclusivement dédié à la promotion des différentes activités artistiques et à la formation des jeunes aux métiers de la main liée à l’art. Un espace de transmission qui donne une lueur d’espoir aux jeunes et particulièrement aux enfants de la rue, qui ont perdu foi en leurs rêves.\n\n(Source : Francophonies du Monde. Supplément au n° 439 du *Français dans le monde*. N^(o) 9, mars-avril 2022.)\n\nSelon les informations données par le texte, il est correct d’affirmer que l’artiste :",
      "images": [],
      "alternatives": [
       {
@@ -3356,7 +3354,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Considérez la phrase suivante : « Qui, d’une part, valorisent le statut de la femme \\[...\\] et qui, d’autre part, contribuent au devoir de mémoire ». L’idée transmise par cette phrase du texte est que les œuvres réalisées par l’artiste :",
+     "statement_md": "Les questions 83 à 89 portent sur le texte suivant.\n\nRhode Bath-Schéba Makoumbou\n\nPasserelles | Portraits \\> Par Annie-Monia Kakou\n\nRhode Bath-Schéba Makoumbou est une artiste plasticienne congolaise qui porte en elle le goût de la création. Très tôt, elle est initiée à la peinture par son père, le peintre David Makoumbou, mais c’est en 1989 qu’elle se lance véritablement dans l’art. Influencée par les courants de l’art réaliste, expressionniste et cubiste, Rhode est connue pour son engagement dans la valorisation de la culture congolaise et les activités sociales de la femme africaine. Depuis 2002, elle a créé de nombreuses sculptures en matière composée (sciure et colle à bois sur une structure métallique) représentant les métiers des villages qui tendent à disparaître. Elle crée des œuvres qui racontent des traces de vie. Qui, d’une part, valorisent le statut de la femme – « J’aime fabriquer et travailler la matière pour raconter une histoire : celle de la femme, son quotidien », dit-elle – et qui, d’autre part, contribuent au devoir de mémoire.\n\nEn décembre 2012, le président de la République du Congo lui attribue le Grand Prix des arts et des lettres. En juillet 2013, elle est nommée au grade d’officier de l’ordre du Dévouement congolais par le président de la République Denis Sassou n’Guesso.\n\nRhode est une artiste engagée sur les valeurs de la diversité et du partage. Elle définit la langue française comme un lien servant de trait d’union entre les peuples. À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire rayonner cette langue. Pour elle, la francophonie est un bien commun qui doit permettre de relier les peuples et partager des cultures : « Les artistes ont un rôle à jouer pour transmettre et sauvegarder ce patrimoine linguistique. Car derrière une langue, il y a une façon d’être et d’avoir, un style de vie. C’est grâce à la francophonie que je peux aussi expliquer mes œuvres au monde entier. Je l’ai personnellement vécu avec ma participation en 2005 au Jeux de la Francophonie, à Niamey, au Niger. »\n\nEn 2021, elle réalise l’un de ses plus grands rêves. Elle ouvre à Brazzaville un espace culturel inclusif : l’Espace-Mak, situé à Brazzaville (quartier Mansimou), exclusivement dédié à la promotion des différentes activités artistiques et à la formation des jeunes aux métiers de la main liée à l’art. Un espace de transmission qui donne une lueur d’espoir aux jeunes et particulièrement aux enfants de la rue, qui ont perdu foi en leurs rêves.\n\n(Source : Francophonies du Monde. Supplément au n° 439 du *Français dans le monde*. N^(o) 9, mars-avril 2022.)\n\nConsidérez la phrase suivante : « Qui, d’une part, valorisent le statut de la femme \\[...\\] et qui, d’autre part, contribuent au devoir de mémoire ». L’idée transmise par cette phrase du texte est que les œuvres réalisées par l’artiste :",
      "images": [],
      "alternatives": [
       {
@@ -3390,7 +3388,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Signalez l’expression qui remplace « depuis », dans la phrase : « Depuis 2002, elle a créé de nombreuses sculptures en matière composée ».",
+     "statement_md": "Les questions 83 à 89 portent sur le texte suivant.\n\nRhode Bath-Schéba Makoumbou\n\nPasserelles | Portraits \\> Par Annie-Monia Kakou\n\nRhode Bath-Schéba Makoumbou est une artiste plasticienne congolaise qui porte en elle le goût de la création. Très tôt, elle est initiée à la peinture par son père, le peintre David Makoumbou, mais c’est en 1989 qu’elle se lance véritablement dans l’art. Influencée par les courants de l’art réaliste, expressionniste et cubiste, Rhode est connue pour son engagement dans la valorisation de la culture congolaise et les activités sociales de la femme africaine. Depuis 2002, elle a créé de nombreuses sculptures en matière composée (sciure et colle à bois sur une structure métallique) représentant les métiers des villages qui tendent à disparaître. Elle crée des œuvres qui racontent des traces de vie. Qui, d’une part, valorisent le statut de la femme – « J’aime fabriquer et travailler la matière pour raconter une histoire : celle de la femme, son quotidien », dit-elle – et qui, d’autre part, contribuent au devoir de mémoire.\n\nEn décembre 2012, le président de la République du Congo lui attribue le Grand Prix des arts et des lettres. En juillet 2013, elle est nommée au grade d’officier de l’ordre du Dévouement congolais par le président de la République Denis Sassou n’Guesso.\n\nRhode est une artiste engagée sur les valeurs de la diversité et du partage. Elle définit la langue française comme un lien servant de trait d’union entre les peuples. À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire rayonner cette langue. Pour elle, la francophonie est un bien commun qui doit permettre de relier les peuples et partager des cultures : « Les artistes ont un rôle à jouer pour transmettre et sauvegarder ce patrimoine linguistique. Car derrière une langue, il y a une façon d’être et d’avoir, un style de vie. C’est grâce à la francophonie que je peux aussi expliquer mes œuvres au monde entier. Je l’ai personnellement vécu avec ma participation en 2005 au Jeux de la Francophonie, à Niamey, au Niger. »\n\nEn 2021, elle réalise l’un de ses plus grands rêves. Elle ouvre à Brazzaville un espace culturel inclusif : l’Espace-Mak, situé à Brazzaville (quartier Mansimou), exclusivement dédié à la promotion des différentes activités artistiques et à la formation des jeunes aux métiers de la main liée à l’art. Un espace de transmission qui donne une lueur d’espoir aux jeunes et particulièrement aux enfants de la rue, qui ont perdu foi en leurs rêves.\n\n(Source : Francophonies du Monde. Supplément au n° 439 du *Français dans le monde*. N^(o) 9, mars-avril 2022.)\n\nSignalez l’expression qui remplace « depuis », dans la phrase : « **Depuis** 2002, elle a créé de nombreuses sculptures en matière composée ».",
      "images": [],
      "alternatives": [
       {
@@ -3424,7 +3422,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Observez la phrase : « Car derrière une langue, il y a une façon d’être et d’avoir, un style de vie ». Quelle option ci-dessous correspond à l’idée apportée par la conjonction « car » ?",
+     "statement_md": "Les questions 83 à 89 portent sur le texte suivant.\n\nRhode Bath-Schéba Makoumbou\n\nPasserelles | Portraits \\> Par Annie-Monia Kakou\n\nRhode Bath-Schéba Makoumbou est une artiste plasticienne congolaise qui porte en elle le goût de la création. Très tôt, elle est initiée à la peinture par son père, le peintre David Makoumbou, mais c’est en 1989 qu’elle se lance véritablement dans l’art. Influencée par les courants de l’art réaliste, expressionniste et cubiste, Rhode est connue pour son engagement dans la valorisation de la culture congolaise et les activités sociales de la femme africaine. Depuis 2002, elle a créé de nombreuses sculptures en matière composée (sciure et colle à bois sur une structure métallique) représentant les métiers des villages qui tendent à disparaître. Elle crée des œuvres qui racontent des traces de vie. Qui, d’une part, valorisent le statut de la femme – « J’aime fabriquer et travailler la matière pour raconter une histoire : celle de la femme, son quotidien », dit-elle – et qui, d’autre part, contribuent au devoir de mémoire.\n\nEn décembre 2012, le président de la République du Congo lui attribue le Grand Prix des arts et des lettres. En juillet 2013, elle est nommée au grade d’officier de l’ordre du Dévouement congolais par le président de la République Denis Sassou n’Guesso.\n\nRhode est une artiste engagée sur les valeurs de la diversité et du partage. Elle définit la langue française comme un lien servant de trait d’union entre les peuples. À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire rayonner cette langue. Pour elle, la francophonie est un bien commun qui doit permettre de relier les peuples et partager des cultures : « Les artistes ont un rôle à jouer pour transmettre et sauvegarder ce patrimoine linguistique. Car derrière une langue, il y a une façon d’être et d’avoir, un style de vie. C’est grâce à la francophonie que je peux aussi expliquer mes œuvres au monde entier. Je l’ai personnellement vécu avec ma participation en 2005 au Jeux de la Francophonie, à Niamey, au Niger. »\n\nEn 2021, elle réalise l’un de ses plus grands rêves. Elle ouvre à Brazzaville un espace culturel inclusif : l’Espace-Mak, situé à Brazzaville (quartier Mansimou), exclusivement dédié à la promotion des différentes activités artistiques et à la formation des jeunes aux métiers de la main liée à l’art. Un espace de transmission qui donne une lueur d’espoir aux jeunes et particulièrement aux enfants de la rue, qui ont perdu foi en leurs rêves.\n\n(Source : Francophonies du Monde. Supplément au n° 439 du *Français dans le monde*. N^(o) 9, mars-avril 2022.)\n\nObservez la phrase : « **Car** derrière une langue, il y a une façon d’être et d’avoir, un style de vie ». Quelle option ci-dessous correspond à l’idée apportée par la conjonction « car » ?",
      "images": [],
      "alternatives": [
       {
@@ -3458,7 +3456,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Dans la phrase « À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire rayonner cette langue », le mot souligné peut être remplacé par laquelle des options ci-dessous sans que cela change le sens de la phrase ?",
+     "statement_md": "Les questions 83 à 89 portent sur le texte suivant.\n\nRhode Bath-Schéba Makoumbou\n\nPasserelles | Portraits \\> Par Annie-Monia Kakou\n\nRhode Bath-Schéba Makoumbou est une artiste plasticienne congolaise qui porte en elle le goût de la création. Très tôt, elle est initiée à la peinture par son père, le peintre David Makoumbou, mais c’est en 1989 qu’elle se lance véritablement dans l’art. Influencée par les courants de l’art réaliste, expressionniste et cubiste, Rhode est connue pour son engagement dans la valorisation de la culture congolaise et les activités sociales de la femme africaine. Depuis 2002, elle a créé de nombreuses sculptures en matière composée (sciure et colle à bois sur une structure métallique) représentant les métiers des villages qui tendent à disparaître. Elle crée des œuvres qui racontent des traces de vie. Qui, d’une part, valorisent le statut de la femme – « J’aime fabriquer et travailler la matière pour raconter une histoire : celle de la femme, son quotidien », dit-elle – et qui, d’autre part, contribuent au devoir de mémoire.\n\nEn décembre 2012, le président de la République du Congo lui attribue le Grand Prix des arts et des lettres. En juillet 2013, elle est nommée au grade d’officier de l’ordre du Dévouement congolais par le président de la République Denis Sassou n’Guesso.\n\nRhode est une artiste engagée sur les valeurs de la diversité et du partage. Elle définit la langue française comme un lien servant de trait d’union entre les peuples. À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire rayonner cette langue. Pour elle, la francophonie est un bien commun qui doit permettre de relier les peuples et partager des cultures : « Les artistes ont un rôle à jouer pour transmettre et sauvegarder ce patrimoine linguistique. Car derrière une langue, il y a une façon d’être et d’avoir, un style de vie. C’est grâce à la francophonie que je peux aussi expliquer mes œuvres au monde entier. Je l’ai personnellement vécu avec ma participation en 2005 au Jeux de la Francophonie, à Niamey, au Niger. »\n\nEn 2021, elle réalise l’un de ses plus grands rêves. Elle ouvre à Brazzaville un espace culturel inclusif : l’Espace-Mak, situé à Brazzaville (quartier Mansimou), exclusivement dédié à la promotion des différentes activités artistiques et à la formation des jeunes aux métiers de la main liée à l’art. Un espace de transmission qui donne une lueur d’espoir aux jeunes et particulièrement aux enfants de la rue, qui ont perdu foi en leurs rêves.\n\n(Source : Francophonies du Monde. Supplément au n° 439 du *Français dans le monde*. N^(o) 9, mars-avril 2022.)\n\nDans la phrase « À ce titre, les artistes doivent jouer le rôle d’ambassadeur pour faire **rayonner** cette langue », le mot souligné peut être remplacé par laquelle des options ci-dessous sans que cela change le sens de la phrase ?",
      "images": [],
      "alternatives": [
       {
@@ -3562,8 +3560,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "According to the text, it is correct to say that:",
-     "images": [],
+     "statement_md": "The following text refers to questions 83 to 85.\n\nKevin Adkins almost kicked the Ice Age skull to the side because he thought it was just debris from a recent flood – then\n\nhe saw that it had teeth.\n\nWhen Kevin Adkins took his father-in-law, Tony Hager, on his first turkey hunt on May 8, 2022, the two West Virginians spotted an animal skull in a Putnam County creek. Covered in mud from a flood that had hit the region two days earlier, it was initially unidentifiable. So Adkins took it home – and later learned that it belonged to an 11,000-year-old giant sloth.\n\nWhile 36-year-old Adkins had hunted turkeys in Putnam County plenty of times before, he had never come across something like this. Trudging through the muddy wilderness, the Red House resident and his father-in-law were primarily interested in nabbing some wild birds when they encountered the relic.\n\n“We were running and gunning for toms,” Adkins told *Outdoor Life*. “We’d worked a gobbler for about 30 minutes, then the bird moved off, so we picked up and headed up the creek. I looked down in the middle of the creek as we crossed it and saw a big blob of something I thought was a root ball, so I almost kicked it away.”\n\n“But I noticed something different about it and looked closer,” Adkins went on. “That’s when I saw some molar teeth, so I picked it up.”\n\nDetermined not to let the potential find of a lifetime distract from his turkey hunt, Adkins propped the skull next to the creek and forged ahead. When he and Hager concluded their hunt later that morning, they retrieved the skull and carried it home.\n\n“\\[My wife\\] thought it was a cow skull because it was so big,” Adkins said. The skull weighed about 30 pounds and sported tufts\n\n![Figura](/questoes/ufpr/2023/q83-ingles-texto-1.png)\n\nof hair. It had four molar teeth on either side of its jawbone.\n\n“But my father-in-law said no, it was something very different,” continued Adkins. “That’s when we started searching the internet, sending photos to family and friends, and then I posted it on social media. That really got things moving along with trying to ID what I’d found.”\n\n(Available in: https://allthatsinteresting.com/tag/news.)\n\nAccording to the text, it is correct to say that:",
+     "images": [
+      "/questoes/ufpr/2023/q83-ingles-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -3596,7 +3596,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "The following text refers to questions 86 and 87.\n\n'I survived two sandstorms and nearly ran out of water in the Sahara Desert,' says man who biked from London to Lagos\n\nKunle Adeyanju is a self-confessed daredevil who has climbed Mount Kilimanjaro twice and cycled from Lagos to Accra over three days.\n\nBut it is his latest adventure that is creating a buzz after he successfully completed a motorcycle ride from London to Lagos. The journey took 41 days as he traveled 13,000 kilometers (8,080 miles) through 11 countries and 31 cities.\n\nAdeyanju embarked on the trip partly to raise money for polio, in conjunction with the Rotary Club of Ikoyi Metro, Nigeria, where he is president-elect. He says he chose the cause because of a childhood friend who suffered from the debilitating illness.\n\n\"Polio is a personal thing for me... as a boy, my best friend had polio and when we go swimming or play football, he could do none of those things. Sadly, my friend passed away some years back. If he hadn't had polio, he probably will still be alive today.\"\n\n(Available in: https://edition.cnn.com/travel/article/kunle-adeyanju-london-to-lagos-lgs-cmd-intl/index.html.)\n\nmotivo pelo qual será anulada. De acordo com o subitem 8.1.5.1 do Edital 41/2022, para preservar o princípio da isonomia entre os candidatos, essa anulação atingirá as demais línguas na questão correspondente.)\n\nAccording to the text, it is correct to say that Kunle Adeyanju:",
+     "statement_md": "The following text refers to questions 86 and 87.\n\n'I survived two sandstorms and nearly ran out of water in the Sahara Desert,' says man who biked from London to Lagos\n\nKunle Adeyanju is a self-confessed daredevil who has climbed Mount Kilimanjaro twice and cycled from Lagos to Accra over three days.\n\nBut it is his latest adventure that is creating a buzz after he successfully completed a motorcycle ride from London to Lagos. The journey took 41 days as he traveled 13,000 kilometers (8,080 miles) through 11 countries and 31 cities.\n\nAdeyanju embarked on the trip partly to raise money for polio, in conjunction with the Rotary Club of Ikoyi Metro, **Nigeria**, where he is president-elect. He says he chose the cause because of a childhood friend who suffered from the debilitating illness.\n\n\"Polio is a personal thing for me... as a boy, my best friend had polio and when we go swimming or play football, he could do none of those things. Sadly, my friend passed away some years back. If he hadn't had polio, he probably will still be alive today.\"\n\n(Available in: https://edition.cnn.com/travel/article/kunle-adeyanju-london-to-lagos-lgs-cmd-intl/index.html.)\n\nAccording to the text, it is correct to say that Kunle Adeyanju:",
      "images": [],
      "alternatives": [
       {
@@ -3630,7 +3630,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "According to the text, Kunle Adeyanju took the journey from London to Lagos in order to:",
+     "statement_md": "The following text refers to questions 86 and 87.\n\n'I survived two sandstorms and nearly ran out of water in the Sahara Desert,' says man who biked from London to Lagos\n\nKunle Adeyanju is a self-confessed daredevil who has climbed Mount Kilimanjaro twice and cycled from Lagos to Accra over three days.\n\nBut it is his latest adventure that is creating a buzz after he successfully completed a motorcycle ride from London to Lagos. The journey took 41 days as he traveled 13,000 kilometers (8,080 miles) through 11 countries and 31 cities.\n\nAdeyanju embarked on the trip partly to raise money for polio, in conjunction with the Rotary Club of Ikoyi Metro, **Nigeria**, where he is president-elect. He says he chose the cause because of a childhood friend who suffered from the debilitating illness.\n\n\"Polio is a personal thing for me... as a boy, my best friend had polio and when we go swimming or play football, he could do none of those things. Sadly, my friend passed away some years back. If he hadn't had polio, he probably will still be alive today.\"\n\n(Available in: https://edition.cnn.com/travel/article/kunle-adeyanju-london-to-lagos-lgs-cmd-intl/index.html.)\n\nAccording to the text, Kunle Adeyanju took the journey from London to Lagos in order to:",
      "images": [],
      "alternatives": [
       {
@@ -3698,7 +3698,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "The following excerpt refers to questions 89 and 90.\n\nNineties fashion was hard to pin down. A clash of trends screamed for our attention while others were so quietly cool they're still sartorial staples in our collective wardrobes: slip dresses, Doc Martens, chokers, crop tops.\n\nWhile the 1980s were all about volume – padded shoulders, puffed jackets, big hair and an obsession with designer wear – style in the early 1990s was decidedly low maintenance.\n\n(Available in: https://edition.cnn.com/style/article/1990s-fashion-history/index.html.)\n\nIn the first line of the excerpt, the underlined and in bold type expression can be substituted without losing its meaning by:",
+     "statement_md": "The following excerpt refers to questions 89 and 90.\n\nNineties fashion was hard to **pin down**. A clash of trends screamed for our attention while others were so quietly cool they're still sartorial staples in our collective wardrobes: slip dresses, Doc Martens, chokers, crop tops.\n\nWhile the 1980s were all about volume – padded shoulders, puffed jackets, big hair and an obsession with designer wear – style in the early 1990s was decidedly low maintenance.\n\n(Available in: https://edition.cnn.com/style/article/1990s-fashion-history/index.html.)\n\nIn the first line of the excerpt, the underlined and in bold type expression can be substituted without losing its meaning by:",
      "images": [],
      "alternatives": [
       {
@@ -3732,7 +3732,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "The excerpt presents:",
+     "statement_md": "The following excerpt refers to questions 89 and 90.\n\nNineties fashion was hard to **pin down**. A clash of trends screamed for our attention while others were so quietly cool they're still sartorial staples in our collective wardrobes: slip dresses, Doc Martens, chokers, crop tops.\n\nWhile the 1980s were all about volume – padded shoulders, puffed jackets, big hair and an obsession with designer wear – style in the early 1990s was decidedly low maintenance.\n\n(Available in: https://edition.cnn.com/style/article/1990s-fashion-history/index.html.)\n\nThe excerpt presents:",
      "images": [],
      "alternatives": [
       {
@@ -3834,7 +3834,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "motivo pelo qual será anulada. De acordo com o subitem 8.1.5.1 do Edital 41/2022, para preservar o princípio da isonomia entre os candidatos, essa anulação atingirá as demais línguas na questão correspondente.)\n\nConsidera le seguenti frasi:\n\n1. La temperatura dentro la casa dei cittadini sarà controlata dallo stato, sia d'inverno che d'estate.\n\n2. Il “coprifuoco” serale non permetterà alle persone di uscire di casa perché le luci verranno spente.\n\n3. Il risparmio energetico degli edifici in Italia potrebbe essere un elemento essenziale per il piano di emergenza del governo.\n\nSegnala l’alternativa giusta in base a quello che hai letto nel testo.",
+     "statement_md": "Considera le seguenti frasi:\n\n1. La temperatura dentro la casa dei cittadini sarà controlata dallo stato, sia d'inverno che d'estate.\n\n2. Il “coprifuoco” serale non permetterà alle persone di uscire di casa perché le luci verranno spente.\n\n3. Il risparmio energetico degli edifici in Italia potrebbe essere un elemento essenziale per il piano di emergenza del governo.\n\nSegnala l’alternativa giusta in base a quello che hai letto nel testo.",
      "images": [],
      "alternatives": [
       {
@@ -4004,7 +4004,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "次のテキストを参照し、問83 と84 に答えなさい。\n\n「浅草サンバカーニバル」の日程・見どころ徹底ガイド\n\n夏と言えば、お祭り。日本でも全国各地で様々なお祭りが開催されます。数々の魅惑的なお祭りの中から、今回ご紹介し たいのは、東京の浅草で行われる「浅草サンバカーニバル」。サンバのリズムに乗った約5000 人の参加者がパレードし、約 50 万人以上もの観客が沿道を埋め尽くすこのカーニバルは、1 年の中でも東京が最高にホットになる日です。たった1 日しか 行われないこのカーニバルを、真夏に日本を訪れるならぜひ旅のプランに加えてみてはいかがでしょうか?\n\n東京の下町を代表する浅草寺を中心として、江戸文化や日本文化を感じられる観光スポットが多く点在し、外国人旅行者 にも人気のエリアとなっています。その浅草で行われる日本最大規模のカーニバルが、浅草サンバカーニバルです。TV や観 光ガイドなどで目にしたことのある方もいらっしゃるでしょう。\n\n浅草サンバカーニバルは、1981 年に街の活性化を目指してスタート。現在では毎年50 万人もの観客が訪れる日本屈指の イベントとなりました。人気の秘訣は、約5000 人もの参加者によるコンテスト形式のパレード!本格的なサンバのリズムに 乗りながら、各チームの趣向を凝らした華やかな衣装やパフォーマンスが観客を魅了します。\n\n浅草サンバカーニバルの特徴は、本場リオのカーニバルに準拠したコンテスト形式のパレードだということ。実は、この イベントの正式名称は「浅草サンバカーニバルパレードコンテスト」だとはあまり知られていません。\n\n見ごたえたっぷりのコンテストとして多くの観客を魅了しているこのイベントも、スタートした当初は1 チームあたり数 名から参加することができ、「サンバパレード」と言うよりは「仮装大会」に近いチームも多かったといいます。回数を重ね るごとに本格的なサンバチームが増えていき、徐々に今のような本格派志向のサンバパレードになっていったのだそう。\n\n(Disponível em: https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-asakusa/article-a0004434/ Adaptado.)\n\nテキストに基づいて、次の選択肢のうち適切なものを選びなさい。\n\n![Figura](/questoes/ufpr/2023/q83-japones-1.png)",
+     "statement_md": "次のテキストを参照し、問**83** と**84** に答えなさい。\n\n「浅草サンバカーニバル」の日程・見どころ徹底ガイド\n\n夏と言えば、お祭り。日本でも全国各地で様々なお祭りが開催されます。数々の魅惑的なお祭りの中から、今回ご紹介し たいのは、東京の浅草で行われる「浅草サンバカーニバル」。サンバのリズムに乗った約5000 人の参加者がパレードし、約 50 万人以上もの観客が沿道を埋め尽くすこのカーニバルは、1 年の中でも東京が最高にホットになる日です。たった1 日しか 行われないこのカーニバルを、真夏に日本を訪れるならぜひ旅のプランに加えてみてはいかがでしょうか?\n\n東京の下町を代表する浅草寺を中心として、江戸文化や日本文化を感じられる観光スポットが多く点在し、外国人旅行者 にも人気のエリアとなっています。その浅草で行われる日本最大規模のカーニバルが、浅草サンバカーニバルです。TV や観 光ガイドなどで目にしたことのある方もいらっしゃるでしょう。\n\n浅草サンバカーニバルは、1981 年に街の活性化を目指してスタート。現在では毎年50 万人もの観客が訪れる日本屈指の イベントとなりました。人気の秘訣は、約5000 人もの参加者によるコンテスト形式のパレード!本格的なサンバのリズムに 乗りながら、各チームの趣向を凝らした華やかな衣装やパフォーマンスが観客を魅了します。\n\n浅草サンバカーニバルの特徴は、本場リオのカーニバルに準拠したコンテスト形式のパレードだということ。実は、この イベントの正式名称は「浅草サンバカーニバルパレードコンテスト」だとはあまり知られていません。\n\n見ごたえたっぷりのコンテストとして多くの観客を魅了しているこのイベントも、スタートした当初は1 チームあたり数 名から参加することができ、「サンバパレード」と言うよりは「仮装大会」に近いチームも多かったといいます。回数を重ね るごとに本格的なサンバチームが増えていき、徐々に今のような本格派志向のサンバパレードになっていったのだそう。\n\n(Disponível em: https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-asakusa/article-a0004434/ Adaptado.)\n\nテキストに基づいて、次の選択肢のうち適切なものを選びなさい。\n\n![Figura](/questoes/ufpr/2023/q83-japones-1.png)",
      "images": [
       "/questoes/ufpr/2023/q83-japones-1.png",
       "/questoes/ufpr/2023/q83-japones-A-1.png",
@@ -4044,7 +4044,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "motivo pelo qual será anulada. De acordo com o subitem 8.1.5.1 do Edital 41/2022, para preservar o princípio da isonomia entre os candidatos, essa anulação atingirá as demais línguas na questão correspondente.)\n\n次のテキストを参照し、以下85 と86 の質問に答えなさい。\n\nブログの仕組み\n\nブログは、自分の考えや社会的な出来事に対する意見、物事に対する論評、他のWeb サイトに対する情報などを公開す るためのWeb サイトのことです。当初は、個人サイトで利用されていましたが、最近では企業でも自社の情報を公開したり、 新しい商品やサービスの情報を公開したりする場合に利用されることが増えてきました。基本的に、ブログはこれまでのホー ムページを公開する技術をそのまま利用しているため、閲覧する側は通常のWeb ブラウザだけで見ることができます。 ブログという用語は、「Web log」(ホームページのりれきの意味)から派生した言葉であると言われています。そして、 ブログで情報を発信する人のことをブロガー(blogger)と呼んでいます。なお、ブログという言葉は、明確に決められた使 い方をされているわけではなく、日記風に情報を追加しているホームページもブログに含むことがあります。\n\nこれまでのホームページでは、新しく情報を追加する場合に、自分のコンピュータで変更するWeb ページのHTML ファ イルを編集して公開していました。これに対して、ブログではインターネット上の管理者用のWeb サイトに新しい情報を登 録するだけで、自動的に日記風に情報を追加することができるようになっています。\n\nこのような技術を採用することにより、HTML ファイルの知識やホームページ作成ソフトの利用方法を知らなくても、簡 単に情報を公開するWeb サイトを構築することができることから、新たな利用者層がブログを利用するようになりました。\n\n(Disponível em: https://www.soumu.go.jp/main\\_sosiki/joho\\_tsusin/security/basic/service/05.html. Adaptado.)\n\n次の漢字の正しい読み方を示す選択肢を選びなさい。⇒ 閲覧・派生・構築。",
+     "statement_md": "次のテキストを参照し、以下**85** と**86** の質問に答えなさい。\n\nブログの仕組み\n\nブログは、自分の考えや社会的な出来事に対する意見、物事に対する論評、他のWeb サイトに対する情報などを公開す るためのWeb サイトのことです。当初は、個人サイトで利用されていましたが、最近では企業でも自社の情報を公開したり、 新しい商品やサービスの情報を公開したりする場合に利用されることが増えてきました。基本的に、ブログはこれまでのホー ムページを公開する技術をそのまま利用しているため、閲覧する側は通常のWeb ブラウザだけで見ることができます。 ブログという用語は、「Web log」(ホームページの**りれき**の意味)から派生した言葉であると言われています。そして、 ブログで情報を発信する人のことをブロガー(blogger)と呼んでいます。なお、ブログという言葉は、明確に決められた使 い方をされているわけではなく、日記風に情報を追加しているホームページもブログに含むことがあります。\n\nこれまでのホームページでは、新しく情報を追加する場合に、自分のコンピュータで変更するWeb ページのHTML ファ イルを編集して公開していました。これに対して、ブログではインターネット上の管理者用のWeb サイトに新しい情報を登 録するだけで、自動的に日記風に情報を追加することができるようになっています。\n\nこのような技術を採用することにより、HTML ファイルの知識やホームページ作成ソフトの利用方法を知らなくても、簡 単に情報を公開するWeb サイトを構築することができることから、新たな利用者層がブログを利用するようになりました。\n\n(Disponível em: https://www.soumu.go.jp/main\\_sosiki/joho\\_tsusin/security/basic/service/05.html. Adaptado.)\n\n次の漢字の正しい読み方を示す選択肢を選びなさい。⇒ 閲覧・派生・構築。",
      "images": [],
      "alternatives": [
       {
@@ -4078,7 +4078,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "テキストに基づいて、「りれき」の正しい漢字を選びなさい。",
+     "statement_md": "次のテキストを参照し、以下**85** と**86** の質問に答えなさい。\n\nブログの仕組み\n\nブログは、自分の考えや社会的な出来事に対する意見、物事に対する論評、他のWeb サイトに対する情報などを公開す るためのWeb サイトのことです。当初は、個人サイトで利用されていましたが、最近では企業でも自社の情報を公開したり、 新しい商品やサービスの情報を公開したりする場合に利用されることが増えてきました。基本的に、ブログはこれまでのホー ムページを公開する技術をそのまま利用しているため、閲覧する側は通常のWeb ブラウザだけで見ることができます。 ブログという用語は、「Web log」(ホームページの**りれき**の意味)から派生した言葉であると言われています。そして、 ブログで情報を発信する人のことをブロガー(blogger)と呼んでいます。なお、ブログという言葉は、明確に決められた使 い方をされているわけではなく、日記風に情報を追加しているホームページもブログに含むことがあります。\n\nこれまでのホームページでは、新しく情報を追加する場合に、自分のコンピュータで変更するWeb ページのHTML ファ イルを編集して公開していました。これに対して、ブログではインターネット上の管理者用のWeb サイトに新しい情報を登 録するだけで、自動的に日記風に情報を追加することができるようになっています。\n\nこのような技術を採用することにより、HTML ファイルの知識やホームページ作成ソフトの利用方法を知らなくても、簡 単に情報を公開するWeb サイトを構築することができることから、新たな利用者層がブログを利用するようになりました。\n\n(Disponível em: https://www.soumu.go.jp/main\\_sosiki/joho\\_tsusin/security/basic/service/05.html. Adaptado.)\n\nテキストに基づいて、「りれき」の正しい漢字を選びなさい。",
      "images": [],
      "alternatives": [
       {
@@ -4112,7 +4112,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "次のテキストを参照し、問87 と88 に答えなさい。\n\n空を飛ぶ自動車\n\n空を飛ぶ自動車が欲しいと思ったことはありますか。そんな車はないと思うかもしれませんが、実はあるのです。 アメリカのある会社は、本当に空を飛べるスカイカーを作っているそうです。この会社は垂直に飛べる飛行機の技術を持 っています。\n\n今作っているスカイカーは4人乗りと1人乗りの2種類あるそうです。もちろん、道を走るとき邪魔になる羽はついてい ません。道も込んでいたら、そのまま空へ上がったり、すいている場所まで飛んだりすることができるそうです。普通の人が 乗るために作っていますが、パトカーにも使おうと思っているようです。\n\n売るためには、まだいろいろ問題がありますが、もし買えるようになったら、面白いですね。\n\n(Disponível em: MAKINO, Akiko. *Minna no nihongo shokyu II: Shokyu de yomeru topikku 25*. Tokyo: 3A Corporation, 2001. Adaptado.)\n\nテキストに基づいて、次の選択肢のうち適切なものを選びなさい。",
+     "statement_md": "次のテキストを参照し、問**87** と**88** に答えなさい。\n\n空を飛ぶ自動車\n\n空を飛ぶ自動車が欲しいと思ったことはありますか。そんな車はないと思うかもしれませんが、実はあるのです。 アメリカのある会社は、本当に空を飛べるスカイカーを作っているそうです。この会社は垂直に飛べる飛行機の技術を持 っています。\n\n今作っているスカイカーは4人乗りと1人乗りの2種類あるそうです。もちろん、道を走るとき邪魔になる羽はついてい ません。道も込んでいたら、そのまま空へ上がったり、すいている場所まで飛んだりすることができるそうです。普通の人が 乗るために作っていますが、パトカーにも使おうと思っているようです。\n\n売るためには、まだいろいろ問題がありますが、もし買えるようになったら、面白いですね。\n\n(Disponível em: MAKINO, Akiko. *Minna no nihongo shokyu II: Shokyu de yomeru topikku 25*. Tokyo: 3A Corporation, 2001. Adaptado.)\n\nテキストに基づいて、次の選択肢のうち適切なものを選びなさい。",
      "images": [],
      "alternatives": [
       {
@@ -4146,7 +4146,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "テキストに基づいて、次の選択肢のうち適切なものを選びなさい。",
+     "statement_md": "次のテキストを参照し、問**87** と**88** に答えなさい。\n\n空を飛ぶ自動車\n\n空を飛ぶ自動車が欲しいと思ったことはありますか。そんな車はないと思うかもしれませんが、実はあるのです。 アメリカのある会社は、本当に空を飛べるスカイカーを作っているそうです。この会社は垂直に飛べる飛行機の技術を持 っています。\n\n今作っているスカイカーは4人乗りと1人乗りの2種類あるそうです。もちろん、道を走るとき邪魔になる羽はついてい ません。道も込んでいたら、そのまま空へ上がったり、すいている場所まで飛んだりすることができるそうです。普通の人が 乗るために作っていますが、パトカーにも使おうと思っているようです。\n\n売るためには、まだいろいろ問題がありますが、もし買えるようになったら、面白いですね。\n\n(Disponível em: MAKINO, Akiko. *Minna no nihongo shokyu II: Shokyu de yomeru topikku 25*. Tokyo: 3A Corporation, 2001. Adaptado.)\n\nテキストに基づいて、次の選択肢のうち適切なものを選びなさい。",
      "images": [],
      "alternatives": [
       {
@@ -4167,7 +4167,7 @@
       },
       {
        "label": "E",
-       "text_md": "4人乗りと1人乗りのスカイカーがある。\n\n次のテキストを参照し、問89 と90 に答えなさい。\n\n噓も方便\n\n嘘も時と場合によっては必要で、使ったほうがいいこともある。その使い分けが面白いです。もともとは仏教の言葉で 「方便」とは、普通の人たちを悟りに導くための便利な説明方法です。\n\n嘘には嘘のうまい使い方があるというのが世間の知恵で、たとえば病人にはガンだと知らせないほうがと考えたら、家族 はきっとみんなで嘘をつくようにするでしょう。\n\n中国では、そういうのを「白いウソ」と言っているようです。「よいウソ」「ゆるされるウソ」とはどういうものか、区 別して考えてみましょう。\n\n(Disponível em: KAZUMASA, Nakano. *Gakushu ni yakutatsu kotowaza jiten*. Tenori bunko: 1990. Adaptado.)"
+       "text_md": "4人乗りと1人乗りのスカイカーがある。"
       }
      ],
      "correct": "E",
@@ -4180,7 +4180,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "テキストに基づいて、次の選択肢のうち適切なものを選びなさい。",
+     "statement_md": "次のテキストを参照し、問**89** と**90** に答えなさい。\n\n噓も方便\n\n嘘も時と場合によっては必要で、使ったほうがいいこともある。その使い分けが面白いです。もともとは仏教の言葉で 「方便」とは、普通の人たちを悟りに導くための便利な説明方法です。\n\n嘘には嘘のうまい使い方があるというのが世間の知恵で、たとえば病人にはガンだと知らせないほうがと考えたら、家族 はきっとみんなで嘘をつくようにするでしょう。\n\n中国では、そういうのを「白いウソ」と言っているようです。「よいウソ」「ゆるされるウソ」とはどういうものか、区 別して考えてみましょう。\n\n(Disponível em: KAZUMASA, Nakano. *Gakushu ni yakutatsu kotowaza jiten*. Tenori bunko: 1990. Adaptado.)\n\nテキストに基づいて、次の選択肢のうち適切なものを選びなさい。",
      "images": [],
      "alternatives": [
       {
@@ -4214,7 +4214,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "「方便」の正しい読みを表す選択肢を選びなさい。",
+     "statement_md": "次のテキストを参照し、問**89** と**90** に答えなさい。\n\n噓も方便\n\n嘘も時と場合によっては必要で、使ったほうがいいこともある。その使い分けが面白いです。もともとは仏教の言葉で 「方便」とは、普通の人たちを悟りに導くための便利な説明方法です。\n\n嘘には嘘のうまい使い方があるというのが世間の知恵で、たとえば病人にはガンだと知らせないほうがと考えたら、家族 はきっとみんなで嘘をつくようにするでしょう。\n\n中国では、そういうのを「白いウソ」と言っているようです。「よいウソ」「ゆるされるウソ」とはどういうものか、区 別して考えてみましょう。\n\n(Disponível em: KAZUMASA, Nakano. *Gakushu ni yakutatsu kotowaza jiten*. Tenori bunko: 1990. Adaptado.)\n\n「方便」の正しい読みを表す選択肢を選びなさい。",
      "images": [],
      "alternatives": [
       {
@@ -4282,7 +4282,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "motivo pelo qual será anulada. De acordo com o subitem 8.1.5.1 do Edital 41/2022, para preservar o princípio da isonomia entre os candidatos, essa anulação atingirá as demais línguas na questão correspondente.)\n\nZgodnie z tekstem typowe drugie danie składa się z:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nUlubione dania Polaków. Co lubimy jeść na obiad?\n\nMy, Polacy, jesteśmy szczególnie mocno przywiązani do swojej rodzimej kuchni. Lubimy zajadać się pierogami ruskimi z cebulką lub skwarkami. Dla wielu z nas niedzielny obiad nie istnieje bez schabowego w panierce, ziemniaków i mizerii. Jesteśmy przeważnie mięsolubni, chociaż mięsa jemy coraz mniej.\n\nCo jadamy na obiady?\n\nNajpierw lubimy zjeść zupę. Ogórkowa, pomidorowa, krupnik, grochowa, koperkowa – to są te z tradycyjnego repertuaru. Ostatnimi czasy pokochaliśmy zupy kremowe – lekko czosnkową brokułową, dyniową ze szczyptą chilli czy krem ze szparagów.\n\nDo niedawna w każdym polskim domu po zupie podawało się drugie danie – najczęściej ziemniaczane puree, mięso pod różną postacią oraz surówkę. Polacy najbardziej lubią jeść na obiad kotlety mielone, bitki wieprzowe i aromatyczne pieczenie.\n\nUwielbiamy obiadowe dania mączne – naleśniki, pierogi ruskie czy pierogi z mięsem. Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą.\n\nMiejsce przyrządzenia czy jakość i smak?\n\nNiezależnie od czasów Polacy kochają domowe jedzenie, jednak coraz mniej z nas ma czas, żeby gotować dwudaniowe obiady. Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy, natomiast w tygodniu lubimy zamawiać jedzenie – zwłaszcza do pracy. Całe szczęście restauratorzy znają ukochane smaki Polaków i dostarczają tradycyjne polskie potrawy w domowej jakości, dodatkowo w zachęcającej cenie. Co Polacy lubią jeść na obiad? Tradycyjne polskie domowe obiady, ale niekoniecznie przyrządzone w swoim domu.\n\n(Disponível em: https://www.pomysly-na.pl/artykul/ulubione-dania-polakow-co-lubimy-jesc-na-obiad-105972.)\n\nZgodnie z tekstem typowe drugie danie składa się z:",
      "images": [],
      "alternatives": [
       {
@@ -4316,7 +4316,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "W zdaniu „Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą” skrót „np.” oznacza:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nUlubione dania Polaków. Co lubimy jeść na obiad?\n\nMy, Polacy, jesteśmy szczególnie mocno przywiązani do swojej rodzimej kuchni. Lubimy zajadać się pierogami ruskimi z cebulką lub skwarkami. Dla wielu z nas niedzielny obiad nie istnieje bez schabowego w panierce, ziemniaków i mizerii. Jesteśmy przeważnie mięsolubni, chociaż mięsa jemy coraz mniej.\n\nCo jadamy na obiady?\n\nNajpierw lubimy zjeść zupę. Ogórkowa, pomidorowa, krupnik, grochowa, koperkowa – to są te z tradycyjnego repertuaru. Ostatnimi czasy pokochaliśmy zupy kremowe – lekko czosnkową brokułową, dyniową ze szczyptą chilli czy krem ze szparagów.\n\nDo niedawna w każdym polskim domu po zupie podawało się drugie danie – najczęściej ziemniaczane puree, mięso pod różną postacią oraz surówkę. Polacy najbardziej lubią jeść na obiad kotlety mielone, bitki wieprzowe i aromatyczne pieczenie.\n\nUwielbiamy obiadowe dania mączne – naleśniki, pierogi ruskie czy pierogi z mięsem. Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą.\n\nMiejsce przyrządzenia czy jakość i smak?\n\nNiezależnie od czasów Polacy kochają domowe jedzenie, jednak coraz mniej z nas ma czas, żeby gotować dwudaniowe obiady. Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy, natomiast w tygodniu lubimy zamawiać jedzenie – zwłaszcza do pracy. Całe szczęście restauratorzy znają ukochane smaki Polaków i dostarczają tradycyjne polskie potrawy w domowej jakości, dodatkowo w zachęcającej cenie. Co Polacy lubią jeść na obiad? Tradycyjne polskie domowe obiady, ale niekoniecznie przyrządzone w swoim domu.\n\n(Disponível em: https://www.pomysly-na.pl/artykul/ulubione-dania-polakow-co-lubimy-jesc-na-obiad-105972.)\n\nW zdaniu „Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą” skrót „np.” oznacza:",
      "images": [],
      "alternatives": [
       {
@@ -4350,7 +4350,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Tytuł akapitu „Miejsce przyrządzenia czy jakość i smak?” można zrozumieć w tym kontekście jako:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nUlubione dania Polaków. Co lubimy jeść na obiad?\n\nMy, Polacy, jesteśmy szczególnie mocno przywiązani do swojej rodzimej kuchni. Lubimy zajadać się pierogami ruskimi z cebulką lub skwarkami. Dla wielu z nas niedzielny obiad nie istnieje bez schabowego w panierce, ziemniaków i mizerii. Jesteśmy przeważnie mięsolubni, chociaż mięsa jemy coraz mniej.\n\nCo jadamy na obiady?\n\nNajpierw lubimy zjeść zupę. Ogórkowa, pomidorowa, krupnik, grochowa, koperkowa – to są te z tradycyjnego repertuaru. Ostatnimi czasy pokochaliśmy zupy kremowe – lekko czosnkową brokułową, dyniową ze szczyptą chilli czy krem ze szparagów.\n\nDo niedawna w każdym polskim domu po zupie podawało się drugie danie – najczęściej ziemniaczane puree, mięso pod różną postacią oraz surówkę. Polacy najbardziej lubią jeść na obiad kotlety mielone, bitki wieprzowe i aromatyczne pieczenie.\n\nUwielbiamy obiadowe dania mączne – naleśniki, pierogi ruskie czy pierogi z mięsem. Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą.\n\nMiejsce przyrządzenia czy jakość i smak?\n\nNiezależnie od czasów Polacy kochają domowe jedzenie, jednak coraz mniej z nas ma czas, żeby gotować dwudaniowe obiady. Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy, natomiast w tygodniu lubimy zamawiać jedzenie – zwłaszcza do pracy. Całe szczęście restauratorzy znają ukochane smaki Polaków i dostarczają tradycyjne polskie potrawy w domowej jakości, dodatkowo w zachęcającej cenie. Co Polacy lubią jeść na obiad? Tradycyjne polskie domowe obiady, ale niekoniecznie przyrządzone w swoim domu.\n\n(Disponível em: https://www.pomysly-na.pl/artykul/ulubione-dania-polakow-co-lubimy-jesc-na-obiad-105972.)\n\nTytuł akapitu „Miejsce przyrządzenia czy jakość i smak?” można zrozumieć w tym kontekście jako:",
      "images": [],
      "alternatives": [
       {
@@ -4384,7 +4384,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Proszę zaznaczyć odpowiedź zgodną z informacjami podanymi w tekście:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nUlubione dania Polaków. Co lubimy jeść na obiad?\n\nMy, Polacy, jesteśmy szczególnie mocno przywiązani do swojej rodzimej kuchni. Lubimy zajadać się pierogami ruskimi z cebulką lub skwarkami. Dla wielu z nas niedzielny obiad nie istnieje bez schabowego w panierce, ziemniaków i mizerii. Jesteśmy przeważnie mięsolubni, chociaż mięsa jemy coraz mniej.\n\nCo jadamy na obiady?\n\nNajpierw lubimy zjeść zupę. Ogórkowa, pomidorowa, krupnik, grochowa, koperkowa – to są te z tradycyjnego repertuaru. Ostatnimi czasy pokochaliśmy zupy kremowe – lekko czosnkową brokułową, dyniową ze szczyptą chilli czy krem ze szparagów.\n\nDo niedawna w każdym polskim domu po zupie podawało się drugie danie – najczęściej ziemniaczane puree, mięso pod różną postacią oraz surówkę. Polacy najbardziej lubią jeść na obiad kotlety mielone, bitki wieprzowe i aromatyczne pieczenie.\n\nUwielbiamy obiadowe dania mączne – naleśniki, pierogi ruskie czy pierogi z mięsem. Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą.\n\nMiejsce przyrządzenia czy jakość i smak?\n\nNiezależnie od czasów Polacy kochają domowe jedzenie, jednak coraz mniej z nas ma czas, żeby gotować dwudaniowe obiady. Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy, natomiast w tygodniu lubimy zamawiać jedzenie – zwłaszcza do pracy. Całe szczęście restauratorzy znają ukochane smaki Polaków i dostarczają tradycyjne polskie potrawy w domowej jakości, dodatkowo w zachęcającej cenie. Co Polacy lubią jeść na obiad? Tradycyjne polskie domowe obiady, ale niekoniecznie przyrządzone w swoim domu.\n\n(Disponível em: https://www.pomysly-na.pl/artykul/ulubione-dania-polakow-co-lubimy-jesc-na-obiad-105972.)\n\nProszę zaznaczyć odpowiedź zgodną z informacjami podanymi w tekście:",
      "images": [],
      "alternatives": [
       {
@@ -4418,7 +4418,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Zdanie „Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy” można zastąpić, zachowując jego pierwotne znacznie, następującym zdaniem:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nUlubione dania Polaków. Co lubimy jeść na obiad?\n\nMy, Polacy, jesteśmy szczególnie mocno przywiązani do swojej rodzimej kuchni. Lubimy zajadać się pierogami ruskimi z cebulką lub skwarkami. Dla wielu z nas niedzielny obiad nie istnieje bez schabowego w panierce, ziemniaków i mizerii. Jesteśmy przeważnie mięsolubni, chociaż mięsa jemy coraz mniej.\n\nCo jadamy na obiady?\n\nNajpierw lubimy zjeść zupę. Ogórkowa, pomidorowa, krupnik, grochowa, koperkowa – to są te z tradycyjnego repertuaru. Ostatnimi czasy pokochaliśmy zupy kremowe – lekko czosnkową brokułową, dyniową ze szczyptą chilli czy krem ze szparagów.\n\nDo niedawna w każdym polskim domu po zupie podawało się drugie danie – najczęściej ziemniaczane puree, mięso pod różną postacią oraz surówkę. Polacy najbardziej lubią jeść na obiad kotlety mielone, bitki wieprzowe i aromatyczne pieczenie.\n\nUwielbiamy obiadowe dania mączne – naleśniki, pierogi ruskie czy pierogi z mięsem. Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą.\n\nMiejsce przyrządzenia czy jakość i smak?\n\nNiezależnie od czasów Polacy kochają domowe jedzenie, jednak coraz mniej z nas ma czas, żeby gotować dwudaniowe obiady. Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy, natomiast w tygodniu lubimy zamawiać jedzenie – zwłaszcza do pracy. Całe szczęście restauratorzy znają ukochane smaki Polaków i dostarczają tradycyjne polskie potrawy w domowej jakości, dodatkowo w zachęcającej cenie. Co Polacy lubią jeść na obiad? Tradycyjne polskie domowe obiady, ale niekoniecznie przyrządzone w swoim domu.\n\n(Disponível em: https://www.pomysly-na.pl/artykul/ulubione-dania-polakow-co-lubimy-jesc-na-obiad-105972.)\n\nZdanie „Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy” można zastąpić, zachowując jego pierwotne znacznie, następującym zdaniem:",
      "images": [],
      "alternatives": [
       {
@@ -4452,7 +4452,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "W zdaniu, „lubimy zamawiać jedzenie – zwłaszcza do pracy” wyrażenie „zwłaszcza do pracy” można zastąpić, zachowując jego pierwotne znaczenie, wyrażeniem:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nUlubione dania Polaków. Co lubimy jeść na obiad?\n\nMy, Polacy, jesteśmy szczególnie mocno przywiązani do swojej rodzimej kuchni. Lubimy zajadać się pierogami ruskimi z cebulką lub skwarkami. Dla wielu z nas niedzielny obiad nie istnieje bez schabowego w panierce, ziemniaków i mizerii. Jesteśmy przeważnie mięsolubni, chociaż mięsa jemy coraz mniej.\n\nCo jadamy na obiady?\n\nNajpierw lubimy zjeść zupę. Ogórkowa, pomidorowa, krupnik, grochowa, koperkowa – to są te z tradycyjnego repertuaru. Ostatnimi czasy pokochaliśmy zupy kremowe – lekko czosnkową brokułową, dyniową ze szczyptą chilli czy krem ze szparagów.\n\nDo niedawna w każdym polskim domu po zupie podawało się drugie danie – najczęściej ziemniaczane puree, mięso pod różną postacią oraz surówkę. Polacy najbardziej lubią jeść na obiad kotlety mielone, bitki wieprzowe i aromatyczne pieczenie.\n\nUwielbiamy obiadowe dania mączne – naleśniki, pierogi ruskie czy pierogi z mięsem. Polacy dbający o zdrowie wybierają zieloną wersję tradycyjnych dań, np. spaghetti z rukolą.\n\nMiejsce przyrządzenia czy jakość i smak?\n\nNiezależnie od czasów Polacy kochają domowe jedzenie, jednak coraz mniej z nas ma czas, żeby gotować dwudaniowe obiady. Przyrządzaniu posiłków poświęcamy więcej czasu w weekendy, natomiast w tygodniu lubimy zamawiać jedzenie – zwłaszcza do pracy. Całe szczęście restauratorzy znają ukochane smaki Polaków i dostarczają tradycyjne polskie potrawy w domowej jakości, dodatkowo w zachęcającej cenie. Co Polacy lubią jeść na obiad? Tradycyjne polskie domowe obiady, ale niekoniecznie przyrządzone w swoim domu.\n\n(Disponível em: https://www.pomysly-na.pl/artykul/ulubione-dania-polakow-co-lubimy-jesc-na-obiad-105972.)\n\nW zdaniu, „lubimy zamawiać jedzenie – zwłaszcza do pracy” wyrażenie „zwłaszcza do pracy” można zastąpić, zachowując jego pierwotne znaczenie, wyrażeniem:",
      "images": [],
      "alternatives": [
       {

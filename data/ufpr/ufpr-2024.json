@@ -54,20 +54,20 @@
        "text_md": "8"
       },
       {
-       "label": "D",
-       "text_md": "24"
-      },
-      {
        "label": "B",
        "text_md": "11"
       },
       {
-       "label": "E",
-       "text_md": "30"
-      },
-      {
        "label": "C",
        "text_md": "15"
+      },
+      {
+       "label": "D",
+       "text_md": "24"
+      },
+      {
+       "label": "E",
+       "text_md": "30"
       }
      ],
      "correct": "E",
@@ -78,7 +78,7 @@
      "number": 3,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Duas retas no plano se intersectam no ponto P, formando um ângulo reto. Além disso, essas retas são tangentes a uma circunferência nos pontos Q e R, conforme ilustra a figura ao lado. Sabendo que o perímetro da região hachurada mede 2π 8 cm,](/questoes/ufpr/2024/q03-1.png)\n\nassinale a alternativa que corresponde à medida do raio da circunferência em cm.",
+     "statement_md": "![Trecho com fórmula: Duas retas no plano se intersectam no ponto P, formando um ângulo reto. Além disso, essas retas são tangentes a uma circunferência nos pontos Q e R, conforme ilustra a figura ao lado. Sabendo que o perímetro da região hachurada mede 2π 8 cm, assinale a alternativa que corresponde à medida do raio da circunferência em cm.](/questoes/ufpr/2024/q03-1.png)",
      "images": [
       "/questoes/ufpr/2024/q03-1.png",
       "/questoes/ufpr/2024/q03-D-1.png"
@@ -89,21 +89,21 @@
        "text_md": "2"
       },
       {
+       "label": "B",
+       "text_md": "3"
+      },
+      {
+       "label": "C",
+       "text_md": "4"
+      },
+      {
        "label": "D",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q03-D-1.png"
       },
       {
-       "label": "B",
-       "text_md": "3"
-      },
-      {
        "label": "E",
        "text_md": "6"
-      },
-      {
-       "label": "C",
-       "text_md": "4"
       }
      ],
      "correct": "C",
@@ -117,29 +117,31 @@
      "statement_md": "![Trecho com fórmula: Sejam p x x a e q x x2 b funções, com a e b números reais. Sabendo que r 1 2 é a única raiz da função composta f x q p x , assinale a alternativa que corresponde à soma a b.](/questoes/ufpr/2024/q04-1.png)",
      "images": [
       "/questoes/ufpr/2024/q04-1.png",
-      "/questoes/ufpr/2024/q04-C-1.png"
+      "/questoes/ufpr/2024/q04-C-1.png",
+      "/questoes/ufpr/2024/q04-D-1.png"
      ],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "-2\n\n1"
+       "text_md": "-2"
       },
       {
        "label": "B",
-       "text_md": "-1\n\n1"
-      },
-      {
-       "label": "D",
-       "text_md": "2"
-      },
-      {
-       "label": "E",
-       "text_md": "2"
+       "text_md": "-1"
       },
       {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q04-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q04-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "2"
       }
      ],
      "correct": "C",
@@ -160,20 +162,20 @@
        "text_md": "0,8"
       },
       {
-       "label": "D",
-       "text_md": "1,4"
-      },
-      {
        "label": "B",
        "text_md": "1,0"
       },
       {
-       "label": "E",
-       "text_md": "1,6"
-      },
-      {
        "label": "C",
        "text_md": "1,2"
+      },
+      {
+       "label": "D",
+       "text_md": "1,4"
+      },
+      {
+       "label": "E",
+       "text_md": "1,6"
       }
      ],
      "correct": "E",
@@ -184,7 +186,7 @@
      "number": 6,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Considere a função f x x2 6x 8. No plano cartesiano, sejam P e Q as intersecções do gráfico de f com o eixo x. Sendo R a, b um ponto do gráfico de f, com b 0, assinale a alternativa que corresponde ao maior valor](/questoes/ufpr/2024/q06-1.png)\n\nnumérico possível da área do triângulo PQR.",
+     "statement_md": "![Trecho com fórmula: Considere a função f x x2 6x 8. No plano cartesiano, sejam P e Q as intersecções do gráfico de f com o eixo x. Sendo R a, b um ponto do gráfico de f, com b 0, assinale a alternativa que corresponde ao maior valor numérico possível da área do triângulo PQR.](/questoes/ufpr/2024/q06-1.png)",
      "images": [
       "/questoes/ufpr/2024/q06-1.png"
      ],
@@ -194,20 +196,20 @@
        "text_md": "1"
       },
       {
-       "label": "D",
-       "text_md": "4"
-      },
-      {
        "label": "B",
        "text_md": "2"
       },
       {
-       "label": "E",
-       "text_md": "6"
-      },
-      {
        "label": "C",
        "text_md": "3"
+      },
+      {
+       "label": "D",
+       "text_md": "4"
+      },
+      {
+       "label": "E",
+       "text_md": "6"
       }
      ],
      "correct": "A",
@@ -218,7 +220,7 @@
      "number": 7,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: A circunferência C na figura ao lado está centrada no ponto A 1, 1 e tangencia os](/questoes/ufpr/2024/q07-1.png)\n\neixos coordenados. A reta r passa pela origem O e pelo ponto A, intersectando a circunferência no ponto P, conforme indica a figura. A reta s é tangente à circunferência no ponto P e intersecta o eixo x no ponto Q. Assinale a alternativa que corresponde à abcissa do ponto Q.\n\n![Figura](/questoes/ufpr/2024/q07-2.png)",
+     "statement_md": "![Trecho com fórmula: A circunferência C na figura ao lado está centrada no ponto A 1, 1 e tangencia os eixos coordenados. A reta r passa pela origem O e pelo ponto A, intersectando a circunferência no ponto P, conforme indica a figura. A reta s é tangente à circunferência no ponto P e intersecta o eixo x no ponto Q. Assinale a alternativa que corresponde à abcissa do ponto Q.](/questoes/ufpr/2024/q07-1.png)\n\n![Figura](/questoes/ufpr/2024/q07-2.png)",
      "images": [
       "/questoes/ufpr/2024/q07-1.png",
       "/questoes/ufpr/2024/q07-2.png",
@@ -261,10 +263,9 @@
      "number": 8,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Um bolo é retirado do forno e começa a resfriar segundo a expressão T t 30 150a 0,05 t , com a 1, sendo T a](/questoes/ufpr/2024/q08-1.png)\n\n![Trecho com fórmula: temperatura do bolo e t o tempo decorrido em minutos. Assinale a alternativa que corresponde ao tempo em que o bolo atingirá a metade da temperatura inicial que apresentava quando foi retirado do forno em t 0. (Use se necessário loga2 0, 7 e loga5 1, 6).](/questoes/ufpr/2024/q08-2.png)",
+     "statement_md": "![Trecho com fórmula: Um bolo é retirado do forno e começa a resfriar segundo a expressão T t 30 150a 0,05 t , com a 1, sendo T a temperatura do bolo e t o tempo decorrido em minutos. Assinale a alternativa que corresponde ao tempo em que o bolo atingirá a metade da temperatura inicial que apresentava quando foi retirado do forno em t 0. (Use se necessário loga2 0, 7 e loga5 1, 6).](/questoes/ufpr/2024/q08-1.png)",
      "images": [
-      "/questoes/ufpr/2024/q08-1.png",
-      "/questoes/ufpr/2024/q08-2.png"
+      "/questoes/ufpr/2024/q08-1.png"
      ],
      "alternatives": [
       {
@@ -272,20 +273,20 @@
        "text_md": "10 minutos"
       },
       {
-       "label": "D",
-       "text_md": "18 minutos"
-      },
-      {
        "label": "B",
        "text_md": "12 minutos"
       },
       {
-       "label": "E",
-       "text_md": "22 minutos"
-      },
-      {
        "label": "C",
        "text_md": "16 minutos"
+      },
+      {
+       "label": "D",
+       "text_md": "18 minutos"
+      },
+      {
+       "label": "E",
+       "text_md": "22 minutos"
       }
      ],
      "correct": "D",
@@ -296,7 +297,7 @@
      "number": 9,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Um cone circular reto S é dividido por dois planos paralelos à sua base, formando três sólidos S1, S2 e S3, conforme a figura ao lado. Os volumes de S1, S2 e S3, nessa ordem, estão em progressão geométrica com razão q 1. O quociente](/questoes/ufpr/2024/q09-1.png)\n\nentre o raio do cone S e o raio do cone menor S₁ é igual a √7 ₃ . Assinale a alternativa que corresponde à razão q.\n\n![Figura](/questoes/ufpr/2024/q09-2.png)",
+     "statement_md": "![Trecho com fórmula: Um cone circular reto S é dividido por dois planos paralelos à sua base, formando três sólidos S1, S2 e S3, conforme a figura ao lado. Os volumes de S1, S2 e S3, nessa ordem, estão em progressão geométrica com razão q 1. O quociente](/questoes/ufpr/2024/q09-1.png)\n\n3\n\nentre o raio do cone S e o raio do cone menor S₁ é igual a √7 . Assinale a alternativa que corresponde à razão q.\n\n![Figura](/questoes/ufpr/2024/q09-2.png)",
      "images": [
       "/questoes/ufpr/2024/q09-1.png",
       "/questoes/ufpr/2024/q09-2.png"
@@ -307,20 +308,20 @@
        "text_md": "2"
       },
       {
-       "label": "D",
-       "text_md": "5"
-      },
-      {
        "label": "B",
        "text_md": "3"
       },
       {
-       "label": "E",
-       "text_md": "7"
-      },
-      {
        "label": "C",
        "text_md": "4"
+      },
+      {
+       "label": "D",
+       "text_md": "5"
+      },
+      {
+       "label": "E",
+       "text_md": "7"
       }
      ],
      "correct": "A",
@@ -331,14 +332,14 @@
      "number": 10,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Capacitores são elementos de circuito que podem armazenar energia quando submetidos a uma diferença de potencial. Num dado circuito, deseja-se que um capacitor de capacitância C armazene uma energia U 8, 0 mJ quando submetido a uma diferença de potencial ΔV 4, 0 V entre seus terminais. Considerando as informações apresentadas,](/questoes/ufpr/2024/q10-1.png)\n\nassinale a alternativa que apresenta corretamente o valor da capacitância C desse capacitor.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Capacitores são elementos de circuito que podem armazenar energia quando submetidos a uma diferença de potencial. Num dado circuito, deseja-se que um capacitor de capacitância C armazene uma energia U 8, 0 mJ quando submetido a uma diferença de potencial ΔV 4, 0 V entre seus terminais. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da capacitân…](/questoes/ufpr/2024/q10-1.png)",
      "images": [
       "/questoes/ufpr/2024/q10-1.png",
       "/questoes/ufpr/2024/q10-A-1.png",
-      "/questoes/ufpr/2024/q10-D-1.png",
       "/questoes/ufpr/2024/q10-B-1.png",
-      "/questoes/ufpr/2024/q10-E-1.png",
-      "/questoes/ufpr/2024/q10-C-1.png"
+      "/questoes/ufpr/2024/q10-C-1.png",
+      "/questoes/ufpr/2024/q10-D-1.png",
+      "/questoes/ufpr/2024/q10-E-1.png"
      ],
      "alternatives": [
       {
@@ -347,24 +348,24 @@
        "image_url": "/questoes/ufpr/2024/q10-A-1.png"
       },
       {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q10-D-1.png"
-      },
-      {
        "label": "B",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q10-B-1.png"
       },
       {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q10-E-1.png"
-      },
-      {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q10-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q10-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q10-E-1.png"
       }
      ],
      "correct": "B",
@@ -383,20 +384,20 @@
        "text_md": "m (metro)"
       },
       {
-       "label": "D",
-       "text_md": "V (volt)"
-      },
-      {
        "label": "B",
        "text_md": "N (newton)"
       },
       {
-       "label": "E",
-       "text_md": "K (kelvin)"
-      },
-      {
        "label": "C",
        "text_md": "s (segundo)"
+      },
+      {
+       "label": "D",
+       "text_md": "V (volt)"
+      },
+      {
+       "label": "E",
+       "text_md": "K (kelvin)"
       }
      ],
      "correct": "C",
@@ -407,14 +408,14 @@
      "number": 12,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um dado objeto, de massa m constante, descreve uma curva circular de raio R1 com uma velocidade tangencial de intensidade constante v1. Para fazer isso, ele necessita de uma força centrípeta de intensidade F1. O mesmo objeto é colocado agora numa outra curva circular, de raio R2, com velocidade tangencial de intensidade constante v2, e necessita agora de uma força centrípeta de intensidade F2 par…](/questoes/ufpr/2024/q12-1.png)\n\nforças centrípetas necessárias para a execução dos movimentos.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um dado objeto, de massa m constante, descreve uma curva circular de raio R1 com uma velocidade tangencial de intensidade constante v1. Para fazer isso, ele necessita de uma força centrípeta de intensidade F1. O mesmo objeto é colocado agora numa outra curva circular, de raio R2, com velocidade tangencial de intensidade constante v2, e necessita agora de uma força centrípeta de intensidade F2 par…](/questoes/ufpr/2024/q12-1.png)",
      "images": [
       "/questoes/ufpr/2024/q12-1.png",
       "/questoes/ufpr/2024/q12-A-1.png",
-      "/questoes/ufpr/2024/q12-D-1.png",
       "/questoes/ufpr/2024/q12-B-1.png",
-      "/questoes/ufpr/2024/q12-E-1.png",
-      "/questoes/ufpr/2024/q12-C-1.png"
+      "/questoes/ufpr/2024/q12-C-1.png",
+      "/questoes/ufpr/2024/q12-D-1.png",
+      "/questoes/ufpr/2024/q12-E-1.png"
      ],
      "alternatives": [
       {
@@ -423,24 +424,24 @@
        "image_url": "/questoes/ufpr/2024/q12-A-1.png"
       },
       {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q12-D-1.png"
-      },
-      {
        "label": "B",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q12-B-1.png"
       },
       {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q12-E-1.png"
-      },
-      {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q12-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q12-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q12-E-1.png"
       }
      ],
      "correct": "C",
@@ -451,7 +452,7 @@
      "number": 13,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Deseja-se produzir uma onda sonora num dado meio onde a velocidade do som vale v 350 m/s. A frequência f dessa onda sonora deve ser f 50 kHz. Considerando as informações apresentadas, assinale a alternativa que apresenta](/questoes/ufpr/2024/q13-1.png)\n\ncorretamente o valor do comprimento de onda λ dessa onda.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Deseja-se produzir uma onda sonora num dado meio onde a velocidade do som vale v 350 m/s. A frequência f dessa onda sonora deve ser f 50 kHz. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor do comprimento de onda λ dessa onda.](/questoes/ufpr/2024/q13-1.png)",
      "images": [
       "/questoes/ufpr/2024/q13-1.png",
       "/questoes/ufpr/2024/q13-A-1.png",
@@ -495,14 +496,14 @@
      "number": 14,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um dado objeto de massa constante m 300 g está a uma temperatura T0 30 ºC. Seu calor específico vale c 0, 4 J/g.ºC. Esse objeto passa por um processo termodinâmico que retira uma dada quantidade de calor Q, de modo que o objeto chega à temperatura T 10 ºC sem sofrer mudanças de estado físico. Em todo esse processo, seu calor](/questoes/ufpr/2024/q14-1.png)\n\nespecífico é considerado constante. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da quantidade de calor Q retirada do objeto durante o processo.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um dado objeto de massa constante m 300 g está a uma temperatura T0 30 ºC. Seu calor específico vale c 0, 4 J/g.ºC. Esse objeto passa por um processo termodinâmico que retira uma dada quantidade de calor Q, de modo que o objeto chega à temperatura T 10 ºC sem sofrer mudanças de estado físico. Em todo esse processo, seu calor específico é considerado constante. Considerando as informações apresent…](/questoes/ufpr/2024/q14-1.png)",
      "images": [
       "/questoes/ufpr/2024/q14-1.png",
       "/questoes/ufpr/2024/q14-A-1.png",
-      "/questoes/ufpr/2024/q14-D-1.png",
       "/questoes/ufpr/2024/q14-B-1.png",
-      "/questoes/ufpr/2024/q14-E-1.png",
-      "/questoes/ufpr/2024/q14-C-1.png"
+      "/questoes/ufpr/2024/q14-C-1.png",
+      "/questoes/ufpr/2024/q14-D-1.png",
+      "/questoes/ufpr/2024/q14-E-1.png"
      ],
      "alternatives": [
       {
@@ -511,24 +512,24 @@
        "image_url": "/questoes/ufpr/2024/q14-A-1.png"
       },
       {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q14-D-1.png"
-      },
-      {
        "label": "B",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q14-B-1.png"
       },
       {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q14-E-1.png"
-      },
-      {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q14-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q14-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q14-E-1.png"
       }
      ],
      "correct": "C",
@@ -539,30 +540,20 @@
      "number": 15,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma partícula contendo uma carga Q 1, 6 10 19 C entra numa região onde há um campo magnético de intensidade B 1, 0 T com uma velocidade de módulo v. Sobre ela, passa a agir uma força magnética de intensidade F 3, 2 10 16 N. O ângulo entre os vetores velocidade e campo magnético vale θ, e sabe-se que cos θ 3 2 e sen θ 1 2 . Considerando as informações apresentadas, assinale a alternativa que apres…](/questoes/ufpr/2024/q15-1.png)\n\nmódulo v da velocidade da partícula.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma partícula contendo uma carga Q 1, 6 10 19 C entra numa região onde há um campo magnético de intensidade B 1, 0 T com uma velocidade de módulo v. Sobre ela, passa a agir uma força magnética de intensidade F 3, 2 10 16 N. O ângulo entre os vetores velocidade e campo magnético vale θ, e sabe-se que cos θ 3 2 e sen θ 1 2 . Considerando as informações apresentadas, assinale a alternativa que apres…](/questoes/ufpr/2024/q15-1.png)",
      "images": [
       "/questoes/ufpr/2024/q15-1.png",
       "/questoes/ufpr/2024/q15-A-1.png",
-      "/questoes/ufpr/2024/q15-D-1.png",
-      "/questoes/ufpr/2024/q15-E-1.png",
       "/questoes/ufpr/2024/q15-B-1.png",
-      "/questoes/ufpr/2024/q15-C-1.png"
+      "/questoes/ufpr/2024/q15-C-1.png",
+      "/questoes/ufpr/2024/q15-D-1.png",
+      "/questoes/ufpr/2024/q15-E-1.png"
      ],
      "alternatives": [
       {
        "label": "A",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q15-A-1.png"
-      },
-      {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q15-D-1.png"
-      },
-      {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q15-E-1.png"
       },
       {
        "label": "B",
@@ -573,6 +564,16 @@
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q15-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q15-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q15-E-1.png"
       }
      ],
      "correct": "B",
@@ -583,14 +584,14 @@
      "number": 16,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma plataforma plana horizontal tem uma área A. Sobre ela, é colocado um objeto de massa m constante, que fica estático no local, sujeito apenas à força gravitacional e à força exercida pela plataforma. As forças envolvidas no problema são todas orientadas perpendicularmente à plataforma. O objeto exerce uma pressão de valor P 2, 0 104 Pa sobre a plataforma, e a massa do objeto vale m 600 g. Cons…](/questoes/ufpr/2024/q16-1.png)\n\napresentadas, assinale a alternativa que apresenta corretamente o valor da área A da plataforma.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma plataforma plana horizontal tem uma área A. Sobre ela, é colocado um objeto de massa m constante, que fica estático no local, sujeito apenas à força gravitacional e à força exercida pela plataforma. As forças envolvidas no problema são todas orientadas perpendicularmente à plataforma. O objeto exerce uma pressão de valor P 2, 0 104 Pa sobre a plataforma, e a massa do objeto vale m 600 g. Cons…](/questoes/ufpr/2024/q16-1.png)",
      "images": [
       "/questoes/ufpr/2024/q16-1.png",
       "/questoes/ufpr/2024/q16-A-1.png",
-      "/questoes/ufpr/2024/q16-D-1.png",
       "/questoes/ufpr/2024/q16-B-1.png",
-      "/questoes/ufpr/2024/q16-E-1.png",
-      "/questoes/ufpr/2024/q16-C-1.png"
+      "/questoes/ufpr/2024/q16-C-1.png",
+      "/questoes/ufpr/2024/q16-D-1.png",
+      "/questoes/ufpr/2024/q16-E-1.png"
      ],
      "alternatives": [
       {
@@ -599,24 +600,24 @@
        "image_url": "/questoes/ufpr/2024/q16-A-1.png"
       },
       {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q16-D-1.png"
-      },
-      {
        "label": "B",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q16-B-1.png"
       },
       {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q16-E-1.png"
-      },
-      {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q16-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q16-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q16-E-1.png"
       }
      ],
      "correct": "A",
@@ -627,14 +628,14 @@
      "number": 17,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma certa massa de gás ideal está num estado termodinâmico em que a pressão vale P0, o volume vale V0, e a temperatura vale T0. Essa massa de gás sofre um processo termodinâmico, e o volume passa a ser V, a pressão passa a ser P, e a temperatura passa a ser T. Sabe-se que P 4P0 e T 2T0. Considerando as informações apresentadas,](/questoes/ufpr/2024/q17-1.png)\n\nassinale a alternativa que apresenta corretamente o valor do volume V em função do volume V₀.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Uma certa massa de gás ideal está num estado termodinâmico em que a pressão vale P0, o volume vale V0, e a temperatura vale T0. Essa massa de gás sofre um processo termodinâmico, e o volume passa a ser V, a pressão passa a ser P, e a temperatura passa a ser T. Sabe-se que P 4P0 e T 2T0. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor do volume V…](/questoes/ufpr/2024/q17-1.png)",
      "images": [
       "/questoes/ufpr/2024/q17-1.png",
       "/questoes/ufpr/2024/q17-A-1.png",
-      "/questoes/ufpr/2024/q17-D-1.png",
       "/questoes/ufpr/2024/q17-B-1.png",
-      "/questoes/ufpr/2024/q17-E-1.png",
-      "/questoes/ufpr/2024/q17-C-1.png"
+      "/questoes/ufpr/2024/q17-C-1.png",
+      "/questoes/ufpr/2024/q17-D-1.png",
+      "/questoes/ufpr/2024/q17-E-1.png"
      ],
      "alternatives": [
       {
@@ -643,24 +644,24 @@
        "image_url": "/questoes/ufpr/2024/q17-A-1.png"
       },
       {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q17-D-1.png"
-      },
-      {
        "label": "B",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q17-B-1.png"
       },
       {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q17-E-1.png"
-      },
-      {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q17-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q17-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q17-E-1.png"
       }
      ],
      "correct": "E",
@@ -671,14 +672,14 @@
      "number": 18,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um objeto de massa m constante move-se num movimento retilíneo uniformemente variado unidimensional descrito pela equação x 3 5t 2t2, em que x é a posição do objeto, medida em quilômetros, e t é o tempo, medido em](/questoes/ufpr/2024/q18-1.png)\n\nhoras. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da aceleração a do objeto nesse movimento.",
+     "statement_md": "O texto a seguir é referência para as questões 10 a 18.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um objeto de massa m constante move-se num movimento retilíneo uniformemente variado unidimensional descrito pela equação x 3 5t 2t2, em que x é a posição do objeto, medida em quilômetros, e t é o tempo, medido em horas. Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente o valor da aceleração a do objeto nesse movimento.](/questoes/ufpr/2024/q18-1.png)",
      "images": [
       "/questoes/ufpr/2024/q18-1.png",
       "/questoes/ufpr/2024/q18-A-1.png",
-      "/questoes/ufpr/2024/q18-D-1.png",
       "/questoes/ufpr/2024/q18-B-1.png",
-      "/questoes/ufpr/2024/q18-E-1.png",
-      "/questoes/ufpr/2024/q18-C-1.png"
+      "/questoes/ufpr/2024/q18-C-1.png",
+      "/questoes/ufpr/2024/q18-D-1.png",
+      "/questoes/ufpr/2024/q18-E-1.png"
      ],
      "alternatives": [
       {
@@ -687,24 +688,24 @@
        "image_url": "/questoes/ufpr/2024/q18-A-1.png"
       },
       {
-       "label": "D",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q18-D-1.png"
-      },
-      {
        "label": "B",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q18-B-1.png"
       },
       {
-       "label": "E",
-       "text_md": "",
-       "image_url": "/questoes/ufpr/2024/q18-E-1.png"
-      },
-      {
        "label": "C",
        "text_md": "",
        "image_url": "/questoes/ufpr/2024/q18-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q18-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2024/q18-E-1.png"
       }
      ],
      "correct": "E",
@@ -1024,7 +1025,7 @@
       },
       {
        "label": "C",
-       "text_md": "Aumentar o consumo direto de vegetais irá reduzir a perda energética que ocorre na passagem para os níveis tróficos\n\nseguintes, otimizando os recursos investidos na produção vegetal, que é mais barata que a produção animal."
+       "text_md": "Aumentar o consumo direto de vegetais irá reduzir a perda energética que ocorre na passagem para os níveis tróficos seguintes, otimizando os recursos investidos na produção vegetal, que é mais barata que a produção animal."
       },
       {
        "label": "D",
@@ -1084,7 +1085,7 @@
       },
       {
        "label": "B",
-       "text_md": "Nas ervilhas, Mendel observou fenótipos que decorriam de variações alélicas em apenas um gene, porém, em condições\n\nnaturais, os fenótipos são resultado da interação de alelos de diversos genes com condições ambientais."
+       "text_md": "Nas ervilhas, Mendel observou fenótipos que decorriam de variações alélicas em apenas um gene, porém, em condições naturais, os fenótipos são resultado da interação de alelos de diversos genes com condições ambientais."
       },
       {
        "label": "C",
@@ -1158,7 +1159,7 @@
       },
       {
        "label": "D",
-       "text_md": "As aves desenvolveram um sistema digestório adaptado para alimentos não mastigados, como a presença de\n\nproventrículo e moela."
+       "text_md": "As aves desenvolveram um sistema digestório adaptado para alimentos não mastigados, como a presença de proventrículo e moela."
       },
       {
        "label": "E",
@@ -1194,7 +1195,7 @@
       },
       {
        "label": "E",
-       "text_md": "A melhoria de condições ambientais, como o saneamento básico, contribui para a prevenção da poliomielite, causada pelo\n\npoliovírus."
+       "text_md": "A melhoria de condições ambientais, como o saneamento básico, contribui para a prevenção da poliomielite, causada pelo poliovírus."
       }
      ],
      "correct": "E",
@@ -1214,7 +1215,7 @@
       },
       {
        "label": "B",
-       "text_md": "Uma espécie nativa é aquela que se originou em um determinado ecossistema e coevoluiu com outras espécies presentes\n\nnesse ambiente ao longo do tempo."
+       "text_md": "Uma espécie nativa é aquela que se originou em um determinado ecossistema e coevoluiu com outras espécies presentes nesse ambiente ao longo do tempo."
       },
       {
        "label": "C",
@@ -1258,7 +1259,7 @@
       },
       {
        "label": "E",
-       "text_md": "Numa epidemia de um vírus letal, sobrevivem e se reproduzem os portadores de alelos que apresentam resistência ao\n\nvírus, levando ao aumento de frequência desses alelos nas gerações seguintes."
+       "text_md": "Numa epidemia de um vírus letal, sobrevivem e se reproduzem os portadores de alelos que apresentam resistência ao vírus, levando ao aumento de frequência desses alelos nas gerações seguintes."
       }
      ],
      "correct": "E",
@@ -1274,7 +1275,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Na difusão simples, ocorre o movimento de moléculas diretamente através da membrana, seguindo seus gradientes de\n\nconcentração, sem o auxílio de proteínas transportadoras."
+       "text_md": "Na difusão simples, ocorre o movimento de moléculas diretamente através da membrana, seguindo seus gradientes de concentração, sem o auxílio de proteínas transportadoras."
       },
       {
        "label": "B",
@@ -1322,7 +1323,7 @@
       },
       {
        "label": "E",
-       "text_md": "O Nordeste apresenta o terceiro maior PIB regional do Brasil devido ao tamanho de sua população; em termos per capita,\n\na renda dos nordestinos continua sendo a menor do país."
+       "text_md": "O Nordeste apresenta o terceiro maior PIB regional do Brasil devido ao tamanho de sua população; em termos per capita, a renda dos nordestinos continua sendo a menor do país."
       }
      ],
      "correct": "E",
@@ -1378,7 +1379,7 @@
       },
       {
        "label": "C",
-       "text_md": "Florestas são formações vegetais em que predominam árvores; um exemplo de bioma florestal é a Floresta Pluvial\n\nTropical, encontrada na Amazônia."
+       "text_md": "Florestas são formações vegetais em que predominam árvores; um exemplo de bioma florestal é a Floresta Pluvial Tropical, encontrada na Amazônia."
       },
       {
        "label": "D",
@@ -1414,7 +1415,7 @@
       },
       {
        "label": "D",
-       "text_md": "Em regiões com disponibilidade natural de água, mas com estrutura de captação, tratamento e distribuição insuficientes,\n\na escassez hídrica é um problema de ordem econômica."
+       "text_md": "Em regiões com disponibilidade natural de água, mas com estrutura de captação, tratamento e distribuição insuficientes, a escassez hídrica é um problema de ordem econômica."
       },
       {
        "label": "E",
@@ -1434,7 +1435,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "A autonomia estadual é maior nos EUA do que no Brasil, como exemplifica o fato de haver leis estaduais diferentes para\n\ntemas como aborto e pena de morte nos EUA."
+       "text_md": "A autonomia estadual é maior nos EUA do que no Brasil, como exemplifica o fato de haver leis estaduais diferentes para temas como aborto e pena de morte nos EUA."
       },
       {
        "label": "B",
@@ -1470,7 +1471,7 @@
       },
       {
        "label": "B",
-       "text_md": "Conurbação é a integração física de manchas urbanas, de modo que estradas ligando núcleos urbanos separados podem\n\nse converter em avenidas de uma mancha urbana que abrange os territórios de vários municípios."
+       "text_md": "Conurbação é a integração física de manchas urbanas, de modo que estradas ligando núcleos urbanos separados podem se converter em avenidas de uma mancha urbana que abrange os territórios de vários municípios."
       },
       {
        "label": "C",
@@ -1546,7 +1547,7 @@
       },
       {
        "label": "E",
-       "text_md": "A construção da rodovia Transamazônica e a implantação de “agrovilas” visavam atrair imigrantes da zona rural do\n\nNordeste para aliviar as tensões sociais no campo."
+       "text_md": "A construção da rodovia Transamazônica e a implantação de “agrovilas” visavam atrair imigrantes da zona rural do Nordeste para aliviar as tensões sociais no campo."
       }
      ],
      "correct": "E",
@@ -1570,7 +1571,7 @@
       },
       {
        "label": "C",
-       "text_md": "Os conflitos na Irlanda do Norte opunham a maioria protestante que deseja que esse país continue integrado ao Reino\n\nUnido à minoria católica que quer a integração com a Irlanda do Sul."
+       "text_md": "Os conflitos na Irlanda do Norte opunham a maioria protestante que deseja que esse país continue integrado ao Reino Unido à minoria católica que quer a integração com a Irlanda do Sul."
       },
       {
        "label": "D",
@@ -1589,7 +1590,7 @@
      "number": 46,
      "area": "humanas",
      "subject": "História",
-     "statement_md": "Leia o seguinte excerto:\n\n“Embora os macedônicos fossem orgulhosos, sabiam que o restante do mundo considerava seu reino arcaico, tribal e insignificante. \\[...\\] Naquele tempo, o Oriente era o foco da civilização, bem iluminado pela História, e o Ocidente, um território escuro e selvagem onde viviam os bárbaros. No atlas das percepções e dos preconceitos geográficos, a Macedônia ocupava a periferia do mundo civilizado. Provavelmente poucos egípcios saberiam localizar no mapa a pátria do seu próximo rei.”\n\nVALLEHO, Irene. *O infinito em um junco*: a invenção dos livros no mundo antigo. Tradução de Ari Roitman e Paulina Wacht.\n\nRio de Janeiro: Intrínseca, 2022. p. 33. O trecho acima faz referência ao rei Ptolomeu, que governou o Egito a partir de 305 a.C. durante um período conhecido pela historiografia como helenístico. Considerando os conhecimentos sobre Antiguidade, é correto afirmar que a cultura helenística foi:",
+     "statement_md": "Leia o seguinte excerto:\n\n“Embora os macedônicos fossem orgulhosos, sabiam que o restante do mundo considerava seu reino arcaico, tribal e insignificante. \\[...\\] Naquele tempo, o Oriente era o foco da civilização, bem iluminado pela História, e o Ocidente, um território escuro e selvagem onde viviam os bárbaros. No atlas das percepções e dos preconceitos geográficos, a Macedônia ocupava a periferia do mundo civilizado. Provavelmente poucos egípcios saberiam localizar no mapa a pátria do seu próximo rei.”\n\nVALLEHO, Irene. *O infinito em um junco*: a invenção dos livros no mundo antigo. Tradução de Ari Roitman e Paulina Wacht.\n\nRio de Janeiro: Intrínseca, 2022. p. 33.\n\nO trecho acima faz referência ao rei Ptolomeu, que governou o Egito a partir de 305 a.C. durante um período conhecido pela historiografia como helenístico. Considerando os conhecimentos sobre Antiguidade, é correto afirmar que a cultura helenística foi:",
      "images": [],
      "alternatives": [
       {
@@ -1638,7 +1639,7 @@
       },
       {
        "label": "D",
-       "text_md": "O crescimento urbano e a abertura de novas rotas de viagem, no contexto do chamado Renascimento Comercial,\n\ngarantiram o poder financeiro de cidades como Gênova e Veneza."
+       "text_md": "O crescimento urbano e a abertura de novas rotas de viagem, no contexto do chamado Renascimento Comercial, garantiram o poder financeiro de cidades como Gênova e Veneza."
       },
       {
        "label": "E",
@@ -1717,7 +1718,7 @@
      "number": 50,
      "area": "humanas",
      "subject": "História",
-     "statement_md": "Leia a seguir o excerto da historiadora Ângela Domingues:\n\n“O advento da segunda metade do século XVIII coincidiu com a realização de um enorme esforço de renovação do conhecimento que envolveu indivíduos e instituições e que foi, em grande medida, promovido, financiado e suportado pelo Estado (...). A Coroa \\[portuguesa\\] participou, de forma quase onipresente, neste processo de renovação cultural e científica.” DOMINGUES, Ângela. Para um melhor conhecimento dos domínios coloniais: a constituição de redes de informação no Império português em finais\n\ndo Setecentos. *História, Ciências, Saúde– Manguinhos*, v. VIII (suplemento), 823-38, 2001. p. 824.\n\nA partir dos conhecimentos sobre o período da América Portuguesa e do império colonial português no século XVIII, assinale a alternativa que relaciona corretamente essas iniciativas descritas acima com o governo em vigência em Portugal na época e seus impactos sobre a América Portuguesa.",
+     "statement_md": "Leia a seguir o excerto da historiadora Ângela Domingues:\n\n“O advento da segunda metade do século XVIII coincidiu com a realização de um enorme esforço de renovação do conhecimento que envolveu indivíduos e instituições e que foi, em grande medida, promovido, financiado e suportado pelo Estado (...). A Coroa \\[portuguesa\\] participou, de forma quase onipresente, neste processo de renovação cultural e científica.” DOMINGUES, Ângela. Para um melhor conhecimento dos domínios coloniais: a constituição de redes de informação no Império português em finais\n\ndo Setecentos. *História, Ciências, Saúde – Manguinhos*, v. VIII (suplemento), 823-38, 2001. p. 824.\n\nA partir dos conhecimentos sobre o período da América Portuguesa e do império colonial português no século XVIII, assinale a alternativa que relaciona corretamente essas iniciativas descritas acima com o governo em vigência em Portugal na época e seus impactos sobre a América Portuguesa.",
      "images": [],
      "alternatives": [
       {
@@ -1762,7 +1763,7 @@
       },
       {
        "label": "C",
-       "text_md": "Festas brasileiras populares, como a Congada, revelam a capacidade de resistência e adaptação das tradições africanas\n\nvindas com o tráfico forçado."
+       "text_md": "Festas brasileiras populares, como a Congada, revelam a capacidade de resistência e adaptação das tradições africanas vindas com o tráfico forçado."
       },
       {
        "label": "D",
@@ -1866,7 +1867,7 @@
       },
       {
        "label": "E",
-       "text_md": "O serviço de inteligência do Chile, juntamente com outros países do Cone Sul, esteve envolvido no mecanismo de\n\nrepressão política conhecido como Operação Condor."
+       "text_md": "O serviço de inteligência do Chile, juntamente com outros países do Cone Sul, esteve envolvido no mecanismo de repressão política conhecido como Operação Condor."
       }
      ],
      "correct": "E",
@@ -1914,23 +1915,23 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Um retrato de Jesus Cristo foi arrematado na quarta-feira (15), em Nova York (...) não se pode confirmar que é realmente um Da Vinci, apesar de um grupo de especialistas ter cravado que é."
+       "text_md": "Um retrato de Jesus Cristo foi arrematado na quarta-feira (15), em Nova York (...) não se pode confirmar que é realmente **um Da Vinci**, apesar de um grupo de especialistas ter cravado que é."
       },
       {
        "label": "B",
-       "text_md": "Ayrton Senna não era uma pessoa comum. Na verdade, ele era um homem muito maior fora do que dentro do carro."
+       "text_md": "Ayrton Senna não era **uma pessoa comum**. Na verdade, ele era um homem muito maior fora do que dentro do carro."
       },
       {
        "label": "C",
-       "text_md": "O apelido que marcou Diego Maradona foi o de “Dios” (Deus). Isso não significa que ele fosse visto como uma figura perfeita, pelo contrário."
+       "text_md": "O apelido que marcou Diego Maradona foi o de “**Dios**” (Deus). Isso não significa que ele fosse visto como uma figura perfeita, pelo contrário."
       },
       {
        "label": "D",
-       "text_md": "Rita Lee sempre foi uma Ovelha Negra na indústria da música brasileira."
+       "text_md": "Rita Lee sempre foi **uma Ovelha Negra** na indústria da música brasileira."
       },
       {
        "label": "E",
-       "text_md": "Comprei prá minha mulher um freezer. (...). Ela falou: (..) não é assim nenhuma Brastemp, mas você também não é assim\n\nnenhum Alain Delon!\n\nO texto a seguir é referência para as questões 57 a 59.\n\n\\[...\\] O Brasil linguístico que vigorou até meados do século XVIII, no qual as línguas gerais ocupavam um espaço definitivo e se difundiam rumo ao sertão a partir de dois grandes núcleos, Amazônia e entorno de São Paulo, acabou sendo substituído por um espraiamento do português vinculado diretamente ao Nordeste, à lavoura que se servia da mão de obra escrava, aos negros africanos. Nessa situação, fica nítido que eles teriam sido a linha de frente da real lusitanização do território, ao mesmo tempo que iam transformando a língua aprendida numa coisa efetivamente nova, depois levada para outros pontos do país à medida que os ciclos econômicos se sucediam, cada um com seu centro num ponto diferente do território.\n\nSe é para pensarmos no português brasileiro como algo que se encontra num caldeirão, é preciso reconhecer quanto o conteúdo desse caldeirão teve que ser mexido e remexido para produzir nossa atual paisagem linguística. E é preciso reconhecer também que os primeiros e mais importantes desses movimentos foram determinados pela grande massa de falantes africanos que iam carregando e modificando essa língua durante todo o processo. Refundado e recaracterizado por eles.\n\nApesar das adversidades, foi a língua falada por negros e mestiços que dominou o Brasil. Somos um país que fala português como fruto direto dessa presença negra.\n\nTalvez caiba deixar de lado por um momento a bela ideia da “última flor do Lácio”. O português brasileiro foi um broto africano, flor de Luanda.\n\nGALINDO, Caetano*. Latim em pó*. Companhia das Letras, 2023. p. 181-182.\n\n*lusitanização*: diz-se das coisas referentes à colonização portuguesa. *In*: https://www.dicionarioinformal.com.br/\n\n*última flor do Lácio*: a expressão “Última flor do Lácio, inculta e bela” é o primeiro verso de um famoso poema de Olavo Bilac, poeta brasileiro que viveu no período de 1865 a 1918, e refere-se à filiação da língua portuguesa ao latim. *In*: https://www.jussiup.com.br/2019/04/ultima-flor-do-lacio-inculta-e-bela.html\n\n*Luanda*: capital de Angola, costa oeste da África do Sul"
+       "text_md": "Comprei prá minha mulher um freezer. (...). Ela falou: (..) não é assim **nenhuma Brastemp**, mas você também não é assim **nenhum Alain Delon**!"
       }
      ],
      "correct": "E",
@@ -1941,7 +1942,7 @@
      "number": 57,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "Considerando as informações apresentadas no texto, assinale a alternativa correta.",
+     "statement_md": "O texto a seguir é referência para as questões 57 a 59.\n\n\\[...\\] O Brasil linguístico que vigorou até meados do século XVIII, no qual as línguas gerais ocupavam um espaço definitivo e se difundiam rumo ao sertão a partir de dois grandes núcleos, Amazônia e entorno de São Paulo, acabou sendo substituído por um espraiamento do português vinculado diretamente ao Nordeste, à lavoura que se servia da mão de obra escrava, aos negros africanos. Nessa situação, fica nítido que eles teriam sido a linha de frente da real lusitanização do território, ao mesmo tempo que iam transformando a língua aprendida numa coisa efetivamente nova, depois levada para outros pontos do país à medida que os ciclos econômicos se sucediam, cada um com seu centro num ponto diferente do território.\n\nSe é para pensarmos no português brasileiro como algo que se encontra num caldeirão, é preciso reconhecer quanto o conteúdo desse caldeirão teve que ser mexido e remexido para produzir nossa atual paisagem linguística. E é preciso reconhecer também que os primeiros e mais importantes desses movimentos foram determinados pela grande massa de falantes africanos que iam carregando e modificando essa língua durante todo o processo. Refundado e recaracterizado por eles.\n\nApesar das adversidades, foi a língua falada por negros e mestiços que dominou o Brasil. Somos um país que fala português como fruto direto dessa presença negra.\n\nTalvez caiba deixar de lado por um momento a bela ideia da “última flor do Lácio”. O português brasileiro foi um broto africano, flor de Luanda.\n\nGALINDO, Caetano*. Latim em pó*. Companhia das Letras, 2023. p. 181-182.\n\n*lusitanização*: diz-se das coisas referentes à colonização portuguesa. *In*: https://www.dicionarioinformal.com.br/\n\n*última flor do Lácio*: a expressão “Última flor do Lácio, inculta e bela” é o primeiro verso de um famoso poema de Olavo Bilac, poeta brasileiro que viveu no período de 1865 a 1918, e refere-se à filiação da língua portuguesa ao latim. *In*: https://www.jussiup.com.br/2019/04/ultima-flor-do-lacio-inculta-e-bela.html\n\n*Luanda*: capital de Angola, costa oeste da África do Sul\n\nConsiderando as informações apresentadas no texto, assinale a alternativa correta.",
      "images": [],
      "alternatives": [
       {
@@ -1973,7 +1974,7 @@
      "number": 58,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "Sobre palavras e expressões presentes no texto, é correto afirmar:",
+     "statement_md": "O texto a seguir é referência para as questões 57 a 59.\n\n\\[...\\] O Brasil linguístico que vigorou até meados do século XVIII, no qual as línguas gerais ocupavam um espaço definitivo e se difundiam rumo ao sertão a partir de dois grandes núcleos, Amazônia e entorno de São Paulo, acabou sendo substituído por um espraiamento do português vinculado diretamente ao Nordeste, à lavoura que se servia da mão de obra escrava, aos negros africanos. Nessa situação, fica nítido que eles teriam sido a linha de frente da real lusitanização do território, ao mesmo tempo que iam transformando a língua aprendida numa coisa efetivamente nova, depois levada para outros pontos do país à medida que os ciclos econômicos se sucediam, cada um com seu centro num ponto diferente do território.\n\nSe é para pensarmos no português brasileiro como algo que se encontra num caldeirão, é preciso reconhecer quanto o conteúdo desse caldeirão teve que ser mexido e remexido para produzir nossa atual paisagem linguística. E é preciso reconhecer também que os primeiros e mais importantes desses movimentos foram determinados pela grande massa de falantes africanos que iam carregando e modificando essa língua durante todo o processo. Refundado e recaracterizado por eles.\n\nApesar das adversidades, foi a língua falada por negros e mestiços que dominou o Brasil. Somos um país que fala português como fruto direto dessa presença negra.\n\nTalvez caiba deixar de lado por um momento a bela ideia da “última flor do Lácio”. O português brasileiro foi um broto africano, flor de Luanda.\n\nGALINDO, Caetano*. Latim em pó*. Companhia das Letras, 2023. p. 181-182.\n\n*lusitanização*: diz-se das coisas referentes à colonização portuguesa. *In*: https://www.dicionarioinformal.com.br/\n\n*última flor do Lácio*: a expressão “Última flor do Lácio, inculta e bela” é o primeiro verso de um famoso poema de Olavo Bilac, poeta brasileiro que viveu no período de 1865 a 1918, e refere-se à filiação da língua portuguesa ao latim. *In*: https://www.jussiup.com.br/2019/04/ultima-flor-do-lacio-inculta-e-bela.html\n\n*Luanda*: capital de Angola, costa oeste da África do Sul\n\nSobre palavras e expressões presentes no texto, é correto afirmar:",
      "images": [],
      "alternatives": [
       {
@@ -2005,7 +2006,7 @@
      "number": 59,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "A respeito das expressões “última flor do Lácio” e “broto africano, flor de Luanda”, é correto afirmar que:",
+     "statement_md": "O texto a seguir é referência para as questões 57 a 59.\n\n\\[...\\] O Brasil linguístico que vigorou até meados do século XVIII, no qual as línguas gerais ocupavam um espaço definitivo e se difundiam rumo ao sertão a partir de dois grandes núcleos, Amazônia e entorno de São Paulo, acabou sendo substituído por um espraiamento do português vinculado diretamente ao Nordeste, à lavoura que se servia da mão de obra escrava, aos negros africanos. Nessa situação, fica nítido que eles teriam sido a linha de frente da real lusitanização do território, ao mesmo tempo que iam transformando a língua aprendida numa coisa efetivamente nova, depois levada para outros pontos do país à medida que os ciclos econômicos se sucediam, cada um com seu centro num ponto diferente do território.\n\nSe é para pensarmos no português brasileiro como algo que se encontra num caldeirão, é preciso reconhecer quanto o conteúdo desse caldeirão teve que ser mexido e remexido para produzir nossa atual paisagem linguística. E é preciso reconhecer também que os primeiros e mais importantes desses movimentos foram determinados pela grande massa de falantes africanos que iam carregando e modificando essa língua durante todo o processo. Refundado e recaracterizado por eles.\n\nApesar das adversidades, foi a língua falada por negros e mestiços que dominou o Brasil. Somos um país que fala português como fruto direto dessa presença negra.\n\nTalvez caiba deixar de lado por um momento a bela ideia da “última flor do Lácio”. O português brasileiro foi um broto africano, flor de Luanda.\n\nGALINDO, Caetano*. Latim em pó*. Companhia das Letras, 2023. p. 181-182.\n\n*lusitanização*: diz-se das coisas referentes à colonização portuguesa. *In*: https://www.dicionarioinformal.com.br/\n\n*última flor do Lácio*: a expressão “Última flor do Lácio, inculta e bela” é o primeiro verso de um famoso poema de Olavo Bilac, poeta brasileiro que viveu no período de 1865 a 1918, e refere-se à filiação da língua portuguesa ao latim. *In*: https://www.jussiup.com.br/2019/04/ultima-flor-do-lacio-inculta-e-bela.html\n\n*Luanda*: capital de Angola, costa oeste da África do Sul\n\nA respeito das expressões “última flor do Lácio” e “broto africano, flor de Luanda”, é correto afirmar que:",
      "images": [],
      "alternatives": [
       {
@@ -2037,7 +2038,7 @@
      "number": 60,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O excerto de texto a seguir é referência para as questões 60 a 62.\n\nTalvez estejamos muito condicionados a uma ideia de ser humano e a um tipo de existência. Se a gente desestabilizar esse padrão, talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo. Quem disse que a gente não pode cair? Quem disse que a gente já não caiu? Houve um tempo em que o planeta que chamamos Terra juntava os continentes todos numa grande Pangeia. Se olhássemos lá de cima do céu, tiraríamos uma fotografia completamente diferente do globo. Quem sabe se, quando o astronauta Iúri Gagarin disse “a Terra é azul”, ele não fez um retrato ideal daquele momento para essa humanidade que nós pensamos ser. Ele olhou com o nosso olho, viu o que a gente queria ver. Existe muita coisa que se aproxima mais daquilo que pretendemos ver do que se podia constatar se juntássemos as duas imagens: a que você pensa e a que você tem. Se já houve outras configurações da Terra, inclusive sem a gente aqui, por que é que nos apegamos tanto a esse retrato com a gente aqui? O Antropoceno tem um sentido incisivo sobre a nossa existência, a nossa experiência comum, a ideia do que é humano. O nosso apego a uma ideia fixa de paisagem da Terra e de humanidade é a marca mais profunda do Antropoceno.\n\nKRENAK, Ailton. *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras, 2020. p. 57-58.\n\n*Antropoceno*: considerado uma nova época geológica em que, pela primeira vez na história do planeta, as mudanças ambientais são resultado da intervenção humana.\n\nConsiderando o período “Se a gente desestabilizar esse padrão, talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo” (sublinhado no texto)*,* assinale a alternativa que indica, respectivamente, as relações lógico-sintáticas aí expressas.",
+     "statement_md": "O excerto de texto a seguir é referência para as questões 60 a 62.\n\nTalvez estejamos muito condicionados a uma ideia de ser humano e a um tipo de existência. **Se a gente desestabilizar esse padrão,** talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo. Quem disse que a gente não pode cair? Quem disse que a gente já não caiu? Houve um tempo em que o planeta que chamamos Terra juntava os continentes todos numa grande Pangeia. Se olhássemos lá de cima do céu, tiraríamos uma fotografia completamente diferente do globo. Quem sabe se, quando o astronauta Iúri Gagarin disse “a Terra é azul”, ele não fez um retrato ideal daquele momento para essa humanidade que nós pensamos ser. Ele olhou com o nosso olho, viu o que a gente queria ver. Existe muita coisa que se aproxima mais daquilo que pretendemos ver do que se podia constatar se juntássemos as duas imagens: a que você pensa e a que você tem. Se já houve outras configurações da Terra, inclusive sem a gente aqui, por que é que nos apegamos tanto a esse retrato com a gente aqui? O Antropoceno tem um sentido incisivo sobre a nossa existência, a nossa experiência comum, a ideia do que é humano. O nosso apego a uma ideia fixa de paisagem da Terra e de humanidade é a marca mais profunda do Antropoceno.\n\nKRENAK, Ailton. *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras, 2020. p. 57-58.\n\n*Antropoceno*: considerado uma nova **época geológica** em que, pela primeira vez na história do planeta, as mudanças ambientais são resultado da intervenção humana.\n\nConsiderando o período “Se a gente desestabilizar esse padrão, talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo” (sublinhado no texto)*,* assinale a alternativa que indica, respectivamente, as relações lógico-sintáticas aí expressas.",
      "images": [],
      "alternatives": [
       {
@@ -2045,20 +2046,20 @@
        "text_md": "Hipótese, suposição, comparação."
       },
       {
-       "label": "D",
-       "text_md": "Causa, oposição, analogia."
-      },
-      {
        "label": "B",
        "text_md": "Condição, inferência, suposição."
       },
       {
-       "label": "E",
-       "text_md": "Hipótese, consequência, conformidade."
-      },
-      {
        "label": "C",
        "text_md": "Causa, consequência, conclusão."
+      },
+      {
+       "label": "D",
+       "text_md": "Causa, oposição, analogia."
+      },
+      {
+       "label": "E",
+       "text_md": "Hipótese, consequência, conformidade."
       }
      ],
      "correct": "A",
@@ -2069,7 +2070,7 @@
      "number": 61,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O excerto de texto a seguir é referência para as questões 60 a 62.\n\nTalvez estejamos muito condicionados a uma ideia de ser humano e a um tipo de existência. Se a gente desestabilizar esse padrão, talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo. Quem disse que a gente não pode cair? Quem disse que a gente já não caiu? Houve um tempo em que o planeta que chamamos Terra juntava os continentes todos numa grande Pangeia. Se olhássemos lá de cima do céu, tiraríamos uma fotografia completamente diferente do globo. Quem sabe se, quando o astronauta Iúri Gagarin disse “a Terra é azul”, ele não fez um retrato ideal daquele momento para essa humanidade que nós pensamos ser. Ele olhou com o nosso olho, viu o que a gente queria ver. Existe muita coisa que se aproxima mais daquilo que pretendemos ver do que se podia constatar se juntássemos as duas imagens: a que você pensa e a que você tem. Se já houve outras configurações da Terra, inclusive sem a gente aqui, por que é que nos apegamos tanto a esse retrato com a gente aqui? O Antropoceno tem um sentido incisivo sobre a nossa existência, a nossa experiência comum, a ideia do que é humano. O nosso apego a uma ideia fixa de paisagem da Terra e de humanidade é a marca mais profunda do Antropoceno.\n\nKRENAK, Ailton. *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras, 2020. p. 57-58.\n\n*Antropoceno*: considerado uma nova época geológica em que, pela primeira vez na história do planeta, as mudanças ambientais são resultado da intervenção humana.\n\nAssinale a alternativa que retoma a tese central do texto.",
+     "statement_md": "O excerto de texto a seguir é referência para as questões 60 a 62.\n\nTalvez estejamos muito condicionados a uma ideia de ser humano e a um tipo de existência. **Se a gente desestabilizar esse padrão,** talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo. Quem disse que a gente não pode cair? Quem disse que a gente já não caiu? Houve um tempo em que o planeta que chamamos Terra juntava os continentes todos numa grande Pangeia. Se olhássemos lá de cima do céu, tiraríamos uma fotografia completamente diferente do globo. Quem sabe se, quando o astronauta Iúri Gagarin disse “a Terra é azul”, ele não fez um retrato ideal daquele momento para essa humanidade que nós pensamos ser. Ele olhou com o nosso olho, viu o que a gente queria ver. Existe muita coisa que se aproxima mais daquilo que pretendemos ver do que se podia constatar se juntássemos as duas imagens: a que você pensa e a que você tem. Se já houve outras configurações da Terra, inclusive sem a gente aqui, por que é que nos apegamos tanto a esse retrato com a gente aqui? O Antropoceno tem um sentido incisivo sobre a nossa existência, a nossa experiência comum, a ideia do que é humano. O nosso apego a uma ideia fixa de paisagem da Terra e de humanidade é a marca mais profunda do Antropoceno.\n\nKRENAK, Ailton. *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras, 2020. p. 57-58.\n\n*Antropoceno*: considerado uma nova **época geológica** em que, pela primeira vez na história do planeta, as mudanças ambientais são resultado da intervenção humana.\n\nAssinale a alternativa que retoma a tese central do texto.",
      "images": [],
      "alternatives": [
       {
@@ -2101,7 +2102,7 @@
      "number": 62,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O excerto de texto a seguir é referência para as questões 60 a 62.\n\nTalvez estejamos muito condicionados a uma ideia de ser humano e a um tipo de existência. Se a gente desestabilizar esse padrão, talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo. Quem disse que a gente não pode cair? Quem disse que a gente já não caiu? Houve um tempo em que o planeta que chamamos Terra juntava os continentes todos numa grande Pangeia. Se olhássemos lá de cima do céu, tiraríamos uma fotografia completamente diferente do globo. Quem sabe se, quando o astronauta Iúri Gagarin disse “a Terra é azul”, ele não fez um retrato ideal daquele momento para essa humanidade que nós pensamos ser. Ele olhou com o nosso olho, viu o que a gente queria ver. Existe muita coisa que se aproxima mais daquilo que pretendemos ver do que se podia constatar se juntássemos as duas imagens: a que você pensa e a que você tem. Se já houve outras configurações da Terra, inclusive sem a gente aqui, por que é que nos apegamos tanto a esse retrato com a gente aqui? O Antropoceno tem um sentido incisivo sobre a nossa existência, a nossa experiência comum, a ideia do que é humano. O nosso apego a uma ideia fixa de paisagem da Terra e de humanidade é a marca mais profunda do Antropoceno.\n\nKRENAK, Ailton. *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras, 2020. p. 57-58.\n\n*Antropoceno*: considerado uma nova época geológica em que, pela primeira vez na história do planeta, as mudanças ambientais são resultado da intervenção humana.\n\nConsiderando-se as reflexões que apresenta no texto, o posicionamento predominante de Ailton Krenak pode ser caracterizado como:",
+     "statement_md": "O excerto de texto a seguir é referência para as questões 60 a 62.\n\nTalvez estejamos muito condicionados a uma ideia de ser humano e a um tipo de existência. **Se a gente desestabilizar esse padrão,** talvez nossa mente sofra uma espécie de ruptura, como se caíssemos num abismo. Quem disse que a gente não pode cair? Quem disse que a gente já não caiu? Houve um tempo em que o planeta que chamamos Terra juntava os continentes todos numa grande Pangeia. Se olhássemos lá de cima do céu, tiraríamos uma fotografia completamente diferente do globo. Quem sabe se, quando o astronauta Iúri Gagarin disse “a Terra é azul”, ele não fez um retrato ideal daquele momento para essa humanidade que nós pensamos ser. Ele olhou com o nosso olho, viu o que a gente queria ver. Existe muita coisa que se aproxima mais daquilo que pretendemos ver do que se podia constatar se juntássemos as duas imagens: a que você pensa e a que você tem. Se já houve outras configurações da Terra, inclusive sem a gente aqui, por que é que nos apegamos tanto a esse retrato com a gente aqui? O Antropoceno tem um sentido incisivo sobre a nossa existência, a nossa experiência comum, a ideia do que é humano. O nosso apego a uma ideia fixa de paisagem da Terra e de humanidade é a marca mais profunda do Antropoceno.\n\nKRENAK, Ailton. *Ideias para Adiar o Fim do Mundo*. São Paulo: Companhia das Letras, 2020. p. 57-58.\n\n*Antropoceno*: considerado uma nova **época geológica** em que, pela primeira vez na história do planeta, as mudanças ambientais são resultado da intervenção humana.\n\nConsiderando-se as reflexões que apresenta no texto, o posicionamento predominante de Ailton Krenak pode ser caracterizado como:",
      "images": [],
      "alternatives": [
       {
@@ -2109,20 +2110,20 @@
        "text_md": "hostil."
       },
       {
-       "label": "D",
-       "text_md": "tradicional."
-      },
-      {
        "label": "B",
        "text_md": "pessimista."
       },
       {
-       "label": "E",
-       "text_md": "provocador."
-      },
-      {
        "label": "C",
        "text_md": "reverente."
+      },
+      {
+       "label": "D",
+       "text_md": "tradicional."
+      },
+      {
+       "label": "E",
+       "text_md": "provocador."
       }
      ],
      "correct": "E",
@@ -2141,20 +2142,20 @@
        "text_md": "retomam expressões da linguagem coloquial."
       },
       {
-       "label": "D",
-       "text_md": "estão empregadas em sentido literal."
-      },
-      {
        "label": "B",
        "text_md": "fazem parte de nosso repertório literário."
       },
       {
-       "label": "E",
-       "text_md": "projetam um leitor erudito."
-      },
-      {
        "label": "C",
        "text_md": "operam com a imprevisibilidade."
+      },
+      {
+       "label": "D",
+       "text_md": "estão empregadas em sentido literal."
+      },
+      {
+       "label": "E",
+       "text_md": "projetam um leitor erudito."
       }
      ],
      "correct": "A",
@@ -2242,7 +2243,7 @@
       },
       {
        "label": "C",
-       "text_md": "Bertran conta uma história de traições e assassinatos que inclui o caso de uma pequena embarcação perdida no mar cujos\n\nocupantes praticam o canibalismo."
+       "text_md": "Bertran conta uma história de traições e assassinatos que inclui o caso de uma pequena embarcação perdida no mar cujos ocupantes praticam o canibalismo."
       },
       {
        "label": "D",
@@ -2394,7 +2395,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "O fragmento é parte da narração do jornalista que, obcecado em buscar a verdade sobre a morte de Buell Quain, acaba\n\nincursionando sobre o próprio passado, defrontando-se com sua relação com o próprio pai."
+       "text_md": "O fragmento é parte da narração do jornalista que, obcecado em buscar a verdade sobre a morte de Buell Quain, acaba incursionando sobre o próprio passado, defrontando-se com sua relação com o próprio pai."
       },
       {
        "label": "B",
@@ -2438,7 +2439,7 @@
       },
       {
        "label": "D",
-       "text_md": "O critério de seleção operante nesse processo é dado pelo significado que certos fenômenos possuem, tanto para o\n\npesquisador como para a cultura e a época em que estão inseridos, pois é na consideração de ambos os registros que será possível o ideal de objetividade e inteligibilidade nas ciências sociais."
+       "text_md": "O critério de seleção operante nesse processo é dado pelo significado que certos fenômenos possuem, tanto para o pesquisador como para a cultura e a época em que estão inseridos, pois é na consideração de ambos os registros que será possível o ideal de objetividade e inteligibilidade nas ciências sociais."
       },
       {
        "label": "E",
@@ -2458,7 +2459,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "o trabalho de teorização de mulheres na sociologia contribui para pensar a relação entre gênero e as diversas instituições,\n\nmas também possibilita colocar novos desafios a análises hegemônicas sobre o poder, a solidariedade, desigualdades e outros processos sociais que marcaram o mundo moderno e contemporâneo."
+       "text_md": "o trabalho de teorização de mulheres na sociologia contribui para pensar a relação entre gênero e as diversas instituições, mas também possibilita colocar novos desafios a análises hegemônicas sobre o poder, a solidariedade, desigualdades e outros processos sociais que marcaram o mundo moderno e contemporâneo."
       },
       {
        "label": "B",
@@ -2485,7 +2486,7 @@
      "number": 75,
      "area": "humanas",
      "subject": "Sociologia",
-     "statement_md": "“O racismo avoluma e desfigura o rosto da cultura que o pratica. A literatura, as artes plásticas, as canções para costureirinhas, os provérbios, os hábitos, os *patterns*, quer se proponham a fazer-lhe o processo ou banalizá-lo, restituem o racismo. O mesmo é dizer que um grupo social, um país, uma civilização, não podem ser racistas inconscientemente. \\[...\\] O racismo não é uma descoberta acidental. Não é um elemento oculto. Não se exigem esforços sobre-humanos para o pôr em evidência. O racismo entra pelos olhos adentro precisamente porque se insere num conjunto caracterizado: o da exploração desavergonhada de um grupo de homens sobre outro que chegou a um estágio de desenvolvimento técnico superior. É por isso que, na maioria das vezes, a opressão militar e econômica precede, possibilita e legitima o racismo”.\n\nFANON, Frantz. *Racismo e cultura*. Brasil: Terra sem Amos, 2022. p. 18-19. Considerando a descrição apresentada pelo autor sobre a relação entre cultura e racismo, é correto afirmar:",
+     "statement_md": "“O racismo avoluma e desfigura o rosto da cultura que o pratica. A literatura, as artes plásticas, as canções para costureirinhas, os provérbios, os hábitos, os *patterns*, quer se proponham a fazer-lhe o processo ou banalizá-lo, restituem o racismo. O mesmo é dizer que um grupo social, um país, uma civilização, não podem ser racistas inconscientemente. \\[...\\] O racismo não é uma descoberta acidental. Não é um elemento oculto. Não se exigem esforços sobre-humanos para o pôr em evidência. O racismo entra pelos olhos adentro precisamente porque se insere num conjunto caracterizado: o da exploração desavergonhada de um grupo de homens sobre outro que chegou a um estágio de desenvolvimento técnico superior. É por isso que, na maioria das vezes, a opressão militar e econômica precede, possibilita e legitima o racismo”.\n\nFANON, Frantz. *Racismo e cultura*. Brasil: Terra sem Amos, 2022. p. 18-19.\n\nConsiderando a descrição apresentada pelo autor sobre a relação entre cultura e racismo, é correto afirmar:",
      "images": [],
      "alternatives": [
       {
@@ -2498,7 +2499,7 @@
       },
       {
        "label": "C",
-       "text_md": "O racismo não deve ser compreendido como um fenômeno social isolado que resulta unicamente da relação discriminatória\n\nentre diferentes etnias, mas como um componente estrutural que reforça a distinção entre diferentes grupos étnicos que se reproduz cultural e ideologicamente."
+       "text_md": "O racismo não deve ser compreendido como um fenômeno social isolado que resulta unicamente da relação discriminatória entre diferentes etnias, mas como um componente estrutural que reforça a distinção entre diferentes grupos étnicos que se reproduz cultural e ideologicamente."
       },
       {
        "label": "D",
@@ -2538,7 +2539,7 @@
       },
       {
        "label": "E",
-       "text_md": "A tese da democracia racial, empregada para ensejar a integração entre diferentes etnias que formaram a sociedade\n\nbrasileira, deixa de ser realmente democrática quando empregada para justificar o apagamento das culturas africanas, o qual anula seu caráter de resistência quando da incorporação da população negra à sociedade branca."
+       "text_md": "A tese da democracia racial, empregada para ensejar a integração entre diferentes etnias que formaram a sociedade brasileira, deixa de ser realmente democrática quando empregada para justificar o apagamento das culturas africanas, o qual anula seu caráter de resistência quando da incorporação da população negra à sociedade branca."
       }
      ],
      "correct": "E",
@@ -2558,7 +2559,7 @@
       },
       {
        "label": "B",
-       "text_md": "Marx e Engels questionavam o materialismo feuerbachiano, que se limitava a captar o mundo como objeto de\n\ncontemplação da consciência religiosa, porque para ambos a alienação estava associada às condições materiais de vida e somente a transformação do processo da vida real poderia eliminá-la."
+       "text_md": "Marx e Engels questionavam o materialismo feuerbachiano, que se limitava a captar o mundo como objeto de contemplação da consciência religiosa, porque para ambos a alienação estava associada às condições materiais de vida e somente a transformação do processo da vida real poderia eliminá-la."
       },
       {
        "label": "C",
@@ -2634,7 +2635,7 @@
       },
       {
        "label": "E",
-       "text_md": "a lógica da redistribuição é a de acabar com a diferença entre os grupos, enquanto a lógica do reconhecimento é a de\n\nvalorizar diferenças."
+       "text_md": "a lógica da redistribuição é a de acabar com a diferença entre os grupos, enquanto a lógica do reconhecimento é a de valorizar diferenças."
       }
      ],
      "correct": "E",
@@ -2712,7 +2713,7 @@
      "number": 82,
      "area": "humanas",
      "subject": "Filosofia",
-     "statement_md": "“Até pouco tempo atrás, quando queríamos sustentar uma afirmação sem argumentar demais, bastava dizer: ‘É comprovado cientificamente.’ Mas essa tática já não tem mais a mesma eficácia, pois a confiança na ciência está diminuindo. Vivemos hoje um clima de ceticismo generalizado, uma descrença nas instituições que favorece a disseminação de negacionismos, encampados por governos com políticas escancaradamente anticientíficas”.\n\nROQUE, Tatiana. O negacionismo no poder. Como fazer frente ao ceticismo que atinge a ciência e a política. *Revista Piauí*, n. 161, fev. 2020. Considerando os elementos mobilizados no texto de Roque, assinale a alternativa que apresenta uma medida que, se implementada, aumentaria a confiança da população no discurso científico.",
+     "statement_md": "“Até pouco tempo atrás, quando queríamos sustentar uma afirmação sem argumentar demais, bastava dizer: ‘É comprovado cientificamente.’ Mas essa tática já não tem mais a mesma eficácia, pois a confiança na ciência está diminuindo. Vivemos hoje um clima de ceticismo generalizado, uma descrença nas instituições que favorece a disseminação de negacionismos, encampados por governos com políticas escancaradamente anticientíficas”.\n\nROQUE, Tatiana. O negacionismo no poder. Como fazer frente ao ceticismo que atinge a ciência e a política. *Revista Piauí*, n. 161, fev. 2020.\n\nConsiderando os elementos mobilizados no texto de Roque, assinale a alternativa que apresenta uma medida que, se implementada, aumentaria a confiança da população no discurso científico.",
      "images": [],
      "alternatives": [
       {
@@ -2754,20 +2755,20 @@
        "text_md": "sein"
       },
       {
-       "label": "D",
-       "text_md": "seiner"
-      },
-      {
        "label": "B",
        "text_md": "seine"
       },
       {
-       "label": "E",
-       "text_md": "seinen"
-      },
-      {
        "label": "C",
        "text_md": "seinem"
+      },
+      {
+       "label": "D",
+       "text_md": "seiner"
+      },
+      {
+       "label": "E",
+       "text_md": "seinen"
       }
      ],
      "correct": "D",
@@ -2780,7 +2781,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Markieren Sie die Alternative, welche die Lücke (b) richtig ergänzt.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 84.\n\nDer Auftritt Österreichs als Gastland der Leipziger Buchmesse 2023\n\nDie Leipziger Buchmesse bietet 2023 Österreich als Gastland eine Bühne für die Präsentation (a) \\_\\_\\_\\_\\_\\_\\_\\_ Literatur. Das Begleitprogramm begann bereits im März 2022, so dass über ein Jahr lang Veranstaltungen mit und zu Autor\\*innen aus Österreich (b) \\_\\_\\_\\_\\_\\_\\_\\_.\n\nHannes Schweiger im Gespräch mit Katja Gasser: r: mea ois wia mia. Der Auftritt Österreichs als Gastland der Leipziger Buchmesse 2023. *In*: ESTERL,\n\nUrsula; MITTERER, Nicola; SCHWEIGER, Hannes. *Österreich im Blick. Fundstücke des kulturellen Lebens in Österreich*. Caderno 2, 2022.\n\nMarkieren Sie die Alternative, welche die Lücke (b) richtig ergänzt.",
      "images": [],
      "alternatives": [
       {
@@ -2788,20 +2789,20 @@
        "text_md": "stattgeben"
       },
       {
-       "label": "D",
-       "text_md": "hearusgeben"
-      },
-      {
        "label": "B",
        "text_md": "statdessen"
       },
       {
-       "label": "E",
-       "text_md": "stattfinden"
-      },
-      {
        "label": "C",
        "text_md": "herausfinden"
+      },
+      {
+       "label": "D",
+       "text_md": "hearusgeben"
+      },
+      {
+       "label": "E",
+       "text_md": "stattfinden"
       }
      ],
      "correct": "E",
@@ -2814,7 +2815,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Der folgende Text bezieht sich auf Fragen 85 bis 87.\n\nSiesta und Kirchenbesuche gegen Hitze\n\nDeutschland stöhnt unter hohen Temperaturen. Mediziner plädieren deshalb Mittags für eine Siesta nach südeuropäischen Vorbild. Und Gesundheitsminister Lauterbach schlägt Kirchen als Kälteräume vor. (...)\n\nMehr als 60.000 hitzebezogene Todesfälle hat es nach einer neuen Berechnung bereits im Sommer 2022 in Europa gegeben, dem bisher heißesten Sommer auf dem Kontinent seit Beginn der Aufzeichnungen.\n\nKein Wunder, dass deutsche Gesundheitsexperten unter Hochdruck nach Rezepten gegen die Rekord-Temperaturen suchen. Zumal viele Großstädte bei \\_\\_\\_\\_\\_ Hitzeschutzplänen noch hinterherhinken. Die für Deutschland bislang höchsten Temperaturen dieses Jahres registrierte der Deutsche Wetterdienst (DWD) \\_\\_\\_\\_\\_\\_\\_ vergangenen Samstag mit 38,8 Grad Celsius in Bayern.\n\nAmtsärzte bringen einen überraschenden Vorschlag ein, der für Diskussionen sorgt: “Wir sollten uns an den Arbeitsweisen südlicher Länder orientieren, wenn es heiß ist.”\n\nVerfügbar unter: https://www.dw.com/de/siesta-und-kirchenbesuche-gegen-hitze/a-66267482. Angeglichener Text.\n\nDas Wort “dem” bezieht sich auf:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 85 bis 87.\n\nSiesta und Kirchenbesuche gegen Hitze\n\nDeutschland stöhnt unter hohen Temperaturen. Mediziner plädieren deshalb Mittags für eine Siesta nach südeuropäischen Vorbild. Und Gesundheitsminister Lauterbach schlägt Kirchen als Kälteräume vor. (...)\n\nMehr als 60.000 hitzebezogene Todesfälle hat es nach einer neuen Berechnung bereits im Sommer 2022 in Europa gegeben, **dem** bisher heißesten Sommer auf dem Kontinent seit Beginn der Aufzeichnungen.\n\nKein Wunder, dass deutsche Gesundheitsexperten unter Hochdruck nach Rezepten gegen die Rekord-Temperaturen suchen. Zumal viele Großstädte bei \\_\\_\\_\\_\\_ Hitzeschutzplänen noch hinterherhinken. Die für Deutschland bislang höchsten Temperaturen dieses Jahres registrierte der Deutsche Wetterdienst (DWD) \\_\\_\\_\\_\\_\\_\\_ vergangenen Samstag mit 38,8 Grad Celsius in Bayern.\n\nAmtsärzte bringen einen überraschenden Vorschlag ein, der für Diskussionen sorgt: “Wir sollten uns an den Arbeitsweisen südlicher Länder orientieren, wenn es heiß ist.”\n\nVerfügbar unter: https://www.dw.com/de/siesta-und-kirchenbesuche-gegen-hitze/a-66267482. Angeglichener Text.\n\nDas Wort “dem” bezieht sich auf:",
      "images": [],
      "alternatives": [
       {
@@ -2822,20 +2823,20 @@
        "text_md": "Folgen"
       },
       {
-       "label": "D",
-       "text_md": "Sommer"
-      },
-      {
        "label": "B",
        "text_md": "Todesfälle"
       },
       {
-       "label": "E",
-       "text_md": "Kontinent"
-      },
-      {
        "label": "C",
        "text_md": "Berechnung"
+      },
+      {
+       "label": "D",
+       "text_md": "Sommer"
+      },
+      {
+       "label": "E",
+       "text_md": "Kontinent"
       }
      ],
      "correct": "D",
@@ -2848,7 +2849,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Markieren Sie die Alternative, welche die Lücken richtig ergänzt.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 85 bis 87.\n\nSiesta und Kirchenbesuche gegen Hitze\n\nDeutschland stöhnt unter hohen Temperaturen. Mediziner plädieren deshalb Mittags für eine Siesta nach südeuropäischen Vorbild. Und Gesundheitsminister Lauterbach schlägt Kirchen als Kälteräume vor. (...)\n\nMehr als 60.000 hitzebezogene Todesfälle hat es nach einer neuen Berechnung bereits im Sommer 2022 in Europa gegeben, **dem** bisher heißesten Sommer auf dem Kontinent seit Beginn der Aufzeichnungen.\n\nKein Wunder, dass deutsche Gesundheitsexperten unter Hochdruck nach Rezepten gegen die Rekord-Temperaturen suchen. Zumal viele Großstädte bei \\_\\_\\_\\_\\_ Hitzeschutzplänen noch hinterherhinken. Die für Deutschland bislang höchsten Temperaturen dieses Jahres registrierte der Deutsche Wetterdienst (DWD) \\_\\_\\_\\_\\_\\_\\_ vergangenen Samstag mit 38,8 Grad Celsius in Bayern.\n\nAmtsärzte bringen einen überraschenden Vorschlag ein, der für Diskussionen sorgt: “Wir sollten uns an den Arbeitsweisen südlicher Länder orientieren, wenn es heiß ist.”\n\nVerfügbar unter: https://www.dw.com/de/siesta-und-kirchenbesuche-gegen-hitze/a-66267482. Angeglichener Text.\n\nMarkieren Sie die Alternative, welche die Lücken richtig ergänzt.",
      "images": [],
      "alternatives": [
       {
@@ -2882,7 +2883,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Markieren Sie die korrekte Aussage.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 85 bis 87.\n\nSiesta und Kirchenbesuche gegen Hitze\n\nDeutschland stöhnt unter hohen Temperaturen. Mediziner plädieren deshalb Mittags für eine Siesta nach südeuropäischen Vorbild. Und Gesundheitsminister Lauterbach schlägt Kirchen als Kälteräume vor. (...)\n\nMehr als 60.000 hitzebezogene Todesfälle hat es nach einer neuen Berechnung bereits im Sommer 2022 in Europa gegeben, **dem** bisher heißesten Sommer auf dem Kontinent seit Beginn der Aufzeichnungen.\n\nKein Wunder, dass deutsche Gesundheitsexperten unter Hochdruck nach Rezepten gegen die Rekord-Temperaturen suchen. Zumal viele Großstädte bei \\_\\_\\_\\_\\_ Hitzeschutzplänen noch hinterherhinken. Die für Deutschland bislang höchsten Temperaturen dieses Jahres registrierte der Deutsche Wetterdienst (DWD) \\_\\_\\_\\_\\_\\_\\_ vergangenen Samstag mit 38,8 Grad Celsius in Bayern.\n\nAmtsärzte bringen einen überraschenden Vorschlag ein, der für Diskussionen sorgt: “Wir sollten uns an den Arbeitsweisen südlicher Länder orientieren, wenn es heiß ist.”\n\nVerfügbar unter: https://www.dw.com/de/siesta-und-kirchenbesuche-gegen-hitze/a-66267482. Angeglichener Text.\n\nMarkieren Sie die korrekte Aussage.",
      "images": [],
      "alternatives": [
       {
@@ -2903,7 +2904,7 @@
       },
       {
        "label": "E",
-       "text_md": "Gesundheitsexperten finden Rezepte gegen Hitze eine grosse Belastung.\n\nDer folgende Text bezieht sich auf Fragen 88 bis 89.\n\nSeltenes Naturschauspiel: Gleich zwei Supermonde in Österreich im August\n\nIm Gegensatz zum “normalen” Vollmond zeichnet sich der Supermond dadurch aus, dass er deutlich heller und größer als gewöhnlich wirkt, da er der Erde besonders nah kommt. Von einem Supermond wird gesprochen, wenn die Distanz zwischen Erde und Mond weniger als 367.600 Kilometer beträgt. Am 1. August ist der Mond 357.530 Kilometer von der Erde entfernt, am 31. August sogar nur 357.344 Kilometer. \\_\\_\\_\\_\\_\\_\\_\\_ dieser Nähe wird der Supermond etwa 17 Prozent größer und sogar bis zu 30 Prozent heller im Vergleich zum Vollmond.\n\nVerfügbar unter: https://kurier.at/chronik/oesterreich/himmelsspektakel-zwei-supermonde-oesterreich-august-2023-sehen/402541343."
+       "text_md": "Gesundheitsexperten finden Rezepte gegen Hitze eine grosse Belastung."
       }
      ],
      "correct": "D",
@@ -2916,7 +2917,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Markieren Sie die Alternative, welche die Lücke richtig ergänzt.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 88 bis 89.\n\nSeltenes Naturschauspiel: Gleich zwei Supermonde in Österreich im August\n\nIm Gegensatz zum “normalen” Vollmond zeichnet sich der Supermond dadurch aus, dass er deutlich heller und größer als gewöhnlich wirkt, da er der Erde besonders nah kommt. Von einem Supermond wird gesprochen, wenn die Distanz zwischen Erde und Mond weniger als 367.600 Kilometer beträgt. Am 1. August ist der Mond 357.530 Kilometer von der Erde entfernt, am 31. August sogar nur 357.344 Kilometer. \\_\\_\\_\\_\\_\\_\\_\\_ dieser Nähe wird der Supermond etwa 17 Prozent größer und sogar bis zu 30 Prozent heller im Vergleich zum Vollmond.\n\nVerfügbar unter: https://kurier.at/chronik/oesterreich/himmelsspektakel-zwei-supermonde-oesterreich-august-2023-sehen/402541343.\n\nMarkieren Sie die Alternative, welche die Lücke richtig ergänzt.",
      "images": [],
      "alternatives": [
       {
@@ -2950,7 +2951,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Laut dem Text:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 88 bis 89.\n\nSeltenes Naturschauspiel: Gleich zwei Supermonde in Österreich im August\n\nIm Gegensatz zum “normalen” Vollmond zeichnet sich der Supermond dadurch aus, dass er deutlich heller und größer als gewöhnlich wirkt, da er der Erde besonders nah kommt. Von einem Supermond wird gesprochen, wenn die Distanz zwischen Erde und Mond weniger als 367.600 Kilometer beträgt. Am 1. August ist der Mond 357.530 Kilometer von der Erde entfernt, am 31. August sogar nur 357.344 Kilometer. \\_\\_\\_\\_\\_\\_\\_\\_ dieser Nähe wird der Supermond etwa 17 Prozent größer und sogar bis zu 30 Prozent heller im Vergleich zum Vollmond.\n\nVerfügbar unter: https://kurier.at/chronik/oesterreich/himmelsspektakel-zwei-supermonde-oesterreich-august-2023-sehen/402541343.\n\nLaut dem Text:",
      "images": [],
      "alternatives": [
       {
@@ -2992,20 +2993,20 @@
        "text_md": "Den Gürteln enger schnallen."
       },
       {
-       "label": "D",
-       "text_md": "Die Kasse still halten."
-      },
-      {
        "label": "B",
        "text_md": "Das Portemonnaie geschlossen halten."
       },
       {
-       "label": "E",
-       "text_md": "Die Brieftasche straffen."
-      },
-      {
        "label": "C",
        "text_md": "Den Geldsack aufmachen."
+      },
+      {
+       "label": "D",
+       "text_md": "Die Kasse still halten."
+      },
+      {
+       "label": "E",
+       "text_md": "Die Brieftasche straffen."
       }
      ],
      "correct": "C",
@@ -3023,7 +3024,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "un “gran episodio” de polvo procedente del Sáhara afectará sobre todo al sur peninsular, Ceuta y Melilla, aunque será\n\nmucho menor que el vivido en 2022."
+       "text_md": "un “gran episodio” de polvo procedente del Sáhara afectará sobre todo al sur peninsular, Ceuta y Melilla, aunque será mucho menor que el vivido en 2022."
       },
       {
        "label": "B",
@@ -3290,7 +3291,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour la société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande aux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine du chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé de nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il pourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “à bien des égards, nous en sommes déjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait être planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. 300 millions d’emplois menacés\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps plein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé par la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nIl est correct d’affirmer que le texte a pour objectif de présenter:",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nIl est correct d’affirmer que le texte a pour objectif de présenter:",
      "images": [],
      "alternatives": [
       {
@@ -3324,7 +3325,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Signalez la phrase qui correspond au chapeau du texte.",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nSignalez la phrase qui correspond au **chapeau** du texte.",
      "images": [],
      "alternatives": [
       {
@@ -3333,7 +3334,7 @@
       },
       {
        "label": "B",
-       "text_md": "De nombreux responsables du secteur de nouvelles technologies demandent une pause dans le développement de\n\nl’intelligence artificielle, selon eux hors contrôle."
+       "text_md": "De nombreux responsables du secteur de nouvelles technologies demandent une pause dans le développement de l’intelligence artificielle, selon eux hors contrôle."
       },
       {
        "label": "C",
@@ -3358,7 +3359,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Signalez le mot qui remplace “freiner” dans la phrase: “Ils demandent aux entreprises de freiner le développement de cette technologie”.",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nSignalez le mot qui remplace “freiner” dans la phrase: “Ils demandent aux entreprises de **freiner** le développement de cette technologie”.",
      "images": [],
      "alternatives": [
       {
@@ -3366,20 +3367,20 @@
        "text_md": "ralentir."
       },
       {
-       "label": "D",
-       "text_md": "modifier."
-      },
-      {
        "label": "B",
        "text_md": "accélérer."
       },
       {
-       "label": "E",
-       "text_md": "favoriser."
-      },
-      {
        "label": "C",
        "text_md": "partager."
+      },
+      {
+       "label": "D",
+       "text_md": "modifier."
+      },
+      {
+       "label": "E",
+       "text_md": "favoriser."
       }
      ],
      "correct": "A",
@@ -3392,7 +3393,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Dans l’extrait “des outils d’IA potentiellement effrayants”, le mot souligné peut être remplacé par laquelle des options ci-dessous sans que cela change le sens de la phrase?",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nDans l’extrait “des outils d’IA potentiellement **effrayants**”, le mot souligné peut être remplacé par laquelle des options ci-dessous sans que cela change le sens de la phrase?",
      "images": [],
      "alternatives": [
       {
@@ -3426,7 +3427,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Relisez l’extrait: “Les développeurs d'IA devraient également collaborer selon eux avec les décideurs politiques pour ‘accélérer considérablement le développement de systèmes robustes de gouvernance’”. À qui fait référence le pronom eux souligné dans la phrase?",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nRelisez l’extrait: “Les développeurs d'IA devraient également collaborer selon **eux** avec les décideurs politiques pour ‘accélérer considérablement le développement de systèmes robustes de gouvernance’”. À qui fait référence le pronom **eux** souligné dans la phrase?",
      "images": [],
      "alternatives": [
       {
@@ -3460,7 +3461,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "En ce qui concerne l’offre d’emploi, il est correct d’affirmer, selon le texte, que:",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nEn ce qui concerne l’offre d’emploi, il est correct d’affirmer, selon le texte, que:",
      "images": [],
      "alternatives": [
       {
@@ -3481,7 +3482,7 @@
       },
       {
        "label": "E",
-       "text_md": "à mesure que certaines professions perdent de l’espace pour les innovations technologiques, d’autres professions\n\napparaissent."
+       "text_md": "à mesure que certaines professions perdent de l’espace pour les innovations technologiques, d’autres professions apparaissent."
       }
      ],
      "correct": "E",
@@ -3494,7 +3495,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Signalez l’option qui a le même sens que cette partie soulignée dans la phrase: “Même Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d'alarme à plusieurs reprises”.",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nSignalez l’option qui a le même sens que cette partie soulignée dans la phrase: “Même Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), **a tiré la sonnette d'alarme** à plusieurs reprises”.",
      "images": [],
      "alternatives": [
       {
@@ -3528,7 +3529,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Dans le contexte, que signifie l’expression “à bien des égards”, en gras dans le texte?",
+     "statement_md": "Les questions 83 à 90 portent sur le texte suivant.\n\nL’intelligence artificielle, un danger pour l’humanité?\n\nPar Luke Hurst\n\nDe célèbres entrepreneurs et universitaires alertent: selon eux, l’intelligence artificielle (IA) “pose des risques profonds pour\n\nla société et l’humanité”. Ils demandent aux entreprises de freiner le développement de cette technologie.\n\nElon Musk, PDG de Twitter, et Steve Wozniak, cofondateur d’Apple, figurent parmi les signataires d’une lettre ouverte qui demande\n\naux laboratoires d’IA d'interrompre leur développement, pour une durée d’au moins six mois. Le texte, publié sur le site du *Future of Life* *Institute*, affirme que les laboratoires d’IA sont “enfermés dans une course incontrôlée pour développer des esprits numériques toujours plus puissants que personne - pas même leurs créateurs - ne peut comprendre, prévoir ou contrôler de manière fiable”.\n\nIls ont demandé une pause dans la création de tout système d’IA qui serait plus puissant que le GPT-4 d’OpenAI, à l’origine\n\ndu chatbot (robot conversationnel) extrêmement populaire, ChatGPT. Les développeurs d’IA devraient également collaborer selon eux avec les décideurs politiques pour “accélérer considérablement le développement de systèmes robustes de gouvernance” et permettre la création de contrôles, avec des protocoles de sécurité partagés, supervisés par des experts indépendants.\n\nL’explosion de l’intérêt suscité par des outils tels que ChatGPT et DALL-E, un générateur d’images, a également soulevé\n\nde nombreuses questions sur l’éthique et l’impact de ces nouveaux outils puissants.\n\nMême Sam Altman, PDG d’OpenAI (le créateur de ChatGPT), a tiré la sonnette d’alarme à plusieurs reprises, déclarant qu’il\n\npourrait bientôt exister “des outils d’IA potentiellement effrayants”.\n\nSarah Myers West, directrice générale de l’AI Now Institute, estime qu’aujourd'hui, “**à bien des égards**, nous en sommes\n\ndéjà là”, les systèmes d’IA exacerbant “des schémas d’inégalité de longue date”, en particulier dans des domaines tels que la recherche d’emploi ou l’éducation.\n\nElle affirme que l’IA pourrait être sur le point de modifier profondément la trajectoire de la vie sur Terre et qu’elle “devrait\n\nêtre planifiée et gérée avec le soin et les ressources nécessaires”, ce qui, selon les auteurs de la lettre ouverte, n’est pas le cas. **300 millions d’emplois menacés**\n\nLa lettre coïncide avec la publication d’un rapport distinct de Goldman Sachs, qui estime que 300 millions d’emplois à temps\n\nplein pourraient être affectés par l’IA à l’échelle mondiale, en étant remplacés par l’automatisation.\n\nLa bonne nouvelle, selon la note, c’est que “le déplacement des travailleurs dû à l’automatisation a toujours été compensé\n\npar la création de nouveaux emplois, et l’émergence de nouvelles professions à la suite d’innovations technologiques représente la grande majorité de la croissance de l’emploi à long terme”.\n\nSource: Euronews. Publié le 30 mars 2023.\n\nDans le contexte, que signifie l’expression “à bien des égards”, en gras dans le texte?",
      "images": [],
      "alternatives": [
       {
@@ -3596,7 +3597,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "According to the text, it is correct to say that Jack Teixeira lives:",
+     "statement_md": "The following text is reference to questions 83 to 85.\n\nThe Strange Saga of Jack Teixeira Reveals New Security Challenges\n\nMoments before his arrest by armed FBI agents on Thursday, a helicopter from a local news station caught footage of 21-year-old Jack Teixeira reading a book on the sun-splashed back porch of his house in North Dighton, Mass. In his front yard, meanwhile, FBI agents in camouflage tactical gear were climbing out of an armored vehicle, tightening the straps of their bullet-proof vests and gripping long guns. The dramatic scene playing out in a sleepy, riverside exurb underscored the peculiarity of a case that exposed military documents, complicated relations with U.S. allies, and triggered national embarrassment. Intelligence leaks of this magnitude in the past have been the result of an alienated whistle-blower, double agent or successful spy operation. Now arguably the most damaging disclosure of U.S. government documents in a decade may have stemmed from the hubris of a junior enlisted member in the Massachusetts Air National Guard who shared them in a small online chat group called Thug Shaker Central.\n\nAvailable in: https://time.com/6271787/jack-teixeira-arrest-leaks/.\n\nAccording to the text, it is correct to say that Jack Teixeira lives:",
      "images": [],
      "alternatives": [
       {
@@ -3604,20 +3605,20 @@
        "text_md": "in a busy large city."
       },
       {
-       "label": "D",
-       "text_md": "with some friends."
-      },
-      {
        "label": "B",
        "text_md": "close to a local news station."
       },
       {
-       "label": "E",
-       "text_md": "inside a vehicle."
-      },
-      {
        "label": "C",
        "text_md": "in a quiet and peaceful neighborhood."
+      },
+      {
+       "label": "D",
+       "text_md": "with some friends."
+      },
+      {
+       "label": "E",
+       "text_md": "inside a vehicle."
       }
      ],
      "correct": "C",
@@ -3630,7 +3631,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "One of the reasons the FBI agents arrested Jack Teixeira was that he:",
+     "statement_md": "The following text is reference to questions 83 to 85.\n\nThe Strange Saga of Jack Teixeira Reveals New Security Challenges\n\nMoments before his arrest by armed FBI agents on Thursday, a helicopter from a local news station caught footage of 21-year-old Jack Teixeira reading a book on the sun-splashed back porch of his house in North Dighton, Mass. In his front yard, meanwhile, FBI agents in camouflage tactical gear were climbing out of an armored vehicle, tightening the straps of their bullet-proof vests and gripping long guns. The dramatic scene playing out in a sleepy, riverside exurb underscored the peculiarity of a case that exposed military documents, complicated relations with U.S. allies, and triggered national embarrassment. Intelligence leaks of this magnitude in the past have been the result of an alienated whistle-blower, double agent or successful spy operation. Now arguably the most damaging disclosure of U.S. government documents in a decade may have stemmed from the hubris of a junior enlisted member in the Massachusetts Air National Guard who shared them in a small online chat group called Thug Shaker Central.\n\nAvailable in: https://time.com/6271787/jack-teixeira-arrest-leaks/.\n\nOne of the reasons the FBI agents arrested Jack Teixeira was that he:",
      "images": [],
      "alternatives": [
       {
@@ -3706,20 +3707,20 @@
        "text_md": "died."
       },
       {
-       "label": "D",
-       "text_md": "disappeared."
-      },
-      {
        "label": "B",
        "text_md": "a sudden vision loss."
       },
       {
-       "label": "E",
-       "text_md": "fainted."
-      },
-      {
        "label": "C",
        "text_md": "a nervous breakdown."
+      },
+      {
+       "label": "D",
+       "text_md": "disappeared."
+      },
+      {
+       "label": "E",
+       "text_md": "fainted."
       }
      ],
      "correct": "E",
@@ -3740,20 +3741,20 @@
        "text_md": "disappeared on her way home."
       },
       {
-       "label": "D",
-       "text_md": "is a missing American Black girl."
-      },
-      {
        "label": "B",
        "text_md": "was found after a long-year search."
       },
       {
-       "label": "E",
-       "text_md": "was kidnapped by her mother."
-      },
-      {
        "label": "C",
        "text_md": "is waiting for her mother to pick her up at school."
+      },
+      {
+       "label": "D",
+       "text_md": "is a missing American Black girl."
+      },
+      {
+       "label": "E",
+       "text_md": "was kidnapped by her mother."
       }
      ],
      "correct": "D",
@@ -3800,7 +3801,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "Consider the following sentences about the building of the Royal Collections Gallery:\n\n1. It has eight floors.\n\n2. It has won several architecture awards.\n\n3. It has no wood in its construction.\n\n4. It is placed on the top of a hill with a view of the impressive Casa de Campo park.\n\nMark the correct alternative.",
+     "statement_md": "The following text is reference to questions 89 and 90.\n\nWhen the Guggenheim Museum Bilbao opened in northern Spain 25 years ago, architect Frank Gehry’s curvy titanium-clad building was itself as much a part of the attraction for many art lovers as the exhibits inside.\n\nAs Spain opens the long-awaited Royal Collections Gallery in Madrid next week, its sleek new eight-story building, perched on an iconic hillside next to the Royal Palace, may also steal some of the attention from the Old Masters on display. Spanish architects Emilio Tuñon and Luis Mansilla won the 2017 American Architecture Prize and a dozen other awards for this design, built with white concrete, granite and oak and featuring hundreds of windows overlooking the leafy gardens below the Royal Palace and the expansive Casa de Campo park beyond.\n\nAvailable in: https://edition.cnn.com/2023/06/23/style/madrid-royal-collections-museum/index.html.\n\nConsider the following sentences about the building of the Royal Collections Gallery:\n\n1. It has eight floors.\n\n2. It has won several architecture awards.\n\n3. It has no wood in its construction.\n\n4. It is placed on the top of a hill with a view of the impressive Casa de Campo park.\n\nMark the correct alternative.",
      "images": [],
      "alternatives": [
       {
@@ -3870,7 +3871,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Nel testo, la parola RISPARMIA viene usata con quale significato?",
+     "statement_md": "L’immagine accanto ti servirà per rispondere alle domande 83 e 84.\n\nNel testo, la parola RISPARMIA viene usata con quale significato?",
      "images": [],
      "alternatives": [
       {
@@ -3891,7 +3892,7 @@
       },
       {
        "label": "E",
-       "text_md": "Avere la fortuna di ricevere una somma di denaro.\n\nImmagine tratta da: https://notiziescientifiche.it/"
+       "text_md": "Avere la fortuna di ricevere una somma di denaro. Immagine tratta da: https://notiziescientifiche.it/"
       }
      ],
      "correct": "D",
@@ -3938,7 +3939,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Dalla frase “lo stipendio è tutt’altro che allettante”, nel secondo paragrafo, si capiche che lo stipendio:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 85 a 90.\n\nI dati ci dicono che l’Italia non è il Paese più promettente per i giovani (tanti i talenti che formiamo per poi regalare all’estero) e nemmeno per gli imprenditori. Eppure, esiste chi ha entrambe queste caratteristiche e riesce ad avere successo. Anzi, sono sempre di più gli under 35 che scelgono di gettare il cuore oltre l’ostacolo e provare a lavorare come autonomi.\n\nPerché? Perché se è vero che fare i dipendenti dà certo maggiori garanzie di sicurezza, tra entrate fisse, ferie e malattie pagate, è altrettanto vero che troppo spesso, anche se si è dotati e competenti, lo stipendio è tutt’altro che allettante, le possibilità di crescita scarse e poco meritocratiche, la libertà di espressione pressoché nulla. A fronte di nuove tecnologie e boom digitale, poi, il divario generazionale tra i cosiddetti «boomer» e i più giovani «millennial» o «zeta» si è accentuato, diventando foriero di disallineamenti e disarmonie sul modo di lavorare e sui valori di riferimento comuni.\n\nSecondo una ricerca presentata nel 2021 dall'Osservatorio sulla Felicità (associazione «Ricerca Felicità»), infatti, emerge un significativo disallineamento di valori tra aziende e dipendenti, in particolare giovani. Questi ultimi, rispetto alle generazioni precedenti, sembrano chiedere al lavoro un ruolo diverso, socialmente più significativo e che vada oltre la mera funzione di sostentamento personale. Non solo. L'indagine evidenzia che sono proprio i giovani a non vedere riconosciuti in misura maggiore e adeguata i loro meriti.\n\nSi crea così un panorama dove i talenti, magari dopo un primo periodo in grandi aziende che attraggono con la forza del loro nome, anziché restare e crescere all'interno delle stesse, contribuendo all'innovazione, decidono di cambiare strada. Questo vale soprattutto per quelli con le competenze tecnologiche e una mentalità «nativa digitale»: due plus sempre più richiesti dal mercato e di cui c'è sempre più carenza, ma che bisogna essere disposti a pagare e a valorizzare a prescindere dall'età anagrafica. L'idea a cui molte realtà italiane restano invece ancorate è quella del «a una figura giovane non possiamo dare per principio un dato stipendio», che è un po' lo stesso discorso dello stare obbligatoriamente 8 ore in ufficio anche se si è produttivi e si raggiungono gli obiettivi in 6 ore. Si tratta, come sempre, di un quadro poliedrico e composito che al proprio interno contiene storie e motivazioni diverse tra loro.\n\nTratto da: https://www.vanityfair.it/mybusiness\n\nDalla frase “lo stipendio è tutt’altro che allettante”, nel secondo paragrafo, si capiche che lo stipendio:",
      "images": [],
      "alternatives": [
       {
@@ -3972,7 +3973,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Gli ‘under 35’ citati nel testo sono:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 85 a 90.\n\nI dati ci dicono che l’Italia non è il Paese più promettente per i giovani (tanti i talenti che formiamo per poi regalare all’estero) e nemmeno per gli imprenditori. Eppure, esiste chi ha entrambe queste caratteristiche e riesce ad avere successo. Anzi, sono sempre di più gli under 35 che scelgono di gettare il cuore oltre l’ostacolo e provare a lavorare come autonomi.\n\nPerché? Perché se è vero che fare i dipendenti dà certo maggiori garanzie di sicurezza, tra entrate fisse, ferie e malattie pagate, è altrettanto vero che troppo spesso, anche se si è dotati e competenti, lo stipendio è tutt’altro che allettante, le possibilità di crescita scarse e poco meritocratiche, la libertà di espressione pressoché nulla. A fronte di nuove tecnologie e boom digitale, poi, il divario generazionale tra i cosiddetti «boomer» e i più giovani «millennial» o «zeta» si è accentuato, diventando foriero di disallineamenti e disarmonie sul modo di lavorare e sui valori di riferimento comuni.\n\nSecondo una ricerca presentata nel 2021 dall'Osservatorio sulla Felicità (associazione «Ricerca Felicità»), infatti, emerge un significativo disallineamento di valori tra aziende e dipendenti, in particolare giovani. Questi ultimi, rispetto alle generazioni precedenti, sembrano chiedere al lavoro un ruolo diverso, socialmente più significativo e che vada oltre la mera funzione di sostentamento personale. Non solo. L'indagine evidenzia che sono proprio i giovani a non vedere riconosciuti in misura maggiore e adeguata i loro meriti.\n\nSi crea così un panorama dove i talenti, magari dopo un primo periodo in grandi aziende che attraggono con la forza del loro nome, anziché restare e crescere all'interno delle stesse, contribuendo all'innovazione, decidono di cambiare strada. Questo vale soprattutto per quelli con le competenze tecnologiche e una mentalità «nativa digitale»: due plus sempre più richiesti dal mercato e di cui c'è sempre più carenza, ma che bisogna essere disposti a pagare e a valorizzare a prescindere dall'età anagrafica. L'idea a cui molte realtà italiane restano invece ancorate è quella del «a una figura giovane non possiamo dare per principio un dato stipendio», che è un po' lo stesso discorso dello stare obbligatoriamente 8 ore in ufficio anche se si è produttivi e si raggiungono gli obiettivi in 6 ore. Si tratta, come sempre, di un quadro poliedrico e composito che al proprio interno contiene storie e motivazioni diverse tra loro.\n\nTratto da: https://www.vanityfair.it/mybusiness\n\nGli ‘under 35’ citati nel testo sono:",
      "images": [],
      "alternatives": [
       {
@@ -4006,7 +4007,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Secondo la ricerca dell’Osservatorio sulla Felicità citata nel testo, è possibile affermare che:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 85 a 90.\n\nI dati ci dicono che l’Italia non è il Paese più promettente per i giovani (tanti i talenti che formiamo per poi regalare all’estero) e nemmeno per gli imprenditori. Eppure, esiste chi ha entrambe queste caratteristiche e riesce ad avere successo. Anzi, sono sempre di più gli under 35 che scelgono di gettare il cuore oltre l’ostacolo e provare a lavorare come autonomi.\n\nPerché? Perché se è vero che fare i dipendenti dà certo maggiori garanzie di sicurezza, tra entrate fisse, ferie e malattie pagate, è altrettanto vero che troppo spesso, anche se si è dotati e competenti, lo stipendio è tutt’altro che allettante, le possibilità di crescita scarse e poco meritocratiche, la libertà di espressione pressoché nulla. A fronte di nuove tecnologie e boom digitale, poi, il divario generazionale tra i cosiddetti «boomer» e i più giovani «millennial» o «zeta» si è accentuato, diventando foriero di disallineamenti e disarmonie sul modo di lavorare e sui valori di riferimento comuni.\n\nSecondo una ricerca presentata nel 2021 dall'Osservatorio sulla Felicità (associazione «Ricerca Felicità»), infatti, emerge un significativo disallineamento di valori tra aziende e dipendenti, in particolare giovani. Questi ultimi, rispetto alle generazioni precedenti, sembrano chiedere al lavoro un ruolo diverso, socialmente più significativo e che vada oltre la mera funzione di sostentamento personale. Non solo. L'indagine evidenzia che sono proprio i giovani a non vedere riconosciuti in misura maggiore e adeguata i loro meriti.\n\nSi crea così un panorama dove i talenti, magari dopo un primo periodo in grandi aziende che attraggono con la forza del loro nome, anziché restare e crescere all'interno delle stesse, contribuendo all'innovazione, decidono di cambiare strada. Questo vale soprattutto per quelli con le competenze tecnologiche e una mentalità «nativa digitale»: due plus sempre più richiesti dal mercato e di cui c'è sempre più carenza, ma che bisogna essere disposti a pagare e a valorizzare a prescindere dall'età anagrafica. L'idea a cui molte realtà italiane restano invece ancorate è quella del «a una figura giovane non possiamo dare per principio un dato stipendio», che è un po' lo stesso discorso dello stare obbligatoriamente 8 ore in ufficio anche se si è produttivi e si raggiungono gli obiettivi in 6 ore. Si tratta, come sempre, di un quadro poliedrico e composito che al proprio interno contiene storie e motivazioni diverse tra loro.\n\nTratto da: https://www.vanityfair.it/mybusiness\n\nSecondo la ricerca dell’Osservatorio sulla Felicità citata nel testo, è possibile affermare che:",
      "images": [],
      "alternatives": [
       {
@@ -4040,7 +4041,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Sui due plus menzionati nel testo e richiesti dal mercato, si può interpretare che:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 85 a 90.\n\nI dati ci dicono che l’Italia non è il Paese più promettente per i giovani (tanti i talenti che formiamo per poi regalare all’estero) e nemmeno per gli imprenditori. Eppure, esiste chi ha entrambe queste caratteristiche e riesce ad avere successo. Anzi, sono sempre di più gli under 35 che scelgono di gettare il cuore oltre l’ostacolo e provare a lavorare come autonomi.\n\nPerché? Perché se è vero che fare i dipendenti dà certo maggiori garanzie di sicurezza, tra entrate fisse, ferie e malattie pagate, è altrettanto vero che troppo spesso, anche se si è dotati e competenti, lo stipendio è tutt’altro che allettante, le possibilità di crescita scarse e poco meritocratiche, la libertà di espressione pressoché nulla. A fronte di nuove tecnologie e boom digitale, poi, il divario generazionale tra i cosiddetti «boomer» e i più giovani «millennial» o «zeta» si è accentuato, diventando foriero di disallineamenti e disarmonie sul modo di lavorare e sui valori di riferimento comuni.\n\nSecondo una ricerca presentata nel 2021 dall'Osservatorio sulla Felicità (associazione «Ricerca Felicità»), infatti, emerge un significativo disallineamento di valori tra aziende e dipendenti, in particolare giovani. Questi ultimi, rispetto alle generazioni precedenti, sembrano chiedere al lavoro un ruolo diverso, socialmente più significativo e che vada oltre la mera funzione di sostentamento personale. Non solo. L'indagine evidenzia che sono proprio i giovani a non vedere riconosciuti in misura maggiore e adeguata i loro meriti.\n\nSi crea così un panorama dove i talenti, magari dopo un primo periodo in grandi aziende che attraggono con la forza del loro nome, anziché restare e crescere all'interno delle stesse, contribuendo all'innovazione, decidono di cambiare strada. Questo vale soprattutto per quelli con le competenze tecnologiche e una mentalità «nativa digitale»: due plus sempre più richiesti dal mercato e di cui c'è sempre più carenza, ma che bisogna essere disposti a pagare e a valorizzare a prescindere dall'età anagrafica. L'idea a cui molte realtà italiane restano invece ancorate è quella del «a una figura giovane non possiamo dare per principio un dato stipendio», che è un po' lo stesso discorso dello stare obbligatoriamente 8 ore in ufficio anche se si è produttivi e si raggiungono gli obiettivi in 6 ore. Si tratta, come sempre, di un quadro poliedrico e composito che al proprio interno contiene storie e motivazioni diverse tra loro.\n\nTratto da: https://www.vanityfair.it/mybusiness\n\nSui due plus menzionati nel testo e richiesti dal mercato, si può interpretare che:",
      "images": [],
      "alternatives": [
       {
@@ -4074,7 +4075,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Una frase che può riassumere il contenuto della seconda parte del testo è:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 85 a 90.\n\nI dati ci dicono che l’Italia non è il Paese più promettente per i giovani (tanti i talenti che formiamo per poi regalare all’estero) e nemmeno per gli imprenditori. Eppure, esiste chi ha entrambe queste caratteristiche e riesce ad avere successo. Anzi, sono sempre di più gli under 35 che scelgono di gettare il cuore oltre l’ostacolo e provare a lavorare come autonomi.\n\nPerché? Perché se è vero che fare i dipendenti dà certo maggiori garanzie di sicurezza, tra entrate fisse, ferie e malattie pagate, è altrettanto vero che troppo spesso, anche se si è dotati e competenti, lo stipendio è tutt’altro che allettante, le possibilità di crescita scarse e poco meritocratiche, la libertà di espressione pressoché nulla. A fronte di nuove tecnologie e boom digitale, poi, il divario generazionale tra i cosiddetti «boomer» e i più giovani «millennial» o «zeta» si è accentuato, diventando foriero di disallineamenti e disarmonie sul modo di lavorare e sui valori di riferimento comuni.\n\nSecondo una ricerca presentata nel 2021 dall'Osservatorio sulla Felicità (associazione «Ricerca Felicità»), infatti, emerge un significativo disallineamento di valori tra aziende e dipendenti, in particolare giovani. Questi ultimi, rispetto alle generazioni precedenti, sembrano chiedere al lavoro un ruolo diverso, socialmente più significativo e che vada oltre la mera funzione di sostentamento personale. Non solo. L'indagine evidenzia che sono proprio i giovani a non vedere riconosciuti in misura maggiore e adeguata i loro meriti.\n\nSi crea così un panorama dove i talenti, magari dopo un primo periodo in grandi aziende che attraggono con la forza del loro nome, anziché restare e crescere all'interno delle stesse, contribuendo all'innovazione, decidono di cambiare strada. Questo vale soprattutto per quelli con le competenze tecnologiche e una mentalità «nativa digitale»: due plus sempre più richiesti dal mercato e di cui c'è sempre più carenza, ma che bisogna essere disposti a pagare e a valorizzare a prescindere dall'età anagrafica. L'idea a cui molte realtà italiane restano invece ancorate è quella del «a una figura giovane non possiamo dare per principio un dato stipendio», che è un po' lo stesso discorso dello stare obbligatoriamente 8 ore in ufficio anche se si è produttivi e si raggiungono gli obiettivi in 6 ore. Si tratta, come sempre, di un quadro poliedrico e composito che al proprio interno contiene storie e motivazioni diverse tra loro.\n\nTratto da: https://www.vanityfair.it/mybusiness\n\nUna frase che può riassumere il contenuto della seconda parte del testo è:",
      "images": [],
      "alternatives": [
       {
@@ -4108,7 +4109,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "次のテキスは83 と84 の質問の参考文です。\n\n相撲人口の半分は女性、ブラジルで女性力士が増加している理由とは?\n\nサンバやサッカーのイメージが強いブラジルで、日本の国技である相撲の人気が高まっている。ただし女性の間で。\n\n相撲は20 世紀初頭、労働力不足を補うためにブラジルへ渡った日本の移民が持ち込んだ。男女両方の参加が必要なオリンピック の正式種目化を目指し、ブラジルでは日本と連携して1990 年代後半に女子相撲が本格的に広がっていった。\n\n現在、国内には約600 人の力士がいるとされ、その約半数が女性だという。競技人口は今も拡大している。力士と聞くと、大きくが っしりした男性の姿を思い浮かべるだろう。女性は小柄でか弱く、相撲に向いていないという偏見はブラジルでもいまだに根強い。 だが土俵では体の強さだけでなく、俊敏さや戦術も求められ、戦い方次第で体格差は克服できる。ルッキズム(外見重視主義)が 強いブラジルで、体形や見た目に自信が持てない女性も、土俵の上では自身の悩みを強みとして肯定できる。\n\nもともとブラジルでは柔道などの武術が盛んで、女子相撲への転向者も少なくない。必要品はまわしぐらいで経済的な負担が少な く、民族や階層を問わず始めやすいようだ。\n\nDisponível em: https://www.newsweekjapan.jp/stories/woman/2023/04/post-836.php#google\\_vignette. Adaptado.\n\nブラジルで女性力士が増加している理由は何ですか?",
+     "statement_md": "次のテキスは**83** と**84** の質問の参考文です。\n\n相撲人口の半分は女性、ブラジルで女性力士が増加している理由とは?\n\nサンバやサッカーのイメージが強いブラジルで、日本の国技である相撲の人気が高まっている。ただし女性の間で。\n\n相撲は20 世紀初頭、労働力不足を補うためにブラジルへ渡った日本の移民が持ち込んだ。男女両方の参加が必要なオリンピック の正式種目化を目指し、ブラジルでは日本と連携して1990 年代後半に女子相撲が本格的に広がっていった。\n\n現在、国内には約600 人の力士がいるとされ、その約半数が女性だという。競技人口は今も拡大している。力士と聞くと、大きくが っしりした男性の姿を思い浮かべるだろう。女性は小柄でか弱く、相撲に向いていないという偏見はブラジルでもいまだに根強い。 だが土俵では体の強さだけでなく、俊敏さや戦術も求められ、戦い方次第で体格差は克服できる。ルッキズム(外見重視主義)が 強いブラジルで、体形や見た目に自信が持てない女性も、土俵の上では自身の悩みを強みとして肯定できる。\n\nもともとブラジルでは柔道などの武術が盛んで、女子相撲への転向者も少なくない。必要品はまわしぐらいで経済的な負担が少な く、民族や階層を問わず始めやすいようだ。\n\nDisponível em: https://www.newsweekjapan.jp/stories/woman/2023/04/post-836.php#google\\_vignette. Adaptado.\n\nブラジルで女性力士が増加している理由は何ですか**?**",
      "images": [],
      "alternatives": [
       {
@@ -4142,7 +4143,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "「相撲人口の約半数を占める女性力士に対するブラジル社会の偏見は何ですか?",
+     "statement_md": "次のテキスは**83** と**84** の質問の参考文です。\n\n相撲人口の半分は女性、ブラジルで女性力士が増加している理由とは?\n\nサンバやサッカーのイメージが強いブラジルで、日本の国技である相撲の人気が高まっている。ただし女性の間で。\n\n相撲は20 世紀初頭、労働力不足を補うためにブラジルへ渡った日本の移民が持ち込んだ。男女両方の参加が必要なオリンピック の正式種目化を目指し、ブラジルでは日本と連携して1990 年代後半に女子相撲が本格的に広がっていった。\n\n現在、国内には約600 人の力士がいるとされ、その約半数が女性だという。競技人口は今も拡大している。力士と聞くと、大きくが っしりした男性の姿を思い浮かべるだろう。女性は小柄でか弱く、相撲に向いていないという偏見はブラジルでもいまだに根強い。 だが土俵では体の強さだけでなく、俊敏さや戦術も求められ、戦い方次第で体格差は克服できる。ルッキズム(外見重視主義)が 強いブラジルで、体形や見た目に自信が持てない女性も、土俵の上では自身の悩みを強みとして肯定できる。\n\nもともとブラジルでは柔道などの武術が盛んで、女子相撲への転向者も少なくない。必要品はまわしぐらいで経済的な負担が少な く、民族や階層を問わず始めやすいようだ。\n\nDisponível em: https://www.newsweekjapan.jp/stories/woman/2023/04/post-836.php#google\\_vignette. Adaptado.\n\n「相撲人口の約半数を占める女性力士に対するブラジル社会の偏見は何ですか?",
      "images": [],
      "alternatives": [
       {
@@ -4176,7 +4177,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "次のテキスは85 と86 の質問の参考文です。\n\n未来の車に関する調査\n\n近年、自動車産業は急速な変化を遂げています。電気自動車の人気が高まる中、自動運転技術もますます進化しています。最新の 調査によると、若い世代の多くは将来の車に関して前向きな見通しを持っているようです。調査に参加した若者の約80%が電気自 動車を検討しており、約60%が自動運転車に興味を示しています。\n\n一方で、高齢者の間では、新しい車への移行がまだ進んでいないという結果もあります。理由の1 つとして、高齢者の多くが電気 自動車の充電インフラに不安を抱えていることが挙げられます。さらに、自動運転技術に対しては不信感を抱いている高齢者も見 られます。\n\nこの調査は、自動車メーカーや政府機関にとって将来の車の開発や普及策に重要な示唆を与えるものとなりそうです。\n\nJapan Foundation. MARUGOTO CHUKYU 1 B1. Sanshusha: Tokyo, 2016.\n\n若い世代と高齢者の間で未来の車に関するどのような違いが示されていますか?",
+     "statement_md": "次のテキスは**85** と**86** の質問の参考文です。\n\n未来の車に関する調査\n\n近年、自動車産業は急速な変化を遂げています。電気自動車の人気が高まる中、自動運転技術もますます進化しています。最新の 調査によると、若い世代の多くは将来の車に関して前向きな見通しを持っているようです。調査に参加した若者の約80%が電気自 動車を検討しており、約60%が自動運転車に興味を示しています。\n\n一方で、高齢者の間では、新しい車への移行がまだ進んでいないという結果もあります。理由の1 つとして、高齢者の多くが電気 自動車の充電インフラに不安を抱えていることが挙げられます。さらに、自動運転技術に対しては不信感を抱いている高齢者も見 られます。\n\nこの調査は、自動車メーカーや政府機関にとって将来の車の開発や普及策に重要な示唆を与えるものとなりそうです。\n\nJapan Foundation. MARUGOTO CHUKYU 1 B1. Sanshusha: Tokyo, 2016.\n\n若い世代と高齢者の間で未来の車に関するどのような違いが示されていますか?",
      "images": [],
      "alternatives": [
       {
@@ -4210,7 +4211,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "高齢者が新しい車への移行に抱えている主な懸念は何ですか?",
+     "statement_md": "次のテキスは**85** と**86** の質問の参考文です。\n\n未来の車に関する調査\n\n近年、自動車産業は急速な変化を遂げています。電気自動車の人気が高まる中、自動運転技術もますます進化しています。最新の 調査によると、若い世代の多くは将来の車に関して前向きな見通しを持っているようです。調査に参加した若者の約80%が電気自 動車を検討しており、約60%が自動運転車に興味を示しています。\n\n一方で、高齢者の間では、新しい車への移行がまだ進んでいないという結果もあります。理由の1 つとして、高齢者の多くが電気 自動車の充電インフラに不安を抱えていることが挙げられます。さらに、自動運転技術に対しては不信感を抱いている高齢者も見 られます。\n\nこの調査は、自動車メーカーや政府機関にとって将来の車の開発や普及策に重要な示唆を与えるものとなりそうです。\n\nJapan Foundation. MARUGOTO CHUKYU 1 B1. Sanshusha: Tokyo, 2016.\n\n高齢者が新しい車への移行に抱えている主な懸念は何ですか?",
      "images": [],
      "alternatives": [
       {
@@ -4244,7 +4245,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "次のテキスは87 と88 の質問の参考文です。\n\n「音読と記憶が命・中国人学習者」\n\n中国は学歴社会、資格が大切な社会です。大学生は大学構内にある寮(2~6 人部屋)に住むことが多く、とにかく勉強が中心の 学生生活を送ります。朝早く起きて勉強、休み時間に勉強、授業の後で勉強、食事の後で勉強、寝る前に勉強、週末に勉強…そし て勉強のスタイルは教科書の音読と暗記。特に語学学習には音読と暗記は欠かせないものなので、日本語の授業が始まる前には、 全員着席してぶつぶつぶつぶつと教科書を読み上げる声がしています。\n\n情報社会、インターネット社会と言われて久しい現在では中国人学習者の勉強法も少しずつ変化しているのかもしれませんが、4 年間ひたすら音読と暗記を続けて、かなりの学習者がそれなりに会話もできるようになっていくので、こうした伝統的な学習法も ある程度の効果は見込めるのではないかという気がしてきます。\n\n中国人の日本語学習最大のアドバンテージは何と言っても漢字。特に来日して非漢字圏の学習者と同じクラスで学ぶようになる と、その強みは「読解」の授業でいかんなく発揮されます。しかし、漢字を知っているが故に直りにくい間違いやクセがあり、本 人以上に日本語教師を悩ませます。\n\n・少しだけ違う漢字の書き方がなかなか直らない\n\n・同じ漢字の言葉で発音も似ているといつまでも中国語のような発音をしてしまう\n\n・作文に見慣れない語彙(中国語の語彙)を使う\n\n発音でも漢字の形でも全く違うものはむしろ覚えやすく、微妙に違うもののほうが厄介です。ある程度の日本語を身につけて来日 する学習者が多いので日本にいる人はそれほどでもないと思いますが、中国で初級の学習者に教えていると、作文に「きれいな酒 店(ホテル)があります」「水果(果物)がおいしいです」と漢字と文脈で意味はわかるものの見慣れない語彙が登場します。そ のうち教師の方が慣れてしまって、うっかりスルーしてしまいそうになることも。つい漢字に頼ってしまうという点で、「レベル の低い学習者の作文ほど漢字が多用されている」という傾向は非漢字圏とは逆の現象です。作文と言えば、中国語の語彙をそのま ま日本語に直訳して「サンタクロース」を「クリスマス老人」と書いてきた学生がいたそうです。\n\n「清濁の区別がつきにくい」というのは中国人学習者の特徴としてよく挙げられます。人によりますが、苦労する人が多いようで す。知り合いの中国人女性はN1 合格者でしたが、しょっちゅう「てんてんある?」と聞いてきました。てんてんとはもちろん濁 音の点々のことで、「か」なのか「が」なのか尋ねていたわけです。学習過程で身につけたストラテジーなのか、あるいは日本語 学校の先生が「点々ありますよ」と教えていたのかもしれません。\n\nDisponível em: https://nj.alc-nihongo.jp/entry/20230608-tyugoku/ Adaptado.\n\n正しいほうを選びなさい。",
+     "statement_md": "次のテキスは**87** と**88** の質問の参考文です。\n\n「音読と記憶が命・中国人学習者」\n\n中国は学歴社会、資格が大切な社会です。大学生は大学構内にある寮(2~6 人部屋)に住むことが多く、とにかく勉強が中心の 学生生活を送ります。朝早く起きて勉強、休み時間に勉強、授業の後で勉強、食事の後で勉強、寝る前に勉強、週末に勉強…そし て勉強のスタイルは教科書の音読と暗記。**特に**語学学習には音読と暗記は欠かせないものなので、日本語の授業が始まる前には、 全員着席してぶつぶつぶつぶつと教科書を読み上げる声がしています。\n\n情報社会、インターネット社会と言われて久しい現在では中国人学習者の勉強法も少しずつ変化しているのかもしれませんが、4 年間ひたすら音読と暗記を続けて、かなりの学習者がそれなりに会話もできるようになっていくので、こうした伝統的な学習法も ある程度の効果は見込めるのではないかという気がしてきます。\n\n中国人の日本語学習最大のアドバンテージは何と言っても漢字。**特に**来日して非漢字圏の学習者と同じクラスで学ぶようになる と、その強みは「読解」の授業でいかんなく発揮されます。しかし、漢字を知っているが故に直りにくい**間違い**やクセがあり、本 人以上に日本語教師を悩ませます。\n\n・少しだけ違う漢字の書き方がなかなか直らない\n\n・同じ漢字の言葉で発音も似ているといつまでも中国語のような発音をしてしまう\n\n・作文に見慣れない語彙(中国語の語彙)を使う\n\n発音でも漢字の形でも全く違うものはむしろ覚えやすく、微妙に違うもののほうが厄介です。ある程度の日本語を身につけて来日 する学習者が多いので日本にいる人はそれほどでもないと思いますが、中国で初級の学習者に教えていると、作文に「きれいな酒 店(ホテル)があります」「水果(果物)がおいしいです」と漢字と文脈で意味はわかるものの見慣れない語彙が登場します。そ のうち教師の方が慣れてしまって、うっかりスルーしてしまいそうになることも。つい漢字に頼ってしまうという点で、「レベル の低い学習者の作文ほど漢字が多用されている」という**傾向**は非漢字圏とは逆の**現象**です。作文と言えば、中国語の語彙をそのま ま日本語に直訳して「サンタクロース」を「クリスマス老人」と書いてきた学生がいたそうです。\n\n「清濁の区別がつきにくい」というのは中国人学習者の特徴としてよく挙げられます。人によりますが、苦労する人が多いようで す。知り合いの中国人女性はN1 合格者でしたが、しょっちゅう「てんてんある?」と聞いてきました。てんてんとはもちろん濁 音の点々のことで、「か」なのか「が」なのか尋ねていたわけです。学習過程で身につけたストラテジーなのか、あるいは日本語 学校の先生が「点々ありますよ」と教えていたのかもしれません。\n\nDisponível em: https://nj.alc-nihongo.jp/entry/20230608-tyugoku/ Adaptado.\n\n正しいほうを選びなさい。",
      "images": [],
      "alternatives": [
       {
@@ -4278,7 +4279,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "中国人の日本語学習者が直面する問題について、以下のうちどれが挙げられていますか?",
+     "statement_md": "次のテキスは**87** と**88** の質問の参考文です。\n\n「音読と記憶が命・中国人学習者」\n\n中国は学歴社会、資格が大切な社会です。大学生は大学構内にある寮(2~6 人部屋)に住むことが多く、とにかく勉強が中心の 学生生活を送ります。朝早く起きて勉強、休み時間に勉強、授業の後で勉強、食事の後で勉強、寝る前に勉強、週末に勉強…そし て勉強のスタイルは教科書の音読と暗記。**特に**語学学習には音読と暗記は欠かせないものなので、日本語の授業が始まる前には、 全員着席してぶつぶつぶつぶつと教科書を読み上げる声がしています。\n\n情報社会、インターネット社会と言われて久しい現在では中国人学習者の勉強法も少しずつ変化しているのかもしれませんが、4 年間ひたすら音読と暗記を続けて、かなりの学習者がそれなりに会話もできるようになっていくので、こうした伝統的な学習法も ある程度の効果は見込めるのではないかという気がしてきます。\n\n中国人の日本語学習最大のアドバンテージは何と言っても漢字。**特に**来日して非漢字圏の学習者と同じクラスで学ぶようになる と、その強みは「読解」の授業でいかんなく発揮されます。しかし、漢字を知っているが故に直りにくい**間違い**やクセがあり、本 人以上に日本語教師を悩ませます。\n\n・少しだけ違う漢字の書き方がなかなか直らない\n\n・同じ漢字の言葉で発音も似ているといつまでも中国語のような発音をしてしまう\n\n・作文に見慣れない語彙(中国語の語彙)を使う\n\n発音でも漢字の形でも全く違うものはむしろ覚えやすく、微妙に違うもののほうが厄介です。ある程度の日本語を身につけて来日 する学習者が多いので日本にいる人はそれほどでもないと思いますが、中国で初級の学習者に教えていると、作文に「きれいな酒 店(ホテル)があります」「水果(果物)がおいしいです」と漢字と文脈で意味はわかるものの見慣れない語彙が登場します。そ のうち教師の方が慣れてしまって、うっかりスルーしてしまいそうになることも。つい漢字に頼ってしまうという点で、「レベル の低い学習者の作文ほど漢字が多用されている」という**傾向**は非漢字圏とは逆の**現象**です。作文と言えば、中国語の語彙をそのま ま日本語に直訳して「サンタクロース」を「クリスマス老人」と書いてきた学生がいたそうです。\n\n「清濁の区別がつきにくい」というのは中国人学習者の特徴としてよく挙げられます。人によりますが、苦労する人が多いようで す。知り合いの中国人女性はN1 合格者でしたが、しょっちゅう「てんてんある?」と聞いてきました。てんてんとはもちろん濁 音の点々のことで、「か」なのか「が」なのか尋ねていたわけです。学習過程で身につけたストラテジーなのか、あるいは日本語 学校の先生が「点々ありますよ」と教えていたのかもしれません。\n\nDisponível em: https://nj.alc-nihongo.jp/entry/20230608-tyugoku/ Adaptado.\n\n中国人の日本語学習者が直面する問題について、以下のうちどれが挙げられていますか?",
      "images": [],
      "alternatives": [
       {
@@ -4312,7 +4313,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "次のテキスは89 と90 の質問の参考文です。\n\n「ミニトマトと豚肉のハーブにんにく煮」\n\n![Figura: エネルギー ／300 kcal ＊1 人分 塩分 ／1.9 g ＊1 人分 調理時間 ／20 分 つくり方 ミニトマトはヘタを除く。にんにくは半分に切る。豚肉は筋切りをし、3 等分に切って塩・こしょう各少々をふる。 ポイント 赤身と脂身の間に包丁の先で切り目を入れて筋を切っておくと、肉が堅くなりにくい。 豚肉を焼く フライパンにオリーブ油大さじ1/2 を中火で熱し、豚肉、にんにくを入れる。2 分間ほど焼き、焼き色がついたら上下を返して 1 分間ほど焼く。 ミニトマトの半量を加えて煮る 水、白ワイン、塩、こしょう、ミニトマトの半量、ローリエ、好みでハーブを加えて火を強め、煮立ったらふたをして弱…](/questoes/ufpr/2024/q89-japones-texto-1.png)\n\nDisponível em: https://www.kyounoryouri.jp/recipe/603766\\_%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88%E3%81%A8%E8%B1%9A%E8%82%89%\n\nE3%81%AE%E3%83%8F%E3%83%BC%E3%83%96%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E7%85%AE.html. Adaptado.\n\n正しいほうを選びなさい。",
+     "statement_md": "次のテキスは**89** と**90** の質問の参考文です。\n\n「ミニトマトと豚肉のハーブにんにく煮」\n\n![Figura: エネルギー ／300 kcal ＊1 人分 塩分 ／1.9 g ＊1 人分 調理時間 ／20 分 つくり方 ミニトマトはヘタを除く。にんにくは半分に切る。豚肉は筋切りをし、3 等分に切って塩・こしょう各少々をふる。 ポイント 赤身と脂身の間に包丁の先で切り目を入れて筋を切っておくと、肉が堅くなりにくい。 豚肉を焼く フライパンにオリーブ油大さじ1/2 を中火で熱し、豚肉、にんにくを入れる。2 分間ほど焼き、焼き色がついたら上下を返して 1 分間ほど焼く。 ミニトマトの半量を加えて煮る 水、白ワイン、塩、こしょう、ミニトマトの半量、ローリエ、好みでハーブを加えて火を強め、煮立ったらふたをして弱…](/questoes/ufpr/2024/q89-japones-texto-1.png)\n\nDisponível em:\n\nhttps://www.kyounoryouri.jp/recipe/603766\\_%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88%E3%81%A8%E8%B1%9A%E8%82%89%\n\nE3%81%AE%E3%83%8F%E3%83%BC%E3%83%96%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E7%85%AE.html. Adaptado.\n\n正しいほうを選びなさい。",
      "images": [
       "/questoes/ufpr/2024/q89-japones-texto-1.png"
      ],
@@ -4348,8 +4349,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "「調理時間」正しい読み方と意味を選びなさい。",
-     "images": [],
+     "statement_md": "次のテキスは**89** と**90** の質問の参考文です。\n\n「ミニトマトと豚肉のハーブにんにく煮」\n\n![Figura: エネルギー ／300 kcal ＊1 人分 塩分 ／1.9 g ＊1 人分 調理時間 ／20 分 つくり方 ミニトマトはヘタを除く。にんにくは半分に切る。豚肉は筋切りをし、3 等分に切って塩・こしょう各少々をふる。 ポイント 赤身と脂身の間に包丁の先で切り目を入れて筋を切っておくと、肉が堅くなりにくい。 豚肉を焼く フライパンにオリーブ油大さじ1/2 を中火で熱し、豚肉、にんにくを入れる。2 分間ほど焼き、焼き色がついたら上下を返して 1 分間ほど焼く。 ミニトマトの半量を加えて煮る 水、白ワイン、塩、こしょう、ミニトマトの半量、ローリエ、好みでハーブを加えて火を強め、煮立ったらふたをして弱…](/questoes/ufpr/2024/q89-japones-texto-1.png)\n\nDisponível em:\n\nhttps://www.kyounoryouri.jp/recipe/603766\\_%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88%E3%81%A8%E8%B1%9A%E8%82%89%\n\nE3%81%AE%E3%83%8F%E3%83%BC%E3%83%96%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E7%85%AE.html. Adaptado.\n\n「調理時間」正しい読み方と意味を選びなさい。",
+     "images": [
+      "/questoes/ufpr/2024/q89-japones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4382,7 +4385,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934. \\*promieniotwórczość - radioaktywność\n\nPowyższy tekst:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nPowyższy tekst:",
      "images": [],
      "alternatives": [
       {
@@ -4416,7 +4419,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Maria Skłodowska-Curie stawiała pierwsze kroki naukowe:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nMaria Skłodowska-Curie stawiała pierwsze kroki naukowe:",
      "images": [],
      "alternatives": [
       {
@@ -4450,7 +4453,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Zgodnie z tekstem:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nZgodnie z tekstem:",
      "images": [],
      "alternatives": [
       {
@@ -4484,7 +4487,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Maria wyjechała do Paryża, żeby:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nMaria wyjechała do Paryża, żeby:",
      "images": [],
      "alternatives": [
       {
@@ -4518,7 +4521,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Zaznacz poprawną odpowiedź:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nZaznacz poprawną odpowiedź:",
      "images": [],
      "alternatives": [
       {
@@ -4552,7 +4555,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "W zdaniu „Pierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie” , słowo „które” odnosi się do członu:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nW zdaniu „Pierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie” , słowo „które” odnosi się do członu:",
      "images": [],
      "alternatives": [
       {
@@ -4586,7 +4589,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Zdanie „Maria była pierwszą kobietą uhonorowaną w ten sposób” odnosi się do tego, że Maria była pierwszą kobietą:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nZdanie „Maria była pierwszą kobietą uhonorowaną w ten sposób” odnosi się do tego, że Maria była pierwszą kobietą:",
      "images": [],
      "alternatives": [
       {
@@ -4620,7 +4623,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "We fragmencie „ w domu, w którym wielka polska uczona przyszła na świat” wyrażenie „przyszła na świat” można zastąpić bez zmiany znaczenia wyrażeniem:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\nMaria Skłodowska-Curie (1867-1934)\n\nFizyczka i chemiczka. Pierwsza i jedyna na świecie kobieta, która dwukrotnie otrzymała Nagrodę Nobla, a także jedyny naukowiec uhonorowany w dwóch różnych dziedzinach nauk przyrodniczych.\n\nUrodziła się 7 listopada 1867 roku w Warszawie. Maria była piątym dzieckiem Bronisławy i Władysława Skłodowskich. Jako nastolatka interesowała się socjologią, matematyką, fizyką, literaturą, pisała także wiersze.\n\nPoczątki kariery naukowej Skłodowskiej\n\nPierwsze kroki naukowe Skłodowska stawiała w pracowni fizycznej i laboratorium chemicznym, które znajdowały się w Muzeum Przemysłu i Rolnictwa w Warszawie. Ponieważ działające na terenie Polski uniwersytety nie przyjmowały kobiet, w 1891 roku Maria wyjechała do Paryża, gdzie na Sorbonie zapisała się na wydział nauk matematyczno-przyrodniczych. Zamieszkała u swojej siostry Bronisławy Dłuskiej. W roku 1893 uzyskała licencjat z nauk fizycznych z oceną \"bardzo dobrze\", a rok później z matematyki z oceną \"dość dobrze\". W kolejnym roku poślubiła 35-letniego francuskiego fizyka Pierre’a Curie. Ślub odbył się w merostwie Sceaux pod Paryżem. Pierwsza córka Marii - Irena przyszła na świat w 1897 roku. W 1935 roku także Irena, wspólnie z mężem Federickiem Joliot-Curie, otrzyma Nagrodę Nobla za odkrycie zjawiska sztucznej promieniotwórczości\\*.\n\nOdkrycie radu i polonu\n\nW 1898 roku małżonkowie Curie odkryli wspólnie nowe pierwiastki - polon i rad. W 1903 roku za prace nad pierwiastkami promieniotwórczymi Maria i Pierre Curie otrzymali Nagrodę Nobla w dziedzinie fizyki. (…). W 1896 roku Maria zdała egzamin uprawniający ją do nauczania w średnich szkołach żeńskich. Umożliwiło jej to późniejszą pracę w żeńskiej szkole w Sevres. Drugiego Nobla Skłodowska otrzymała w 1911 roku za prace nad promieniotwórczością i odkrycie nowych pierwiastków radioaktywnych - radu i polonu (…) W 1932 roku badaczka wzięła udział w otwarciu Instytutu Radowego w Warszawie.\n\nOkoliczności śmierci Skłodowskiej\n\nPodróż ta była ostatnią, którą Skłodowska odbyła do rodzinnego kraju. Zmarła w 1934 roku na skutek anemii złośliwej aplastycznej. Pogrzeb odbył się 6 lipca na cmentarzu w Sceaux. Maria spoczęła obok męża. W 1995 roku prochy małżonków spoczęły w miejscu pochówku francuskich bohaterów narodowych - na paryskim Panteonie. Maria była pierwszą kobietą uhonorowaną w ten sposób i pierwszą osobą nie urodzoną we Francji, która tu spoczęła. Muzeum Marii Skłodowskiej-Curie znajduje się w Warszawie, w domu, w którym wielka polska uczona przyszła na świat. (PAP)\n\nDisponível em: https://dzieje.pl/postacie/maria-sklodowska-curie-1867-1934.\n\n\\*promieniotwórczość - radioaktywność\n\nWe fragmencie „ w domu, w którym wielka polska uczona przyszła na świat” wyrażenie „przyszła na świat” można zastąpić bez zmiany znaczenia wyrażeniem:",
      "images": [],
      "alternatives": [
       {

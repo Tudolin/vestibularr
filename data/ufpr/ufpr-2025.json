@@ -78,7 +78,7 @@
      "number": 3,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: No plano cartesiano, considere os pontos P 2a, 0 e Q a 1, a 1 , sendo a um número real positivo. Sabendo](/questoes/ufpr/2025/q03-1.png)\n\nque a distância entre P e Q é igual a √8 cm, assinale a alternativa que corresponde ao valor de a.",
+     "statement_md": "![Trecho com fórmula: No plano cartesiano, considere os pontos P 2a, 0 e Q a 1, a 1 , sendo a um número real positivo. Sabendo que a distância entre P e Q é igual a √8 cm, assinale a alternativa que corresponde ao valor de a.](/questoes/ufpr/2025/q03-1.png)",
      "images": [
       "/questoes/ufpr/2025/q03-1.png"
      ],
@@ -210,7 +210,7 @@
      "number": 7,
      "area": "matematica",
      "subject": "Matemática",
-     "statement_md": "![Trecho com fórmula: Sejam as funções f x 2x, g x 4x e h x log8 x. A função composta u h∘g∘f é uma função afim. Assinale a](/questoes/ufpr/2025/q07-1.png)\n\nalternativa que corresponde ao coeficiente angular da função u.",
+     "statement_md": "![Trecho com fórmula: Sejam as funções f x 2x, g x 4x e h x log8 x. A função composta u h∘g∘f é uma função afim. Assinale a alternativa que corresponde ao coeficiente angular da função u.](/questoes/ufpr/2025/q07-1.png)",
      "images": [
       "/questoes/ufpr/2025/q07-1.png"
      ],
@@ -312,7 +312,7 @@
      "number": 10,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "Atenção: em todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Quando for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO texto a seguir é referência para as questões 10 a 12.\n\n![Trecho com fórmula: Um objeto de massa constante m 0,2 kg desloca-se em um movimento unidimensional ao longo de uma linha reta, e sua](/questoes/ufpr/2025/q10-texto-1.png)\n\naceleração a é medida em função do tempo t, obtendo-se, então, o gráfico a seguir:\n\n![Figura](/questoes/ufpr/2025/q10-texto-2.png)\n\n![Trecho com fórmula: Considerando os dados expostos no enunciado e no gráfico, assinale a alternativa que apresenta corretamente a intensidade F da força resultante aplicada sobre a partícula no instante t 30 s.](/questoes/ufpr/2025/q10-1.png)",
+     "statement_md": "Atenção: em todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Quando for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO texto a seguir é referência para as questões 10 a 12.\n\n![Trecho com fórmula: Um objeto de massa constante m 0,2 kg desloca-se em um movimento unidimensional ao longo de uma linha reta, e sua aceleração a é medida em função do tempo t, obtendo-se, então, o gráfico a seguir:](/questoes/ufpr/2025/q10-texto-1.png)\n\n![Figura](/questoes/ufpr/2025/q10-texto-2.png)\n\n![Trecho com fórmula: Considerando os dados expostos no enunciado e no gráfico, assinale a alternativa que apresenta corretamente a intensidade F da força resultante aplicada sobre a partícula no instante t 30 s.](/questoes/ufpr/2025/q10-1.png)",
      "images": [
       "/questoes/ufpr/2025/q10-texto-1.png",
       "/questoes/ufpr/2025/q10-texto-2.png",
@@ -358,12 +358,11 @@
      "number": 11,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "Atenção: em todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Quando for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO texto a seguir é referência para as questões 10 a 12.\n\n![Trecho com fórmula: Um objeto de massa constante m 0,2 kg desloca-se em um movimento unidimensional ao longo de uma linha reta, e sua](/questoes/ufpr/2025/q10-texto-1.png)\n\naceleração a é medida em função do tempo t, obtendo-se, então, o gráfico a seguir:\n\n![Figura](/questoes/ufpr/2025/q10-texto-2.png)\n\n![Trecho com fórmula: Sabe-se que a velocidade do objeto no instante t 40 s vale v1 25 m/s. Com base nos dados fornecidos no](/questoes/ufpr/2025/q11-1.png)\n\n![Trecho com fórmula: enunciado e no gráfico, assinale a alternativa que apresenta corretamente a velocidade v2 do objeto no instante t 50 s.](/questoes/ufpr/2025/q11-2.png)",
+     "statement_md": "Atenção: em todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Quando for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO texto a seguir é referência para as questões 10 a 12.\n\n![Trecho com fórmula: Um objeto de massa constante m 0,2 kg desloca-se em um movimento unidimensional ao longo de uma linha reta, e sua aceleração a é medida em função do tempo t, obtendo-se, então, o gráfico a seguir:](/questoes/ufpr/2025/q10-texto-1.png)\n\n![Figura](/questoes/ufpr/2025/q10-texto-2.png)\n\n![Trecho com fórmula: Sabe-se que a velocidade do objeto no instante t 40 s vale v1 25 m/s. Com base nos dados fornecidos no enunciado e no gráfico, assinale a alternativa que apresenta corretamente a velocidade v2 do objeto no instante t 50 s.](/questoes/ufpr/2025/q11-1.png)",
      "images": [
       "/questoes/ufpr/2025/q10-texto-1.png",
       "/questoes/ufpr/2025/q10-texto-2.png",
       "/questoes/ufpr/2025/q11-1.png",
-      "/questoes/ufpr/2025/q11-2.png",
       "/questoes/ufpr/2025/q11-A-1.png",
       "/questoes/ufpr/2025/q11-B-1.png",
       "/questoes/ufpr/2025/q11-C-1.png",
@@ -405,7 +404,7 @@
      "number": 12,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "Atenção: em todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Quando for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO texto a seguir é referência para as questões 10 a 12.\n\n![Trecho com fórmula: Um objeto de massa constante m 0,2 kg desloca-se em um movimento unidimensional ao longo de uma linha reta, e sua](/questoes/ufpr/2025/q10-texto-1.png)\n\naceleração a é medida em função do tempo t, obtendo-se, então, o gráfico a seguir:\n\n![Figura](/questoes/ufpr/2025/q10-texto-2.png)\n\n![Trecho com fórmula: Considerando os dados fornecidos no enunciado e no gráfico, assinale a alternativa que apresenta corretamente o valor do trabalho total W realizado sobre o objeto entre os instantes t 60 s e t 70 s.](/questoes/ufpr/2025/q12-1.png)",
+     "statement_md": "Atenção: em todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Quando for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO texto a seguir é referência para as questões 10 a 12.\n\n![Trecho com fórmula: Um objeto de massa constante m 0,2 kg desloca-se em um movimento unidimensional ao longo de uma linha reta, e sua aceleração a é medida em função do tempo t, obtendo-se, então, o gráfico a seguir:](/questoes/ufpr/2025/q10-texto-1.png)\n\n![Figura](/questoes/ufpr/2025/q10-texto-2.png)\n\n![Trecho com fórmula: Considerando os dados fornecidos no enunciado e no gráfico, assinale a alternativa que apresenta corretamente o valor do trabalho total W realizado sobre o objeto entre os instantes t 60 s e t 70 s.](/questoes/ufpr/2025/q12-1.png)",
      "images": [
       "/questoes/ufpr/2025/q10-texto-1.png",
       "/questoes/ufpr/2025/q10-texto-2.png",
@@ -451,7 +450,7 @@
      "number": 13,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "![Trecho com fórmula: O uso de múltiplos e submúltiplos de unidades de medida simplifica a escrita de números que, de outra forma, poderia se tornar muito extensa. Nesse sentido, considere que o diâmetro médio de fios de cabelo, em metros, vale e 0,000070 m. Assinale a alternativa que expressa corretamente o valor do diâmetro médio de fios de cabelo](/questoes/ufpr/2025/q13-1.png)\n\nusando múltiplos ou submúltiplos do metro.",
+     "statement_md": "![Trecho com fórmula: O uso de múltiplos e submúltiplos de unidades de medida simplifica a escrita de números que, de outra forma, poderia se tornar muito extensa. Nesse sentido, considere que o diâmetro médio de fios de cabelo, em metros, vale e 0,000070 m. Assinale a alternativa que expressa corretamente o valor do diâmetro médio de fios de cabelo usando múltiplos ou submúltiplos do metro.](/questoes/ufpr/2025/q13-1.png)",
      "images": [
       "/questoes/ufpr/2025/q13-1.png",
       "/questoes/ufpr/2025/q13-A-1.png",
@@ -495,7 +494,7 @@
      "number": 14,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "![Trecho com fórmula: Um aquecedor elétrico dissipa uma potência média P 4,4 kW quando está ligado e sujeito a uma tensão ΔV 220 V.](/questoes/ufpr/2025/q14-1.png)\n\nCom base nesses dados, assinale a alternativa que apresenta corretamente o valor da intensidade da corrente elétrica i que circula pelo aquecedor quando ele está operando na condição descrita.",
+     "statement_md": "![Trecho com fórmula: Um aquecedor elétrico dissipa uma potência média P 4,4 kW quando está ligado e sujeito a uma tensão ΔV 220 V. Com base nesses dados, assinale a alternativa que apresenta corretamente o valor da intensidade da corrente elétrica i que circula pelo aquecedor quando ele está operando na condição descrita.](/questoes/ufpr/2025/q14-1.png)",
      "images": [
       "/questoes/ufpr/2025/q14-1.png",
       "/questoes/ufpr/2025/q14-A-1.png",
@@ -539,7 +538,7 @@
      "number": 15,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "![Trecho com fórmula: Uma fonte de ondas produz, em um dado meio, uma onda propagante periódica com velocidade de propagação v e frequência f. Sabe-se que, para ondas em que f 25,0 Hz, a distância entre duas cristas sucessivas da onda produzida vale d 4,00 m. Com base nessas informações, assinale a alternativa que apresenta corretamente o valor da](/questoes/ufpr/2025/q15-1.png)\n\nvelocidade de propagação v da onda produzida para a frequência indicada.",
+     "statement_md": "![Trecho com fórmula: Uma fonte de ondas produz, em um dado meio, uma onda propagante periódica com velocidade de propagação v e frequência f. Sabe-se que, para ondas em que f 25,0 Hz, a distância entre duas cristas sucessivas da onda produzida vale d 4,00 m. Com base nessas informações, assinale a alternativa que apresenta corretamente o valor da velocidade de propagação v da onda produzida para a frequência indicada.](/questoes/ufpr/2025/q15-1.png)",
      "images": [
       "/questoes/ufpr/2025/q15-1.png",
       "/questoes/ufpr/2025/q15-A-1.png",
@@ -583,9 +582,10 @@
      "number": 16,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "O texto a seguir é referência para as questões 16 e 17.\n\nUma dada quantidade de gás ideal executa o processo termodinâmico apresentado no gráfico a seguir, iniciando no ponto A e terminando no ponto B:\n\n![Figura](/questoes/ufpr/2025/q16-texto-1.png)\n\nConsidere que a temperatura do gás no ponto A vale T_(A), e a temperatura no ponto B vale T_(B). Com base nas informações fornecidas no enunciado e no gráfico, assinale a alternativa que apresenta corretamente o valor da razão T_(B) T_(A) entre as temperaturas dos pontos B e A.\n\nT_(B) 3",
+     "statement_md": "O texto a seguir é referência para as questões 16 e 17.\n\nUma dada quantidade de gás ideal executa o processo termodinâmico apresentado no gráfico a seguir, iniciando no ponto A e terminando no ponto B:\n\n![Figura](/questoes/ufpr/2025/q16-texto-1.png)\n\n![Trecho com fórmula: Considere que a temperatura do gás no ponto A vale TA, e a temperatura no ponto B vale TB. Com base nas informações fornecidas no enunciado e no gráfico, assinale a alternativa que apresenta corretamente o valor da razão TB TA entre as temperaturas dos pontos B e A.](/questoes/ufpr/2025/q16-1.png)",
      "images": [
       "/questoes/ufpr/2025/q16-texto-1.png",
+      "/questoes/ufpr/2025/q16-1.png",
       "/questoes/ufpr/2025/q16-A-1.png",
       "/questoes/ufpr/2025/q16-B-1.png",
       "/questoes/ufpr/2025/q16-C-1.png",
@@ -671,7 +671,7 @@
      "number": 18,
      "area": "natureza",
      "subject": "Física",
-     "statement_md": "![Trecho com fórmula: Uma dada lente delgada convergente tem distância focal f 3,0 cm. Um objeto luminoso puntiforme é colocado no eixo principal da lente a uma distância p 4,0 cm do centro óptico da lente. Assinale a alternativa que apresenta](/questoes/ufpr/2025/q18-1.png)\n\ncorretamente a distância p′ em que ocorre a formação da imagem, medida a partir do centro óptico da lente.",
+     "statement_md": "![Trecho com fórmula: Uma dada lente delgada convergente tem distância focal f 3,0 cm. Um objeto luminoso puntiforme é colocado no eixo principal da lente a uma distância p 4,0 cm do centro óptico da lente. Assinale a alternativa que apresenta corretamente a distância p′ em que ocorre a formação da imagem, medida a partir do centro óptico da lente.](/questoes/ufpr/2025/q18-1.png)",
      "images": [
       "/questoes/ufpr/2025/q18-1.png",
       "/questoes/ufpr/2025/q18-A-1.png",
@@ -1014,7 +1014,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "O indivíduo 3 apresenta valores elevados de glicose e insulina devido à resistência insulínica, condição em que as células\n\nnão respondem adequadamente a esse hormônio."
+       "text_md": "O indivíduo 3 apresenta valores elevados de glicose e insulina devido à resistência insulínica, condição em que as células não respondem adequadamente a esse hormônio."
       },
       {
        "label": "B",
@@ -1054,7 +1054,7 @@
       },
       {
        "label": "C",
-       "text_md": "A seleção natural direcional, atuando em cada tipo de ambiente, pode levar à diferenciação entre os insetos ao longo das\n\ngerações e à especiação alopátrica."
+       "text_md": "A seleção natural direcional, atuando em cada tipo de ambiente, pode levar à diferenciação entre os insetos ao longo das gerações e à especiação alopátrica."
       },
       {
        "label": "D",
@@ -1090,7 +1090,7 @@
       },
       {
        "label": "D",
-       "text_md": "A seiva elaborada é produzida pelas folhas e transporta nutrientes orgânicos, como carboidratos, para diferentes partes\n\nda planta por meio do floema."
+       "text_md": "A seiva elaborada é produzida pelas folhas e transporta nutrientes orgânicos, como carboidratos, para diferentes partes da planta por meio do floema."
       },
       {
        "label": "E",
@@ -1114,7 +1114,7 @@
       },
       {
        "label": "B",
-       "text_md": "A insulina é produzida pelas bactérias a partir da expressão de moléculas de DNA recombinantes, que possuem, além do\n\ngenoma bacteriano, o gene da insulina humano."
+       "text_md": "A insulina é produzida pelas bactérias a partir da expressão de moléculas de DNA recombinantes, que possuem, além do genoma bacteriano, o gene da insulina humano."
       },
       {
        "label": "C",
@@ -1158,7 +1158,7 @@
       },
       {
        "label": "E",
-       "text_md": "Capim: produtores → coelhos: consumidores primários → cobras: consumidores secundários → águias: consumidores\n\nterciários → fungos: decompositores."
+       "text_md": "Capim: produtores → coelhos: consumidores primários → cobras: consumidores secundários → águias: consumidores terciários → fungos: decompositores."
       }
      ],
      "correct": "E",
@@ -1238,23 +1238,23 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "Despolarização: saída de K⁺ no neurônio motor → Repolarização: entrada de Na⁺ → Propagação do potencial de ação → Extremidade do axônio → Liberação de acetilcolina → Ligação de acetilcolina nos receptores de membrana das células musculares esqueléticas."
+       "text_md": "Despolarização: saída de K⁺ no neurônio motor **→** Repolarização: entrada de Na⁺ **→** Propagação do potencial de ação **→** Extremidade do axônio **→** Liberação de acetilcolina **→** Ligação de acetilcolina nos receptores de membrana das células musculares esqueléticas."
       },
       {
        "label": "B",
-       "text_md": "Repolarização: saída de K⁺ no neurônio motor → Despolarização: entrada de Na⁺ → Propagação do potencial de ação → Extremidade dos dendritos → Liberação de acetilcolina → Ligação de acetilcolina nos receptores de membrana das células musculares esqueléticas."
+       "text_md": "Repolarização: saída de K⁺ no neurônio motor **→** Despolarização: entrada de Na⁺ **→** Propagação do potencial de ação **→** Extremidade dos dendritos **→** Liberação de acetilcolina **→** Ligação de acetilcolina nos receptores de membrana das células musculares esqueléticas."
       },
       {
        "label": "C",
-       "text_md": "Despolarização: entrada de Na⁺ no neurônio motor → Repolarização: saída de K⁺ → Propagação do potencial de ação → Extremidade do axônio → Sinapse elétrica → Estímulo elétrico às células musculares esqueléticas."
+       "text_md": "Despolarização: entrada de Na⁺ no neurônio motor **→** Repolarização: saída de K⁺ **→** Propagação do potencial de ação **→** Extremidade do axônio **→** Sinapse elétrica **→** Estímulo elétrico às células musculares esqueléticas."
       },
       {
        "label": "D",
-       "text_md": "Repolarização: entrada de Na⁺ no neurônio motor → Despolarização: saída de K⁺ → Propagação do potencial de ação → Extremidade dos dendritos → Sinapse elétrica → Estímulo elétrico às células musculares esqueléticas."
+       "text_md": "Repolarização: entrada de Na⁺ no neurônio motor **→** Despolarização: saída de K⁺ **→** Propagação do potencial de ação **→** Extremidade dos dendritos **→** Sinapse elétrica **→** Estímulo elétrico às células musculares esqueléticas."
       },
       {
        "label": "E",
-       "text_md": "Despolarização: entrada de Na⁺ no neurônio motor → Repolarização: saída de K⁺ → Propagação do potencial de ação →\n\nExtremidade do axônio → Liberação de acetilcolina → Ligação de acetilcolina nos receptores de membrana das células musculares esqueléticas."
+       "text_md": "Despolarização: entrada de Na⁺ no neurônio motor **→** Repolarização: saída de K⁺ **→** Propagação do potencial de ação **→** Extremidade do axônio **→** Liberação de acetilcolina **→** Ligação de acetilcolina nos receptores de membrana das células musculares esqueléticas."
       }
      ],
      "correct": "E",
@@ -1302,7 +1302,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "A fase informacional do capitalismo se caracteriza pela terceira Revolução Industrial, pela integração do comércio mundial\n\ne pela industrialização de países em desenvolvimento."
+       "text_md": "A fase informacional do capitalismo se caracteriza pela terceira Revolução Industrial, pela integração do comércio mundial e pela industrialização de países em desenvolvimento."
       },
       {
        "label": "B",
@@ -1346,7 +1346,7 @@
       },
       {
        "label": "D",
-       "text_md": "A Perestroika, implementada pela URSS nos anos 1980, é um conjunto de reformas econômicas que substituiu\n\nmecanismos de planejamento estatal por mecanismos de economia de mercado."
+       "text_md": "A Perestroika, implementada pela URSS nos anos 1980, é um conjunto de reformas econômicas que substituiu mecanismos de planejamento estatal por mecanismos de economia de mercado."
       },
       {
        "label": "E",
@@ -1374,7 +1374,7 @@
       },
       {
        "label": "C",
-       "text_md": "O etanol é uma fonte de energia renovável, mas o uso de terras agrícolas para a produção de biocombustível pode\n\ncontribuir para o desmatamento de áreas naturais."
+       "text_md": "O etanol é uma fonte de energia renovável, mas o uso de terras agrícolas para a produção de biocombustível pode contribuir para o desmatamento de áreas naturais."
       },
       {
        "label": "D",
@@ -1410,7 +1410,7 @@
       },
       {
        "label": "D",
-       "text_md": "Os países onde a taxa de urbanização é inferior a 50% se concentram na África subsaariana e no sul da Ásia, regiões\n\nessas com os maiores números de pessoas extremamente pobres no mundo."
+       "text_md": "Os países onde a taxa de urbanização é inferior a 50% se concentram na África subsaariana e no sul da Ásia, regiões essas com os maiores números de pessoas extremamente pobres no mundo."
       },
       {
        "label": "E",
@@ -1446,7 +1446,7 @@
       },
       {
        "label": "E",
-       "text_md": "O crescimento da produção de cereais no mundo foi resultado das tecnologias da revolução verde e provocou a diminuição\n\nda desnutrição em escala mundial."
+       "text_md": "O crescimento da produção de cereais no mundo foi resultado das tecnologias da revolução verde e provocou a diminuição da desnutrição em escala mundial."
       }
      ],
      "correct": "E",
@@ -1462,7 +1462,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "O Egito exemplifica um processo mundial de melhora das condições de vida causada pela combinação de crescimento\n\neconômico com progresso tecnológico."
+       "text_md": "O Egito exemplifica um processo mundial de melhora das condições de vida causada pela combinação de crescimento econômico com progresso tecnológico."
       },
       {
        "label": "B",
@@ -1530,7 +1530,7 @@
       },
       {
        "label": "B",
-       "text_md": "A participação do estado de São Paulo no PIB industrial do país diminuiu devido ao crescimento mais rápido da indústria\n\nem outros estados."
+       "text_md": "A participação do estado de São Paulo no PIB industrial do país diminuiu devido ao crescimento mais rápido da indústria em outros estados."
       },
       {
        "label": "C",
@@ -1562,7 +1562,7 @@
       },
       {
        "label": "B",
-       "text_md": "a permissão de que povos conquistados mantivessem suas religiões mediante o pagamento da *jizia*, imposto cobrado de\n\nsúditos não muçulmanos."
+       "text_md": "a permissão de que povos conquistados mantivessem suas religiões mediante o pagamento da *jizia*, imposto cobrado de súditos não muçulmanos."
       },
       {
        "label": "C",
@@ -1630,7 +1630,7 @@
       },
       {
        "label": "C",
-       "text_md": "A religiosidade cristã, marcante nos séculos medievais e perceptível em diversas obras artísticas e textos do Renascimento\n\nno Ocidente."
+       "text_md": "A religiosidade cristã, marcante nos séculos medievais e perceptível em diversas obras artísticas e textos do Renascimento no Ocidente."
       },
       {
        "label": "D",
@@ -1658,7 +1658,7 @@
       },
       {
        "label": "B",
-       "text_md": "Tradicionalmente considerados heróis e forjados como símbolos de identidade nacional, os bandeirantes passaram a ser\n\nquestionados pela historiografia recente por suas ações violentas e excludentes, como o assassinato, a caça e a tentativa de escravização de indígenas nativos."
+       "text_md": "Tradicionalmente considerados heróis e forjados como símbolos de identidade nacional, os bandeirantes passaram a ser questionados pela historiografia recente por suas ações violentas e excludentes, como o assassinato, a caça e a tentativa de escravização de indígenas nativos."
       },
       {
        "label": "C",
@@ -1782,7 +1782,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "As classificações étnico-raciais e o estabelecimento de fronteiras arbitrárias por parte das metrópoles ajudam a explicar\n\ndiversos conflitos civis em países africanos formados após o processo de descolonização."
+       "text_md": "As classificações étnico-raciais e o estabelecimento de fronteiras arbitrárias por parte das metrópoles ajudam a explicar diversos conflitos civis em países africanos formados após o processo de descolonização."
       },
       {
        "label": "B",
@@ -1822,7 +1822,7 @@
       },
       {
        "label": "C",
-       "text_md": "O desenvolvimentismo da ditadura envolveu debates entre diferentes setores da sociedade, polarizados entre aqueles que\n\no viam como avanço moderno, representado na construção da hidrelétrica de Itaipu, e aqueles que o condenavam por violações a diferentes povos – no caso de Itaipu, o povo Avá-Guarani."
+       "text_md": "O desenvolvimentismo da ditadura envolveu debates entre diferentes setores da sociedade, polarizados entre aqueles que o viam como avanço moderno, representado na construção da hidrelétrica de Itaipu, e aqueles que o condenavam por violações a diferentes povos – no caso de Itaipu, o povo Avá-Guarani."
       },
       {
        "label": "D",
@@ -1841,7 +1841,7 @@
      "number": 55,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um senso comum bastante arraigado no Brasil, e é fruto de um projeto de embranquecimento e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na construção do estado.\n\nO imaginário popular é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um estereótipo que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a representatividade na política é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma classe operária, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do racismo ambiental. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, quilombolas e indígenas não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma reconstrução justa e humana.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nAssinale a alternativa que indica expressões do texto com significados convergentes.",
+     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um **senso comum** bastante arraigado no Brasil, e é fruto de um projeto de **embranquecimento** e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na **construção do estado**.\n\nO **imaginário popular** é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um **estereótipo** que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a **representatividade na política** é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma **classe operária**, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do **racismo ambiental**. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, **quilombolas e indígenas** não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma **reconstrução justa e humana**.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nAssinale a alternativa que indica expressões do texto com significados convergentes.",
      "images": [],
      "alternatives": [
       {
@@ -1873,7 +1873,7 @@
      "number": 56,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um senso comum bastante arraigado no Brasil, e é fruto de um projeto de embranquecimento e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na construção do estado.\n\nO imaginário popular é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um estereótipo que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a representatividade na política é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma classe operária, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do racismo ambiental. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, quilombolas e indígenas não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma reconstrução justa e humana.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nAssinale a alternativa que sintetiza a tese central do texto.",
+     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um **senso comum** bastante arraigado no Brasil, e é fruto de um projeto de **embranquecimento** e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na **construção do estado**.\n\nO **imaginário popular** é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um **estereótipo** que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a **representatividade na política** é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma **classe operária**, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do **racismo ambiental**. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, **quilombolas e indígenas** não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma **reconstrução justa e humana**.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nAssinale a alternativa que sintetiza a tese central do texto.",
      "images": [],
      "alternatives": [
       {
@@ -1905,7 +1905,7 @@
      "number": 57,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um senso comum bastante arraigado no Brasil, e é fruto de um projeto de embranquecimento e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na construção do estado.\n\nO imaginário popular é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um estereótipo que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a representatividade na política é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma classe operária, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do racismo ambiental. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, quilombolas e indígenas não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma reconstrução justa e humana.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nConsidere as seguintes afirmativas:\n\n1. As condições sociais da periferia de Porto Alegre foram a principal causa das enchentes.\n\n2. A população negra do Rio Grande do Sul forma a maior parte da população do estado.\n\n3. A reconstrução humana e justa do Rio Grande do Sul poderá combater o racismo ambiental.\n\n4. O autor do texto não sabia que havia negros no Rio Grande do Sul.\n\nAssinale a alternativa correta.",
+     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um **senso comum** bastante arraigado no Brasil, e é fruto de um projeto de **embranquecimento** e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na **construção do estado**.\n\nO **imaginário popular** é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um **estereótipo** que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a **representatividade na política** é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma **classe operária**, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do **racismo ambiental**. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, **quilombolas e indígenas** não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma **reconstrução justa e humana**.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nConsidere as seguintes afirmativas:\n\n1. As condições sociais da periferia de Porto Alegre foram a principal causa das enchentes.\n\n2. A população negra do Rio Grande do Sul forma a maior parte da população do estado.\n\n3. A reconstrução humana e justa do Rio Grande do Sul poderá combater o racismo ambiental.\n\n4. O autor do texto não sabia que havia negros no Rio Grande do Sul.\n\nAssinale a alternativa correta.",
      "images": [],
      "alternatives": [
       {
@@ -1937,7 +1937,7 @@
      "number": 58,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um senso comum bastante arraigado no Brasil, e é fruto de um projeto de embranquecimento e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na construção do estado.\n\nO imaginário popular é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um estereótipo que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a representatividade na política é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma classe operária, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do racismo ambiental. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, quilombolas e indígenas não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma reconstrução justa e humana.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nAssinale a alternativa que sintetiza a experiência relatada em primeira pessoa, no primeiro parágrafo.",
+     "statement_md": "O texto a seguir é referência para as questões 55 a 58.\n\nTragédia no RS apaga pessoas negras e escancara racismo ambiental\n\nNo início dos anos 2000, viajei a Mato Grosso do Sul para participar de um evento universitário. Lembro que na época eu causei espanto em alguns participantes ao dizer que eu era de Porto Alegre. A surpresa vinha acompanhada de um questionamento: “Não sabia que tinha negros no Rio Grande Sul”. Ao longo dos anos experimentei essa reação diversas vezes, em contextos e lugares diferentes.\n\nEssa percepção faz parte de um **senso comum** bastante arraigado no Brasil, e é fruto de um projeto de **embranquecimento** e apagamento das comunidades negras no estado. Um projeto bem-sucedido que há séculos invisibiliza não só a presença de pessoas negras, como também sua contribuição crucial na **construção do estado**.\n\nO **imaginário popular** é este: o Rio Grande do Sul é branco, constituído por uma grande colônia alemã, de ares europeus, lugar em que os moradores nem falam português. Um **estereótipo** que é reforçado pelas imagens dos municípios como Gramado e Canela, com seus chalés, fábricas de chocolates, vinhos e cafés coloniais.\n\nObviamente que existe uma inegável contribuição da colonização europeia na formação do estado, no entanto, o que se coloca aqui é a supervalorização dessa cultura e o apagamento de outras.\n\nSegundo dados do próprio governo do estado, o Rio Grande do Sul tem uma população negra de 21%. Os levantamentos também mostram que os negros são os mais pobres, ganham salários mais baixos e têm menos acesso à educação e à saúde quando comparados aos brancos. Além disso, a **representatividade na política** é pequena: apenas na última eleição foi eleita a primeira bancada negra de Porto Alegre.\n\nAs enchentes no Rio Grande do Sul revelam a existência de uma segregação racial no estado. A tragédia atingiu de maneira significativa a região metropolitana de Porto Alegre, por exemplo, um lugar onde reside grande parte da população negra e periférica.\n\nPortanto, são comunidades inteiras pertencentes a uma **classe operária**, que ocupam áreas de risco e que estão propensas a serem as primeiras vítimas das catástrofes climáticas.\n\nNão se pode falar em reconstrução de um estado sem levar em consideração os efeitos do **racismo ambiental**. A reconstrução deve se dar num contexto compreendendo que, historicamente, as comunidades periféricas, negras, **quilombolas e indígenas** não tiveram acesso a serviços básicos como saneamento, água potável, luz, acesso à internet, saúde e educação de qualidade.\n\nAs enchentes escancararam o racismo ambiental, portanto, será preciso dar atenção ainda maior às desigualdades raciais para uma **reconstrução justa e humana**.\n\nDisponível em: https://www.geledes.org.br/tragedia-no-rs-apaga-pessoas-negras-e-escancara-racismo-ambiental. Adaptado.\n\nAssinale a alternativa que sintetiza a experiência relatada em primeira pessoa, no primeiro parágrafo.",
      "images": [],
      "alternatives": [
       {
@@ -2003,10 +2003,8 @@
      "number": 60,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 60 e 61.\n\n![Figura: Entenda os juros](/questoes/ufpr/2025/q60-texto-1.png)\n\nJuros são o valor do dinheiro no tempo. Ou seja, funcionam como se fossem o aluguel do dinheiro. Os bancos e outras instituições financeiras fazem a intermediação entre quem tem dinheiro (poupador ou investidor) e quem precisa de dinheiro (tomador ou devedor). Se você é um poupador/investidor, o dinheiro que você aplicou na instituição financeira será emprestado ao tomador/devedor, que pagará o valor, mais juros ao banco. O banco, por sua vez, fica com parcela do valor pago como remuneração e devolve a você a quantia com juros no momento futuro, conforme combinado.\n\nO tomador vai devolver ao banco um valor superior ao que tomou emprestado e o poupador vai receber um montante maior do que o investido.\n\nTaxa de juros\n\nÉ o preço do “aluguel” do dinheiro por um período de tempo; percentual calculado pela divisão dos juros contratados pelo capital emprestado/poupado.\n\nSe os juros cobrados pelo empréstimo de R$1.000 durante um ano forem R$80, significa que o tomador pagou uma taxa de juros de 8% a.a. (ao ano). O cálculo é feito da seguinte forma: juros/capital, ou seja 80/1.000 = 8/100 por ano = 8% a.a.\n\nPor outro lado, considere o cenário em que um investimento de R$ 1.000 renda à taxa de juros de 5% a.a. (ao ano). Assim, o investidor receberá R$5 por cada R$100 investidos (5/100) durante um ano, o que, ao final do período, totalizará o montante de R$1.050.\n\nDisponível em: https://www.bcb.gov.br/cidadaniafinanceira/entendajuro.\n\nConsidere as seguintes afirmativas:\n\n1. As instituições financeiras atuam no meio do processo entre o investidor e o devedor.\n\n2. O devedor é o participante que sai lucrando no processo de empréstimo de dinheiro dos bancos.\n\n3. A taxa de juros define o valor da administração bancária na gestão de investimentos financeiros.\n\n4. O valor dos juros pago pelo devedor é igual ao valor lucrado pelo investidor.\n\nAssinale a alternativa correta.",
-     "images": [
-      "/questoes/ufpr/2025/q60-texto-1.png"
-     ],
+     "statement_md": "O texto a seguir é referência para as questões 60 e 61.\n\nEntenda os juros\n\nJuros são o valor do dinheiro no tempo. Ou seja, funcionam como se fossem o aluguel do dinheiro. Os bancos e outras instituições financeiras fazem a intermediação entre quem tem dinheiro (poupador ou investidor) e quem precisa de dinheiro (tomador ou devedor). Se você é um poupador/investidor, o dinheiro que você aplicou na instituição financeira será emprestado ao tomador/devedor, que pagará o valor, mais juros ao banco. O banco, por sua vez, fica com parcela do valor pago como remuneração e devolve a você a quantia com juros no momento futuro, conforme combinado.\n\nO tomador vai devolver ao banco um valor superior ao que tomou emprestado e o poupador vai receber um montante maior do que o investido.\n\nTaxa de juros\n\nÉ o preço do “aluguel” do dinheiro por um período de tempo; percentual calculado pela divisão dos juros contratados pelo capital emprestado/poupado.\n\nSe os juros cobrados pelo empréstimo de R$1.000 durante um ano forem R$80, significa que o tomador pagou uma taxa de juros de 8% a.a. (ao ano). O cálculo é feito da seguinte forma: juros/capital, ou seja 80/1.000 = 8/100 por ano = 8% a.a.\n\nPor outro lado, considere o cenário em que um investimento de R$ 1.000 renda à taxa de juros de 5% a.a. (ao ano). Assim, o investidor receberá R$5 por cada R$100 investidos (5/100) durante um ano, o que, ao final do período, totalizará o montante de R$1.050.\n\nDisponível em: https://www.bcb.gov.br/cidadaniafinanceira/entendajuro.\n\nConsidere as seguintes afirmativas:\n\n1. As instituições financeiras atuam no meio do processo entre o investidor e o devedor.\n\n2. O devedor é o participante que sai lucrando no processo de empréstimo de dinheiro dos bancos.\n\n3. A taxa de juros define o valor da administração bancária na gestão de investimentos financeiros.\n\n4. O valor dos juros pago pelo devedor é igual ao valor lucrado pelo investidor.\n\nAssinale a alternativa correta.",
+     "images": [],
      "alternatives": [
       {
        "label": "A",
@@ -2037,10 +2035,8 @@
      "number": 61,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "O texto a seguir é referência para as questões 60 e 61.\n\n![Figura: Entenda os juros](/questoes/ufpr/2025/q60-texto-1.png)\n\nJuros são o valor do dinheiro no tempo. Ou seja, funcionam como se fossem o aluguel do dinheiro. Os bancos e outras instituições financeiras fazem a intermediação entre quem tem dinheiro (poupador ou investidor) e quem precisa de dinheiro (tomador ou devedor). Se você é um poupador/investidor, o dinheiro que você aplicou na instituição financeira será emprestado ao tomador/devedor, que pagará o valor, mais juros ao banco. O banco, por sua vez, fica com parcela do valor pago como remuneração e devolve a você a quantia com juros no momento futuro, conforme combinado.\n\nO tomador vai devolver ao banco um valor superior ao que tomou emprestado e o poupador vai receber um montante maior do que o investido.\n\nTaxa de juros\n\nÉ o preço do “aluguel” do dinheiro por um período de tempo; percentual calculado pela divisão dos juros contratados pelo capital emprestado/poupado.\n\nSe os juros cobrados pelo empréstimo de R$1.000 durante um ano forem R$80, significa que o tomador pagou uma taxa de juros de 8% a.a. (ao ano). O cálculo é feito da seguinte forma: juros/capital, ou seja 80/1.000 = 8/100 por ano = 8% a.a.\n\nPor outro lado, considere o cenário em que um investimento de R$ 1.000 renda à taxa de juros de 5% a.a. (ao ano). Assim, o investidor receberá R$5 por cada R$100 investidos (5/100) durante um ano, o que, ao final do período, totalizará o montante de R$1.050.\n\nDisponível em: https://www.bcb.gov.br/cidadaniafinanceira/entendajuro.\n\nAnalise a seguinte situação:\n\nVocê investiu R$ 3.500,00 em uma instituição financeira, com uma taxa de juros de 8% ao ano.\n\nAssinale a alternativa que define o valor do lucro após um ano.",
-     "images": [
-      "/questoes/ufpr/2025/q60-texto-1.png"
-     ],
+     "statement_md": "O texto a seguir é referência para as questões 60 e 61.\n\nEntenda os juros\n\nJuros são o valor do dinheiro no tempo. Ou seja, funcionam como se fossem o aluguel do dinheiro. Os bancos e outras instituições financeiras fazem a intermediação entre quem tem dinheiro (poupador ou investidor) e quem precisa de dinheiro (tomador ou devedor). Se você é um poupador/investidor, o dinheiro que você aplicou na instituição financeira será emprestado ao tomador/devedor, que pagará o valor, mais juros ao banco. O banco, por sua vez, fica com parcela do valor pago como remuneração e devolve a você a quantia com juros no momento futuro, conforme combinado.\n\nO tomador vai devolver ao banco um valor superior ao que tomou emprestado e o poupador vai receber um montante maior do que o investido.\n\nTaxa de juros\n\nÉ o preço do “aluguel” do dinheiro por um período de tempo; percentual calculado pela divisão dos juros contratados pelo capital emprestado/poupado.\n\nSe os juros cobrados pelo empréstimo de R$1.000 durante um ano forem R$80, significa que o tomador pagou uma taxa de juros de 8% a.a. (ao ano). O cálculo é feito da seguinte forma: juros/capital, ou seja 80/1.000 = 8/100 por ano = 8% a.a.\n\nPor outro lado, considere o cenário em que um investimento de R$ 1.000 renda à taxa de juros de 5% a.a. (ao ano). Assim, o investidor receberá R$5 por cada R$100 investidos (5/100) durante um ano, o que, ao final do período, totalizará o montante de R$1.050.\n\nDisponível em: https://www.bcb.gov.br/cidadaniafinanceira/entendajuro.\n\nAnalise a seguinte situação:\n\nVocê investiu R$ 3.500,00 em uma instituição financeira, com uma taxa de juros de 8% ao ano.\n\nAssinale a alternativa que define o valor do lucro após um ano.",
+     "images": [],
      "alternatives": [
       {
        "label": "A",
@@ -2071,7 +2067,7 @@
      "number": 62,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "Observe as formulações abaixo, extraídas de questões de processos seletivos:\n\n1. Uma das etapas do processo de reciclagem de plásticos é a separação de diferentes polímeros. Um dos métodos mais empregados consiste na separação por densidade. Uma amostra contendo diferentes polímeros é triturada e colocada num líquido. Os plásticos mais densos que o líquido afundam e os menos densos flutuam, permitindo a separação.\n\n2. Dois tipos de transporte que podem acontecer nas membranas plasmáticas são o transporte passivo e o transporte ativo. O primeiro pode acontecer por simples difusão do elemento a ser transportado através da bicamada lipídica da membrana. Já o transporte ativo sempre depende de proteínas que atravessam a membrana, às quais o elemento a ser transportado se liga, desligando-se posteriormente do outro lado da membrana. Assinale a alternativa que substitui, respectiva e adequadamente, os itens grifados em cada um dos enunciados, respeitando o nexo sintático-semântico:",
+     "statement_md": "Observe as formulações abaixo, extraídas de questões de processos seletivos:\n\n1. Uma das etapas do processo de reciclagem de plásticos é a separação de diferentes polímeros. Um dos métodos mais empregados consiste na separação por densidade. Uma amostra **contendo** diferentes polímeros é triturada e colocada num líquido. Os plásticos mais densos que o líquido afundam e os menos densos flutuam, **permitindo** a separação.\n\n2. Dois tipos de transporte que podem acontecer nas membranas plasmáticas são o transporte passivo e o transporte ativo. O primeiro pode acontecer por simples difusão do elemento a ser transportado através da bicamada lipídica da membrana. **Já** o transporte ativo sempre depende de proteínas que atravessam a membrana, às quais o elemento a ser transportado se liga, desligando-se posteriormente do outro lado da membrana.\n\nAssinale a alternativa que substitui, respectiva e adequadamente, os itens grifados em cada um dos enunciados, respeitando o nexo sintático-semântico:",
      "images": [],
      "alternatives": [
       {
@@ -2148,7 +2144,7 @@
       },
       {
        "label": "C",
-       "text_md": "As chamadas línguas de cultura apresentam processo de estandardização em que atuam fatores internos e externos à\n\nnatureza linguística."
+       "text_md": "As chamadas línguas de cultura apresentam processo de estandardização em que atuam fatores internos e externos à natureza linguística."
       },
       {
        "label": "D",
@@ -2176,7 +2172,7 @@
       },
       {
        "label": "B",
-       "text_md": "A estandardização consiste em um processo de normatização de padrões gerais acerca de representações escritas das\n\nlínguas humanas."
+       "text_md": "A estandardização consiste em um processo de normatização de padrões gerais acerca de representações escritas das línguas humanas."
       },
       {
        "label": "C",
@@ -2199,10 +2195,8 @@
      "number": 66,
      "area": "linguagens",
      "subject": "Língua Portuguesa",
-     "statement_md": "Leia o texto a seguir:\n\n![Figura: A Lua está encolhendo](/questoes/ufpr/2025/q66-1.png)\n\nA exemplo de uma uva que se enruga ao virar uma passa, a Lua está encolhendo e ganhando vincos. Mas por não ser feito de matéria flexível como a fruta, o astro se deforma de modo mais violento. As falhas geológicas se multiplicam e terremotos e deslizamentos de terra se tornam mais comuns. A circunferência da Lua diminuiu mais de 45 metros nas últimas centenas de milhões de anos à medida que seu núcleo foi se resfriando. Pesquisadores da Nasa, a agência espacial norte-americana, e de universidades e institutos da América do Norte verificaram que a contração lunar provocou o surgimento de falhas tectônicas no polo sul lunar. Algumas regiões afetadas pelas deformações e instabilidades de terreno se situam em áreas cogitadas como local de pouso da missão Artemis 3, iniciativa da Nasa prevista para 2026 que pretende levar novamente astronautas para a Lua. “Nossa modelagem sugere que terremotos superficiais capazes de produzir fortes tremores de solo na região polar sul são possíveis de ocorrer a partir de eventos de deslizamento em falhas existentes ou novas que venham a se formar”, diz o geólogo Thomas Watters, do Instituto Smithsonian, autor principal do estudo, em comunicado à imprensa.\n\nA Lua está encolhendo, *Revista Pesquisa FAPESP*, n. 337, p. 7, mar. 2024. De acordo com o texto, assinale a alternativa correta.",
-     "images": [
-      "/questoes/ufpr/2025/q66-1.png"
-     ],
+     "statement_md": "Leia o texto a seguir:\n\nA Lua está encolhendo\n\nA exemplo de uma uva que se enruga ao virar uma passa, a Lua está encolhendo e ganhando vincos. Mas por não ser feito de matéria flexível como a fruta, o astro se deforma de modo mais violento. As falhas geológicas se multiplicam e terremotos e deslizamentos de terra se tornam mais comuns. A circunferência da Lua diminuiu mais de 45 metros nas últimas centenas de milhões de anos à medida que seu núcleo foi se resfriando. Pesquisadores da Nasa, a agência espacial norte-americana, e de universidades e institutos da América do Norte verificaram que a contração lunar provocou o surgimento de falhas tectônicas no polo sul lunar. Algumas regiões afetadas pelas deformações e instabilidades de terreno se situam em áreas cogitadas como local de pouso da missão Artemis 3, iniciativa da Nasa prevista para 2026 que pretende levar novamente astronautas para a Lua. “Nossa modelagem sugere que terremotos superficiais capazes de produzir fortes tremores de solo na região polar sul são possíveis de ocorrer a partir de eventos de deslizamento em falhas existentes ou novas que venham a se formar”, diz o geólogo Thomas Watters, do Instituto Smithsonian, autor principal do estudo, em comunicado à imprensa.\n\nA Lua está encolhendo, *Revista Pesquisa FAPESP*, n. 337, p. 7, mar. 2024.\n\nDe acordo com o texto, assinale a alternativa correta.",
+     "images": [],
      "alternatives": [
       {
        "label": "A",
@@ -2218,7 +2212,7 @@
       },
       {
        "label": "D",
-       "text_md": "O pouso da missão Artemis 3, previsto para 2026, está cogitado para a zona de deformações provocadas por\n\ninstabilidades do solo lunar."
+       "text_md": "O pouso da missão Artemis 3, previsto para 2026, está cogitado para a zona de deformações provocadas por instabilidades do solo lunar."
       },
       {
        "label": "E",
@@ -2254,7 +2248,7 @@
       },
       {
        "label": "E",
-       "text_md": "Os versos “e a cidade está no homem / que está em outra cidade” indicam que o passado vivido em São Luís do Maranhão\n\nsegue entranhado no poeta enquanto ele vive como exilado político em Buenos Aires."
+       "text_md": "Os versos “e a cidade está no homem / que está em outra cidade” indicam que o passado vivido em São Luís do Maranhão segue entranhado no poeta enquanto ele vive como exilado político em Buenos Aires."
       }
      ],
      "correct": "E",
@@ -2338,7 +2332,7 @@
       },
       {
        "label": "B",
-       "text_md": "Mesmo enquanto escreve seu diário, Carolina tem consciência de que vive num lugar insalubre, o que não a impede de\n\nsonhar com uma situação menos desumana."
+       "text_md": "Mesmo enquanto escreve seu diário, Carolina tem consciência de que vive num lugar insalubre, o que não a impede de sonhar com uma situação menos desumana."
       },
       {
        "label": "C",
@@ -2382,7 +2376,7 @@
       },
       {
        "label": "E",
-       "text_md": "Gleyce Kelly é uma moça pobre, caixa de farmácia, que namora Neto, engravida, é abandonada por ele, mas decide ter o\n\nfilho, que só conhecerá o pai quando tiver em torno de três anos."
+       "text_md": "Gleyce Kelly é uma moça pobre, caixa de farmácia, que namora Neto, engravida, é abandonada por ele, mas decide ter o filho, que só conhecerá o pai quando tiver em torno de três anos."
       }
      ],
      "correct": "E",
@@ -2406,7 +2400,7 @@
       },
       {
        "label": "C",
-       "text_md": "Diferentemente das situações relatadas em outros contos, a experiência narrada em “Espiral” é encarada pelo protagonista\n\ncomo um estudo de relações humanas."
+       "text_md": "Diferentemente das situações relatadas em outros contos, a experiência narrada em “Espiral” é encarada pelo protagonista como um estudo de relações humanas."
       },
       {
        "label": "D",
@@ -2489,7 +2483,7 @@
      "number": 75,
      "area": "humanas",
      "subject": "Filosofia",
-     "statement_md": "“Quando nós falamos que nosso rio é sagrado, as pessoas dizem: ‘Isso é algum folclore deles’.”\n\nKrenak, A. *Ideias para adiar o fim do mundo*. São Paulo: Companhia das Letras, 2019. p. 49. Na obra *Ideias para adiar o fim do mundo*, Ailton Krenak sustenta que a filosofia indígena se estrutura a partir:",
+     "statement_md": "“Quando nós falamos que nosso rio é sagrado, as pessoas dizem: ‘Isso é algum folclore deles’.”\n\nKrenak, A. *Ideias para adiar o fim do mundo*. São Paulo: Companhia das Letras, 2019. p. 49.\n\nNa obra *Ideias para adiar o fim do mundo*, Ailton Krenak sustenta que a filosofia indígena se estrutura a partir:",
      "images": [],
      "alternatives": [
       {
@@ -2521,7 +2515,7 @@
      "number": 76,
      "area": "humanas",
      "subject": "Filosofia",
-     "statement_md": "“Enquanto a sensação e a memória apenas são conhecimento de fato, o que é uma coisa passada e irrevogável, a ciência é o conhecimento das consequências, e a dependência de um fato com relação a outro, pelo que, a partir daquilo que presentemente sabemos fazer, sabemos como fazer qualquer outra coisa quando quisermos, ou também, em outra ocasião.”\n\nHobbes, T. *Leviatã*. São Paulo: Abril Cultural, 1988, p. 30. (Coleção Os Pensadores) De acordo com a passagem apresentada e com a obra de que foi retirada, é correto dizer que, para Thomas Hobbes:",
+     "statement_md": "“Enquanto a sensação e a memória apenas são conhecimento de fato, o que é uma coisa passada e irrevogável, a ciência é o conhecimento das consequências, e a dependência de um fato com relação a outro, pelo que, a partir daquilo que presentemente sabemos fazer, sabemos como fazer qualquer outra coisa quando quisermos, ou também, em outra ocasião.”\n\nHobbes, T. *Leviatã*. São Paulo: Abril Cultural, 1988, p. 30. (Coleção Os Pensadores)\n\nDe acordo com a passagem apresentada e com a obra de que foi retirada, é correto dizer que, para Thomas Hobbes:",
      "images": [],
      "alternatives": [
       {
@@ -2602,7 +2596,7 @@
       },
       {
        "label": "D",
-       "text_md": "O pensamento e a consciência são decorrências da relação entre indivíduo e natureza, ou seja, derivam das relações\n\nmateriais."
+       "text_md": "O pensamento e a consciência são decorrências da relação entre indivíduo e natureza, ou seja, derivam das relações materiais."
       },
       {
        "label": "E",
@@ -2622,7 +2616,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "As ideias do positivismo que mais influenciaram Martineau se vinculavam à proposta de uma nova disciplina fundada em\n\num método positivo, uniforme e confiável, a serviço do estudo da sociedade."
+       "text_md": "As ideias do positivismo que mais influenciaram Martineau se vinculavam à proposta de uma nova disciplina fundada em um método positivo, uniforme e confiável, a serviço do estudo da sociedade."
       },
       {
        "label": "B",
@@ -2670,7 +2664,7 @@
       },
       {
        "label": "E",
-       "text_md": "A história da Sociologia tem mostrado consistentemente que as contribuições de autoras mulheres foram apagadas\n\nposteriormente, sobretudo durante a formação do cânone sociológico."
+       "text_md": "A história da Sociologia tem mostrado consistentemente que as contribuições de autoras mulheres foram apagadas posteriormente, sobretudo durante a formação do cânone sociológico."
       }
      ],
      "correct": "E",
@@ -2694,7 +2688,7 @@
       },
       {
        "label": "C",
-       "text_md": "A Sociologia é produto teórico e analítico de seu próprio tempo histórico-social, visto que se constituiu como ciência a partir\n\ndas contradições de um sistema produtivo ainda em formação no continente europeu."
+       "text_md": "A Sociologia é produto teórico e analítico de seu próprio tempo histórico-social, visto que se constituiu como ciência a partir das contradições de um sistema produtivo ainda em formação no continente europeu."
       },
       {
        "label": "D",
@@ -2718,7 +2712,7 @@
      "alternatives": [
       {
        "label": "A",
-       "text_md": "não se trata de componente resultante das análises sobre as desigualdades sociais, culturais ou de classe, mas de fator\n\ndeterminante da estrutura social que institui um modo de hierarquizar diferentes formas de sociabilidade."
+       "text_md": "não se trata de componente resultante das análises sobre as desigualdades sociais, culturais ou de classe, mas de fator determinante da estrutura social que institui um modo de hierarquizar diferentes formas de sociabilidade."
       },
       {
        "label": "B",
@@ -2747,7 +2741,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind atemberaubend. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum Künstliche Intelligenz den Menschen nicht das Wasser reichen könne.\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der Vergangenheit für die Gegenwart lernen können. “KI kann für uns Erkenntnisse, die sich aus den gesammelten Daten ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. Trotz der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem \\_\\_\\_\\_\\_\\_ Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nMarkieren Sie die Alternative, welche die Lücke (Absatz 5) richtig ergänzt.",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nMarkieren Sie die Alternative, welche die Lücke (Absatz 5) richtig ergänzt.",
      "images": [],
      "alternatives": [
       {
@@ -2781,7 +2775,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Das Wort „atemberaubend“ (Untertitel) bedeutet auch:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nDas Wort „**atemberaubend**“ (Untertitel) bedeutet auch:",
      "images": [],
      "alternatives": [
       {
@@ -2815,7 +2809,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Die Stelle „Künstliche Intelligenz den Menschen nicht das Wasser reichen könne“ (Absatz 1) meint:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nDie Stelle „**Künstliche Intelligenz den Menschen nicht das Wasser reichen könne**“ (Absatz 1) meint:",
      "images": [],
      "alternatives": [
       {
@@ -2849,7 +2843,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Nach Mayer-Schönberger Meinung:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nNach Mayer-Schönberger Meinung:",
      "images": [],
      "alternatives": [
       {
@@ -2883,7 +2877,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Das Wort „die“, im Kasten (Absatz 2), bezieht sich auf:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nDas Wort „die“, im Kasten (Absatz 2), bezieht sich auf:",
      "images": [],
      "alternatives": [
       {
@@ -2917,7 +2911,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Laut des Textes, die Menschen in der Zeit von Henry Ford:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nLaut des Textes, die Menschen in der Zeit von Henry Ford:",
      "images": [],
      "alternatives": [
       {
@@ -2951,7 +2945,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Universität Oxford Forscher Mayer-Schönberger beklagt:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nUniversität Oxford Forscher Mayer-Schönberger beklagt:",
      "images": [],
      "alternatives": [
       {
@@ -2985,7 +2979,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Alemão",
      "language": "alemao",
-     "statement_md": "Das Wort „Trotz“ (Absatz 4) benennt:",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 83 bis 90.\n\n*Die Fortschritte in der KI-Entwicklung sind* ***atemberaubend****. Die großen Tech-Unternehmen präsentieren immer neue* *KI-Sprachmodelle. Doch für wahre Innovation fehlt den Modellen ein entscheidender Faktor.*\n\nInnovationen durch Träumen. Schön wär's, möchte man meinen. Aber genau das ist enorm wichtig, um innovativ zu sein, sagt der Informationswissenschaftler Viktor Mayer-Schönberger. Und genau das sei auch der Grund, warum **Künstliche Intelligenz den** **Menschen nicht das Wasser reichen könne.**\n\n“Wir Menschen können uns Dinge vorstellen, die es noch nicht gibt”, so Mayer-Schönberger, der an der Universität Oxford forscht. KI sei zwar mit riesigen Datenmengen trainiert worden, das seien aber Daten aus der Vergangenheit. Sie würden spiegeln, was wir aus der **Vergangenheit** für die **Gegenwart** lernen können. “**KI** kann für uns **Erkenntnisse**, **die** sich aus den gesammelten **Daten** ergeben, leichter zugänglich machen, aber sie denkt sich nichts Neues aus”, sagt der Informationswissenschaftler im DW-Gespräch.\n\nWenn also die Gegenwart oder die Zukunft ganz anders ist als die Vergangenheit, dann hilft uns die KI nicht, die richtigen Lösungen zu finden. Wenn die Menschen in der Zeit von Henry Ford gefragt worden wären, was sie gerne möchten, hätten die meisten wohl geantwortet: ‘ein schnelleres Pferd’, also eine Lösung aus den Erfahrungen der Vergangenheit. Ein Auto mit Verbrennungsmotor zu entwickeln war aber eine Innovation, die sich nicht logisch aus der Vergangenheit ergeben hat.\n\nDie KI ist damit ein Werkzeug, um große Datenmengen auszuwerten und um die Effizienz zu steigern, vor allem in Zeiten wirtschaftlich ruhigen Fahrwassers. Wir leben allerdings nicht in stabilen Zeiten. Die Herausforderungen, die sich durch den Klimawandel ergeben, erfordern darüber hinausgehende Innovationen. Ausgerechnet in dieser Zeit habe sich aber die Innovationskraft und Innovationsgeschwindigkeit verlangsamt, beklagt Mayer-Schönberger. **Trotz** der rasanten Fortschritte im Bereich KI.\n\nBeim Thema ‘Wissen teilen’ geht es vor allem **\\_\\_\\_\\_\\_\\_** Daten. Große Datenmengen lassen sich mit Hilfe von KI zunehmend gut auswerten. Es werden immer mehr Daten gesammelt, heißt es beim Bundesverband der Deutschen Industrie (BDI). Von 2012 bis 2022 hat sich demnach das weltweit generierte Datenvolumen verzehnfacht. Bis 2025 soll es sich nochmals verdreifachen.\n\nVerfügbar unter: https://www.dw.com/de/weniger-innovation-trotz-ki/a-69146014. Angeglichener Text.\n\nDas Wort „Trotz“ (Absatz 4) benennt:",
      "images": [],
      "alternatives": [
       {
@@ -3189,7 +3183,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "¿Qué efectos tiene sumergirse en el agua según Easkey Britton?",
+     "statement_md": "El texto que sigue es la referencia para las cuestiones 87 y 88.\n\nDicen que nuestra vieja historia de amor con el agua tiene mucho que ver con el recuerdo del refugio amniótico, en el útero de nuestra madre. Y también por la indeleble huella del primer organismo unicelular de hace millones de años. Nos lo advirtió el filósofo británico Alan Watts: “No viniste a este mundo. Saliste de él, como una ola del océano. No eres un extraño aquí”. Entre el cielo y la tierra somos criaturas fronterizas que, de asombro en asombro, se sienten hermanadas en las infinitas transmutaciones “del mar vivo del gran mundo”, leemos en El libro del agua y el fuego: El enigma de Louis Cattiaux, de Raimon Arola (Herder, 2022). Nos creemos criaturas de campo, montaña o ciudad, pero el agua es también nuestro territorio. En el agua “te sumerges en otra dimensión donde rigen otros valores más elementales. Y mientras nos esforzamos por mantenernos a flote, recuperamos nuestra olvidada condición de animales”, explica por teléfono María Belmonte, autora de El murmullo del agua (Acantilado, 2024). Somos una de las muchas formas del agua, y asumirlo es una purificante bendición. “Cada uno de nosotros llevamos en nuestras venas la corriente salina de nuestra sangre, en la cual el sodio, el potasio y el calcio se hallan en proporciones muy semejantes a las que existen en el agua del mar”, explicó la bióloga marina estadounidense Rachel Carson en El mar que nos rodea, publicado en 1951. De los océanos venimos y “por eso sumergirnos nos restaura”, afirma por videollamada Easkey Britton, doctora en Medio Ambiente y Sociedad por la Universidad Nacional de Irlanda. “Al meternos en el agua, especialmente si es fría, nos sentimos muy bien. Nos ayuda a conectar con otros y con nosotros mismos”, añade. Después de un baño de mar estamos más presentes, menos distraídos. “Vivimos una especie de reset del sistema nervioso”, según Britton, autora de Ebb and Flow (Flujo y reflujo, sin edición en español; Watkins, 2023).\n\nDisponible en: https://elpais.com/ideas/2024-08-04/animales-liquidos-por-que-meternos-en-el-agua-nos-sienta-tan-bien.html. Adaptado.\n\n¿Qué efectos tiene sumergirse en el agua según Easkey Britton?",
      "images": [],
      "alternatives": [
       {
@@ -3257,7 +3251,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Espanhol",
      "language": "espanhol",
-     "statement_md": "Según la encuesta, ¿cuál es el principal interés de los menores en relación con su privacidad en Internet?",
+     "statement_md": "El texto que sigue es la referencia para las cuestiones 89 y 90.\n\n¿Qué estrategias siguen las familias para limitar o controlar la actividad de sus hijos en Internet? Según un informe de Save the Children, el 38% les explica los riesgos existentes; el 30% establece un límite de horas de conexión; el 25% les ayuda a actuar frente a posibles riesgos, y el 23% les sigue en sus cuentas de redes sociales.\n\nLa encuesta, en la que han participado más de 3.300 chavales españoles de entre 14 y 17 años, arroja que el interés de los menores por su privacidad está más relacionado con “ganar libertad e intimidad respecto a sus padres”, que con mecanismos para la protección de sus datos personales.\n\nCasi el 58% de los participantes aseguró que utiliza Internet “de manera habitual” desde los 11 años, y casi 1 de cada 3 lo hacía antes de cumplir 10 – la OMS recomienda cero uso hasta los dos años, menos de una hora al día entre tres y cinco años, y menos de dos diarias a partir de los cinco años. Casi el 67% de los adolescentes afirmó conectarse varias veces al día, y más de un 20% reportó estar “permanentemente conectado”. Las horas de conexión van aumentando con la edad: frente al 12% de los que tienen 14 años que se conectan más de 4 horas al día, un 21% de los 16 lo hace.\n\n“Cruzando la edad de inicio y el tiempo de conexión posterior, podemos observar una clara relación entre la exposición temprana y un uso más intenso: el 25% de los adolescentes que pasan más de 4 horas al día en Internet son aquellos que empezaron a usarlo antes de los 10 años, frente al 12,9% de los que comenzaron a los 14 años o más”, apunta Del Moral, que señala que ese mayor consumo se debe a la incorporación temprana de formas de ocio o consumo online que se convierten en hábito. El 91% de los chavales reportó que la red que más usan es Whatsapp, seguida de Instagram (79,2%) y TikTok (74,4%).\n\nSobre la “no conexión”, la mayoría manifestó que se produce porque no les es posible estar conectados, no porque decidan desconectar. “El único espacio claro de desconexión del móvil obligatorio son las clases, sin embargo, los adolescentes reportaron cómo el profesorado a veces es laxo, siendo posible, en ocasiones, que hayan visto series en sus horas de clase”, indica el trabajo.\n\nRelacionado con los tiempos de consumo, el trabajo muestra que aquellos que pasan más horas conectados muestran unas tasas más altas respecto a la “incapacidad para superar dificultades”, “tener una visión negativa sobre la propia situación” o “dificultad para manejar problemas personales”. El 30,9% de los menores que se conectan más de 4 horas al día responden que “siempre o casi siempre” sienten que las dificultades se acumulaban tanto que no pueden superarlas, casi el doble con respecto a los que pasan menos tiempo conectados (18,9%).\n\ncomo-saltarse-las-apps-de-control-parental.html.\n\nSegún la encuesta, ¿cuál es el principal interés de los menores en relación con su privacidad en Internet?",
      "images": [],
      "alternatives": [
       {
@@ -3291,7 +3285,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de leur départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était démantelée par les forces de l’ordre. Depuis, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. Notre action\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs ailleurs.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nD’après le texte, l’objectif principal du spectacle est de :",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nD’après le texte, l’objectif principal du spectacle est de :",
      "images": [],
      "alternatives": [
       {
@@ -3325,7 +3319,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Qui sont les personnes visées par l’action de Clowns Sans Frontières ?",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nQui sont les personnes visées par l’action de Clowns Sans Frontières ?",
      "images": [],
      "alternatives": [
       {
@@ -3359,7 +3353,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "L’histoire racontée par le spectacle porte sur :",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nL’histoire racontée par le spectacle porte sur :",
      "images": [],
      "alternatives": [
       {
@@ -3393,7 +3387,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Quelle forme verbale remplace le mot souligné dans l’extrait suivant : « la ‘Jungle de Calais’ était démantelée par les forces de l’ordre »?",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nQuelle forme verbale remplace le mot souligné dans l’extrait suivant : « la ‘Jungle de Calais’ était **démantelée** par les forces de l’ordre »?",
      "images": [],
      "alternatives": [
       {
@@ -3427,7 +3421,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Le terme qui remplace le mot ailleurs dans la phrase suivante « Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs ailleurs » est :",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nLe terme qui remplace le mot **ailleurs** dans la phrase suivante « Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs** » est :",
      "images": [],
      "alternatives": [
       {
@@ -3461,7 +3455,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "À qui fait référence le mot leur dans l’extrait suivant : « Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de leur départ vers le Royaume-Uni »?",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nÀ qui fait référence le mot **leur** dans l’extrait suivant : « Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni »?",
      "images": [],
      "alternatives": [
       {
@@ -3495,7 +3489,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Sur le spectacle promu par le groupe Clowns Sans Frontières, il est correct d’affirmer que :",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nSur le spectacle promu par le groupe Clowns Sans Frontières, il est correct d’affirmer que :",
      "images": [],
      "alternatives": [
       {
@@ -3529,7 +3523,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Francês",
      "language": "frances",
-     "statement_md": "Signalez l’expression qui remplace depuis dans la phrase: « Depuis, de nouveaux camps informels continuent de voir le jour ».",
+     "statement_md": "Les questions 83 à 90 portent sur le texte ci-dessous.\n\nRire et rêver : un spectacle à Calais !\n\nDepuis 2023, *Clowns Sans Frontières-France* collabore avec le *Secours Catholique* à Calais. Le spectacle vivant permet d’offrir une bulle de répit aux personnes en situation d’exil, une parenthèse d’imaginaire pour s’évader du quotidien et rêver d’un avenir meilleur\n\nUn spectacle, pour qui ?\n\nLa ville de Calais et ses alentours représentent la principale zone de transit entre la France et le Royaume-Uni. Ce territoire clé en matière de politique migratoire française est marqué par de nombreux besoins humanitaires et par des tensions entre les différents acteurs. Depuis plus de 20 ans, des personnes en quête d’une vie meilleure s’installent provisoirement sur les côtes françaises, dans l’attente de **leur** départ vers le Royaume-Uni. En 2016, la « Jungle de Calais » (plus vaste camp informel en Europe) était **démantelée** par les forces de l’ordre. **Depuis**, de nouveaux camps informels continuent de voir le jour. Sur place, les conditions de vie des personnes en situation d’exil, déjà précaires, continuent de se détériorer.\n\nTraumatisées par les difficultés rencontrées sur le chemin de l’exil, mais aussi par la rudesse des conditions d’accueil, ces personnes, parfois mineures, souffrent, tant physiquement que moralement. Par le biais des arts vivants, Clowns Sans Frontières-France participe à leur prise en charge psychosociale, contribuant ainsi à leur bien-être psychique et à leur reconstruction. **Notre action**\n\nEn mai 2024, une équipe d’artistes bénévoles, composée de 2 musiciens, 1 danseur et 3 comédiens/clowns, s’est rendue dans un centre d’accueil de jour géré par le Secours Catholique à Calais. Ils ont joué un spectacle qui mêle imaginaire et des objets du quotidien, détournés de leur utilisation habituelle, pour emmener les spectateurs **ailleurs**.\n\nLe spectacle raconte l’histoire d’un groupe de migrants qui arrive à un endroit et cherche une place pour s’installer. Ils tentent de monter un campement de fortune, mais ne réussissant pas, ils finissent par installer « autre chose », et d’y convier le public pour un moment de fête.\n\nLes arts vivants ont permis à la centaine d’adultes et d’enfants présents de vivre un moment hors du temps, rempli d’émotions et de rires. Le spectacle s’est terminé par une invitation à prendre part à un bal festif !\n\nDisponible sur: https://www.clowns-sans-frontieres-france.org/notre-actualite/terrain/rire-et-rever-un-spectacle-a-calais.\n\nSignalez l’expression qui remplace **depuis** dans la phrase: « **Depuis**, de nouveaux camps informels continuent de voir le jour ».",
      "images": [],
      "alternatives": [
       {
@@ -3597,7 +3591,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "According to the text, it is correct to say that:",
+     "statement_md": "The following text is reference to questions 83 and 84.\n\nGlobal Female Leaders Summit\n\nJennifer Colpas\n\nCo-Founder and Executive Chair | Tierra Grata, Colombia\n\nJennifer Colpas is a 32-year-old Colombian, passionate about rural development, a specialist in Social Responsibility with more than seven years of experience in leading social development programs in Brazil and Colombia. She is a Chevening scholar and is a Master’s in Social Development. She is Co-Founder and Executive Director of Tierra Grata, a social enterprise created by a group of young people with experience in social intervention, international cooperation and research. Colpas believes that the essentials are for everyone.\n\nTierra Grata was founded in April 2016 with the purpose of providing access to basic energy, water, and sanitation services to rural communities in Colombia. Colpas and Tierra Grata take part of youth networks and associations that are changing the world as Young Water Solutions and One Young World.\n\nAvailable in: https://www.globalfemaleleaders.com/speaker/jennifer-colpas.html. Adapted.\n\nAccording to the text, it is correct to say that:",
      "images": [],
      "alternatives": [
       {
@@ -3631,7 +3625,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "The following text is reference to questions 85 and 86.\n\nTierra Grata\n\nAbout us?\n\nWe provide access to clean energy, water and safe sanitation to rural communities through decentralized, affordable and non-polluting solutions.\n\nUsers subscribe to our services and through an interest-free credit acquire the different solutions through monthly payments adjusted to their income.\n\nWe accompany the services with a social intervention program that aims to generate capacities within the communities. With our Guardians program, we establish a management committee that becomes the technical team in charge of monitoring and repairing the installed solutions, guaranteeing long-term sustainability.\n\nAvailable in: https://tierragrata.org/en/about-us. Adapted.\n\nAccording to the text, it is correct to say that:",
+     "statement_md": "The following text is reference to questions 85 and 86.\n\nTierra Grata\n\nAbout us?\n\nWe provide access to clean energy, water and **safe** sanitation to rural communities through decentralized, affordable and **non-polluting** solutions.\n\nUsers **subscribe** to our services and through an interest-free credit acquire the different solutions through monthly payments adjusted to their income.\n\nWe **accompany** the services with a social intervention program that aims to generate capacities within the communities. With our Guardians program, we establish a **management** committee that becomes the technical team in charge of monitoring and repairing the installed solutions, guaranteeing **long-term** sustainability.\n\nAvailable in: https://tierragrata.org/en/about-us. Adapted.\n\nAccording to the text, it is correct to say that:",
      "images": [],
      "alternatives": [
       {
@@ -3665,7 +3659,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "Consider the following sentences:\n\n1. *Safe*, *non-polluting* and *long-term* are adjectives.\n\n2. The Guardians’ program offers opportunities to people from outside the communities assisted by Tierra Grata.\n\n3. The Guardians are responsible for monitoring and repairing the services after installation.\n\n4. *Affordable*, *subscribe* and *management* are all verb forms in the text.\n\nMark the correct alternative.",
+     "statement_md": "The following text is reference to questions 85 and 86.\n\nTierra Grata\n\nAbout us?\n\nWe provide access to clean energy, water and **safe** sanitation to rural communities through decentralized, affordable and **non-polluting** solutions.\n\nUsers **subscribe** to our services and through an interest-free credit acquire the different solutions through monthly payments adjusted to their income.\n\nWe **accompany** the services with a social intervention program that aims to generate capacities within the communities. With our Guardians program, we establish a **management** committee that becomes the technical team in charge of monitoring and repairing the installed solutions, guaranteeing **long-term** sustainability.\n\nAvailable in: https://tierragrata.org/en/about-us. Adapted.\n\nConsider the following sentences:\n\n1. *Safe*, *non-polluting* and *long-term* are adjectives.\n\n2. The Guardians’ program offers opportunities to people from outside the communities assisted by Tierra Grata.\n\n3. The Guardians are responsible for monitoring and repairing the services after installation.\n\n4. *Affordable*, *subscribe* and *management* are all verb forms in the text.\n\nMark the correct alternative.",
      "images": [],
      "alternatives": [
       {
@@ -3686,7 +3680,7 @@
       },
       {
        "label": "E",
-       "text_md": "Affirmatives 1, 2, 3 and 4 are correct.\n\nThe following text is reference to questions 87 and 88.\n\n“Dune – Part I” tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet’s exclusive supply of the most precious resource in existence – a commodity capable of unlocking humanity’s greatest potential – only those who can conquer their fear will survive.\n\nAvailable in: https://www.imdb.com/video/vi3986080537. Adapted."
+       "text_md": "Affirmatives 1, 2, 3 and 4 are correct."
       }
      ],
      "correct": "B",
@@ -3699,7 +3693,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "Mark the alternative with the synonyms for the terms *gifted*, *ensure* and *commodity* found in the text.",
+     "statement_md": "The following text is reference to questions 87 and 88.\n\n“Dune – Part I” tells the story of Paul Atreides, a brilliant and **gifted** young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to **ensure** the future of his family and his people. As malevolent forces explode into conflict over the planet’s exclusive supply of the most precious resource in existence – a **commodity** capable of unlocking humanity’s greatest potential – only those who can conquer their fear will survive.\n\nAvailable in: https://www.imdb.com/video/vi3986080537. Adapted.\n\nMark the alternative with the synonyms for the terms *gifted*, *ensure* and *commodity* found in the text.",
      "images": [],
      "alternatives": [
       {
@@ -3733,7 +3727,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "Analyze the following sentences:\n\n1. Paul Atreides completely understands his destiny towards the universe.\n\n2. The planet Paul Atreides must travel to is the supplier of a vital resource.\n\n3. The commodity found in the planet is the reason of conflicts.\n\n4. Malevolent forces in conflict exploded the planet’s exclusive supply.\n\nMark the correct alternative, based on the text.",
+     "statement_md": "The following text is reference to questions 87 and 88.\n\n“Dune – Part I” tells the story of Paul Atreides, a brilliant and **gifted** young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to **ensure** the future of his family and his people. As malevolent forces explode into conflict over the planet’s exclusive supply of the most precious resource in existence – a **commodity** capable of unlocking humanity’s greatest potential – only those who can conquer their fear will survive.\n\nAvailable in: https://www.imdb.com/video/vi3986080537. Adapted.\n\nAnalyze the following sentences:\n\n1. Paul Atreides completely understands his destiny towards the universe.\n\n2. The planet Paul Atreides must travel to is the supplier of a vital resource.\n\n3. The commodity found in the planet is the reason of conflicts.\n\n4. Malevolent forces in conflict exploded the planet’s exclusive supply.\n\nMark the correct alternative, based on the text.",
      "images": [],
      "alternatives": [
       {
@@ -3767,7 +3761,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "The following text is reference to questions 89 and 90.\n\nSurgery in space: Tiny remotely operated robot completes first simulated procedure at the sp\n\nBy Taylor Nicioli and Kristin Fisher, CNN February 13, 2024\n\nA tiny surgical robot in residence at the International Space Station completed its first surgery demo in zero gravity on Saturday. The robot, known as spaceMIRA – which stands for Miniaturized In Vivo Robotic Assistant – performed several operations on simulated tissue at the orbiting laboratory while remotely operated by multiple-area surgeons from approximately 250 miles (400 kilometers) below in Lincoln, Nebraska.\n\nThe milestone is a step forward in developing technology that could have implications not just for successful long-term human space travel, where surgical emergencies could happen, but also for establishing access to medical care in remote areas on Earth, such as in rural areas or military battlefields.\n\nThe US goal of pushing exploration deeper into space includes the possibility of journeys that could take years – a round-trip to Mars, for example, could take about two years to complete, according to NASA.\n\nThe demonstration on Saturday called for the remote surgeon to control the robots’ hands to provide tension to the simulated tissue – made of rubber bands – and use the other hand to dissect the elastic tissue with scissors. A total of six surgeons performed remote tests with the robot, and each demonstration – dissecting the correct piece of tissue under pressure, a common surgical task, was considered successful.\n\nOne of the challenges when attempting to control a robot in space from Earth is latency, or the delay between the time the command is sent and the time the robot receives it. The delay was about 0.85 of a second, said Dr. Michael Jobst, a colorectal surgeon who was part of the demonstration with spaceMIRA on Saturday.\n\nAvailable in: https://edition.cnn.com/2024/02/13/world/mira-robot-first-surgery-in-space-scn/index.html. Adapted.\n\n![Figura](/questoes/ufpr/2025/q89-ingles-texto-1.png)\n\nBased on the information presented in the text, which is the main characteristic of the robot spaceMIRA?",
+     "statement_md": "The following text is reference to questions 89 and 90.\n\nSurgery in space: Tiny remotely operated robot completes first simulated procedure at the sp\n\nBy Taylor Nicioli and Kristin Fisher, CNN February 13, 2024\n\nA tiny surgical robot in residence at the International Space Station completed its first surgery demo in zero gravity on Saturday. The robot, known as spaceMIRA – which stands for Miniaturized In Vivo Robotic Assistant – performed several operations on simulated tissue at the orbiting laboratory while remotely operated by multiple-area surgeons from approximately 250 miles (400 kilometers) below in Lincoln, Nebraska.\n\nThe milestone is a step forward in developing technology that could have implications not just for successful long-term human space travel, where surgical emergencies could happen, but also for establishing access to medical care in remote areas on Earth, such as in rural areas or military battlefields.\n\nThe US goal of pushing exploration deeper into space includes the possibility of journeys that could take years – a round-trip to Mars, for example, could take about two years to complete, according to NASA.\n\nThe demonstration on Saturday called for the remote surgeon to control the robots’ hands to provide tension to the simulated tissue – made of rubber bands – and use the other hand to dissect the elastic tissue with scissors. A total of six surgeons performed remote tests with the robot, and each demonstration – dissecting the correct piece of tissue under pressure, a common surgical task, was considered successful.\n\nOne of the challenges when attempting to control a robot in space from Earth is latency, or the delay between the time the command is sent and the time the robot receives **it**. The delay was about 0.85 of a second, said Dr. Michael Jobst, a colorectal surgeon who was part of the demonstration with spaceMIRA on Saturday.\n\nAvailable in: https://edition.cnn.com/2024/02/13/world/mira-robot-first-surgery-in-space-scn/index.html. Adapted.\n\n![Figura](/questoes/ufpr/2025/q89-ingles-texto-1.png)\n\nBased on the information presented in the text, which is the main characteristic of the robot spaceMIRA?",
      "images": [
       "/questoes/ufpr/2025/q89-ingles-texto-1.png"
      ],
@@ -3803,8 +3797,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Inglês",
      "language": "ingles",
-     "statement_md": "The term “it” in bold and underlined in the text refers to:",
-     "images": [],
+     "statement_md": "The following text is reference to questions 89 and 90.\n\nSurgery in space: Tiny remotely operated robot completes first simulated procedure at the sp\n\nBy Taylor Nicioli and Kristin Fisher, CNN February 13, 2024\n\nA tiny surgical robot in residence at the International Space Station completed its first surgery demo in zero gravity on Saturday. The robot, known as spaceMIRA – which stands for Miniaturized In Vivo Robotic Assistant – performed several operations on simulated tissue at the orbiting laboratory while remotely operated by multiple-area surgeons from approximately 250 miles (400 kilometers) below in Lincoln, Nebraska.\n\nThe milestone is a step forward in developing technology that could have implications not just for successful long-term human space travel, where surgical emergencies could happen, but also for establishing access to medical care in remote areas on Earth, such as in rural areas or military battlefields.\n\nThe US goal of pushing exploration deeper into space includes the possibility of journeys that could take years – a round-trip to Mars, for example, could take about two years to complete, according to NASA.\n\nThe demonstration on Saturday called for the remote surgeon to control the robots’ hands to provide tension to the simulated tissue – made of rubber bands – and use the other hand to dissect the elastic tissue with scissors. A total of six surgeons performed remote tests with the robot, and each demonstration – dissecting the correct piece of tissue under pressure, a common surgical task, was considered successful.\n\nOne of the challenges when attempting to control a robot in space from Earth is latency, or the delay between the time the command is sent and the time the robot receives **it**. The delay was about 0.85 of a second, said Dr. Michael Jobst, a colorectal surgeon who was part of the demonstration with spaceMIRA on Saturday.\n\nAvailable in: https://edition.cnn.com/2024/02/13/world/mira-robot-first-surgery-in-space-scn/index.html. Adapted.\n\n![Figura](/questoes/ufpr/2025/q89-ingles-texto-1.png)\n\nThe term “it” in bold and underlined in the text refers to:",
+     "images": [
+      "/questoes/ufpr/2025/q89-ingles-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -3837,7 +3833,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 83 a 86.\n\ndi Martina Villa «Lo sport, lo stress, la dieta, come ci si guarda, le persone di cui ci si circonda: tutto influisce sulla forma fisica» è il motto di David Kirsch, uno dei personal trainer più “cool”, viste le clienti (Jennifer Lopez, Anne Hathaway). Una grande verità: l’aspetto olistico del fitness è quanto mai attuale. Circa il 60 per cento delle donne tra Europa e America, stando alle analisi di Mckinsey, considera ormai il movimento fisico come “molto importante” nella propria agenda: è inteso – addirittura – come un valido aiuto fisico, emotivo e perfino sociale nella vita. Ci si divide poi in donne “soft-care” (chi ama allenamenti dolci) e “hard-care” (chi preferisce ritmi tosti e la fatica). In entrambi i casi, meglio affidarsi agli esperti. E partire da una domanda: «Come vedo il mio corpo?».\n\nSentirsi “morbide”. Non toniche, non scolpite, non definite. «La sensazione di muscoli flaccidi è dovuta alla poca massa della fibra muscolare. Succede per diverse ragioni: anzitutto, mancano sollecitazioni adeguate, cioè il giusto allenamento» spiega Martina Turetta, una delle trainer del nostro evento.\n\nDisponibile sul sito: https://www.trimonificio.it.\n\nQuale delle alternative può essere considerata il titolo che sintetizza meglio il contenuto del testo?",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 83 a 86.\n\ndi Martina Villa\n\n«Lo sport, lo stress, la dieta, come ci si guarda, le persone di cui ci si circonda: tutto influisce sulla forma fisica» è il motto di David Kirsch, uno dei personal trainer più “cool”, viste le clienti (Jennifer Lopez, Anne Hathaway). Una grande verità: l’aspetto olistico del fitness è quanto mai attuale. Circa il 60 per cento delle donne tra Europa e America, stando alle analisi di Mckinsey, considera ormai il movimento fisico come “molto importante” nella propria agenda: è inteso – **addirittura** – come un valido aiuto fisico, emotivo e perfino sociale nella vita. Ci si divide poi in donne “soft-care” (chi ama allenamenti dolci) e “hard-care” (chi preferisce ritmi tosti e la fatica). **In entrambi i casi, meglio affidarsi agli esperti**. E partire da una domanda: «Come vedo il mio corpo?».\n\nSentirsi “morbide”. Non toniche, non scolpite, non definite. «**La sensazione di muscoli flaccidi è dovuta alla poca massa della** **fibra muscolare**. Succede per diverse ragioni: anzitutto, mancano sollecitazioni adeguate, cioè il giusto allenamento» spiega Martina Turetta, una delle trainer del nostro evento.\n\nDisponibile sul sito: https://www.trimonificio.it.\n\nQuale delle alternative può essere considerata il titolo che sintetizza meglio il contenuto del testo?",
      "images": [],
      "alternatives": [
       {
@@ -3871,7 +3867,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Nel testo, la parola “addirittura” viene usata:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 83 a 86.\n\ndi Martina Villa\n\n«Lo sport, lo stress, la dieta, come ci si guarda, le persone di cui ci si circonda: tutto influisce sulla forma fisica» è il motto di David Kirsch, uno dei personal trainer più “cool”, viste le clienti (Jennifer Lopez, Anne Hathaway). Una grande verità: l’aspetto olistico del fitness è quanto mai attuale. Circa il 60 per cento delle donne tra Europa e America, stando alle analisi di Mckinsey, considera ormai il movimento fisico come “molto importante” nella propria agenda: è inteso – **addirittura** – come un valido aiuto fisico, emotivo e perfino sociale nella vita. Ci si divide poi in donne “soft-care” (chi ama allenamenti dolci) e “hard-care” (chi preferisce ritmi tosti e la fatica). **In entrambi i casi, meglio affidarsi agli esperti**. E partire da una domanda: «Come vedo il mio corpo?».\n\nSentirsi “morbide”. Non toniche, non scolpite, non definite. «**La sensazione di muscoli flaccidi è dovuta alla poca massa della** **fibra muscolare**. Succede per diverse ragioni: anzitutto, mancano sollecitazioni adeguate, cioè il giusto allenamento» spiega Martina Turetta, una delle trainer del nostro evento.\n\nDisponibile sul sito: https://www.trimonificio.it.\n\nNel testo, la parola “addirittura” viene usata:",
      "images": [],
      "alternatives": [
       {
@@ -3905,7 +3901,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Dalla frase “In entrambi i casi, meglio affidarsi agli esperti”, si capisce che:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 83 a 86.\n\ndi Martina Villa\n\n«Lo sport, lo stress, la dieta, come ci si guarda, le persone di cui ci si circonda: tutto influisce sulla forma fisica» è il motto di David Kirsch, uno dei personal trainer più “cool”, viste le clienti (Jennifer Lopez, Anne Hathaway). Una grande verità: l’aspetto olistico del fitness è quanto mai attuale. Circa il 60 per cento delle donne tra Europa e America, stando alle analisi di Mckinsey, considera ormai il movimento fisico come “molto importante” nella propria agenda: è inteso – **addirittura** – come un valido aiuto fisico, emotivo e perfino sociale nella vita. Ci si divide poi in donne “soft-care” (chi ama allenamenti dolci) e “hard-care” (chi preferisce ritmi tosti e la fatica). **In entrambi i casi, meglio affidarsi agli esperti**. E partire da una domanda: «Come vedo il mio corpo?».\n\nSentirsi “morbide”. Non toniche, non scolpite, non definite. «**La sensazione di muscoli flaccidi è dovuta alla poca massa della** **fibra muscolare**. Succede per diverse ragioni: anzitutto, mancano sollecitazioni adeguate, cioè il giusto allenamento» spiega Martina Turetta, una delle trainer del nostro evento.\n\nDisponibile sul sito: https://www.trimonificio.it.\n\nDalla frase “In entrambi i casi, meglio affidarsi agli esperti”, si capisce che:",
      "images": [],
      "alternatives": [
       {
@@ -3939,7 +3935,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Una frase che può riassumere il contenuto della seconda parte del testo è:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 83 a 86.\n\ndi Martina Villa\n\n«Lo sport, lo stress, la dieta, come ci si guarda, le persone di cui ci si circonda: tutto influisce sulla forma fisica» è il motto di David Kirsch, uno dei personal trainer più “cool”, viste le clienti (Jennifer Lopez, Anne Hathaway). Una grande verità: l’aspetto olistico del fitness è quanto mai attuale. Circa il 60 per cento delle donne tra Europa e America, stando alle analisi di Mckinsey, considera ormai il movimento fisico come “molto importante” nella propria agenda: è inteso – **addirittura** – come un valido aiuto fisico, emotivo e perfino sociale nella vita. Ci si divide poi in donne “soft-care” (chi ama allenamenti dolci) e “hard-care” (chi preferisce ritmi tosti e la fatica). **In entrambi i casi, meglio affidarsi agli esperti**. E partire da una domanda: «Come vedo il mio corpo?».\n\nSentirsi “morbide”. Non toniche, non scolpite, non definite. «**La sensazione di muscoli flaccidi è dovuta alla poca massa della** **fibra muscolare**. Succede per diverse ragioni: anzitutto, mancano sollecitazioni adeguate, cioè il giusto allenamento» spiega Martina Turetta, una delle trainer del nostro evento.\n\nDisponibile sul sito: https://www.trimonificio.it.\n\nUna frase che può riassumere il contenuto della seconda parte del testo è:",
      "images": [],
      "alternatives": [
       {
@@ -4007,7 +4003,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Nella frase “Spalletti sperava che quella contro gli elvetici potesse essere la gara della svolta,” il termine “elvetici” è un esempio di coesione lessicale che sostituisce un'altra parola all'interno del testo, vale a dire:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 87 a 90.\n\nL’Italia perde la faccia! La Svizzera passeggia e vince 2-0, Azzurri fuori dall’Europeo\n\nL’Italia esce dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si torna in patria (volo di ritorno alle\n\n17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo. Superato con difficoltà e fortuna il girone, Spalletti sperava che quella contro gli elvetici potesse essere la gara della svolta. È stata quella del tracollo. Dal punto di vista fisico, tattico e psicologico. Gli Azzurri non ci hanno capito niente, a cominciare dal c.t., sul cui futuro azzurro ora è lecito porsi delle domande. Il calcio propositivo che aveva in mente è rimasto… lì. Disponibile sul sito: https://www.gazzetta.it/Calcio/Europei/29-06-2024/svizzera-italia-2-0-gol-di-freuler-e-vargas-spalletti-fuori-dall-europeo.shtml?refresh\\_ce.\n\nNella frase “Spalletti sperava che quella contro gli elvetici potesse essere la gara della svolta,” il termine “elvetici” è un esempio di coesione lessicale che sostituisce un'altra parola all'interno del testo, vale a dire:",
      "images": [],
      "alternatives": [
       {
@@ -4041,28 +4037,28 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "Il brano “L’Italia perde la faccia! La Svizzera passeggia e vince 2-0, Azzurri fuori dall’Europeo. L’Italia esce dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si torna in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo.”, può essere riscritto correttamente con la sostituzione del “presente storico”, tipico del linguaggio giornalistico, con tempi verbali che indicano valori specifici che essi indicano in:",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 87 a 90.\n\nL’Italia perde la faccia! La Svizzera passeggia e vince 2-0, Azzurri fuori dall’Europeo\n\nL’Italia esce dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si torna in patria (volo di ritorno alle\n\n17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo. Superato con difficoltà e fortuna il girone, Spalletti sperava che quella contro gli elvetici potesse essere la gara della svolta. È stata quella del tracollo. Dal punto di vista fisico, tattico e psicologico. Gli Azzurri non ci hanno capito niente, a cominciare dal c.t., sul cui futuro azzurro ora è lecito porsi delle domande. Il calcio propositivo che aveva in mente è rimasto… lì. Disponibile sul sito: https://www.gazzetta.it/Calcio/Europei/29-06-2024/svizzera-italia-2-0-gol-di-freuler-e-vargas-spalletti-fuori-dall-europeo.shtml?refresh\\_ce.\n\nIl brano “L’Italia perde la faccia! La Svizzera passeggia e vince 2-0, Azzurri fuori dall’Europeo. L’Italia esce dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si torna in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo.”, può essere riscritto correttamente con la sostituzione del “presente storico”, tipico del linguaggio giornalistico, con tempi verbali che indicano valori specifici che essi indicano in:",
      "images": [],
      "alternatives": [
       {
        "label": "A",
-       "text_md": "L’Italia ha perso la faccia! La Svizzera ha passeggiato ed ha vinto 2-0, Azzurri fuori dall’Europeo. L’Italia è uscita\n\ndall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si tornerà in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
+       "text_md": "L’Italia **ha perso** la faccia! La Svizzera **ha passeggiato** ed **ha vinto** 2-0, Azzurri fuori dall’Europeo. L’Italia **è uscita** dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani **si tornerà** in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
       },
       {
        "label": "B",
-       "text_md": "L’Italia persi la faccia! La Svizzera ha passeggiato ed vinsi 2-0, Azzurri fuori dall’Europeo. L’Italia è uscita dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si tornerà in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
+       "text_md": "L’Italia **persi** la faccia! La Svizzera **ha passeggiato** ed **vinsi** 2-0, Azzurri fuori dall’Europeo. L’Italia **è uscita** dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani **si tornerà** in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
       },
       {
        "label": "C",
-       "text_md": "L’Italia ha perduto la faccia! La Svizzera passeggiò ed ha vinto 2-0, Azzurri fuori dall’Europeo. L’Italia è stata uscita dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani tornano in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
+       "text_md": "L’Italia **ha perduto** la faccia! La Svizzera **passeggiò** ed **ha vinto** 2-0, Azzurri fuori dall’Europeo. L’Italia **è stata uscita** dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani **tornano** in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
       },
       {
        "label": "D",
-       "text_md": "L’Italia perse la faccia! La Svizzera passeggiai ed vinse 2-0, Azzurri fuori dall’Europeo. L’Italia uscì dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani tornono in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
+       "text_md": "L’Italia **perse** la faccia! La Svizzera **passeggiai** ed **vinse** 2-0, Azzurri fuori dall’Europeo. L’Italia **uscì** dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani **tornono** in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
       },
       {
        "label": "E",
-       "text_md": "L’Italia persi la faccia! La Svizzera passeggiò ed vinsi 2-0, Azzurri fuori dall’Europeo. L’Italia è stata uscita dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani tornano in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
+       "text_md": "L’Italia **persi** la faccia! La Svizzera **passeggiò** ed **vinsi** 2-0, Azzurri fuori dall’Europeo. L’Italia **è stata uscita** dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani **tornano** in patria (volo di ritorno alle 17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo."
       }
      ],
      "correct": "A",
@@ -4075,7 +4071,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Italiano",
      "language": "italiano",
-     "statement_md": "In base a quello che hai letto, considera le seguenti frasi:\n\n1. La Svizzera ha vinto la partita contro gli Azzurri senza grandi difficoltà.\n\n2. Il campeonato Europeo è stato vinto dall’Italia tre anni fa.\n\n3. L’ultima partita dell’ Italia contro la Svizzera è stata un fallimento.\n\n4. L’incontro con la Svizzera avrebbe potuto essere un cambiamento per la nazionale italiana. Segnala l’alternativa giusta.",
+     "statement_md": "Il testo che segue ti servirà per rispondere alle domande da 87 a 90.\n\nL’Italia perde la faccia! La Svizzera passeggia e vince 2-0, Azzurri fuori dall’Europeo\n\nL’Italia esce dall’Europeo nel peggiore dei modi, dopo essere stata dominata dalla Svizzera. Domani si torna in patria (volo di ritorno alle\n\n17.30 da Dortmund, primo scalo a Malpensa, poi a Roma) e gli Azzurri guarderanno gli altri giocare per la coppa dei campioni d’Europa che nel 2021 abbiamo alzato al cielo. Superato con difficoltà e fortuna il girone, Spalletti sperava che quella contro gli elvetici potesse essere la gara della svolta. È stata quella del tracollo. Dal punto di vista fisico, tattico e psicologico. Gli Azzurri non ci hanno capito niente, a cominciare dal c.t., sul cui futuro azzurro ora è lecito porsi delle domande. Il calcio propositivo che aveva in mente è rimasto… lì. Disponibile sul sito: https://www.gazzetta.it/Calcio/Europei/29-06-2024/svizzera-italia-2-0-gol-di-freuler-e-vargas-spalletti-fuori-dall-europeo.shtml?refresh\\_ce.\n\nIn base a quello che hai letto, considera le seguenti frasi:\n\n1. La Svizzera ha vinto la partita contro gli Azzurri senza grandi difficoltà.\n\n2. Il campeonato Europeo è stato vinto dall’Italia tre anni fa.\n\n3. L’ultima partita dell’ Italia contro la Svizzera è stata un fallimento.\n\n4. L’incontro con la Svizzera avrebbe potuto essere un cambiamento per la nazionale italiana. Segnala l’alternativa giusta.",
      "images": [],
      "alternatives": [
       {
@@ -4143,7 +4139,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "和洋女子大が導入した生成AI アバターの主な目的は何ですか?",
+     "statement_md": "次のテキストは83、84 と85 の質問の参考文です。\n\n生成AI使ったアバター、オープンキャンパスで大学を案内・千葉県市川市の和洋女子大\n\n和洋女子大(千葉県市川市)は今夏のオープンキャンパスで、生成AI(人工知能)を活用したアバター(分身)による学校情報 案内サービスを導入した。木更津市で創業したAI開発会社「カサナレ」(東京都)の協力を得た。オープンキャンパスでの生成 AIアバター活用は、国内大学で初という。\n\n同大は2026年4月に、AIを使ったデータ分析や社会課題の解決ができる人材の育成を目指す「AIライフデザイン学部 (仮称)」を開設予定だ。AIが普及すると、実行してほしい命令をAIに適切に伝える「会話力」が重要になると考えられてお り、新学部は理系・文系の概念を超えた全方位型の学部を目指すという。\n\n新学部の準備を進める 鬘谷 要教授は「仕事でのAI活用は今後、重要なテーマになる。分野を問わず活躍できるAIの使い手を 育てる。正しく使うための高い倫理感も教育する」と説明する。\n\n今回の取り組みは、新学部に先駆けた実証実験となる。カサナレが開発したAIアバターは、対話型生成AI「チャットGP T」をベースに言語認識と発話機能を組み合わせている。顔は同大の在学生3人の映像を合成した。\n\nAIアバターは、6月9日のオープンキャンパスで初披露された。オープンキャンパスでは、AIアバターを組み込んだ数台のモ ニターを大学入り口などに設置。「学内で食事できる場所はある?」などと質問すると瞬時に内容を理解し、音声で答えてくれる ため、ビデオ通話に近い感覚で話すことができる。\n\nカサナレの西田 慶けい COO(最高執行責任者)は「AIを身近に感じてもらいたい。現在のAIアバターは、在学生をイメー ジした女性だが、女子大ではイケメン男性が喜ばれるとの意見をいただいたので男性版も検討中だ」と話す。今後はAIの学習量 を増やして対応力を強化し、新学部の象徴的な存在に育てていきたいという。 AIアバターは、今月21日、8月4、11、 25日にも登場予定だ。新学部の詳細は大学の公式サイトへ。\n\n利用可能: https://www.yomiuri.co.jp/science/20240708-OYT1T50224/\n\n和洋女子大が導入した生成AI アバターの主な目的は何ですか?",
      "images": [],
      "alternatives": [
       {
@@ -4177,7 +4173,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "「最高執行責任者」と「概念」の正しい読み方はなんですか?",
+     "statement_md": "次のテキストは83、84 と85 の質問の参考文です。\n\n生成AI使ったアバター、オープンキャンパスで大学を案内・千葉県市川市の和洋女子大\n\n和洋女子大(千葉県市川市)は今夏のオープンキャンパスで、生成AI(人工知能)を活用したアバター(分身)による学校情報 案内サービスを導入した。木更津市で創業したAI開発会社「カサナレ」(東京都)の協力を得た。オープンキャンパスでの生成 AIアバター活用は、国内大学で初という。\n\n同大は2026年4月に、AIを使ったデータ分析や社会課題の解決ができる人材の育成を目指す「AIライフデザイン学部 (仮称)」を開設予定だ。AIが普及すると、実行してほしい命令をAIに適切に伝える「会話力」が重要になると考えられてお り、新学部は理系・文系の概念を超えた全方位型の学部を目指すという。\n\n新学部の準備を進める 鬘谷 要教授は「仕事でのAI活用は今後、重要なテーマになる。分野を問わず活躍できるAIの使い手を 育てる。正しく使うための高い倫理感も教育する」と説明する。\n\n今回の取り組みは、新学部に先駆けた実証実験となる。カサナレが開発したAIアバターは、対話型生成AI「チャットGP T」をベースに言語認識と発話機能を組み合わせている。顔は同大の在学生3人の映像を合成した。\n\nAIアバターは、6月9日のオープンキャンパスで初披露された。オープンキャンパスでは、AIアバターを組み込んだ数台のモ ニターを大学入り口などに設置。「学内で食事できる場所はある?」などと質問すると瞬時に内容を理解し、音声で答えてくれる ため、ビデオ通話に近い感覚で話すことができる。\n\nカサナレの西田 慶けい COO(最高執行責任者)は「AIを身近に感じてもらいたい。現在のAIアバターは、在学生をイメー ジした女性だが、女子大ではイケメン男性が喜ばれるとの意見をいただいたので男性版も検討中だ」と話す。今後はAIの学習量 を増やして対応力を強化し、新学部の象徴的な存在に育てていきたいという。 AIアバターは、今月21日、8月4、11、 25日にも登場予定だ。新学部の詳細は大学の公式サイトへ。\n\n利用可能: https://www.yomiuri.co.jp/science/20240708-OYT1T50224/\n\n「最高執行責任者」と「概念」の正しい読み方はなんですか?",
      "images": [],
      "alternatives": [
       {
@@ -4245,7 +4241,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "水、虫、土、太陽についてカエルたちの考えの目的は何ですか?",
+     "statement_md": "次のテキストは86、87 と88 の質問の参考文です。\n\n蛙\n\n蛙がいる。\n\n蛙が鳴いている。\n\n「ころろ からら」\n\n「ころろ からら」\n\n私には、ころろかららと聞こえる。\n\nでも実は、蛙たちは、意見を言っている。\n\n「みんな、聞いてください」と一匹の蛙が言いました。\n\n「水は何のためにあるのでしょうか。水は、私たち蛙が泳ぐためにあるのです」\n\n「虫は何のためにあるのでしょうか。私たち蛙が食べるためにあるのです」\n\n「土は何のためにあるのでしょうか。土は草や木が生きるためにあるのです。では、草や木は何のためにあるのでしょうか。蛙に 日かげを作るためにあるのです。ですからこの大地は、私たち蛙のためにあるのではないでしょうか」\n\n「それでは、空は何のためにあるのでしょうか。空は、太陽が通るためにあるのです。太陽は何のためにあるのでしょうか。蛙の 背中をかわかすためにあるのです。ですから、空にあるものは全部蛙のためにあるのです」\n\n「みんな聞いてください。水も、草や木も、虫も土も太陽も、すべて私たち蛙のためにあるのです」\n\n「私たちのためにこの世界を作った神様に、心から感謝します。神よ、あなたに祝福を!」\n\n蛙は空を見上げて、目をぐるりと回しました。それからまた、口を大きく開けて言いました。\n\n「神にしゅくふく・・・」\n\n蛙がその言葉を言い終わらないうちに、蛇の頭がぐんと蛙に近づきました。そして、この蛙は、あっという間に蛇に食べられてし まいました。\n\n「からら!たいへんだ!」\n\n「ころろ!たいへんだ!」\n\n蛙たちが大騒ぎをしているうちに、蛇は草むらの中へ隠れてしまいました。\n\nからら、ころろ。\n\nからら、ころろ。\n\n池の蛙たちは、まだ騒いでいました。こんなにうるさいのは、この池ができてから初めてのことでした。\n\nこの騒ぎの中、泣きながら話す若い蛙の声が聞こえてきました。\n\n「草も木も、虫も土も、空も太陽も、みんな蛙のためにあります。では、蛇はどうですか。蛇も私たちのためにあるのですか」 「そうだ」と、一匹の年老いた蛙が言いました。\n\n「もし蛇が蛙を食べなかったら、蛙は必ず増えるだろう。蛙が増えれば、池が、この世界が狭くなる。だから蛇は蛙を食べるのじ ゃ。食べられた蛙のおかげで、残った蛙は幸せに暮らすことができるのじゃ」\n\n「これは、本当のことじゃ。蛇も蛙のためにあるのじゃ。世界にあるものは全部、わしら蛙のためにあるのじゃ。神様、あなたは すばらしい!」\n\n利用可能:https://tadoku.org/japanese/book/43312/#bd-look-inside\n\n水、虫、土、太陽についてカエルたちの考えの目的は何ですか?",
      "images": [],
      "alternatives": [
       {
@@ -4279,7 +4275,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "カエルが神様に感謝している間に何が起こりますか?",
+     "statement_md": "次のテキストは86、87 と88 の質問の参考文です。\n\n蛙\n\n蛙がいる。\n\n蛙が鳴いている。\n\n「ころろ からら」\n\n「ころろ からら」\n\n私には、ころろかららと聞こえる。\n\nでも実は、蛙たちは、意見を言っている。\n\n「みんな、聞いてください」と一匹の蛙が言いました。\n\n「水は何のためにあるのでしょうか。水は、私たち蛙が泳ぐためにあるのです」\n\n「虫は何のためにあるのでしょうか。私たち蛙が食べるためにあるのです」\n\n「土は何のためにあるのでしょうか。土は草や木が生きるためにあるのです。では、草や木は何のためにあるのでしょうか。蛙に 日かげを作るためにあるのです。ですからこの大地は、私たち蛙のためにあるのではないでしょうか」\n\n「それでは、空は何のためにあるのでしょうか。空は、太陽が通るためにあるのです。太陽は何のためにあるのでしょうか。蛙の 背中をかわかすためにあるのです。ですから、空にあるものは全部蛙のためにあるのです」\n\n「みんな聞いてください。水も、草や木も、虫も土も太陽も、すべて私たち蛙のためにあるのです」\n\n「私たちのためにこの世界を作った神様に、心から感謝します。神よ、あなたに祝福を!」\n\n蛙は空を見上げて、目をぐるりと回しました。それからまた、口を大きく開けて言いました。\n\n「神にしゅくふく・・・」\n\n蛙がその言葉を言い終わらないうちに、蛇の頭がぐんと蛙に近づきました。そして、この蛙は、あっという間に蛇に食べられてし まいました。\n\n「からら!たいへんだ!」\n\n「ころろ!たいへんだ!」\n\n蛙たちが大騒ぎをしているうちに、蛇は草むらの中へ隠れてしまいました。\n\nからら、ころろ。\n\nからら、ころろ。\n\n池の蛙たちは、まだ騒いでいました。こんなにうるさいのは、この池ができてから初めてのことでした。\n\nこの騒ぎの中、泣きながら話す若い蛙の声が聞こえてきました。\n\n「草も木も、虫も土も、空も太陽も、みんな蛙のためにあります。では、蛇はどうですか。蛇も私たちのためにあるのですか」 「そうだ」と、一匹の年老いた蛙が言いました。\n\n「もし蛇が蛙を食べなかったら、蛙は必ず増えるだろう。蛙が増えれば、池が、この世界が狭くなる。だから蛇は蛙を食べるのじ ゃ。食べられた蛙のおかげで、残った蛙は幸せに暮らすことができるのじゃ」\n\n「これは、本当のことじゃ。蛇も蛙のためにあるのじゃ。世界にあるものは全部、わしら蛙のためにあるのじゃ。神様、あなたは すばらしい!」\n\n利用可能:https://tadoku.org/japanese/book/43312/#bd-look-inside\n\nカエルが神様に感謝している間に何が起こりますか?",
      "images": [],
      "alternatives": [
       {
@@ -4347,7 +4343,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Japonês",
      "language": "japones",
-     "statement_md": "非常持ち出し品はどこに置くべきですか?",
+     "statement_md": "次のテキストは89 と90 の質問の参考文です。\n\n非常持ち出し品を今から準備しておきましょう\n\n大きな地震があると、電気、ガス、水が使えなくなることがあります。\n\nまた、お店も閉まります。自分の力で3日間ぐらい生活できるように、食べ物や生活に必要なものを準備しておきましょう。\n\n非常持ち出し品は、すぐに持ち出せるろころに置きましょう。\n\n賞味期限や使用期限が切れていないか、電池が切れていないか、半年に1回ぐらいちぇっくしましょう。\n\n準備するものは次の通りです:\n\n\\* 貴重品\n\n\\* 重要な書類\n\n\\* 薬\n\n\\* 非常食\n\n\\* 電灯・携帯ラジオ\n\n非常持ち出し品はどこに置くべきですか?",
      "images": [],
      "alternatives": [
       {
@@ -4381,7 +4377,7 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany. Przypis:\n\nm.in. – między innymi\n\nPowyższy tekst to:",
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nPowyższy tekst to:",
      "images": [
       "/questoes/ufpr/2025/q83-polones-texto-1.png"
      ],
@@ -4417,8 +4413,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "We fragmencie „Słowem: początek cudownej kolekcji.” wyrażenie „słowem” można zastąpić bez zmiany znaczenia następującym wyrażeniem w języku portugalskim?",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nWe fragmencie „Słowem: początek cudownej kolekcji.” wyrażenie „słowem” można zastąpić bez zmiany znaczenia następującym wyrażeniem w języku portugalskim?",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4451,8 +4449,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Zgodnie z tekstem, filmy o których mowa w tekście:",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nZgodnie z tekstem, filmy o których mowa w tekście:",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4485,8 +4485,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Biorąc pod uwagę treść powyższego tekstu, tytuł „Zlaté kino” znaczy:",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nBiorąc pod uwagę treść powyższego tekstu, tytuł „Zlaté kino” znaczy:",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4519,8 +4521,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Fragment „śmiesznym do łez” oznacza to samo co:",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nFragment „śmiesznym do łez” oznacza to samo co:",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4553,8 +4557,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "Kto komu zadaje retoryczne pytanie „Pamiętają Państwo ten film?” w tekście?",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nKto komu zadaje retoryczne pytanie „Pamiętają Państwo ten film?” w tekście?",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4587,8 +4593,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "W zdaniu „Nadzwyczaj inteligentnie sparodiował amerykańskie kino kryminalne” słowo „Nadzwyczaj” oznacza to samo co:",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nW zdaniu „Nadzwyczaj inteligentnie sparodiował amerykańskie kino kryminalne” słowo „Nadzwyczaj” oznacza to samo co:",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
@@ -4621,8 +4629,10 @@
      "subject": "Língua Estrangeira",
      "topic": "Polonês",
      "language": "polones",
-     "statement_md": "We fragmencie „Te trzy filmy to jedynie zapowiedź złożonej z ponad 20 produkcji serii czeskich filmów, wśród których pojawi się m.in. pierwszy nagrodzony Oscarem środkowoeuropejski obraz „Sklep na ulicy głównej”, wyraz „których” odnosi się do:",
-     "images": [],
+     "statement_md": "Pytania od 83 do 90 odnoszą się do następującego tekstu.\n\n![Figura: KULTURA PRZYGODY MÜNCHHAUSENA Połączenie filmowego pierwszego planu i rysowanego tła O ile „efekty specjalne\" u Lipsky'ego bawią, o tyle „Przygody Münchhausena\" (1961) Karela Zemana zachwycają stroną wizualną. To niezwykle połączenie klasycznej fabuły z animacją i prostą, często czarno-białą scenog…](/questoes/ufpr/2025/q83-polones-texto-1.png)\n\n☻☻☻☻☻ wybitne ☻☻☻☻ dobre ☻☻☻ średnie ☻☻ słabe ☻ dno\n\nFUZOWSKI, M. *Zlaté kino*, Newsweek Polska, n^(o). 24, p. 101, 15.06.2008. Tekst adaptowany.\n\nPrzypis:\n\nm.in. – między innymi\n\nWe fragmencie „Te trzy filmy to jedynie zapowiedź złożonej z ponad 20 produkcji serii czeskich filmów, wśród których pojawi się m.in. pierwszy nagrodzony Oscarem środkowoeuropejski obraz „Sklep na ulicy głównej”, wyraz „których” odnosi się do:",
+     "images": [
+      "/questoes/ufpr/2025/q83-polones-texto-1.png"
+     ],
      "alternatives": [
       {
        "label": "A",
