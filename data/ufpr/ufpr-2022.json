@@ -1,0 +1,2783 @@
+{
+ "version": 1,
+ "board": "UFPR",
+ "exams": [
+  {
+   "name": "UFPR 2022 — 1ª fase",
+   "year": 2022,
+   "format": "UFPR_2fases_ate_2026",
+   "pdf_url": "https://servicos.nc.ufpr.br/documentos/PS2022/provas/Geral.pdf",
+   "questions": [
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Alemão",
+     "language": "alemao",
+     "statement_md": "Der folgende Text bezieht sich auf Fragen 01 bis 04.\n\nT.C. Boyle: \"Wir sind doch auch nur Tiere\"\n\nWas unterscheidet den Menschen vom Tier? Haben Schimpansen eine Sprache? T.C. Boyles neuer Roman erzählt von einem Wissenschaftsexperiment der 1970er Jahre.\n\nDie Geschichte ist unglaublich, \\_\\_\\_\\_\\_\\_\\_\\_ wahr: In den siebziger Jahren des letzten Jahrhunderts haben US-amerikanische Forscher Schimpansen-Babys ihren Tiermüttern entrissen und sie wie eigene Kinder in ihren Wohnungen und Häusern aufgezogen.\n\nDie jungen Tiere trugen T-Shirts und Latzhosen, man versuchte, ihnen Gebärden beizubringen, um mit diesen zu kommunizieren. Dahinter steckte die Frage: Was unterscheidet uns Menschen von den Tieren? Können Schimpansen, deren Erbgut zu 98 Prozent mit dem menschlichen übereinstimmt, unsere Sprache lernen?\n\nEs ist eine Geschichte, wie gemacht für einen Roman von T.C. Boyle, der sich in seinen bisher 19 Romanen schon oft mit manchmal kruden Ideen realer Wissenschaftler und Erfinder beschäftigt hat. Sein neuestes Buch heißt \"Sprich mit mir\", der Roman ist zuerst auf Deutsch erschienen und kommt im Frühjahr in den USA heraus.\n\nDie Hauptfigur heißt Sam und ist ein Schimpanse. Er lebt unter der Obhut des Forschers Guy, dem eine ganze Schar von Studenten zur Seite steht. Sam liebt Cheeseburger, trinkt Champagner und hängt mit der Gruppe vor dem Fernseher ab. Und er lernt jeden Tag mehr, sich mit Gebärden auszudrücken.\n\n(Verfügbar unter: https://www.dw.com/de/tc-boyle-wir-sind-doch-auch-nur-tiere/a-56473365.)\n\nDieser Text handelt:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "davon, wie man erfolgreich Tieren eine Sprache beibringen kann."
+      },
+      {
+       "label": "B",
+       "text_md": "davon, wie Kinder ihre Haustiere vor 50 Jahren gekleidet haben."
+      },
+      {
+       "label": "C",
+       "text_md": "von bei Forschern ausgestorbenen Tieren in den siebziger Jahren."
+      },
+      {
+       "label": "D",
+       "text_md": "von einem Buch über die Beziehung zwischen Tieren und Sprache."
+      },
+      {
+       "label": "E",
+       "text_md": "von einem amerikanischen Schriftsteller, der Tiere geliebt hat."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q01-alemao",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Alemão)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Alemão",
+     "language": "alemao",
+     "statement_md": "Der Hauptcharakter vom Buch:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "lebt heutzutage in einem Tierheim."
+      },
+      {
+       "label": "B",
+       "text_md": "ist ein Tier und hat einen Namen."
+      },
+      {
+       "label": "C",
+       "text_md": "wird von den Studenten nachgefragt."
+      },
+      {
+       "label": "D",
+       "text_md": "isst kein Fleisch und hasst Spirituose."
+      },
+      {
+       "label": "E",
+       "text_md": "drückt sich besser auf Deutsch aus."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q02-alemao",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Alemão)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Alemão",
+     "language": "alemao",
+     "statement_md": "Markieren Sie die Alternative, welche die Lücke in Linie 3 richtig ergänzt.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "falls."
+      },
+      {
+       "label": "B",
+       "text_md": "oder."
+      },
+      {
+       "label": "C",
+       "text_md": "aber."
+      },
+      {
+       "label": "D",
+       "text_md": "mehr."
+      },
+      {
+       "label": "E",
+       "text_md": "somit."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q03-alemao",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Alemão)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Alemão",
+     "language": "alemao",
+     "statement_md": "Das Wort “ihnen”, in Linie 5, bezieht sich auf:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Die jungen Tiere."
+      },
+      {
+       "label": "B",
+       "text_md": "amerikanische Forscher."
+      },
+      {
+       "label": "C",
+       "text_md": "Latzhosen."
+      },
+      {
+       "label": "D",
+       "text_md": "Gebärden."
+      },
+      {
+       "label": "E",
+       "text_md": "eigene Kinder."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q04-alemao",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Alemão)"
+    },
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Espanhol",
+     "language": "espanhol",
+     "statement_md": "El texto a continuación sirve como referencia para las cuestiones 01 a 04.\n\nEl país donde las discotecas son más importantes que las escuelas\n\nDavid Jiménez – 27 de agosto de 2020 Fútbol, playas, corridas de toros y discotecas. Las prioridades en la apertura de España tras meses de confinamiento se podían leer como una declaración de intenciones sobre la visión del país. Finalmente, a una semana del comienzo del curso escolar, nuestros políticos han decidido abordar lo que consideran menos urgente: la educación de millones de estudiantes.\n\nAtrás quedan meses desaprovechados, advertencias ignoradas y planes por hacer. La falta de previsión que ha sumido en el desconcierto, la reapertura de las escuelas es parte de una gestión lastrada por la opacidad, la falta de datos fiables, la inconsistencia y la lentitud de reacción por parte de los gobiernos central y autonómicos. Y así, tras sufrir una de las peores primeras olas de contagios, España se enfrenta ahora al peor rebrote de Europa.\n\n¿Puede haber mayor prueba de la urgencia de reformar la educación que la incompetencia de una clase política producto de sus deficiencias? La pandemia ha desnudado un modelo escaso de medios, con un profesorado mal pagado y desmotivado, planes de estudio anclados en el siglo XIX y una creciente desigualdad que permite a las familias con recursos eludir las carencias del sistema con apoyo extraescolar, enseñanza privada y cursos en el extranjero para sus hijos.\n\nEl inicio del curso, previsto en algunas partes del país para el 4 de septiembre, se producirá en mitad del caos de una huelga de estudiantes, estrategias diferentes en cada región y planes improvisados para reducir a toda prisa la ratio de alumnos, reorganizar horarios, contratar profesores e implementar medidas que debieron ser planeadas con meses de anticipación, como en otros países. Lo sorprendente habría sido que unas autoridades que \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ el sistema educativo a su suerte hace décadas \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ los deberes a tiempo.\n\n(Texto adaptado. Disponible en: https://www.nytimes.com/es/2020/08/27/espanol/opinion/vuelta-cole-espana.html.)\n\nSeñala la alternativa que rellena correctamente los huecos en el orden que aparecen en el texto.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "abandonaban – habían hecho."
+      },
+      {
+       "label": "B",
+       "text_md": "abandonaron – hubieran hecho."
+      },
+      {
+       "label": "C",
+       "text_md": "abandonan – han hecho."
+      },
+      {
+       "label": "D",
+       "text_md": "han tenido que abandonar – habrán hecho."
+      },
+      {
+       "label": "E",
+       "text_md": "van a abandonar – hayan hecho."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q01-espanhol",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Espanhol)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Espanhol",
+     "language": "espanhol",
+     "statement_md": "La constatación hecha por el autor de que se hace necesario repensar la educación en España se debe:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "a la importancia que se dan a las corridas de toros y discotecas."
+      },
+      {
+       "label": "B",
+       "text_md": "a la falta de organización de los centros educativos para la retomada de las actividades."
+      },
+      {
+       "label": "C",
+       "text_md": "a la falta de competencia que han demostrado los dirigentes."
+      },
+      {
+       "label": "D",
+       "text_md": "al limitado número de días lectivos con clases empezando en septiembre."
+      },
+      {
+       "label": "E",
+       "text_md": "al poco compromiso de los estudiantes con el modelo de enseñanza vigente."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q02-espanhol",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Espanhol)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Espanhol",
+     "language": "espanhol",
+     "statement_md": "Considera las siguientes deficiencias de un sistema educativo:\n\n1. Limitación de recursos.\n\n2. Currículums desactualizados.\n\n3. Falta de escuela pública para todos.\n\n4. Poco estímulo a los profesores.\n\nSegún el texto, es/son deficiencia(s) del sistema educativo español:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "1 solamente."
+      },
+      {
+       "label": "B",
+       "text_md": "2 y 3 solamente."
+      },
+      {
+       "label": "C",
+       "text_md": "3 y 4 solamente."
+      },
+      {
+       "label": "D",
+       "text_md": "1, 2 y 4 solamente."
+      },
+      {
+       "label": "E",
+       "text_md": "1, 2, 3 y 4."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q03-espanhol",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Espanhol)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Espanhol",
+     "language": "espanhol",
+     "statement_md": "Sobre la retomada de las clases en España:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "se hará de manera escalonada en cada comunidad autónoma."
+      },
+      {
+       "label": "B",
+       "text_md": "enfrentará la resistencia de los estudiantes."
+      },
+      {
+       "label": "C",
+       "text_md": "considerará las dificultades individuales del alumnado."
+      },
+      {
+       "label": "D",
+       "text_md": "contará con nuevos profesores ya contratados."
+      },
+      {
+       "label": "E",
+       "text_md": "seguirá con rigor las medidas sanitarias."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q04-espanhol",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Espanhol)"
+    },
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Francês",
+     "language": "frances",
+     "statement_md": "Les questions 01 à 04 portent sur le texte suivant.\n\nUN ROMAN COMME UN CRI\n\nAu lendemain du tremblement de terre de janvier 2010, Haïti est un chaos. Le pays, l’économie, les maisons, les routes, les institutions sont à terre. Il en est de même du quotidien et du mental de tout un chacun. C’est bien ce que veut nous transmettre le poète James Noël qui, pour son premier roman, a choisi une construction volontairement désordonnée : le chaos des mots pour dire le chaos des hommes.\n\nIl est certes question d’une histoire d’amour vécue par un survivant, Bernard, et une belle Italienne, Amore, mais le temps semble à terre et ne plus imposer son ordre. De partout surgissent les témoins,\n\n![Figura](/questoes/ufpr/2022/q01-frances-texto-1.png)\n\nles souvenirs, le séisme et tout ce qui a suivi... Les personnages se succèdent, prennent la parole, disent leur part de l’histoire. Chacun s’empare du « je » pour clamer sa vérité, ses amours, ses rages et ses désillusions.\n\nUne occasion pour l’écrivain de dire l’horreur, de dénoncer les dérives des aides internationales, de revendiquer la parole poétique. Un roman comme un cri, comme une apostrophe, comme une hésitation, tel le bégaiement, « pap pap pap papillon », qui ouvre le roman et le ponctue.\n\n(Par Bernard Magnier)\n\nSource : Le français dans le monde / n^(o) 416 / mars-avril 2018.\n\n![Figura](/questoes/ufpr/2022/q01-frances-texto-2.png)\n\nLe texte est :",
+     "images": [
+      "/questoes/ufpr/2022/q01-frances-texto-1.png",
+      "/questoes/ufpr/2022/q01-frances-texto-2.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "un reportage sur le Haïti."
+      },
+      {
+       "label": "B",
+       "text_md": "un compte-rendu d’un livre."
+      },
+      {
+       "label": "C",
+       "text_md": "un entretien avec un auteur."
+      },
+      {
+       "label": "D",
+       "text_md": "un témoignage d’un survivant."
+      },
+      {
+       "label": "E",
+       "text_md": "un extrait d’un livre de poésie."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q01-frances",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Francês)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Francês",
+     "language": "frances",
+     "statement_md": "Signalez la seule option qui reprend l’idée transmise par la phrase : « Il en est de même du quotidien et du mental de tout un chacun ».",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Tout comme le pays, les habitants et leur façon de vivre sont également dévastés par les événements."
+      },
+      {
+       "label": "B",
+       "text_md": "Tous les jours se répètent de la même façon pour les habitants."
+      },
+      {
+       "label": "C",
+       "text_md": "La mentalité des habitants n’a pas changé après le tremblement de terre."
+      },
+      {
+       "label": "D",
+       "text_md": "La vie quotidienne est la même, mais plus jamais le Haïti ne sera le même pays."
+      },
+      {
+       "label": "E",
+       "text_md": "Chaque personne vit la destruction à sa propre manière."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q02-frances",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Francês)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Francês",
+     "language": "frances",
+     "statement_md": "D’après le texte, considérez les affirmations suivantes :\n\n1. L’œuvre *Belle merveille* appartient à la catégorie de livre documentaire non-fictionnel.\n\n2. L’œuvre *Belle merveille* met en accent ce qui se passe avant le tremblement de terre de 2010 en Haïti.\n\n3. L’œuvre *Belle merveille* présente des points de vue racontés par la voix de différents personnages.\n\n4. L’œuvre *Belle merveille* raconte, avec un style particulier, des drames vécus par la société haïtienne.\n\nCochez la bonne option.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Seule l’affirmation 3 est correcte."
+      },
+      {
+       "label": "B",
+       "text_md": "Seules les affirmations 1 et 2 sont correctes."
+      },
+      {
+       "label": "C",
+       "text_md": "Seules les affirmations 3 et 4 sont correctes."
+      },
+      {
+       "label": "D",
+       "text_md": "Seules les affirmations 1, 2 et 4 sont correctes."
+      },
+      {
+       "label": "E",
+       "text_md": "Les affirmations 1, 2, 3 et 4 sont correctes."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q03-frances",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Francês)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Francês",
+     "language": "frances",
+     "statement_md": "Cochez l’option qui présente, respectivement, les mots qui correspondent aux expressions soulignées dans cet extrait du texte : « Chacun s’empare du « je » pour clamer sa vérité, ses amours, ses rages et ses désillusions ».",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Les habitants – se plaindre de – peurs."
+      },
+      {
+       "label": "B",
+       "text_md": "Bernard et Amore – raconter – ravissements."
+      },
+      {
+       "label": "C",
+       "text_md": "Les témoins – tromper – douleurs."
+      },
+      {
+       "label": "D",
+       "text_md": "Les personnages – manifester – fureurs."
+      },
+      {
+       "label": "E",
+       "text_md": "Les auteurs – taire – impétuosités."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q04-frances",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Francês)"
+    },
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Inglês",
+     "language": "ingles",
+     "statement_md": "The following text refers to questions 01 to 03.\n\nThe surprising history of India’s vibrant sari tradition\n\nSouth Asian women have draped themselves in colorful silks and cottons for eons. The ways they’re made and worn are dazzling and diverse.\n\nThe word “sari” means “strip of cloth” in Sanskrit. But for the Indian women – and a few men – who have been wrapping themselves in silk, cotton, or linen for millennia, these swaths of fabric are more than just simple garments. They’re symbols of national pride, ambassadors for traditional (and cutting-edge) design and craftsmanship, and a prime example of the rich differences in India’s 29 states.\n\n“The sari both as symbol and reality has filled the imagination of the subcontinent, with its appeal and its ability to conceal and reveal the personality of the person wearing it,” says Delhi-based textile historian Rta Kapur Chishti, author of *Saris of India: Tradition* *and Beyond* and co-founder of Taanbaan, a fabric company devoted to reviving and preserving traditional Indian spinning and weaving methods.\n\nThe first mention of saris (alternately spelled sarees) is in the Rig Veda, a Hindu book of hymns dating to 3,000 B.C.; draped garments show up on Indian sculptures from the first through sixth centuries, too. What Delhi-based textile historian Rta Kapur Chishti calls the “magical unstitched garment” is ideally suited to India’s blazingly hot climate and the modest-dress customs of both Hindu and Muslim communities. Saris also remain traditional for women in other South Asian countries including Pakistan, Bangladesh, and Nepal.\n\n(Available in: https://www.nationalgeographic.com/travel/photography/the-story-of-the-sari-in-india/.)\n\nSari, which in Sanskrit means “strip of cloth”, represents more than a piece of clothing in India. In relation to the different meaning(s) attributed to the sari, consider the following affirmatives:\n\n1. It stands for both up-to-date and conventional patterns.\n\n2. People wear it in different ways.\n\n3. Both men and women can wear it.\n\n4. People cannot avoid an arrogant attitude when they put it on.\n\nMark the affirmative(s) that is/are present in the text.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "4 only."
+      },
+      {
+       "label": "B",
+       "text_md": "1 and 3 only."
+      },
+      {
+       "label": "C",
+       "text_md": "2 and 4 only."
+      },
+      {
+       "label": "D",
+       "text_md": "1, 2 and 3 only."
+      },
+      {
+       "label": "E",
+       "text_md": "1, 2, 3 and 4."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q01-ingles",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Inglês)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Inglês",
+     "language": "ingles",
+     "statement_md": "In the first sentence of the text, the underlined and in bold type word “eons” means:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "the last few years."
+      },
+      {
+       "label": "B",
+       "text_md": "an extremely long period of time."
+      },
+      {
+       "label": "C",
+       "text_md": "many years to come."
+      },
+      {
+       "label": "D",
+       "text_md": "special occasions."
+      },
+      {
+       "label": "E",
+       "text_md": "Indian women."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q02-ingles",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Inglês)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Inglês",
+     "language": "ingles",
+     "statement_md": "In the fourth paragraph, Delhi-based textile historian Rta Kapur Chishti calls the sari the “unstitched garment” because it:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "is made of silk."
+      },
+      {
+       "label": "B",
+       "text_md": "preserves traditional spinning techniques."
+      },
+      {
+       "label": "C",
+       "text_md": "is not sewed."
+      },
+      {
+       "label": "D",
+       "text_md": "can be easily untangled."
+      },
+      {
+       "label": "E",
+       "text_md": "falls in loose folds."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q03-ingles",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Inglês)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Inglês",
+     "language": "ingles",
+     "statement_md": "Consider the following piece of news:\n\nCoal fire crackdown and London mosque stabbing\n\n(Available in: https://www.bbc.com/news/blogs-the-papers-51581385.)\n\nThe headline in a British newspaper refers to:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "severe measures against specific fuel fires and a knife attack at a temple in London."
+      },
+      {
+       "label": "B",
+       "text_md": "the lack of coal supplies for the coming winter and the persecution of a Londoner in a church."
+      },
+      {
+       "label": "C",
+       "text_md": "the shortage of coal for heating ovens and the attack in a fair in London."
+      },
+      {
+       "label": "D",
+       "text_md": "some restrictions imposed on coal to heat both houses and Muslim temples in London."
+      },
+      {
+       "label": "E",
+       "text_md": "a huge explosion and the destruction of a church in London."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q04-ingles",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Inglês)"
+    },
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Italiano",
+     "language": "italiano",
+     "statement_md": "Il testo sotto ti servirà per rispondere alle domande dalla 01 alla 04.\n\nLa realtà virtuale nel turismo del futuro\n\ndi Giulio Cremona\n\nRealtà virtuali e turismo: concetti in divenire di esperienza e viaggio, che per affinità e necessità iniziano a trovare i primi punti di contatto. Rapporto che necessita di essere compreso e indirizzato perché, in futuro, si esprima al massimo del suo potenziale.\n\nAlla realtà virtuale sono applicate diverse scienze tecnologiche per creare quello che viene definito virtual environment (VE): un ambiente 3D esperito attraverso i sensi, il movimento e attraverso l’accesso a informazioni in forma verbale o scritta (Burdea e Coiffet, 2003). L’applicazione di simili tecnologie può generare diversi tipi di ambiente che possono essere classificati su un continuum, a seconda del livello di immersività. Prima, la augmented reality (Milgram et al., 1994), un ambiente in cui informazioni addizionali generate da un computer vengono trasmesse ai sensi dell’utilizzatore alla vista di una situazione nel mondo reale (Wang, 2007); a livello intermedio si colloca la mixed reality che mescola elementi del mondo artificioso con quelli del reale; infine, la true virtual reality (VR), che consiste nell’immersione completa in un mondo interamente artificiale e costituisce il focus del presente contributo.\n\nA questa realtà, che solo ora sta iniziando a esprimere il suo potenziale, si affianca quella turistica, che sta attraversando una fase di profonda riforma. Questa particolare pratica sociale e culturale, spesso ridotta a un mero insieme di attività economiche, divenuta una modalità significativa attraverso cui la moderna vita transnazionale è organizzata (Franklin e Crang, 2001), è oggi soggetta a tendenze che sollevano problematiche non trascurabili per il suo futuro. L’overtourism sta trasformando celebri mete turistiche in sovraffollati parchi divertimenti, l’avvento della sharing economy applicata a questa sfera sta creando gravi scompensi al settore alberghiero, nuove modalità di turismo, come l’experiential tourism, stanno spostando i flussi turistici fuori dalle rotte abituali e le tecnologie informatiche hanno permesso, a chiunque ne abbia l’intenzione, di organizzare le proprie esperienze in maniera del tutto autonoma e personalizzata.\n\nIl mettere in relazione due realtà in divenire come quelle sopra introdotte, di cui una sta iniziando a diffondere il suo potenziale mentre l’altra necessita di approcci innovativi perché i cambiamenti che la stanno attraversando non ne stravolgano gli equilibri, ha lo scopo di indagare come le realtà virtuali possano dare risposta ai bisogni emergenti del settore turistico. \\[...\\]\n\nQuesta sovrapposizione semantica di ambiti così distanti lascia pensare a una loro possibile integrazione, avente come risultato un reciproco vantaggio: diffusione e implementazione per le realtà virtuali e un effetto rigenerante e rinvigorente per l’industria turistica. \\[...\\]\n\n(Tratto da: http://www.futurimagazine.it/dossier/la-realta-virtuale-nel-turismo-del-futuro/.)\n\nIl metodo utilizzato dall’autore per dimostrare il suo punto di vista è:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "paragonare la nozione di turismo a quella di realtà virtuale data la loro identicità."
+      },
+      {
+       "label": "B",
+       "text_md": "collegare la nozione di turismo a quella di realtà virtuale data la loro consonanza."
+      },
+      {
+       "label": "C",
+       "text_md": "contraporre la nozione di turismo a quella di realtà virtuale data la loro conflittualità."
+      },
+      {
+       "label": "D",
+       "text_md": "staccare la nozione di realtà virtuale a quella di turismo data la loro inconciliabilità."
+      },
+      {
+       "label": "E",
+       "text_md": "parificare la nozione di turismo a quella di realtà virtuale data la loro discrepanza."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q01-italiano",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Italiano)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Italiano",
+     "language": "italiano",
+     "statement_md": "Considera le seguenti frasi:\n\n1. I livelli bassi, intermedi e alti di immersività determinano la classifica degli ambienti suscitati da diverse scienze tecnologiche che costituiscono lo scopo della realtà virtuale.\n\n2. La realtà aumentata arricchisce l’ambiente circostante mediante informazioni aggiuntive che non sarebbero percepibili con i cinque sensi umani.\n\n3. Il testo approfondisce l’argomento del coinvolgimento totale in un mondo del tutto artificiale.\n\nSegnala l’alternativa giusta in base a quello che hai letto nel testo.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Solo la frase 1 è vera."
+      },
+      {
+       "label": "B",
+       "text_md": "Solo la frase 3 è vera."
+      },
+      {
+       "label": "C",
+       "text_md": "Solo le frasi 1 e 2 sono vere."
+      },
+      {
+       "label": "D",
+       "text_md": "Solo le frasi 2 e 3 sono vere."
+      },
+      {
+       "label": "E",
+       "text_md": "Le frasi 1, 2 e 3 sono vere."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q02-italiano",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Italiano)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Italiano",
+     "language": "italiano",
+     "statement_md": "La pratica del turismo attualmente:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "è sottoposta a tendenze che fanno emmergere tematiche trascurabili per il suo futuro."
+      },
+      {
+       "label": "B",
+       "text_md": "sta aplicando la sharing econonomy alle mete turistiche poco conosciute."
+      },
+      {
+       "label": "C",
+       "text_md": "sta aumentando i flussi turistici verso i soliti itinerari già conosciuti."
+      },
+      {
+       "label": "D",
+       "text_md": "sta attraversando un momento di mutamento economico decisivo."
+      },
+      {
+       "label": "E",
+       "text_md": "lascia fuori le tecnologie con l’obiettivo di aiutare le persone."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q03-italiano",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Italiano)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Italiano",
+     "language": "italiano",
+     "statement_md": "Il principale obiettivo del testo è discutere:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "i vantaggi tratti dalla relazione tra realtà virtuale e turismo."
+      },
+      {
+       "label": "B",
+       "text_md": "il boom per il turismo ed il blocco delle realtà virtuali."
+      },
+      {
+       "label": "C",
+       "text_md": "i cambiamenti frutuosi per il turismo e l’oscuramento delle realtà virtuali."
+      },
+      {
+       "label": "D",
+       "text_md": "lo struttamento del turismo nelle realtà virtuali."
+      },
+      {
+       "label": "E",
+       "text_md": "l’effetto scoraggiante per il turismo e la propagazione delle realtà virtual."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q04-italiano",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Italiano)"
+    },
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Japonês",
+     "language": "japones",
+     "statement_md": "次のテキストを読み、以下の質問に答えてください。\n\n「3つの密(密閉・密集・密接)」の回避\n\n感染を予防するためには、基本的な感染予防の実施や不要不急の外出の自粛、「3つの密」を避けること等が重要です。\n\n1.密閉空間(換気の悪い密閉空間である)、2.密集場所(多くの人が密集している)、3.密接場面(互いに手を伸ば したら届く距離での会話や共同行為が行われる)という3つの条件のある場では、感染を拡大させるリスクが高いと考えら れています。また、屋外でも、密集・密接には要注意。人混みや近距離での会話、特に大きな声を出すことや歌うこと、激 しい呼気や大きな声を伴う運動は避けましょう。\n\n(Disponível em: https://www.kantei.go.jp/jp/headline/kansensho/coronavirus.html. Adaptado.)\n\n次の漢字の正しい読み方を選んでください ⇒ 密閉・密集・密接。",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "みんぺい・みんしゅつ・みんせつ。"
+      },
+      {
+       "label": "B",
+       "text_md": "みっぺい・みっしゅう・みっせつ。"
+      },
+      {
+       "label": "C",
+       "text_md": "みへい・みしゅう・みせつ。"
+      },
+      {
+       "label": "D",
+       "text_md": "みぺい・みしゅう・みせつ。"
+      },
+      {
+       "label": "E",
+       "text_md": "みっぺい・みっしゅ・みっせつ。"
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q01-japones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Japonês)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Japonês",
+     "language": "japones",
+     "statement_md": "次のテキストを読み、以下の質問に答えてください。\n\nアキバ発自販機が人気\n\n東北の冬、すぐに温かいおでんを食べられたなら―。そんな思いにこたえてくれる自動販売機が、宮城県内できゅ うぞうしている。東京・秋葉原名物の缶詰おでんが買える自販機だ。\n\n(Disponível em: https://www.asahi.com/articles/ASNDH6RH7ND9UNHB004.html. Adaptado.)\n\n以上のテキストを読み、「きゅうぞう」 の正しい漢字を選んでください。",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "急増。"
+      },
+      {
+       "label": "B",
+       "text_md": "至急。"
+      },
+      {
+       "label": "C",
+       "text_md": "急送。"
+      },
+      {
+       "label": "D",
+       "text_md": "緊急。"
+      },
+      {
+       "label": "E",
+       "text_md": "急用。"
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q02-japones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Japonês)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Japonês",
+     "language": "japones",
+     "statement_md": "次のテキストを読み、問03 と04 に答えてください。\n\n森正夫様\n\n今ドイツはいろいろな花が咲いて、美しい季節です。\n\nお元気でいらっしゃいますか。\n\n日本では本当にお世話になりました。\n\n日本で過ごした2年間はとても早く過ぎました。\n\n日本へ行ったばかりのときは、分からないことや慣れないことが多くて、皆様にご迷惑をおかけしましたが、本当に親切にしてい ただきました。おかげさまで楽しく仕事ができました。\n\nミュンヘンでは、日本で経験したことを生かして、新しい仕事にチャレンジしたいと思っております。\n\nこちらには、有名な美術館や古いお城があります。\n\nぜひ一度いらっしゃってください。\n\n森さんがお好きなビールをご用意して、お待ちしております。\n\n皆様にもどうぞ宜しくお伝えください。\n\nカール・シュミット\n\n以上のテキストに基づき、「ぜひ一度いらっしゃってください」の意味は次のどれですか:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "ぜひドイツに行ってください。"
+      },
+      {
+       "label": "B",
+       "text_md": "ぜひドイツへ帰ってください。"
+      },
+      {
+       "label": "C",
+       "text_md": "ぜひドイツに来てください。"
+      },
+      {
+       "label": "D",
+       "text_md": "ぜひドイツを避けてください。"
+      },
+      {
+       "label": "E",
+       "text_md": "ぜひドイツを忘れてください。"
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q03-japones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Japonês)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Japonês",
+     "language": "japones",
+     "statement_md": "以上の手紙はどんな手紙ですか。",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "推薦の手紙。"
+      },
+      {
+       "label": "B",
+       "text_md": "自己紹介の手紙。"
+      },
+      {
+       "label": "C",
+       "text_md": "仕事探しの手紙。"
+      },
+      {
+       "label": "D",
+       "text_md": "お礼の手紙。"
+      },
+      {
+       "label": "E",
+       "text_md": "先生の紹介の手紙。"
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q04-japones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Japonês)"
+    },
+    {
+     "number": 1,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Polonês",
+     "language": "polones",
+     "statement_md": "Pytania od 01 do 04 odnoszą się do następującego tekstu:\n\nJak Polacy spędzają czas wolny podczas pandemii?\n\n14.04.2020\n\nJak wynika z sondy „Czas wolny Polaków podczas koronawirusa” przeprowadzonej przez serwis „Prezent Marzeń” najbardziej w tym okresie brakuje nam spotkań z bliskimi i przyjaciółmi (41%), możliwości swobodnego spędzania czasu na zewnątrz (17%) oraz dodatkowych zajęć realizujących nasze pasje (13%).\n\nAby urozmaicić sobie czas przebywając w domu, czytamy książki i oglądamy filmy i seriale (25%) lub ćwiczymy fitness i jogę, korzystając z kursów online (22%). Czas umilamy sobie również poprzez gotowanie i sprawdzanie nowych ciekawych przepisów (15%) oraz ucząc się rzeczy, na które nie mieliśmy czasu (18%).\n\nStaramy się również spędzać czas kreatywnie z dziećmi, głównie grając w planszówki (29%) lub wspólnie czytając (22%). Podczas kwarantanny rozwijamy również swoje zainteresowania. Ciekawą alternatywą są różnego rodzaju kursy online (22%). W dobie koronawirusa jesteśmy w stanie przeznaczyć na rozrywkę nawet od 100 – 200 zł. Są i tacy ankietowani, którzy przeznaczyliby nawet kwotę powyżej 300 zł.\n\nKoronawirus z pewnością wpłynie na branżę rozrywkową, zaczniemy doceniać możliwość spędzenia wolnego czasu z bliskimi. Zaczniemy również korzystać z życia i realizować więcej marzeń, zamiast odkładać je na później (27%).\n\n(Disponível em: https://brief.pl/jak-polacy-spedzaja-czas-wolny-podczas-pandemii/.)\n\nProszę zaznaczyć odpowiedź zgodną z informacjami podanymi w powyższym tekście:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "W czasie pandemii w czasie wolnym Polacy najchętniej grają w gry, czytają książki oraz oglądają filmy i seriale."
+      },
+      {
+       "label": "B",
+       "text_md": "Tylko 13% ankietowanych czyta wspólnie z dziećmi."
+      },
+      {
+       "label": "C",
+       "text_md": "Wyniki sondy pokazują, że większość Polaków w czasie pandemii korzysta z kursów online."
+      },
+      {
+       "label": "D",
+       "text_md": "Polacy nie przeznaczyliby na rozrywkę w dobie pandemii więcej niż 300 złotych."
+      },
+      {
+       "label": "E",
+       "text_md": "27% ankietowanych uważa, że koronawirus nie przeszkadza w korzystaniu z życia i realizowaniu swoich pasji."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q01-polones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 1 (Polonês)"
+    },
+    {
+     "number": 2,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Polonês",
+     "language": "polones",
+     "statement_md": "Zdanie: „Jak wynika z sondy (…) najbardziej w tym okresie brakuje nam spotkań z bliskimi i przyjaciółmi” można zastąpić zdaniem:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Jak wynika z sondy najchętniej w tym okresie spotykamy się z bliskimi i przyjaciółmi."
+      },
+      {
+       "label": "B",
+       "text_md": "Jak wynika z sondy w tym okresie najbardziej nie lubimy spotkań z bliskimi i przyjaciółmi."
+      },
+      {
+       "label": "C",
+       "text_md": "Jak wynika z sondy najbardziej w tym okresie tęsknimy za spotkaniami z bliskimi i przyjaciółmi."
+      },
+      {
+       "label": "D",
+       "text_md": "Jak wynika z sondy w tym okresie najczęściej chodzimy na spotkania z bliskimi i przyjaciółmi."
+      },
+      {
+       "label": "E",
+       "text_md": "Jak wynika z sondy w tym okresie nie tęsknimy za spotkaniami z bliskimi i przyjaciółmi."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q02-polones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 2 (Polonês)"
+    },
+    {
+     "number": 3,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Polonês",
+     "language": "polones",
+     "statement_md": "Jak można przetłumaczyć na język portugalski nazwę serwisu „Prezent Marzeń”?",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Sonhando com um presente."
+      },
+      {
+       "label": "B",
+       "text_md": "Sonhadores do presente."
+      },
+      {
+       "label": "C",
+       "text_md": "Presentes para um sonho."
+      },
+      {
+       "label": "D",
+       "text_md": "O presente dos sonhos."
+      },
+      {
+       "label": "E",
+       "text_md": "O presente do futuro."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q03-polones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 3 (Polonês)"
+    },
+    {
+     "number": 4,
+     "area": "linguagens",
+     "subject": "Língua Estrangeira",
+     "topic": "Polonês",
+     "language": "polones",
+     "statement_md": "W zdaniu: „Czas umilamy sobie również poprzez gotowanie i sprawdzanie nowych ciekawych przepisów oraz ucząc się rzeczy, na które nie mieliśmy czasu” do którego wyrazu odnosi się podkreślone słowo?",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Czas."
+      },
+      {
+       "label": "B",
+       "text_md": "rzeczy."
+      },
+      {
+       "label": "C",
+       "text_md": "gotowanie."
+      },
+      {
+       "label": "D",
+       "text_md": "przepisów."
+      },
+      {
+       "label": "E",
+       "text_md": "sprawdzanie."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q04-polones",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 4 (Polonês)"
+    },
+    {
+     "number": 5,
+     "area": null,
+     "subject": null,
+     "statement_md": "Na espécie A, linhagens puras de plantas com flores brancas cruzadas com plantas de flores vermelhas produziram apenas plantas com flores vermelhas. Essas plantas com flores vermelhas cruzadas entre si produziram ¾ de plantas com flores vermelhas e ¼ de plantas com flores brancas. Na espécie B, linhagens puras de plantas com flores brancas cruzadas com plantas de flores vermelhas produziram apenas plantas com flores cor-de-rosa. Essas plantas com flores cor-de-rosa cruzadas entre si produziram ¼ de plantas com flores vermelhas, ½ de plantas com flores cor-de-rosa e ¼ de plantas com flores brancas.\n\nPara esse caso, considerando o padrão de herança e as interações alélicas dos genes que determinam a cor da flor nas espécies A e B, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Nas espécies A e B, os alelos para cor de flor vermelha são codominantes em relação aos alelos que condicionam flores brancas."
+      },
+      {
+       "label": "B",
+       "text_md": "Na espécie A, a proporção observada na geração F2 evidencia que o alelo que condiciona flores brancas apresenta dominância incompleta."
+      },
+      {
+       "label": "C",
+       "text_md": "Na espécie B, a proporção observada na geração F2 evidencia dominância completa do alelo que condiciona flores vermelhas."
+      },
+      {
+       "label": "D",
+       "text_md": "Na espécie A, o alelo para flores vermelhas é completamente dominante, enquanto na espécie B o alelo para flores\n\nvermelhas apresenta dominância incompleta."
+      },
+      {
+       "label": "E",
+       "text_md": "Nas espécies A e B, o alelo para cor de flor vermelha é incompletamente dominante em relação ao alelo que condiciona flores brancas."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q05",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 5"
+    },
+    {
+     "number": 6,
+     "area": null,
+     "subject": null,
+     "statement_md": "Além da presença de glândulas mamárias, são características exclusivas da classe Mammalia:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "dentes diferenciados, placenta e córion."
+      },
+      {
+       "label": "B",
+       "text_md": "coração com quatro cavidades, diafragma e alantoide."
+      },
+      {
+       "label": "C",
+       "text_md": "pelos, alantoide e dentes diferenciados."
+      },
+      {
+       "label": "D",
+       "text_md": "córion, dentes diferenciados e coração com quatro cavidades."
+      },
+      {
+       "label": "E",
+       "text_md": "diafragma, placenta e pelos."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q06",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 6"
+    },
+    {
+     "number": 7,
+     "area": null,
+     "subject": null,
+     "statement_md": "Microbiologia do solo é o estudo de organismos vivos no solo, de suas funções e de como eles afetam as propriedades do solo. No solo, é possível encontrar grupos de bactérias, fungos, algas, vírus e protozoários que formam a microbiota do solo. A respeito do assunto, considere as seguintes afirmativas:\n\n1. Os microrganismos atuam na ciclagem de nutrientes, melhorando a estrutura do solo e degradando poluentes orgânicos.\n\n2. Uma importante relação dos microrganismos do solo com as plantas é a fixação biológica de nitrogênio.\n\n3. A microbiota do solo promove a redução da capacidade de absorção de água do solo, melhorando sua estrutura.\n\n4. Os microrganismos do solo diminuem a capacidade tampão do solo, favorecendo os plantios agrícolas.\n\nAssinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a afirmativa 3 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente as afirmativas 1 e 2 são verdadeiras."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente as afirmativas 3 e 4 são verdadeiras."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as afirmativas 1, 2 e 4 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q07",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 7"
+    },
+    {
+     "number": 8,
+     "area": null,
+     "subject": null,
+     "statement_md": "Espécime, população biológica e espécie são conceitos relacionados e muito importantes para o estudo da biodiversidade. A respeito desses conceitos, assinale a afirmativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Uma população biológica é constituída por espécimes da mesma espécie que vivem em uma mesma área geográfica."
+      },
+      {
+       "label": "B",
+       "text_md": "Populações biológicas são grupos de espécies semelhantes, formadas por diferentes espécimes da mesma área geográfica."
+      },
+      {
+       "label": "C",
+       "text_md": "Uma população biológica é formada por diferentes espécies que habitam áreas geográficas semelhantes."
+      },
+      {
+       "label": "D",
+       "text_md": "Um espécime é um tipo de espécie que se distribui em diferentes populações biológicas ao longo de áreas geográficas distintas."
+      },
+      {
+       "label": "E",
+       "text_md": "Espécimes são grupos de espécies semelhantes constituídas por populações biológicas da mesma área geográfica."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q08",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 8"
+    },
+    {
+     "number": 9,
+     "area": null,
+     "subject": null,
+     "statement_md": "No que diz respeito aos mecanismos de transporte transmembranar, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "No epitélio intestinal dos animais, as especializações da membrana chamadas de microvilosidades reduzem a área de absorção, evitando o transporte por endocitose."
+      },
+      {
+       "label": "B",
+       "text_md": "Na difusão simples, a passagem de substâncias através da membrana ocorre a favor do gradiente de concentração, com gasto de ATP."
+      },
+      {
+       "label": "C",
+       "text_md": "Nos neurônios, o potencial de repouso da membrana é mantido pela difusão facilitada chamada de bomba sódio-potássio."
+      },
+      {
+       "label": "D",
+       "text_md": "A região dos pelos radiculares das plantas tem maior concentração de solutos que a água do solo, de modo que a água\n\nentra no interior das raízes por osmose."
+      },
+      {
+       "label": "E",
+       "text_md": "O transporte ativo é caracterizado pela passagem de substâncias a favor do gradiente de concentração, com o auxílio de proteínas carreadoras chamadas de permeases."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q09",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 9"
+    },
+    {
+     "number": 10,
+     "area": null,
+     "subject": null,
+     "statement_md": "Em relação ao processo de fotossíntese nas plantas, é correto afirmar que:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "somente gimnospermas e angiospermas são capazes de realizar fotossíntese, pois são plantas vasculares e com sementes."
+      },
+      {
+       "label": "B",
+       "text_md": "as briófitas possuem estruturas clorofiladas, mas são incapazes de realizar fotossíntese por não possuírem vasos condutores."
+      },
+      {
+       "label": "C",
+       "text_md": "as pteridófitas possuem folhas com células ricas em cloroplastos, relacionadas com a realização da fotossíntese."
+      },
+      {
+       "label": "D",
+       "text_md": "desde que interrompam o processo de respiração celular, plantas avasculares podem fazer fotossíntese."
+      },
+      {
+       "label": "E",
+       "text_md": "nas plantas vasculares, a fotossíntese é interrompida durante a respiração celular devido ao ponto de compensação fótica."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q10",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 10"
+    },
+    {
+     "number": 11,
+     "area": null,
+     "subject": null,
+     "statement_md": "Após pagar o valor da conta da pizzaria, Ana, Beatriz e Carlos voltaram para casa. No caminho, ninguém se recordava de quanto foi exatamente o valor da conta. Ana lembrava que a conta deu um valor inteiro e menor que 200 reais. Beatriz lembrava que deu um valor maior que 50 reais. Carlos lembrou que a soma dos algarismos do valor da conta dava 6. Admitindo que todos estavam certos, quantos são os valores possíveis para a conta?",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "6."
+      },
+      {
+       "label": "B",
+       "text_md": "7."
+      },
+      {
+       "label": "C",
+       "text_md": "8."
+      },
+      {
+       "label": "D",
+       "text_md": "9."
+      },
+      {
+       "label": "E",
+       "text_md": "10."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q11",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 11"
+    },
+    {
+     "number": 12,
+     "area": null,
+     "subject": null,
+     "statement_md": "![Trecho com fórmula: Na figura ao lado, considere os segmentos de reta e , e os triângulos retângulos e . Suponha que o comprimento de é igual a x, e que o comprimento de é igual a y. Considerando que os segmentos e têm o mesmo](/questoes/ufpr/2022/q12-1.png)\n\n![Trecho com fórmula: comprimento, qual das alternativas abaixo corresponde ao valor do comprimento do segmento ?](/questoes/ufpr/2022/q12-2.png)\n\n![Trecho com fórmula: ](/questoes/ufpr/2022/q12-3.png)\n\n![Figura](/questoes/ufpr/2022/q12-4.png)",
+     "images": [
+      "/questoes/ufpr/2022/q12-1.png",
+      "/questoes/ufpr/2022/q12-2.png",
+      "/questoes/ufpr/2022/q12-3.png",
+      "/questoes/ufpr/2022/q12-4.png",
+      "/questoes/ufpr/2022/q12-A-1.png",
+      "/questoes/ufpr/2022/q12-B-1.png",
+      "/questoes/ufpr/2022/q12-C-1.png",
+      "/questoes/ufpr/2022/q12-D-1.png",
+      "/questoes/ufpr/2022/q12-E-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q12-A-1.png"
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q12-B-1.png"
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q12-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q12-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q12-E-1.png"
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q12",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 12"
+    },
+    {
+     "number": 13,
+     "area": null,
+     "subject": null,
+     "statement_md": "![Trecho com fórmula: No plano cartesiano, considere o triângulo com , , , e , . Seja o ponto de intersecção do segmento com o eixo . Se é a reta que passa por , sendo essa reta paralela à reta que passa por e , assinale a alternativa que corresponde à equação de .](/questoes/ufpr/2022/q13-1.png)",
+     "images": [
+      "/questoes/ufpr/2022/q13-1.png",
+      "/questoes/ufpr/2022/q13-A-1.png",
+      "/questoes/ufpr/2022/q13-B-1.png",
+      "/questoes/ufpr/2022/q13-C-1.png",
+      "/questoes/ufpr/2022/q13-D-1.png",
+      "/questoes/ufpr/2022/q13-E-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q13-A-1.png"
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q13-B-1.png"
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q13-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q13-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q13-E-1.png"
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q13",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 13"
+    },
+    {
+     "number": 14,
+     "area": null,
+     "subject": null,
+     "statement_md": "![Trecho com fórmula: Na figura ao lado, temos uma circunferência de raio r>0 com centro na origem do plano complexo e, ao longo da circunferência, temos 6 números complexos: , , , , , . Supondo que os 6 números complexos são vértices de um hexágono regular e que](/questoes/ufpr/2022/q14-1.png)\n\nestá no eixo x, considere as seguintes equações:\n\n![Trecho com fórmula: 1.](/questoes/ufpr/2022/q14-2.png)\n\n![Trecho com fórmula: 2.](/questoes/ufpr/2022/q14-3.png)\n\n![Figura](/questoes/ufpr/2022/q14-4.png)\n\n![Trecho com fórmula: 3. .](/questoes/ufpr/2022/q14-5.png)\n\n![Trecho com fórmula: 4.](/questoes/ufpr/2022/q14-6.png)\n\nAssinale a alternativa correta.",
+     "images": [
+      "/questoes/ufpr/2022/q14-1.png",
+      "/questoes/ufpr/2022/q14-2.png",
+      "/questoes/ufpr/2022/q14-3.png",
+      "/questoes/ufpr/2022/q14-4.png",
+      "/questoes/ufpr/2022/q14-5.png",
+      "/questoes/ufpr/2022/q14-6.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a equação 3 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente as equações 1 e 3 são verdadeiras."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente as equações 2 e 4 são verdadeiras."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as equações 1, 2 e 4 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As equações 1, 2, 3 e 4 são verdadeiras."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q14",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 14"
+    },
+    {
+     "number": 15,
+     "area": null,
+     "subject": null,
+     "statement_md": "Uma fábrica de calçados possui um custo fixo mensal de R$ 20.000,00 relacionado a pagamentos de salários, aluguel e outras despesas fixas. Sabendo que, a cada par de calçados produzido, essa fábrica fatura R$ 28,00, a expressão que descreve o lucro mensal, em reais, em função do número x de calçados produzidos é:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "20.000x – 28."
+      },
+      {
+       "label": "B",
+       "text_md": "28x – 20.000."
+      },
+      {
+       "label": "C",
+       "text_md": "28x + 20.000."
+      },
+      {
+       "label": "D",
+       "text_md": "–28x + 20.000."
+      },
+      {
+       "label": "E",
+       "text_md": "–20.000x + 28."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q15",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 15"
+    },
+    {
+     "number": 16,
+     "area": null,
+     "subject": null,
+     "statement_md": "Considere a seguinte matriz:\n\n![Figura: sen sen sen](/questoes/ufpr/2022/q16-1.png)\n\n![Trecho com fórmula: Assinale a alternativa que corresponde à soma dos valores de ∈ , que satisfazem det .](/questoes/ufpr/2022/q16-2.png)\n\n![Trecho com fórmula: ](/questoes/ufpr/2022/q16-3.png)",
+     "images": [
+      "/questoes/ufpr/2022/q16-1.png",
+      "/questoes/ufpr/2022/q16-2.png",
+      "/questoes/ufpr/2022/q16-3.png",
+      "/questoes/ufpr/2022/q16-A-1.png",
+      "/questoes/ufpr/2022/q16-B-1.png",
+      "/questoes/ufpr/2022/q16-C-1.png",
+      "/questoes/ufpr/2022/q16-D-1.png",
+      "/questoes/ufpr/2022/q16-E-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q16-A-1.png"
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q16-B-1.png"
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q16-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q16-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q16-E-1.png"
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q16",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 16"
+    },
+    {
+     "number": 17,
+     "area": null,
+     "subject": null,
+     "statement_md": "Leia o seguinte excerto:\n\nO choque da morte de Maomé foi uma das mais sérias crises que a comunidade muçulmana teve de enfrentar. Até então, Maomé guiara cada um de seus passos. Como então poderiam continuar sem ele? \\[...\\] Alguns muçulmanos mais comprometidos também ficaram imaginando se a morte de Maomé pusera mesmo fim à sua empreitada, e os que desejavam apontar um sucessor dividiram-se imediatamente em grupos rivais.\n\n(ARMSTRONG, Karen. *Maomé*: uma biografia do profeta. Tradução Andréia Guerini, Fabiano Seixas Fernandes, Walter Carlos Costa.\n\nSão Paulo: Companhia das Letras, 2002, p. 288-289.)\n\nConsiderando o excerto acima, é correto afirmar que a crise acarretada pela morte de Maomé teve como resultado:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "a separação da comunidade muçulmana entre duas capitais distintas: Meca e Bagdá."
+      },
+      {
+       "label": "B",
+       "text_md": "a divisão da comunidade muçulmana entre sunitas e xiitas."
+      },
+      {
+       "label": "C",
+       "text_md": "o estabelecimento de duas dinastias muçulmanas rivais: os Almorávidas e os Almôadas."
+      },
+      {
+       "label": "D",
+       "text_md": "o surgimento de vertentes religiosas como o sufismo e o ismaelismo."
+      },
+      {
+       "label": "E",
+       "text_md": "o aparecimento de comunidades muçulmanas independentes, como as taifas e os emirados."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q17",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 17"
+    },
+    {
+     "number": 18,
+     "area": null,
+     "subject": null,
+     "statement_md": "Leia o seguinte excerto:\n\n\\[...\\] o acúmulo de agressões que atingiram as populações do Ocidente de 1348 ao começo do século XVIII criou, de alto a baixo do corpo social, um abalo psíquico profundo \\[...\\]. Constitui-se um ‘país do medo’ no interior do qual uma civilização se sentiu ‘pouco à vontade’ e povoou de fantasmas mórbidos.\n\n(DELUMEAU, J. *História do Medo no Ocidente: 1300-1800*, Uma Cidade Sitiada. Tradução Maria Lucia Machado.\n\nSão Paulo: Companhia das Letras, 2009, p. 43.)\n\nDe acordo com os conhecimentos sobre a Europa no século XIV, são duas das principais “agressões” relacionadas ao excerto acima:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "a crise do sistema mercantilista e as revoltas burguesas."
+      },
+      {
+       "label": "B",
+       "text_md": "a querela das investiduras e as controvérsias iconoclastas."
+      },
+      {
+       "label": "C",
+       "text_md": "a chamada caça às bruxas e as expedições cruzadas."
+      },
+      {
+       "label": "D",
+       "text_md": "a guerra das Duas Rosas e as invasões dos hunos."
+      },
+      {
+       "label": "E",
+       "text_md": "a epidemia de peste bubônica e as ondas de fome."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q18",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 18"
+    },
+    {
+     "number": 19,
+     "area": null,
+     "subject": null,
+     "statement_md": "Leia o seguinte excerto:\n\n\\[...\\] essa foi a única revolta de escravos bem-sucedida da História, e as dificuldades que tiveram de superar colocam em evidência a magnitude dos interesses envolvidos.\n\n(JAMES, C. J. R. *Os Jacobinos Negros*. Tradução Afonso Teixeira Filho. São Paulo: Boitempo, 2010, p. 15.)\n\nO excerto acima se refere à/ao:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Revolução Haitiana."
+      },
+      {
+       "label": "B",
+       "text_md": "Revolta dos Malês."
+      },
+      {
+       "label": "C",
+       "text_md": "Revolução Cubana."
+      },
+      {
+       "label": "D",
+       "text_md": "Levante da Costa Alemã de 1811."
+      },
+      {
+       "label": "E",
+       "text_md": "Revolta dos Angolares."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q19",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 19"
+    },
+    {
+     "number": 20,
+     "area": null,
+     "subject": null,
+     "statement_md": "Considerando os eventos da Reforma Protestante (iniciada em 1517) e seus desdobramentos na Idade Moderna, uma concepção religiosa reforçada pelos seguidores da Reforma em relação ao cristianismo vigente na época foi a:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "exaltação da simonia, que almejava trazer os cristãos afastados para o cotidiano da igreja."
+      },
+      {
+       "label": "B",
+       "text_md": "ênfase na justificação pela fé, que visava eliminar intermediários humanos na relação com a divindade."
+      },
+      {
+       "label": "C",
+       "text_md": "importância do celibato, que intentava preservar o clero regular da corrupção de bens religiosos."
+      },
+      {
+       "label": "D",
+       "text_md": "renovação das obras de caridade, que pretendia reforçar o engajamento dos cristãos na vida social."
+      },
+      {
+       "label": "E",
+       "text_md": "adoção da peregrinação, que procurava aproximar os fiéis de diferentes partes da Europa."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q20",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 20"
+    },
+    {
+     "number": 21,
+     "area": null,
+     "subject": null,
+     "statement_md": "Considere o seguinte trecho de uma carta enviada pelo rei do Congo ao rei de Portugal em 1526:\n\nOs comerciantes estão sequestrando o nosso povo dia após dia – filhos deste país, filhos de nossos nobres e vassalos, mesmo as pessoas de nossa própria família \\[...\\]. Essa corrupção e depravação estão tão generalizadas que a nossa terra é inteiramente despovoada. \\[...\\] Precisamos neste reino só de sacerdotes e professores, e nenhuma mercadoria, a menos que seja vinho e farinha para o santo sacramento \\[...\\]. É nosso desejo que este reino não seja um lugar para o comércio ou transporte de escravos.\n\n(MEREDITH, Martin. *O Destino da África*: cinco mil anos de riquezas, ganância e desafios. Tradução Marlene Suano.\n\nRio de Janeiro: Zahar, 2017, p. 122.)\n\nCom base no texto acima e nos conhecimentos acerca dos contatos entre sociedades africanas e europeias no início da Idade Moderna, é correto afirmar que:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "o tráfico de pessoas escravizadas por parte de Portugal visava o despovoamento do Reino do Congo como estratégia para uma futura colonização."
+      },
+      {
+       "label": "B",
+       "text_md": "a cristianização do Reino do Congo se deu através da presença militar e da construção de feitorias portuguesas na costa africana."
+      },
+      {
+       "label": "C",
+       "text_md": "o Reino do Congo buscava, através da diplomacia, estabelecer suas próprias leis para a regulação do tráfico de pessoas\n\nescravizadas."
+      },
+      {
+       "label": "D",
+       "text_md": "as influências políticas e culturais de Portugal eram recebidas com hostilidade pelo Reino do Congo porque entravam em conflito com tradições locais."
+      },
+      {
+       "label": "E",
+       "text_md": "as tensões decorrentes do tráfico de pessoas escravizadas ocasionaram a Primeira Guerra Luso-Portuguesa."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q21",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 21"
+    },
+    {
+     "number": 22,
+     "area": null,
+     "subject": null,
+     "statement_md": "Em relação à história do Brasil no século XX, assinale a alternativa que apresenta uma ocorrência de governo parlamentarista e sua respectiva razão de implantação.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "O governo do presidente Fernando Henrique Cardoso, entre 1995 e 1999, foi implantado devido à vitória do parlamentarismo no plebiscito sobre regimes de governo em 1993."
+      },
+      {
+       "label": "B",
+       "text_md": "O governo do presidente Washington Luís, entre 1926 e 1930, foi implantado devido ao desgaste da política do café-com-leite e à ascensão do movimento da Aliança Liberal."
+      },
+      {
+       "label": "C",
+       "text_md": "O governo do presidente Eurico Gaspar Dutra, entre 1950 e 1951, foi implantado devido aos planos de instauração de uma ditadura militar com auxílio da Arena (Aliança Renovadora Nacional)."
+      },
+      {
+       "label": "D",
+       "text_md": "O governo do presidente João Goulart, entre 1961 e 1963, foi implantado devido à articulação de setores militares e\n\nconservadores para limitar os poderes presidenciais."
+      },
+      {
+       "label": "E",
+       "text_md": "O governo do presidente Café Filho, entre 1954 e 1955, foi implantado devido à crise política decorrente do suicídio de Getúlio Vargas e da mobilização do Partido Comunista para tomar o poder."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q22",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 22"
+    },
+    {
+     "number": 23,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 23 a 28.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nA figura ao lado apresenta o comportamento gráfico da posição *x* em função do tempo *t* para os objetos A (linha cheia) e B (linha tracejada), que se movem ao longo de duas pistas retas, paralelas e de origens coincidentes.\n\nConsiderando os dados apresentados no enunciado e no gráfico, considere as seguintes afirmativas:\n\n1. O objeto A tem uma velocidade constante, de módulo\n\n![Figura](/questoes/ufpr/2022/q23-1.png)\n\nv = 2 m/s.\n\n2. Os objetos se encontram no instante t = 15 s.\n\n3. O objeto B está parado.\n\n4. O objeto A inicia o movimento em x₀ = 0 m.\n\nAssinale a alternativa correta.",
+     "images": [
+      "/questoes/ufpr/2022/q23-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a afirmativa 2 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente as afirmativas 1 e 3 são verdadeiras."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente as afirmativas 2 e 4 são verdadeiras."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as afirmativas 1, 3 e 4 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q23",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 23"
+    },
+    {
+     "number": 24,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 23 a 28.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nAo realizar manipulações com grandezas físicas, é importante se ter ideia das ordens de grandeza envolvidas numa dada situação. Com base no exposto, assinale a alternativa que apresenta corretamente a ordem de grandeza da espessura de um telefone celular.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "10⁻⁹ m."
+      },
+      {
+       "label": "B",
+       "text_md": "10⁻⁶ m."
+      },
+      {
+       "label": "C",
+       "text_md": "10⁻² m."
+      },
+      {
+       "label": "D",
+       "text_md": "10¹ m."
+      },
+      {
+       "label": "E",
+       "text_md": "10³ m."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q24",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 24"
+    },
+    {
+     "number": 25,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 23 a 28.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nO comportamento gráfico para o módulo do campo elétrico *E* numa dada região do espaço, em função da posição *x* dentro dessa região, é linear e está representado na figura ao lado.\n\n![Trecho com fórmula: Considerando as informações apresentadas no enunciado e na figura, assinale a alternativa que apresenta corretamente o valor do módulo da força elétrica F produzida por esse campo sobre uma carga Q = 1,6 C colocada na posição x = 4 cm.](/questoes/ufpr/2022/q25-1.png)\n\n![Figura](/questoes/ufpr/2022/q25-2.png)",
+     "images": [
+      "/questoes/ufpr/2022/q25-1.png",
+      "/questoes/ufpr/2022/q25-2.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "*F* = 8,0 N."
+      },
+      {
+       "label": "B",
+       "text_md": "*F* = 6,4 N."
+      },
+      {
+       "label": "C",
+       "text_md": "*F* = 4,8 N."
+      },
+      {
+       "label": "D",
+       "text_md": "*F* = 3,2 N."
+      },
+      {
+       "label": "E",
+       "text_md": "*F* = 1,6 N."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q25",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 25"
+    },
+    {
+     "number": 26,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 23 a 28.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\n![Trecho com fórmula: Um bloco de massa constante foi colocado num plano inclinado de ângulo de inclinação , conforme mostra a figura](/questoes/ufpr/2022/q26-1.png)\n\nao lado.\n\n![Trecho com fórmula: Há atrito entre o plano inclinado e o bloco, sendo que o coeficiente de atrito estático vale e o coeficiente de atrito](/questoes/ufpr/2022/q26-2.png)\n\n![Figura](/questoes/ufpr/2022/q26-3.png)\n\n![Trecho com fórmula: cinético vale . O bloco está sujeito à ação gravitacional além](/questoes/ufpr/2022/q26-4.png)\n\nda força de reação normal e da força de atrito geradas pelo plano inclinado. Na situação em que o bloco esteja estático, mas na iminência de começar a deslizar, de modo que a força de atrito estática é máxima, vale a relação:",
+     "images": [
+      "/questoes/ufpr/2022/q26-1.png",
+      "/questoes/ufpr/2022/q26-2.png",
+      "/questoes/ufpr/2022/q26-3.png",
+      "/questoes/ufpr/2022/q26-4.png",
+      "/questoes/ufpr/2022/q26-A-1.png",
+      "/questoes/ufpr/2022/q26-B-1.png",
+      "/questoes/ufpr/2022/q26-C-1.png",
+      "/questoes/ufpr/2022/q26-D-1.png",
+      "/questoes/ufpr/2022/q26-E-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q26-A-1.png"
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q26-B-1.png"
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q26-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q26-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q26-E-1.png"
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q26",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 26"
+    },
+    {
+     "number": 27,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 23 a 28.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nUma certa quantidade de gás ideal executa o ciclo termodinâmico ABCDA no sentido horário, conforme ilustrado na figura abaixo.\n\n![Figura](/questoes/ufpr/2022/q27-1.png)\n\n![Trecho com fórmula: Considerando os dados apresentados na figura e no enunciado, assinale a alternativa que apresenta corretamente o valor do trabalho total realizado pelo gás ao longo de todo o ciclo ABCDA.](/questoes/ufpr/2022/q27-2.png)",
+     "images": [
+      "/questoes/ufpr/2022/q27-1.png",
+      "/questoes/ufpr/2022/q27-2.png",
+      "/questoes/ufpr/2022/q27-A-1.png",
+      "/questoes/ufpr/2022/q27-B-1.png",
+      "/questoes/ufpr/2022/q27-C-1.png",
+      "/questoes/ufpr/2022/q27-D-1.png",
+      "/questoes/ufpr/2022/q27-E-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q27-A-1.png"
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q27-B-1.png"
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q27-C-1.png"
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q27-D-1.png"
+      },
+      {
+       "label": "E",
+       "text_md": "",
+       "image_url": "/questoes/ufpr/2022/q27-E-1.png"
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q27",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 27"
+    },
+    {
+     "number": 28,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 23 a 28.\n\nEm todas as questões, as medições são feitas por um referencial inercial. O módulo da aceleração gravitacional é representado por *g*. Onde for necessário, use *g* = 10 m/s² para o módulo da aceleração gravitacional.\n\nUm calorímetro ideal contém 200 g de água a uma temperatura *T*₀ = 20 ºC ao nível do mar. Uma certa quantidade de calor correspondendo a 48 kJ é transferida à água, que atinge uma temperatura *T*. Supondo que todo o calor transferido foi absorvido pela água, sabendo que o calor específico da água vale *c* = 1 cal/g ºC e considerando a conversão 1 cal = 4 J, assinale a alternativa que apresenta corretamente o valor da temperatura final da água, que se mantém líquida em todo o processo.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "*T* = 60 ºC."
+      },
+      {
+       "label": "B",
+       "text_md": "*T* = 70 ºC."
+      },
+      {
+       "label": "C",
+       "text_md": "*T* = 80 ºC."
+      },
+      {
+       "label": "D",
+       "text_md": "*T* = 90 ºC."
+      },
+      {
+       "label": "E",
+       "text_md": "*T* = 100 ºC.\n\nO texto a seguir é referência para as questões 29 a 32.\n\nO Tempo Livre e o Novo Feitiço do Capital\n\nNathan Caixeta"
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q28",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 28"
+    },
+    {
+     "number": 30,
+     "area": null,
+     "subject": null,
+     "statement_md": "Considere as seguintes afirmativas, com relação ao texto de Caixeta:\n\n1. O sujeito de “forçando o distanciamento compulsório das redes sociais” (linha 2) é “A “queda do zap” na última segunda-feira (04/10) atinou com desaviso a inquietante e cada vez mais esquecida forma de viver” (linha 1).\n\n2. O “interessante experimento social” (linhas 4-5) refere-se às pessoas que foram levadas a “perceberem a existência do próprio real desnudo da celeridade virtual que encobre” (linha 5).\n\n3. “A queda do zap” pode permitir a observação da relação entre a transformação do tempo-livre dos indivíduos em valor de troca e a valorização do capital com desdobramentos financeiros e comercias ligados ao mundo virtual. Assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a afirmativa 1 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente a afirmativa 2 é verdadeira."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente as afirmativas 1 e 3 são verdadeiras."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as afirmativas 2 e 3 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As afirmativas 1, 2 e 3 são verdadeiras."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q30",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 30"
+    },
+    {
+     "number": 31,
+     "area": null,
+     "subject": null,
+     "statement_md": "Segundo o texto, é correto afirmar:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "A estimativa da queda das ações do Facebook em torno de 5% levou os técnicos da empresa a tentarem corrigir essa falha."
+      },
+      {
+       "label": "B",
+       "text_md": "O distanciamento das redes sociais caiu num limbo provocado pelo retorno a eras mais remotas."
+      },
+      {
+       "label": "C",
+       "text_md": "Sem saber o que fazer com o tempo livre, as pessoas ficaram desorientadas e arrancaram os cabelos pela “queda do zap”."
+      },
+      {
+       "label": "D",
+       "text_md": "As pessoas se deram conta da existência do real a partir da interrupção do mascaramento da vida nas redes sociais."
+      },
+      {
+       "label": "E",
+       "text_md": "Segundo Eduardo Mariutti, UNICAMP, o mundo virtual não se opõe ao mundo real, mas o contradiz, fragmentando-o."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q31",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 31"
+    },
+    {
+     "number": 32,
+     "area": null,
+     "subject": null,
+     "statement_md": "Considerando as seguintes sequências extraídas do texto: “forçando o distanciamento compulsório”; “a existência do próprio real desnudo da celeridade virtual”; e “uma vez que sua instância de captura imediata”, assinale a alternativa cujos termos podem substituir, respectivamente, os vocábulos grifados das expressões citadas, na acepção que lhes confere o texto.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "inviável, ligeireza, alçada."
+      },
+      {
+       "label": "B",
+       "text_md": "obrigatório, rapidez, foro."
+      },
+      {
+       "label": "C",
+       "text_md": "opcional, importância, campo."
+      },
+      {
+       "label": "D",
+       "text_md": "imperioso, notoriedade, localidade."
+      },
+      {
+       "label": "E",
+       "text_md": "transitório, morosidade, domínio."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q32",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 32"
+    },
+    {
+     "number": 33,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 33 a 36.\n\nDa Violência\n\nHannah Arendt\n\n1 Estas reflexões foram causadas pelos eventos e debates dos últimos anos comparados com o *background* do século vinte, que se 2 tornou realmente, como Lênin tinha previsto, um século de guerras e revoluções; um século daquela violência que se acredita 3 comumente ser o denominador comum destas guerras e revoluções. Há, todavia, um outro fator na situação atual que, embora não 4 previsto por ninguém, é pelo menos de igual importância. O desenvolvimento técnico dos implementos da violência chegou a tal 5 ponto que nenhum objetivo político concebível poderia corresponder ao seu potencial destrutivo, ou justificar seu uso efetivo num 6 conflito armado. Assim, a arte da guerra – desde tempos imemoriais o impiedoso árbitro final em disputas internacionais – perdeu 7 muito de sua eficácia e quase todo seu fascínio. O “apocalíptico” jogo de xadrez entre as superpotências, ou seja, entre os que 8 manobram no plano mais alto de nossa civilização, está sendo jogado segundo a regra “se qualquer um ‘ganhar’ é o fim de ambos”; 9 é um embate sem qualquer semelhança com os outros embates militares precedentes. Seu objetivo “racional” é intimidação e não 10 vitória, e a corrida armamentista, já não sendo uma preparação para a guerra, só pode ser justificada agora pela ideia de que quanto 11 mais intimidação houver maior é a garantia de paz.\n\n(Extraído e adaptado de: Arendt, H. *Crises da República*. SP: Perspectiva, 2017.)\n\nAssinale a alternativa que recupera a tese central do texto de H. Arendt.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Para a filósofa Arendt, o século XX, de guerras e revoluções como previu Lênin, foi o século mais violento da humanidade."
+      },
+      {
+       "label": "B",
+       "text_md": "Para a autora, a resolução dos conflitos armados dispensa objetivos políticos que não justifiquem o uso de material bélico tecnológico."
+      },
+      {
+       "label": "C",
+       "text_md": "Segundo a filósofa, a arte da guerra perdeu sua eficácia porque ficou esquecida pelos tempos imemoriais e consequentemente perdeu seu fascínio."
+      },
+      {
+       "label": "D",
+       "text_md": "As superpotências internacionais são responsáveis, segundo a pensadora, por garantir a civilização no seu plano mais alto."
+      },
+      {
+       "label": "E",
+       "text_md": "Segundo a filósofa alemã, Hannah Arendt, o que move os embates violentos contemporâneos é a demonstração de força\n\npor intimidação."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q33",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 33"
+    },
+    {
+     "number": 34,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 33 a 36.\n\nDa Violência\n\nHannah Arendt\n\n1 Estas reflexões foram causadas pelos eventos e debates dos últimos anos comparados com o *background* do século vinte, que se 2 tornou realmente, como Lênin tinha previsto, um século de guerras e revoluções; um século daquela violência que se acredita 3 comumente ser o denominador comum destas guerras e revoluções. Há, todavia, um outro fator na situação atual que, embora não 4 previsto por ninguém, é pelo menos de igual importância. O desenvolvimento técnico dos implementos da violência chegou a tal 5 ponto que nenhum objetivo político concebível poderia corresponder ao seu potencial destrutivo, ou justificar seu uso efetivo num 6 conflito armado. Assim, a arte da guerra – desde tempos imemoriais o impiedoso árbitro final em disputas internacionais – perdeu 7 muito de sua eficácia e quase todo seu fascínio. O “apocalíptico” jogo de xadrez entre as superpotências, ou seja, entre os que 8 manobram no plano mais alto de nossa civilização, está sendo jogado segundo a regra “se qualquer um ‘ganhar’ é o fim de ambos”; 9 é um embate sem qualquer semelhança com os outros embates militares precedentes. Seu objetivo “racional” é intimidação e não 10 vitória, e a corrida armamentista, já não sendo uma preparação para a guerra, só pode ser justificada agora pela ideia de que quanto 11 mais intimidação houver maior é a garantia de paz.\n\n(Extraído e adaptado de: Arendt, H. *Crises da República*. SP: Perspectiva, 2017.)\n\nObserve as seguintes afirmativas, relacionadas ao texto:\n\n1. A autora não concorda com o político russo, Lênin, acerca da avaliação que ele fez a respeito da violência do século XX.\n\n2. Segundo Arendt, existe um fator relativo à belicosidade e à violência na atualidade que não foi considerado pelo político russo.\n\n3. Há, no jogo de poder das superpotências, um objetivo político cuja racionalidade é a corrida armamentista e a busca da superioridade majoritária.\n\nAssinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a afirmativa 1 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente a afirmativa 2 é verdadeira."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente a afirmativa 3 é verdadeira."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as afirmativas 2 e 3 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As afirmativas 1, 2 e 3 são verdadeiras."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q34",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 34"
+    },
+    {
+     "number": 35,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 33 a 36.\n\nDa Violência\n\nHannah Arendt\n\n1 Estas reflexões foram causadas pelos eventos e debates dos últimos anos comparados com o *background* do século vinte, que se 2 tornou realmente, como Lênin tinha previsto, um século de guerras e revoluções; um século daquela violência que se acredita 3 comumente ser o denominador comum destas guerras e revoluções. Há, todavia, um outro fator na situação atual que, embora não 4 previsto por ninguém, é pelo menos de igual importância. O desenvolvimento técnico dos implementos da violência chegou a tal 5 ponto que nenhum objetivo político concebível poderia corresponder ao seu potencial destrutivo, ou justificar seu uso efetivo num 6 conflito armado. Assim, a arte da guerra – desde tempos imemoriais o impiedoso árbitro final em disputas internacionais – perdeu 7 muito de sua eficácia e quase todo seu fascínio. O “apocalíptico” jogo de xadrez entre as superpotências, ou seja, entre os que 8 manobram no plano mais alto de nossa civilização, está sendo jogado segundo a regra “se qualquer um ‘ganhar’ é o fim de ambos”; 9 é um embate sem qualquer semelhança com os outros embates militares precedentes. Seu objetivo “racional” é intimidação e não 10 vitória, e a corrida armamentista, já não sendo uma preparação para a guerra, só pode ser justificada agora pela ideia de que quanto 11 mais intimidação houver maior é a garantia de paz.\n\n(Extraído e adaptado de: Arendt, H. *Crises da República*. SP: Perspectiva, 2017.)\n\nAssinale a alternativa correta quanto à interpretação dos recursos ortográficos presentes no texto.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Os travessões da linha 6 destacam o aposto de ‘a arte da guerra’."
+      },
+      {
+       "label": "B",
+       "text_md": "O emprego de itálico em ‘background’ (linha 1) equivale, como recurso, às aspas duplas em “apocalíptico” (linha 7)."
+      },
+      {
+       "label": "C",
+       "text_md": "Todas as ocorrências de aspas duplas são empregadas para destacar a ironia."
+      },
+      {
+       "label": "D",
+       "text_md": "As aspas duplas em “apocalíptico” (linha 7) e “racional” (linha 9) foram empregadas para marcar incerteza."
+      },
+      {
+       "label": "E",
+       "text_md": "O emprego de itálico em ‘background’ (linha 1) não é correto, pois o termo deveria vir entre aspas."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q35",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 35"
+    },
+    {
+     "number": 36,
+     "area": null,
+     "subject": null,
+     "statement_md": "O texto a seguir é referência para as questões 33 a 36.\n\nDa Violência\n\nHannah Arendt\n\n1 Estas reflexões foram causadas pelos eventos e debates dos últimos anos comparados com o *background* do século vinte, que se 2 tornou realmente, como Lênin tinha previsto, um século de guerras e revoluções; um século daquela violência que se acredita 3 comumente ser o denominador comum destas guerras e revoluções. Há, todavia, um outro fator na situação atual que, embora não 4 previsto por ninguém, é pelo menos de igual importância. O desenvolvimento técnico dos implementos da violência chegou a tal 5 ponto que nenhum objetivo político concebível poderia corresponder ao seu potencial destrutivo, ou justificar seu uso efetivo num 6 conflito armado. Assim, a arte da guerra – desde tempos imemoriais o impiedoso árbitro final em disputas internacionais – perdeu 7 muito de sua eficácia e quase todo seu fascínio. O “apocalíptico” jogo de xadrez entre as superpotências, ou seja, entre os que 8 manobram no plano mais alto de nossa civilização, está sendo jogado segundo a regra “se qualquer um ‘ganhar’ é o fim de ambos”; 9 é um embate sem qualquer semelhança com os outros embates militares precedentes. Seu objetivo “racional” é intimidação e não 10 vitória, e a corrida armamentista, já não sendo uma preparação para a guerra, só pode ser justificada agora pela ideia de que quanto 11 mais intimidação houver maior é a garantia de paz.\n\n(Extraído e adaptado de: Arendt, H. *Crises da República*. SP: Perspectiva, 2017.)\n\nAcerca dos relatores de coesão presentes no texto, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "O termo grifado em “um século daquela violência que se acredita” (linha 2) é conjunção integrante com valor aditivo."
+      },
+      {
+       "label": "B",
+       "text_md": "O vocábulo “assim” (linha 6) tem valor adversativo, de oposição ao período precedente."
+      },
+      {
+       "label": "C",
+       "text_md": "Na linha 7, a locução “ou seja” tem o mesmo valor semântico de “quer seja”."
+      },
+      {
+       "label": "D",
+       "text_md": "O valor semântico de “embora” (linha 3) corresponde a “por mais que”."
+      },
+      {
+       "label": "E",
+       "text_md": "A locução “já não” (linha 10) tem valor concessivo equivalente a “ainda que”."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q36",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 36"
+    },
+    {
+     "number": 37,
+     "area": null,
+     "subject": null,
+     "statement_md": "Leia a seguir a primeira estrofe do poema “O meu sepulcro”, de Gonçalves Dias.\n\n1 Quando, os olhos cerrando à luz da vida,\n\n2 O extremo adeus soltar às esperanças,\n\n3 Que na terra nos guiam, nos confortam\n\n4 E espaçam do porvir a senda estreita;\n\n5 Quando, isento de míseros cuidados,\n\n6 Disser adeus às ilusões douradas,\n\n7 Mas com elas também às dores cruas\n\n8 Da existência – aos espinhos pontiagudos,\n\n9 Com que a verdade o coração nos roça;\n\n10 Quando tocada não sentir minha alma\n\n11 Da luz, dos sons, das cores, das magias,\n\n12 Que a natureza pródiga derrama\n\n13 No regaço da terra – mais ditoso\n\n14 Serei acaso então? – Quando o meu corpo\n\n15 À terra, mãe comum, pedindo abrigo\n\n16 Dos sepulcros no vale em paz descanse;\n\n17 Hei de ser mais feliz porque mo cobre\n\n18 Pomposo mausoléu, em vez da pedra\n\n19 Sem nome, – em vez do túmulo de céspedes,\n\n20 Que s’ergue junto à estrada, e ao viandante,\n\n21 Ao que ali passa, uma oração suplica?\n\n22 Oh! não! – ao encalmado é grata a sombra;\n\n23 Grato descanso aos membros fatigados\n\n24 Presta igualmente a relva das campinas\n\n25 E os torrões pelo sol enrijecidos.\n\n26 Como o trabalhador que a sesta aguarda,\n\n27 O meu termo fatal sem medo espero!\n\n28 Eu então pedirei silêncio à morte,\n\n29 E fresca sombra à sepultura humilde,\n\n30 Que me receba, – e a cuja superfície\n\n31 Morram sem eco da existência as vagas. \\[...\\]\n\n(DIAS, Gonçalves. *Poesia e prosa completas*: volume único. Org.: Alexei Bueno. Rio de Janeiro: Nova Aguillar, 1998. p. 491-2.)\n\nO auto de Natal pernambucano *Morte e Vida Severina*, de João Cabral de Melo Neto, apresenta algumas semelhanças temáticas com a estrofe acima transcrita, parte integrante do livro *Últimos Cantos*. Assinale a alternativa em que estão corretas as aproximações entre as duas obras.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "A esperança e as dores da existência, mencionadas nos versos 2 e 7 (acima), estão presentes na obra de João Cabral no\n\nnascimento de uma criança: “E não há melhor resposta / que o espetáculo da vida: / vê-la desfiar seu fio, / que também se chama vida, / ver a fábrica que ela mesma, / teimosamente, se fabrica, / vê-la brotar como há pouco / em nova vida explodida”."
+      },
+      {
+       "label": "B",
+       "text_md": "O ato do eu-lírico de se despedir das ilusões e das dores da vida, nos versos 5 a 8 (acima), também é encenado pelo retirante Severino, quando ele comunica a decisão de se suicidar: “– Seu José, mestre carpina, / que diferença faria / se em vez de continuar / tomasse a melhor saída: / a de saltar, numa noite, / fora da ponte e da vida?”."
+      },
+      {
+       "label": "C",
+       "text_md": "A natureza benfazeja, mencionada nos versos 10 a 13 (acima), foi representada por João Cabral nesta imagem de satisfação das necessidades humanas: “Cedo aprenderá a caçar: / primeiro, com as galinhas, / que é catando pelo chão / tudo o que cheira a comida; / depois aprenderá com / outras espécies de bichos: / com os porcos nos monturos, / com os cachorros no lixo”."
+      },
+      {
+       "label": "D",
+       "text_md": "O eu-lírico opina, nos versos 17 a 21 (acima), que ricos e pobres se tornam iguais quando morrem; a mesma ideia foi apresentada nos seguintes versos de João Cabral: “– Não é cova grande, / é cova medida, / é a terra que querias / ver dividida. \\[...\\] É uma cova grande / para tua carne pouca, / mas a terra dada / não se abre a boca”."
+      },
+      {
+       "label": "E",
+       "text_md": "A morte é representada como descanso merecido, nos versos 22 a 25 (acima), como também nesta fala de um coveiro, em *Morte e Vida Severina*: “– E esse povo lá de riba / de Pernambuco, da Paraíba, / que vem buscar no Recife / poder morrer de velhice, / encontra só, aqui chegando / cemitérios esperando. / \\[...\\] aí está o seu erro: / vêm é seguindo seu próprio enterro”."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q37",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 37"
+    },
+    {
+     "number": 38,
+     "area": null,
+     "subject": null,
+     "statement_md": "O fragmento abaixo é parte do segundo canto de “O Uraguai”, poema épico de Basílio da Gama publicado em 1769.\n\nEu, desarmado e só, buscar-te venho.\n\nTanto espero de ti. E enquanto as armas\n\nDão lugar à razão, senhor, vejamos\n\nSe se pode salvar a vida e o sangue\n\nDe tantos desgraçados. Muito tempo\n\nPode ainda tardar-nos o recurso\n\nCom o largo oceano de permeio,\n\nEm que os suspiros dos vexados povos\n\nPerdem o alento. O dilatar-se a entrega\n\nEstá nas nossas mãos, até que um dia\n\nInformados os reis nos restituam\n\nA doce antiga paz. Se o rei de Espanha\n\nAo teu rei quer dar terras com mão larga\n\nQue lhe dê Buenos Aires, e Correntes\n\nE outras, que tem por estes vastos climas;\n\nPorém não pode dar-lhes os nossos povos.\n\n(Disponível em: http://objdigital.bn.br/Acervo\\_Digital/livros\\_eletronicos/uraguai.pdf.)\n\nA respeito desse poema, considere as seguintes afirmativas:\n\n1. Atendendo as regras de composição da epopeia clássica, Basílio da Gama inspirou-se num fato histórico acontecido séculos antes da escrita e narrou-o em versos metrificados e rimados.\n\n2. Em vez de dar voz a um pastor, como é frequente na poesia do Arcadismo, o poeta deu voz a líderes militares portugueses e aos indígenas que habitavam a região dos Sete Povos das Missões.\n\n3. Como elementos de nativismo, aparecem as personagens Cacambo, guerreiro capaz de argumentar sobre o direito dos povos indígenas à terra, e a feiticeira Tanajura, que representa o aspecto mítico da cultura desses povos.\n\n4. Abalada pela morte de Cacambo e auxiliada por Tanajura, Lindoia tem um sonho no qual vê com detalhes a destruição dos Sete Povos das Missões, em consequência da expulsão dos jesuítas do Brasil.\n\nAssinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a afirmativa 2 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente as afirmativas 1 e 4 são verdadeiras."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente as afirmativas 2 e 3 são verdadeiras."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as afirmativas 1, 3 e 4 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q38",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 38"
+    },
+    {
+     "number": 39,
+     "area": null,
+     "subject": null,
+     "statement_md": "Considere o trecho abaixo, do romance de Lima Barreto:\n\nPenetrou naquela vetusta parte da cidade, hoje povoada de lôbregas hospedarias, mas que já passou por sua época de relativo realce e brilho. Os botequins e tascas estavam povoados do que há de mais sórdido na nossa população. Aqueles becos escuros, guarnecidos, de um e outro lado, por altos sobrados, de cujas janelas pendiam peças de roupa a enxugar, mal varridos, pouco transitados, formavam uma estranha cidade à parte, onde se iam refugiar homens e mulheres que haviam caído na mais baixa degradação e jaziam no último degrau da sociedade. Escondiam, na sombra daquelas betesgas coloniais, nas alcovas sem luz daqueles sobrados, nos fundos caliginosos das sórdidas tavernas daquele tristonho quarteirão, a sua miséria, o seu opróbrio, a sua infinita infelicidade de deserdados de tudo deste mundo. Entre os homens, porém, ainda havia alguns com ocupação definida; marítimos, carregadores, soldados; mas as mulheres que ali se viam, haviam caído irremissivelmente na última degradação. Sujas, cabelos por pentear, descalças, umas, de chinelos e tamancos, outras. Todas metiam mais pena que desejo. Como em toda e qualquer seção da nossa sociedade, aquele agrupamento de miseráveis era bem um índice dela. Havia negras, brancas, mulatas, caboclas, todas niveladas pelo mesmo relaxamento e pelo seu triste fado.\n\n(BARRETO, Lima. *Clara dos Anjos*. São Paulo: FTD, 2016. p.153-154.)\n\nNesse trecho extraído do nono capítulo do romance *Clara dos Anjos*, o ambiente descrito é:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "um recanto arruinado do Rio de Janeiro, cuja pobreza perturba os planos amorosos de Cassi e Clara."
+      },
+      {
+       "label": "B",
+       "text_md": "um espaço público na capital do país, em que uma mulher embriagada acusa Cassi de tê-la desonrado."
+      },
+      {
+       "label": "C",
+       "text_md": "um arruamento irreconhecível para o protagonista, devido ao brilho e realce das hospedarias coloniais."
+      },
+      {
+       "label": "D",
+       "text_md": "uma vizinhança arruinada e miscigenada onde morava Marramaque, com quem Cassi tinha uma dívida."
+      },
+      {
+       "label": "E",
+       "text_md": "um subúrbio formado por favelas, que eram habitadas por trabalhadores pobres e mulheres degradadas."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q39",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 39"
+    },
+    {
+     "number": 40,
+     "area": null,
+     "subject": null,
+     "statement_md": "Leia o seguinte texto:\n\nAntes de sair da aldeia, diante da minha recusa em ser batizado, Gersila se aproximou de mim, entre ofendida e irônica, e me jogou na cara que eu era como todos os brancos, que os abandonaria, nunca mais voltaria à aldeia, nunca mais pensaria neles. Jurei que não. Estava apavorado com o que pudessem fazer comigo (nada além de me cobrir de penas e me dar um nome e uma família da qual nunca mais poderia me desvencilhar). O meu medo era visível. Fiz um papel pífio. E eles riram da minha covardia. Jurei que não me esqueceria deles. E os abandonei, como todos os brancos.\n\n(CARVALHO, Bernardo. *Nove noites*. São Paulo: Companhia das Letras, 2006, p. 98.)\n\nCom base no fragmento acima transcrito e na leitura integral de *Nove noites*, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "O fragmento transcrito é parte da narração do antropólogo Buell Quain, cujo suicídio, ocorrido em 1939, é o fato que motiva a investigação do narrador principal e que conduz toda a narrativa."
+      },
+      {
+       "label": "B",
+       "text_md": "O fragmento destoa da visão positiva sobre os resultados dos encontros entre diferentes culturas que predomina em *Nove* *noites*, pois traz o depoimento de alguém para quem o convívio entre índios e brancos tende sempre à desarmonia."
+      },
+      {
+       "label": "C",
+       "text_md": "O fragmento é parte de uma das cartas do engenheiro Manoel Perna e reforça suas advertências para que o narrador principal tome muito cuidado ao buscar a verdade sobre a morte de Buell Quain."
+      },
+      {
+       "label": "D",
+       "text_md": "O fragmento exemplifica a obsessão do narrador por buscar a verdade sobre a morte de Buell Quain, característica que desloca *Nove noites*, que se parece com obras ficcionais, para os campos da reportagem e da não ficção."
+      },
+      {
+       "label": "E",
+       "text_md": "O fragmento é parte da narração do jornalista e narrador principal que, adulto, volta a passar por situações de medo e\n\nterror, algo que já havia sentido quando, ainda criança, visitara o Xingu na companhia de seu pai."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q40",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 40"
+    },
+    {
+     "number": 41,
+     "area": null,
+     "subject": null,
+     "statement_md": "O hexafluoreto de tungstênio é empregado na indústria de semicondutores para formar filmes metálicos de tungstênio que servem de condutores elétricos. O composto é apropriado para tal aplicação por ser um gás nas condições ambientes e reagir na presença do silício de dispositivos semicondutores.\n\nA estrutura do hexafluoreto de tungstênio que melhor explica as propriedades citadas é a de:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "estrutura polimérica ligada covalentemente."
+      },
+      {
+       "label": "B",
+       "text_md": "flúor e tungstênio formando ligação metálica."
+      },
+      {
+       "label": "C",
+       "text_md": "fluoreto e tungstênio formando ligação iônica."
+      },
+      {
+       "label": "D",
+       "text_md": "tungstênio metálico dopado com átomos de flúor."
+      },
+      {
+       "label": "E",
+       "text_md": "molécula discreta formada por ligações covalentes."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q41",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 41"
+    },
+    {
+     "number": 42,
+     "area": null,
+     "subject": null,
+     "statement_md": "A perovskita CH₃NH₃PbI₃ é um material que, pelas suas propriedades fotovoltaicas, é considerado promissor para geração de eletricidade a partir da luz solar. O composto foi sintetizado em três etapas, descritas pelas equações químicas a seguir.\n\nPb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃\n\nCH₃NH₂ + HI → CH₃NH₃I\n\nPbI₂ + CH₃NH₃I → CH₃NH₃PbI₃\n\nOs seguintes reagentes foram empregados na síntese: 0,6 mol de Pb(NO₃)₂; 0,8 mol de KI; 0,7 mol de CH₃NH₂; e 0,8 mol de HI. Nessas condições, qual será a quantidade máxima da perovskita CH₃NH₃PbI₃ produzida?",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "0,4 mol."
+      },
+      {
+       "label": "B",
+       "text_md": "0,6 mol."
+      },
+      {
+       "label": "C",
+       "text_md": "0,7 mol."
+      },
+      {
+       "label": "D",
+       "text_md": "0,8 mol."
+      },
+      {
+       "label": "E",
+       "text_md": "1,0 mol."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q42",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 42"
+    },
+    {
+     "number": 43,
+     "area": null,
+     "subject": null,
+     "statement_md": "O Prêmio Nobel de Química de 2021 foi concedido aos pesquisadores Benjamin List e David MacMillan, que desenvolveram estratégias simples e elegantes para a síntese de compostos orgânicos quirais opticamente ativos. A abordagem de List consiste na utilização da prolina (estrutura química mostrada ao lado), um composto orgânico natural e estruturalmente simples, que atua como indutor de assimetria nos produtos.\n\n![Figura](/questoes/ufpr/2022/q43-1.png)\n\nConsiderando os conhecimentos em química orgânica, a prolina é classificada como:",
+     "images": [
+      "/questoes/ufpr/2022/q43-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "amino éster."
+      },
+      {
+       "label": "B",
+       "text_md": "carboxi amida."
+      },
+      {
+       "label": "C",
+       "text_md": "amino ácido."
+      },
+      {
+       "label": "D",
+       "text_md": "carboxi anilina."
+      },
+      {
+       "label": "E",
+       "text_md": "amino álcool."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q43",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 43"
+    },
+    {
+     "number": 44,
+     "area": null,
+     "subject": null,
+     "statement_md": "Muitas substâncias orgânicas são responsáveis pelo aroma característico de especiarias que utilizamos no preparo de alimentos. Exemplos dessas substâncias são o eugenol, extraído do cravo-da-índia, o isoeugenol, presente na noz-moscada, e a vanilina, obtida a partir da baunilha. Essas e outras substâncias de origem natural podem ser submetidas a transformações que levarão a produtos que terão as mais diversas aplicações.\n\n![Figura](/questoes/ufpr/2022/q44-1.png)\n\nEntre as substâncias mostradas acima, qual(is) pode(m) ser transformada(s) em um produto com fórmula C₁₀H₁₄O₂ quando submetida(s) às condições de reação de redução de alquenos (gás hidrogênio na presença de metal – Pt ou Pd)?",
+     "images": [
+      "/questoes/ufpr/2022/q44-1.png"
+     ],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Apenas o eugenol."
+      },
+      {
+       "label": "B",
+       "text_md": "Apenas o isoeugenol."
+      },
+      {
+       "label": "C",
+       "text_md": "Apenas a vanilina."
+      },
+      {
+       "label": "D",
+       "text_md": "Vanilina e eugenol."
+      },
+      {
+       "label": "E",
+       "text_md": "Eugenol e isoeugenol."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q44",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 44"
+    },
+    {
+     "number": 45,
+     "area": null,
+     "subject": null,
+     "statement_md": "Conforme Pesquisa Nacional de Saneamento Básico, realizada pelo IBGE, edição de 2017, os resíduos sólidos domiciliares da metade dos municípios brasileiros são destinados a lixões abertos e praticamente um quarto para aterros controlados e aterros sanitários. Nos aterros sanitários, pautados nas normas da Associação Brasileira de Normas Técnicas (ABNT), o solo é previamente tratado, nivelado e selado com argila e manta de polietileno de alta densidade (PEAD). O resíduo aterrado é coberto por argila compactada. A função da selagem com argila e manta de PEAD no aterro sanitário é:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "permitir a reciclagem ou o reuso do resíduo."
+      },
+      {
+       "label": "B",
+       "text_md": "permitir acesso ao resíduo pelos decompositores."
+      },
+      {
+       "label": "C",
+       "text_md": "promover condições para a incineração do resíduo."
+      },
+      {
+       "label": "D",
+       "text_md": "impedir o vazamento do chorume e a contaminação de lençóis freáticos."
+      },
+      {
+       "label": "E",
+       "text_md": "drenar o gás metano e o gás carbônico produzidos na decomposição do resíduo."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q45",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 45"
+    },
+    {
+     "number": 46,
+     "area": null,
+     "subject": null,
+     "statement_md": "A manipulação do clima tem sido usada por décadas sobre Pequim e regiões agrícolas, na China, para promover a chuva, diminuir a poluição de particulados no ar e evitar o granizo e a destruição de plantações. Essa manipulação se baseia na semeadura de chuvas pela dispersão de sais, como iodeto de prata, que atuam como sementes ou núcleos de condensação.\n\nEsse processo de manipulação se baseia na propriedade de o iodeto de prata:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "ser bastante solúvel e possuir um valor de entalpia de dissolução negativa."
+      },
+      {
+       "label": "B",
+       "text_md": "ser cristalino e induzir a cristalização do gelo na sua superfície."
+      },
+      {
+       "label": "C",
+       "text_md": "ser reativo e atuar como catalisador do processo de precipitação."
+      },
+      {
+       "label": "D",
+       "text_md": "ser formado por íons e promover descargas elétricas nas nuvens."
+      },
+      {
+       "label": "E",
+       "text_md": "ser sensível à radiação solar e provocar a fotólise da água."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q46",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 46"
+    },
+    {
+     "number": 47,
+     "area": null,
+     "subject": null,
+     "statement_md": "Há em toda república dois humores diversos, quais sejam, aquele do povo e aquele dos grandes, (…) todas as leis que são feitas em favor da liberdade nascem desta desunião.\n\n(MAQUIAVEL. *Discursos sobre a Primeira década de Tito Livio*. Seleção de textos, tradução e notas Carlo Gabriel Kzsam Pancera.\n\nIn: MARÇAL, J. (org.) Antologia de textos filosóficos, SEED, 2009, p. 432.)\n\nDe acordo com a passagem acima e com a obra de que foi extraída, é correto afirmar que, segundo Maquiavel:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "as leis nascem do conflito e levam à sua superação, produzindo harmonia social."
+      },
+      {
+       "label": "B",
+       "text_md": "as leis não passam de um instrumento de dominação do povo pelos grandes."
+      },
+      {
+       "label": "C",
+       "text_md": "para que haja liberdade, as leis devem ser feitas pelo povo, que é soberano."
+      },
+      {
+       "label": "D",
+       "text_md": "o conflito entre os grandes e o povo é o motor da vida política, o que produz e aperfeiçoa as leis."
+      },
+      {
+       "label": "E",
+       "text_md": "cabe aos grandes fazer as leis, mas sem retirar a liberdade do povo."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q47",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 47"
+    },
+    {
+     "number": 48,
+     "area": null,
+     "subject": null,
+     "statement_md": "Ampliando suas investigações para além de suas capacidades, e deixando seus pensamentos vagarem em profundezas, a tal ponto de lhes faltar apoio seguro para o pé, não é de admirar que os homens levantem questões e multipliquem disputas acerca de assuntos insolúveis, servindo apenas para prolongar e aumentar suas dúvidas, e para confirmá-los ao fim num perfeito ceticismo.\n\n(LOCKE. *Ensaio acerca do entendimento humano*. Trad. Anoar Aiex. Coleção Os Pensadores, vol. XVIII.\n\nSão Paulo: Victor Civita, 1973, introdução, p. 147.)\n\nConsiderando a passagem acima e a obra de que foi extraída, segundo Locke, os homens tornam-se céticos porque:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "são capazes de obter apenas um conhecimento provável acerca das coisas."
+      },
+      {
+       "label": "B",
+       "text_md": "não limitam suas investigações ao que é possível conhecer."
+      },
+      {
+       "label": "C",
+       "text_md": "dependem da experiência sensível para conhecer, sendo essa experiência enganosa."
+      },
+      {
+       "label": "D",
+       "text_md": "não são capazes de encontrar um apoio seguro para os seus pensamentos."
+      },
+      {
+       "label": "E",
+       "text_md": "encontram prazer na mera disputa."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q48",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 48"
+    },
+    {
+     "number": 49,
+     "area": null,
+     "subject": null,
+     "statement_md": "Segundo Hannah Arendt, \"para os gregos, forçar alguém mediante violência, ordenar ao invés de persuadir, eram modos pré-políticos de lidar com as pessoas, típicos da vida fora da polis, característicos do lar e da vida em família, na qual o chefe da casa imperava com poderes incontestes e despóticos”.\n\n(ARENDT, Hannah. *A Condição Humana*. Trad. Celso Lafer. Rio de Janeiro: Forense Universitária, 1997, p. 36.)\n\nConsiderando a passagem acima e a obra de que foi extraída, segundo H. Arendt, para os gregos antigos:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "a família era considerada um tipo inferior de associação política."
+      },
+      {
+       "label": "B",
+       "text_md": "não havia igualdade política, posto que havia dominação no âmbito familiar."
+      },
+      {
+       "label": "C",
+       "text_md": "as mulheres, apesar de dominadas no âmbito familiar, eram livres para participar da esfera pública."
+      },
+      {
+       "label": "D",
+       "text_md": "a comunidade política (a polis) deveria persuadir o chefe de família a abdicar de seus poderes despóticos."
+      },
+      {
+       "label": "E",
+       "text_md": "a comunidade doméstica (a família) e a comunidade política (a polis) eram entendidas como formas de associação\n\nfundamentalmente distintas."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q49",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 49"
+    },
+    {
+     "number": 50,
+     "area": null,
+     "subject": null,
+     "statement_md": "No diálogo *Hípias Maior*, de Platão, Sócrates declara: “Recentemente, alguém me pôs em grande apuro, numa discussão em que eu rejeitava determinadas coisas como feias e elogiava outras por serem belas, havendo me perguntado em tom sarcástico, o interlocutor: qual é o critério, Sócrates, para reconheceres o que é belo e o que é feio? Vejamos, poderás dizer-me o que seja o belo?”.\n\nConsiderando a passagem acima e a obra de que foi extraída, é correto afirmar que, de acordo com Sócrates:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "só é possível dizer o que é o belo depois de se ter identificado determinadas coisas como belas."
+      },
+      {
+       "label": "B",
+       "text_md": "a dificuldade se coloca para os juízos sobre a beleza, mas não para os juízos de verdade, tais como “isto é uma mesa”."
+      },
+      {
+       "label": "C",
+       "text_md": "para identificar algo como belo, é preciso antes conhecer o que é o belo."
+      },
+      {
+       "label": "D",
+       "text_md": "o critério para distinguir entre o belo e o feio varia segundo as pessoas."
+      },
+      {
+       "label": "E",
+       "text_md": "não há distinção entre o belo e as coisas belas."
+      }
+     ],
+     "correct": "C",
+     "external_id": "ufpr-2022-q50",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 50"
+    },
+    {
+     "number": 51,
+     "area": null,
+     "subject": null,
+     "statement_md": "A população movimenta-se pelo espaço geográfico dentro de um mesmo país e, muitas vezes, atravessando oceanos e mudando de continente. Esses movimentos horizontais da população são chamados *movimentos migratórios*, que compreendem a imigração (entrada de pessoas em uma região ou país) e a emigração (saída de pessoas de uma região ou país).\n\n(ALMEIDA, L. M. A.; RIGOLIN, T. B. *Fronteiras da globalização*. 2 ed. São Paulo: Ática, 2013, p. 205.)\n\nDiante do exposto, e com base nos conhecimentos de geografia da população, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "América do Norte e Europa são os principais destinos de imigrantes porque as instituições governamentais laicas dos países dessas regiões atraem pessoas que sofrem perseguições religiosas em seus países de origem."
+      },
+      {
+       "label": "B",
+       "text_md": "A Guerra dos Trinta Anos e outros conflitos religiosos foram a causa do grande fluxo migratório de europeus em direção às Américas no período que vai do início do século XVI até meados do século XVIII."
+      },
+      {
+       "label": "C",
+       "text_md": "O tráfico de escravos da África para o Oriente Médio e para as Américas não é classificado como fluxo migratório porque se tratava de transferências forçadas de pessoas de um continente para outros."
+      },
+      {
+       "label": "D",
+       "text_md": "As pessoas que migram para trabalhar são rejeitadas porque enviam dinheiro para os parentes que ficaram em seus países de origem, ocasionando perdas econômicas para o país que as recebe."
+      },
+      {
+       "label": "E",
+       "text_md": "No espaço urbano, a alta densidade demográfica facilita o acesso da população aos serviços públicos de educação e\n\nsaúde, sendo esse um fator de atração de migrantes provenientes do campo."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q51",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 51"
+    },
+    {
+     "number": 52,
+     "area": null,
+     "subject": null,
+     "statement_md": "“Ao contrário do que os brasileiros pensam, a Amazônia não é deles, mas de todos nós” (Al Gore, senador e vice-presidente dos EUA, 1989). “O Brasil precisa aceitar uma soberania relativa sobre a Amazônia” (François Mitterrand, presidente da França, 1989). “O Brasil deve delegar parte dos seus direitos sobre a Amazônia aos organismos internacionais competentes” (Mikhail Gorbachev, presidente da URSS, 1992).\n\n(Citados por BECKER, B. K. Por que não perderemos a soberania sobre a Amazônia? In: ALBUQUERQUE, E. S. (org.).\n\n*Que país é esse?* Pensando o Brasil contemporâneo. São Paulo: Globo, 2005, p. 257.)\n\nCom base no enunciado e nos conhecimentos de geografia política e de meio ambiente, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Foi durante a Rio-92 que os representantes dos países amazônicos assinaram os tratados que estabeleceram a gestão internacional compartilhada dos recursos florestais da região para preservar a biodiversidade."
+      },
+      {
+       "label": "B",
+       "text_md": "As pressões nacionais e internacionais para preservar a Amazônia se intensificaram a partir de meados dos anos 1980\n\ndevido à divulgação das imagens de queimadas na região e do assassinato do líder seringueiro Chico Mendes."
+      },
+      {
+       "label": "C",
+       "text_md": "A justificativa para a internacionalização da floresta amazônica é o seu papel na absorção de carbono em escala global, característica que a tornou conhecida nos meios científicos como o “pulmão do mundo”."
+      },
+      {
+       "label": "D",
+       "text_md": "O enfrentamento das mudanças climáticas requer uma estratégia geopolítica para estabelecer a soberania global sobre o bioma amazônico."
+      },
+      {
+       "label": "E",
+       "text_md": "O setor financeiro é resistente ao esforço internacional de preservação da Amazônia, visto que o Banco Mundial concede financiamento a projetos de infraestrutura na região considerando a lucratividade."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q52",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 52"
+    },
+    {
+     "number": 53,
+     "area": null,
+     "subject": null,
+     "statement_md": "Muitas vezes usamos as palavras *sociedade*, *povo*, *nação* e *país* como sinônimos; mas essas palavras, apesar de terem sentidos bem parecidos, não significam exatamente a mesma coisa.\n\n(VESENTINI, J. W.; VLACH, V. *Geografia crítica*: o espaço social e o espaço brasileiro. 30. Ed. São Paulo: Ática, 2004, v. 2, p. 2.)\n\nSobre o tema, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Povo é um agrupamento de pessoas que se organizam sob a forma de Estado para defender um território e seus recursos."
+      },
+      {
+       "label": "B",
+       "text_md": "Nação é um grupo de pessoas que apresenta homogeneidade de características físicas e que partilha de uma história comum."
+      },
+      {
+       "label": "C",
+       "text_md": "País é o espaço econômico organizado por um governo ou por uma associação de governos, como ocorre no exemplo da União Europeia."
+      },
+      {
+       "label": "D",
+       "text_md": "Sociedade é um agrupamento de indivíduos que vivem juntos num certo espaço e que se relacionam de acordo com\n\ndeterminadas regras, como se vê na sociedade das formigas, das abelhas e na sociedade humana."
+      },
+      {
+       "label": "E",
+       "text_md": "Países com unidade territorial e organização econômica estável são aqueles que representam um único povo, na medida em que a homogeneidade cultural evita pressões separatistas e conflitos internos."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q53",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 53"
+    },
+    {
+     "number": 54,
+     "area": null,
+     "subject": null,
+     "statement_md": "Nos últimos dois séculos, houve uma forte redução da taxa de extrema pobreza em escala mundial, sendo considerada como linha de pobreza a renda per capita de US$ 1,90 por dia (valor ajustado pela inflação e pelo poder de compra do dólar em cada país). Por esse critério, no ano de 1800, a população classificada como extremamente pobre abrangia 85% da população mundial, ao passo que, em 2017, essa taxa havia caído para 9%. E esse processo se acelerou a partir de 1950, ano em que a população extremamente pobre abrangia pouco mais de 60% da população total, o que implica dizer que a redução da pobreza ocorrida nos últimos 67 anos do período analisado foi muito maior do que a redução ocorrida ao longo dos 150 anos precedentes.\n\n(ROSLING, H. *Factfulness*: o hábito libertador de só ter opiniões baseadas em fatos. 2. ed. Rio de Janeiro: Record, 2019.)\n\nCom base no enunciado e nos conhecimentos de geografia geral, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "A diminuição do percentual de pobres se acelera após 1949 devido à instituição da Lei do Filho Único na China, tendo em vista a grande participação desse país no total da população pobre do mundo até aquele ano."
+      },
+      {
+       "label": "B",
+       "text_md": "A redução da proporção de pobres não fez a pobreza extrema diminuir em termos absolutos porque a população mundial passou de 1 para 7,8 bilhões entre 1800 e 2017, o que fez o número de pobres crescer."
+      },
+      {
+       "label": "C",
+       "text_md": "A elevação da renda per capita em um país não melhora as condições de saúde, educação e de saneamento básico se não houver diminuição da concentração de renda."
+      },
+      {
+       "label": "D",
+       "text_md": "A queda do percentual de pessoas extremamente pobres se acelera no período marcado pela intensificação dos processos\n\nde industrialização, modernização da agricultura e urbanização."
+      },
+      {
+       "label": "E",
+       "text_md": "A pobreza extrema diminui a partir de 1800 porque esse período histórico se caracteriza pelo processo de descolonização, o qual permitiu a generalização da democracia e do modelo de Estado do Bem-Estar."
+      }
+     ],
+     "correct": "D",
+     "external_id": "ufpr-2022-q54",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 54"
+    },
+    {
+     "number": 55,
+     "area": null,
+     "subject": null,
+     "statement_md": "O Oriente Médio é a região do mundo atual onde se travam as disputas mais intensas por território, motivadas por questões religiosas, étnicas e de controle sobre recursos estratégicos, como petróleo e água.\n\nSobre os conflitos no Oriente Médio, assinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "O sunismo é a vertente fundamentalista do islamismo, e os xiitas correspondem a cerca de metade da população do Oriente Médio, situação que gera conflitos religiosos em diversos países da região."
+      },
+      {
+       "label": "B",
+       "text_md": "A soberania sobre Jerusalém é um dos pivôs dos conflitos no Oriente Médio devido à posição estratégica dessa cidade para o controle das áreas de extração de petróleo que ficam entre o rio Jordão e o mar Mediterrâneo."
+      },
+      {
+       "label": "C",
+       "text_md": "A intensidade dos conflitos entre árabes e judeus foi reduzida após a assinatura do Tratado de Oslo, no qual os palestinos reconheceram a soberania de Israel sobre os territórios de Gaza e da Cisjordânia."
+      },
+      {
+       "label": "D",
+       "text_md": "A separação entre Estado e religião é uma característica da cultura ocidental que não pode ser reproduzida no Oriente Médio devido às tradições culturais da região e aos preceitos do judaísmo e do islamismo."
+      },
+      {
+       "label": "E",
+       "text_md": "Em 1947, a ONU estabeleceu a divisão da Palestina em um Estado Árabe e um Estado Israelense, sendo que os palestinos\n\ndeclararam guerra aos israelenses por não concordarem com essa forma de partilha."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q55",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 55"
+    },
+    {
+     "number": 56,
+     "area": null,
+     "subject": null,
+     "statement_md": "O conceito de “cidade global” surgiu nos anos 1980 para o estudo das relações entre os processos de globalização e de urbanização. Sobre esse tema, é correto afirmar:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "As metrópoles classificadas como cidades globais são aquelas que apresentam grande relevância como centros\n\nfinanceiros, de serviços modernos e como sedes de empresas multinacionais."
+      },
+      {
+       "label": "B",
+       "text_md": "As metrópoles de países subdesenvolvidos tornam-se cidades globais quando suas populações superam 10 milhões de habitantes, pois assim os mercados dessas metrópoles alcançam relevância no comércio mundial."
+      },
+      {
+       "label": "C",
+       "text_md": "A globalização da economia tornou os territórios nacionais interdependentes e pacificou as relações entre países, de modo que as capitais nacionais perderam proeminência para os grandes centros econômicos."
+      },
+      {
+       "label": "D",
+       "text_md": "As cidades globais formam uma rede que concentra a maior parte da produção industrial do mundo, o que lhes confere proeminência no comércio internacional de produtos."
+      },
+      {
+       "label": "E",
+       "text_md": "O processo de urbanização completou-se na Europa antes do que nos demais continentes, razão pela qual as metrópoles europeias não atingem o mínimo de 10 milhões de habitantes necessários para serem classificadas como cidades globais."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q56",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 56"
+    },
+    {
+     "number": 57,
+     "area": null,
+     "subject": null,
+     "statement_md": "Entre a Primeira República e a Era Vargas, de 1889 e 1945, quando a intolerância religiosa era institucionalizada no Brasil por um Código Penal que definia como crime a ‘prática do espiritismo, da magia e seus sortilégios’, pelo menos 519 peças de religiões de matriz africana foram apreendidas pela Polícia em terreiros de candomblé e umbanda no Rio de Janeiro. Essa era uma época em que o samba e a capoeira também davam cadeia no Brasil.\n\n(Disponível em: https://www.bbc.com/portuguese/brasil-55018196. Acesso em: 05/11/2021.)\n\nA notícia acima demonstra que nem os governantes nem a opinião pública tinham dimensão da ou interesse na pluralidade de religiões no país. Esse fato demonstra o desafio para convivência entre pessoas de diferentes crenças, cujo debate evidencia que:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "as noções de preconceito, discriminação e segregação são inseparáveis."
+      },
+      {
+       "label": "B",
+       "text_md": "o conhecimento religioso foi superado pelo conhecimento produzido pela ciência."
+      },
+      {
+       "label": "C",
+       "text_md": "o Estado brasileiro mantém a laicidade como princípio legal desde a primeira Constituição."
+      },
+      {
+       "label": "D",
+       "text_md": "a religião se resume ao sobrenatural ou ao incompreensível, e a ciência é a principal forma democrática de prática cidadã."
+      },
+      {
+       "label": "E",
+       "text_md": "a religião não pode ser identificada apenas com o monoteísmo e que, no Brasil, há historicamente uma diversificação das\n\npráticas religiosas."
+      }
+     ],
+     "correct": "E",
+     "external_id": "ufpr-2022-q57",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 57"
+    },
+    {
+     "number": 58,
+     "area": null,
+     "subject": null,
+     "statement_md": "A idade avançada e os problemas de saúde de uma empregada doméstica de 63 anos não a impediam de percorrer semanalmente 120 km de sua casa humilde em Miguel Pereira, no sul fluminense, até o apartamento onde trabalhava no Alto Leblon, bairro da zona sul do Rio que tem o metro quadrado mais valorizado do país...\n\n(Disponível em: https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/03/19/primeira-vitima-do-rj-era-\n\ndomestica-e-pegou-coronavirus-da-patroa.htm?cmpid=copiaecola. Acesso em: 05/11/2021.)\n\nA notícia do site UOL retrata a primeira morte registrada na pandemia do novo coronavírus no Brasil. Uma senhora de 63 anos contraiu o vírus de sua patroa que voltava da Itália para o Rio de Janeiro. O exemplo dessa fatalidade, com uma mulher negra e empregada doméstica, revela um processo mais amplo, que vai além da pandemia e simboliza um cenário marcado por:",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "injustiças sociais, em que determinados grupos sofrem desproporcionalmente as crises sanitárias, ambientais e\n\neconômicas."
+      },
+      {
+       "label": "B",
+       "text_md": "uma injustiça ambiental, que não pode ser associada às dimensões de injustiça econômica ou racial."
+      },
+      {
+       "label": "C",
+       "text_md": "injustiças socioambientais, em que a tragédia revela que apenas a população de baixa renda foi vítima, refém de uma fragilidade do sistema de saúde."
+      },
+      {
+       "label": "D",
+       "text_md": "um racismo estrutural, em que as políticas públicas conseguiram reverter os indicadores de desigualdade social."
+      },
+      {
+       "label": "E",
+       "text_md": "um racismo conjuntural, em que os reflexos sociais e sanitários da pandemia podem ser identificados."
+      }
+     ],
+     "correct": "A",
+     "external_id": "ufpr-2022-q58",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 58"
+    },
+    {
+     "number": 59,
+     "area": null,
+     "subject": null,
+     "statement_md": "A jornalista filipina Maria Ressa e o jornalista russo Dmitry Muratov ganharam o prêmio Nobel da Paz de 2021 por seus esforços para defender a liberdade de expressão frente à crescente repressão à mídia. Fenômenos como a disseminação do uso das mídias sociais, as fakenews e os discursos de ódio podem ser vistos à luz da sociologia. Sobre esses fenômenos contemporâneos, considere as seguintes afirmativas:\n\n1. Durkheim afirma que as atividades profissionais devem ter uma moral própria e que, apesar dos egoísmos particulares e da aparente anarquia econômica, a sociedade não tem razão de ser se não aportar um pouco de paz e harmonia aos homens.\n\n2. O processo de produção de informações e notícias verdadeiras ou falsas não se relaciona com os diferentes níveis de socialização; a construção das narrativas e a formação moral são uma expressão da liberdade de opinião, independentemente de regras sociais.\n\n3. A produção das ideias está ligada à atividade material e econômica para Karl Marx, e a ideologia toma forma de uma \"falsa consciência\" na medida em que as representações estão sempre relacionadas a uma classe social ou a uma posição na luta de classes.\n\n4. Pode-se compreender com naturalidade as fakenews se levarmos em conta as três características da modernidade para Max Weber, que são o processo de encantamento, a redução das esferas de racionalidade e a ampliação de relações baseadas no afeto.\n\nAssinale a alternativa correta.",
+     "images": [],
+     "alternatives": [
+      {
+       "label": "A",
+       "text_md": "Somente a afirmativa 2 é verdadeira."
+      },
+      {
+       "label": "B",
+       "text_md": "Somente as afirmativas 1 e 3 são verdadeiras."
+      },
+      {
+       "label": "C",
+       "text_md": "Somente as afirmativas 2 e 4 são verdadeiras."
+      },
+      {
+       "label": "D",
+       "text_md": "Somente as afirmativas 1, 3 e 4 são verdadeiras."
+      },
+      {
+       "label": "E",
+       "text_md": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+      }
+     ],
+     "correct": "B",
+     "external_id": "ufpr-2022-q59",
+     "source_ref": "NC/UFPR PS2022, 1ª fase (Conhecimentos Gerais), questão 59"
+    }
+   ]
+  }
+ ],
+ "questions": []
+}
