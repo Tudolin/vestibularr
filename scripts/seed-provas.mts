@@ -68,7 +68,7 @@ const supabase = createClient(url, key, { auth: { persistSession: false } });
 const root = join(import.meta.dirname, "..", "data");
 const sources = ["ufpr", "concursos"].flatMap((dir) =>
   readdirSync(join(root, dir))
-    .filter((f) => f.endsWith(".json"))
+    .filter((f) => f.endsWith(".json") && f !== "correcoes.json")
     .sort()
     .map((f) => ({ dir, name: f.replace(/\.json$/, "") })),
 );

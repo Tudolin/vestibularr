@@ -252,6 +252,7 @@ def page_items(doc, pno):
         if (r[2] - r[0]) > 12 and (r[3] - r[1]) > 12 and r[1] > 30:
             rects.append(tuple(r))
     image_rects = list(rects)
+    is_img = [True] * len(rects)
     try:
         clusters = page.cluster_drawings(x_tolerance=4, y_tolerance=4)
     except Exception:
@@ -263,14 +264,18 @@ def page_items(doc, pno):
         if w < 8 or h < 8 or r.y0 < 30 or r.y1 > H - 25:
             continue
         rects.append((r.x0, r.y0, r.x1, r.y1))
+    is_img += [False] * (len(rects) - len(is_img))
     merged = True
     while merged:
         merged = False
-        for i in range(len(rects)):
-            for j in range(i + 1, len(rects)):
-                if overlaps(rects[i], rects[j], 3):
-                    rects[i] = rect_union(rects[i], rects[j])
-                    del rects[j]
+        for a in range(len(rects)):
+            for b in range(a + 1, len(rects)):
+                # duas imagens só se juntam se encostarem de fato (ícones lado a lado são alternativas diferentes)
+                pad = 0 if is_img[a] and is_img[b] else 3
+                if overlaps(rects[a], rects[b], pad):
+                    rects[a] = rect_union(rects[a], rects[b])
+                    is_img[a] = is_img[a] and is_img[b]
+                    del rects[b], is_img[b]
                     merged = True
                     break
             if merged:
@@ -453,6 +458,12 @@ def emph_ok(rows: list[Row]) -> bool:
     return total > 0 and bold / total < 0.5
 
 
+def cjk(ch: str) -> bool:
+    """Japonês não separa palavras: a quebra de linha não vira espaço."""
+    o = ord(ch)
+    return 0x3000 <= o <= 0x30FF or 0x4E00 <= o <= 0x9FFF or 0xFF00 <= o <= 0xFFEF
+
+
 def join_rows(rows: list[Row]) -> str:
     text = ""
     emph = emph_ok(rows)
@@ -460,7 +471,7 @@ def join_rows(rows: list[Row]) -> str:
         t = row_md(r, emph)
         if not text:
             text = t
-        elif text.endswith("-") and not text.endswith(" -"):
+        elif (text.endswith("-") and not text.endswith(" -")) or (cjk(text[-1]) and t and cjk(t[0])):
             text += t
         else:
             text += " " + t
@@ -622,6 +633,12 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
             shared.append({"subject": subject, "nums": nums, "items": list(pre), "next_only": not nums})
         pre = []
 
+    def add_pre(item):
+        """Texto entre questões; um novo cabeçalho "referência para as questões…" começa outro texto-base."""
+        if pre and isinstance(item, Row) and len(plain(item)) < 200 and ref_numbers(plain(item)):
+            close_pre()
+        pre.append(item)
+
     def next_letter():
         return next((c for c in "ABCDE" if c not in used), None)
 
@@ -687,7 +704,7 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
                     cur.stem.append(Row(it.page, segs))
                 continue
             if cur is None:
-                pre.append(it)
+                add_pre(it)
                 continue
             # alternativas (podem vir duas por linha)
             if any(alt_hit(x) for x in it.segs):
@@ -714,7 +731,7 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
                 if done() and (left or it.x0 < lead - 8 or it.x0 < content_x - 6
                                or (last is not None and it.y0 - last.y1 > 14 and it.page == last.page)):
                     left = True
-                    pre.append(it)
+                    add_pre(it)
                     continue
                 # continuação de alternativa (ou célula de tabela da alternativa)
                 for x in it.segs:
@@ -723,12 +740,12 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
             cur.stem.append(it)
         else:  # figura
             if cur is None:
-                pre.append(it)
+                add_pre(it)
             elif cur.alts:
                 lead = min(a[2] for a in cur.alts)
                 if done() and (left or it.x0 < lead - 8):
                     left = True
-                    pre.append(it)
+                    add_pre(it)
                 elif it.x0 > 280 and all(a[2] < 300 for a in cur.alts) and it.y0 < cur.alts[0][4][0].y0 if cur.alts[0][4] else False:
                     cur.stem.append(it)  # figura "ao lado" do enunciado, ao lado também das alternativas
                 else:
@@ -737,6 +754,21 @@ def parse(doc, year: int, subjects: dict, lang_range: tuple[int, int] = (83, 90)
                 cur.stem.append(it)
     close_pre()
     return qs, warnings
+
+
+def split_alt_figs(q: Q):
+    """Uma figura que cobre o rótulo de várias alternativas (ícones empilhados numa imagem só) é dividida entre elas."""
+    for a in q.alts:
+        for f in [x for x in a[4] if isinstance(x, Fig)]:
+            col = [o for o in q.alts if o[6][0] == f.page and f.x0 - 80 <= o[2] <= f.x0 + 5
+                   and f.y0 - 4 <= o[6][1] + 5 <= f.y1 + 4]
+            if len(col) < 2:
+                continue
+            col.sort(key=lambda o: o[6][1])
+            cuts = [f.y0] + [(col[i][6][1] + col[i + 1][6][1]) / 2 + 5 for i in range(len(col) - 1)] + [f.y1]
+            a[4].remove(f)
+            for o, y0, y1 in zip(col, cuts, cuts[1:]):
+                o[4].append(Fig(f.page, f.x0, y0, f.x1, y1))
 
 
 def owner_alt(q: Q, x: float, y: tuple | None = None):
@@ -798,6 +830,8 @@ def extract(pdf_path: str, rel: str, year: int, subjects: dict, lang_range=(83, 
         if f.endswith(".png"):
             os.remove(os.path.join(cropper.dir, f))
     qs, warnings = parse(doc, year, subjects, lang_range)
+    for q in qs:
+        split_alt_figs(q)
     redact_marks(doc)
     out = []
     skipped = []

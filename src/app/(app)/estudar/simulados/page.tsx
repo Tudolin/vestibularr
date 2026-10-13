@@ -21,7 +21,7 @@ export default async function SimuladosPage() {
   const [{ data: exams }, { data: summaries }, open] = await Promise.all([
     supabase
       .from("exams")
-      .select("id, name, year, pdf_url, board:exam_boards(code), format:exam_formats(structure)")
+      .select("id, name, year, pdf_url, board:exam_boards(code), format:exam_formats(structure), exam_questions(count)")
       .order("year", { ascending: false })
       .order("name"),
     supabase.rpc("exam_summaries"),
@@ -34,7 +34,8 @@ export default async function SimuladosPage() {
       id: e.id, name: e.name, year: e.year, pdf_url: e.pdf_url,
       board: (e.board as unknown as { code: string } | null)?.code ?? "",
       minutes: ((e.format as unknown as { structure?: { duration_minutes?: number } } | null)?.structure?.duration_minutes) ?? null,
-      count: summary.get(e.id)?.questions ?? 0,
+      // sem a migration 0021 (exam_summaries), cai na contagem simples
+      count: summary.get(e.id)?.questions ?? (e.exam_questions as unknown as { count: number }[])?.[0]?.count ?? 0,
       languages: LANGUAGES.filter((l) => summary.get(e.id)?.languages.includes(l)),
       openAttempt: open.find((a) => a.exam_id === e.id && a.mode === "simulado")?.id ?? null,
     }))

@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { Input } from "@/components/ui/input";
 import { filterOptions, listQuestions, PAGE_SIZE, type Filters } from "@/lib/questions/queries";
-import { languageLabel, BOARD_OPTIONS } from "@/lib/boards";
+import { languageLabel, BOARD_OPTIONS, BOARD_LABEL, type Board } from "@/lib/boards";
 
 const selectCls = "h-11 w-full rounded-control border border-input bg-card px-3 text-base md:text-sm";
 
@@ -61,7 +61,7 @@ export async function QuestionBank({ filters: f, basePath, detailPath, admin = f
               <Card className="lift focus-within:border-primary hover:border-primary">
                 <Link href={`${detailPath}/${q.id}`} className="flex flex-col gap-2 rounded-card p-4">
                   <div className="flex flex-wrap items-center gap-2">
-                    {q.board && <Badge tone="neutral">{q.board.code}</Badge>}
+                    {q.board && <Badge tone="neutral">{BOARD_LABEL[q.board.code as Board] ?? q.board.code}</Badge>}
                     {q.year && <Badge tone="neutral">{q.year}</Badge>}
                     {areaBadge(q.area)}
                     {q.number != null && <span className="text-xs font-semibold text-muted-foreground">Q{q.number}</span>}

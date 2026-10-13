@@ -88,7 +88,7 @@ das abas continuam claros (Início, Estudar, Tripulação, Redação, Desempenho
 | “sua vaga”, “sua vez”, “10 minutos por dia”, “do seu jeito”, “tripulação” | “aprovação garantida”, “o melhor do Brasil”, “revolucionário” |
 | “app de estudo”, “ajuda”, “incentiva”, “chegar mais preparado” | “cursinho”, “escola”, “curso”, “aulas”, “ensino”, “professor” (não somos instituição de ensino) |
 | “preço simbólico”, “menos que um lanche” | “barato” sozinho (soa como qualidade baixa) |
-| números verificáveis (1.088 questões, TRI do INEP) | números que não dá para provar |
+| números verificáveis (1.850 questões oficiais do ENEM e da UFPR com resolução, TRI do INEP) | números que não dá para provar |
 | “escola pública”, “valor acessível” | tom de pena ou caridade: o aluno é capaz, faltava a ferramenta |
 
 ## Pendências
@@ -97,3 +97,7 @@ das abas continuam claros (Início, Estudar, Tripulação, Redação, Desempenho
 - Quando o pagamento entrar: trocar “Em beta: tudo liberado” por “Grátis para sempre · o completo por R$ 9,90/mês”
   na landing e no cadastro.
 - Mascote definitivo (hoje: V1).
+- **Concursos públicos:** o app agora tem provas de concursos de nível médio do NC/UFPR (técnico-administrativo).
+  A mensagem principal continua sendo para vestibulandos; concursos entram como "e também": para quem terminou o
+  ensino médio e quer uma vaga pública (e a 1ª fase da UFPR é a mesma prova do Cadete PM-PR e do CBM-PR).
+  Decidir com a RP se isso aparece na landing.

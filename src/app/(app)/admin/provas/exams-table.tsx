@@ -11,6 +11,7 @@ import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/compone
 import { EmptyState } from "@/components/ui/empty-state";
 import { FieldError, Input, Label } from "@/components/ui/input";
 import { updateExamAction } from "./actions";
+import { BOARD_LABEL, type Board } from "@/lib/boards";
 
 export type ExamRow = { id: string; name: string; year: number; board: string; format: string | null; count: number; pdf_url: string | null; answer_pdf_url: string | null; is_published: boolean };
 
@@ -27,7 +28,7 @@ export function ExamsTable({ rows }: { rows: ExamRow[] }) {
               <div className="min-w-0 flex-1">
                 <p className="truncate font-semibold">{r.name}</p>
                 <div className="mt-1 flex flex-wrap gap-2">
-                  <Badge>{r.board}</Badge><Badge>{r.count} questões</Badge>
+                  <Badge>{BOARD_LABEL[r.board as Board] ?? r.board}</Badge><Badge>{r.count} questões</Badge>
                   <Badge tone={r.is_published ? "success" : "warning"}>{r.is_published ? "Publicada" : "Oculta"}</Badge>
                   <Badge tone={r.pdf_url ? "primary" : "neutral"}>{r.pdf_url ? "PDF ok" : "sem PDF"}</Badge>
                   {!r.format && <Badge tone="warning">sem formato</Badge>}

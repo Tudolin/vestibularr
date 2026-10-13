@@ -2402,13 +2402,17 @@
      "subject": "Técnico de Laboratório (Análises Clínicas)",
      "statement_md": "Desde a geração até a disposição final, o laboratório clínico deve garantir o gerenciamento de seus resíduos atendendo aos requisitos ambientais e de saúde pública, de acordo com a RDC n.º 222, de 28 de março de 2018, da Anvisa, que dispõe sobre as Boas Práticas de Gerenciamento dos Resíduos de Serviços de Saúde. Assim, a fim de prevenir exposições acidentais a sangue e fluidos corporais decorrentes do uso de instrumentos perfurocortantes durante os procedimentos e na subsequente limpeza, desinfecção, esterilização ou despojo, um dos cuidados especiais diz respeito às agulhas, as quais, depois de utilizadas, devem ser descartadas, com segurança, em recipientes de paredes rígidas e resistentes à punctura. Sabendo disso, assinale a alternativa que apresenta o símbolo de advertência que deve estar presente, de forma clara e bem visível, nesse recipiente.",
      "images": [
+      "/questoes/concursos/ufpr-tae-2024/402/q35-A-1.png",
       "/questoes/concursos/ufpr-tae-2024/402/q35-B-1.png",
-      "/questoes/concursos/ufpr-tae-2024/402/q35-D-1.png"
+      "/questoes/concursos/ufpr-tae-2024/402/q35-C-1.png",
+      "/questoes/concursos/ufpr-tae-2024/402/q35-D-1.png",
+      "/questoes/concursos/ufpr-tae-2024/402/q35-E-1.png"
      ],
      "alternatives": [
       {
        "label": "A",
-       "text_md": ""
+       "text_md": "",
+       "image_url": "/questoes/concursos/ufpr-tae-2024/402/q35-A-1.png"
       },
       {
        "label": "B",
@@ -2417,7 +2421,8 @@
       },
       {
        "label": "C",
-       "text_md": ""
+       "text_md": "",
+       "image_url": "/questoes/concursos/ufpr-tae-2024/402/q35-C-1.png"
       },
       {
        "label": "D",
@@ -2426,7 +2431,8 @@
       },
       {
        "label": "E",
-       "text_md": ""
+       "text_md": "",
+       "image_url": "/questoes/concursos/ufpr-tae-2024/402/q35-E-1.png"
       }
      ],
      "correct": "E",

@@ -1,0 +1,6 @@
+{
+ "ufpr-tae-2025-comum-q13": {
+  "statement_md": "Cinco amigos aficionados por Matemática criaram um baralho matemático diferente. Cada carta desse baralho contém apenas um número real positivo de forma ⁿ√a, em que *n* é um número inteiro, *a* é um número real, e ambos são positivos. Aquele que, entre os cinco amigos (A, B, C, D e E), retirar a carta com o menor número vence a rodada. Em uma das rodadas, os cinco amigos tiraram cartas contendo os números √3, √5, √2, ∜4 e ∜3, respectivamente. Qual deles venceu essa rodada?",
+  "note": "Índices das raízes reposicionados: ⁿ√a e ∜4, ∜3 (antes apareciam em linhas soltas \"n\" e \"4 | 4\")."
+ }
+}

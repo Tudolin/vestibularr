@@ -114,7 +114,7 @@ export default function Landing() {
         {/* ------------------------------------------------ números */}
         <section aria-label="Em números" className="bg-cobalto text-white">
           <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4">
-            {[["R$ 0", "para começar, com questões e resoluções ilimitadas"], ["1.088", "questões do ENEM 2019–2024 com resolução comentada"], ["10 min", "por dia no desafio: o hábito que leva à vaga"], ["100%", "do progresso salvo sozinho, até sem internet"]].map(([n, d]) => (
+            {[["R$ 0", "para começar, com questões e resoluções ilimitadas"], ["1.850", "questões oficiais do ENEM e da UFPR com resolução comentada"], ["10 min", "por dia no desafio: o hábito que leva à vaga"], ["100%", "do progresso salvo sozinho, até sem internet"]].map(([n, d]) => (
               <div key={n} className="flex flex-col gap-1">
                 <dt className="sr-only">{d}</dt>
                 <dd className="font-brand text-4xl font-bold sm:text-5xl">{n}</dd>

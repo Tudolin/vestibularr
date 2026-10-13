@@ -198,6 +198,27 @@ correções, então rodar de novo não traz os defeitos de volta nem apaga resol
 `seed:enem` → `seed:resolucoes` → `seed:taxonomia`.
 **2024:** a fonte numera as questões por outro caderno; conteúdo e gabarito estão corretos, só a numeração difere do caderno 1/7.
 
+**Provas reais da UFPR e concursos** (migration `0021`; `data/ufpr/`, `data/concursos/`):
+o vestibular da UFPR (1ª fase, PS2020 e PS2022–PS2026, 762 questões nas 7 línguas estrangeiras) e concursos de nível
+médio do NC/UFPR (técnico-administrativo 2024 e 2025, 8 cargos, 139 questões). Tudo extraído do caderno oficial do
+Núcleo de Concursos, que já traz o gabarito definitivo marcado (►) e as anuladas (*, puladas):
+
+```bash
+pip install pymupdf
+python3 scripts/ufpr-provas.py               # vestibular -> data/ufpr/ufpr-<ano>.json + figuras em public/questoes/ufpr/
+python3 scripts/ufpr-provas.py --concursos   # concursos -> data/concursos/<slug>.json + public/questoes/concursos/
+npm run seed:provas                          # importa as provas com resoluções, matéria/assunto e correções
+```
+O extrator separa as questões por disciplina e língua, junta o texto-base a todas as questões que ele cita
+("questões 55 a 58", "Fragen 88 bis 89"…), mantém grifos como negrito e recorta como imagem (sem o sinal do gabarito)
+o que não vira texto confiável: figuras, tabelas e trechos com fórmulas. Cada questão tem resolução comentada
+(`data/<pasta>/resolucoes/`, escrita com auxílio de IA e conferida com o gabarito oficial; o seed ignora a que diverge)
+e as correções de extração conferidas no PDF ficam em `data/<pasta>/correcoes.json`. Nos concursos, as 30 questões
+gerais (português, raciocínio matemático, informática e legislação) são as mesmas em todos os cargos do edital: entram
+uma vez e ficam ligadas a cada prova (mesmo `external_id`). A banca `CONCURSO` aparece em Simulados, Treino, Exportar,
+Desempenho e no onboarding (quem estuda só para concurso pula a triagem, que é do ENEM).
+Para incluir outro ano ou edital, acrescente a URL em `SOURCES`/`CONCURSOS` no script e rode de novo.
+
 **Assuntos e TRI oficial** (migration `0011`): cada questão do ENEM 2019–2024 tem matéria e assunto
 (`data/taxonomia/enem-<ano>.json`, taxonomia em `data/taxonomia/taxonomia.json`; classificados com auxílio de IA a partir das
 resoluções) e os **dados oficiais do INEP** (`data/inep/enem-<ano>.json`): habilidade da Matriz de Referência (H1–H30) e os

@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { requireUser } from "@/lib/auth";
 import { getQuestion } from "@/lib/questions/queries";
-import { languageLabel } from "@/lib/boards";
+import { languageLabel, BOARD_LABEL, type Board } from "@/lib/boards";
 
 export const metadata: Metadata = { title: "Questão" };
 
@@ -27,7 +27,7 @@ export default async function QuestaoPage({ params }: { params: Promise<{ id: st
         <Link href="/estudar/questoes"><ArrowLeft aria-hidden /> Voltar ao banco</Link>
       </Button>
       <header className="flex flex-wrap items-center gap-2">
-        <Badge>{q.board?.code}</Badge>
+        <Badge>{BOARD_LABEL[q.board?.code as Board] ?? q.board?.code}</Badge>
         {q.year && <Badge>{q.year}</Badge>}
         {areaBadge(q.area)}
         {q.number != null && <span className="text-sm font-semibold text-muted-foreground">Questão {q.number}</span>}
