@@ -13,6 +13,7 @@ import { Progress } from "@/components/ui/progress";
 import { levelInfo, nowMs, TIERS, type FeedEvent, type Overview } from "@/lib/social";
 import { createClient } from "@/lib/supabase/server";
 import { cn } from "@/lib/utils";
+import { HelpTip } from "@/components/ui/help-tip";
 
 export const metadata: Metadata = { title: "Tripulação" };
 
@@ -30,7 +31,7 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
       <div className="mx-auto flex w-full max-w-lg flex-col gap-6">
         <header className="flex flex-col gap-2">
           <h1 className="text-2xl font-extrabold md:text-3xl">Monte sua tripulação ⚓</h1>
-          <p className="text-muted-foreground">Estude com amigos: ranking da semana, ligas com divisões, boosts e um mural para comemorar as conquistas. Primeiro, escolha como vão te chamar.</p>
+          <p className="text-muted-foreground">Estude com amigos: ranking da semana, ligas com divisões, "vento a favor" para dar força aos amigos e um mural para comemorar as conquistas. Primeiro, escolha como vão te chamar.</p>
         </header>
         <Card><CardContent className="pt-6"><ProfileSetup /></CardContent></Card>
       </div>
@@ -49,7 +50,7 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
           <Avatar card={me} size="lg" className="ring-4 ring-white/40" />
           <div className="min-w-0 flex-1">
             <p className="truncate text-xl font-extrabold">{handle(me)}</p>
-            <p className="text-sm opacity-90">Nível {lv.level} · {me.total_xp.toLocaleString("pt-BR")} XP no total</p>
+            <p className="flex items-center gap-1 text-sm opacity-90">Nível {lv.level} · {me.total_xp.toLocaleString("pt-BR")} XP no total <HelpTip topic="xp" className="size-6 text-current hover:bg-white/20 hover:text-current" /></p>
             <div className="mt-2 h-2 overflow-hidden rounded-full bg-white/25" role="progressbar" aria-label="Progresso até o próximo nível" aria-valuenow={Math.round(lv.pct)} aria-valuemin={0} aria-valuemax={100}>
               <div className="h-full rounded-full bg-white transition-[width] duration-700" style={{ width: `${lv.pct}%` }} />
             </div>
@@ -66,7 +67,7 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
 
       {boostLeft > 0 && (
         <p className="flex items-center gap-2 rounded-card bg-success-soft p-3 text-sm font-semibold text-success-soft-foreground">
-          <Wind className="size-4" aria-hidden /> Vento a favor ativo: +50% de XP por mais {boostLeft} min. Aproveite!
+          <Wind className="size-4" aria-hidden /> <span className="flex-1">Vento a favor ativo: +50% de XP por mais {boostLeft} min. Aproveite!</span> <HelpTip topic="vento" className="size-6 text-current" />
         </p>
       )}
       {o.boosts.filter((b) => b.kind === "empurrao").slice(0, 3).map((b) => (

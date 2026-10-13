@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { HelpTip } from "@/components/ui/help-tip";
 
 export type TreasureWeek = {
   week: string; goal: number; done: number; opened: boolean;
@@ -78,7 +79,7 @@ export function TreasureMap({ w }: { w: TreasureWeek }) {
   return (
     <section aria-labelledby="mapa-t" className="overflow-hidden rounded-card border-2 border-border bg-card">
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 px-5 pb-3 pt-4">
-        <h2 id="mapa-t" className="text-lg font-extrabold">Mapa do tesouro da semana</h2>
+        <h2 id="mapa-t" className="flex items-center gap-1 text-lg font-extrabold">Mapa do tesouro da semana <HelpTip topic="mapa_tesouro" /></h2>
         <p className="font-display text-sm font-semibold text-muted-foreground">{Math.min(w.done, w.goal)}/{w.goal} ilhas</p>
       </div>
       <div className="mapa-mar motion-safe:animate-[vr-waves-bg_9s_linear_infinite]">

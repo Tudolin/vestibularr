@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import type { DailyStatus } from "@/lib/daily";
 import { needsInternet } from "@/lib/use-online";
 import { cn } from "@/lib/utils";
+import { HelpTip } from "@/components/ui/help-tip";
 
 /** Cartão do desafio do dia: sequência, escudos, semana e o botão para começar/continuar. */
 export function DailyCard({ s }: { s: DailyStatus }) {
@@ -32,16 +33,16 @@ export function DailyCard({ s }: { s: DailyStatus }) {
           <span className="text-sm font-extrabold tabular-nums leading-none">{s.streak}</span>
         </div>
         <div className="min-w-[12rem] flex-1">
-          <h2 id="desafio" className="text-lg font-extrabold">Desafio do dia</h2>
+          <h2 id="desafio" className="flex items-center gap-1 text-lg font-extrabold">Desafio do dia <HelpTip topic="desafio" /></h2>
           <p className="text-sm text-muted-foreground">
             {s.completed ? `Arr! Desafio vencido: ${s.correct}/${s.total} acertos. Volte amanhã para manter a sequência 🔥`
               : s.attempt_id ? `${s.answered} de ${s.total} respondidas${s.focus ? ` · foco: ${s.focus}` : ""}`
               : "7 questões, ~10 minutos, escolhidas para você. A última é o chefão: XP em dobro ⚔️"}
           </p>
           <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold">
-            <span>🔥 {s.streak} {s.streak === 1 ? "dia seguido" : "dias seguidos"}</span>
+            <span className="inline-flex items-center">🔥 {s.streak} {s.streak === 1 ? "dia seguido" : "dias seguidos"} <HelpTip topic="sequencia" className="size-6" /></span>
             <span className="inline-flex items-center gap-1" title="Escudo de sequência: protege 1 dia perdido. Ganha 1 a cada 7 dias seguidos (máx. 2).">
-              <Shield className="size-3.5 text-primary" aria-hidden /> {s.shields}/2 escudos
+              <Shield className="size-3.5 text-primary" aria-hidden /> {s.shields}/2 escudos <HelpTip topic="escudo" className="size-6" />
             </span>
             {atRisk && <span className="text-warning-soft-foreground">Estude hoje para não perder a sequência!</span>}
           </p>

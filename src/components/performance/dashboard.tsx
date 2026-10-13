@@ -17,6 +17,7 @@ import { GoalsCard } from "./goals-card";
 import { NewAchievements } from "./new-achievements";
 import { TopicHeatmap } from "./topic-heatmap";
 import { type Board } from "@/lib/boards";
+import { HelpTip } from "@/components/ui/help-tip";
 
 const AREA_BAR: Record<string, string> = { linguagens: "bg-area-linguagens", humanas: "bg-area-humanas", natureza: "bg-area-natureza", matematica: "bg-area-matematica" };
 
@@ -117,7 +118,7 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
       <div className="grid gap-4 lg:grid-cols-2">
         {stats.by_area.length > 0 && (
           <Card>
-            <CardHeader><CardTitle>Por área{enem && (!board || board === "ENEM") ? " e nota estimada (ENEM)" : ""}</CardTitle></CardHeader>
+            <CardHeader><CardTitle className="flex items-center gap-1">Por área{enem && (!board || board === "ENEM") ? " e nota estimada (ENEM)" : ""}{enem && (!board || board === "ENEM") && <HelpTip topic="tri" />}</CardTitle></CardHeader>
             <CardContent className="grid gap-3">
               {stats.by_area.map((b) => (
                 <div key={`${b.board}-${b.key}`} className="grid gap-1">
@@ -154,7 +155,7 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
 
       {stats.by_topic.length > 0 && (
         <Card>
-          <CardHeader><CardTitle>Mapa de calor por assunto</CardTitle></CardHeader>
+          <CardHeader><CardTitle className="flex items-center gap-1">Mapa de calor por assunto <HelpTip topic="mapa_calor" /></CardTitle></CardHeader>
           <CardContent><TopicHeatmap topics={stats.by_topic.slice(0, 60)} /></CardContent>
         </Card>
       )}
@@ -210,7 +211,7 @@ function Kpi({ icon, label, value, sub }: { icon: React.ReactNode; label: string
 function MasteryList({ title, icon, items, tone, hint, empty }: { title: string; icon: React.ReactNode; items: (TopicMastery & { weight?: number })[]; tone: "success" | "danger"; hint?: string; empty: string }) {
   return (
     <Card>
-      <CardHeader><CardTitle className="flex items-center gap-2">{icon} {title}</CardTitle></CardHeader>
+      <CardHeader><CardTitle className="flex items-center gap-2">{icon} {title}{title === "Onde focar" && <HelpTip topic="onde_focar" />}</CardTitle></CardHeader>
       <CardContent className="grid grid-cols-[minmax(0,1fr)] gap-3">
         {items.length === 0 && <p className="text-sm text-muted-foreground">{empty}</p>}
         <ul className="grid grid-cols-[minmax(0,1fr)] gap-2">

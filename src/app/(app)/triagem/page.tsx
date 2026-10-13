@@ -1,4 +1,4 @@
-import { Compass, History, Sparkles, Timer } from "lucide-react";
+import { ArrowDown, ArrowUp, BarChart3, Check, Compass, History, Sparkles, Target, Timer, X } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -28,11 +28,35 @@ export default async function TriagemPage({ searchParams }: { searchParams: Prom
     <div className="mx-auto flex w-full max-w-2xl flex-col gap-6">
       <header className="flex flex-col gap-2">
         <h1 className="text-2xl font-extrabold md:text-3xl">{first ? "Descubra seu nível" : "Triagem de conhecimentos"}</h1>
-        <p className="text-muted-foreground">
-          Cerca de 30 questões reais do ENEM, que se ajustam a você: acertou, vem uma mais difícil; errou, uma mais fácil.
-          No fim, você recebe a nota estimada por área e os assuntos onde vale mais a pena focar.
-        </p>
+        <p className="text-muted-foreground">Cerca de 30 questões reais do ENEM, que se ajustam a você:</p>
       </header>
+
+      <ul aria-label="Como funciona" className="grid gap-3 sm:grid-cols-2">
+        <li className="flex items-center gap-3 rounded-card border border-success/30 bg-success-soft p-4 text-success-soft-foreground">
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-success text-white" aria-hidden><Check className="size-6" strokeWidth={3} /></span>
+          <span className="flex-1"><span className="block font-brand text-lg font-bold">Acertou?</span>Vem uma mais difícil 💪</span>
+          <ArrowUp className="size-7 shrink-0" aria-hidden />
+        </li>
+        <li className="flex items-center gap-3 rounded-card border border-danger/30 bg-danger-soft p-4 text-danger-soft-foreground">
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-danger text-white" aria-hidden><X className="size-6" strokeWidth={3} /></span>
+          <span className="flex-1"><span className="block font-brand text-lg font-bold">Errou?</span>Vem uma mais fácil 👍</span>
+          <ArrowDown className="size-7 shrink-0" aria-hidden />
+        </li>
+      </ul>
+
+      <section aria-labelledby="no-fim" className="flex flex-col gap-3">
+        <h2 id="no-fim" className="font-bold">No fim, você recebe:</h2>
+        <div className="grid gap-3 sm:grid-cols-2">
+          <div className="flex items-center gap-3 rounded-card border border-border bg-card p-4">
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary-soft text-primary-soft-foreground" aria-hidden><BarChart3 className="size-6" /></span>
+            <span><span className="block font-bold">Sua nota por área</span><span className="text-sm text-muted-foreground">Estimada pela TRI, como no ENEM</span></span>
+          </div>
+          <div className="flex items-center gap-3 rounded-card border border-border bg-card p-4">
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary-soft text-primary-soft-foreground" aria-hidden><Target className="size-6" /></span>
+            <span><span className="block font-bold">Onde focar</span><span className="text-sm text-muted-foreground">Os assuntos que mais valem a pena</span></span>
+          </div>
+        </div>
+      </section>
 
       {erro === "limite" && (
         <p role="alert" className="rounded-control bg-warning-soft p-3 text-sm text-warning-soft-foreground">
@@ -47,13 +71,11 @@ export default async function TriagemPage({ searchParams }: { searchParams: Prom
       )}
       {erro === "falha" && <p role="alert" className="rounded-control bg-danger-soft p-3 text-sm text-danger-soft-foreground">Não foi possível começar agora. Tente de novo.</p>}
 
-      <Card>
-        <CardContent className="grid gap-4 pt-6 sm:grid-cols-3">
-          <Fact icon={<Timer />} title="~20 minutos" text="Sem cronômetro. Pode parar e continuar depois." />
-          <Fact icon={<Compass />} title="Adaptativa" text="Usa a TRI com os parâmetros oficiais do INEP." />
-          <Fact icon={<Sparkles />} title="Sem chute" text={'Não sabe? Toque em "Não sei": vale mais que chutar.'} />
-        </CardContent>
-      </Card>
+      <ul aria-label="Bom saber" className="grid gap-2 sm:grid-cols-3">
+        <Fact icon={<Timer />} title="~20 min" text="pode pausar" />
+        <Fact icon={<Compass />} title="TRI do INEP" text="Parâmetros oficiais" />
+        <Fact icon={<Sparkles />} title="Sem chute" text={'"Não sei" vale mais'} />
+      </ul>
 
       <div className="flex flex-col gap-3 sm:flex-row">
         {canStart ? (
@@ -94,10 +116,9 @@ export default async function TriagemPage({ searchParams }: { searchParams: Prom
 
 function Fact({ icon, title, text }: { icon: React.ReactNode; title: string; text: string }) {
   return (
-    <div className="flex flex-col gap-1">
-      <span className="flex size-9 items-center justify-center rounded-xl bg-primary-soft text-primary-soft-foreground [&_svg]:size-5" aria-hidden>{icon}</span>
-      <p className="font-bold">{title}</p>
-      <p className="text-sm text-muted-foreground">{text}</p>
-    </div>
+    <li className="flex items-center gap-3 rounded-full bg-muted px-3 py-2">
+      <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-card text-primary [&_svg]:size-4" aria-hidden>{icon}</span>
+      <span className="text-sm leading-tight"><span className="font-bold">{title}</span> <span className="text-muted-foreground">· {text}</span></span>
+    </li>
   );
 }

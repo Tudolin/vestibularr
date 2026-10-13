@@ -13,6 +13,7 @@ import { UFPR_2027_SUBJECTS } from "@/lib/scoring/ufpr";
 import { cn } from "@/lib/utils";
 import { startAttemptAction } from "../actions";
 import { needsInternet } from "@/lib/use-online";
+import { HelpTip } from "@/components/ui/help-tip";
 
 const AREA_LABEL: Record<string, string> = { linguagens: "Linguagens", humanas: "Humanas", natureza: "Natureza", matematica: "Matemática" };
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
@@ -83,11 +84,14 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
 
   return (
     <div className="flex flex-col gap-5">
-      <div role="radiogroup" aria-label="Tipo" className="grid grid-cols-2 gap-2 rounded-full border border-border bg-muted p-1">
+      <div className="flex items-center gap-2">
+      <div role="radiogroup" aria-label="Tipo" className="grid flex-1 grid-cols-2 gap-2 rounded-full border border-border bg-muted p-1">
         {([["custom", "Simulado"], ["treino", "Treino"]] as const).map(([v, l]) => (
           <button key={v} role="radio" aria-checked={mode === v} onClick={() => setMode(v)}
             className={cn("min-h-11 rounded-full text-sm font-bold", mode === v ? "bg-card shadow-sm" : "text-muted-foreground")}>{l}</button>
         ))}
+      </div>
+      <HelpTip topic="simulado_treino" />
       </div>
 
       {hasUfpr && mode === "custom" && (

@@ -125,6 +125,14 @@ export default async function PerfilPage() {
           <InstallAppButton />
         </CardContent>
       </Card>
+      <Card className="flex flex-col gap-3 p-5 sm:flex-row sm:items-center">
+        <span className="text-3xl" aria-hidden>💬</span>
+        <div className="flex-1">
+          <p className="font-bold">Conta pra gente o que achou</p>
+          <p className="text-sm text-muted-foreground">Elogios, ideias, algo confuso ou um problema: a equipe lê tudo e responde no app.</p>
+        </div>
+        <Button asChild variant="soft"><Link href="/feedback?de=/perfil">Enviar feedback</Link></Button>
+      </Card>
       <div className="grid grid-cols-3 gap-2">
         <Button asChild variant="outline" size="lg"><Link href="/dicas">Dicas</Link></Button>
         <Button asChild variant="outline" size="lg"><Link href="/busca">Buscar</Link></Button>

@@ -198,6 +198,14 @@ correções, então rodar de novo não traz os defeitos de volta nem apaga resol
 `seed:enem` → `seed:resolucoes` → `seed:taxonomia`.
 **2024:** a fonte numera as questões por outro caderno; conteúdo e gabarito estão corretos, só a numeração difere do caderno 1/7.
 
+**Feedback dos alunos** (migration `0022`, rota `/feedback` e **Administração → Feedbacks**): o aluno manda elogio,
+ideia, melhoria ou problema (com nota opcional da experiência e a tela de origem) pelo menu, pelo cartão no Início, pelo
+Perfil ou pela tela de erro. O admin filtra por tipo e status, responde e marca como lido/resolvido; o aluno vê a
+resposta na mesma tela. Limite de 20 por aluno por dia.
+
+**Ajuda "?"**: conceitos menos óbvios (TRI, escudo, sequência, liga, XP, caderno de erros, simulado × treino…) têm um
+botão "?" com explicação curta. Os textos ficam em `src/lib/help.ts` e o botão é `<HelpTip topic="…" />`.
+
 **Provas reais da UFPR e concursos** (migration `0021`; `data/ufpr/`, `data/concursos/`):
 o vestibular da UFPR (1ª fase, PS2020 e PS2022–PS2026, 762 questões nas 7 línguas estrangeiras) e concursos de nível
 médio do NC/UFPR (técnico-administrativo 2024 e 2025, 8 cargos, 139 questões). Tudo extraído do caderno oficial do

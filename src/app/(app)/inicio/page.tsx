@@ -53,7 +53,7 @@ export default async function InicioPage() {
             <p className="text-sm">
               {triagemOpen
                 ? "Continue de onde parou para ver sua nota por área e onde focar."
-                : "Cerca de 30 questões que se ajustam a você. No fim: nota estimada por área e os assuntos onde focar."}
+                : "~30 questões que se ajustam a você. No fim: sua nota por área e onde focar."}
             </p>
           </div>
           <Button asChild className="self-start sm:self-center"><Link href={triagemOpen ? `/triagem/${triagemOpen.id}` : "/triagem"}>{triagemOpen ? "Continuar" : "Fazer a triagem"}</Link></Button>
@@ -114,6 +114,11 @@ export default async function InicioPage() {
         </HomeCard>
       </div>
 
+      <Link href="/feedback?de=/inicio" className="flex items-center gap-3 rounded-card border border-dashed border-primary/40 bg-primary-soft/40 p-4 text-sm hover:bg-primary-soft">
+        <span className="text-2xl" aria-hidden>💬</span>
+        <span className="flex-1"><span className="font-bold">Está testando o Vestibularr?</span> Conta pra gente o que achou: elogios, ideias e problemas chegam direto na equipe.</span>
+        <span className="font-bold text-primary">Enviar →</span>
+      </Link>
     </div>
   );
 }

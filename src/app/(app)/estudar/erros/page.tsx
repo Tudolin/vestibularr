@@ -10,6 +10,7 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { dueErrorsCount } from "@/lib/attempts/queries";
 import { createClient } from "@/lib/supabase/server";
 import { ReviewButton } from "./review-button";
+import { HelpTip } from "@/components/ui/help-tip";
 
 export const metadata: Metadata = { title: "Caderno de erros" };
 
@@ -33,7 +34,7 @@ export default async function ErrosPage() {
     <div className="flex flex-col gap-6">
       <Button asChild variant="ghost" size="sm" className="self-start"><Link href="/estudar"><ArrowLeft aria-hidden /> Estudar</Link></Button>
       <header className="flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold md:text-3xl">Caderno de erros</h1>
+        <h1 className="flex items-center gap-1 text-2xl font-extrabold md:text-3xl">Caderno de erros <HelpTip topic="caderno_erros" /></h1>
         <p className="text-muted-foreground">Questões que você errou voltam em 1, 3, 7, 14 e 30 dias. Acertar 5 vezes seguidas resolve o erro.</p>
       </header>
 

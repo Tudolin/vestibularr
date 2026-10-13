@@ -13,7 +13,7 @@ export default async function EstudarPage() {
     { href: "/estudar/simulados", title: "Simulados por prova", desc: "ENEM e UFPR no tempo oficial, com cronômetro.", icon: ClipboardList },
     { href: "/estudar/personalizado", title: "Simulado personalizado", desc: "Escolha disciplinas, assuntos, quantidade e tempo.", icon: Settings2 },
     { href: "/estudar/personalizado?modo=treino", title: "Treino", desc: "Questão a questão com gabarito na hora.", icon: Dumbbell },
-    { href: "/estudar/erros", title: "Caderno de erros", desc: "Revise o que errou com repetição espaçada.", icon: RotateCcw, badge: errors.due > 0 ? `${errors.due} para revisar` : undefined },
+    { href: "/estudar/erros", title: "Caderno de erros", desc: "Revise o que errou na hora certa, antes de esquecer.", icon: RotateCcw, badge: errors.due > 0 ? `${errors.due} para revisar` : undefined },
     { href: "/estudar/questoes", title: "Banco de questões", desc: "Busque e filtre por vestibular, ano, área e obra.", icon: Database },
     { href: "/estudar/obras", title: "Obras literárias UFPR", desc: "Lista do ano e questões por obra.", icon: BookMarked },
     { href: "/estudar/exportar", title: "Baixar PDF ou EPUB", desc: "Monte uma lista de questões para imprimir ou ler no Kindle, com gabarito.", icon: Download },

@@ -20,6 +20,7 @@ select
   to_regclass('public.profile_demographics') is not null                                             as "0019_demografia",
   to_regclass('public.weekly_chests') is not null                                                    as "0020_tesouro",
   exists (select 1 from public.exam_boards where code = 'CONCURSO')                                   as "0021_bancas",
+  to_regclass('public.feedback') is not null                                                         as "0022_feedback",
   -- dados: provas da UFPR e de concursos (precisa do npm run seed:provas)
   (select count(*) from public.questions q join public.exam_boards b on b.id = q.board_id where b.code in ('UFPR', 'CONCURSO')) as "questoes_ufpr_concursos",
   -- dados: questões com TRI (precisa do npm run seed:taxonomia). A triagem exige pelo menos 8 por área.

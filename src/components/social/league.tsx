@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { DEMOTE, PROMOTE, TIERS, type Card } from "@/lib/social";
 import { cn } from "@/lib/utils";
 import { Avatar, handle } from "./avatar";
+import { HelpTip } from "@/components/ui/help-tip";
 
 function useCountdown(end: string) {
   const [left, setLeft] = useState<number | null>(null);
@@ -39,7 +40,7 @@ export function League({ league, meId, weekEnd }: { league: { tier: number; move
       <div className={cn("flex items-center gap-4 rounded-card p-4", tier.tone)}>
         <span className="text-5xl" aria-hidden>{tier.emoji}</span>
         <div className="min-w-0 flex-1">
-          <p className="text-xs font-bold uppercase tracking-wide opacity-80">Divisão</p>
+          <p className="flex items-center gap-1 text-xs font-bold uppercase tracking-wide opacity-80">Divisão <HelpTip topic="liga" className="size-6 text-current" /></p>
           <p className="font-display text-2xl font-extrabold">{tier.name}</p>
           <p className="text-sm">{league.moved === 1 ? "Você subiu na semana passada! 🎉 " : league.moved === -1 ? "Você desceu, mas dá para voltar. " : ""}Termina em <strong>{left}</strong></p>
         </div>

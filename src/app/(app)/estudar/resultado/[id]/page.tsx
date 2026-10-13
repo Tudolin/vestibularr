@@ -20,6 +20,7 @@ import { DiscursiveAi } from "./discursive-ai";
 import { RetryButton } from "./retry-button";
 import { DailyDone } from "@/components/daily/daily-done";
 import type { DailyStatus } from "@/lib/daily";
+import { HelpTip } from "@/components/ui/help-tip";
 
 export const metadata: Metadata = { title: "Resultado" };
 // A correção das discursivas por IA é disparada desta página (roda depois da resposta).
@@ -116,7 +117,7 @@ export default async function ResultadoPage({ params, searchParams }: { params: 
         <Card className="p-5"><p className="text-sm text-muted-foreground">Acertos</p><p className="text-3xl font-extrabold">{t.correct}<span className="text-lg text-muted-foreground">/{t.total}</span></p><p className="text-sm font-semibold text-primary">{t.pct}%</p></Card>
         <Card className="p-5"><p className="text-sm text-muted-foreground">Erros</p><p className="text-3xl font-extrabold text-danger">{t.wrong}</p><p className="text-sm text-muted-foreground">{t.blank} em branco</p></Card>
         {enem?.average != null ? (
-          <Card className="p-5"><p className="text-sm text-muted-foreground">Nota estimada (média)</p><p className="text-3xl font-extrabold">{enem.average}</p><p className="text-xs text-muted-foreground">{enem.official ? "TRI com parâmetros oficiais" : "aproximação, não é TRI"}</p></Card>
+          <Card className="p-5"><p className="flex items-center gap-1 text-sm text-muted-foreground">Nota estimada (média) <HelpTip topic="tri" className="size-6" /></p><p className="text-3xl font-extrabold">{enem.average}</p><p className="text-xs text-muted-foreground">{enem.official ? "TRI com parâmetros oficiais" : "aproximação, não é TRI"}</p></Card>
         ) : ufpr ? (
           <Card className="p-5"><p className="text-sm text-muted-foreground">Nota UFPR (objetiva)</p><p className="text-3xl font-extrabold">{ufpr.score.toLocaleString("pt-BR")}</p><p className="text-xs text-muted-foreground">escala 0–1000, sem pesos de curso</p></Card>
         ) : (

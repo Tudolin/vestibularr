@@ -10,6 +10,7 @@ import { createClient } from "@/lib/supabase/server";
 import { getEntitlement, levelOf, triagemReport } from "@/lib/triagem";
 import { cn } from "@/lib/utils";
 import { startFocusTreinoAction } from "../../actions";
+import { HelpTip } from "@/components/ui/help-tip";
 
 export const metadata: Metadata = { title: "Resultado da triagem" };
 
@@ -53,7 +54,7 @@ export default async function TriagemReportPage({ params }: { params: Promise<{ 
       </header>
 
       <div className="grid gap-4 sm:grid-cols-3">
-        <Card className="p-5"><p className="text-sm text-muted-foreground">Nota estimada (média)</p><p className="text-3xl font-extrabold">{average ?? "—"}</p><p className="text-xs text-muted-foreground">TRI, parâmetros oficiais do INEP</p></Card>
+        <Card className="p-5"><p className="flex items-center gap-1 text-sm text-muted-foreground">Nota estimada (média) <HelpTip topic="tri" className="size-6" /></p><p className="text-3xl font-extrabold">{average ?? "—"}</p><p className="text-xs text-muted-foreground">TRI, parâmetros oficiais do INEP</p></Card>
         <Card className="p-5"><p className="text-sm text-muted-foreground">Acertos</p><p className="text-3xl font-extrabold">{s?.correct ?? 0}<span className="text-lg text-muted-foreground">/{s?.total ?? 0}</span></p><p className="text-xs text-muted-foreground">{s?.blank ? `${s.blank} "não sei"` : "sem chutes em branco"}</p></Card>
         {course?.cut ? (
           <Card className="p-5">

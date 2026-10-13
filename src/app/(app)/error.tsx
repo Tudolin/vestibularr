@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 /** Erro inesperado numa tela do app: explica sem drama e deixa tentar de novo. */
@@ -11,6 +12,7 @@ export default function AppError({ retry }: { error: Error & { digest?: string }
       <h1 className="text-2xl font-extrabold">Err… algo deu errado a bordo</h1>
       <p className="max-w-sm text-muted-foreground">Seu progresso está salvo. Tente de novo; se continuar, verifique a internet.</p>
       <Button size="lg" onClick={() => retry()}>Tentar de novo</Button>
+      <Link href="/feedback?tipo=problema" className="text-sm font-semibold text-primary underline underline-offset-2">Avisar a equipe sobre o problema</Link>
     </div>
   );
 }
