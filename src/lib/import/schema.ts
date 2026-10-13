@@ -1,9 +1,10 @@
 import { z } from "zod";
+import { BOARDS, LANGUAGES } from "../boards";
 import { isLocalImage } from "../local-image";
 
 export const AREAS = ["linguagens", "humanas", "natureza", "matematica"] as const;
 export const LABELS = ["A", "B", "C", "D", "E"] as const;
-export const BOARDS = ["ENEM", "UFPR"] as const;
+export { BOARDS } from "../boards";
 
 const optText = z.string().trim().max(400).nullish().transform((v) => (v ? v : undefined));
 /** Imagem: link http(s) ou figura hospedada no próprio app (public/questoes/…). */
@@ -28,7 +29,7 @@ export const questionSchema = z
     subject: optText,
     topic: optText,
     work: optText,
-    language: z.enum(["ingles", "espanhol"]).nullish().transform((v) => v ?? undefined),
+    language: z.enum(LANGUAGES).nullish().transform((v) => v ?? undefined),
     section: optText,
     statement_md: z.string().trim().min(1, "Enunciado vazio").max(60000),
     images: z.array(httpsUrl).max(20).default([]),

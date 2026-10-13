@@ -64,7 +64,7 @@ describe("profiles", () => {
 describe("conteúdo e configurações", () => {
   it("aluno lê vestibulares e formatos, mas não escreve", async () => {
     const boards = await asUser(c, alice, async () => (await c.query("select code from public.exam_boards")).rows);
-    expect(boards.map((b) => b.code).sort()).toEqual(["ENEM", "UFPR"]);
+    expect(boards.map((b) => b.code).sort()).toEqual(["CONCURSO", "ENEM", "UFPR"]);
     await expect(
       asUser(c, alice, () => c.query("insert into public.exam_boards (code, name) values ('X','X')")),
     ).rejects.toThrow(/row-level security/);

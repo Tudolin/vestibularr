@@ -1,0 +1,1100 @@
+{
+ "items": [
+  {
+   "external_id": "ufpr-2026-q01",
+   "correct": "B",
+   "subject": "Matemática",
+   "topic": "Razão, proporção e porcentagem",
+   "explanation_md": "Com 15% de desconto, o cliente paga 100% − 15% = 85% do preço original. Chamando o preço original de P:\n\n0,85 · P = 51\nP = 51 / 0,85\nP = 60\n\nConferindo: 15% de 60 = 9; 60 − 9 = 51. Bate.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) R$ 70,00 com 15% de desconto daria 59,50.\n- C) R$ 67,00 com desconto daria 56,95.\n- D) R$ 80,00 com desconto daria 68,00.\n- E) R$ 56,00 é cerca de 51 + 10% — erro comum de somar a porcentagem ao preço com desconto em vez de dividir por 0,85.\n\n**Para lembrar:** desconto de d% → preço final = preço original · (1 − d/100). Para voltar ao original, divida (não some a porcentagem).",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q02",
+   "correct": "D",
+   "subject": "Matemática",
+   "topic": "Geometria plana",
+   "explanation_md": "O quadrado ABEF tem área 9 cm², então seu lado mede √9 = 3 cm. Logo, AB = AF = 3 cm.\n\nPela figura, F está sobre o lado AD do retângulo, entre A e D. Então:\n\nAD = AF + FD\nAD = 3 + 5 = 8 cm\n\nO retângulo ABCD tem lados AB = 3 cm e AD = 8 cm:\n\nÁrea = 3 · 8 = 24 cm²\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 12 seria 3 · 4, sem usar corretamente FD = 5.\n- B) 15 = 3 · 5 é só a área do retângulo FECD (falta somar o quadrado).\n- C) 22 é o perímetro do retângulo (2 · 3 + 2 · 8), não a área.\n- E) 45 = 9 · 5 multiplica a área do quadrado pelo segmento, sem sentido geométrico.\n\n**Para lembrar:** área do quadrado = lado² → lado = √área. Área do retângulo = base · altura.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q03",
+   "correct": "C",
+   "subject": "Matemática",
+   "topic": "Geometria analítica",
+   "explanation_md": "As retas são y = (2m − 3)x + 4 e y = (5m + 1)x − 2. Na forma y = ax + b, o coeficiente a é o angular (inclinação). Retas paralelas têm o mesmo coeficiente angular (e coeficientes lineares diferentes, aqui 4 e −2, ok).\n\n2m − 3 = 5m + 1\n−3 − 1 = 5m − 2m\n−4 = 3m\nm = −4/3\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) −2/7 sairia de igualar 2m + 3 = 5m + 1 ou erro de sinal semelhante.\n- B) −1 não satisfaz: 2(−1) − 3 = −5 e 5(−1) + 1 = −4.\n- D) −2/3 dá 2(−2/3) − 3 = −13/3 e 5(−2/3) + 1 = −7/3; diferentes.\n- E) −3/7 também não iguala as inclinações.\n\n**Para lembrar:** retas paralelas ⇔ mesmo coeficiente angular; perpendiculares ⇔ produto dos coeficientes angulares = −1.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q04",
+   "correct": "E",
+   "subject": "Matemática",
+   "topic": "Trigonometria",
+   "explanation_md": "Coloque a figura num sistema de coordenadas com E na origem e EA sobre o eixo x (ângulos retos em A, B e C):\n\n- E = (0, 0) e A = (15, 0), pois AE = 15.\n- AB é vertical com 12: B = (15, 12).\n- BC é horizontal, para a esquerda, com 7: C = (8, 12).\n- CD é vertical, para baixo, com 5: D = (8, 7).\n\nO ângulo θ, em E, fica entre ED e o eixo horizontal EA. Então:\n\ntg θ = (subida de E até D) / (avanço horizontal de E até D)\ntg θ = 7 / 8\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 4/5 e B) 5/4 não usam as medidas do pentágono de forma coerente.\n- C) 5/8 usa CD = 5 como altura de D, esquecendo que D está 12 − 5 = 7 acima de EA.\n- D) 8/7 é o inverso (cotangente).\n\n**Para lembrar:** em figuras com ângulos retos, ponha coordenadas. tg θ = cateto oposto / cateto adjacente.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q05",
+   "correct": "A",
+   "subject": "Matemática",
+   "topic": "Geometria plana",
+   "explanation_md": "Atenção: no enunciado original, AN = 4/3 (a fração saiu quebrada na extração).\n\nComo ABCD é paralelogramo, AB ∥ CD. Então os triângulos ANB e CNM são semelhantes (ângulos alternos internos iguais e ângulos opostos pelo vértice em N).\n\nM é ponto médio de CD, e CD = AB, então CM = AB/2. A razão de semelhança é:\n\nAB / CM = 2\n\nLogo AN / NC = 2:\n\nNC = AN / 2 = (4/3)/2 = 2/3\nAC = AN + NC = 4/3 + 2/3 = 2\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) 4 seria se AN fosse 8/3 (ou se dobrasse AC por engano).\n- C) 5/3 corresponde a uma razão errada, como AN = 4 · NC.\n- D) 3 viria de usar AN = 3 (o valor quebrado na extração) e razão 1.\n- E) 8/3 = 2 · AN, supondo N ponto médio de AC — não é.\n\n**Para lembrar:** retas paralelas cortadas por transversais geram triângulos semelhantes; a razão entre os lados correspondentes vale para todos os segmentos.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q06",
+   "correct": "C",
+   "subject": "Matemática",
+   "topic": "Análise combinatória",
+   "explanation_md": "São 5 cobranças em ordem (ordem importa → arranjo). Vamos aplicar as restrições uma a uma:\n\n- 1ª cobrança: fixada no atacante principal → 1 possibilidade.\n- O goleiro tem que estar entre os outros 4 cobradores → ele pode ocupar a 2ª, 3ª, 4ª ou 5ª posição: 4 possibilidades.\n- Sobram 3 posições. Quem pode ocupá-las? Dos 11 em campo, tiramos o atacante, o goleiro e os 3 zagueiros: 11 − 5 = 6 jogadores.\n- Arranjar 6 jogadores em 3 posições ordenadas: 6 · 5 · 4 = 120.\n\nTotal:\n\n1 · 4 · 120 = 480\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 280 e B) 340 não correspondem a nenhuma contagem coerente com as restrições.\n- D) 625 = 5⁴ supõe repetição de jogadores, o que não é permitido.\n- E) 864 = 4 · 6 · 6 · 6: é o que sai se o mesmo jogador pudesse bater mais de um pênalti (6³ em vez de 6 · 5 · 4).\n\n**Para lembrar:** em contagem com restrições, resolva primeiro as posições \"travadas\" (atacante, goleiro), depois preencha o resto com o princípio multiplicativo.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q07",
+   "correct": "D",
+   "subject": "Matemática",
+   "topic": "Sequências (PA e PG)",
+   "explanation_md": "Atenção: no PDF original o comprimento total é 84/5 e as alternativas são A) 26/5, B) 24/5, C) 42/5, D) 28/5, E) 48/5 (a extração embaralhou as frações).\n\nPela figura, o caminho de A até B tem 6 segmentos: A→(canto), (canto)→P, PQ, QR, R→(canto), (canto)→B. PQ e QR são o 3º e o 4º termos da PA.\n\nEm uma PA, termos equidistantes dos extremos têm a mesma soma:\n\na₁ + a₆ = a₂ + a₅ = a₃ + a₄\n\nEntão a soma dos 6 termos é formada por 3 pares iguais:\n\nS₆ = 3 · (a₃ + a₄)\n84/5 = 3 · (PQ + QR)\nPQ + QR = 84/15 = 28/5\n\nNem é preciso descobrir o primeiro termo nem a razão!\n\n**Resposta: D** (28/5)\n\n**Por que não as outras:**\n- A) 26/5 e B) 24/5 são valores próximos, sem relação com a propriedade da PA.\n- C) 42/5 é metade do total, como se o caminho tivesse só 4 segmentos.\n- E) 48/5 não sai das contas.\n\n**Para lembrar:** numa PA, a soma de termos equidistantes dos extremos é constante; com n termos, Sₙ = (n/2) · (a₁ + aₙ).",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q08",
+   "correct": "C",
+   "subject": "Matemática",
+   "topic": "Função afim e quadrática",
+   "explanation_md": "Alternativas no original: A) (3/2, 11/4); B) (3/2, −11/4); C) (−3/2, 11/4); D) (5/4, 11/4); E) (−5/4, 11/4).\n\nPrecisamos de f(u). Faça u = 2x + 1, ou seja, x = (u − 1)/2. Substituindo:\n\n4x² = 4 · (u − 1)²/4 = (u − 1)² = u² − 2u + 1\n10x = 10 · (u − 1)/2 = 5u − 5\nf(u) = u² − 2u + 1 + 5u − 5 + 9\nf(u) = u² + 3u + 5\n\nVértice de f(x) = x² + 3x + 5:\n\nxv = −b/(2a) = −3/2\nyv = f(−3/2) = 9/4 − 9/2 + 5 = (9 − 18 + 20)/4 = 11/4\n\nVértice: (−3/2, 11/4).\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) (3/2, 11/4) erra o sinal de xv.\n- B) (3/2, −11/4) erra os dois sinais.\n- D) e E) usam 5/4, que viria de calcular o vértice de 4x² + 10x + 9 (−10/8 = −5/4) — esse é o vértice de f(2x + 1), não de f(x).\n\n**Para lembrar:** quando a função vem \"disfarçada\" como f(2x + 1), troque a variável (u = 2x + 1) para achar f(u). Vértice: xv = −b/2a.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q09",
+   "correct": "E",
+   "subject": "Matemática",
+   "topic": "Exponencial e logaritmo",
+   "explanation_md": "As equações são log₃(3y − 1) = 2 + log₃x e 2·log₂y = 2 + log₂x.\n\nPrimeira equação (2 = log₃9):\n\nlog₃(3y − 1) = log₃9 + log₃x = log₃(9x)\n3y − 1 = 9x\n\nSegunda equação (2 = log₂4):\n\nlog₂(y²) = log₂(4x)\ny² = 4x → x = y²/4\n\nSubstituindo na primeira:\n\n3y − 1 = 9y²/4\n12y − 4 = 9y²\n9y² − 12y + 4 = 0\n(3y − 2)² = 0 → y = 2/3\n\nx = (2/3)²/4 = (4/9)/4 = 1/9\n\ny/x = (2/3) / (1/9) = (2/3) · 9 = 6\n\nCondições de existência: x = 1/9 > 0, y = 2/3 > 0 e 3y − 1 = 1 > 0. Ok.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 3/4, B) 2, C) 3 e D) 5 não satisfazem o sistema; por exemplo, y/x = 3 daria x = y/3 e, na primeira equação, 3y − 1 = 3y, impossível.\n\n**Para lembrar:** transforme número em log da mesma base (2 = log₃9) e use log a + log b = log(ab) e k·log a = log aᵏ.",
+   "area": "matematica"
+  },
+  {
+   "external_id": "ufpr-2026-q10",
+   "correct": "C",
+   "subject": "Física",
+   "topic": "Cinemática",
+   "explanation_md": "O objeto A é a linha tracejada. Lendo o gráfico:\n\n- em t₁ = 0 s, xA = 4,0 cm;\n- em t₂ = 35 s, xA = 8,0 cm.\n\nDeslocamento é posição final menos posição inicial:\n\nΔx = x(35) − x(0)\nΔx = 8,0 − 4,0 = 4,0 cm\n\nRepare que o caminho no meio (subida, trecho parado entre 10 s e 20 s, nova subida) não importa para o deslocamento — só os pontos inicial e final.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 8,0 cm é a posição final, não o deslocamento.\n- B) 6,0 cm é a posição no patamar entre 10 s e 20 s.\n- D) 2,0 cm é só a variação em um dos trechos de subida (4 → 6 ou 6 → 8).\n- E) 0,0 cm valeria para o objeto B (sai de 0 e volta a 0 em 35 s), não para A.\n\n**Para lembrar:** deslocamento = x_final − x_inicial; distância percorrida soma todos os trechos, deslocamento não.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q11",
+   "correct": "C",
+   "subject": "Física",
+   "topic": "Energia e trabalho",
+   "explanation_md": "O objeto B é a linha cheia. Em t = 15 s ele está no trecho reto que vai de (10 s; 4,0 cm) a (20 s; 0 cm), ou seja, em movimento uniforme. A velocidade é a inclinação desse trecho:\n\nv = Δx/Δt = (0 − 4,0 cm)/(20 − 10 s) = −0,40 cm/s\n|v| = 0,40 cm/s = 4,0 · 10⁻³ m/s\n\nMassa em kg: m = 5,0 g = 5,0 · 10⁻³ kg.\n\nK = m·v²/2\nK = (5,0 · 10⁻³ · (4,0 · 10⁻³)²)/2\nK = (5,0 · 10⁻³ · 16 · 10⁻⁶)/2\nK = 40 · 10⁻⁹ J = 40 nJ\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 10 nJ: usar metade da velocidade (0,2 cm/s).\n- B) 20 nJ: esquecer de elevar ao quadrado corretamente ou dividir por 2 duas vezes.\n- D) 80 nJ: esquecer o fator 1/2 da fórmula.\n- E) 160 nJ: usar o dobro da velocidade.\n\n**Para lembrar:** em gráfico x × t, a velocidade é a inclinação da reta. Sempre converta para SI (kg, m/s) antes de calcular energia.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q12",
+   "correct": "E",
+   "subject": "Física",
+   "topic": "Cinemática",
+   "explanation_md": "Basta ler as duas posições no instante t = 30 s:\n\n- Objeto A (tracejado): chega a 8,0 cm em t = 30 s.\n- Objeto B (cheio): está no patamar de −2,0 cm (entre 25 s e 30 s).\n\nComo estão na mesma reta, a distância é a diferença das posições:\n\nd = |xA − xB|\nd = |8,0 − (−2,0)| = 10,0 cm\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 2,0 cm é só o módulo da posição de B.\n- B) 4,0 cm não corresponde a nenhuma leitura em t = 30 s.\n- C) 6,0 cm é 8,0 − 2,0, esquecendo que B está em posição negativa.\n- D) 8,0 cm é só a posição de A.\n\n**Para lembrar:** cuidado com posições negativas: a distância entre x = 8 e x = −2 é 8 − (−2) = 10.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q13",
+   "correct": "B",
+   "subject": "Física",
+   "topic": "Ondulatória",
+   "explanation_md": "Num tubo aberto nas duas extremidades, as frequências possíveis são:\n\nfₙ = n · v/(2L), com n = 1, 2, 3, ...\n\nPara o 3º harmônico (n = 3):\n\nf₃ = 3v/(2L)\nL = 3v/(2f₃)\nL = (3 · 340)/(2 · 5100)\nL = 1020/10200 = 0,10 m = 10,0 cm\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 5,00 cm: é o que sai com a fórmula de tubo fechado, f₃ = 3v/(4L).\n- C) 15,0 cm e E) 30,0 cm: não servem; com L = 15 cm o 3º harmônico seria 3,4 kHz e com L = 30 cm seria 1,7 kHz.\n- D) 20,0 cm: esquece o 2 do denominador (L = 3v/f₃).\n\n**Para lembrar:** tubo aberto: fₙ = n·v/(2L), todos os harmônicos. Tubo fechado: fₙ = n·v/(4L), só harmônicos ímpares.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q14",
+   "correct": "E",
+   "subject": "Física",
+   "topic": "Eletrostática",
+   "explanation_md": "A energia armazenada num capacitor é:\n\nU = C·(ΔV)²/2\n\nEscrevendo U₁ em termos de C₂ e ΔV₂ (C₁ = 3C₂ e ΔV₁ = 2ΔV₂):\n\nU₁ = 3C₂ · (2ΔV₂)²/2\nU₁ = 3C₂ · 4(ΔV₂)²/2\nU₁ = 12 · [C₂(ΔV₂)²/2] = 12·U₂\n\nLogo:\n\nU₂/U₁ = 1/12\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 1/2 e B) 1/3: consideram só um dos fatores (tensão sem elevar ao quadrado, ou só a capacitância).\n- C) 1/4: considera só o efeito da tensão ao quadrado, esquecendo C₁ = 3C₂.\n- D) 1/6: esquece de elevar a tensão ao quadrado (3 · 2 = 6).\n\n**Para lembrar:** U = C·V²/2 = Q·V/2 = Q²/(2C). A tensão entra ao quadrado.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q16",
+   "correct": "C",
+   "subject": "Física",
+   "topic": "Eletrostática",
+   "explanation_md": "Pela Lei de Coulomb:\n\nF = k·|q|·|Q|/d²\n\nSituação 1: F₁ = k·q·Q₁/d₁²\n\nSituação 2 (Q₂ = 4Q₁ e d₂ = 2d₁):\n\nF₂ = k·q·4Q₁/(2d₁)²\nF₂ = k·q·4Q₁/(4d₁²)\nF₂ = k·q·Q₁/d₁² = F₁\n\nQuadruplicar a carga multiplica a força por 4; dobrar a distância divide por 2² = 4. Os efeitos se cancelam:\n\nF₁/F₂ = 1\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 1/4: considera só o aumento da carga, esquecendo a distância.\n- B) 1/2: trata a distância como se entrasse sem o quadrado e erra a carga.\n- D) 2: trata a distância sem o quadrado (4/2 invertido).\n- E) 4: considera só o efeito da distância.\n\n**Para lembrar:** força elétrica é diretamente proporcional ao produto das cargas e inversamente proporcional ao quadrado da distância.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q17",
+   "correct": "D",
+   "subject": "Física",
+   "topic": "Eletrodinâmica",
+   "explanation_md": "A potência dissipada num resistor pode ser escrita como:\n\nP = (ΔV)²/R\n\nIsolando R:\n\nR = (ΔV)²/P\nR = 10²/5,0\nR = 100/5,0 = 20 Ω\n\nConferindo pela corrente: i = P/ΔV = 5,0/10 = 0,5 A; R = ΔV/i = 10/0,5 = 20 Ω.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 2,0 Ω = ΔV/P, sem elevar a tensão ao quadrado.\n- B) 5,0 Ω: repete o valor da potência.\n- C) 10 Ω: repete o valor da tensão.\n- E) 50 Ω = ΔV·P, combinação sem sentido físico.\n\n**Para lembrar:** P = V·i = R·i² = V²/R. Escolha a forma que usa os dados que você tem.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q18",
+   "correct": "C",
+   "subject": "Física",
+   "topic": "Termologia",
+   "explanation_md": "Dados: T₂ = 5T₁/2 e V₂ = 3V₁ (a fração da temperatura saiu quebrada no texto extraído).\n\nPara uma quantidade fixa de gás ideal, vale a equação geral:\n\nP₁V₁/T₁ = P₂V₂/T₂\n\nIsolando a razão das pressões:\n\nP₂/P₁ = (V₁/V₂) · (T₂/T₁)\nP₂/P₁ = (1/3) · (5/2)\nP₂/P₁ = 5/6\n\nA temperatura aumentou (tende a aumentar a pressão), mas o volume triplicou (tende a diminuir mais ainda). Resultado: a pressão cai um pouco.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 2/15: multiplica 1/3 por 2/5, invertendo a razão de temperaturas.\n- B) 2/5: só o inverso da razão de temperaturas, ignorando o volume.\n- D) 6/5: é o inverso da resposta (P₁/P₂).\n- E) 15/2: multiplica as duas razões (5/2 · 3), como se a pressão aumentasse com o volume.\n\n**Para lembrar:** PV/T = constante. Pressão é diretamente proporcional à temperatura e inversamente proporcional ao volume.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q19",
+   "correct": "A",
+   "subject": "Química",
+   "topic": "Radioatividade",
+   "explanation_md": "Vamos de trás para frente, conservando massa (A) e carga (Z) nas reações nucleares.\n\nSegunda etapa: A″ → ¹³¹₅₃I + β⁻ (β⁻ = ⁰₋₁e)\n\n- Massa: A(A″) = 131 + 0 = 131\n- Carga: Z(A″) = 53 + (−1) = 52\n\nEntão A″ = ¹³¹₅₂Te (o elemento de Z = 52 é o telúrio). Faz sentido: na emissão β, um nêutron vira próton, então Z sobe de 52 para 53 e a massa não muda.\n\nPrimeira etapa: A′ + ¹₀n → ¹³¹₅₂Te\n\n- Massa: A(A′) = 131 − 1 = 130\n- Carga: Z(A′) = 52 − 0 = 52\n\nA′ = ¹³⁰₅₂Te\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) ¹³¹₅₂Te é o A″ (depois de absorver o nêutron), não o A′.\n- C), D) e E) são isótopos de xenônio (Z = 54). A emissão β aumenta Z, então o precursor do iodo (Z = 53) tem Z = 52, não 54.\n\n**Para lembrar:** emissão β⁻: Z aumenta 1, massa igual. Captura de nêutron: massa aumenta 1, Z igual.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q20",
+   "correct": "E",
+   "subject": "Química",
+   "topic": "Eletroquímica",
+   "explanation_md": "As duas semirreações foram dadas como redução. Na reação real, o cloro é reduzido (vira cloreto) e o tiossulfato é o redutor, ou seja, ele se oxida. Então a semirreação do enxofre deve ser invertida:\n\nRedução: Cl₂ + 2 e⁻ → 2 Cl⁻\nOxidação: S₂O₃²⁻ + 10 OH⁻ → 2 SO₄²⁻ + 5 H₂O + 8 e⁻\n\nPara igualar os elétrons (8 perdidos = 8 ganhos), multiplicamos a do cloro por 4:\n\n4 Cl₂ + 8 e⁻ → 8 Cl⁻\n\nSomando e cancelando os elétrons:\n\n4 Cl₂ + S₂O₃²⁻ + 10 OH⁻ → 8 Cl⁻ + 2 SO₄²⁻ + 5 H₂O\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) e B) têm o sulfato sendo transformado em tiossulfato — isso é a redução do enxofre, junto com a redução do cloro. Não pode haver duas reduções sem oxidação.\n- C) inverte corretamente, mas não iguala os elétrons (2 recebidos contra 8 cedidos).\n- D) usa 2 S₂O₃²⁻ (16 e⁻ cedidos) para 1 Cl₂ (2 e⁻ recebidos): elétrons desbalanceados.\n\n**Para lembrar:** numa redox, um se reduz e o outro se oxida. Inverta a semirreação de quem se oxida e iguale o número de elétrons antes de somar.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q21",
+   "correct": "C",
+   "subject": "Química",
+   "topic": "Atomística e tabela periódica",
+   "explanation_md": "Sódio (Z = 11) no estado fundamental:\n\n1s² 2s² 2p⁶ 3s¹\n\nO elétron de maior energia é o 3s¹. O enunciado diz que, no estado excitado, ele é promovido para o orbital vazio de menor energia disponível. Seguindo a ordem de energia (diagrama de Linus Pauling: 3s → 3p → 4s → 3d), o próximo é o 3p:\n\n1s² 2s² 2p⁶ 3p¹\n\nQuando esse elétron volta de 3p para 3s, emite o fóton da luz amarela (a famosa linha D do sódio, ~589 nm).\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Tira um elétron do 2s e coloca no 3s: não é o elétron de maior energia que foi promovido.\n- B) Tira um elétron do 2p: mesmo problema.\n- D) 3d tem energia maior que 3p e 4s; não é o orbital vazio de menor energia.\n- E) 4s também está acima do 3p.\n\n**Para lembrar:** estado excitado = mesmo número de elétrons, mas um deles num nível de energia mais alto. Ao voltar, o átomo emite luz com energia igual à diferença entre os níveis.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q22",
+   "correct": "C",
+   "subject": "Química",
+   "topic": "Química orgânica",
+   "explanation_md": "**Antraceno:** três anéis aromáticos fundidos em linha. Contando os vértices: 14 carbonos. Os carbonos de fusão (4 deles, compartilhados entre anéis) não têm H; os outros 10 têm 1 H cada. Fórmula: C₁₄H₁₀.\n\nAtalho: hidrocarbonetos aromáticos com 3 anéis fundidos seguem CₙH₂ₙ₋₁₈ → C₁₄H₁₀.\n\n**Lactose:** é um dissacarídeo formado por glicose + galactose (cada uma C₆H₁₂O₆). Na ligação glicosídica, sai uma molécula de água:\n\nC₆H₁₂O₆ + C₆H₁₂O₆ − H₂O = C₁₂H₂₂O₁₁\n\nPela estrutura: 2 anéis de 6 átomos (5 C + 1 O cada) + 2 grupos CH₂OH = 12 C; oxigênios = 2 nos anéis + 1 na ponte + 8 em grupos OH = 11.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) C₁₀H₂₂O₁₁ erra o número de carbonos da lactose.\n- B) C₁₄H₁₄ dá hidrogênios demais ao antraceno (não considera a aromaticidade).\n- D) C₁₀H₁₂O₁₁ erra carbono e hidrogênio da lactose.\n- E) C₁₀H₁₀ é pouco carbono para três anéis fundidos (esse seria mais próximo do naftaleno, que é C₁₀H₈).\n\n**Para lembrar:** dissacarídeo = 2 monossacarídeos − 1 H₂O → C₁₂H₂₂O₁₁ (sacarose, lactose, maltose). Antraceno = C₁₄H₁₀; naftaleno = C₁₀H₈.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q23",
+   "correct": "D",
+   "subject": "Química",
+   "topic": "Química orgânica",
+   "explanation_md": "**Lactose:** a estrutura mostra dois anéis com vários grupos –OH, ligados por uma ponte de oxigênio (ligação glicosídica). É um dissacarídeo (glicose + galactose), o \"açúcar do leite\". Classe: carboidrato.\n\n**Antraceno:** só tem carbono e hidrogênio (C₁₄H₁₀), três anéis aromáticos fundidos, sem nenhum oxigênio. Classe: hidrocarboneto (aromático).\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) e B) Fenol exige um grupo –OH ligado diretamente a um anel aromático. O antraceno não tem –OH.\n- C) Inverte as classes: a lactose tem oxigênio, então não pode ser hidrocarboneto.\n- E) A lactose não é hidrocarboneto (tem oxigênio).\n\n**Para lembrar:** hidrocarboneto = só C e H. Carboidrato = poli-hidroxialdeído/cetona, fórmula geral do tipo Cₙ(H₂O)ₘ. Fenol = OH no anel aromático.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q24",
+   "correct": "C",
+   "subject": "Química",
+   "topic": "Estequiometria",
+   "explanation_md": "Na combustão completa, todo carbono vira CO₂ e todo hidrogênio vira H₂O.\n\nC₂₀H₃₀O₂ + O₂ → CO₂ + H₂O\n\n- Carbono: 20 átomos → 20 CO₂\n- Hidrogênio: 30 átomos → 30/2 = 15 H₂O\n\nPara completar o balanceamento (não pedido): oxigênio nos produtos = 20·2 + 15 = 55; já há 2 na molécula, faltam 53 → 53/2 O₂.\n\nC₂₀H₃₀O₂ + 53/2 O₂ → 20 CO₂ + 15 H₂O\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 10 e 10 e B) 10 e 15: dividem o carbono por 2, como se cada CO₂ tivesse 2 carbonos.\n- D) 20 e 60 e E) 40 e 60: multiplicam em vez de dividir os hidrogênios (cada H₂O leva 2 H).\n\n**Para lembrar:** balanceie combustão na ordem C → H → O. Mols de CO₂ = nº de C; mols de H₂O = nº de H ÷ 2.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q25",
+   "correct": "D",
+   "subject": "Química",
+   "topic": "Eletroquímica",
+   "explanation_md": "Para calcular o número de oxidação (Nox) do cloro, use: Nox do oxigênio = −2 e soma dos Nox = carga do íon.\n\nPerclorato, ClO₄⁻:\n\nx + 4·(−2) = −1\nx − 8 = −1\nx = +7\n\nClorato, ClO₃⁻:\n\nx + 3·(−2) = −1\nx − 6 = −1\nx = +5\n\nFaz sentido: são agentes oxidantes justamente porque o cloro está em Nox alto e \"quer\" receber elétrons.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) −1 é o Nox do cloro no cloreto (Cl⁻), não nos oxiânions.\n- B) e C) põem sinal negativo no cloro ligado a oxigênio, que é mais eletronegativo — o cloro fica positivo.\n- E) +1 é o Nox do cloro no hipoclorito (ClO⁻).\n\n**Para lembrar:** série do cloro: ClO⁻ (+1), ClO₂⁻ (+3), ClO₃⁻ (+5), ClO₄⁻ (+7). Hipo-...-ito, -ito, -ato, per-...-ato.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q26",
+   "correct": "C",
+   "subject": "Química",
+   "topic": "Cinética química",
+   "explanation_md": "A deterioração envolve oxidação e ação de microrganismos. Para diminuir a velocidade, precisamos reduzir algum fator que acelera reações: concentração de reagentes, temperatura, superfície de contato ou catalisadores.\n\nEmbalar a vácuo retira o ar, e com ele o gás oxigênio, que é reagente das reações de oxidação (e necessário para muitos microrganismos aeróbios). Menos reagente → reação mais lenta.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Adicionar O₂ aumenta a concentração do reagente da oxidação: acelera a deterioração.\n- B) Temperatura alta aumenta a energia das moléculas e a frequência de choques efetivos: acelera. (Por isso usamos geladeira.)\n- D) Cortar em pedaços aumenta a superfície de contato: acelera.\n- E) Enzimas são catalisadores biológicos; enzimas digestivas quebram o alimento: aceleram.\n\n**Para lembrar:** aceleram reações: mais temperatura, mais concentração, mais superfície de contato e catalisador. Para conservar alimentos, faça o contrário.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q27",
+   "correct": "E",
+   "subject": "Química",
+   "topic": "Reações orgânicas e polímeros",
+   "explanation_md": "O ácido lático tem dois grupos funcionais na mesma molécula: um ácido carboxílico (–COOH) e um álcool (–OH).\n\nNa polimerização, o –COOH de uma molécula reage com o –OH de outra, liberando água e formando o grupo –COO– (éster). No produto, a unidade repetida mostra exatamente isso: C=O ligado a um O, que se liga à próxima unidade. O PLA é um poliéster (polímero de condensação).\n\nÁcido + álcool → éster + água: isso é uma esterificação.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Hidrólise é o inverso: quebra o éster com água, voltando a ácido e álcool (é assim que o PLA se degrada).\n- B) Alcoólise é a reação de um éster com álcool (transesterificação), não é o caso.\n- C) Eliminação forma ligação dupla com saída de um grupo da mesma molécula; aqui as moléculas se unem.\n- D) \"Acidificação\" não é a transformação de grupos funcionais mostrada.\n\n**Para lembrar:** ácido carboxílico + álcool → éster + água (esterificação). Moléculas com os dois grupos formam poliésteres, como PLA e PET.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q28",
+   "correct": "C",
+   "subject": "Biologia",
+   "topic": "Microbiologia e doenças",
+   "explanation_md": "A questão pede para ligar cada vetor à doença que ele transmite e que o texto sugere:\n\n- *Aedes aegypti* + *Wolbachia*: o texto fala em \"certos vírus\". O *Aedes* transmite dengue (e também zika e chikungunya). O método Wolbachia é aplicado no Brasil justamente contra a dengue.\n- *Anopheles* + *Delftia*: o texto diz que o mosquito fica menos capaz de transmitir o protozoário *Plasmodium*, causador da malária.\n- *Phlebotomus* + *Delftia*: são os flebotomíneos (mosquito-palha), vetores do protozoário *Leishmania*, causador da leishmaniose.\n\nSequência: dengue, malária e leishmaniose.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Dengue não é transmitida pelo *Anopheles*.\n- B) Malária não é transmitida pelo *Aedes*, e zika não é transmitida pelo *Phlebotomus*.\n- D) Doença de Chagas é transmitida pelo barbeiro (triatomíneo), não por mosquito.\n- E) Leishmaniose não vem do *Anopheles*, e Chagas não vem do *Phlebotomus*.\n\n**Para lembrar:** *Aedes* → dengue, zika, chikungunya, febre amarela urbana; *Anopheles* → malária; flebotomíneo → leishmaniose; barbeiro → Chagas.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q29",
+   "correct": "C",
+   "subject": "Biologia",
+   "topic": "Biotecnologia",
+   "explanation_md": "O RNA mensageiro carrega a \"receita\" de uma proteína. Na vacina de RNAm contra a COVID-19, ele codifica uma proteína do vírus (a proteína S, ou spike).\n\nO que acontece, em ordem:\n\n1. O RNAm entra nas células da pessoa vacinada.\n2. Os ribossomos traduzem esse RNAm e produzem a proteína viral (primeiro momento).\n3. O sistema imune reconhece essa proteína como estranha e produz anticorpos e células de memória contra ela.\n\nAssim, se o vírus verdadeiro aparecer depois, o corpo já sabe combatê-lo. Nenhum vírus inteiro é produzido — só uma peça dele.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Não há vírus no vacinado para reduzir carga viral; a vacina previne, não trata.\n- B) O RNAm é traduzido em proteína; ele não aumenta a síntese de RNA.\n- D) A resposta imune ativa leucócitos; não os reduz.\n- E) Os anticorpos são produzidos contra a proteína viral, não contra o RNAm. E isso é um segundo momento, depois da produção da proteína.\n\n**Para lembrar:** vacina de RNAm: RNAm → tradução → proteína do vírus (antígeno) → resposta imune (anticorpos e memória).",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q30",
+   "correct": "A",
+   "subject": "Biologia",
+   "topic": "Botânica",
+   "explanation_md": "Os estômatos vivem num dilema: abrir para captar CO₂ (fotossíntese) ou fechar para não perder água. A condutância estomática aumenta quando eles abrem e diminui quando fecham.\n\n- **Situação 1 (mais CO₂):** a planta consegue o CO₂ de que precisa sem abrir tanto os estômatos. Então ela os fecha parcialmente, economizando água → condutância **diminui**.\n- **Situação 2 (menos CO₂):** falta CO₂ para a fotossíntese; os estômatos abrem mais para captá-lo → condutância **aumenta**.\n- **Situação 3 (mais umidade):** o ar úmido reduz a perda de água por transpiração; o risco de desidratação cai e a planta pode abrir mais os estômatos → condutância **aumenta**.\n\nSequência: diminua, aumente, aumente.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Erra a situação 2: com pouco CO₂, os estômatos abrem, não fecham.\n- C) Erra a situação 3: umidade alta favorece a abertura.\n- D) e E) Erram a situação 1: mais CO₂ disponível leva ao fechamento parcial, não à abertura.\n\n**Para lembrar:** estômatos abrem com: luz, baixo CO₂ interno e boa disponibilidade de água. Fecham com: seca, alto CO₂ e ação do ácido abscísico.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q31",
+   "correct": "E",
+   "subject": "Biologia",
+   "topic": "Fisiologia humana",
+   "explanation_md": "Os medicamentos (análogos do GLP-1, como a semaglutida) reduzem a glicemia alterando a secreção dos hormônios do pâncreas. Para baixar a glicose no sangue, o pâncreas precisa:\n\n- **aumentar a insulina** (hormônio que faz as células captarem glicose e o fígado armazená-la);\n- **diminuir o glucagon** (hormônio que manda o fígado liberar glicose no sangue).\n\nEntão procuramos o gráfico com: glicemia caindo, glucagon caindo (curva em \"vale\") e insulina subindo (curva em \"morro\").\n\n- Figura I: glucagon constante, insulina cai.\n- Figura II: glucagon e insulina caem.\n- Figura III: glucagon e insulina sobem.\n- Figura IV: glucagon sobe, insulina cai — o oposto do esperado.\n- Figura V: glucagon cai e insulina sobe. É essa.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Com insulina caindo, a glicemia tenderia a subir.\n- B) Insulina em queda não explica a redução da glicemia.\n- C) Glucagon subindo aumentaria a liberação de glicose pelo fígado.\n- D) É o perfil de jejum/hipoglicemia (pouca insulina, muito glucagon), contrário ao efeito do medicamento.\n\n**Para lembrar:** insulina baixa a glicemia; glucagon sobe a glicemia. São antagonistas.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q32",
+   "correct": "A",
+   "subject": "Biologia",
+   "topic": "Ecologia",
+   "explanation_md": "Espécies exóticas invasoras chegam a um ambiente onde não evoluíram junto com as espécies locais. Em geral, encontram poucos predadores, parasitas e competidores naturais, e por isso se multiplicam muito. O peixe-leão, por exemplo, é um predador voraz de peixes nativos; a tilápia disputa alimento e espaço com os peixes dos riachos.\n\nConsequências típicas: mais competição por recursos (alimento, espaço) e mais predação sobre espécies nativas, o que pode levar ao declínio delas.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Invasoras costumam trazer novos patógenos e parasitas (o caramujo-africano, por exemplo, é hospedeiro de vermes); não reduzem doenças.\n- C) Elas aumentam a pressão seletiva sobre as nativas e, em geral, reduzem a biodiversidade.\n- D) Não aumentam a variabilidade genética das nativas; ao contrário, a queda das populações nativas aumenta o risco de extinção.\n- E) As nativas costumam ter o nicho reduzido pela competição, não ampliado; e as relações predominantes são negativas (competição, predação).\n\n**Para lembrar:** espécie exótica invasora = sem inimigos naturais + alta reprodução → competição, predação e perda de biodiversidade. É uma das maiores causas de extinção.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q33",
+   "correct": "E",
+   "subject": "Biologia",
+   "topic": "Fisiologia humana",
+   "explanation_md": "A questão pede para classificar as células citadas nos itens 1 e 2 pelos tecidos aos quais pertencem.\n\n**Item 1 – macrófagos:** são células de defesa derivadas dos monócitos do sangue, que migram para os tecidos e fagocitam partículas. Nos livros de histologia, o macrófago é uma célula típica do **tecido conjuntivo** (junto com fibroblastos, mastócitos, plasmócitos). Aqui eles estão \"espumosos\" porque acumularam o óleo inalado no vaper.\n\n**Item 2 – linfócitos e neutrófilos:** são leucócitos (glóbulos brancos), elementos figurados do **sangue**. A \"infiltração leucocitária\" significa que saíram dos vasos e foram para o pulmão por causa da inflamação. O sangue, embora seja um tipo especial de conjuntivo, é classificado como tecido sanguíneo.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Macrófago não é célula epitelial. Linfócitos circulam pelo sistema linfático, mas neutrófilos são típicos do sangue.\n- B) Ter gordura dentro não torna o macrófago um adipócito; e leucócitos não são epiteliais.\n- C) Nenhuma das células é do tecido nervoso.\n- D) Nenhuma das células é nervosa.\n\n**Para lembrar:** células do conjuntivo propriamente dito: fibroblasto, macrófago, mastócito, plasmócito, adipócito. Leucócitos (neutrófilos, linfócitos, monócitos, eosinófilos, basófilos) são do tecido sanguíneo.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q34",
+   "correct": "D",
+   "subject": "Biologia",
+   "topic": "Citologia",
+   "explanation_md": "Siga o fluxo da figura:\n\n- **1:** é o compartimento envolto por membrana dupla onde está o DNA, onde ocorre a edição com Cas9 e onde o gene é transcrito. Esse é o **núcleo**.\n- **4:** é a molécula com extremidade 5′ (com o \"quepe\") e cauda AAA...3′ (poli-A) que sai do núcleo para o citoplasma. É o **RNA mensageiro** maduro.\n- **3:** o ribossomo se liga ao RNAm e produz a proteína: isso é a **tradução**.\n- **2:** a proteína nascente entra numa organela membranosa ligada aos ribossomos, de onde sai em vesículas rumo à membrana plasmática. É o **retículo endoplasmático** (rugoso), por onde passam as proteínas de membrana.\n\nSequência: núcleo, retículo endoplasmático, tradução, RNA mensageiro.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O nucléolo produz RNA ribossomal, mas a estrutura 1 envolve todo o DNA; e 4 tem cauda poli-A, típica do RNAm.\n- B) O DNA não fica no citosol (célula eucariótica); 3 é tradução, não *splicing*.\n- C) O ribossomo não se associa diretamente ao complexo de Golgi; e no passo 3 já há ribossomo produzindo proteína, não transcrição.\n- E) O DNA está no núcleo; o RNA transportador não tem cauda poli-A nem sai do núcleo com essa estrutura.\n\n**Para lembrar:** DNA → (transcrição, no núcleo) → RNAm → (tradução, nos ribossomos) → proteína → RE rugoso → Golgi → membrana.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q35",
+   "correct": "E",
+   "subject": "Biologia",
+   "topic": "Genética",
+   "explanation_md": "Observe os valores de LDL no heredograma. Aparecem três faixas:\n\n- ~90 mg/dL (normais, abaixo de 130);\n- ~270–280 mg/dL;\n- ~700 mg/dL (I-2, II-1 e III-1).\n\nTrês fenótipos para um gene → há um fenótipo intermediário.\n\nTestando: I-2 (700) × I-1 (88, normal) tem todos os filhos com ~270. Se I-2 for homozigoto afetado (AA) e I-1 normal (aa), todos os filhos são Aa — e têm fenótipo intermediário. Na geração III, II-1 (699, AA) × II-2 (272, Aa) geram 701 (AA) e 272/270 (Aa). Tudo consistente.\n\nConclusões:\n- Basta um alelo mutado para alterar o LDL (heterozigotos afetados) → **dominante**.\n- Homens e mulheres afetados igualmente, e pai passa para filho homem (III-3 → IV-2) → **autossômico**.\n- Heterozigoto tem fenótipo intermediário entre os homozigotos → **dominância incompleta** (ou codominância).\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Se fosse recessivo, filhos de I-1 (normal) com I-2 seriam portadores normais, não afetados.\n- B) Poligênico daria uma variação contínua de valores, não três classes bem separadas; além disso, o texto fala de um único gene (*LDLR*).\n- C) Ligado ao X recessivo não explica a mulher normal × homem afetado com todas as filhas e filhos afetados, nem o pai passando para filho.\n- D) Na dominância completa, heterozigotos e homozigotos dominantes teriam o mesmo fenótipo — mas 270 ≠ 700.\n\n**Para lembrar:** três fenótipos com heterozigoto intermediário = dominância incompleta. Transmissão de pai para filho homem descarta herança ligada ao X.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q36",
+   "correct": "B",
+   "subject": "Biologia",
+   "topic": "Zoologia",
+   "explanation_md": "Os anfíbios têm pele fina, úmida, sem escamas, muito permeável, e fazem parte da respiração por ela (respiração cutânea). Essa característica os deixa muito vulneráveis:\n\n- a mudanças de temperatura e umidade (as mudanças climáticas ressecam ambientes e afetam a respiração cutânea);\n- a poluentes, que atravessam a pele facilmente;\n- a fungos, como o quitrídio (*Batrachochytrium*), que infecta a pele e foi responsável por declínios enormes — o texto cita doenças fúngicas como grande ameaça.\n\nAlém disso, a maioria depende de água para a reprodução (ovos sem casca, larvas aquáticas), o que reforça a dependência de ambientes úmidos.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Anfíbios são ectotérmicos, não endotérmicos.\n- C) A maioria tem desenvolvimento indireto (metamorfose, girino → adulto).\n- D) Ovos com casca e âmnio são de répteis, aves e mamíferos — justamente a novidade que os libertou da água.\n- E) Excretar ácido úrico (economiza água) é típico de répteis e aves. Anfíbios excretam ureia (adultos) ou amônia (larvas).\n\n**Para lembrar:** anfíbios = pele fina e úmida, respiração cutânea, ovos sem casca, larva aquática, ectotermia. Por isso, são ótimos bioindicadores.",
+   "area": "natureza"
+  },
+  {
+   "external_id": "ufpr-2026-q37",
+   "correct": "B",
+   "subject": "Geografia",
+   "topic": "Hidrografia",
+   "explanation_md": "\"Cabeça d'água\" é uma elevação repentina e forte do nível de um rio, com correnteza intensa, que desce carregando água, galhos e pedras. A causa principal são chuvas intensas nas partes mais altas da bacia hidrográfica (cabeceiras), principalmente em áreas de serra — como a Serra do Mar, onde fica Antonina.\n\nPor que surpreende? Quem está no rio, mais abaixo, pode estar com céu limpo ou sob chuva fraca. A água da chuva que caiu na cabeceira escoa rapidamente pelos vales estreitos e íngremes e chega de repente. Por isso o comandante recomenda cuidado com atividades aquáticas no verão, época de chuvas convectivas fortes e concentradas.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Descreve uma tromba-d'água no sentido de tornado sobre a água (coluna de ar em rotação), outro fenômeno.\n- C) Frentes frias trazem queda de temperatura; não explicam a subida súbita do rio, e \"ondas de frio\" não é o efeito da cabeça d'água.\n- D) Granizo não tem relação com a cabeça d'água, e o fenômeno é típico de bacias pequenas e íngremes, não de grandes bacias.\n- E) O fenômeno é ligado a chuvas concentradas e localizadas em pequenas bacias de relevo acidentado, não a chuvas homogêneas em grandes bacias; e o efeito é a onda de cheia, não deslizamentos em áreas baixas.\n\n**Para lembrar:** cabeça d'água = chuva forte na cabeceira + relevo íngreme → onda de cheia repentina rio abaixo, mesmo sem chuva no local.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q38",
+   "correct": "B",
+   "subject": "Geografia",
+   "topic": "Geopolítica e conflitos",
+   "explanation_md": "A Declaração Balfour (1917) foi uma carta do governo britânico apoiando um \"Lar Nacional para o Povo Judeu\" na Palestina, mas com uma ressalva: \"nada será feito que possa atentar contra os direitos civis e religiosos das coletividades não judaicas existentes na Palestina\".\n\nOs mapas mostram a sequência: em 1946, a maior parte do território era ocupada por árabes palestinos; em 1947, a ONU propôs a partilha; de 1948 a 1967, Israel passou a controlar uma área maior que a proposta; hoje, os territórios palestinos são fragmentos na Cisjordânia e a Faixa de Gaza.\n\nComparando: a promessa de respeitar os direitos dos não judeus não foi cumprida. A expansão israelense além da partilha de 1947 mostra que esses direitos não foram assegurados.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O Estado de Israel não nasceu em 1917; foi criado em 1948.\n- C) A declaração não foi \"apenas simbólica\": orientou a política do Mandato Britânico e favoreceu a imigração judaica, que preparou a partilha.\n- D) A ONU não \"confiscou\" poderes britânicos por promessa descumprida; o Reino Unido entregou a questão à ONU. E Israel não justifica sua expansão pelas promessas britânicas.\n- E) O sionismo surgiu no fim do século XIX (Theodor Herzl, 1897), antes da declaração; e ela não foi uma política de expansão gradual do Estado israelense.\n\n**Para lembrar:** Balfour (1917) → Mandato Britânico → partilha da ONU (Resolução 181, 1947) → criação de Israel (1948) → guerras e ocupações (1967) → fragmentação dos territórios palestinos.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q39",
+   "correct": "E",
+   "subject": "Geografia",
+   "topic": "Relevo, solos e geologia",
+   "explanation_md": "Relevo cárstico se forma em rochas solúveis, principalmente calcário. A água da chuva, levemente ácida (com CO₂ dissolvido), dissolve a rocha. Com o tempo, isso cria:\n\n- **cavernas**: galerias subterrâneas abertas pela dissolução;\n- **dolinas**: depressões circulares na superfície, formadas por dissolução ou pelo colapso do teto de cavidades (é a \"subsidência e colapso\" do enunciado);\n- **sumidouros**: pontos onde rios superficiais desaparecem e passam a correr por baixo da terra.\n\nNo Paraná, há carste na região metropolitana de Curitiba (Colombo, Almirante Tamandaré, Rio Branco do Sul).\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Leques aluviais e dunas são formas de deposição (água e vento); chapadas são formas tabulares, não típicas do carste.\n- B) Morros testemunhos são formas residuais de erosão; rochas periglaciais ligam-se a ambientes frios.\n- C) Ravinas e voçorocas são erosão do solo; derrames basálticos são vulcânicos.\n- D) No carste, a drenagem é predominantemente subterrânea; rios de superfície extensos são justamente raros.\n\n**Para lembrar:** carste = calcário + dissolução pela água → cavernas, dolinas, sumidouros, estalactites e estalagmites, drenagem subterrânea.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q40",
+   "correct": "C",
+   "subject": "Geografia",
+   "topic": "Biomas e questões ambientais",
+   "explanation_md": "O Matopiba reúne partes do Maranhão, Tocantins, Piauí e Bahia, região do Brasil Central/Nordeste com relevo plano (chapadas), boa luminosidade e terras baratas, que virou a nova fronteira agrícola da soja e do milho a partir dos anos 1980.\n\nO bioma que cobre cerca de 91% dessa área é o **Cerrado**: savana com árvores de troncos tortuosos, gramíneas e solos ácidos corrigidos com calcário. Com a queda do desmatamento na Amazônia, o Cerrado passou a ser o bioma mais desmatado do país, e o Matopiba concentra a maior parte dessa perda.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O Pantanal fica no Mato Grosso e Mato Grosso do Sul, fora do Matopiba.\n- B) O Pampa está no Rio Grande do Sul.\n- D) A Mata Atlântica ocupa a faixa litorânea; aparece pouco no Matopiba (e no máximo em trechos da Bahia).\n- E) Zonas costeiras não são um bioma predominante numa região do interior.\n\n**Para lembrar:** Matopiba = MA + TO + PI + BA = fronteira agrícola no Cerrado. O Cerrado é \"a caixa d'água do Brasil\": abriga nascentes de grandes bacias.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q41",
+   "correct": "D",
+   "subject": "Geografia",
+   "topic": "População e migrações",
+   "explanation_md": "O quadro mostra que, entre 2010 e 2024, os imigrantes que mais entraram no Brasil vêm da América Latina: Venezuela (500 mil), Haiti (183 mil), Bolívia, Colômbia, Argentina, Paraguai, Peru, Uruguai. São fluxos Sul-Sul.\n\nHistoricamente, o Brasil recebeu sobretudo europeus (portugueses, italianos, alemães, poloneses) e japoneses — fluxos Norte-Sul. Hoje, com o endurecimento das políticas de imigração nos EUA e na Europa, muitos latino-americanos buscam países vizinhos, como o Brasil. O texto mostra que essa migração reproduz a exploração do trabalho: informalidade, jornadas longas, falta de documentos e de reconhecimento de diplomas.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O texto diz que o mercado de trabalho brasileiro está aquecido, com desemprego baixo; o problema dos imigrantes é a inserção precária, não a \"sobrecarga\" do mercado. E a emigração de brasileiros não caiu de forma simples.\n- B) A Operação Acolhida (2018) é humanitária: organiza a recepção, documentação e interiorização dos venezuelanos; não é causa do aumento da entrada nem da saturação do mercado.\n- C) A missão no Haiti (Minustah) ajuda a entender a vinda de haitianos, mas não explica a migração de venezuelanos e bolivianos, nem \"inaugurou\" esses fluxos.\n- E) Atribui a precarização ao \"sobrefluxo\" de pessoas, culpabilizando o imigrante; a interiorização busca justamente melhorar a inserção, e a precariedade tem relação com documentação, discriminação e exploração.\n\n**Para lembrar:** migração Sul-Sul = entre países periféricos/emergentes. No Brasil atual, destacam-se venezuelanos, haitianos e bolivianos.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q42",
+   "correct": "E",
+   "subject": "Geografia",
+   "topic": "Globalização e economia",
+   "explanation_md": "O meio técnico-científico-informacional (conceito de Milton Santos) é o espaço geográfico atual, em que ciência, técnica e informação estão embutidas no território e nos fluxos. Nele, dado vira recurso econômico estratégico.\n\nPochmann descreve exatamente isso: cada escolha cotidiana (música, trajeto, pagamento, compra) gera \"dados brutos\" que são extraídos por big techs estrangeiras, processados fora do país e transformados em lucro, sem impostos nem empregos aqui. Ele chama isso de \"extrativismo digital\" e liga ao subdesenvolvimento: o Brasil exporta matéria-prima (dados) e não domina a tecnologia que agrega valor. Daí a ideia de \"soberania de dados\": o país controlar as informações da própria população.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O texto não defende que os dados sejam explorados \"como garantia de desenvolvimento de empresas brasileiras\"; o foco é o controle soberano sobre os dados, não reserva de mercado para empresas privadas nacionais.\n- B) Em nenhum momento se fala em \"erradicar\" plataformas estrangeiras. É um exagero.\n- C) \"Guerra informacional\" e \"investidas do governo para resgatar dados\" não aparecem; o texto trata de soberania e desenvolvimento, não de conflito.\n- D) O texto não menciona liberdade de expressão nem segurança nacional; a alternativa inventa um conflito que não está na reportagem.\n\n**Para lembrar:** no meio técnico-científico-informacional, informação é recurso. Soberania hoje também significa controlar os dados gerados pela população do país.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q43",
+   "correct": "D",
+   "subject": "Geografia",
+   "topic": "Cartografia",
+   "explanation_md": "Compare cada mapa com o mapa A (Brasil \"normal\", norte para cima, escala 1:55.000.000):\n\n- **Mapa B:** o contorno do Brasil aparece de cabeça para baixo, e a rosa dos ventos tem o S no topo. A escala continua 1:55.000.000 e o formato do país é o mesmo, só invertido. Mudou a **orientação**.\n- **Mapa C:** o Brasil está com o mesmo formato e a mesma orientação, só que bem menor. A legenda mostra 1:110.000.000 (o dobro do denominador, ou seja, o mapa ficou com metade do tamanho linear). Mudou a **escala**.\n- **Mapa D:** mesma escala (1:55.000.000) e norte para cima, mas o formato do país está esticado na horizontal e com proporções diferentes, sobretudo no Norte e no Sul. Isso é distorção típica de troca de **projeção cartográfica**.\n\nSequência: Orientação | Escala | Projeção cartográfica.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Mudar coordenadas geográficas só deslocaria a grade de latitude/longitude; o mapa B não foi deslocado, foi invertido.\n- B) No mapa C a escala mudou (não coordenadas), e no D a escala é a mesma de A.\n- C) O mapa B não muda de forma (só gira), então não é projeção; e o D não tem orientação diferente.\n- E) Coordenadas não explicam B, projeção não explica C e orientação não explica D.\n\n**Para lembrar:** inverteu o norte = orientação; mudou o tamanho com o mesmo formato = escala; deformou o formato = projeção.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q44",
+   "correct": "C",
+   "subject": "Geografia",
+   "topic": "Cartografia",
+   "explanation_md": "Coordenadas UTM são em metros, num plano. Os dois pontos estão no mesmo fuso (22S) e têm a mesma coordenada Norte-Sul (7.350.000 m), então a distância é só a diferença das coordenadas Leste (E):\n\n- D = 470.000 − 370.000 = 100.000 m\n- D = 100 km\n\nAgora a escala 1:1.000.000: 1 cm no mapa = 1.000.000 cm no terreno = 10 km.\n\n- d = 100 km ÷ 10 km/cm\n- d = 10 cm\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 10 km seria tirar um zero a mais na conversão de metros para quilômetros.\n- B) 47 km / 4,7 cm usa só a coordenada de B (470.000) de forma errada, ignorando a de A.\n- D) 470 km é a coordenada E do local B convertida, não a distância entre os pontos.\n- E) 7.350 km vem da coordenada N (7.350.000 m), que é igual para os dois pontos e não tem relação com a distância A–B.\n\n**Para lembrar:** em UTM, mesma linha N → distância = diferença dos valores E. Na escala 1:1.000.000, cada 1 cm vale 10 km.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q45",
+   "correct": "A",
+   "subject": "Geografia",
+   "topic": "Biomas e questões ambientais",
+   "explanation_md": "Em um cartograma (anamorfose), o tamanho de cada país é proporcional à variável, não à área real.\n\n- **Cartograma A (emissões cumulativas de CO₂):** Estados Unidos e Europa aparecem enormes; Japão também. África e América do Sul quase somem.\n- **Cartograma B (mortalidade por efeitos do clima na saúde):** é o inverso. A África fica gigante, e o sul da Ásia (Índia, Bangladesh) também cresce; Estados Unidos e Europa encolhem até virar fios.\n\nA leitura conjunta mostra uma injustiça climática: quem mais emitiu historicamente é quem menos sofre, e quem menos emitiu (países pobres, sobretudo africanos) concentra os efeitos sobre a saúde.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) A África de fato tem alta mortalidade, mas não \"devido às baixas emissões\". Emitir pouco não causa mortalidade; a vulnerabilidade vem da pobreza, da infraestrutura de saúde precária e da exposição a doenças como malária e diarreia.\n- C) Na Ásia o padrão não é uniforme: China e Japão aparecem grandes no mapa de emissões. E a alternativa ignora que os cartogramas mostram contraste entre regiões, não um perfil único da Ásia.\n- D) É o oposto do que os mapas mostram.\n- E) Os Estados Unidos encolhem no mapa B; o continente americano tem mortalidade relativamente baixa. Além disso, o efeito das emissões é global, não restrito ao continente de quem emite.\n\n**Para lembrar:** cartograma = país desenhado do tamanho do dado. Comparar dois cartogramas lado a lado revela desigualdades (aqui, a chamada justiça climática).",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q46",
+   "correct": "D",
+   "subject": "História",
+   "topic": "Antiguidade",
+   "explanation_md": "O arco triunfal romano era um monumento para celebrar vitórias militares. Quando um general vencia uma guerra importante, o Senado podia conceder-lhe um \"triunfo\": um desfile pela cidade com soldados, prisioneiros e despojos. O arco eternizava esse momento.\n\nO Arco de Tito, em Roma, comemora justamente a vitória romana na Primeira Guerra Judaico-Romana, com a destruição de Jerusalém e do Segundo Templo, em 70 d.C. Em seus relevos aparecem soldados carregando a menorá (o candelabro sagrado) saqueada do Templo. Por isso projetar a bandeira de Israel ali gerou curiosidade e polêmica: o monumento celebra, na origem, uma derrota dos judeus.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Roma era politeísta na época de Tito; o arco celebra a vitória sobre os judeus (monoteístas), e não o contrário.\n- B) A romanização existia, mas o arco não simbolizava integração, e sim conquista e submissão.\n- C) Os jogos de gladiadores ocorriam em anfiteatros, como o Coliseu; não eram o tema dos arcos.\n- E) O Tribunato da Plebe (séc. V a.C.) é um marco das lutas sociais da República, sem relação com os arcos triunfais.\n\n**Para lembrar:** arco do triunfo = celebração de vitória militar. O de Tito lembra a tomada de Jerusalém em 70 d.C.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q47",
+   "correct": "E",
+   "subject": "História",
+   "topic": "Idade Média",
+   "explanation_md": "O relato de al-Umari mostra um rei africano muçulmano tão rico em ouro que, ao passar pelo Cairo a caminho de Meca, derrubou o preço do metal no Egito. Isso só faz sentido se o Mali estiver integrado a uma grande rede de circulação de pessoas, mercadorias e ideias.\n\nEssa rede eram as **rotas transaarianas**: caravanas de camelos cruzavam o Saara ligando o oeste africano (Gana, Mali, Songai) ao norte da África e, a partir dali, ao Oriente Médio e à Ásia. Pelo deserto passavam ouro, sal, escravizados, tecidos e livros; com os comerciantes chegou também o Islã, adotado pelas elites desses reinos. A peregrinação de Mansa Musa é um exemplo dessa conexão.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Era o contrário: o ouro era produzido no oeste africano e exportado. O que esses reinos importavam muito era o sal.\n- B) Beduínos são nômades árabes do deserto. Gana, Mali e Songai eram reinos com cidades (Timbuktu, Gao, Djenné) e governo centralizado.\n- C) O cristianismo existia na África desde a Antiguidade: Egito (copta), Etiópia (Axum), Núbia.\n- D) O apogeu do Mali (séc. XIV) e de Songai (séc. XV–XVI) foi depois da chegada do Islã, e em parte graças ao comércio com o mundo islâmico.\n\n**Para lembrar:** Gana, Mali e Songai = ouro + sal + rotas transaarianas + Islã. Mansa Musa é o símbolo dessa riqueza.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q48",
+   "correct": "B",
+   "subject": "História",
+   "topic": "Idade Moderna",
+   "explanation_md": "Henrique VIII era casado com Catarina de Aragão, tia do imperador Carlos V (rei da Espanha e do Sacro Império). O casamento não gerou herdeiro homem, e Henrique quis a anulação para se casar com Ana Bolena. O papa Clemente VII negou, em grande parte por pressão de Carlos V, cujas tropas dominavam Roma.\n\nResultado: Henrique rompeu com Roma. Com o Ato de Supremacia (1534), tornou-se chefe da Igreja da Inglaterra, que é a **Igreja Anglicana**. Seu casamento com Catarina foi anulado pelo arcebispo de Canterbury, o que na prática foi o \"divórcio\". A crise mostra bem como alianças matrimoniais entre monarquias eram frágeis e misturavam política e religião.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Henrique VIII não foi deposto, e a Magna Carta é de 1215 (rei João Sem Terra).\n- C) Ele rompeu com o papado, sim, mas o Grande Cisma é de 1054 (Oriente x Ocidente) ou o Cisma do Ocidente (1378–1417), ambos medievais.\n- D) A Guerra dos Cem Anos terminou em 1453, antes do reinado de Henrique VIII, e com derrota inglesa.\n- E) Os cercamentos (enclosures) foram um processo agrário longo, não uma consequência dessa crise diplomática.\n\n**Para lembrar:** Henrique VIII + anulação negada pelo papa = Ato de Supremacia (1534) e Igreja Anglicana.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q49",
+   "correct": "C",
+   "subject": "História",
+   "topic": "Brasil Colônia",
+   "explanation_md": "As **Câmaras Municipais** eram o principal órgão de poder local na Colônia. Seguiam o modelo português definido nas Ordenações do Reino (Afonsinas, Manuelinas e Filipinas) e eram compostas pelos \"homens bons\", em geral proprietários. Tinham competências variadas: cobrar alguns tributos, regular o comércio e os preços, cuidar de obras públicas, exercer funções judiciais de primeira instância e até negociar diretamente com a Coroa. Era nelas que as elites coloniais faziam valer seus interesses, muitas vezes em tensão com governadores e com a metrópole.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) As capitanias hereditárias eram concedidas a particulares (donatários), que bancavam a colonização. Não eram de controle público.\n- B) O padroado era um acordo pelo qual o papa delegava ao rei de Portugal a administração da Igreja nas colônias. Ou seja, a autoridade direta era do rei, não do papa.\n- D) O Governo-Geral (1548) foi criado para centralizar a administração, diante do fracasso da maioria das capitanias.\n- E) O Santo Ofício (Inquisição) julgava desvios da fé, como heresia e judaísmo; não nomeava clérigos. E nem houve tribunal fixo no Brasil, apenas visitações.\n\n**Para lembrar:** Capitanias = descentralização privada; Governo-Geral = centralização; Câmaras = poder local dos \"homens bons\".",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q50",
+   "correct": "A",
+   "subject": "História",
+   "topic": "Povos indígenas",
+   "explanation_md": "Os dois textos se opõem. Von Martius (século XIX) vê o passado indígena americano como um \"abismo insondável\", sem monumentos, tradição ou \"força intelectual\": um povo sem história, em \"completa dissolução\". Já Eduardo Neves, com base na arqueologia atual, mostra o contrário: a Amazônia é ocupada há pelo menos 12 mil anos, por sociedades diversas, inclusive grandes assentamentos sedentários e hierarquizados.\n\nA visão de von Martius não era isolada. Ele venceu o concurso do IHGB sobre \"como se deve escrever a história do Brasil\", e sua perspectiva influenciou a historiografia oficial do Império e de boa parte da República. Nesses projetos de nação, o indígena aparecia como figura do passado, romantizada ou \"selvagem\", mas nunca como sujeito ativo da história. Ou seja, as conquistas e a agência histórica dos povos originários foram apagadas.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Neves usa justamente os relatos dos séculos XVI e XVII como evidência que a arqueologia confirma, não como exagero.\n- C) A arqueologia atual contraria o século XIX: comprova sociedades complexas, em vez de negá-las.\n- D) Von Martius cita romanos e germânicos apenas como comparação (\"musgo sobre as ruínas\"), não como colonizadores da Amazônia.\n- E) Os dois não concordam sobre a \"grandeza\" do passado amazônico: von Martius a nega.\n\n**Para lembrar:** historiografia do século XIX (IHGB, von Martius) = indígena sem história; arqueologia atual = Amazônia ocupada há milênios por sociedades complexas.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q51",
+   "correct": "A",
+   "subject": "História",
+   "topic": "Brasil Império",
+   "explanation_md": "A frase \"nada mais parecido com um saquarema do que um luzia no poder\" (atribuída a Holanda Cavalcanti) resume a política do Segundo Reinado. Conservadores e liberais vinham do mesmo grupo social: grandes proprietários de terras e de escravizados, bacharéis e comerciantes ricos. Ambos defendiam a monarquia, a ordem escravista e a unidade do território.\n\nAs diferenças existiam no discurso (liberais falavam em mais autonomia provincial, conservadores em centralização), mas, ao chegar ao governo, os liberais agiam como conservadores. Ou seja, os partidos tinham pouco compromisso ideológico real: eram facções da mesma elite disputando cargos e prestígio.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O \"parlamentarismo às avessas\" existiu (o imperador, pelo Poder Moderador, escolhia o gabinete e depois a Câmara se ajustava), mas a frase fala da semelhança entre os partidos, não do poder do imperador. Além disso, chamar a divisão de \"apenas fachada para poder autocrático\" exagera.\n- C) Neoliberalismo é fenômeno do final do século XX. Anacronismo.\n- D) Não havia \"nanicos\" no Império; o sistema era essencialmente bipartidário.\n- E) A Guerra Fria começa em 1947. Outro anacronismo.\n\n**Para lembrar:** Saquaremas (conservadores) e luzias (liberais) = mesma elite agrária e escravista. Por isso \"nada mais parecido com um conservador do que um liberal no poder\".",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q52",
+   "correct": "B",
+   "subject": "História",
+   "topic": "Primeira República",
+   "explanation_md": "O trecho fala em \"caráter racial\" que se \"cristaliza\" ao longo dos séculos, diz que o \"cruzamento\" (a miscigenação) perturba essa cristalização e lamenta que o amor tenha \"matado no Brasil a possibilidade de uma suprema expressão biológica\". Ou seja: a mistura de raças seria degeneração, e a \"melhoria\" da população dependeria de controlar quem se reproduz com quem.\n\nEssa é a lógica da **eugenia**, pseudociência criada por Francis Galton no século XIX que pretendia \"aprimorar\" a espécie humana selecionando características hereditárias. No Brasil, teve muita força nas décadas de 1910–1930 (Sociedade Eugênica de São Paulo, Renato Kehl, o 1º Congresso Brasileiro de Eugenia de 1929). Monteiro Lobato foi simpatizante declarado e trocou cartas com Kehl.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Higienismo era o movimento de saneamento e saúde pública (vacinação, reformas urbanas). Às vezes se misturava à eugenia, mas o trecho fala de raça e cruzamento, não de vacinas.\n- C) Frenologia foi a pseudociência que associava o formato do crânio a traços de caráter; não era uma \"classificação obrigatória\" e não é o que o trecho expressa.\n- D) Favelização é um processo urbano, não uma proposta racista formal.\n- E) O branqueamento brasileiro apostava justamente na mistura (com imigrantes europeus) para \"clarear\" a população; não proibia casamentos inter-raciais.\n\n**Para lembrar:** eugenia = ideia racista de \"aprimorar\" a raça controlando a reprodução. Teve força no Brasil na Primeira República e influenciou intelectuais como Monteiro Lobato.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q53",
+   "correct": "E",
+   "subject": "História",
+   "topic": "Guerras mundiais e século XX",
+   "explanation_md": "*Lebensraum* (\"espaço vital\") é a ideia, formulada pelo geógrafo Friedrich Ratzel no final do século XIX, de que um povo precisa de território suficiente para crescer, como se o Estado fosse um organismo. O nazismo radicalizou esse conceito e o juntou ao racismo: o povo alemão, tido como \"raça superior\" (ariana), teria direito de conquistar terras a leste (Polônia, Ucrânia, Rússia), escravizando ou eliminando os eslavos, vistos como \"inferiores\".\n\nNa prática, foi a justificativa para a anexação da Áustria, a ocupação da Tchecoslováquia, a invasão da Polônia (1939) e da URSS (1941).\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O nazismo não unia os povos europeus; considerava os eslavos racialmente inferiores e planejava subjugá-los.\n- B) O povo romani (ciganos) foi perseguido e exterminado pelos nazistas (o Porajmos), e não protegido.\n- C) O espaço vital é expansionista, o oposto de fronteiras \"estáticas\" ou isolacionismo.\n- D) O antissemitismo nazista era racial, e não religioso: judeus convertidos ao cristianismo também foram perseguidos.\n\n**Para lembrar:** *Lebensraum* = expansão territorial para o leste justificada pela suposta superioridade da \"raça ariana\".",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q54",
+   "correct": "D",
+   "subject": "História",
+   "topic": "Revoluções e século XIX",
+   "explanation_md": "Na virada do século XIX para o XX, os Estados Unidos montaram seu próprio imperialismo, voltado sobretudo para a América Latina e o Pacífico. McKinley venceu a Guerra Hispano-Americana (1898), ficando com Porto Rico, Filipinas e Guam e tutelando Cuba. Theodore Roosevelt apoiou a separação do Panamá da Colômbia (1903) para construir o canal sob controle estadunidense.\n\nEm 1904, Roosevelt lançou o **Corolário Roosevelt** à Doutrina Monroe: se um país latino-americano estivesse em desordem política ou não pagasse suas dívidas, os EUA teriam o direito de intervir como \"polícia internacional\" do continente. É a política do *Big Stick* (\"fale macio e carregue um grande porrete\"). Daí vieram intervenções em República Dominicana, Haiti, Nicarágua e outros.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A Doutrina Monroe (1823), \"a América para os americanos\", rejeitava a interferência europeia no continente, e não uma administração conjunta com a Europa.\n- B) O Destino Manifesto justificava a expansão territorial dos EUA rumo ao oeste no século XIX, e não financiamento de infraestrutura.\n- C) A Diplomacia do Dólar (Taft) era usar investimentos e empréstimos para ganhar influência, e não aumentar tarifas.\n- E) A Política da Boa Vizinhança é da década de 1930 (Franklin Roosevelt), fora do período, e trocava a intervenção militar por cooperação.\n\n**Para lembrar:** Monroe (1823) = \"América para os americanos\"; Corolário Roosevelt (1904) = Big Stick, direito de intervir; Boa Vizinhança (anos 1930) = cooperação.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q55",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Antônio Bispo opõe duas lógicas. A **troca** é \"um relógio por um relógio, um objeto por outro objeto\": equivalência entre coisas, lógica de mercado. O **compartilhamento** é \"uma ação por outra ação, um gesto por outro gesto, um afeto por outro afeto\": envolve relação e afeto, e \"rende\", circula em ciclos (pinhão → juriti → nós → pinhão).\n\nNas duas há reciprocidade (algo vai e algo volta), mas os princípios são diferentes: na troca, a equivalência entre objetos; no compartilhamento, o vínculo e a continuidade da relação. Por isso ele insiste: \"Cuidado, não é troca, é compartilhamento\".\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O texto põe humanos, plantas e animais como \"compartilhantes\" no mesmo ciclo. Os umbuzeiros, inclusive, chegaram antes e \"recepcionaram\" os humanos. Não há ascendência humana.\n- B) O autor distingue e contrapõe troca e partilha; não há convergência.\n- D) O ciclo é contínuo: \"nós vamos compartilhar de novo com o pinhão\".\n- E) \"Rende\" não tem sentido econômico aqui; o compartilhamento é justamente o oposto da lógica mercantil da troca.\n\n**Para lembrar:** em questões de interpretação, observe as oposições que o autor constrói (aqui, troca x compartilhamento) e o que as diferencia.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q56",
+   "correct": "A",
+   "subject": "Língua Portuguesa",
+   "topic": "Gramática",
+   "explanation_md": "*Compartilhante* = compartilh(ar) + -ante: \"aquele que compartilha\". O sufixo -ante, ligado a um verbo, forma um nome de **agente**, ou seja, quem pratica a ação (ou que tem a qualidade de praticá-la).\n\nTeste cada palavra com \"quem/que ___\":\n- acompanhante = quem acompanha; celebrante = quem celebra; pensante = que pensa; cantante = que canta. Todas seguem o padrão. Esta é a alternativa.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) *Distante* e *importante* vieram prontos do latim e hoje não significam \"quem dista\" ou \"quem importa\" no sentido de agente; *flagrante* também não é \"quem flagra\".\n- C) *Constante* não é \"quem consta\"; *feirante* vem do substantivo *feira* (quem trabalha na feira), não de verbo.\n- D) *Gigante* não tem verbo de origem; *obstante* (como em \"não obstante\") não é agente de \"obstar\" no uso atual.\n- E) *Bastante* não é \"quem basta\" (é advérbio/pronome de quantidade); *montante* significa \"soma, total\"; *refrigerante* é nome de bebida.\n\n**Para lembrar:** -ante/-ente/-inte (de verbos de 1ª, 2ª e 3ª conjugação) costuma formar agente: amante, ouvinte, estudante. Mas muitas palavras terminadas em -ante não têm esse sufixo vivo; teste com \"quem faz X\".",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q57",
+   "correct": "D",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Analise cada afirmativa à luz do texto:\n\n1. **Verdadeira.** O compartilhamento envolve \"uma ação por outra ação, um gesto por outro gesto, um afeto por outro afeto\". Gestos e afetos não têm valor de mercado; têm valor subjetivo.\n\n2. **Falsa.** A reciprocidade não é simultânea. Os umbuzeiros compartilharam com os quilombolas \"e não trouxemos nada para os umbuzeiros\"; só \"agora que já estamos aqui há mais tempo\" eles entram no ciclo. E o ciclo é encadeado no tempo: pinhão → juriti → nós → pinhão, \"vez por outra\".\n\n3. **Verdadeira.** O autor diz que fica \"festivo\" ao ouvir *confluência* ou *compartilhamento*, mas, quando ouve *troca*, alerta: \"Cuidado, não é troca\". Confluência e compartilhamento estão do mesmo lado, em oposição à troca.\n\n4. **Verdadeira.** O compartilhamento é coletivo (humanos, plantas e aves) e alternado: cada um dá em um momento e recebe em outro, num ciclo.\n\nVerdadeiras: 1, 3 e 4.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Deixa de fora 3 e 4, que também são verdadeiras.\n- B) Inclui a 2, que é falsa.\n- C) Inclui a 2 e deixa de fora 1 e 3.\n- E) A 2 é falsa.\n\n**Para lembrar:** palavras como \"simultânea\", \"sempre\" e \"somente\" costumam ser o ponto que torna a afirmativa falsa. Confira se o texto sustenta exatamente aquilo.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q58",
+   "correct": "E",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "No original: \"Na Caatinga, os umbuzeiros nos recepcionaram. Eles compartilharam seus frutos, suas folhas e suas raízes quando chegamos, e não trouxemos nada para os umbuzeiros.\"\n\nO sentido básico é: os umbuzeiros nos acolheram e compartilharam o que tinham **apesar de** não termos trazido nada. A relação entre \"não trouxemos nada\" e \"nos recepcionaram\" é de **concessão** (ainda que, mesmo que, embora).\n\nA questão pede a paráfrase que **altera** esse sentido. Na alternativa E, \"Por termos chegado na Caatinga, sem trazer nada para eles, os umbuzeiros nos recepcionaram\" cria uma relação de **causa**: é como se os umbuzeiros nos acolhessem porque chegamos sem nada. Isso muda a lógica do texto.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) \"Ainda que não tenhamos trazido nada\" mantém a concessão.\n- B) \"Mesmo que não tenhamos trazido nada\" também é concessivo. (O \"Chegando na Caatinga\" fica ambíguo quanto ao sujeito, mas o sentido básico se mantém.)\n- C) \"Embora... mesmo assim\" mantém a concessão.\n- D) \"Ainda assim, fomos recepcionados\" mantém a ideia de acolhimento apesar de não termos trazido nada.\n\n**Para lembrar:** em paráfrases, observe os conectivos. Trocar uma relação concessiva (embora, ainda que) por uma causal (por, porque, já que) altera o sentido.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q59",
+   "correct": "B",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "Umberto Eco começa dizendo que acreditamos viver uma época de saltos técnicos inéditos. Em seguida, com \"Na verdade\", ele corrige ou relativiza essa crença e dá a sua opinião: o ser humano já tinha, desde o troglodita que produziu fogo, a percepção (ainda que obscura) de que podia dominar a natureza. \"Na verdade\" é um marcador que introduz o ponto de vista do autor, e o conteúdo desse ponto de vista é justamente a capacidade cognitiva humana de compreender e dominar o mundo.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"Mas\" é adversativo e coordena orações; \"embora\" é concessivo e exige subjuntivo. A troca muda a estrutura e o sentido (\"embora refletimos\" nem é gramatical).\n- C) \"Obscuramente\" significa \"de forma vaga, intuitiva, pouco clara\", e não \"equivocadamente\". O troglodita intuiu algo verdadeiro, só que de modo confuso.\n- D) \"Embora não tenha as estatísticas à mão\" é uma ressalva: o autor admite que não tem números exatos, mas mantém sua opinião. Ele não diz que estatísticas são irrelevantes.\n- E) O autor valoriza o troglodita: ele \"conseguiu produzir fogo\" e \"já havia compreendido\" algo importante. Não há minimização.\n\n**Para lembrar:** \"na verdade\", \"a meu ver\", \"certamente\" são modalizadores: revelam a posição de quem fala. Mas → adversativa; embora → concessiva (com subjuntivo).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q60",
+   "correct": "D",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Eco diz que o maior avanço da humanidade é o aumento do tempo médio de vida, mais acelerado que qualquer outra conquista técnica. Em seguida aponta o problema: viver mais traz desafios que ainda não sabemos resolver. Investimos muito mais em armas e informática do que em gerontologia e medicina preventiva, e \"ainda não temos ideia de como conciliar bem-estar coletivo, futuro dos jovens, superpopulação mundial e expectativa de vida\".\n\nResumo: a técnica nos deu longevidade, mas não garantiu que essa vida mais longa seja boa. Essa é a ideia central.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O autor não diz que a tecnologia trouxe mais prejuízos que benefícios; ele chama o aumento da vida média de \"maior avanço da humanidade\".\n- B) O elixir e a fonte da juventude são citados como sonhos antigos e vãos, e não como condição para dominar a natureza.\n- C) Ele diz justamente \"não estou falando apenas das aposentadorias\". O problema é mais amplo.\n- E) O texto não afirma que os problemas suplantam as vantagens; aponta que ainda não sabemos lidar com eles.\n\n**Para lembrar:** ideia central é a tese que amarra o texto todo. Desconfie de alternativas que pegam um detalhe (aposentadoria, elixir) ou que exageram o tom do autor.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q61",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Olhe os nomes do conjunto II (resposta portuguesa): Texas do Sul, Geórgia Amado, Brasillinois, Havai que é tua Taffarel, Capivarizona, Mississítio do Picapau Amarelo, Funkentucky. Todos partem de **estados dos Estados Unidos** (Texas, Geórgia, Illinois, Havaí, Arizona, Mississippi, Kentucky) e os misturam com referências brasileiras (Jorge Amado, Taffarel, capivara, Sítio do Picapau Amarelo, funk). A piada é chamar o Brasil de \"quintal\" dos EUA, respondendo ao \"anexamos Portugal\" dos brasileiros.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Os recursos variam: em I há analogias com a forma do país (\"Pernambuco em pé\", \"Faixa de Gajo\"), troca de palavras (Janeiro → Fevereiro); em II predomina a fusão de palavras (Brasillinois, Capivarizona).\n- B) Em I nem tudo vem de estados: Faixa de Gaza é território estrangeiro; Rio de Janeiro, Porto de Galinhas e Vitória da Conquista são cidades/localidades.\n- D) Só em I há referência à forma geográfica (Portugal comprido e estreito como Pernambuco \"em pé\" ou como uma \"faixa\"). Em II, não.\n- E) A história aparece pontualmente (\"Vitória da Reconquista\" alude à Reconquista ibérica), mas a estratégia principal é o trocadilho com nomes de lugares.\n\n**Para lembrar:** em questões sobre humor e jogo de palavras, identifique a \"base\" de cada nome (o que foi modificado) e a referência acrescentada.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q62",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Figuras de linguagem",
+   "explanation_md": "Veja como cada nome foi construído:\n\n- **Faixa de Gajo:** parte de \"Faixa de Gaza\" e troca *Gaza* por *gajo* (palavra típica de Portugal para \"cara, sujeito\"). Usa um modelo conhecido para criar um nome novo por semelhança: **analogia**. Ainda brinca com o formato de Portugal, comprido e estreito como uma faixa.\n- **Brasillinois:** junta *Brasil* + *Illinois* numa única palavra, com perda/fusão de sons na emenda: **aglutinação**.\n- **Geórgia Amado:** parte de \"Jorge Amado\" e aproveita a semelhança sonora com *Geórgia* (estado dos EUA). De novo, cria-se um nome a partir de um modelo semelhante: **analogia**.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Não há eufemismo (suavizar algo) em \"Faixa de Gajo\", nem personificação em \"Geórgia Amado\".\n- B) Não há sinestesia (mistura de sentidos) em \"Brasillinois\", nem comparação explícita (com \"como\") em \"Geórgia Amado\".\n- D) A brincadeira não é ironia (dizer o contrário do que se pensa), e \"Geórgia Amado\" não tem antítese (oposição de ideias).\n- E) \"Brasillinois\" não imita som (onomatopeia), e \"Geórgia Amado\" não é metáfora.\n\n**Para lembrar:** aglutinação = palavras fundidas com perda de som (planalto, Brasillinois); justaposição = palavras unidas sem perda (girassol); analogia = criar um termo novo imitando um modelo existente.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q63",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "O último parágrafo dá a resposta de forma explícita: \"o simbolismo desse gesto, de transformar em residência oficial uma casa construída com o dinheiro do tráfico negreiro, [...] ajuda a explicar não só por que a escravidão durou tanto tempo no Brasil, mas a própria Independência do Brasil. Ajuda a explicar por que o Brasil é o Brasil.\"\n\nO autor também reforça que a Família Real \"não se constrangeu nem um pouco\" com o presente: o tráfico era legal e socialmente aceito. Ou seja, a escravização era naturalizada a ponto de a casa de um traficante virar palácio real.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O texto não fala da localização do palácio em relação a outros locais nem de centralização no Sudeste.\n- B) Aceitar a doação é parte do argumento, mas o foco não é uma \"tradição de troca de favores\" em geral; é a origem do dinheiro (o tráfico de pessoas).\n- D) Não há nenhuma menção à arquitetura do palácio nem à miscigenação.\n- E) O texto não fala de reforma feita por Dom João VI.\n\n**Para lembrar:** quando a pergunta é \"para o autor\", procure a frase em que ele conclui o raciocínio (aqui, o último parágrafo).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q64",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "No trecho \"pra poder se dar ao luxo de doar ela? De abrir mão dela?\", a segunda pergunta retoma a primeira com outras palavras. \"Se dar ao luxo de doar\" a casa e \"abrir mão\" da casa expressam, ali, a mesma ideia: desfazer-se de um bem valiosíssimo. É uma reformulação típica da fala, em que o falante repete a ideia para enfatizá-la. As expressões funcionam como sinônimas no contexto.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) No texto, \"num\" (\"num foi construído\", \"num era café\") é a forma reduzida do advérbio de negação *não*, e não a contração de *em + um*.\n- B) Perguntas dirigidas ao interlocutor (\"Sabe?\") são comuns na fala, mas não são exclusivas dela; aparecem em textos escritos (crônicas, artigos, propagandas).\n- D) \"Essa doação\" retoma a casa e a Quinta da Boa Vista doadas a Dom João, e não a \"gente acorrentada\".\n- E) Aqui \"Assim\" é um marcador da oralidade, equivalente a \"quer dizer\", \"olha\", \"veja bem\". Trocar por \"dessa forma\" daria a ideia de modo/conclusão, o que muda o sentido.\n\n**Para lembrar:** na língua falada, \"num\" costuma ser \"não\", e \"assim\" muitas vezes é só um marcador discursivo (como \"tipo\", \"olha\").",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q65",
+   "correct": "B",
+   "subject": "Língua Portuguesa",
+   "topic": "Argumentação e intencionalidade",
+   "explanation_md": "\"Ele trabalhava com o bem mais valioso daquela época. Num era café, num era açúcar, num era ouro, num era diamante. O Elias era traficante… de gente.\"\n\nA repetição de \"num era\" vai descartando, um a um, os produtos que o ouvinte esperaria (as grandes riquezas do Brasil colonial). Isso cria suspense e prepara a revelação chocante, reforçada pelas reticências: o \"bem mais valioso\" eram seres humanos escravizados. É um recurso de suspense e ênfase, muito usado em narrativas orais como o podcast.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"Bonzinho ele…\" é irônico: logo depois o autor revela que o dinheiro vinha do tráfico de pessoas. Não há admiração.\n- C) \"Ajuda a explicar por que o Brasil é o Brasil\" não é vazia: significa que essa naturalização da escravidão explica traços estruturais do país até hoje.\n- D) \"Daí quando\" marca sequência temporal (\"então, quando\"). O palácio já existia antes da vinda da Família Real; não há relação de causa.\n- E) A comparação com o Alvorada é pela função (residência oficial do chefe de Estado). Na origem, os dois são diferentes: \"diferentemente do Alvorada, este palácio aqui num foi construído pra ser a residência oficial\".\n\n**Para lembrar:** enumerar o que algo \"não é\" antes de revelar o que é cria expectativa e dá impacto à revelação.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q66",
+   "correct": "E",
+   "subject": "Língua Portuguesa",
+   "topic": "Variação linguística",
+   "explanation_md": "O texto é a transcrição de uma fala e mantém marcas de oralidade: \"num\" (não), \"daí\" (então), \"comé que\" (como é que), \"pra\", \"pro\", \"ela\" como objeto (\"doar ela\"). Num texto jornalístico escrito, que segue a norma-padrão, essas formas seriam evitadas, a não ser que reproduzissem a fala de alguém (entre aspas, numa citação). Não é que estejam \"erradas\": a adequação depende do gênero e da situação.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) \"Mandava um navio lá na costa\" é regência típica da fala; na escrita culta, verbos de movimento pedem *a*: \"mandava um navio à costa\".\n- B) Usar palavras informais não indica \"público menos culto\": é escolha de registro para um gênero oral e próximo do ouvinte. A alternativa é preconceituosa.\n- C) As vírgulas seguem regras sintáticas (separar aposto, enumeração, etc.), e não pausas para respirar.\n- D) *Grotesca*, *mansão* e *traficante* são palavras dicionarizadas e comuns na escrita formal; não são gírias.\n\n**Para lembrar:** adequação ao contexto é o critério certo. Marcas orais (num, daí, pra, comé que) cabem na fala e no podcast, mas são evitadas na escrita formal, a não ser em citações.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q67",
+   "correct": "E",
+   "subject": "Literatura Brasileira",
+   "topic": "Literatura contemporânea",
+   "explanation_md": "*O sol na cabeça* (2018), de Geovani Martins, reúne contos ambientados nas favelas e periferias do Rio de Janeiro, narrados a partir do olhar de jovens moradores. A marca do livro é a linguagem: muitos contos usam a oralidade carioca, com gírias e construções da fala da favela. \"Rolézim\", que abre o livro, é o exemplo mais forte disso.\n\nNos três contos citados aparecem experiências comuns a esses jovens: o racismo, a abordagem policial e a criminalização da juventude negra e periférica, a violência e a insegurança do cotidiano (o \"rolé\" na praia que termina em enquadro; o perigo no caminho de casa; a guerra entre facções e polícia afetando a vida dos personagens).\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) \"Rolézim\" não tem discurso formal nem panfletário. É justamente o conto de linguagem mais coloquial, cheio de gírias, e a crítica aparece pela própria experiência narrada.\n- B) \"Estação Padre Miguel\" não abandona o ponto de vista jovem para uma narrativa distanciada de décadas de transformações urbanas.\n- C) Em \"A história do Periquito e do Macaco\", a violência (a guerra entre traficantes e polícia, a UPP) interfere diretamente na vida dos personagens; não é mero pano de fundo.\n- D) Os protagonistas desses contos são rapazes, e não mulheres em trajetórias de emancipação.\n\n**Para lembrar:** Geovani Martins = periferia carioca, juventude negra, violência policial e linguagem oral com gírias.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q68",
+   "correct": "E",
+   "subject": "Literatura Brasileira",
+   "topic": "Realismo e Naturalismo",
+   "explanation_md": "Francisco Teodoro é um imigrante português que chegou pobre ao Rio e enriqueceu com o comércio de café, à base de muito trabalho. O trecho mostra seu orgulho de \"homem saído do nada\": ele vê o palacete e o pomar como obra sua, fruto do seu esforço.\n\nNo romance, esse ideal de riqueza pelo trabalho contrasta com o de outros membros da elite carioca da virada do século: **Mário**, o filho, que gasta sem trabalhar e despreza o comércio do pai; **Inocêncio Braga**, que vive de negociatas e incentiva Teodoro a especular; e **Gama Torres**, especulador da Bolsa, envolvido no negócio que leva Teodoro à falência. O livro critica o dinheiro fácil da especulação (o clima do Encilhamento) em oposição ao trabalho.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Teodoro começou como comerciante de café. A especulação financeira aparece depois e é justamente o que o arruína, e não a base inicial da sua fortuna.\n- B) A \"felicidade perfeita\" é a que ele criou no Brasil, com a família no palacete do Rio; ele chegou pobre de Portugal.\n- C) Nada indica que ele defenda direitos trabalhistas; a \"felicidade perfeita\" se refere à própria família (\"os seus\").\n- D) O romance trata da especulação e da falência, não da conversão de capital do café para a indústria.\n\n**Para lembrar:** *A falência* (1901) = Francisco Teodoro, o comerciante que enriquece pelo trabalho e cai pela especulação; contraste com Mário, Inocêncio Braga e Gama Torres.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q69",
+   "correct": "C",
+   "subject": "Literatura Brasileira",
+   "topic": "Poesia e análise de poemas",
+   "explanation_md": "*Poema Sujo* foi escrito por Ferreira Gullar em 1975, no exílio em Buenos Aires, durante a ditadura militar. É um longo poema de memória: o eu lírico, ameaçado e longe do Brasil, revisita a infância em São Luís, os amores, a cidade, tudo misturado e fragmentado.\n\nNo trecho, ele tenta lembrar o nome de uma mulher \"bela, mais que bela\" e não consegue: o nome \"perdeu-se na carne fria\", \"na confusão de tanta noite e tanto dia\". A mulher \"mudou de cara e cabelos\", \"mudou de casa e de tempo\". Essa indefinição traduz a instabilidade do amor e da memória, em sintonia com a vida conturbada e fragmentada que o poema retrata, marcada pelo contexto histórico de perseguição e exílio.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Não há descrição exata e denotativa do corpo da mulher; o trecho é vago e cheio de imagens (\"constelações de alfabeto\", \"noites escritas a giz\"). E as cidades no poema não são idealizadas: São Luís aparece com sujeira, cheiros e miséria.\n- B) Os verbos estão majoritariamente no passado (\"era\", \"perdeu-se\", \"mudou\"), e a memória é o eixo central do poema.\n- D) O poema inteiro mistura registros e usa muita linguagem coloquial e até crua (daí o \"sujo\"); não há contraste com um vocabulário \"erudito e formal\".\n- E) Rimas e efeitos sonoros aparecem em várias partes do poema, inclusive nas de infância.\n\n**Para lembrar:** *Poema Sujo* (1975–76) = exílio, memória da infância em São Luís, fragmentação, linguagem livre e \"suja\".",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q70",
+   "correct": "D",
+   "subject": "Literatura Brasileira",
+   "topic": "Poesia e análise de poemas",
+   "explanation_md": "O poema é metalinguístico: fala do próprio ato de escrever. A poeta tenta fazer um poema sobre gatos, mas as palavras \"fogem / furtivas\", \"soltam-se ou / saltam\" e \"não capturam do gato / nem a cauda\". As palavras ganham comportamento de gato (ágeis, escorregadias) e escapam do controle de quem escreve.\n\nNo fim, a solução é irônica: a folha recém-impressa, \"quieta e quente\" sobre a mesa, \"página branca com manchas negras\" (como um gato malhado), vira o próprio poema sobre gatos. O tema é a dificuldade de apreender as coisas pela linguagem, ou seja, o fazer poético.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) *O livro das semelhanças* é cheio de diálogos com outros autores e obras; a epígrafe de Ana Cristina Cesar está longe de ser a única referência.\n- B) O terceiro verso é \"furtivas\", um adjetivo isolado, mas ele se refere às *palavras* (está no feminino plural, concordando com \"as palavras\"), e não aos gatos.\n- C) Ana Martins Marques escreve em versos livres, sem rima e métrica regulares. O poema não destoa do livro.\n- E) A aproximação entre gatos e palavras é implícita (as palavras agem como gatos). Não há comparação explícita com \"como\", \"tal qual\", etc.\n\n**Para lembrar:** metalinguagem = poema que fala do próprio poema ou da escrita. Fique atento à concordância para saber a que termo um adjetivo se refere.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q71",
+   "correct": "B",
+   "subject": "Literatura Brasileira",
+   "topic": "Do Quinhentismo ao Arcadismo",
+   "explanation_md": "*Carpe diem* é o convite a aproveitar o presente porque o tempo passa e a juventude acaba. Na Lira XIV da primeira parte (\"Minha bela Marília, tudo passa\"), Dirceu lembra que a beleza e a vida se desfazem com o tempo e por isso pede a Marília que aproveitem o amor agora. O verso \"As glórias, que vêm tarde, já vêm frias\" resume a ideia: prazeres adiados chegam quando já não podem ser desfrutados. Não vale a pena esperar; é preciso gozar o momento.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"Nem canto letra, que não seja minha\" trata da autoria e do orgulho do pastor-poeta (Lira I, em que Dirceu se apresenta). Não é *carpe diem*.\n- C) \"Eu não beijo vis tesouros\" fala do desprezo pela riqueza material diante do amor; ligado ao *aurea mediocritas* (vida simples), não ao aproveitar o presente.\n- D) \"Eu vejo aquela Deusa\" exalta e idealiza a amada. É louvor, não *carpe diem*.\n- E) \"Tu não verás, Marília, cem cativos\" descreve a vida simples e modesta que o casal teria; de novo, a ideia de simplicidade.\n\n**Para lembrar:** temas árcades: *carpe diem* (aproveite o dia), *fugere urbem* (fuga da cidade), *aurea mediocritas* (vida simples), *locus amoenus* (lugar ameno), *inutilia truncat* (cortar o inútil).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q72",
+   "correct": "C",
+   "subject": "Literatura Brasileira",
+   "topic": "Romantismo",
+   "explanation_md": "O último capítulo de *Noite na taverna* (\"Último beijo de amor\") amarra a história contada por Johann no capítulo anterior. Johann narrou que, em Paris, matou Artur num duelo; depois foi ao encontro marcado com a amada de Artur e, no escuro, tirou-lhe a virgindade; ao sair, lutou com um homem e o matou. Quando viu os rostos à luz, descobriu que a moça era Giorgia, sua irmã, e o homem morto, seu irmão.\n\nNo capítulo final, uma mulher de preto entra na taverna e mata Johann enquanto ele dorme: é **Giorgia**, vingando-se. Em seguida ela reencontra Arnold, que é Artur (sobrevivente do duelo), e o desfecho é trágico.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) A virgem cataléptica enterrada é da história de Solfieri, e não volta para vingar-se.\n- B) Ângela é da história de Bertram, e ela não aparece no fim para matar ninguém na taverna.\n- D) Laura é da história de Gennaro (ela morre); quem se vinga ali é Gennaro contra o mestre Godofredo.\n- E) Eleonora é da história de Hermann (contada por Claudius Hermann), sem relação com o desfecho.\n\n**Para lembrar:** *Noite na taverna* = cinco narradores (Solfieri, Bertram, Gennaro, Claudius Hermann, Johann). O último capítulo fecha a história de Johann com a vingança de Giorgia.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q73",
+   "correct": "B",
+   "subject": "Filosofia",
+   "topic": "Filosofia contemporânea",
+   "explanation_md": "O título já entrega a tese: *A vida não é útil*. Krenak critica a lógica moderna e capitalista que trata tudo (natureza, rios, florestas, trabalho e até a própria vida humana) como recurso que precisa ter utilidade, render, produzir. Para ele, a vida é fruição e experiência, e não mercadoria ou ferramenta.\n\nO trecho citado mostra a consequência dessa lógica: antes só os povos indígenas eram ameaçados de extinção pelo avanço da exploração; agora todos estão diante do risco de \"a Terra não suportar a nossa demanda\". O consumo e a produção sem limites esgotam o planeta.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Krenak não diz que a modernidade supervaloriza a cultura indígena; ao contrário, ela a ignora e destrói.\n- C) A crítica não é à laicização, e sim ao utilitarismo econômico.\n- D) A modernidade não despreza a tecnologia; ela é entusiasta dela. E Krenak não critica a ciência em si.\n- E) É o contrário: a modernidade coloca o ser humano como excepcional, separado e acima da natureza. Krenak critica justamente essa separação.\n\n**Para lembrar:** Krenak critica a ideia de \"humanidade\" separada da natureza e a lógica que transforma tudo em recurso útil e produtivo.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q74",
+   "correct": "C",
+   "subject": "Filosofia",
+   "topic": "Filosofia moderna",
+   "explanation_md": "No ensaio \"Dos coxos\", Montaigne observa que as pessoas inventam explicações antes mesmo de verificar se o fato aconteceu: \"a procura da causa se antecipa [...] à constatação do resultado\", a ponto de \"julgar não o que existe, mas o que não existe\". A imaginação se impressiona \"com as coisas falsas e com as aparências mais frívolas\".\n\nMontaigne usa isso para criticar a crença em milagres e bruxaria (no ensaio, ele questiona a condenação de supostas bruxas à morte). Sua postura é cética: suspender o juízo e admitir a ignorância é mais prudente do que afirmar com certeza coisas não comprovadas. Essa ânsia por causas ocultas leva à **superstição** e faz perder o **juízo crítico**.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Montaigne não fala em \"uso racional da religião\"; ele critica a credulidade.\n- B) Ele critica essa tendência, e não a apresenta como essencial à ciência.\n- D) A querela entre antigos e modernos não é o tema do ensaio.\n- E) Montaigne, cético, valoriza o reconhecimento da ignorância (\"não sei\") e desconfia de verdades indubitáveis. Por isso não poderia criticar algo por \"valorizar a ignorância\".\n\n**Para lembrar:** Montaigne é o cético do Renascimento: \"Que sei eu?\". Criticar a credulidade e suspender o juízo é a marca dele.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q75",
+   "correct": "E",
+   "subject": "Filosofia",
+   "topic": "Ética e política",
+   "explanation_md": "Para Marilena Chaui, a sociedade de classes divide também a cultura: de um lado a cultura dominante (letrada, de elite, \"formal\"), de outro a cultura dominada (popular). Essa divisão não é neutra. A cultura dominante se apresenta como a cultura \"verdadeira\" e universal, desqualifica a cultura popular e, assim, faz a dominação de classe parecer natural e legítima. É uma função ideológica.\n\nPor isso, no texto, ela defende a **cidadania cultural**: o direito de todos não só de consumir cultura, mas de produzi-la e de participar das decisões sobre a política cultural.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Chaui critica a indústria cultural: ela massifica e transforma cultura em mercadoria, sem superar a divisão de classes.\n- B) Ela recusa a ideia de cultura como mero lazer e entretenimento; cultura é trabalho de criação e direito.\n- C) Ela também critica a visão romântica da cultura popular como a \"verdadeira identidade\" do povo.\n- D) Chaui rejeita o Estado como produtor de cultura (risco de cultura oficial). O papel do Estado é garantir condições para que os cidadãos produzam e acessem cultura.\n\n**Para lembrar:** Chaui = cultura dominante legitima a dominação; proposta de \"cidadania cultural\" (cultura como direito, e não como entretenimento ou produto estatal).",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q76",
+   "correct": "C",
+   "subject": "Filosofia",
+   "topic": "Filosofia antiga",
+   "explanation_md": "No livro I de *A República*, várias definições de justiça são testadas e refutadas:\n- **Céfalo:** justiça é dizer a verdade e devolver o que se tomou.\n- **Polemarco (citando Simônides):** justiça é dar a cada um o que lhe é devido (fazer bem aos amigos e mal aos inimigos).\n- **Trasímaco:** justiça é a conveniência do mais forte; ser justo é desvantajoso para quem o pratica.\n\nSócrates refuta todas. Contra Trasímaco, que fala em discursos longos e agressivos, Sócrates insiste num método diferente: o diálogo, com perguntas e respostas curtas, em que os interlocutores buscam juntos a verdade sem querer apenas vencer a discussão. O livro termina sem uma definição, mas com a defesa de que é pelo diálogo cooperativo (a dialética) que se pode investigar o que é a justiça.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Sócrates não diz que não cabe definir a justiça; ele quer definir, só que ainda não chegou à definição.\n- B) É a definição de Simônides/Polemarco, refutada por Sócrates.\n- D) É a definição de Céfalo, também refutada.\n- E) É próxima da tese de Trasímaco (a justiça serve ao mais forte e prejudica quem a pratica), que Sócrates combate.\n\n**Para lembrar:** no livro I da *República*, as definições são de Céfalo, Polemarco e Trasímaco; Sócrates refuta todas e defende o caminho do diálogo.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q77",
+   "correct": "D",
+   "subject": "Filosofia",
+   "topic": "Filosofia contemporânea",
+   "explanation_md": "Popper separa duas coisas:\n- **Como uma ideia nova surge** (o \"contexto da descoberta\"): um insight, uma intuição, como a inspiração de um tema musical. Isso interessa à psicologia, mas \"não reclama análise lógica, nem é dela suscetível\".\n- **Como essa ideia é posta à prova** (o \"contexto da justificação\"): deduzir consequências da teoria e confrontá-las com a experiência, tentando falseá-la.\n\nPara Popper, a lógica da pesquisa científica cuida só da segunda parte: analisar os métodos de teste (prova) das ideias que pretendem ser teorias científicas.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Popper não propõe \"um método para cada pesquisa\"; propõe um critério geral (a testabilidade/falseabilidade).\n- B) É exatamente o que ele nega: não há lógica da descoberta de novas teorias.\n- C) A formulação de hipóteses pertence ao momento criativo, que ele exclui da análise lógica.\n- E) Popper rejeita a ideia de confirmar uma teoria em definitivo. Teorias nunca são verificadas; só resistem (ou não) às tentativas de falseamento.\n\n**Para lembrar:** Popper: descobrir é psicologia; testar é lógica. Ciência avança por conjecturas e refutações (falseabilidade).",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q78",
+   "correct": "D",
+   "subject": "Sociologia",
+   "topic": "Cultura e identidade",
+   "explanation_md": "No trecho, Krenak retoma Davi Kopenawa: o mundo \"acredita que tudo é mercadoria\", a ponto de projetar nela \"tudo o que somos capazes de experimentar\". Ou seja, até a experiência subjetiva vira produto. A consequência é a exaustão de florestas, rios e montanhas, e o dilema de que as comunidades humanas parecem só existir à custa de \"todas as outras partes da vida\".\n\nEm *Ideias para adiar o fim do mundo*, Krenak critica a ideia de uma \"humanidade\" separada da Terra. A mercantilização da vida nos aliena dessa ligação: esquecemos que somos parte da natureza e que nossa existência depende dela. É um dos pilares da crise civilizatória.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A obra não chama a \"segurança temporária\" de \"violência lenta\" nem diz que torna as comunidades cúmplices; ele diz que é uma proteção provisória que depende da exaustão da natureza.\n- B) Krenak não aposta em \"consumo como ato político\" para subverter a lógica da mercadoria.\n- C) \"Adiar o fim do mundo\" é um modo de viver e de contar histórias, e não um \"protocolo\" que calcula limites precisos de exploração.\n- E) É o oposto: Krenak diz que essas zonas de segurança dependem cada vez mais da exaustão da natureza; não restauram o compartilhamento.\n\n**Para lembrar:** Krenak: crítica à humanidade separada da natureza e à mercantilização da vida; \"adiar o fim do mundo\" é sempre poder contar mais uma história.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q79",
+   "correct": "B",
+   "subject": "Sociologia",
+   "topic": "Estado, poder e democracia",
+   "explanation_md": "Cida Bento chama de **pacto da branquitude** um acordo não dito entre pessoas brancas para preservar seus privilégios, sem falar abertamente de raça. A fala do comandante da Rota é um exemplo: ele defende tratar de forma diferente as pessoas dos Jardins (bairro nobre, de maioria branca) e as da periferia (de maioria negra), como se fossem \"pessoas diferentes\". Não menciona raça, mas naturaliza uma hierarquia que, na prática, é racial: respeito e delicadeza num território, dureza no outro.\n\nPara Bento, a polícia atua aí como braço armado desse pacto, regulando sua violência segundo a racialização dos territórios.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) É justamente a leitura \"técnica\" e \"neutra\" que Bento critica; ela mostra o viés racial por trás do discurso de eficiência.\n- C) Ela não atribui a violência à \"falta de treinamento\", e sim a uma estrutura racista.\n- D) Bento mostra o contrário: o racismo se disfarça atrás de discursos de mérito e eficiência, e não é sempre explícito.\n- E) A alternativa apresenta como \"análise realista\" exatamente o argumento que naturaliza a desigualdade; não é a leitura da autora.\n\n**Para lembrar:** pacto da branquitude = pacto silencioso que preserva privilégios brancos; o racismo aparece naturalizado em falas que não citam raça.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q80",
+   "correct": "D",
+   "subject": "Sociologia",
+   "topic": "Pensadores clássicos",
+   "explanation_md": "Harriet Martineau (1802–1876), uma das fundadoras da sociologia, escreveu *Como observar a moral e os costumes*. Ela usa a figura do viajante para discutir como observar outras sociedades. Segundo o trecho, o viajante não deve generalizar de imediato a partir de impressões pessoais, mesmo que sinceras. O problema é criar \"teorias a partir da manifestação de mentes individuais\" (ou seja, do senso comum e do achismo). O caminho são \"os meios seguros e acessíveis a todos para fazer generalizações\": métodos que qualquer um pode verificar, conduzidos com imparcialidade.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Ela critica justamente a generalização a partir de mentes individuais; intuição e empatia não bastam.\n- B) Não há \"conexão espiritual\"; a proposta é metódica.\n- C) Martineau não proíbe generalizações; diz que devem ser feitas com métodos adequados.\n- E) Conhecer \"de forma espontânea\" é o que ela critica. O conhecimento exige método.\n\n**Para lembrar:** Martineau = observação social com método, imparcialidade e critérios verificáveis, contra as impressões do viajante.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q81",
+   "correct": "A",
+   "subject": "Sociologia",
+   "topic": "Pensadores clássicos",
+   "explanation_md": "O trecho diz duas coisas:\n1. A propriedade privada dos meios de produção gera exploração, limita a liberdade e desumaniza (na **estrutura** econômica).\n2. Esse domínio \"não se restringe à esfera produtiva\": quem tem o poder material é também a \"potência política e espiritual dominante\" (na **superestrutura**: Estado, direito, religião, ideias).\n\nÉ a relação entre estrutura e superestrutura no materialismo histórico de Marx. A propriedade privada dos meios de produção é a base material do capitalismo, e a partir dela a classe dominante estende seu poder à política e às ideias (\"as ideias dominantes de uma época são as ideias da classe dominante\").\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Marx reconhece o papel histórico da burguesia e da propriedade privada no desenvolvimento das forças produtivas. Não a vê como \"mal absoluto\" fora da história.\n- C) O trecho afirma o oposto: a classe dominante é também \"potência espiritual\"; domina a esfera das ideias.\n- D) Para Marx, a desumanização (alienação) é estrutural, e não mera percepção subjetiva. E o texto não fala de indicadores de qualidade de vida.\n- E) Inverte a lógica: para Marx, as condições materiais é que condicionam a cultura e as ideias, e não o contrário.\n\n**Para lembrar:** Marx: estrutura (economia, relações de produção) condiciona superestrutura (política, direito, ideologia); quem domina a produção domina também as ideias.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q82",
+   "correct": "C",
+   "subject": "Sociologia",
+   "topic": "Movimentos sociais",
+   "explanation_md": "Para Marx, a acumulação primitiva foi o processo violento (cercamentos, expropriação camponesa, colonização) que separou os trabalhadores dos meios de produção e criou o proletariado. Silvia Federici amplia esse conceito: ele também exigiu transformar o corpo em máquina de trabalho, submeter as mulheres à reprodução da força de trabalho e destruir o poder feminino, por meio da caça às bruxas na Europa e na América. Assim, o capitalismo acumulou também \"diferenças e divisões\" de gênero, raça e idade dentro da classe trabalhadora.\n\nFederici também critica a narrativa tradicional (inclusive marxista) de que esse processo seria um \"progresso\" linear. Para ela, essa versão homogênea apaga a resistência: as revoltas camponesas, a luta das mulheres e as lutas anticoloniais contra o capital.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O trecho diz o contrário: o processo não afetou igualmente homens e mulheres. As hierarquias de gênero são constitutivas da dominação de classe.\n- B) Para Federici, a caça às bruxas não foi só fanatismo religioso medieval: foi um fenômeno sobretudo da Idade Moderna, ligado à formação do capitalismo e ao controle do corpo e do trabalho feminino.\n- D) O poder das mulheres foi destruído na acumulação primitiva, não \"garantido\".\n- E) Reduzir a acumulação primitiva à concentração de capital é exatamente o que o trecho nega (\"não foi simplesmente uma acumulação [...] de capital\").\n\n**Para lembrar:** Federici: acumulação primitiva = também acumulação de divisões de gênero e raça; caça às bruxas como peça do nascimento do capitalismo.",
+   "area": "humanas"
+  },
+  {
+   "external_id": "ufpr-2026-q83-alemao",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "O título é \"Gefahr aus ___ Dusche: Was sind Legionellen?\" (Perigo vindo do chuveiro: o que são legionelas?). Duas informações resolvem a lacuna:\n\n1. A preposição \"aus\" (de, vindo de) sempre rege o dativo.\n2. \"Dusche\" (chuveiro, ducha) é feminino: \"die Dusche\".\n\nO artigo definido feminino no dativo é \"der\". Logo: \"Gefahr aus der Dusche\". A própria URL da fonte confirma: \"gefahr-aus-der-dusche\".\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) \"die\" é feminino no nominativo/acusativo; \"aus\" não rege acusativo.\n- B) \"das\" é neutro (nominativo/acusativo); \"Dusche\" não é neutro.\n- D) \"den\" é masculino acusativo ou dativo plural; não serve para um feminino singular.\n- E) \"dem\" é dativo masculino ou neutro; para feminino o dativo é \"der\".\n\n**Para lembrar:** preposições sempre com dativo: aus, bei, mit, nach, seit, von, zu. Dativo dos artigos: dem (m), der (f), dem (n), den (pl).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q83-espanhol",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "O título já mostra o movimento do texto: \"entre la promesa tecnológica y la amenaza sistémica\" (entre a promessa tecnológica e a ameaça sistêmica). O autor primeiro apresenta os ganhos da IA na indústria e na medicina, depois os riscos (desinformação automatizada, \"influencers sintéticos\", ameaça à democracia) e, por fim, afirma que \"la regulación aparece como un eje central del debate\" (a regulação aparece como eixo central do debate), criticando o \"vacío crítico\" (vazio crítico) sobre responsabilidades legais.\n\nOu seja: discute a IA em vários setores e argumenta pela necessidade de regulação.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O texto não trata de exclusão tecnológica (pessoas sem acesso à tecnologia).\n- B) Não é um texto instrucional para usuários; é um artigo de opinião.\n- D) O autor não pede para frear a IA; reconhece seus benefícios e pede regras. Quem resiste a \"imponer límites\" são os EUA, por medo de perder competitividade.\n- E) Não há relatos de experiências de usuários nem orientação para influenciadores.\n\n**Para lembrar:** \"sin embargo\" = no entanto; \"desdibujarse\" = ficar borrado, perder os contornos; \"ante este panorama\" = diante deste panorama.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q83-frances",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "As informações estão no quadro \"Réserver / Billet\" (reservar / ingresso) ao final do texto.\n\n1. Correta. \"Gratuit pour les jeunes de moins de 16 ans\" (grátis para jovens com menos de 16 anos).\n\n2. Incorreta. O horário é \"10h30 > 18h30\" e o \"Dernier accès à l'exposition\" (último acesso) é às 17h30, não às 17h.\n\n3. Incorreta. \"Tarif plein\" (inteira) = 13 €; \"tarif étudiant\" = 5 €. A metade de 13 seria 6,50 €; logo, não é meia.\n\n4. Correta. Os ingressos com tarifa reduzida (assinantes, estudantes, solidário, menores de 16) \"sont uniquement disponibles à l'accueil sur présentation d'un justificatif en cours de validité\" (só estão disponíveis na recepção mediante apresentação de comprovante válido), ou seja, precisam de validação no local.\n\nCorretas: 1 e 4.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A 4 também é correta.\n- C) 2 e 3 são falsas.\n- D) 2 e 3 são falsas.\n- E) Nem todas estão corretas.\n\n**Para lembrar:** \"tarif plein\" = inteira; \"accueil\" = recepção; \"justificatif\" = comprovante; \"dernier accès\" = último acesso (horário limite de entrada).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q83-ingles",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "A tirinha tem dois quadros. No primeiro, um funcionário diz: \"A.I. turns this single bullet point into a long email I can pretend I wrote\" (a IA transforma este único tópico em um e-mail longo que eu posso fingir que escrevi). No segundo, outra pessoa diz: \"A.I. makes a single bullet point out of this long email I can pretend I read\" (a IA faz um único tópico a partir deste e-mail longo que eu posso fingir que li).\n\nA ironia está no ciclo: ninguém de fato escreve nem lê; a IA faz as duas pontas, e cada pessoa só finge. O verbo-chave é \"pretend\", que é falso cognato: significa \"fingir\", não \"pretender\".\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) A IA parte de um \"single bullet point\", ou seja, há um tópico que orienta o e-mail.\n- B) Ninguém declara intenção de escrever ou ler; ao contrário, dizem que vão fingir.\n- C) A IA resume o e-mail em UM único tópico (\"a single bullet point\"), não em uma lista de vários itens.\n- D) A tirinha critica justamente o oposto: as pessoas ficam desinformadas e descomprometidas com o que \"escrevem\" e \"leem\".\n\n**Para lembrar:** \"pretend\" = fingir (falso cognato). \"Intend\" é que significa \"pretender, ter a intenção\".",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q83-italiano",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "O cartaz pergunta, em letras grandes: \"Parlare italiano ti fa paura?\" (falar italiano te dá medo?) e responde: \"Non più!\" (não mais!). Logo abaixo: \"Con il progetto 'PassworLd' insegnare e imparare l'italiano è semplice e alla portata di tutti e tutte!\" (com o projeto, ensinar e aprender italiano é simples e ao alcance de todos e todas).\n\nO título reconhece que falar italiano pode assustar quem está aprendendo e promete que o projeto vai tornar isso mais fácil.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O curso é para estrangeiros que ainda têm medo de falar; não é só para quem já fala bem.\n- B) O título se dirige a quem aprende (\"ti fa paura?\"), não aos professores.\n- C) O título admite que a língua pode dar medo; quem diz que fica \"simples\" é o projeto, não a língua em si.\n- D) O título não fala de quem já domina o italiano.\n\n**Para lembrar:** \"fare paura\" = dar medo; \"non più\" = não mais; \"alla portata di\" = ao alcance de.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q83-japones",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Sobre o olhar, qual é o costume tradicional japonês correto?\"\n\nO texto diz que, por ser um país pequeno e populoso, o japonês criou o hábito de \"音が発生している方を見ない\" (não olhar para o lado de onde vem o som), para não ver coisas privadas. E sobre as fusuma (portas de papel deslizantes, que não isolam o som): \"ふすまを通して聞いてはいけない何かを聞いてしまった場合、何も聞いていないふりをする\" (se, através da fusuma, ouvir algo que não deveria, finge-se não ter ouvido nada). O texto chama isso de エチケット (etiqueta).\n\nA alternativa D: \"聞こえても聞こえないふりをするのが礼儀である\" (mesmo ouvindo, fingir não ouvir é a boa educação).\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) \"Olhar bem para a direção do som\": é o contrário do hábito descrito.\n- B) \"Ouvir ativamente a conversa do quarto ao lado\": o costume é fingir não ouvir.\n- C) \"Sempre reagir à conversa através da fusuma\": a nora, por exemplo, não pode nem rebater.\n- E) \"Não existe etiqueta sobre sons\": o texto descreve justamente uma.\n\n**Para lembrar:** 〜ふりをする = fingir que...; 礼儀 (れいぎ) = boas maneiras, cortesia.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q83-polones",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "A pergunta: qual afirmação expressa a tese principal do artigo sobre os canhotos?\n\nO título já anuncia: \"Leworęczni mają 'supermoce'\" (canhotos têm \"superpoderes\"). O lead diz que hoje se sabe que ser canhoto \"nie tylko nie jest zaburzeniem, ale nawet wiąże się ze szczególnymi uzdolnieniami\" (não só não é um distúrbio, como está ligado a talentos especiais). E no corpo do texto: os canhotos em muitos aspectos se saem melhor, o que \"wynika z lepszego wykorzystania potencjału prawej półkuli mózgowej\" (resulta de um melhor aproveitamento do potencial do hemisfério cerebral direito).\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O texto cita gênios canhotos (Da Vinci, Einstein etc.), mas não diz que TODOS os gênios foram canhotos.\n- B) É o contrário: segundo o prof. Goodman, canhotos nos EUA e no Reino Unido ganham em média 10% MENOS.\n- C) O texto diz que entre crianças canhotas são mais frequentes as muito talentosas, com QI acima de 140.\n- D) \"Corrigir\" a criança é a prática antiga que o texto critica; ser canhoto não é problema.\n\n**Para lembrar:** \"leworęczny\" = canhoto (\"mańkut\" é termo antigo); \"uzdolnienie\" = talento; \"półkula mózgowa\" = hemisfério cerebral.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-alemao",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "O primeiro parágrafo diz: \"Nachdem dort ein Überschreiten des Grenzwertes für Legionellen in acht Wohnungen festgestellt wurde, verhängte das Gesundheitsamt ein Duschverbot für rund 300 Wohnungen\" (depois que foi constatada ali a ultrapassagem do limite de legionelas em oito apartamentos, a secretaria de saúde decretou uma proibição de tomar banho de chuveiro para cerca de 300 apartamentos).\n\n\"Rund 300\" = \"etwa 300\" (cerca de 300), e \"Duschverbot\" = proibição de usar o chuveiro. É o que diz a B: \"cerca de 300 apartamentos não puderam mais usar o chuveiro\".\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Oito foi o número de apartamentos com limite ultrapassado; ninguém fechou apartamentos.\n- C) Os inquilinos não foram processados; eles é que \"kritisieren\" (criticam) a construtora.\n- D) O texto não fala de multas pesadas para a construtora.\n- E) O texto só diz que os inquilinos criticam a empresa responsável; não há declaração de responsabilização pela infecção.\n\n**Para lembrar:** \"rund\" / \"etwa\" = cerca de; \"Verbot\" = proibição; \"Mieter\" = inquilino; \"Vermieter\" = locador.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-espanhol",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "No último parágrafo, o autor compara a União Europeia (que avança com legislação abrangente) e os Estados Unidos (que resistem a impor limites) e conclui: \"Esta divergencia normativa crea brechas difíciles de gestionar, especialmente en un entorno digital transnacional donde los algoritmos no reconocen fronteras\" (essa divergência normativa cria brechas difíceis de gerir, especialmente num ambiente digital transnacional em que os algoritmos não reconhecem fronteiras).\n\nO desafio, então, é de gestão: leis nacionais diferentes para uma tecnologia que atravessa fronteiras.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A fragilidade democrática aparece como consequência da desinformação, não como obstáculo para criar leis.\n- B) Os sistemas de distribuição global são citados como exemplo de eficiência da IA, não como desafio regulatório.\n- C) A redução de erros humanos é um benefício citado na indústria, não um problema para a regulação.\n- E) A eficiência do aprendizado automático é apresentada como vantagem, não como desafio jurídico.\n\n**Para lembrar:** \"brecha\" = lacuna, abertura; \"gestionar\" = gerir, administrar; \"frenar\" = frear.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-frances",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "O texto começa assim: \"Dans le cadre de l'Année du Brésil, Les Franciscaines, à Deauville, présente une exposition exceptionnelle du photographe [...] Sebastião Salgado\" (no âmbito do Ano do Brasil, Les Franciscaines, em Deauville, apresenta uma exposição excepcional...). \"Dans le cadre de\" = \"no âmbito de, como parte de\". Logo, a exposição integra a programação do Ano do Brasil na França.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) A exposição acontece em Les Franciscaines, em Deauville. A MEP (Maison Européenne de la Photographie) apenas emprestou o acervo (\"collection empruntée de la MEP\").\n- C) As fotos de Salgado são \"en noir et blanc\" (em preto e branco).\n- D) A exposição percorre toda a obra do fotógrafo, dos primeiros trabalhos até \"Genesis\"; não é homenagem só aos primeiros.\n- E) As \"expéditions épiques\" foram as viagens de Salgado para fazer \"Genesis\"; a exposição não vai circular por cidades.\n\n**Para lembrar:** \"dans le cadre de\" = no âmbito de; \"emprunter\" = pegar emprestado; \"prêter\" = emprestar (para alguém).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-ingles",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "O texto (\"Luzes apagadas: por que as festas que vão a noite toda estão em declínio no mundo\") explica que as boates fecham cada vez mais cedo por causa de regras mais rígidas, custos maiores e, principalmente, porque a geração Z se interessa menos pela cultura de balada.\n\nA conclusão é direta: \"Nightclubs won't completely die out any time soon. But the industry needs to adapt, or else it will continue to shrink\" (as boates não vão desaparecer tão cedo, mas o setor precisa se adaptar, senão vai continuar encolhendo). É exatamente o que diz a alternativa D.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O texto diz o contrário: a noite está enfraquecendo, \"the party is ending earlier than ever before\".\n- B) A pesquisa do Financial Times analisou 15 cidades e encontrou queda em 12 delas (\"in 12 out of 15 global cities\"). Não é que o número de boates caiu de 15 para 12.\n- C) O texto menciona os \"day clubs\" e o sono de 8 a 9 horas, mas não diz que os jovens vão a eles para ficar bêbados; aliás, chama a geração Z de \"most sober\" (a mais sóbria).\n- E) Inverte a comparação: são os jovens de hoje que bebem e gastam menos.\n\n**Para lembrar:** \"or else\" = \"senão, caso contrário\"; \"shrink\" = encolher, diminuir.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-italiano",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "O cartaz informa: \"Sabato 17 maggio, dalle 10.00 alle 12.00 – Biblioteca di Loiano\" e, em seguida, o objetivo: \"Conoscere il progetto ed iscriversi alle iniziative e corsi!\" (conhecer o projeto e se inscrever nas iniciativas e cursos). Fecha com \"Vienici a trovare per scoprirne di più!\" (venha nos visitar para saber mais).\n\nO encontro serve para apresentar o projeto e dar informações sobre os cursos de italiano.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Não se fala em aula grátis no dia 17; o encontro é de apresentação e inscrição.\n- C) O cartaz não propõe discutir as dificuldades dos estrangeiros em Loiano.\n- D) Não há debate sobre ensino de italiano.\n- E) As inscrições são para as iniciativas e cursos do projeto, não para curso universitário.\n\n**Para lembrar:** \"iscriversi\" = inscrever-se; \"scoprire\" = descobrir; \"venire a trovare\" = vir visitar.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-japones",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Por que a autora levou um choque no albergue da juventude, na primeira noite após chegar ao Japão?\"\n\nEla ficou acordada escrevendo o diário com a luz acesa. Uma moça disse para outra: \"明かりがついているから眠れないね\" (com a luz acesa não dá para dormir, né). A autora explica o choque: \"彼女が私に直接不平を言いに来ないで、私の前でもう一人の人と私の悪口を言っているかのように振る舞ったからである\" (porque ela, em vez de vir reclamar diretamente comigo, agiu como se falasse mal de mim com outra pessoa na minha frente).\n\nAlternativa A: \"porque viu alguém falando de sua insatisfação com ela para outra pessoa\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O problema era a luz acesa, não o quarto escuro demais.\n- C) Ninguém leu o diário dela.\n- D) Não há menção a ser ignorada por ser estrangeira.\n- E) Banheiro não aparece no texto.\n\n**Para lembrar:** 不平 (ふへい) = queixa, insatisfação; 悪口 (わるくち) = falar mal; 〜かのように = como se...",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q84-polones",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "O texto lista pessoas canhotas famosas: \"Osobami leworęcznymi byli między innymi Michał Anioł, Leonardo da Vinci, Pablo Picasso...\" (eram canhotos, entre outros, Michelangelo, Leonardo da Vinci, Picasso...). E explica que \"mańkut\" era como se chamavam os canhotos (\"Mańkuci – jak wówczas nazywało się osoby leworęczne\"). Logo, Michał Anioł (Michelangelo) era \"mańkut\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O texto não diz nada sobre a mão dominante da autora, Maria Mazurek.\n- C) O texto diz que entre crianças canhotas há mais casos de superdotação (QI acima de 140), não que todos os canhotos têm QI maior.\n- D) Não se fala em diminuição da frequência de canhotos; o que mudou desde os anos 80 foi a visão pedagógica.\n- E) A diferença salarial de 10% se refere aos EUA e ao Reino Unido, não à Europa inteira.\n\n**Para lembrar:** \"Michał Anioł\" = Michelangelo (Anioł = anjo); \"mańkut\" = canhoto (termo antigo).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-alemao",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "O segundo parágrafo diz: \"Legionellen sind stäbchenförmige Bakterien, die in geringer Anzahl in Flüssen, Seen und im Grundwasser vorkommen. Und natürlicherweise kommen sie auch in kleinsten Konzentrationen im Trinkwasser vor\" (legionelas são bactérias em forma de bastonete que ocorrem em pequeno número em rios, lagos e lençóis freáticos; e naturalmente ocorrem também em concentrações mínimas na água potável). Depois: \"deshalb finden die Erreger in Wasserleitungen von Gebäuden [...] sehr gute Wachstumsbedingungen\" (por isso os patógenos encontram nos encanamentos dos prédios ótimas condições de crescimento).\n\nConferindo: 1. Flüssen (rios) ✔; 2. Seen (lagos) ✔; 3. Trinkwasser (água potável) ✔; 4. Wasserleitungen (encanamentos) ✔.\n\n**Resposta: E**\n\n**Por que não as outras:** A, B, C e D deixam de fora algum dos quatro locais, todos citados no texto.\n\n**Para lembrar:** \"vorkommen\" = ocorrer, ser encontrado; \"Fluss\" = rio; \"See\" = lago; \"Leitung\" = tubulação.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-espanhol",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "Analisando as proposições:\n\n1. Verdadeira. O título \"entre la promesa tecnológica y la amenaza sistémica\" já anuncia impactos diferentes (positivos e negativos) da IA.\n\n2. Verdadeira. O texto fala de conteúdo falso produzido \"con un grado de coherencia, fluidez y realismo que desafía incluso a expertos en verificación\" (que desafia até especialistas em verificação).\n\n3. Verdadeira. O texto liga a ausência de marcos legais claros aos riscos, entre eles \"la circulación de contenidos adulterados y la aparición de influencers sintéticos\". Para a banca, a falta de regulação favorece esse cenário.\n\n4. Falsa. É o contrário: esses conteúdos estão \"erosionando la confianza en los procesos democráticos\" (corroendo a confiança nos processos democráticos).\n\nVerdadeiras: 1, 2 e 3.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A 4 é a única falsa.\n- B) Deixa de fora a 2, que é verdadeira.\n- C) Inclui a 4 e deixa de fora 1 e 3.\n- E) A 4 é falsa.\n\n**Para lembrar:** \"erosionar\" = corroer, desgastar; \"adulterado\" = falsificado.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-frances",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "O segundo parágrafo resume o eixo da obra: \"L'exposition dépeint les relations entre l'humanité et la nature, tout en soulignant les défis environnementaux et sociaux\" (a exposição retrata as relações entre a humanidade e a natureza, ao mesmo tempo que destaca os desafios ambientais e sociais). Todas as séries citadas (seca e fome na África, trabalhadores imigrantes, êxodos, Genesis) giram em torno da relação entre o ser humano e o ambiente.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Preto e branco é a técnica, a forma das fotos, não o tema.\n- B) A obra é \"engagée\" (engajada), mas o texto não fala em engajamento político coletivo como tema.\n- D) As transformações econômicas aparecem como causa dos êxodos, mas não são o assunto central.\n- E) \"Grandes fresques photographiques\" é o formato dos projetos (grandes séries), não o tema.\n\n**Para lembrar:** \"dépeindre\" = retratar, descrever; \"tout en + gérondif\" = ao mesmo tempo que; \"souligner\" = destacar.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-ingles",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "Vamos conferir cada afirmativa com o texto:\n\n1. Verdadeira. \"Some of the world's biggest party hotspots are hosting fewer all-night parties\" (alguns dos maiores pontos de festa do mundo estão realizando menos festas que varam a noite).\n\n2. Verdadeira. O Financial Times encontrou queda \"in 12 out of 15 global cities it analyzed\", ou seja, analisou 15 cidades.\n\n3. Falsa. As boates enfrentam \"competition from day clubs\" (concorrência dos clubes diurnos) e estão em declínio; não prosperam tanto quanto eles.\n\n4. Falsa. O texto diz que a ideia de \"dropping a lot of money on drinks\" (torrar muito dinheiro em bebidas) \"doesn't appeal to the newer generation\" (não atrai a nova geração).\n\nCorretas: 1 e 2.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A afirmativa 3 é falsa.\n- C) A 4 é falsa.\n- D) 3 e 4 são falsas.\n- E) Nem todas estão corretas.\n\n**Para lembrar:** \"X out of Y\" = \"X de (um total de) Y\". \"12 out of 15 cities\" = 12 de 15 cidades.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-italiano",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "Lendo o cartaz inteiro: o encontro é na \"Biblioteca di Loiano, via Roma 55 – 40050 Loiano (BO)\", em colaboração com o \"Comune di Loiano\"; no topo aparece \"Passworld progetto FAMI\" (Fundo Asilo, Migração e Integração), com objetivo de \"Formazione linguistica\" (formação linguística). O projeto promete que \"insegnare e imparare l'italiano è semplice\". Logo, o evento é em Loiano e faz parte de um projeto para aprender italiano.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O encontro é num sábado específico (17 de maio) na biblioteca de Loiano, não toda semana na biblioteca central de Bolonha.\n- B) O encontro é para conhecer o projeto e se inscrever, não para recrutar professores.\n- C) O projeto é para aprender italiano, não várias línguas estrangeiras.\n- E) \"PassworLd\" é um jogo de palavras (password + world), não indica senha para participar.\n\n**Para lembrar:** \"comune\" = prefeitura/município; \"si svolge\" = acontece, realiza-se.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-japones",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Qual afirmação sobre o portfólio é correta?\"\n\nO texto define portfólio como a reunião de produções, autoavaliações e comentários do professor, \"学習者の能力の発展がわかるようにするもの\" (algo que permite ver o desenvolvimento das capacidades do aluno). E insiste: o importante não é guardar só o trabalho final bonito, mas tudo o que mostre \"どのように変化したか\" (como o aluno mudou) do começo ao fim do curso.\n\nAlternativa B: \"学習者の成長のようすを記録することが大切である\" (o importante é registrar como o aluno cresce).\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O texto diz que o conteúdo não deve ser decidido só pelo professor, mas \"学習者と相談して\" (em conversa com o aluno).\n- C) Deve-se guardar tudo, inclusive dúvidas e dificuldades, não apenas os bons resultados.\n- D) São os alunos que escrevem as fichas; o professor comenta e devolve.\n- E) Não se trata de juntar o material usado nas aulas, e sim as produções e reflexões do aluno.\n\n**Para lembrar:** 成長 (せいちょう) = crescimento; 記録 (きろく) = registro; 相談 (そうだん) = consulta, conversa.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q85-polones",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "O lead diz: \"Na świecie co dziesiąty człowiek jest leworęczny\" (no mundo, uma em cada dez pessoas é canhota). Uma em cada dez = 10%. A alternativa B diz: \"em média 10% da população mundial são pessoas com a mão esquerda dominante\".\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O texto diz o oposto: \"leworęczność nie tylko nie jest zaburzeniem\" (não é um distúrbio).\n- C) Os canhotos não são menos capazes; e o texto compara com destros, não com ambidestros.\n- D) O texto diz que \"około 8-15 procent populacji to osoby leworęczne\" (8 a 15% são canhotos), não pessoas com dominância dos dois hemisférios.\n- E) O texto diz que em 13 de agosto se comemora o dia, mas não que 2023 foi a primeira vez.\n\n**Para lembrar:** \"co dziesiąty\" = um em cada dez (literalmente \"cada décimo\"); \"obchodzić\" = celebrar, comemorar.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-alemao",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "O texto explica a via de contágio: \"Beim Duschen können dann Tröpfchen mit dem Erreger über den zerstäubten Wasserdampf eingeatmet werden\" (no banho, gotículas com o patógeno podem ser inaladas através do vapor d'água pulverizado). E reforça: só quando as bactérias \"in die Lunge\" (chegam ao pulmão) causam a pneumonia. Logo, a infecção ocorre quando se inala vapor com o patógeno.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) \"Verschluckt man mit Legionellen kontaminiertes Wasser, tötet die Magensäure die Bakterien ab\" (se engolir água contaminada, o ácido do estômago mata as bactérias).\n- C) Não tomar banho diariamente não tem relação com a doença; o risco está justamente no banho.\n- D) \"Eine Übertragung von Mensch zu Mensch ist nicht möglich\" (não há transmissão de pessoa para pessoa).\n- E) O \"automatischer Legionellenschutz\" é uma proteção: aquece a água a 70 graus para matar as bactérias.\n\n**Para lembrar:** \"einatmen\" = inspirar, inalar; \"verschlucken\" = engolir; \"Lungenentzündung\" = pneumonia (Lunge = pulmão + Entzündung = inflamação).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-espanhol",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "O texto (\"Além do ser humano: como o direito pode transformar nossa relação com a terra\") diz que o direito tratava tudo o que não é humano como \"cosas carentes de valor intrínseco\" (coisas sem valor próprio), o que ajudou a \"legitimar actitudes depredadoras hacia el ambiente, amparadas en un falso modelo de desarrollo antropocéntrico, consumista e individualista\". Em seguida afirma: \"Esto, por fortuna, parece estar cambiando\" (isso, felizmente, parece estar mudando), e apresenta biocentrismo e ecocentrismo como alternativas.\n\nO quadro que descreve a relação ser humano–terra é, portanto, uma análise crítica dos dispositivos jurídicos antropocêntricos, predatórios, consumistas e individualistas.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) A superioridade humana é a visão antropocêntrica que o texto CRITICA, não defende.\n- B) O texto diferencia biocentrismo e ecocentrismo, mas isso é um detalhe; não é o quadro central da relação com a terra.\n- C) O texto não diz que o direito atribuiu aos humanos a responsabilidade pela crise ecológica.\n- D) A propriedade individual aparece como exemplo, não como foco da discussão.\n\n**Para lembrar:** \"depredador\" = predatório; \"amparado en\" = apoiado em; \"por fortuna\" = felizmente.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-frances",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "\"Le parcours plonge les visiteurs dans l'œuvre intense et engagée d'un artiste...\" (o percurso mergulha os visitantes na obra intensa e engajada de um artista). \"Plonger\" = mergulhar. O sinônimo que mantém a ideia de mergulhar, envolver completamente, é \"immerger\" (imergir): \"Le parcours immerge les visiteurs dans l'œuvre\".\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) \"Plaire\" = agradar; \"plaît\" muda o sentido e nem funciona com \"dans\".\n- B) \"Placer\" = colocar, posicionar; perde a ideia de envolvimento total.\n- C) \"Présenter\" = apresentar; seria \"présente l'œuvre aux visiteurs\", outro sentido.\n- D) \"Émerger\" = emergir, sair de dentro: é o contrário de mergulhar.\n\n**Para lembrar:** \"plonger\" = mergulhar; \"immerger\" = imergir; \"émerger\" = emergir (antônimo).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-ingles",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "No texto: \"But the real culprit is simply that this generation of young people is less interested in club culture\" (mas o verdadeiro culpado é simplesmente que esta geração se interessa menos pela cultura de balada). \"Culprit\" é o culpado, o responsável por algo ruim; \"the real culprit\" é a causa real do problema. A definição da D está certa.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) \"All-night parties\" são festas que duram a noite toda (até o amanhecer), não 24 horas sem parar.\n- B) \"Higher costs\" = custos mais altos, ou seja, mais caro, não menos.\n- C) \"The most sober\" = o mais sóbrio, quem bebe MENOS. A definição inverte o sentido.\n- E) \"Die out\" = desaparecer, extinguir-se; o contrário de crescer.\n\n**Para lembrar:** \"culprit\" = culpado/causador; \"die out\" = desaparecer aos poucos; \"sober\" = sóbrio.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-italiano",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "O texto diz que o aumento dos aluguéis de curta temporada \"si è inserito in un panorama già molto problematico causato da costruzioni popolari quasi inesistenti e dall'aumento repentino dei prezzi di locazione\" (inseriu-se num cenário já muito problemático, causado por moradias populares quase inexistentes e pelo aumento repentino dos preços de aluguel).\n\nEntre as causas apontadas, a alternativa B traz exatamente \"o aumento dos preços de locação\".\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O texto não fala em aumento da população residente.\n- C) É o contrário: as locações turísticas cresceram 25% no último ano.\n- D) Não houve fechamento de apartamentos no Airbnb; o número de anúncios é alto (5.666).\n- E) Os protestos são consequência da crise, não causa.\n\n**Para lembrar:** \"affitto\" / \"locazione\" = aluguel; \"affitti brevi\" = aluguel de curta temporada; \"repentino\" = súbito.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-japones",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Qual é o objetivo principal da ficha de reflexão (ふりかえりシート)?\"\n\nO texto diz que é uma folha \"自分が気づいたことや考えたことを記録しておくための\" (para registrar o que o aluno percebeu e pensou), e que permite observar como os conhecimentos e imagens anteriores \"どのように増えたか、変わったか\" (como aumentaram e mudaram).\n\nAlternativa A: \"registrar as percepções do aluno e as mudanças em sua forma de pensar\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O aluno registra o próprio aprendizado, não observa o dos outros.\n- C) O foco são as aulas e atividades, não acontecimentos fora da escola.\n- D) Não é um diário sem relação com o estudo.\n- E) Não é escrita livre de impressões para autoexpressão; tem foco no processo de aprendizagem.\n\n**Para lembrar:** 気づき (きづき) = percepção, algo que se notou; ふりかえる = olhar para trás, refletir.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q86-polones",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "O trecho: \"prof. Joshua Goodman obliczył, że leworęczni mieszkańcy Stanów Zjednoczonych i Wielkiej Brytanii zarabiają średnio 10 proc. mniej\" (o prof. Joshua Goodman calculou que os canhotos dos EUA e do Reino Unido ganham em média 10% menos).\n\n\"Obliczyć\" vem de \"liczyć\" (contar, calcular): é fazer um cálculo. O sinônimo é \"kalkulował\" (calculou).\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) \"Zareagował\" = reagiu.\n- C) \"Zaprzeczył\" = negou.\n- D) \"Protestował\" = protestou.\n- E) \"Wymyślił\" = inventou, imaginou; mudaria o sentido (como se o dado fosse inventado).\n\n**Para lembrar:** \"liczyć\" = contar; \"obliczyć\" = calcular; \"liczba\" = número.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-alemao",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "O quinto parágrafo começa: \"Keime und Bakterien vermehren sich vor allem in stehendem Wasser\" (germes e bactérias se multiplicam sobretudo em água parada). \"Vor allem\" (sobretudo) corresponde a \"am häufigsten\" (com mais frequência) da alternativa D.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Elas se multiplicam melhor \"bei Temperaturen zwischen 25 und 45 Grad\" (entre 25 e 45 graus), não em água gelada.\n- B) Os primeiros sintomas são febre alta, dor no peito e de cabeça, calafrios, falta de ar, tosse e fraqueza; não falência de órgãos.\n- C) A doença só \"in seltenen Fällen\" (em casos raros) é fatal; e o texto não fala de ataque cardíaco.\n- E) O texto alerta justamente sobre canos sem uso: \"Wenn die Leitungen lange nicht benutzt wurden, sollte man das erste Wasser nicht zum Trinken [...] nutzen\".\n\n**Para lembrar:** \"stehendes Wasser\" = água parada; \"sich vermehren\" = multiplicar-se; \"selten\" = raro.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-espanhol",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "A tese aparece logo no início: \"El derecho juega un papel activo en la formación de conciencias\" (o direito tem papel ativo na formação das consciências) e \"El derecho no solo regula subjetividades, también las construye\" (não só regula subjetividades, também as constrói). O texto mostra que a forma como a lei tratava a natureza (como simples bens apropriáveis) legitimou atitudes predatórias. Ou seja: o direito interfere no modo como os seres humanos se relacionam com o espaço que habitam. O próprio título reforça: \"cómo el derecho puede transformar nuestra relación con la tierra\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) A crise ecológica \"reabriu a discussão\"; não é resultado da dificuldade de diferenciar teorias.\n- C) O texto não atribui valor intrínseco aos humanos por criarem teorias; discute justamente o valor intrínseco dos não humanos.\n- D) O texto diz que os biocentristas não são holistas, mas não os chama de individualistas nem diz que negam relações sistêmicas; e isso é detalhe, não a tese.\n- E) As teorias (antropocentrismo, biocentrismo, ecocentrismo) são marcos filosóficos, não criações jurídicas.\n\n**Para lembrar:** \"juega un papel\" = desempenha um papel; \"no solo... también\" = não só... mas também.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-frances",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "O texto afirma: \"L'œuvre de Sebastião Salgado témoigne d'une vision humaniste et profondément universelle\" (a obra de Salgado testemunha uma visão humanista e profundamente universal). Ele retrata a condição dos trabalhadores, os imigrantes, as culturas camponesas e indígenas, os povos em êxodo: um olhar voltado para o outro (alteridade). A alternativa A traduz isso.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) As fotos denunciam a fome na África, mas não resolveram esses problemas.\n- C) Paisagens e animais aparecem sobretudo em \"Genesis\", o projeto final; ao longo da carreira o foco principal foi o ser humano.\n- D) Ele começou com reportagens sobre a seca e a fome na África e a série \"Autres Amériques\", não com a globalização.\n- E) É o contrário: \"Exodes\" acompanha os grandes deslocamentos de população; e a obra destaca a relação humanidade–natureza.\n\n**Para lembrar:** \"témoigner de\" = dar testemunho de, evidenciar; \"regard\" = olhar; \"altérité\" = alteridade, reconhecimento do outro.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-ingles",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "O texto define \"brain rot\" (literalmente, \"apodrecimento do cérebro\") como uma gíria para a sensação de deterioração mental \"due to overconsumption of trivial or unchallenging content, particularly online content\" (devido ao consumo excessivo de conteúdo trivial ou pouco desafiador, sobretudo online). Também fala dos \"mental effects of excessive screen time\" (efeitos mentais do tempo excessivo de tela). A alternativa A resume exatamente isso.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O texto insiste que \"it's not a medical condition\" e \"not a recognized medical diagnosis\" (não é condição nem diagnóstico médico).\n- C) É o contrário: o texto fala em queda de atenção e memória (\"decline in cognitive abilities like attention, memory\").\n- D) \"Mental fogginess\" é a névoa mental, quando a pessoa \"struggle[s] with focus and clarity\" (tem dificuldade de foco e clareza).\n- E) O texto diz que o TERMO é popular entre a geração Z e Alpha, não que só eles sofrem do problema.\n\n**Para lembrar:** \"overconsumption\" = consumo em excesso; \"unchallenging\" = que não desafia, fácil demais.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-italiano",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "No final do texto: \"il Comune ha annunciato che, in base alla nuova normativa, i proprietari dovranno registrare i loro appartamenti con un codice identificativo e sospendere le key box\" (a prefeitura anunciou que, pela nova norma, os proprietários deverão registrar seus apartamentos com um código de identificação e suspender as key box). \"Dovranno\" = deverão, terão de: os proprietários serão obrigados. É a D.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) São 5.666 no Airbnb contra 12.721 em aluguel tradicional; há menos no Airbnb.\n- B) Palermo tem \"un'intensità di locazioni turistiche superiore a quella di Roma e Napoli\" (superior, não inferior).\n- C) Houve \"una crescita del 25% nell'ultimo anno\"; não ficou estável.\n- E) Houve aumento, não diminuição.\n\n**Para lembrar:** \"dovere\" no futuro (dovranno) indica obrigação; \"superiore a\" = maior que; \"inferiore a\" = menor que.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-japones",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Até quando acontece a Expo Osaka-Kansai?\"\n\nPrimeira frase do texto: \"大阪・関西万博が、2025年10月13日まで開催中\" (a Expo Osaka-Kansai está acontecendo até 13 de outubro de 2025). \"まで\" = até.\n\n**Resposta: D**\n\n**Por que não as outras:** A, B, C e E trazem datas que não aparecem no texto. A E tem o mesmo dia e mês, mas o ano errado (2026).\n\n**Para lembrar:** 開催 (かいさい) = realização de um evento; 〜まで = até; 年 = ano, 月 = mês, 日 = dia.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q87-polones",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "A frase: \"Mańkuci – jak wówczas nazywało się osoby leworęczne – do dzisiaj odczuwają skutki tych praktyk\" (os \"mańkuci\", como então eram chamados os canhotos, até hoje sentem os efeitos dessas práticas).\n\n\"Wówczas\" é advérbio que significa \"então, naquela época\". Refere-se ao período anterior, até os anos 80, quando se obrigava crianças a escrever com a mão direita. O equivalente é \"w tamtych czasach\" (naqueles tempos).\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"Obecnie\" = atualmente; sentido oposto.\n- C) \"W średniowieczu\" = na Idade Média; é específico demais e não é o período a que a frase se refere (as práticas pedagógicas iam até os anos 80).\n- D) \"Podczas\" = durante; é preposição e pede complemento (\"podczas wojny\").\n- E) \"Czasami\" = às vezes; indica frequência, não tempo passado.\n\n**Para lembrar:** \"wówczas\" = \"wtedy\" = então, naquela época; \"obecnie\" = \"teraz\" = agora.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-alemao",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "No texto: \"Wenn die Leitungen lange nicht benutzt wurden, sollte man das erste Wasser nicht zum Trinken oder Zähneputzen nutzen. Stattdessen erst das kalte und dann das heiße Wasser [...] eine Zeit laufen lassen\" (se os canos ficaram muito tempo sem uso, não se deve usar a primeira água para beber ou escovar os dentes. Em vez disso, deixe correr primeiro a fria e depois a quente por um tempo).\n\n\"Stattdessen\" = \"statt\" (em vez de) + \"dessen\" (disso): \"em vez disso\". Ele introduz uma alternativa ao que foi descartado. O sinônimo é \"alternativ\" (alternativamente, como alternativa).\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) \"Nur\" = apenas, só.\n- C) \"Obwohl\" = embora (concessiva).\n- D) \"Schon\" = já.\n- E) \"Zumal\" = sobretudo porque, ainda mais que (causal).\n\n**Para lembrar:** \"statt\" / \"anstatt\" = em vez de; \"stattdessen\" = em vez disso.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-espanhol",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "O poema \"Instantes\" é todo construído no condicional: \"Si pudiera vivir nuevamente mi vida, en la próxima trataría de cometer más errores\" (se eu pudesse viver de novo minha vida, na próxima tentaria cometer mais erros). O eu lírico lista o que faria diferente: correria mais riscos, faria mais viagens, contemplaria mais entardeceres, tomaria mais sorvete. E confessa: \"Yo fui una de esas personas que vivió sensata y prolíficamente cada minuto de su vida\". No final: \"tengo 85 años... y sé que me estoy muriendo\".\n\nÉ uma reflexão em tom de confissão sobre o que lamenta não ter vivido, ou seja, sobre seus arrependimentos.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O eu lírico não critica os outros; fala de si mesmo.\n- C) Não exalta memórias de infância; lamenta o que deixou de fazer.\n- D) Não se queixa das dificuldades da velhice; a idade só aparece no final, como constatação.\n- E) É o contrário: ele diz que viajaria \"más liviano\" (mais leve), sem termômetro, guarda-chuva e paraquedas, ou seja, abriria mão do excesso de segurança.\n\n**Para lembrar:** \"si pudiera..., trataría...\" = \"se eu pudesse..., tentaria...\": imperfeito do subjuntivo + condicional, estrutura típica de hipótese.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-frances",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "\"Enfin Genesis (2004-2012), aboutissement de huit années d'expéditions épiques...\" (por fim, Genesis, resultado/culminância de oito anos de expedições épicas). \"Aboutissement\" vem de \"aboutir\" (chegar a um fim, dar resultado) e significa o ponto de chegada, o resultado final de um processo. O sinônimo é \"résultat\".\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) \"Ébauche\" = esboço, rascunho: é o começo de um trabalho, o oposto.\n- B) \"Départ\" = partida, início: também o oposto.\n- C) \"Cheminement\" = caminho, percurso, progressão: é o processo, não o ponto de chegada.\n- E) \"Adroitement\" = habilmente; é advérbio, nem cabe gramaticalmente no lugar de um substantivo.\n\n**Para lembrar:** \"aboutir\" = chegar a um resultado; \"aboutissement\" = desfecho, coroamento.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-ingles",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "O texto explica que o termo sugere declínio cognitivo \"caused by consuming low-effort content\" (causado pelo consumo de conteúdo de baixo esforço) e associa o brain rot ao \"overconsumption of unchallenging content\" (consumo excessivo de conteúdo pouco desafiador). A alternativa E junta essas duas ideias.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) \"Doomscrolling\" é passar tempo demais online consumindo notícias e conteúdos passivamente, \"without engaging in deeper thought or analysis\" (sem pensar a fundo nem analisar). Não é consumir conteúdo que faz pensar.\n- B) O texto cita piora do humor (\"decline in... mood\"), não melhora.\n- C) Gíria (\"slang\") é justamente o oposto de palavra tradicional e consolidada na norma padrão.\n- D) Pensar a fundo e analisar é o que FALTA no doomscrolling; isso não causa brain rot.\n\n**Para lembrar:** \"low-effort\" = de pouco esforço; \"doom\" = desgraça, catástrofe + \"scrolling\" = rolar a tela: \"doomscrolling\" é rolar sem parar notícias ruins.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-italiano",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "O trecho de Igiaba Scego começa com uma lembrança de infância: ao ver o elefantinho de Roma (a estátua chamada \"il pulcin della Minerva\"), a menina perguntou se estava na Somália. Depois, o tom muda: \"Nel tempo ho scoperto che quell'elefantino ha lo stesso sguardo della mia mamma\" (com o tempo descobri que aquele elefantinho tem o mesmo olhar da minha mãe). E vem a reflexão central: \"L'esule è una creatura a metà\" (o exilado é uma criatura pela metade), com raízes arrancadas, vida mutilada, identidade despojada.\n\nÉ um relato pessoal sobre o exílio e seus efeitos em quem o vive.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O elefante é símbolo, não objeto de descrição zoológica.\n- B) Não há conflito entre mãe e filha; a mãe ri da pergunta e é comparada, com afeto, ao elefantinho.\n- C) Os monumentos de Roma não são o tema; o elefantinho é ponto de partida para falar do exílio.\n- E) A confusão geográfica é só o episódio inicial.\n\n**Para lembrar:** \"esule\" = exilado; \"strappare\" = arrancar; \"sguardo\" = olhar.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-japones",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Qual é o conselho correto para quem vai visitar a Expo Osaka?\"\n\nNo item 1, o texto recomenda reservar data, horário e portão de entrada e também os pavilhões, e diz que o horário das 9h costuma lotar, por isso \"早く予約すること\" (reserve cedo). Alternativa A: \"é bom fazer cedo as reservas de entrada e de pavilhões\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O texto diz que de 9h a 10h e depois do fim da tarde há menos fila que durante o dia.\n- C) A lista do que levar inclui lanche (onigiri, Calorie Mate) e garrafas de água ou chá.\n- D) A lista inclui ゴミ袋 (sacos de lixo).\n- E) O texto fala em metrô, ônibus, carro e táxi; não em ir a pé a qualquer portão.\n\n**Para lembrar:** 予約 (よやく) = reserva; 早めに = com antecedência; 持ち物 (もちもの) = coisas para levar.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q88-polones",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "A frase: \"Przyczyna (…) nie leży w ograniczeniach intelektualnych (z którymi mańkuctwo przez lata było wiązane), a szkodliwym podejściu pedagogicznym\" (a causa não está nas limitações intelectuais, às quais o canhotismo foi associado por anos, mas na abordagem pedagógica prejudicial).\n\nA estrutura \"nie... , a...\" equivale a \"não..., mas sim...\": nega a primeira causa e afirma a segunda. Logo, a causa é sobretudo a abordagem pedagógica inadequada.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) As limitações intelectuais são justamente negadas.\n- B) Mesma razão: o texto diz que a causa \"nie leży\" (não está) nelas.\n- D) A abordagem pedagógica prejudicial é afirmada como causa.\n- E) Ser canhoto não é a causa; a causa é como a escola tratava os canhotos.\n\n**Para lembrar:** \"nie X, a Y\" = \"não X, mas sim Y\"; \"przyczyna\" = causa; \"szkodliwy\" = prejudicial.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-alemao",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "A frase: \"Zwar müssen wir mit dem kostbaren Trinkwasser verantwortungsvoll umgehen\" (é verdade que devemos lidar com responsabilidade com a preciosa água potável). \"Kostbar\" = precioso, valioso.\n\nA questão pede a palavra que NÃO pode substituir \"kostbaren\". Sinônimos possíveis: \"geschätzten\" (estimada, apreciada), \"hochwertigen\" (de alto valor), \"wertvollen\" (valiosa), \"qualitätsvollen\" (de qualidade). Já \"beschädigten\" significa \"danificada\", sentido totalmente diferente.\n\n**Resposta: D**\n\n**Por que não as outras:** A, B, C e E têm sentido próximo de \"valioso, precioso\" e poderiam substituir \"kostbaren\" sem alterar muito o sentido.\n\n**Para lembrar:** \"kostbar\" = precioso; \"Wert\" = valor, daí \"wertvoll\" (valioso); \"beschädigen\" = danificar (Schaden = dano).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-espanhol",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "A notícia (\"Polêmica pelo poema de Borges que nunca existiu\") relata que a editora vai reeditar o livro \"Borges y México\" porque ele \"atribuye un poema al autor argentino que no fue escrito por él\" (atribui ao autor argentino um poema que não foi escrito por ele). O poema \"Instantes\" é, na verdade, da norte-americana Nadine Stair. Poniatowska admite o erro, e a viúva, María Kodama, afirma que Borges nunca o escreveria.\n\nO tema, então, é um relato sobre a NÃO autoria de Borges: um caso de autoria literária atribuída errado e depois corrigida.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Kodama não tem dificuldade em aceitar a visão de Borges; ela a defende (\"Borges nunca se arrepintió de su vida\").\n- B) O texto não fala do processo de composição de nenhum poema de Borges.\n- D) Não houve falsidade ideológica (fraude intencional); foi erro de atribuição.\n- E) Não se fala de pseudônimos.\n\n**Para lembrar:** \"viuda\" = viúva; \"advertir\" = avisar, alertar (não \"advertir\" no sentido de repreender).",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-frances",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "O trecho completo: \"...jusqu'à la série Autres Amériques (1977-1984), où il revisite l'Amérique latine et célèbre la persistance des cultures paysannes et indiennes\" (até a série Outras Américas, na qual ele revisita a América Latina e celebra a persistência das culturas camponesas e indígenas).\n\nO pronome relativo \"où\" retoma o termo imediatamente anterior, \"la série Autres Amériques\". Em francês, \"où\" serve para lugar, mas também para indicar \"no qual / na qual\" com outros antecedentes (tempo, obra, situação). Aqui: \"a série na qual ele revisita a América Latina\".\n\nAtenção: a \"Amérique latine\" vem DEPOIS do \"où\", como complemento de \"revisite\"; ela é o que ele revisita, não o antecedente do pronome.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Europa aparece antes, nos trabalhos sobre imigrantes, fora dessa oração.\n- B) África está ligada às primeiras reportagens, em outro trecho.\n- C) A América Latina é o objeto de \"revisite\", não o referente de \"où\".\n- E) \"Premiers reportages\" está no início da frase, longe do pronome.\n\n**Para lembrar:** \"où\" = onde / no qual / em que; retoma o antecedente que vem logo antes dele.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-ingles",
+   "correct": "A",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "O texto diz que a bagunça (\"clutter\") é, para muitos, \"a simple annoyance\" (um simples incômodo); para outros, um tema sensível, e se desfazer de um papel pode causar \"emotional turmoil\" (turbulência emocional). Fala também em \"fear of loss\" (medo de perda) e em pessoas \"feeling stressed by it\" (estressadas por ela). Ou seja, a bagunça pode provocar várias emoções: estresse, incômodo, medo. Essa é a A.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O texto menciona o hoarding (acumulação compulsiva) como \"serious (but treatable)\" (sério, mas tratável). Tem tratamento.\n- C) Casa atraente e convidativa é benefício de ARRUMAR a bagunça, não da bagunça.\n- D) O texto diz que limpar reduz o estresse; a bagunça é que o causa.\n- E) Cumprir prazos e ter tempo para o que se gosta são benefícios da organização, não do acúmulo.\n\n**Para lembrar:** \"clutter\" = bagunça, acúmulo de coisas; \"turmoil\" = tumulto, agitação; \"treatable\" = tratável.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-italiano",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "A questão pergunta quais elementos mostram que a narradora conta um episódio da infância. Vejamos:\n\n1. Verdadeira. A pergunta \"Ma siamo in Somalia?\" (mas estamos na Somália?) é ingênua, típica de criança.\n\n2. Verdadeira. Achar que a Somália está dentro de Roma, ou Roma na Somália, mostra desconhecimento de geografia elementar, natural numa criança.\n\n3. Verdadeira. \"Mamma rise\" (mamãe riu): a reação da mãe diante de uma pergunta inocente de criança.\n\n4. Verdadeira. \"La mia confusione durò giorni\" (minha confusão durou dias): só uma criança passaria dias tentando entender se Roma está na Somália ou vice-versa.\n\nSome-se a isso o fato de ela citar que via \"molte puntate di Quark\" (programa de TV de divulgação científica) e estar passeando \"con mia mamma\". Todas as afirmações apontam para a infância.\n\n**Resposta: E**\n\n**Por que não as outras:** A, B, C e D deixam de fora afirmações verdadeiras. A afirmação 2 pode parecer exagerada (\"notevole ignoranza\"), mas, para uma criança pequena, desconhecer onde ficam os países é justamente um traço da idade.\n\n**Para lembrar:** \"ingenuo\" = ingênuo; \"puntata\" = episódio (de programa de TV); \"durare\" = durar.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-japones",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Sobre o acesso ao local, qual é a afirmação correta?\"\n\nO item 5 diz: \"タクシーは割高だが高齢者や複数人利用時は便利で、直接会場に向かうことができる\" (o táxi é relativamente caro, mas é prático para idosos ou grupos e permite ir direto ao local). Alternativa C: \"o táxi é caro, mas é prático porque leva direto ao local\". \"割高\" (relativamente caro) = \"高額\" (de valor alto).\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O texto não diz que o ônibus é gratuito nem que dispensa reserva.\n- B) Além do metrô, há ônibus, carro e táxi.\n- D) O carro é permitido, no esquema \"park & ride\".\n- E) Não se fala em acesso só a pé.\n\n**Para lembrar:** 〜が = mas (contraste); 便利 (べんり) = prático; 直接 (ちょくせつ) = diretamente.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q89-polones",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "A frase: \"...co oznacza większą sprawność lewej strony ciała i dominację odpowiadającej za nią prawej półkuli mózgowej\" (o que significa maior habilidade do lado esquerdo do corpo e o domínio do hemisfério cerebral direito, que é responsável por ELE).\n\nO pronome \"nią\" é feminino singular (instrumental/acusativo após \"za\"). O hemisfério direito é o responsável (\"odpowiadającej za\") pelo lado esquerdo do corpo, já que cada hemisfério comanda o lado oposto. Logo, \"nią\" = \"lewa strona ciała\" (lado esquerdo do corpo, \"strona\" é feminino).\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O hemisfério direito é quem é responsável; não pode ser responsável por si mesmo.\n- B) \"Sprawność\" (habilidade) é feminino, mas o hemisfério não \"responde pela habilidade\"; ele comanda o lado do corpo.\n- C) \"Dominacja\" é o domínio do próprio hemisfério; também não faz sentido.\n- D) \"Leworęczność\" nem aparece na frase como substantivo.\n\n**Para lembrar:** \"odpowiadać za coś\" = ser responsável por algo; \"za nią\" = por ela (feminino). O hemisfério direito controla o lado esquerdo do corpo.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-alemao",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Alemão",
+   "explanation_md": "A frase do parágrafo 6: \"Bei modernen Warmwassergeräten ist oftmals ein automatischer Legionellenschutz eingebaut, der für eine regelmäßige Erhitzung des Leitungswassers auf 70 Grad sorgt\" (em aquecedores modernos, muitas vezes há uma proteção automática contra legionelas embutida, que garante um aquecimento regular da água encanada a 70 graus).\n\n\"Der\" aqui é pronome relativo (o verbo \"sorgt\" vai para o fim, típico de oração subordinada). Ele concorda em gênero e número com o antecedente: masculino singular, nominativo. O antecedente masculino singular logo antes é \"ein automatischer Legionellenschutz\" (der Schutz). Quem \"sorgt für\" (garante) o aquecimento é a proteção.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"Warmwassergeräten\" está no dativo plural; o relativo seria \"die/denen\".\n- C) \"Erhitzung\" é feminino e vem depois do pronome; é o que o dispositivo produz.\n- D) \"Des Leitungswassers\" é neutro (das Wasser) e também vem depois.\n- E) \"70 Grad\" é a temperatura, complemento posterior.\n\n**Para lembrar:** o pronome relativo alemão (der/die/das) concorda em gênero e número com o antecedente; o caso depende da função dentro da oração relativa. \"Sorgen für\" = providenciar, garantir.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-espanhol",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Espanhol",
+   "explanation_md": "Analisando as proposições:\n\n1. Verdadeira. Kodama diz que o poema \"es un mal ejemplo para la juventud porque la incita a vivir en lo banal. Borges nunca se arrepintió de su vida\". Ela aponta uma incompatibilidade de visão de mundo (ideológica) entre o poema e Borges: por isso a atribuição seria um erro.\n\n2. Falsa. O poema fala em \"cometer más errores\", e a notícia trata de um erro de atribuição, mas a coincidência é superficial. O núcleo do poema é o arrependimento e o aproveitar a vida; o da notícia é a correção de autoria.\n\n3. Verdadeira. A notícia informa que o livro \"será reeditado\" por atribuir o poema a quem não o escreveu: um processo de correção de autoria.\n\n4. Verdadeira. O poema valoriza coisas simples (sorvete, entardeceres, andar descalço, brincar com crianças); Kodama critica essa postura chamando-a de \"vivir en lo banal\".\n\nVerdadeiras: 1, 3 e 4.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 3 e 4 também são verdadeiras.\n- B) A 2 é falsa.\n- C) Deixa de fora a 1, que é verdadeira.\n- E) A 2 é falsa.\n\n**Para lembrar:** \"arrepentirse\" = arrepender-se; \"elogiar\" = elogiar; \"banal\" = trivial, sem importância.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-frances",
+   "correct": "E",
+   "subject": "Língua Estrangeira",
+   "topic": "Francês",
+   "explanation_md": "O pronome \"y\" substitui complementos de lugar introduzidos por \"à, en, dans\" etc. Em E: \"Parti en Afrique, l'artiste y voit la dévastation infligée aux plus pauvres\" (tendo partido para a África, o artista vê ali a devastação infligida aos mais pobres). \"Y\" = \"en Afrique\". Correto.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) \"Il faut en acheter le billet\": o \"en\" está sobrando, porque \"le billet\" já é o complemento. O certo seria \"il faut acheter le billet\" ou \"il faut en acheter un\".\n- B) O antecedente é \"la collection\" (feminino singular). O certo seria \"la Maison Européenne l'a prêtée aux Franciscaines\", não \"les a prêtés\".\n- C) \"Lui\" é singular, mas retoma \"les travailleurs\" (plural). O certo seria \"le regard qu'il leur a consacré\".\n- D) O pronome antecipa \"la nature et les enjeux climatiques\" (dois termos, plural). O certo seria \"Le photographe les met en premier plan...\".\n\n**Para lembrar:** \"y\" retoma lugar (à/en/dans + lugar) ou complemento com \"à\"; \"en\" retoma complemento com \"de\" ou quantidade; \"lui/leur\" = objeto indireto (singular/plural); \"le/la/les\" = objeto direto, e o particípio concorda com o objeto direto que vem antes do verbo.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-ingles",
+   "correct": "B",
+   "subject": "Língua Estrangeira",
+   "topic": "Inglês",
+   "explanation_md": "Analisando cada frase:\n\n1. Correta. Quando há medo profundo de perda ou a bagunça serve de proteção, \"it may be a sign of a serious (but treatable) mental disorder known as hoarding\" (pode ser sinal de um transtorno mental sério, mas tratável, chamado acumulação compulsiva). É um transtorno que impede a pessoa de se livrar das coisas.\n\n2. Incorreta. Hemingway disse que todos desejamos \"a clean, well-lighted place\" (um lugar limpo e bem iluminado), o contrário de lugares bagunçados.\n\n3. Correta. Benefícios listados: \"Save time by not spending time looking for things\" e \"Save money by not buying items you already have\" (economizar tempo e dinheiro).\n\n4. Incorreta. O benefício é \"reduce stress related to lost items\" (reduzir o estresse com objetos perdidos). Perder coisas é problema, não benefício. (E \"loosing\" está grafado errado: o certo é \"losing\".)\n\nCorretas: 1 e 3.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A 3 também é correta.\n- C) 2 e 4 são falsas.\n- D) 2 e 4 são falsas.\n- E) Nem todas estão corretas.\n\n**Para lembrar:** \"long for\" = ansiar por, desejar muito; \"hoarding\" = acumulação compulsiva.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-italiano",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Italiano",
+   "explanation_md": "O elefantinho é um animal africano \"deslocado\" no meio de Roma, assim como a família somali da narradora. No segundo parágrafo, ela diz que ele \"ha lo stesso sguardo della mia mamma. Non può tornare, non può dissetare la sua angoscia\" (tem o mesmo olhar da minha mãe. Não pode voltar, não pode saciar sua angústia). E completa: \"L'esule è una creatura a metà\" (o exilado é uma criatura pela metade): raízes arrancadas, identidade despojada.\n\nO elefantinho, portanto, simboliza a perda e o afastamento de quem vive no exílio.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O texto não diz que a estátua foi presente da Somália.\n- B) O apelido \"pulcin della Minerva\" cita a deusa, mas o sentido da imagem no trecho não é mitológico.\n- D) A confusão geográfica é o episódio de infância, não o que o elefantinho representa.\n- E) \"Quark\" só explica por que a menina sabia que o elefante é africano.\n\n**Para lembrar:** \"dissetare\" = matar a sede (aqui, saciar); \"angoscia\" = angústia; \"a metà\" = pela metade.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-japones",
+   "correct": "C",
+   "subject": "Língua Estrangeira",
+   "topic": "Japonês",
+   "explanation_md": "A pergunta: \"Qual é o contexto correto do surgimento da economia da bolha?\"\n\nO texto explica: após o Acordo Plaza (1985), o iene se valorizou rapidamente (円高, de cerca de 200 para 120 ienes por dólar). Para combater a recessão, o Banco do Japão manteve juros baixos (低金利政策) e a taxa caiu a 2,5%. O dinheiro em circulação aumentou muito, mas, com o iene forte e o petróleo barato, os preços ao consumidor não subiram: \"過剰流動性は株式や土地などの資産に集中した\" (o excesso de liquidez concentrou-se em ativos como ações e terrenos). Resultado: o preço da terra subiu 50 vezes.\n\nAlternativa C: \"porque, com o iene valorizado e os juros baixos, o dinheiro se concentrou em ativos\".\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O Banco do Japão BAIXOU os juros, não os aumentou.\n- B) O colapso da bolha começa quando as ações começam a cair (após 1989); a ordem está invertida.\n- D) Não houve redução do preço da terra; ela disparou.\n- E) O texto não fala em restrição dos EUA às importações japonesas; o Acordo Plaza tratava do déficit comercial americano.\n\n**Para lembrar:** 円高 (えんだか) = iene valorizado; 金利 (きんり) = juros; 資産 (しさん) = ativos, patrimônio.",
+   "area": "linguagens"
+  },
+  {
+   "external_id": "ufpr-2026-q90-polones",
+   "correct": "D",
+   "subject": "Língua Estrangeira",
+   "topic": "Polonês",
+   "explanation_md": "Analisando as afirmações:\n\n1. Falsa. O texto diz: \"Lewo- lub praworęczność wynika z lateralizacji, czyli asymetrii czynnościowej jednej strony ciała\" (ser canhoto OU destro resulta da lateralização, isto é, da assimetria funcional de um lado do corpo). Os dois casos vêm da lateralização.\n\n2. Verdadeira. Até os anos 80 a pedagogia via o canhotismo como distúrbio; depois a visão mudou, e o texto diz que hoje se sabe que não é. Os preconceitos diminuíram nas décadas seguintes.\n\n3. Verdadeira. \"Żyjemy w świecie zbudowanym przez praworęcznych dla praworęcznych\" (vivemos num mundo construído por destros para destros), e os canhotos ainda ganham menos. Os destros mantêm vantagens.\n\n4. Verdadeira. Na Europa medieval os canhotos \"były uznawane za wysłanników diabła i prześladowane\" (eram considerados enviados do diabo e perseguidos). Hoje são vistos como possíveis gênios.\n\nVerdadeiras: 2, 3 e 4.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A afirmação 1 é a única falsa.\n- B) Inclui a 1, falsa.\n- C) Deixa de fora a 2.\n- E) A 1 é falsa.\n\n**Para lembrar:** \"lateralizacja\" = lateralização (predomínio de um lado do corpo); \"przesąd\" = superstição, preconceito; \"prześladować\" = perseguir.",
+   "area": "linguagens"
+  }
+ ]
+}

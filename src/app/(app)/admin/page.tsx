@@ -10,6 +10,7 @@ import { requireAdmin } from "@/lib/auth";
 import { pct, type Stats } from "@/lib/performance";
 import { createClient } from "@/lib/supabase/server";
 import { Users } from "lucide-react";
+import { parseBoard } from "@/lib/boards";
 
 export const metadata: Metadata = { title: "Painel do admin" };
 
@@ -19,7 +20,7 @@ const fmt = new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "s
 export default async function AdminHome({ searchParams }: { searchParams: Promise<{ vestibular?: string }> }) {
   await requireAdmin();
   const { vestibular } = await searchParams;
-  const board = vestibular === "ENEM" || vestibular === "UFPR" ? vestibular : null;
+  const board = parseBoard(vestibular);
   const { data } = await (await createClient()).rpc("admin_overview", { p_board: board });
   const rows = (data ?? []) as Row[];
 

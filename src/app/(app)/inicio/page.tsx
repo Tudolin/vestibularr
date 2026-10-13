@@ -24,7 +24,8 @@ export default async function InicioPage() {
   // conta nova (cadastro público) passa primeiro pelo onboarding
   if (user.role === "student" && user.preferences.onboarded !== true) redirect("/onboarding");
   const supabase = await createClient();
-  const [open, errors, stats, triagens, { data: ov }, { data: daily }, { data: treasure }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview"), supabase.rpc("daily_status"), supabase.rpc("treasure_week")]);
+  const [open, errors, stats, triagens, { data: ov }, { data: daily }, { data: treasure }, { data: prof }] = await Promise.all([listOpenAttempts(1), dueErrorsCount(), getStats(null, null), listTriagens(), supabase.rpc("social_overview"), supabase.rpc("daily_status"), supabase.rpc("treasure_week"), supabase.from("profiles").select("target_boards").eq("id", user.id).maybeSingle()]);
+  const onlyConcurso = (prof?.target_boards ?? []).length > 0 && (prof?.target_boards as string[]).every((b) => b === "CONCURSO");
   const social = ov as Overview | null;
   const nudge = social?.boosts.find((b) => b.kind === "empurrao"); // a RPC já traz só os dos últimos 3 dias
   const leaguePos = social?.league ? social.league.members.findIndex((m) => m.id === social.me.id) + 1 : 0;
@@ -44,7 +45,7 @@ export default async function InicioPage() {
       {daily && <DailyCard s={daily as DailyStatus} />}
       {treasure && <TreasureMap w={treasure as TreasureWeek} />}
 
-      {!triagemDone && (
+      {!triagemDone && !onlyConcurso && (
         <Card className="flex flex-col gap-4 border-primary bg-primary-soft p-5 text-primary-soft-foreground sm:flex-row sm:items-center">
           <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground"><Compass aria-hidden /></span>
           <div className="flex-1">

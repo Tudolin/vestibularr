@@ -425,3 +425,22 @@ begin
   insert into public.daily_challenges (user_id, day, attempt_id, boss_question, focus_topic) values (uid, today, v_id, v_boss, v_weak);
   return v_id;
 end $$;
+
+-- ---------------------------------------------------------------- resumo das provas (tela de simulados)
+-- Quantas questões o aluno faz (comuns + uma língua) e quais línguas a prova oferece.
+create or replace function public.exam_summaries()
+returns table (exam_id uuid, questions int, languages text[])
+language sql stable security invoker set search_path = public as $$
+  select s.exam_id,
+         (s.common + case when s.n_lang > 0 then s.with_lang / s.n_lang else 0 end)::int,
+         s.langs
+    from (select eq.exam_id,
+                 count(*) filter (where q.language is null) common,
+                 count(*) filter (where q.language is not null) with_lang,
+                 count(distinct q.language) n_lang,
+                 coalesce(array_agg(distinct q.language) filter (where q.language is not null), '{}') langs
+            from public.exam_questions eq join public.questions q on q.id = eq.question_id and q.is_active
+           group by eq.exam_id) s
+$$;
+revoke execute on function public.exam_summaries() from public, anon;
+grant execute on function public.exam_summaries() to authenticated;

@@ -11,6 +11,7 @@ import type { Facets } from "@/lib/attempts/queries";
 import { needsInternet } from "@/lib/use-online";
 import { cn } from "@/lib/utils";
 import { createExportAction } from "./actions";
+import { BOARD_LABEL, BOARDS, type Board } from "@/lib/boards";
 
 const AREA_LABEL: Record<string, string> = { linguagens: "Linguagens", humanas: "Humanas", natureza: "Natureza", matematica: "Matemática" };
 
@@ -34,7 +35,7 @@ export function ExportForm({ facets, maxSize, attempts, errorsCount, initialAtte
   const [source, setSource] = useState<"banco" | "erros" | "tentativa">(initialAttempt ? "tentativa" : "banco");
   const [attempt, setAttempt] = useState(initialAttempt ?? attempts[0]?.id ?? "");
   const [onlyWrong, setOnlyWrong] = useState(true);
-  const [board, setBoard] = useState<"" | "ENEM" | "UFPR">("");
+  const [board, setBoard] = useState<"" | Board>("");
   const [areas, setAreas] = useState<string[]>([]);
   const [subjects, setSubjects] = useState<string[]>([]);
   const [count, setCount] = useState(Math.min(20, maxSize));
@@ -91,10 +92,10 @@ export function ExportForm({ facets, maxSize, attempts, errorsCount, initialAtte
       {source === "banco" && (
         <>
           <fieldset className="grid gap-2">
-            <legend className="mb-1 text-sm font-bold">Vestibular</legend>
+            <legend className="mb-1 text-sm font-bold">Vestibular ou concurso</legend>
             <div className="flex flex-wrap gap-2">
-              {(["", "ENEM", "UFPR"] as const).map((b) => (
-                <Chip key={b || "all"} role="radio" on={board === b} onClick={() => { setBoard(b); setAreas([]); setSubjects([]); }}>{b || "Todos"}</Chip>
+              {(["", ...BOARDS] as const).map((b) => (
+                <Chip key={b || "all"} role="radio" on={board === b} onClick={() => { setBoard(b); setAreas([]); setSubjects([]); }}>{b ? BOARD_LABEL[b] : "Todos"}</Chip>
               ))}
             </div>
           </fieldset>

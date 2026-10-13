@@ -6,12 +6,13 @@ import { Suspense } from "react";
 import { BoardFilter } from "@/components/performance/board-filter";
 import { PerformanceDashboard } from "@/components/performance/dashboard";
 import { Skeleton } from "@/components/ui/skeleton";
+import { parseBoard } from "@/lib/boards";
 
 export const metadata: Metadata = { title: "Desempenho" };
 
 export default async function DesempenhoPage({ searchParams }: { searchParams: Promise<{ vestibular?: string }> }) {
   const { vestibular } = await searchParams;
-  const board = vestibular === "ENEM" || vestibular === "UFPR" ? vestibular : null;
+  const board = parseBoard(vestibular);
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-wrap items-end justify-between gap-3">

@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { requireAdmin } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { parseBoard } from "@/lib/boards";
 
 export const metadata: Metadata = { title: "Aluno (admin)" };
 const fmt = new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short", timeZone: "America/Sao_Paulo" });
@@ -17,7 +18,7 @@ export default async function AdminAluno({ params, searchParams }: { params: Pro
   const { id } = await params;
   const { vestibular } = await searchParams;
   if (!/^[0-9a-f-]{36}$/i.test(id)) notFound();
-  const board = vestibular === "ENEM" || vestibular === "UFPR" ? vestibular : null;
+  const board = parseBoard(vestibular);
   const supabase = await createClient();
   const [{ data: p }, { data: logs }, { data: attempts }] = await Promise.all([
     supabase.from("profiles").select("full_name, email").eq("id", id).maybeSingle(),

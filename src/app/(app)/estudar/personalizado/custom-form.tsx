@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input, Label } from "@/components/ui/input";
 import type { Facets } from "@/lib/attempts/queries";
+import { BOARD_LABEL, BOARDS, type Board, LANGUAGE_LABEL, LANGUAGES, type Language } from "@/lib/boards";
 import { UFPR_2027_SUBJECTS } from "@/lib/scoring/ufpr";
 import { cn } from "@/lib/utils";
 import { startAttemptAction } from "../actions";
@@ -29,13 +30,13 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
   const router = useRouter();
   const [pending, start] = useTransition();
   const [mode, setMode] = useState<"custom" | "treino">(initialMode);
-  const [board, setBoard] = useState<"" | "ENEM" | "UFPR">("");
+  const [board, setBoard] = useState<"" | Board>("");
   const [areas, setAreas] = useState<string[]>([]);
   const [subjects, setSubjects] = useState<string[]>([]);
   const [topics, setTopics] = useState<string[]>([]);
   const [count, setCount] = useState(20);
   const [minutes, setMinutes] = useState<number | "">(60);
-  const [language, setLanguage] = useState<"ingles" | "espanhol">("ingles");
+  const [language, setLanguage] = useState<Language>("ingles");
   const [kind, setKind] = useState<"objective" | "discursive">("objective");
 
   const toggle = (set: (f: (v: string[]) => string[]) => void, v: string) => set((l) => (l.includes(v) ? l.filter((x) => x !== v) : [...l, v]));
@@ -45,12 +46,13 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
   const topicOpts = useMemo(() => inBoard(facets.topics).filter((t) => !subjects.length || (t.subject && subjects.includes(t.subject))), [facets, board, subjects]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function submit(extra: Record<string, unknown> = {}) {
+    const kinds = board === "" || board === "UFPR" ? [kind] : ["objective"];
     start(async () => {
       if (needsInternet("Montar um simulado novo")) return;
       const r = await startAttemptAction({
         mode, board: board || undefined, areas: areas.length ? areas : undefined, subjects: subjects.length ? subjects : undefined,
         topics: topics.length ? topics : undefined, count, minutes: mode === "custom" && minutes ? Number(minutes) : undefined, language,
-        kinds: [kind], ...extra,
+        kinds, ...extra,
       });
       if (r.ok) router.push(`/prova/${r.id}`);
       else toast.error(r.error);
@@ -98,22 +100,22 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
 
       <Card className="grid gap-5 p-5">
         <fieldset className="grid gap-2">
-          <legend className="mb-1 text-sm font-bold">Vestibular</legend>
+          <legend className="mb-1 text-sm font-bold">Vestibular ou concurso</legend>
           <div className="flex flex-wrap gap-2">
-            {(["", "ENEM", "UFPR"] as const).map((b) => (
-              <Chip key={b || "all"} on={board === b} onClick={() => { setBoard(b); setAreas([]); setSubjects([]); setTopics([]); }}>{b || "Todos"}</Chip>
+            {(["", ...BOARDS] as const).map((b) => (
+              <Chip key={b || "all"} on={board === b} onClick={() => { setBoard(b); setAreas([]); setSubjects([]); setTopics([]); if (b === "ENEM" && !["ingles", "espanhol"].includes(language)) setLanguage("ingles"); }}>{b ? BOARD_LABEL[b] : "Todos"}</Chip>
             ))}
           </div>
         </fieldset>
 
-        <fieldset className="grid gap-2">
+        {(board === "" || board === "UFPR") && <fieldset className="grid gap-2">
           <legend className="mb-1 text-sm font-bold">Questões</legend>
           <div className="flex flex-wrap gap-2">
             <Chip on={kind === "objective"} onClick={() => setKind("objective")}>Objetivas</Chip>
             <Chip on={kind === "discursive"} onClick={() => setKind("discursive")}>Discursivas (UFPR antigas)</Chip>
           </div>
           {kind === "discursive" && <p className="text-sm text-muted-foreground">Você escreve a resposta; no fim, a IA compara com o espelho oficial.</p>}
-        </fieldset>
+        </fieldset>}
 
         {areaOpts.length > 0 && (
           <fieldset className="grid gap-2">
@@ -147,13 +149,15 @@ export function CustomForm({ facets, initialMode }: { facets: Facets; initialMod
           )}
         </div>
 
-        {board !== "UFPR" && (
+        {board !== "CONCURSO" && (
           <fieldset className="grid gap-2">
-            <legend className="mb-1 text-sm font-bold">Língua estrangeira (ENEM)</legend>
-            <div className="flex gap-2">
-              <Chip on={language === "ingles"} onClick={() => setLanguage("ingles")}>Inglês</Chip>
-              <Chip on={language === "espanhol"} onClick={() => setLanguage("espanhol")}>Espanhol</Chip>
+            <legend className="mb-1 text-sm font-bold">Língua estrangeira</legend>
+            <div className="flex flex-wrap gap-2">
+              {(board === "ENEM" ? LANGUAGES.slice(0, 2) : LANGUAGES).map((l) => (
+                <Chip key={l} on={language === l} onClick={() => setLanguage(l)}>{LANGUAGE_LABEL[l]}</Chip>
+              ))}
             </div>
+            {board !== "ENEM" && <p className="text-sm text-muted-foreground">O ENEM tem só inglês e espanhol; a UFPR tem as sete.</p>}
           </fieldset>
         )}
 

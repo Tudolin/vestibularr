@@ -1,0 +1,634 @@
+{
+ "items": [
+  {
+   "external_id": "ufpr-tae-2024-401-q31",
+   "correct": "B",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Resíduos de serviços de saúde",
+   "explanation_md": "Na RDC Anvisa 222/2018, carcaças, peças anatômicas e vísceras de animais **não submetidos** a experimentação com inoculação de microrganismos entram no **subgrupo A4**. Esses resíduos não têm risco infeccioso relevante, então:\n\n- são acondicionados em **saco branco leitoso**, com o símbolo de risco biológico;\n- **dispensam tratamento prévio** e podem ir direto para disposição final ambientalmente adequada, como o **aterro sanitário** licenciado.\n\nJá os animais **inoculados** com microrganismos (subgrupo A2) precisam de tratamento antes da disposição final.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O saco **vermelho** é reservado a resíduos do grupo A que exigem tratamento antes da disposição final. Não é o caso dos animais não inoculados.\n- C) O saco branco leitoso está certo, mas a incineração ou outro tratamento obrigatório vale para as carcaças de animais **inoculados** (A2), não para as de A4.\n- D) A identificação deve ser feita no próprio saco ou recipiente, com o símbolo da norma. Uma \"etiqueta colada\" com orientação de destino não é o que a resolução estabelece.\n- E) A resolução não determina esse acondicionamento das forrações em sacos separados com o mesmo critério das carcaças.\n\n**Para lembrar:** animal **inoculado** (A2) → precisa de tratamento. Animal **não inoculado** (A4) → saco branco leitoso, sem tratamento prévio, aterro licenciado."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q32",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Princípio dos 3Rs",
+   "explanation_md": "O Princípio dos 3Rs (Russell e Burch, 1959) orienta o uso ético de animais em pesquisa:\n\n- **Replacement (substituição):** trocar animais por métodos alternativos (cultivo celular, modelos computacionais etc.);\n- **Reduction (redução):** usar o menor número de animais possível, com bom delineamento e cálculo amostral;\n- **Refinement (refinamento):** melhorar procedimentos, manejo e **condições de alojamento** para reduzir dor e estresse e promover o bem-estar.\n\nAdequar a **arquitetura das instalações** às necessidades da espécie (espaço, enriquecimento, ambiente controlado) é uma medida de **refinamento**.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Substituir animais por métodos alternativos é **Replacement** (substituição).\n- B) Incentivar o reuso sequencial de animais não é princípio dos 3Rs. O reuso é limitado justamente por causa do bem-estar animal.\n- C) Planejar a produção para evitar descarte desnecessário diminui o número de animais usados: é **redução**.\n- E) Cálculo estatístico do tamanho amostral é o exemplo clássico de **Reduction** (redução).\n\n**Para lembrar:** Substituir = não usar animal. Reduzir = usar menos animais. Refinar = tratar melhor os animais (menos dor, mais bem-estar)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q33",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Legislação CONCEA",
+   "explanation_md": "A Resolução Normativa Concea 58/2023 **proíbe o uso de animais vertebrados (exceto humanos)** em pesquisa científica, desenvolvimento e controle de qualidade de **produtos de higiene pessoal, cosméticos e perfumes** que usem **ingredientes ou compostos com segurança e eficácia já comprovadas** cientificamente. Se a segurança já é conhecida, testar em animais não se justifica. Para esses casos devem ser usados métodos alternativos reconhecidos.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O desenvolvimento de medicamentos pode usar animais, com aprovação da CEUA, inclusive em procedimentos de grau de invasividade alto, desde que justificados e com controle de dor. A RN 58 não trata desse caso.\n- B) O uso de animais em **atividades didáticas** não é proibido pela RN 58. Ele é regulamentado, com preferência por métodos alternativos.\n- D) A existência de tratamento padrão não proíbe pesquisa de novos medicamentos com animais.\n- E) A pesquisa básica em fisiologia animal é permitida, desde que aprovada pela CEUA.\n\n**Para lembrar:** RN Concea 58/2023 = fim dos testes em animais para cosméticos, perfumes e produtos de higiene com ingredientes de segurança e eficácia já comprovadas."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q34",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Legislação CONCEA",
+   "explanation_md": "A RN Concea 49/2021 exige que todo o pessoal que trabalha com animais em ensino ou pesquisa tenha **capacitação** comprovada, inclusive em ética no uso de animais. A comprovação é feita com documentos de **formação ou treinamento**, por exemplo:\n\n- certificado de curso ou treinamento (presencial ou a distância);\n- comprovação de ter **ministrado** curso na área;\n- disciplina cursada na graduação ou na pós-graduação sobre o tema.\n\nNo caso, os pesquisadores 2, 3, 4 e 5 apresentaram cursos, treinamento, curso ministrado e disciplina, todos dentro do prazo de validade da capacitação. A **Pesquisadora 1** apresentou um **artigo científico** com experimentos na espécie. Publicar um artigo mostra que ela fez pesquisa, mas **não comprova capacitação** em ética nem em manejo. Ela precisa apresentar outro documento.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Um curso de Manipulação Animal é um tipo de capacitação aceito.\n- C) Um treinamento presencial específico na espécie é aceito.\n- D) Ter ministrado um curso na área comprova domínio do conteúdo e é aceito.\n- E) Uma disciplina de graduação sobre ética em experimentação animal é aceita.\n\n**Para lembrar:** a capacitação se comprova com formação (curso, treinamento, disciplina, docência), e não com produção científica."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q35",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Biotério e instalações",
+   "explanation_md": "As normas do Concea para instalações de roedores e lagomorfos (Guia Brasileiro de Produção, Manutenção ou Utilização de Animais em Atividades de Ensino ou Pesquisa Científica) tratam como **obrigatórios** itens ligados diretamente ao bem-estar e à fisiologia dos animais. Entre eles:\n\n- **enriquecimento ambiental** (ninhos, abrigos, material para roer), que permite comportamentos naturais da espécie;\n- **controle do fotoperíodo** (ciclo claro/escuro, geralmente 12 h/12 h), essencial para o ritmo circadiano, a reprodução e a padronização dos experimentos.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Separar salas por espécie é recomendado, mas um \"depósito específico para medicamentos\" não está entre os critérios obrigatórios citados.\n- B) Freezer para carcaças e sala exclusiva de eutanásia são recomendáveis, mas não obrigatórios em todas as instalações.\n- C) Guardar ração e forração longe do piso e das paredes é boa prática, mas o **grupo gerador próprio** não é exigido como critério obrigatório.\n- D) POPs são importantes, mas **controle genético** se aplica a biotérios de **produção** de linhagens, não a toda instalação de roedores e lagomorfos.\n\n**Para lembrar:** bem-estar animal nas instalações = ambiente enriquecido + condições controladas (luz, temperatura, umidade, ventilação)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q36",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Biossegurança em biotério",
+   "explanation_md": "Os alérgenos de roedores e coelhos (proteínas da urina, da saliva, da caspa e dos pelos) ficam **suspensos no ar**, presos a partículas de poeira e de forração. A via de exposição mais importante é a **inalação**. Por isso, entre as alternativas, a medida que protege o trabalhador mais diretamente é o uso de **EPIs adequados**: máscaras ou respiradores (como PFF2/N95), além de luvas, avental e touca, que impedem o contato e a inalação.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Limpeza regular reduz o acúmulo de poeira e pelos e ajuda, mas não impede a inalação durante o manejo, quando a exposição é maior.\n- B) Desinfetantes eliminam **microrganismos**. Alérgenos são proteínas, não agentes infecciosos, então desinfetar não resolve.\n- D) Armazenar a ração em recipientes herméticos protege o alimento contra pragas e contaminação. Não é a principal fonte dos alérgenos, que vêm dos próprios animais.\n- E) Manusear com cuidado é boa prática, mas não evita a liberação de alérgenos pela urina, pelos e pela forração.\n\n**Para lembrar:** alergia a animais de laboratório é doença ocupacional comum. O principal é evitar a inalação: proteção respiratória e uso de cabines e estantes ventiladas."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q37",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Sistemas de acasalamento",
+   "explanation_md": "Ratos **Wistar** são uma linhagem **heterogênica** (*outbred*): o objetivo é manter a variabilidade genética e **evitar a consanguinidade**. O **Método Poiley** é um sistema de acasalamento **rotacional**:\n\n- a colônia é dividida em grupos de **casais permanentes** (monogâmicos);\n- os reprodutores da geração seguinte são formados cruzando a prole de **casais de grupos diferentes**, num esquema de rodízio;\n- assim, irmãos nunca acasalam entre si e a consanguinidade fica mínima.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Acasalar irmãos para manter a **isogenia** é o sistema de linhagens **isogênicas** (*inbred*), o oposto do que se quer com Wistar.\n- B) Também é acasalamento entre irmãos, que aumenta a consanguinidade.\n- C) Um macho com várias fêmeas é sistema **poligâmico** (harém), não monogâmico.\n- D) Trocar de fêmea a cada ciclo não é monogamia permanente nem descreve o rodízio de Poiley.\n\n**Para lembrar:** linhagem *outbred* (Wistar, Swiss) → acasalamentos rotacionais (Poiley, Falconer) para manter a heterogeneidade. Linhagem *inbred* (BALB/c, C57BL/6) → acasalamento entre irmãos para manter a isogenia."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q38",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Manejo de roedores",
+   "explanation_md": "Nos primeiros dias de vida (dias pós-natais 1 a 3), ratos e camundongos ainda não têm características sexuais externas visíveis. O método usado é a **distância anogenital**, isto é, a distância entre o ânus e a papila genital:\n\n- nos **machos**, ela é **maior** (cerca de duas vezes a das fêmeas) e a papila genital é mais saliente;\n- nas **fêmeas**, ela é **menor**, com a papila genital bem próxima ao ânus.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Os mamilos das fêmeas só ficam visíveis por volta do 9º ao 12º dia, quando o pelo ainda é ralo, e não nos dias 1 a 3.\n- C) Os testículos descem para o saco escrotal só por volta da 3ª ou 4ª semana de vida.\n- D) A exteriorização do pênis ocorre na puberdade (separação prepucial).\n- E) A abertura vaginal também é sinal de puberdade, por volta de 4 a 5 semanas de idade.\n\n**Para lembrar:** neonato → distância anogenital (maior no macho). Mamilos, testículos e abertura vaginal aparecem só depois."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q39",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Vias de administração",
+   "explanation_md": "Considerando **só o bem-estar animal** em administrações repetidas, a melhor via é a **oral, misturando a substância na água ou no alimento**:\n\n- não exige contenção do animal nem perfuração da pele;\n- não causa dor nem lesão no local de aplicação;\n- o animal ingere a substância espontaneamente, sem o estresse do manuseio diário.\n\nA desvantagem, que a questão manda deixar de lado, é o menor controle da dose exata ingerida.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A intraperitoneal é injetável, exige contenção e tem risco de perfurar vísceras e causar peritonite. Repetida, acumula dano.\n- B) A intramuscular é dolorosa, sobretudo em roedores, que têm pouca massa muscular, e pode causar lesão e necrose.\n- C) O cateter venoso é invasivo, exige cirurgia ou contenção e tem risco de infecção e trombose.\n- E) A subcutânea é a menos invasiva das injetáveis, mas continua exigindo contenção e picadas repetidas.\n\n**Para lembrar:** do ponto de vista do bem-estar, quanto menos invasiva e quanto menos contenção, melhor. A via oral voluntária (água ou ração) fica em primeiro lugar."
+  },
+  {
+   "external_id": "ufpr-tae-2024-401-q40",
+   "correct": "B",
+   "subject": "Técnico de Laboratório (Biologia)",
+   "topic": "Eutanásia animal",
+   "explanation_md": "A Diretriz da Prática de Eutanásia do Concea (anexo da RN 37/2018) e as normas do Conselho Federal de Medicina Veterinária tratam a eutanásia como procedimento de **responsabilidade do médico veterinário**. Ela pode ser **realizada por ele ou por pessoa devidamente treinada**, desde que sob **supervisão do médico veterinário**. Essa supervisão pode ser **presencial ou não**: o veterinário responde pelo procedimento, mas não precisa estar fisicamente ao lado em cada eutanásia.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A eutanásia não é exclusiva do veterinário: pessoas treinadas também podem executá-la, sob supervisão dele.\n- C) A alternativa dispensa a supervisão para pesquisadores. A norma exige supervisão veterinária para qualquer pessoa treinada que não seja veterinária.\n- D) A norma não recomenda que seja \"sempre o mesmo\" executor. Há até preocupação com o desgaste emocional (fadiga por compaixão) de quem faz o procedimento repetidamente.\n- E) Também dispensa a supervisão veterinária fora do caso de substâncias controladas, o que não corresponde à norma.\n\n**Para lembrar:** eutanásia em animais de laboratório = responsabilidade do médico veterinário. A execução pode ser feita por pessoa capacitada, sob supervisão dele (presencial ou não)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q31",
+   "correct": "B",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Interferentes pré-analíticos",
+   "explanation_md": "Na hemólise, as hemácias se rompem e liberam seu conteúdo no soro ou plasma. Ficam **falsamente elevados** os analitos que estão muito **mais concentrados dentro da hemácia** do que fora dela:\n\n- **potássio**: a concentração intracelular é cerca de 25 vezes maior que a do plasma;\n- **magnésio**: também é predominantemente intracelular;\n- **LDH** e **AST**: são enzimas abundantes no citoplasma das hemácias.\n\nA **glicose** não aumenta com a hemólise. A concentração dela dentro da hemácia é semelhante ou menor que a do plasma, e as células continuam consumindo glicose (glicólise). Se houver alteração, tende a ser para **menos**, por diluição ou por interferência no método, e não para mais.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O potássio é o exemplo clássico de falsa hipercalemia por hemólise.\n- C) A AST existe nas hemácias e sobe com a hemólise.\n- D) O magnésio é intracelular e sobe com a hemólise.\n- E) A LDH é muito abundante nas hemácias e é um dos marcadores mais sensíveis de hemólise.\n\n**Para lembrar:** hemólise aumenta K⁺, Mg²⁺, fosfato, ferro, LDH e AST (tudo o que é \"de dentro\" da hemácia). A glicose não entra nessa lista."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q32",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Citometria e fluorescência",
+   "explanation_md": "O **laser de íon argônio** usado em citômetros de fluxo, contadores hematológicos e microscópios confocais emite sua linha principal em **488 nm** (luz azul). Esse comprimento de onda serve para excitar vários fluorocromos ao mesmo tempo:\n\n- **FITC**: excitação máxima em cerca de 495 nm, emite no verde;\n- **PE** (ficoeritrina): emite no laranja;\n- **PerCP**: emite no vermelho;\n- **Iodeto de Propídeo** e **7-AAD/Actinomicina D**: corantes de DNA, também excitados em 488 nm.\n\nPor isso o laser azul de 488 nm é o \"laser padrão\" da citometria.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 360 nm fica no ultravioleta e é usado para corantes como DAPI e Hoechst.\n- B) 405 nm é a linha do laser **violeta** (diodo).\n- C) 407 nm é outra linha violeta (laser de criptônio), não a principal do argônio.\n- E) 595 nm fica na faixa amarelo-laranja e não corresponde à linha principal do argônio.\n\n**Para lembrar:** argônio = 488 nm (azul) → FITC, PE, PerCP, PI. Violeta = 405 nm. Vermelho (HeNe) = 633 nm."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q33",
+   "correct": "B",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Hematologia na dengue",
+   "explanation_md": "Achados do hemograma na dengue:\n\n- **plaquetopenia (trombocitopenia)**: o achado mais característico;\n- **leucopenia**, com **linfócitos atípicos** (atipia linfocitária, por estimulação viral);\n- **aumento do hematócrito / volume globular**: reflete o extravasamento de plasma, marca da forma grave;\n- a linfopenia pode ocorrer na fase aguda.\n\nO gabarito oficial aponta **hemoconcentração** como a exceção. A leitura possível da banca: hemoconcentração não é uma **determinação** feita pelo hemograma, e sim uma **interpretação clínica** do aumento do hematócrito (\"volume globular\"). Ou seja, o hemograma mede o volume globular; \"hemoconcentração\" é a conclusão que se tira dele.\n\nAtenção: essa distinção é discutível. Na prática e nos manuais do Ministério da Saúde, \"hemoconcentração\" é citada justamente como manifestação laboratorial da dengue grave identificada no hemograma, pelo hematócrito. A questão é polêmica.\n\n**Resposta: B**\n\n**Por que não as outras (pela lógica da banca):**\n- A) O volume globular (hematócrito) é parâmetro do hemograma e se eleva na dengue grave.\n- C) A linfopenia pode aparecer na fase aguda da infecção.\n- D) Linfócitos atípicos são comuns e vistos no esfregaço.\n- E) A trombocitopenia é o achado mais típico.\n\n**Para lembrar:** na dengue, o hemograma de controle acompanha o **hematócrito** (subida = extravasamento plasmático) e as **plaquetas** (queda). São os dois parâmetros que guiam a classificação de gravidade."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q34",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Hemostasia",
+   "explanation_md": "A **prova do laço** (teste do torniquete) avalia a **fragilidade capilar** e a tendência a sangramento. Como se faz:\n\n- insufla-se o manguito do esfigmomanômetro no ponto médio entre a pressão sistólica e a diastólica (5 minutos em adultos, 3 em crianças);\n- depois, contam-se as **petéquias** num quadrado de 2,5 cm × 2,5 cm no antebraço;\n- é positiva com **20 ou mais** petéquias em adultos (10 ou mais em crianças).\n\nÉ recomendada pelo Ministério da Saúde na avaliação de casos suspeitos de dengue sem sangramento espontâneo.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O TAP avalia a via **extrínseca** da coagulação (fatores II, V, VII, X). Não mede fragilidade capilar.\n- B) O TTPa avalia a via **intrínseca** (fatores VIII, IX, XI, XII).\n- D) Os PDF indicam **fibrinólise** (por exemplo, na CIVD).\n- E) O D-dímero também indica degradação de fibrina (trombose ou CIVD).\n\n**Para lembrar:** vaso frágil → prova do laço. Fatores de coagulação → TAP/TTPa. Fibrinólise → PDF e D-dímero."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q35",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Resíduos de serviços de saúde",
+   "explanation_md": "Pelas imagens da prova, os símbolos das alternativas são:\n\n- A) radioativo (trifólio);\n- B) inflamável (chama);\n- C) oxidante (chama sobre círculo);\n- D) corrosivo (líquido corroendo mão e superfície);\n- E) **risco biológico / infectante** (três círculos entrelaçados).\n\nAgulhas usadas são **perfurocortantes**, do **Grupo E** da RDC 222/2018. O coletor de paredes rígidas (tipo \"Descarpack\") deve trazer o **símbolo de substância infectante** (risco biológico), com rótulo de fundo branco, desenho e contornos pretos, e a inscrição \"RESÍDUO PERFUROCORTANTE\". Afinal, a agulha está contaminada com sangue e fluidos.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O símbolo radioativo identifica o **Grupo C** (rejeitos radioativos).\n- B) O símbolo de inflamável é usado para resíduos químicos (**Grupo B**) com essa característica.\n- C) O símbolo de oxidante também é de risco químico (Grupo B).\n- D) O símbolo de corrosivo também é de risco químico (Grupo B).\n\n**Para lembrar:** grupos A (biológico) e E (perfurocortante) → símbolo de risco biológico. Grupo B → símbolos de risco químico. Grupo C → trifólio radioativo. Grupo D → comum/reciclável."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q36",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Bioquímica e eletrólitos",
+   "explanation_md": "**Equivalente** leva em conta a **carga** do íon: 1 equivalente = massa atômica (ou molar) ÷ valência. Em escala de laboratório:\n\n- **1 mEq** = peso atômico (em mg) ÷ valência\n- mEq/L = (mg/L × valência) ÷ peso atômico\n\nExemplo: K⁺ tem peso atômico 39 e valência 1, então 1 mEq de K⁺ = 39 mg. Ca²⁺ tem peso atômico 40 e valência 2, então 1 mEq = 20 mg.\n\nOu seja, o resultado em mEq/L vem da relação entre **peso atômico (em mg) e valência**.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Mols de soluto ÷ mols da solução é a **fração molar**.\n- B) Mols de soluto ÷ massa do solvente (kg) é a **molalidade** (mol/kg).\n- D) Partes de soluto em 100 partes da solução é a **porcentagem**.\n- E) Partes de soluto em 10⁶ partes da solução é **ppm**.\n\n**Para lembrar:** mEq = mmol × valência. Para íons monovalentes (Na⁺, K⁺, Cl⁻), mEq/L = mmol/L. Para bivalentes (Ca²⁺, Mg²⁺), mEq/L = 2 × mmol/L."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q37",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Biologia molecular (PCR)",
+   "explanation_md": "Zika, dengue e chikungunya são vírus de **RNA**. A DNA polimerase da PCR só copia **DNA**. Por isso, na **RT-qPCR**, o primeiro passo é a **transcrição reversa**: a enzima transcriptase reversa usa o RNA viral como molde e produz **DNA complementar (cDNA)**. Só então a PCR em tempo real amplifica esse cDNA e detecta a fluorescência a cada ciclo.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Os nucleotídeos da PCR são **trifosfatados** (dNTPs: dATP, dCTP, dGTP, dTTP). A energia da ligação vem da quebra do trifosfato. Difosfatados não servem.\n- B) Na PCR em **tempo real**, a detecção é feita durante a reação, por fluorescência. O gel de agarose é a etapa da PCR **convencional**.\n- C) A transcriptase reversa estende o **primer** a partir da sua extremidade 3'-OH livre, usando **RNA** como molde, e não DNA.\n- E) As sondas (por exemplo, TaqMan) são **oligonucleotídeos** de cerca de 20 a 30 bases, marcados com fluoróforo e quencher, e não \"dinucleotídeos\". Além disso, o kit é **qualitativo**: detecta presença ou ausência, não quantifica.\n\n**Para lembrar:** RT = RNA → cDNA (transcriptase reversa). q = tempo real, com fluorescência a cada ciclo. Vírus de RNA exigem RT antes da PCR."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q38",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Equipamentos de laboratório",
+   "explanation_md": "A chama do bico de Bunsen tem regiões distintas:\n\n- **zona interna (redutora)**: cone azul-claro junto à boca do tubo, mais fria, com gás ainda não queimado por completo;\n- **zona externa (oxidante)**: tem excesso de oxigênio do ar, combustão completa e é a **mais quente**, passando de **1500 °C** (cerca de 1500 a 1600 °C).\n\nPor isso a alternativa A está correta.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) A chama **azul** resulta da combustão **completa** do gás. As partículas de carbono incandescente (fuligem) produzem a chama **amarela**, de combustão incompleta.\n- C) A chama amarela, por ser de combustão incompleta, produz **monóxido de carbono** e fuligem. O CO₂ é o produto da combustão completa.\n- D) Na prática, a vazão de gás influencia o tamanho da chama. A banca, porém, considerou a alternativa errada, provavelmente porque a característica da chama depende da regulagem conjunta de gás e de ar (pelo anel ou janela de ar), e não só do gás. É uma alternativa discutível.\n- E) O combustível é gás natural ou GLP: **só hidrocarbonetos** (metano, propano, butano). O oxigênio vem do ar, que entra pela janela lateral.\n\n**Para lembrar:** janela de ar aberta → chama azul, quente e limpa (combustão completa). Janela fechada → chama amarela, fria e com fuligem (combustão incompleta)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q39",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Parasitologia",
+   "explanation_md": "Identificando cada ovo pela imagem:\n\n1. **Ovo oval e claro, com membrana externa fina e embrião (oncosfera) no centro, separado por um espaço**: típico de *Hymenolepis nana*, que tem filamentos polares nesse espaço.\n2. **Ovo esférico, escuro, de casca grossa e estriada radialmente (embrióforo)**, com embrião hexacanto: *Taenia* sp.\n3. **Ovo arredondado, de casca grossa e mamilonada (rugosa) e cor acastanhada**: *Ascaris lumbricoides* (fértil, com a camada mamilonada).\n4. **Ovo elíptico, de casca fina e lisa, com blastômeros (massa segmentada) dentro**: ancilostomídeo.\n5. **Ovo grande, alongado, com espículo (espinho) lateral**: *Schistosoma mansoni*.\n\nSequência: *H. nana*, *Taenia*, *Ascaris*, ancilostomídeo, *S. mansoni*.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Erra o 1 (não tem a casca de ancilostomídeo), o 2 (Taenia não é Ascaris descorticado) e o 4 (Fasciola tem opérculo e é bem maior).\n- C) Erra o 1, o 4 e o 5. O ovo de *Fasciola* não tem espículo lateral.\n- D) Erra o 4. *Enterobius* tem ovo assimétrico, com um lado achatado (\"letra D\"), e quase nunca aparece em exame de fezes por sedimentação: o diagnóstico é pela fita adesiva (método de Graham).\n- E) Erra 1, 2 e 3.\n\n**Para lembrar:** espículo lateral = *S. mansoni*. Casca estriada radialmente = *Taenia*. Casca mamilonada = *Ascaris*. Casca fina com blastômeros = ancilostomídeo. Oncosfera com espaço claro e filamentos = *H. nana*."
+  },
+  {
+   "external_id": "ufpr-tae-2024-402-q40",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Análises Clínicas)",
+   "topic": "Controle de qualidade",
+   "explanation_md": "Num gráfico de Levey-Jennings, os limites de aceitação do controle são definidos pela **média ± desvios-padrão**. Com nível de significância de 5% (bicaudal), cerca de 95% dos valores ficam dentro de **média ± 2 DP** (o valor exato de z é 1,96, arredondado para 2 na rotina de CQ, a \"regra 1-2s\" de Westgard).\n\n- média = 77,70 mg/dL\n- DP = 1,19 mg/dL\n- 2 × DP = 2,38\n- limite inferior = 77,70 − 2,38 = **75,32 mg/dL**\n- limite superior = 77,70 + 2,38 = **80,08 mg/dL**\n\n**Resposta: E**\n\n**Observação:** com z = 1,96 o intervalo seria 77,70 ± 2,33 = 75,37 a 80,03 mg/dL. Nenhuma alternativa traz esse valor, então a banca usou o arredondamento para 2 DP. Rigorosamente, o \"intervalo de confiança\" da média usaria o EPM (77,70 ± 1,96 × 0,109). O que a questão calcula é o intervalo de dispersão dos resultados.\n\n**Por que não as outras:**\n- A) Centro em 78,595, não na média 77,70. Além disso, é largo demais.\n- B) Também centrado em 78,595, fora da média.\n- C) Também centrado em 78,595, fora da média.\n- D) Está centrado na média, mas a meia-largura é 2,82 (cerca de 2,37 DP), o que não corresponde a 95%.\n\n**Para lembrar:** média ± 1 DP ≈ 68%; ± 2 DP ≈ 95%; ± 3 DP ≈ 99,7%. No Levey-Jennings, 2 DP é o limite de alerta e 3 DP é o de rejeição."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q31",
+   "correct": "D",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Características qualitativas",
+   "explanation_md": "A Estrutura Conceitual (NBC TG Estrutura Conceitual / CPC 00) divide as características qualitativas da informação contábil em dois grupos:\n\n- **Fundamentais:** relevância e representação fidedigna;\n- **De melhoria:** comparabilidade, verificabilidade, **tempestividade** e compreensibilidade.\n\n**Tempestividade** significa ter a informação disponível **a tempo** de influenciar as decisões dos usuários. Quando a Algar Telecom não consegue divulgar as demonstrações no prazo legal, a informação chega atrasada ao mercado e perde utilidade. É a característica de melhoria contrariada.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Representação fidedigna é característica **fundamental**, não de melhoria. Ela até motivou a apuração, que busca corrigir os lançamentos, mas o problema citado é o atraso.\n- B) Compreensibilidade é apresentar a informação de forma clara e concisa. Não tem relação com prazo.\n- C) Verificabilidade é a possibilidade de observadores independentes chegarem a consenso sobre a informação.\n- E) Relevância é característica **fundamental**.\n\n**Para lembrar:** fundamentais = Relevância + Representação fidedigna. De melhoria = \"CVTC\": Comparabilidade, Verificabilidade, Tempestividade, Compreensibilidade."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q32",
+   "correct": "E",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Classificação de contas",
+   "explanation_md": "1. **Despesas pagas antecipadamente a apropriar** (seguros, assinaturas pagos adiantado): a empresa pagou, mas o benefício ainda vai ser consumido. É um direito, ou seja, **ativo** (circulante). Só vira despesa conforme o tempo passa, pelo regime de competência.\n2. **Provisões trabalhistas** (férias, 13º salário e encargos): são obrigações com os empregados, já incorridas e ainda não pagas. São **passivo**.\n3. **Empréstimos concedidos a sócios**: a empresa tem a **receber** dos sócios. É um direito, logo **ativo**. Pelo art. 179, II, da Lei 6.404/76, fica no **realizável a longo prazo** (ativo não circulante).\n\nSequência: ativo, passivo e ativo.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Classifica a despesa antecipada como despesa (ainda não é), a provisão como despesa (é passivo) e o empréstimo a sócio como passivo (é ativo).\n- B) A despesa antecipada não é despesa, e o empréstimo a sócio não é passivo.\n- C) Erra só a primeira: a despesa antecipada é ativo.\n- D) A despesa antecipada não é passivo. Seria passivo uma receita recebida antecipadamente, não uma despesa paga.\n\n**Para lembrar:** pagou antes de usar → ativo (despesa antecipada). Deve e ainda não pagou → passivo. Emprestou a sócio → ativo não circulante, mesmo que o prazo seja curto (Lei 6.404, art. 179, II)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q33",
+   "correct": "C",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Balanço patrimonial",
+   "explanation_md": "Separe só as contas do **ativo circulante**: direitos e bens realizáveis no curto prazo.\n\n- Caixa e equivalentes de caixa: 3.000 → AC\n- Adiantamento a fornecedores (curto prazo): 2.500 → AC (direito de receber mercadoria ou serviço)\n- Estoques: 4.500 → AC\n\nAC = 3.000 + 2.500 + 4.500 = **R$ 10.000,00**\n\nAs demais contas ficam fora do AC:\n- Ativo imobilizado (6.000) e Propriedades para investimento (2.000) → ativo **não circulante**;\n- Adiantamento de clientes (1.500) e Empréstimos a pagar (4.000) → **passivo** circulante;\n- Capital social, Reservas de lucros e Ajustes de avaliação patrimonial → **patrimônio líquido**.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 7.500 = caixa + estoques (3.000 + 4.500). Esquece o adiantamento a fornecedores.\n- B) 9.000 = caixa + estoques + adiantamento **de clientes** (1.500). Troca o adiantamento a fornecedores, que é ativo, pelo de clientes, que é passivo.\n- D) 11.000 inclui contas que não pertencem ao ativo circulante.\n- E) 12.000 = 10.000 + propriedades para investimento (2.000), que são ativo não circulante.\n\n**Para lembrar:** adiantamento **a fornecedores** = ativo (você pagou antes e vai receber). Adiantamento **de clientes** = passivo (você recebeu antes e deve entregar)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q34",
+   "correct": "B",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Ativo imobilizado",
+   "explanation_md": "Pela NBC TG 27 (Ativo Imobilizado) e pela NBC TG 28 (Propriedade para Investimento):\n\n- **Imobilizado** = bens tangíveis mantidos para **uso** na produção, no fornecimento de bens e serviços ou para **fins administrativos**, com uso esperado por mais de um período.\n- **Propriedade para investimento** = imóvel mantido para obter **renda de aluguel** e/ou **valorização do capital**.\n\nClassificando:\n1. Imóvel para aluguel a terceiros (90.000) → propriedade para investimento\n2. Depósito de mercadorias da loja (150.000) → **imobilizado**\n3. Imóvel para valorização e revenda (80.000) → propriedade para investimento\n4. Sede administrativa (200.000) → **imobilizado**\n\nAcréscimo no imobilizado: 150.000 + 200.000 = **R$ 350.000,00**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 280.000 = 200.000 + 80.000. Inclui o imóvel mantido para valorização e deixa de fora o depósito.\n- C) 430.000 = 150.000 + 200.000 + 80.000. Inclui o imóvel para valorização.\n- D) 440.000 = 150.000 + 200.000 + 90.000. Inclui o imóvel de aluguel.\n- E) 520.000 soma os quatro imóveis.\n\n**Para lembrar:** imóvel para **usar** → imobilizado. Imóvel para **alugar ou valorizar** → propriedade para investimento. Imóvel para vender no curso normal do negócio (imobiliária) → estoque."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q35",
+   "correct": "A",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Balanço patrimonial",
+   "explanation_md": "Equação patrimonial: **Ativo = Passivo circulante + Passivo não circulante + Patrimônio líquido**\n\n- Ativo = AC + ANC = 120.000 + 240.000 = 360.000\n- PL = 100.000\n- PNC = 2 × PL = 200.000\n- PC = 360.000 − 200.000 − 100.000 = **R$ 60.000,00**\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) 160.000 = 360.000 − 200.000. Esquece de descontar o PL.\n- C) 200.000 é o valor do **passivo não circulante**.\n- D) 210.000 não sai da equação patrimonial com os dados.\n- E) 260.000 = 360.000 − 100.000. Esquece de descontar o PNC.\n\n**Para lembrar:** Ativo total = Passivo total (PC + PNC) + PL. Ache primeiro o lado que você tem completo e isole a incógnita."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q36",
+   "correct": "E",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Demonstração dos fluxos de caixa",
+   "explanation_md": "A NBC TG 03 (DFC) separa os fluxos em três atividades:\n\n- **Operacionais**: as principais atividades geradoras de receita (vendas, pagamento a fornecedores, salários, impostos). No método indireto, entram aqui as **variações de capital de giro**, como o **aumento de fornecedores**.\n- **De investimento**: **aquisição e venda de ativos de longo prazo** (imobilizado, **intangível**, investimentos).\n- **De financiamento**: alterações no capital próprio e nos **empréstimos** da entidade (captação e **pagamento de empréstimos**, dividendos).\n\nClassificando os itens da Magazine Luiza:\n- Aquisição de ativo intangível → **investimento** ✓\n- Pagamento de empréstimos e financiamentos → financiamento\n- Aumento de fornecedores → operacional\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) A variação de fornecedores é atividade **operacional**.\n- B) O pagamento do principal de empréstimos é atividade de **financiamento**.\n- C) A compra de intangível é atividade de **investimento**, não de financiamento.\n- D) O pagamento de empréstimos é atividade de **financiamento**, não operacional.\n\n**Para lembrar:** operacional = giro do dia a dia; investimento = compra e venda de ativo não circulante; financiamento = sócios e credores de empréstimos."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q37",
+   "correct": "D",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Contabilidade pública",
+   "explanation_md": "Pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), **despesa orçamentária** é todo dispêndio que depende de **autorização legislativa** (está na Lei Orçamentária Anual) para ser realizado. Em linguagem mais simples, é o **conjunto de dispêndios realizados pelos entes públicos para o funcionamento e a manutenção dos serviços públicos prestados à sociedade**. Exemplos: pessoal, custeio, investimentos e juros da dívida.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) \"Fluxo previsto de ingressos e de aplicações de recursos em determinado período\" define o **orçamento** como um todo (receitas e despesas), não só a despesa.\n- B) Despesas cujo fato gerador ocorreu em exercícios anteriores ao do pagamento são as **Despesas de Exercícios Anteriores (DEA)**, um caso específico.\n- C) A baixa de obrigação de exercícios anteriores para restabelecer disponibilidade é o **cancelamento de restos a pagar** e outros ajustes. Não define a despesa orçamentária.\n- E) \"Despesas incrementais diretamente atribuíveis à venda de ativo, exceto despesas financeiras e tributos sobre a renda\" é a definição de **custos de venda** (CPC/NBC TSP sobre ativo mantido para venda).\n\n**Para lembrar:** despesa orçamentária = depende de autorização na lei orçamentária. Dispêndio extraorçamentário (por exemplo, devolução de caução) não depende dessa autorização."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q38",
+   "correct": "B",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Patrimônio líquido",
+   "explanation_md": "Monte o PL conta por conta:\n\n- Capital social subscrito: + 200.000\n- (−) Capital a integralizar: − 15.000 (os sócios ainda vão pagar)\n- = Capital realizado: 185.000\n- (−) Ações em tesouraria: − 30.000 (recompra de ações próprias, conta redutora)\n- (+) Reservas de lucros: + 40.000\n- (+) Ajuste de avaliação patrimonial (credor): + 10.000\n\nPL = 200.000 − 15.000 − 30.000 + 40.000 + 10.000 = **R$ 205.000,00**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 195.000 = 200 − 15 − 30 + 40. Esquece o ajuste de avaliação patrimonial credor (+10.000).\n- C) 235.000 esquece de descontar as ações em tesouraria (30.000).\n- D) 285.000 trata contas redutoras como se somassem ao PL.\n- E) 295.000 é a soma de todos os itens como positivos (200 + 30 + 40 + 10 + 15).\n\n**Para lembrar:** contas redutoras do PL: capital a integralizar, ações em tesouraria e prejuízos acumulados. O AAP pode ser credor (aumenta o PL) ou devedor (diminui)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q39",
+   "correct": "B",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Provisões",
+   "explanation_md": "Pela NBC TSP 03 (assim como pela NBC TG 25), quando a provisão envolve uma **grande população de itens**, a obrigação é estimada pelo **valor esperado**: cada resultado possível é ponderado pela sua probabilidade.\n\nResultados possíveis:\n- 40% dos alunos com direito à gratuidade → restituição de 30.000\n- 50% cobrados a maior → restituição de 10.000\n- 10% não afetados → restituição de 0\n\nValor esperado:\n- 0,40 × 30.000 = 12.000\n- 0,50 × 10.000 = 5.000\n- 0,10 × 0 = 0\n- Total = **R$ 17.000,00**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 10.000 é só o cenário \"todos pagantes cobrados a maior\".\n- C) 19.000 = 0,50 × 30.000 + 0,40 × 10.000. Inverte as probabilidades dos cenários.\n- D) 30.000 é só o cenário \"todos com gratuidade\", o pior caso.\n- E) 40.000 é a soma simples dos dois cenários, sem ponderar.\n\n**Para lembrar:** muitos itens → valor esperado (média ponderada pelas probabilidades). Obrigação única → resultado individual mais provável."
+  },
+  {
+   "external_id": "ufpr-tae-2024-403-q40",
+   "correct": "C",
+   "subject": "Técnico em Contabilidade",
+   "topic": "Contabilidade pública",
+   "explanation_md": "Na contabilidade pública, o IPTU segue o **regime de competência** no aspecto patrimonial:\n\n1. **No lançamento do tributo** (fato gerador): reconhece-se o direito e a variação patrimonial aumentativa (VPA).\n   - D – Créditos tributários a receber (ativo)\n   - C – VPA: impostos sobre o patrimônio e a renda\n2. **Na arrecadação** (pagamento pelo contribuinte): o dinheiro entra e o direito se extingue. É uma **permuta entre contas do ativo**.\n   - D – Caixa e equivalentes de caixa em moeda nacional\n   - C – Créditos tributários a receber\n\nA pergunta é sobre a **arrecadação** e o **registro patrimonial**, então a resposta é C.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) É o lançamento patrimonial do **reconhecimento** do crédito (fato gerador), não da arrecadação.\n- B) \"Receita realizada\" é conta de **controle orçamentário**, não patrimonial. E o crédito a receber precisa ser baixado.\n- D) \"Receita a realizar / receita realizada\" é o registro de natureza **orçamentária** da arrecadação.\n- E) É o registro de **controle** da disponibilidade por destinação de recursos (natureza de controle).\n\n**Para lembrar:** contabilidade pública tem três naturezas de registro: **patrimonial** (ativo, passivo, VPA/VPD), **orçamentária** (receita prevista ou realizada, despesa empenhada etc.) e **controle** (disponibilidade por fonte). Arrecadação de tributo já lançado = permuta no ativo."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q31",
+   "correct": "D",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Controle de infecção",
+   "explanation_md": "O banho com **água e sabão** remove mecanicamente a sujidade, as secreções secas, o suor (perspiração) e os resíduos de drenagens. Isso diminui a carga de microrganismos na pele e o risco de infecção. É uma conduta básica e correta de higiene do paciente.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) As mãos devem ser higienizadas **antes E depois** de qualquer procedimento, e não \"antes ou após\". Além disso, o álcool não é um passo obrigatório depois da lavagem nem algo exclusivo da precaução de contato. Água e sabão **ou** álcool (nos 5 momentos) valem para todos os pacientes.\n- B) A Anvisa não recomenda trocar o cateter periférico de rotina a cada 48 h. Em adultos, a troca não deve ser feita em intervalo menor que 72 a 96 h, a não ser que haja complicação (flebite, infiltração, obstrução).\n- C) A bolsa coletora deve ficar **abaixo do nível da bexiga** (para evitar refluxo), mas **nunca no chão**, por causa do risco de contaminação.\n- E) Ferver os materiais não substitui o processamento correto. Os artigos devem ser limpos e encaminhados à CME (Central de Material e Esterilização) para limpeza, preparo e esterilização.\n\n**Para lembrar:** controle de infecção = higiene das mãos antes e depois + bolsa coletora abaixo da bexiga e longe do chão + troca de acesso só quando indicado + materiais processados na CME."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q32",
+   "correct": "C",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Dengue",
+   "explanation_md": "Na dengue, o técnico de enfermagem precisa reconhecer cedo os **sinais de alarme**, que indicam risco de evolução para a forma grave (extravasamento de plasma e choque). Pelo Ministério da Saúde, os principais são:\n\n- **dor abdominal intensa e contínua** (referida ou à palpação);\n- **vômitos persistentes**;\n- acúmulo de líquidos (ascite, derrame pleural ou pericárdico);\n- hipotensão postural ou lipotimia;\n- hepatomegalia maior que 2 cm;\n- sangramento de mucosa;\n- letargia ou irritabilidade;\n- aumento progressivo do hematócrito.\n\nA alternativa C traz justamente dor abdominal intensa e contínua com êmese (vômitos). São manifestações importantes que devem ser identificadas logo, porque costumam aparecer quando a febre baixa e mudam a conduta.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Hemorragias graves já caracterizam **dengue grave**, uma fase avançada, não a inicial.\n- B) Febre alta é comum, mas **tosse com secreção** sugere infecção respiratória, não dengue.\n- D) Perda de olfato e paladar com coriza e tosse seca é quadro típico de **COVID-19**.\n- E) A dengue causa cefaleia e **dor retro-orbitária**, mas não perda de acuidade visual como manifestação típica.\n\n**Para lembrar:** dor abdominal intensa e vômitos persistentes são sinais de alarme da dengue. Exigem reavaliação e hidratação venosa imediata."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q33",
+   "correct": "A",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Cálculo de soluções",
+   "explanation_md": "Concentração em porcentagem (% m/v) = **gramas de soluto em 100 mL** de solução.\n\n- 0,9% = 0,9 g de NaCl em 100 mL\n- Em 1000 mL (1 L): 0,9 × 10 = **9 g** de NaCl\n\nEntão, 1 litro de soro fisiológico 0,9% contém 9 g de cloreto de sódio.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) 0,9 g em **10 mL** seria uma solução de 9%, dez vezes mais concentrada.\n- C) 9 **mg** em 1000 mL é 1000 vezes menos que o correto (0,0009%).\n- D) Inverte soluto e solvente. Não faz sentido.\n- E) 0,9 **mg** em 1000 mL é 10.000 vezes menos.\n\n**Para lembrar:** X% = X g em 100 mL. Para passar para 1 L, multiplique por 10. Soro 0,9% → 9 g/L; soro glicosado 5% → 50 g/L."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q34",
+   "correct": "E",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Ressuscitação cardiopulmonar",
+   "explanation_md": "**Fibrilação ventricular (FV)** é um ritmo **chocável**. Pelo algoritmo do Suporte Avançado de Vida (ACLS/AHA):\n\n1. **choque** imediato;\n2. **retomar as compressões** logo depois do choque, sem checar pulso, por 2 minutos;\n3. acesso venoso ou intraósseo e **epinefrina** 1 mg a cada 3 a 5 minutos;\n4. **amiodarona** se a FV persistir após o 3º choque;\n5. procurar e tratar causas reversíveis (5 Hs e 5 Ts).\n\nEntre as alternativas, só a E traz a sequência central correta: **choque → continuar RCP → terapia medicamentosa com epinefrina**.\n\n**Observação:** pelas diretrizes atuais da AHA, nos ritmos chocáveis a epinefrina é indicada **depois do 2º choque**. \"Já no primeiro ciclo\" é uma simplificação da banca; nos ritmos não chocáveis (AESP/assistolia), sim, a epinefrina é dada o quanto antes.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Diante de FV, a prioridade é **desfibrilar**. Tratar causas reversíveis é paralelo e não substitui o choque.\n- B) Gasometria arterial não é prioridade durante a parada e atrasaria a desfibrilação.\n- C) Depois do choque, não se \"aguarda\": a RCP deve ser retomada **imediatamente**. A amiodarona entra só após o 3º choque.\n- D) Em FV, o choque vem antes. A capnografia ajuda a monitorar a qualidade da RCP, mas não substitui a desfibrilação.\n\n**Para lembrar:** ritmo chocável (FV/TVSP) → choque → RCP 2 min → epinefrina (após o 2º choque) → amiodarona (após o 3º). Minimize as pausas nas compressões."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q35",
+   "correct": "B",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Ética e saúde do adolescente",
+   "explanation_md": "O adolescente tem **direito a atendimento** em saúde, inclusive **sexual e reprodutiva**, mesmo desacompanhado, com **privacidade e sigilo**. Isso está garantido pelo ECA, pelas orientações do Ministério da Saúde e pelos códigos de ética profissional. O sigilo só pode ser quebrado em situações de **risco** à vida ou à saúde do adolescente ou de terceiros (por exemplo, violência ou abuso), ou quando o adolescente não tem capacidade de avaliar o problema.\n\nNo caso, a paciente de 14 anos procurou o serviço sozinha, para tirar dúvidas e pedir teste de gravidez. Não há indício de violência. O técnico deve **acolher**, encaminhar para consulta com enfermeiro ou médico e **manter o sigilo**.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Não há situação de violação de direitos que justifique acionar a rede de proteção para \"notificar os pais\".\n- C) Exigir a presença dos responsáveis viola o direito ao atendimento e afasta a adolescente do serviço de saúde.\n- D) Contatar a família contra a vontade da paciente, sem situação de risco, quebra o sigilo profissional.\n- E) Informar a escola também quebra o sigilo e expõe a adolescente.\n\n**Para lembrar:** adolescente = direito a atendimento sozinho, com sigilo. Quebra de sigilo só em risco de vida ou saúde, violência ou abuso."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q36",
+   "correct": "C",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Aleitamento materno",
+   "explanation_md": "Pela RDC Anvisa 171/2006 (Bancos de Leite Humano), o **leite humano ordenhado cru** pode ficar **congelado por no máximo 15 dias** a partir da data da primeira coleta, em temperatura **igual ou inferior a −3 °C**. A temperatura de −4 °C da alternativa está dentro dessa faixa. A alternativa é a correta.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) A **coleta domiciliar** é permitida e muito comum. A doadora recebe orientações de higiene e frascos esterilizados, e o banco de leite busca o leite em casa.\n- B) A ordenha pode ser manual ou com **bombas** (manuais ou elétricas), desde que higienizadas corretamente.\n- D) O **colostro** pode, sim, ser doado e é muito valioso para prematuros, por ser rico em anticorpos.\n- E) A doadora deve ser saudável e não usar medicamentos incompatíveis com a amamentação. A triagem considera os **exames do pré-natal** e a avaliação clínica, e não um \"exame de sangue\" exigido como comprovação.\n\n**Para lembrar:** leite humano cru congelado → até 15 dias, a −3 °C ou menos. Leite pasteurizado congelado → até 6 meses."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q37",
+   "correct": "A",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Condições pós-covid",
+   "explanation_md": "A Nota Técnica 57/2023 do Ministério da Saúde lista as manifestações mais frequentes das condições pós-covid em adultos. Entre elas:\n\n- fadiga e mal-estar após esforço;\n- dispneia e **tosse**;\n- **cefaleia** e alterações cognitivas (\"névoa mental\");\n- palpitações e **arritmias**, dor torácica;\n- alterações do sono, ansiedade e depressão;\n- alterações de olfato e paladar.\n\nA alternativa A reúne três manifestações dessa lista, de sistemas diferentes (respiratório, neurológico e cardiovascular).\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Olfato e paladar até aparecem, mas a **perda auditiva** não está entre as principais condições, o que torna a alternativa imprecisa.\n- C) Obesidade e dislipidemia não são condições pós-covid típicas.\n- D) A infertilidade não está entre as principais condições descritas na nota.\n- E) Não há evidência de maior predisposição a tumores como condição pós-covid.\n\n**Para lembrar:** condição pós-covid = sintomas que persistem ou surgem **4 semanas ou mais** após a infecção, sem outra explicação. Os mais comuns são fadiga, dispneia, tosse, cefaleia, palpitações e arritmias, e alterações cognitivas."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q38",
+   "correct": "E",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Sinais vitais",
+   "explanation_md": "A **saturação de O₂** (SpO₂, na oximetria de pulso) mostra a **porcentagem de hemoglobina ligada ao oxigênio** no sangue arterial. Ela depende de:\n\n- **ventilação**: o ar precisa chegar aos alvéolos;\n- **perfusão**: o sangue precisa passar pelos alvéolos para captar o O₂.\n\nProblemas em qualquer dos dois (pneumonia, embolia, hipoventilação) derrubam a saturação. A afirmação está correta.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) A termorregulação é controlada pelo **hipotálamo**, que é do **sistema nervoso**, e não pelo sistema endócrino.\n- B) Frequência cardíaca, volume sistólico e débito cardíaco são grandezas diferentes: **DC = FC × VS**.\n- C) PA = DC × resistência vascular periférica, mas a pressão também depende de volemia, viscosidade do sangue e elasticidade das artérias. Dizer que \"estas são as razões\" é limitar demais.\n- D) O controle da ventilação por CO₂, O₂ e pH está certo, mas esses níveis são medidos pela **gasometria arterial**, não pela frequência respiratória.\n\n**Para lembrar:** SpO₂ normal fica entre 95% e 100%. Ela depende de ventilação e perfusão adequadas."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q39",
+   "correct": "B",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Segurança do paciente",
+   "explanation_md": "Para prevenir a **Pneumonia Associada à Ventilação (PAV)**, a Anvisa recomenda manter a **cabeceira elevada entre 30° e 45°** nos pacientes em ventilação mecânica. Isso reduz a broncoaspiração de secreções. Mesmo que cabeceiras até 30° diminuam o cisalhamento (que favorece lesão por pressão), nesses pacientes a prioridade é a prevenção da PAV. A alternativa B está correta.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A lista de verificação de cirurgia segura (OMS) tem três momentos: **antes da indução anestésica**, **antes da incisão** (pausa cirúrgica) e **antes de o paciente sair da sala**. Não é \"após acordar da sedação\".\n- C) O protocolo exige **pelo menos dois identificadores** (por exemplo, nome completo e data de nascimento), não \"pelo menos um\".\n- D) A **escala de Braden** avalia risco de **lesão por pressão**. Para risco de queda usa-se, por exemplo, a escala de **Morse**.\n- E) A prescrição verbal é desencorajada, mas é **aceita em urgência e emergência**, com confirmação em voz alta e registro posterior. Não é \"inconcebível\".\n\n**Para lembrar:** PAV → cabeceira a 30–45°. Identificação → 2 identificadores. Braden → lesão por pressão. Morse → queda. Cirurgia segura → 3 momentos."
+  },
+  {
+   "external_id": "ufpr-tae-2024-404-q40",
+   "correct": "D",
+   "subject": "Técnico em Enfermagem",
+   "topic": "Desenvolvimento infantil",
+   "explanation_md": "Em prematuros, os marcos do desenvolvimento são avaliados pela **idade corrigida**, descontando o tempo que faltou para completar 40 semanas de gestação.\n\n- Prematuridade: 40 − 32 = 8 semanas, cerca de **2 meses**\n- O apoio nos antebraços erguendo a cabeça e o tronco, em prono (\"posição de esfinge\"), é esperado por volta de **3 a 4 meses** de idade corrigida.\n- Idade cronológica esperada: (3 a 4) + 2 = **5 a 6 meses**\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Com 0 a 1 mês, o bebê só vira a cabeça para os lados quando está de bruços.\n- B) Com 1 a 2 meses, um bebê a termo começa a erguer a cabeça por instantes. No prematuro, isso ainda não se aplica.\n- C) 3 a 4 meses é a idade esperada para um bebê **a termo**. Usar essa faixa esquece de corrigir a prematuridade.\n- E) 6 a 7 meses passa da faixa calculada.\n\n**Para lembrar:** idade corrigida = idade cronológica − (40 − idade gestacional em semanas). Use até cerca de 2 anos para avaliar o desenvolvimento de prematuros."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q31",
+   "correct": "D",
+   "subject": "Técnico em Farmácia",
+   "topic": "Cálculos farmacêuticos",
+   "explanation_md": "A glicerina é **líquida**, então \"5%\" aqui significa **5% v/v**: 5 mL de glicerina em 100 mL de preparação. O enunciado não diz o volume final, mas o gabarito considera **100 mL**, a base usual da porcentagem. Como a balança mede massa, convertemos o volume em massa pela **densidade** (1,261 g/mL):\n\n- volume de glicerina = 5 mL (em 100 mL)\n- massa = densidade × volume\n- massa = 1,261 g/mL × 5 mL = **6,305 g**\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 0,06305 g = 1,261 × 0,05. Usa a fração 5% como se fosse o volume em mL.\n- B) 0,2522 g = 1,261 × 0,2. Não corresponde a nenhum raciocínio coerente com 5%.\n- C) 0,31525 g = 1,261 × 0,25. Também não corresponde a 5% de 100 mL.\n- E) 31,525 g = 1,261 × 25. Equivale a 25 mL de glicerina (25%).\n\n**Para lembrar:** massa = densidade × volume. Líquido em porcentagem é, em geral, v/v; para pesar, converta mL em g pela densidade."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q32",
+   "correct": "A",
+   "subject": "Técnico em Farmácia",
+   "topic": "Boas práticas de manipulação",
+   "explanation_md": "Pela RDC Anvisa 67/2007 (Boas Práticas de Manipulação), o **Procedimento Operacional Padrão (POP)** é a **descrição pormenorizada de técnicas e operações** a serem usadas na farmácia, para proteger e garantir a qualidade das preparações manipuladas e a segurança dos manipuladores. É o \"passo a passo\" escrito de cada atividade: pesagem, limpeza, paramentação, calibração etc.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O \"Manual de Farmácia Magistral\" não é o termo definido na norma. O documento geral da farmácia é o **Manual de Boas Práticas**, que reúne os POPs, mas não é a descrição de cada técnica.\n- C) O Livro de Registro (ou sistema) de manipulação registra as preparações feitas (rastreabilidade), não as técnicas.\n- D) O **Formulário Nacional** da Farmacopeia Brasileira traz fórmulas oficinais padronizadas, não procedimentos internos da farmácia.\n- E) Não existe um \"Código Oficial Brasileiro de Manipulação\" com essa função.\n\n**Para lembrar:** POP = instrução escrita, detalhada e padronizada de \"como fazer\" uma tarefa, para que todos a executem do mesmo jeito."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q33",
+   "correct": "C",
+   "subject": "Técnico em Farmácia",
+   "topic": "Conceitos de farmácia magistral",
+   "explanation_md": "Pela RDC 67/2007, **preparação ou fórmula magistral** é a preparada na farmácia **a partir de uma prescrição** de profissional habilitado, destinada a um paciente individualizado, com composição, forma farmacêutica, posologia e modo de usar definidos. A alternativa C está correta.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) **Medicamento** é o produto farmacêutico obtido ou elaborado com finalidade profilática, curativa, paliativa ou diagnóstica. Não é \"conjunto de coadjuvantes técnicos\".\n- B) O conjunto de matérias-primas e materiais de embalagem descreve os **insumos**. **Preparação intermediária** é um produto parcialmente manipulado que ainda vai passar por outras etapas.\n- D) A preparação cuja fórmula está na Farmacopeia ou no Formulário Nacional é a **oficinal**. \"Fórmula especializada\" não é termo da norma.\n- E) **Forma farmacêutica** é o estado final de apresentação do medicamento (cápsula, creme, xarope...), não um registro farmacopeico.\n\n**Para lembrar:** magistral = feita a partir de prescrição individual. Oficinal = fórmula da Farmacopeia ou do Formulário Nacional."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q34",
+   "correct": "E",
+   "subject": "Técnico em Farmácia",
+   "topic": "Conversão de unidades",
+   "explanation_md": "1 g = 1000 mg. Para converter gramas em miligramas, multiplica-se por 1000:\n\n- 5 g × 1000 = **5000 mg**\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 0,0005 seria uma divisão por 10.000, no sentido errado.\n- B) 0,50 divide em vez de multiplicar.\n- C) 5,05 não tem relação com a conversão.\n- D) 500 multiplica só por 100.\n\n**Para lembrar:** kg → g → mg → µg: cada passo multiplica por 1000. No sentido contrário, divide por 1000."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q35",
+   "correct": "D",
+   "subject": "Técnico em Farmácia",
+   "topic": "Vidrarias de laboratório",
+   "explanation_md": "As **pipetas graduadas** têm escala ao longo do corpo e podem ser de dois tipos:\n\n- **escoamento total**: a graduação vai até a ponta e o líquido escorre todo (às vezes é preciso soprar a última gota);\n- **escoamento parcial**: a graduação termina antes da ponta e o volume é medido **entre dois traços**, sem deixar escoar tudo.\n\nPela convenção cobrada na questão (marcações coloridas no topo da pipeta), **duas listras no topo** identificam a pipeta **graduada de escoamento parcial**.\n\nObservação: códigos de listras e anéis podem variar entre fabricantes. Na dúvida, confira as inscrições gravadas na pipeta.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A pipeta **volumétrica** (de bulbo) mede um único volume, marcado por um só traço de aferição. Não é identificada por duas listras.\n- B) Pela convenção cobrada, duas listras indicam escoamento **parcial**, não total.\n- C) A pipeta de **Pasteur** é um conta-gotas simples, sem graduação nem listras de identificação.\n- E) As listras de identificação ficam no **topo**, não na base. E pipeta volumétrica não é \"de escoamento parcial\".\n\n**Para lembrar:** graduada = vários volumes (escoamento total ou parcial). Volumétrica = um volume, com alta exatidão. Pasteur = só transferência, sem medida."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q36",
+   "correct": "B",
+   "subject": "Técnico em Farmácia",
+   "topic": "Resíduos de serviços de saúde",
+   "explanation_md": "Os resíduos químicos (**Grupo B** da RDC 222/2018) são caracterizados pelos seus riscos: **inflamabilidade, corrosividade, reatividade e toxicidade**. Produtos químicos e solventes orgânicos se enquadram aí. A alternativa B está correta.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A RDC 222 classifica os RSS em **cinco grupos**: A (biológico, com subgrupos A1 a A5), B (químico), C (radioativo), D (comum) e E (perfurocortante). Não existem \"B1, B2, D1, D2, F\".\n- C) Os perfurocortantes formam o **Grupo E** e são descartados em **recipientes rígidos**, resistentes à punctura, ruptura e vazamento. Nunca vão no lixo de metais ou plásticos.\n- D) O **Grupo C** é de rejeitos **radioativos**. EPIs sem contaminação são **Grupo D** (resíduo comum).\n- E) RSS não vão para a coleta seletiva municipal comum. Seguem o Plano de Gerenciamento (PGRSS), com coleta e tratamento específicos.\n\n**Para lembrar:** A = biológico; B = químico; C = radioativo; D = comum; E = perfurocortante."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q37",
+   "correct": "D",
+   "subject": "Técnico em Farmácia",
+   "topic": "Formas farmacêuticas",
+   "explanation_md": "**Emulsão** é um sistema com dois líquidos **imiscíveis**, óleo e água, em que um fica disperso no outro em gotículas, estabilizado por **agentes emulsionantes** (tensoativos). Pode ser líquida (loções) ou **semissólida** (cremes), e recebe outros adjuvantes, como conservantes. A alternativa D descreve corretamente esse sistema.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Óleo + água forma **emulsão**. **Suspensão** é um **sólido insolúvel** disperso em um líquido.\n- B) Veículo aquoso + pó insolúvel forma **suspensão**. **Gel** é um semissólido formado por polímeros (gelificantes) que retêm o líquido.\n- C) Polímeros dispersos em água formam **gel**. **Tisana** é preparação de plantas medicinais (chá, infusão ou decocção).\n- E) **Solução** é uma mistura homogênea com o soluto **dissolvido**. Agente \"suspensor\" é usado em suspensões.\n\n**Para lembrar:** solução = dissolvido (homogêneo). Suspensão = sólido disperso em líquido. Emulsão = líquido disperso em líquido (óleo/água + emulsionante). Gel = polímero que forma rede com o líquido."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q38",
+   "correct": "C",
+   "subject": "Técnico em Farmácia",
+   "topic": "Boas práticas de manipulação",
+   "explanation_md": "A RDC 67/2007 exige uma **sala ou área de paramentação** (vestiário ou antecâmara) antes das salas de manipulação. Ela funciona como **barreira física**: ali o manipulador coloca os EPIs (avental, touca, máscara, luvas, propés), e assim se evita que contaminantes de fora cheguem às áreas onde as preparações são feitas.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) A sala de pesagem é uma área de **trabalho** (manipulação) e não funciona como barreira de acesso.\n- B) A sala de lavagem de materiais é área de apoio, não a barreira de entrada para a manipulação.\n- D) O almoxarifado guarda matérias-primas e embalagens, separando aprovadas, reprovadas e em quarentena. Não é barreira.\n- E) A área de dispensação é voltada ao atendimento ao público e fica **fora** da área de manipulação.\n\n**Para lembrar:** paramentação = vestiário de barreira. Quem entra na manipulação passa por ela e coloca os EPIs."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q39",
+   "correct": "A",
+   "subject": "Técnico em Farmácia",
+   "topic": "Imunização",
+   "explanation_md": "A **Qdenga** (laboratório Takeda) é uma vacina **tetravalente** contra os quatro sorotipos do vírus da dengue (DENV-1 a 4). Ela protege **somente contra a dengue**. Zika, chikungunya e febre amarela são causadas por outros vírus e não são cobertas (a febre amarela tem vacina própria).\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) A Qdenga é feita com **vírus vivos atenuados**, sobre uma base do DENV-2, e não com fragmentos proteicos. Vírus também não têm \"parede celular\".\n- C) O esquema é de **2 doses**, com intervalo de **3 meses**.\n- D) A Anvisa aprovou o uso para pessoas de **4 a 60 anos**, não a partir de 2 anos nem para idosos acima de 60.\n- E) Por ser de vírus vivo atenuado, é **contraindicada para gestantes e lactantes** (e para imunossuprimidos).\n\n**Para lembrar:** Qdenga = vírus vivo atenuado, tetravalente, 2 doses com intervalo de 3 meses, 4 a 60 anos (bula/Anvisa), contraindicada para gestantes, lactantes e imunossuprimidos."
+  },
+  {
+   "external_id": "ufpr-tae-2024-405-q40",
+   "correct": "A",
+   "subject": "Técnico em Farmácia",
+   "topic": "Estabilidade e validade",
+   "explanation_md": "As **bases** (preparações semiacabadas que a farmácia estoca e usa em várias fórmulas, como cremes-base e géis-base) ficam armazenadas por longos períodos. Para definir a validade delas, é preciso conhecer o comportamento ao longo do tempo:\n\n- **estabilidade acelerada**: condições extremas (temperatura e umidade elevadas) aceleram a degradação e permitem **prever** a validade;\n- **estabilidade de prateleira** (longa duração): acompanha o produto nas condições reais de armazenamento e **confirma** a validade.\n\nPor isso, para as bases, é necessário fazer os dois ensaios.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Quem \"envelhece precocemente\" a preparação é o teste **acelerado**. O de prateleira acompanha o envelhecimento natural.\n- C) A estabilidade acelerada serve para **estimar** o prazo de validade, não para \"cessar\" esse prazo.\n- D) As preparações **magistrais** são individualizadas e de uso imediato. A validade delas é atribuída com base em literatura e informações técnicas, sem ensaio de prateleira para cada fórmula.\n- E) Não se faz estudo de estabilidade de cada produto final antes da dispensação. Isso inviabilizaria a farmácia magistral.\n\n**Para lembrar:** acelerado = prever (condições extremas, curto prazo). Prateleira = confirmar (condições reais, longo prazo)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q31",
+   "correct": "E",
+   "subject": "Técnico em Radiologia",
+   "topic": "Incidências da face",
+   "explanation_md": "A **incidência parietoacantial** é a clássica **incidência de Waters** (método de Waters). O raio central sai pelo acântio, com a linha orbitomeatal formando cerca de 37° com o receptor. Ela projeta as pirâmides petrosas abaixo dos seios maxilares e mostra bem:\n\n- órbitas, seios maxilares, arcos zigomáticos e maxila;\n- **fraturas em tripé** (complexo zigomático-maxilar), **fraturas de Le Fort** e fraturas do assoalho da órbita (*blow-out*);\n- **processos neoplásicos/inflamatórios** (sinusites, por exemplo);\n- **corpos estranhos no olho**, antes de exame de ressonância.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Para estudar a **mandíbula** usam-se incidências específicas: PA de mandíbula, axiolateral oblíqua, Towne/AP axial.\n- B) O **arco zigomático** isolado é avaliado na incidência **submentovértice** (\"alça de balde\") ou na AP axial oblíqua.\n- C) A **ATM** é estudada em incidências próprias (Schüller, axiolateral, AP axial).\n- D) Os **ossos nasais** são estudados em **perfil** (lateral) dos ossos nasais.\n\n**Para lembrar:** Waters = parietoacantial → face, seios maxilares, órbitas, fraturas em tripé, Le Fort e *blow-out*, corpo estranho ocular."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q32",
+   "correct": "D",
+   "subject": "Técnico em Radiologia",
+   "topic": "Radiografia panorâmica",
+   "explanation_md": "Na panorâmica, só sai nítido e em proporção correta o que está dentro do **plano focal** (canal de imagem), definido pela **ranhura do mordente** onde o paciente apoia os incisivos.\n\n- **Dentes anteriores atrás da ranhura** (mais perto do receptor, ou paciente posicionado posteriormente): os anteriores ficam **alargados (mais largos) e encurtados**.\n- **Dentes à frente da ranhura** (mais perto da fonte): ficam **estreitos e alongados**.\n\nO enunciado descreve exatamente o primeiro caso.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A linha de Frankfurt inclinada para cima (queixo elevado) achata a curva oclusal (\"sorriso invertido\") e sobrepõe o palato aos ápices superiores. Não produz esse alargamento horizontal.\n- B) A cabeça inclinada para baixo (queixo abaixado) acentua a curva (\"sorriso exagerado\") e encurta os incisivos inferiores.\n- C) A língua deve ficar **encostada no palato**. Se não fica, surge uma faixa radiolúcida sobre os ápices superiores, o que não é o defeito descrito.\n- E) A coluna cervical curvada (\"encolhida\") gera uma sombra radiopaca da coluna na região anterior, não alarga os dentes.\n\n**Para lembrar:** para trás da ranhura → dentes **gordos e curtos**. Para frente → **finos e longos**."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q33",
+   "correct": "A",
+   "subject": "Técnico em Radiologia",
+   "topic": "Processamento de filme",
+   "explanation_md": "No processamento do filme radiográfico:\n\n1. **Revelação**: o revelador **reduz** os cristais de **haleto (halogeneto) de prata expostos** à radiação (que formaram a imagem latente) a **prata metálica** negra. É isso que escurece as áreas atingidas pelos raios X.\n2. **Enxágue intermediário** (no processamento manual): remove o revelador.\n3. **Fixação**: remove os cristais **não expostos / não revelados** e endurece a emulsão.\n4. **Lavagem**: retira os resíduos do fixador.\n5. **Secagem**.\n\nA alternativa A descreve corretamente a função do revelador.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Durante a revelação a emulsão **incha e amolece** (absorve água). Ela não \"reduz o volume\".\n- C) O enxágue intermediário é etapa do processamento **manual**. Nas processadoras automáticas, os rolos removem o excesso de revelador e não há esse banho de 30 s.\n- D) O fixador remove os cristais **não revelados** (não expostos). Os revelados já viraram prata metálica e ficam no filme, formando a imagem.\n- E) Depois da fixação vem a **lavagem**. É ela que remove o tiossulfato residual e evita manchas amareladas. Secar logo após o fixador causaria justamente essas manchas.\n\n**Para lembrar:** revelador → prata metálica (áreas escuras). Fixador → tira os cristais não expostos (áreas claras) e endurece a emulsão. Lavagem → tira o fixador."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q34",
+   "correct": "E",
+   "subject": "Técnico em Radiologia",
+   "topic": "Planos anatômicos",
+   "explanation_md": "Planos anatômicos de referência:\n\n- **Sagital**: plano **longitudinal** (vertical) que divide o corpo em partes **direita e esquerda**. O plano sagital **mediano** (médio-sagital) divide o corpo em metades iguais.\n- **Coronal (frontal)**: longitudinal, divide o corpo em partes **anterior e posterior**.\n- **Axial (transversal / horizontal)**: perpendicular aos anteriores, divide o corpo em partes **superior e inferior**.\n- **Oblíquo**: inclinado, **não paralelo** a nenhum dos três planos anteriores.\n\nA alternativa E está correta.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O plano axial é transversal, mas divide o corpo em **superior e inferior**. Direita e esquerda é o sagital.\n- B) Essa é a definição de plano **oblíquo**, não de coronal.\n- C) Quem divide o corpo em anterior e posterior é o **coronal**.\n- D) Essa descrição (transverso, em ângulo reto, superior e inferior) é a do plano **axial/transversal**. O mediano é sagital.\n\n**Para lembrar:** Sagital → direita/esquerda. Coronal → frente/trás. Axial → cima/baixo. Oblíquo → inclinado."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q35",
+   "correct": "C",
+   "subject": "Técnico em Radiologia",
+   "topic": "Produção de raios X",
+   "explanation_md": "O **tubo de raios X** é formado por:\n\n- **cátodo** (−): contém o **filamento** de tungstênio, que, aquecido por **corrente de baixa voltagem**, libera elétrons (efeito termiônico);\n- **ânodo** (+): contém o **alvo**, onde os elétrons batem e produzem os raios X (radiação de freamento e característica);\n- tudo dentro de uma **ampola de vidro (ou metal) com vácuo**, para que os elétrons viajem sem colidir com moléculas de gás.\n\nUma **alta tensão** (kV) entre cátodo e ânodo acelera os elétrons. A alternativa C está correta.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Inverte as partes: o filamento fica no **cátodo** e o alvo, no **ânodo**.\n- B) O filamento é aquecido por fonte de **baixa** voltagem. A alta voltagem serve para acelerar os elétrons.\n- D) Inverte também: quem acelera os elétrons é a **alta** voltagem (kV).\n- E) O tubo precisa de **vácuo**. Gás frearia e desviaria os elétrons.\n\n**Para lembrar:** baixa tensão (mA) → aquece o filamento → quantidade de elétrons. Alta tensão (kV) → acelera os elétrons → energia dos raios X. Tudo no vácuo."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q36",
+   "correct": "B",
+   "subject": "Técnico em Radiologia",
+   "topic": "Tomografia computadorizada",
+   "explanation_md": "Diferenças práticas entre **TC helicoidal (TCH, a \"tomografia médica\")** e **TC de feixe cônico (TCFC, a \"cone beam\", odontológica)**:\n\n- **posição do paciente**: na maioria dos aparelhos de TCFC o paciente fica **sentado** (ou em pé). Na TCH ele fica **deitado** na mesa, que se desloca pelo gantry;\n- **feixe**: TCFC usa feixe **cônico**; TCH usa feixe em **leque**;\n- **escala de cinza**: a TCH usa unidades **Hounsfield** calibradas; na TCFC os valores de cinza não são HU confiáveis;\n- **tecidos moles**: a TCFC tem baixo contraste para tecidos moles.\n\nA alternativa B está correta.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A escala de Hounsfield é confiável na TCH. Na TCFC os tons de cinza não correspondem a HU calibradas.\n- C) O feixe em **leque** é da TCH. A TCFC usa feixe **cônico**, que capta o volume numa única rotação.\n- D) Janelas para tecidos moles são recurso da TCH. A TCFC tem boa resolução para tecidos duros, mas contraste ruim para moles.\n- E) A TCFC tem campo de visão limitado (região maxilofacial, ouvido, extremidades). Não serve para qualquer parte do corpo.\n\n**Para lembrar:** TCFC = cone beam, paciente sentado, osso e dente, sem HU confiável. TCH = leque/espiral, paciente deitado, corpo todo, HU e janelas de partes moles."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q37",
+   "correct": "A",
+   "subject": "Técnico em Radiologia",
+   "topic": "Proteção radiológica",
+   "explanation_md": "Na incidência **PA (póstero-anterior)**, o feixe entra pelas costas e sai pela frente. Órgãos radiossensíveis anteriores, como **tireoide e mamas**, ficam no lado de **saída** do feixe e recebem dose bem menor que numa AP. Por isso, sempre que possível (tórax, coluna em escoliose), prefere-se PA para reduzir a dose nesses órgãos.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Para reduzir a dose, usa-se **kV mais alto e mAs mais baixo**: feixe mais penetrante, com menos fótons absorvidos pelo paciente. A alternativa diz o contrário.\n- C) A filtração (geralmente de **alumínio**) remove os fótons de **baixa energia (comprimento de onda longo)**, que só seriam absorvidos pela pele. Filtros de chumbo bloqueariam o feixe todo.\n- D) Écrans intensificadores são do sistema **filme-écran**, não da radiografia digital. Nos sistemas digitais, o detector faz a conversão.\n- E) A **colimação** é a medida primária e nunca deve ser substituída. Os protetores de contato são complementares.\n\n**Para lembrar:** menos dose = PA quando possível + colimação + kV alto/mAs baixo + filtração adequada + blindagem complementar."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q38",
+   "correct": "D",
+   "subject": "Técnico em Radiologia",
+   "topic": "Fatores de exposição",
+   "explanation_md": "A **miliamperagem (mA)**, combinada com o tempo (mAs), controla a **quantidade** de elétrons no tubo e, portanto, a **quantidade de fótons** de raios X produzidos. Mais fótons chegando ao receptor significa imagem mais **escura**: a **densidade** (densidade óptica, ou brilho, no digital) **aumenta**. A relação é diretamente proporcional.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O contraste é controlado principalmente pela **quilovoltagem (kV)**, que define a energia do feixe. O mA quase não interfere.\n- B) A definição (nitidez) depende do tamanho do ponto focal, das distâncias e do movimento, não do mA.\n- C) O borramento por movimento diminui com tempo de exposição menor. Aumentar o mA por si só não reduz o borramento.\n- E) Pelo mesmo motivo de A, o contraste não aumenta com o mA.\n\n**Para lembrar:** mAs → quantidade → densidade (escurecimento). kV → qualidade e energia → contraste e penetração."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q39",
+   "correct": "C",
+   "subject": "Técnico em Radiologia",
+   "topic": "Posicionamento radiográfico",
+   "explanation_md": "**Decúbito ventral (prona)** é a posição deitada com o **abdome e a face voltados para baixo**. A alternativa C está correta.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) **Litotomia** é o decúbito dorsal com quadris e joelhos flexionados e pernas afastadas e apoiadas (posição ginecológica). Cabeça mais baixa que os pés é **Trendelenburg**.\n- B) **Supina** (decúbito dorsal) é deitado de costas, com a face para cima. Joelhos e quadris flexionados e afastados descrevem a litotomia.\n- D) **Trendelenburg** é com a cabeça **mais baixa** que os pés. Cabeça mais alta é **Trendelenburg reverso** (ou Fowler).\n- E) **Fowler** é com a cabeceira e o tronco **elevados** (semissentado). Deitado de costas com a face para cima é decúbito dorsal (supina).\n\n**Para lembrar:** dorsal/supina = de costas, face para cima. Ventral/prona = de bruços. Trendelenburg = cabeça para baixo. Fowler = tronco elevado. Litotomia = posição ginecológica."
+  },
+  {
+   "external_id": "ufpr-tae-2024-406-q40",
+   "correct": "B",
+   "subject": "Técnico em Radiologia",
+   "topic": "Anatomia radiológica do tórax",
+   "explanation_md": "As **clavículas** se articulam medialmente com o **manúbrio do esterno** (articulação esternoclavicular) e lateralmente com o **acrômio da escápula** (articulação acromioclavicular). Assim, ligam o esterno às duas escápulas, formando a cintura escapular junto com elas. A alternativa B está correta.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O manúbrio fica na altura de **T2–T3** (a incisura jugular fica em T2–T3). O nível T9–T10 corresponde ao **processo xifoide**.\n- C) As 12 vértebras torácicas ficam na parte **posterior** do tórax ósseo, não na anterossuperior. Na região anterossuperior ficam as clavículas e o manúbrio.\n- D) A porção **superior** do esterno é o **manúbrio**. O processo xifoide é a porção **inferior**.\n- E) A anatomia radiográfica do tórax costuma ser dividida em **tórax ósseo, sistema respiratório e mediastino**, e não em \"caixa torácica superior e inferior\".\n\n**Para lembrar:** esterno = manúbrio (em cima, T2–T3) + corpo + xifoide (embaixo, T9–T10). Clavícula = ponte entre o esterno e a escápula."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q01",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Gramática",
+   "explanation_md": "Em \"E aqueles **que** não conseguem estão...\", o \"que\" retoma \"aqueles\" e pode ser trocado por \"os quais\": é **pronome relativo**. Dentro da oração \"que não conseguem\", ele faz o papel de **sujeito** (quem não consegue? aqueles = que).\n\nAgora, trecho por trecho:\n\n- **1.** \"a menos que eles estejam com ela\" — \"a menos que\" é locução conjuntiva condicional (= \"a não ser que\"). Não retoma nada; não é relativo. ✗\n- **2.** \"o 1% de pessoas que sofre com afantasia\" — \"que\" = \"as quais\", retoma \"1% de pessoas\" e é sujeito de \"sofre\". ✓\n- **3.** \"Adam Zeman, ... que criou o termo\" — \"que\" = \"o qual\", retoma Zeman e é sujeito de \"criou\". ✓\n- **4.** \"Mary descobriu que era diferente\" — \"que\" introduz a oração que completa \"descobriu\" (descobriu o quê?). É conjunção integrante, sem função sintática dentro da oração. ✗\n\nSó 2 e 3 repetem o uso do modelo.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) A afirmativa 4 traz conjunção integrante, não pronome relativo.\n- B) 1 (locução condicional) e 4 (integrante) são justamente as que não servem.\n- D) Inclui a 1, que é conjunção.\n- E) Inclui 1 e 4.\n\n**Para lembrar:** teste do \"o qual / a qual / os quais\". Se a troca funciona, o \"que\" é pronome relativo e exerce função na oração (aqui, sujeito). Se o \"que\" só liga a oração ao verbo (\"descobriu que...\"), é conjunção integrante."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q02",
+   "correct": "E",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "O texto diz que cerca de **1%** das pessoas tem afantasia **extrema** e que **até 6%** pode ter **algum grau** dela. Ou seja, a condição aparece com intensidades diferentes. O caso de Mary, que não consegue visualizar nem o próprio casamento nem os filhos, ilustra uma forma intensa do fenômeno. É exatamente o que a alternativa E afirma.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O texto diz que *Mary* se considera boa comunicadora verbal porque \"não supõe nada\". Não há generalização de que quem tem afantasia comunica melhor.\n- B) O texto é cauteloso: a afantasia \"**pode** ter um efeito protetor\", porque é \"**mais provável**\" que a pessoa viva o momento. A alternativa transforma possibilidade em certeza (\"gera benefícios\").\n- C) A fala sobre instintos e sentimentos é pessoal de Mary; o texto não diz que isso \"compensa\" algo em todos os seres humanos.\n- D) O texto diz que essas pessoas são \"mais propensas\" a trabalhar em ciências, matemática ou informática, o que não é o mesmo que serem \"vocacionadas\". Além disso, a alternativa resume essas áreas como \"área tecnológica\".\n\n**Para lembrar:** em interpretação, desconfie de alternativas que trocam \"pode\", \"provavelmente\" e \"mais propenso\" por afirmações absolutas, ou que generalizam o depoimento de uma pessoa."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q03",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Semântica e vocabulário",
+   "explanation_md": "O texto inteiro mostra que pessoas com afantasia **não formam imagens visuais** na mente. Mesmo assim, o último parágrafo afirma que \"**todos** visualizam imagens em suas mentes de maneira diferente\". Para essa frase não contradizer o resto, \"visualizar\" precisa estar em **sentido amplo**: o jeito como cada um representa mentalmente as coisas (por sentimentos, palavras, memórias), e não só ver figuras. Isso combina com a fala de Zeman em seguida: \"outras pessoas podem ter vidas interiores diferentes\".\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) A frase não contesta o estudo. Ela reforça a ideia de que existem experiências mentais diferentes.\n- B) É o contrário: a frase leva em conta as especificidades de quem tem afantasia, colocando-as como uma das formas de \"visualizar\".\n- D) \"Nossa experiência não é a norma\" quer dizer que a experiência de quem forma imagens não deve ser tomada como padrão. Não tem relação com um \"experimento de Zeman\" servir ou não de norma.\n- E) O texto não liga a ausência de imagens ao fato de essas pessoas \"viverem o presente\". Viver o momento aparece como possível benefício, não como causa.\n\n**Para lembrar:** quando uma palavra parece contradizer o texto, verifique se ela está sendo usada em sentido mais amplo ou figurado."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q04",
+   "correct": "D",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Compare como cada trecho **avalia** a forma de lembrar de quem tem afantasia:\n\n- **Trecho 1:** Mary fala do \"lado positivo\" (é ótima comunicadora verbal) e descreve sua lembrança como um sentimento, não uma imagem. O tom é de **valorização**, ou ao menos de aceitação positiva, da sua forma de lembrar.\n- **Trecho 2:** \"as pessoas com afantasia **apenas** pensam nas memórias, outras pessoas são **capazes de** relembrar e viver essas memórias\". O \"apenas\" diminui; o \"são capazes de\" engrandece. A memória de quem tem afantasia sai com **valor menor**.\n\nLogo, o valor dado à memória de quem tem afantasia em 2 é menor que o valor dado, em 1, à lembrança sentimental de Mary.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) A primeira parte exagera: Mary não diz que sua forma de lembrar é *superior* à lembrança por imagens. Ela só a descreve e aponta vantagens.\n- B) Em 2 não há o \"mesmo valor\": o \"apenas\" cria hierarquia. E 1 não iguala memórias sentimentais a memórias \"verbais\".\n- C) O \"lado positivo\" está ligado diretamente ao modo de Mary lidar com as lembranças (\"não supõe nada — o que importa são as palavras\"). Dizer que não há valoração nenhuma é errado.\n- E) Mary não diz que forma lembranças por causa do comportamento instintivo, e o trecho 2 não fala em \"racionalidade\".\n\n**Para lembrar:** palavras como \"apenas\", \"só\" e \"capazes de\" revelam juízo de valor. Fique atento a esses marcadores na hora de comparar pontos de vista."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q05",
+   "correct": "B",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "Em \"**Enquanto** as pessoas com afantasia apenas pensam nas memórias, outras pessoas são capazes de relembrar e viver essas memórias\", o \"enquanto\" não marca tempo. Ele **contrapõe duas situações simultâneas**: um grupo faz uma coisa e o outro faz outra. Esse é o sentido de \"**ao passo que**\":\n\n\"**Ao passo que** as pessoas com afantasia apenas pensam nas memórias, outras pessoas são capazes de...\" — mesmo sentido, mesma estrutura.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"Embora\" é concessivo e pede subjuntivo (\"embora pensem\"). Muda a estrutura e o sentido: passaria a ideia de \"apesar de\".\n- C) \"Em quanto\", separado, significa \"em que quantidade\" (\"em quanto tempo?\"). Não é conector.\n- D) \"Como\" no início da frase indica causa (\"como pensam apenas..., outras são capazes\") ou comparação. Não serve.\n- E) \"Não obstante\" tem valor concessivo/adversativo (\"apesar disso\"). Não expressa o simples contraste entre dois grupos.\n\n**Para lembrar:** \"enquanto\" pode ser temporal (= durante o tempo em que) ou de contraste/proporção (= ao passo que). Descubra pelo contexto qual sentido está em jogo."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q06",
+   "correct": "D",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "O terceiro parágrafo diz: \"Spurlock levou ao cúmulo a **fusão de diretor e personagem**. Passou 30 dias fazendo as três refeições diárias no McDonald's\". Ele dirigiu o documentário e também foi o protagonista: era ele quem fazia a dieta diante das câmeras.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O filme é de 2004. Spurlock morreu agora (o texto é de 2024), **de câncer**, e não por causa da dieta.\n- B) O autor o chama de \"*one hit wonder*\", artista de um sucesso só: \"não há nada mais de muito relevante no currículo de Spurlock\". Não houve \"diversos documentários\" de denúncia.\n- C) O filme ajudou a mudar a fast food \"para **menos pior**\". Ela continua \"veneno com saladinha verde\". Não virou opção saudável.\n- E) O álcool aparece como crítica ao filme: Spurlock admitiu mais tarde que bebia longe das câmeras, o que comprometia a premissa. Investigar a mistura de fast food com álcool nunca foi o objetivo.\n\n**Para lembrar:** em questões \"de acordo com o texto\", procure o trecho que comprova a alternativa e desconfie de datas e relações de causa trocadas (2004 × 2024; câncer × dieta)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q07",
+   "correct": "A",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "No texto sobre \"Super Size Me\" (o mesmo da questão 06), o quarto parágrafo diz: a crítica mais contundente era que ninguém pratica aquela dieta maluca. \"**Além disso**, Spurlock não conseguiu (ou não quis) comprovar que seguiu à risca a premissa do filme.\"\n\n\"Além disso\" **acrescenta** mais um argumento na mesma direção: mais uma crítica ao filme. O conector equivalente é \"**Ademais**\", que também significa \"além do mais, além disso\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) \"Apesar disso\" é concessivo: indicaria algo que acontece mesmo contrariando o anterior. Não é o caso.\n- C) \"Porém\" é adversativo, indica oposição.\n- D) \"Mas\" também é adversativo.\n- E) \"Diferentemente\" marca contraste ou comparação, não soma.\n\n**Para lembrar:** conectores aditivos: além disso, ademais, também, outrossim, não só... mas também. Adversativos: mas, porém, contudo, todavia, entretanto. Concessivos: embora, apesar de, ainda que."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q08",
+   "correct": "A",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "No último parágrafo do texto sobre \"Super Size Me\" (o mesmo da questão 06): \"Pouco depois de 'Super Size Me', o McDonald's deixou de oferecer as porções gigantes de fritas. **Desde então**, todas as redes de fast food se esforçam para diminuir a insalubridade de seus cardápios.\"\n\n\"Desde então\" é uma expressão **temporal**: marca um ponto no passado (depois do filme) a partir do qual algo passou a acontecer. \"**A partir dali**\" tem exatamente esse valor: \"A partir dali, todas as redes de fast food se esforçam...\".\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) \"Desde que\" é conjunção. Pode ser condicional (\"desde que você pague\") ou temporal, mas sempre introduz uma oração com verbo (\"desde que o filme saiu\"). Colocada no lugar de \"desde então\", deixaria a frase incompleta e mudaria o sentido.\n- C) \"Entretanto\" é adversativo.\n- D) \"Por outro lado\" introduz contraste ou outro ponto de vista.\n- E) \"Aliás\" serve para retificar ou acrescentar algo de passagem (\"aliás, vale lembrar...\").\n\n**Para lembrar:** \"desde então\" = \"a partir daquele momento\" (advérbio, não liga orações). \"Desde que\" = conjunção (condição ou tempo) e sempre vem seguida de verbo."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q09",
+   "correct": "B",
+   "subject": "Língua Portuguesa",
+   "topic": "Ortografia e acentuação",
+   "explanation_md": "Crase só acontece quando há **preposição \"a\" + artigo \"a\"** (ou pronome \"aquela\"). Vamos lacuna por lacuna:\n\n1. \"entendeu ___ dimensão\" — quem entende, entende **algo** (verbo transitivo direto, sem preposição). Só há o artigo: **a dimensão**.\n2. \"a levou ___ trabalhar\" — \"levar a\" tem preposição, mas antes de **verbo no infinitivo** não há artigo. Logo, não há crase: **a trabalhar**.\n3. \"sobre ___ importância\" — a preposição já é \"sobre\". Sobra só o artigo: **sobre a importância**.\n\nResultado: a – a – a.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Coloca crase antes do infinitivo \"trabalhar\", o que nunca ocorre.\n- C) Erra a segunda lacuna (crase antes de verbo) e a terceira (\"sobre\" já é a preposição).\n- D) Coloca crase nas três; nenhuma tem a preposição \"a\" somada ao artigo.\n- E) \"Entender\" não pede preposição \"a\", então não há crase na primeira.\n\n**Para lembrar:** truque da troca por masculino. \"Entendeu **o** tamanho\", \"sobre **o** valor\": aparece só \"o\", então não há crase. Se aparecesse \"**ao**\", haveria. E antes de verbo não há crase."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q10",
+   "correct": "A",
+   "subject": "Língua Portuguesa",
+   "topic": "Gramática",
+   "explanation_md": "No original, a palavra sublinhada é o \"**a**\" de \"Esse interesse **a** levou a trabalhar...\". Nas alternativas, as palavras em negrito são: **me**, **Ela**, **um**, **os** e **que**.\n\n\"Esse interesse a levou\": quem levou? \"esse interesse\" (sujeito). Levou quem? \"a\" = **ela, Jéssica**. Esse \"a\" é **pronome oblíquo átono** e funciona como **objeto direto** de \"levar\".\n\n- A) \"O procedimento não **me** ajudou\": ajudar alguém (sem preposição). \"Me\" é objeto direto. ✓ Mesma função.\n- B) \"**Ela** teme...\": sujeito.\n- C) \"acompanha **um** grupo\": \"um\" é artigo indefinido, adjunto adnominal de \"grupo\". O objeto direto é \"um grupo de jornalistas\" inteiro, não o artigo.\n- D) \"verificaram **os** alimentos\": \"os\" é artigo definido, adjunto adnominal (não é pronome aqui).\n- E) \"mais barato **que** fruta\": conjunção comparativa.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Pronome reto na função de sujeito.\n- C) e D) Artigos: acompanham o substantivo, são adjuntos adnominais.\n- E) Conjunção, sem função sintática.\n\n**Para lembrar:** os pronomes oblíquos o, a, os, as são sempre objeto direto. Me, te, se, nos, vos podem ser objeto direto ou indireto, dependendo da regência do verbo: \"ajudar alguém\" pede objeto direto."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q11",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Problemas aritméticos",
+   "explanation_md": "Compare o preço normal de 3 unidades com o preço da promoção.\n\n- Preço normal de 3 unidades: 3 × 2,25 = R$ 6,75\n- Preço na promoção: R$ 5,10\n- Desconto total: 6,75 − 5,10 = R$ 1,65\n- Desconto por unidade: 1,65 ÷ 3 = **R$ 0,55**\n\nOutro caminho: na promoção, cada unidade sai por 5,10 ÷ 3 = 1,70. Então o desconto por unidade é 2,25 − 1,70 = 0,55.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) R$ 0,45 não sai de nenhuma conta coerente com os dados.\n- C) R$ 1,08 não corresponde a nenhuma das contas acima.\n- D) R$ 1,70 é o **preço** de cada unidade na promoção, não o desconto.\n- E) R$ 2,85 não tem relação com os dados.\n\n**Para lembrar:** desconto por unidade = preço normal unitário − preço promocional unitário. Divida o preço do \"pacote\" pela quantidade antes de comparar."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q12",
+   "correct": "E",
+   "subject": "Raciocínio Matemático",
+   "topic": "Estatística básica",
+   "explanation_md": "Valores do gráfico: set/23 = 214; out/23 = 267; nov/23 = 401; dez/23 = 944; jan/24 = 3474; fev/24 = 9354; mar/24 = 29744; abr/24 = 57986.\n\nTestando cada alternativa:\n\n- **A)** nov ÷ out = 401 ÷ 267 ≈ 1,5. Não dobrou. ✗\n- **B)** Último trimestre de 2023 (out + nov + dez) = 267 + 401 + 944 = 1612 < 1700. ✗\n- **C)** fev ÷ jan = 9354 ÷ 3474 ≈ 2,69. O aumento foi de cerca de 169%, não 200%. (Um aumento de 200% exigiria triplicar.) ✗\n- **D)** jan ÷ out = 3474 ÷ 267 ≈ 13. Não chega a 15 vezes. ✗\n- **E)** Primeiro quadrimestre de 2024 (jan a abr):\n  - soma = 3474 + 9354 + 29744 + 57986 = 100558\n  - média = 100558 ÷ 4 = 25139,5 > 25000 ✓\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Cresceu cerca de 50%, não 100%.\n- B) O trimestre soma 1612.\n- C) O aumento foi de cerca de 169%.\n- D) A razão é cerca de 13.\n\n**Para lembrar:** aumento de 200% = valor final 3 vezes o inicial (100% + 200%). \"Dobrou\" = aumento de 100%. Trimestre = 3 meses; quadrimestre = 4 meses."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q13",
+   "correct": "C",
+   "subject": "Raciocínio Matemático",
+   "topic": "Geometria",
+   "explanation_md": "Chame o lado maior de L e o menor de l.\n\n- Diferença: L − l = 20\n- Perímetro: 2L + 2l = 100, ou seja, L + l = 50\n\nSomando as duas equações:\n- 2L = 70\n- L = **35 m**\n\nConferindo: l = 50 − 35 = 15. Diferença = 35 − 15 = 20 ✓. Perímetro = 2·35 + 2·15 = 100 ✓.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 25 é a metade do semiperímetro (50 ÷ 2), como se o terreno fosse quadrado.\n- B) Com L = 30, l = 10 e o perímetro seria 80.\n- D) Com L = 40, l = 20 e o perímetro seria 120.\n- E) 60 é maior que o próprio semiperímetro: impossível.\n\n**Para lembrar:** perímetro do retângulo = 2 × (base + altura). Com soma e diferença de dois números, somar as equações isola o maior: maior = (soma + diferença) ÷ 2."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q14",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Problemas aritméticos",
+   "explanation_md": "O frete soma duas parcelas, uma pela distância e outra pelo peso.\n\n- Distância: 9 km × R$ 1,50 = R$ 13,50\n- Peso: 6 kg × R$ 2,50 = R$ 15,00\n- Total: 13,50 + 15,00 = **R$ 28,50**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) R$ 27,50 resulta de erro de R$ 1,00 na soma.\n- C) R$ 29,50 também não corresponde à soma correta.\n- D) R$ 30,50 também não corresponde à soma correta.\n- E) R$ 31,50 sai se você inverter as tarifas: 9 × 2,50 + 6 × 1,50 = 22,50 + 9 = 31,50. Atenção: R$ 1,50 é por **km** e R$ 2,50 é por **kg**.\n\n**Para lembrar:** cada tarifa vai com a sua unidade (km com km, kg com kg). Confira as unidades antes de multiplicar."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q15",
+   "correct": "C",
+   "subject": "Raciocínio Matemático",
+   "topic": "Razão e proporção",
+   "explanation_md": "A quantidade de caixas é **diretamente proporcional** à área: área maior, mais caixas.\n\n- 30 m² → 4 caixas\n- 75 m² → x caixas\n\nRegra de três:\n- 30x = 4 × 75\n- 30x = 300\n- x = **10 caixas**\n\nOutro jeito: 75 ÷ 30 = 2,5. A área é 2,5 vezes maior, então: 4 × 2,5 = 10.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 8 caixas cobririam só 60 m².\n- B) 9 caixas cobririam 67,5 m².\n- D) 11 caixas passam do necessário (82,5 m²).\n- E) 12 caixas cobririam 90 m².\n\n**Para lembrar:** em proporção direta, multiplique em cruz. Ou calcule o rendimento de cada caixa (30 ÷ 4 = 7,5 m² por caixa) e divida a área nova por ele: 75 ÷ 7,5 = 10."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q16",
+   "correct": "D",
+   "subject": "Raciocínio Matemático",
+   "topic": "Estatística básica",
+   "explanation_md": "Média ponderada = (soma de nota × peso) ÷ (soma dos pesos).\n\nOs pesos somam 1 + 2 + 3 = 6. Chamando a nota da Prova 3 de x:\n\n- (80·1 + 65·2 + x·3) ÷ 6 = 60\n- 80 + 130 + 3x = 360\n- 210 + 3x = 360\n- 3x = 150\n- x = **50**\n\nConferindo: (80 + 130 + 150) ÷ 6 = 360 ÷ 6 = 60 ✓\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Com 35: (210 + 105) ÷ 6 = 52,5.\n- B) Com 40: (210 + 120) ÷ 6 = 55.\n- C) Com 45: (210 + 135) ÷ 6 = 57,5.\n- E) Com 60: (210 + 180) ÷ 6 = 65. Passa da meta.\n\n**Para lembrar:** na média ponderada, cada nota \"vale\" o seu peso. Monte a equação com a soma dos pesos no denominador e isole a incógnita."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q17",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Probabilidade e contagem",
+   "explanation_md": "Use a fórmula da união de conjuntos.\n\n- Total: 200 pessoas\n- Espanhol (E): 78\n- Inglês (I): 29% de 200 = 58\n- Nenhum dos dois: 76\n- Pelo menos um idioma: 200 − 76 = 124\n\nPela fórmula n(E ∪ I) = n(E) + n(I) − n(E ∩ I):\n- 124 = 78 + 58 − n(E ∩ I)\n- 124 = 136 − n(E ∩ I)\n- n(E ∩ I) = 12\n\nEm porcentagem: 12 ÷ 200 = 0,06 = **6%**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 5% seriam 10 pessoas. Não fecha a conta.\n- C) 10% seriam 20 pessoas.\n- D) 12% é confundir o **número** de pessoas (12) com a porcentagem.\n- E) 15% não sai dos dados.\n\n**Para lembrar:** n(A ∪ B) = n(A) + n(B) − n(A ∩ B). \"Nenhum dos dois\" fica fora da união. Cuidado para não confundir quantidade com porcentagem no final."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q18",
+   "correct": "A",
+   "subject": "Raciocínio Matemático",
+   "topic": "Porcentagem",
+   "explanation_md": "O volume do cilindro é V = (área da base) × (altura).\n\n- Aumentar a base em 15% = multiplicar por 1,15\n- Diminuir a altura em 10% = multiplicar por 0,90\n- Novo volume: V' = 1,15 × 0,90 × V\n- 1,15 × 0,90 = 1,035\n- V' = 1,035·V, ou seja, **aumento de 3,5%**\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) 5% vem de somar e subtrair as porcentagens (15 − 10). Porcentagens sucessivas se **multiplicam**.\n- C) e D) O fator 1,035 é maior que 1, então o volume aumenta.\n- E) O volume só ficaria igual se o produto dos fatores fosse 1.\n\n**Para lembrar:** variações percentuais sucessivas ou combinadas: transforme cada uma em fator (aumento de p% → 1 + p/100; redução → 1 − p/100) e multiplique os fatores."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q19",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Funções e equações",
+   "explanation_md": "Chame vitórias de V e derrotas de D. Não há empates.\n\n- V + D = 82\n- V = D + 12\n\nSubstituindo:\n- (D + 12) + D = 82\n- 2D = 70\n- D = **35**\n\nLogo, V = 47. Conferindo: 47 + 35 = 82 ✓ e 47 − 35 = 12 ✓.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) Com 33 derrotas, seriam 49 vitórias: diferença de 16.\n- C) 41 é a metade de 82, como se vitórias e derrotas fossem iguais.\n- D) 47 é o número de **vitórias**.\n- E) 70 = 82 − 12, uma etapa intermediária da conta.\n\n**Para lembrar:** soma e diferença de dois números: menor = (soma − diferença) ÷ 2 = (82 − 12) ÷ 2 = 35; maior = (soma + diferença) ÷ 2 = 47."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q20",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Geometria",
+   "explanation_md": "Pelo Teorema de Pitágoras, (cateto)² + (cateto)² = (hipotenusa)².\n\n- (2x)² + (4x − 1)² = (4x + 1)²\n- 4x² + 16x² − 8x + 1 = 16x² + 8x + 1\n- 20x² − 8x + 1 = 16x² + 8x + 1\n- 4x² − 16x = 0\n- 4x(x − 4) = 0\n- x = 0 (não serve: lado nulo) ou **x = 4**\n\nMedidas:\n- 2x = 8\n- 4x − 1 = 15\n- 4x + 1 = 17 (hipotenusa)\n\nConferindo: 8² + 15² = 64 + 225 = 289 = 17² ✓. O maior cateto mede **15**.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 11 não aparece com x = 4.\n- C) 17 é a **hipotenusa**, não um cateto.\n- D) 19 não aparece com x = 4.\n- E) 23 não aparece com x = 4.\n\n**Para lembrar:** (a − b)² = a² − 2ab + b² e (a + b)² = a² + 2ab + b². Ternos pitagóricos comuns: 3-4-5, 5-12-13, 8-15-17."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q21",
+   "correct": "A",
+   "subject": "Informática",
+   "topic": "Planilhas",
+   "explanation_md": "Na tabela, a célula B3 tem espaços em branco antes do CPF (\"   222.222.222-22\"). A função das Planilhas Google (e do Excel em português) que **remove espaços extras** de um texto é **ARRUMAR** (em inglês, TRIM). Ela elimina os espaços do início e do fim e deixa só um espaço entre palavras.\n\n=ARRUMAR(B3) → \"222.222.222-22\"\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) SUBSTITUIR troca um trecho de texto por outro e exige mais argumentos: =SUBSTITUIR(texto; pesquisa; substituição). Até daria para trocar \" \" por \"\", mas não com um único argumento.\n- C) EXATO compara dois textos e devolve VERDADEIRO ou FALSO. Precisa de dois argumentos e não altera nada.\n- D) MUDAR substitui caracteres a partir de uma posição e exige posição, comprimento e novo texto. Não é a função de limpar espaços.\n- E) VALOR converte um texto em número. Um CPF com pontos e hífen nem é um número válido.\n\n**Para lembrar:** ARRUMAR = TRIM = tirar espaços sobrando. Muito usada para limpar dados copiados de outros sistemas."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q22",
+   "correct": "D",
+   "subject": "Informática",
+   "topic": "Planilhas",
+   "explanation_md": "Queremos os **dois últimos caracteres** do CPF que está em B2 (\"111.111.111-11\" → \"11\"). A função que extrai caracteres do **fim** de um texto é **DIREITA** (RIGHT):\n\n=DIREITA(B2;2) → \"11\"\n\nSintaxe: DIREITA(texto; número_de_caracteres).\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) EXT.TEXTO (MID) extrai do meio do texto, mas exige três argumentos: texto, posição inicial e número de caracteres. =EXT.TEXTO(B2;13) está incompleta. Além disso, em células com espaços no início (como B3), a posição 13 mudaria.\n- B) PROCURAR devolve a **posição** do hífen (um número), não os caracteres.\n- C) LOCALIZAR.FINAL não existe. LOCALIZAR, assim como PROCURAR, também devolve posição.\n- E) TEXTO.FINAL não existe.\n\n**Para lembrar:** ESQUERDA (LEFT) pega o início, DIREITA (RIGHT) pega o fim e EXT.TEXTO (MID) pega o meio do texto."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q23",
+   "correct": "B",
+   "subject": "Informática",
+   "topic": "Internet e e-mail",
+   "explanation_md": "Para guardar o endereço de um site que você usa muito, o recurso do navegador é **Favoritos** (no Chrome também chamado de \"Marcadores\"). O usuário adiciona a página manualmente, pela estrela na barra de endereços ou por Ctrl + D, e depois acessa com um clique.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O **histórico** registra automaticamente as páginas visitadas. O usuário não \"adiciona manualmente\" sites a ele, e ele pode ser apagado.\n- C) **Extensões e temas** são complementos que acrescentam funções ou mudam a aparência do navegador.\n- D) **Downloads** lista os arquivos baixados, não endereços de sites.\n- E) **Dados de navegação** (cookies, cache, histórico) é a área usada para limpar informações. Não serve para guardar atalhos.\n\n**Para lembrar:** Favoritos/Marcadores = salvo por você, de propósito (Ctrl + D). Histórico = registrado automaticamente pelo navegador (Ctrl + H)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q24",
+   "correct": "C",
+   "subject": "Informática",
+   "topic": "Sistema operacional e arquivos",
+   "explanation_md": "No Windows 10, o **Explorador de Arquivos** (atalho Win + E) é o gerenciador que mostra pastas, unidades e arquivos. Ele tem uma **caixa de pesquisa** no canto superior direito: com \"Este Computador\" selecionado, é possível procurar o documento pelo nome em todas as pastas e unidades. Também dá para abrir \"Acesso rápido > Arquivos recentes\" e achar o documento recém-editado.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) **Assistência rápida** é a ferramenta de suporte remoto: alguém de confiança acessa seu PC para ajudar.\n- B) **Lupa** é um recurso de acessibilidade que amplia partes da tela.\n- D) **Ferramenta de Captura** tira prints (capturas de tela).\n- E) **Unidade de recuperação** é um pendrive criado para restaurar ou reinstalar o Windows em caso de falha.\n\n**Para lembrar:** procurar, copiar, mover, renomear e excluir arquivos e pastas → Explorador de Arquivos (Win + E)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q25",
+   "correct": "E",
+   "subject": "Informática",
+   "topic": "Segurança da informação",
+   "explanation_md": "Uma senha forte mistura **letras (maiúsculas e minúsculas), números e caracteres especiais** (!, @, #...). Isso aumenta muito o número de combinações possíveis e dificulta ataques de força bruta e de dicionário. Entre as alternativas, é a única boa prática de proteção da credencial.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Deixar a sessão sempre conectada em aparelho **compartilhado** permite que outra pessoa use sua conta. O correto é sair da conta (logout).\n- B) Mensagens automáticas com código de autenticação que você **não pediu** podem indicar tentativa de invasão ou golpe (phishing). Não se deve clicar em links nem repassar o código.\n- C) **Reusar senhas** é má prática, mesmo que elas não tenham vazado ainda: se um serviço for invadido, todas as contas com a mesma senha ficam expostas.\n- D) Senha é pessoal e intransferível. Compartilhar, mesmo com alguém de confiança, compromete a segurança e a responsabilização pelo acesso.\n\n**Para lembrar:** senha longa e complexa, diferente em cada serviço, nunca compartilhada, e de preferência com autenticação em dois fatores (2FA)."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q26",
+   "correct": "C",
+   "subject": "Legislação",
+   "topic": "Lei 8.112/1990",
+   "explanation_md": "**Reversão** (arts. 25 a 27 da Lei 8.112/1990) é o **retorno à atividade de servidor aposentado**. Ocorre em dois casos:\n\n1. **Por invalidez**, quando junta médica oficial declarar **insubsistentes os motivos da aposentadoria**;\n2. **No interesse da administração**, se: o servidor tiver pedido a reversão, a aposentadoria tiver sido **voluntária**, ele era estável na atividade, a aposentadoria ocorreu nos cinco anos anteriores ao pedido e houver cargo vago.\n\nA alternativa C descreve a primeira hipótese.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Reversão é retorno do **aposentado**, não do servidor acidentado. Para quem sofreu limitação física ou mental, o instituto é a **readaptação**.\n- B) Há limite de idade: o art. 27 proíbe a reversão de aposentado que já completou 70 anos.\n- D) A reversão se faz no **mesmo cargo** ou no cargo resultante de sua transformação, não em cargo \"equivalente ou superior\".\n- E) A reversão no interesse da administração exige aposentadoria **voluntária**, não involuntária.\n\n**Para lembrar:** reversão = volta do aposentado; reintegração = volta do demitido com demissão anulada; recondução = volta ao cargo anterior; readaptação = cargo compatível com limitação de saúde; aproveitamento = volta do servidor em disponibilidade."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q27",
+   "correct": "E",
+   "subject": "Legislação",
+   "topic": "Outras leis",
+   "explanation_md": "O art. 43 do Código Civil diz que **as pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que, nessa qualidade, causem danos a terceiros**, com direito de regresso contra o agente culpado. É a responsabilidade objetiva do Estado, que também aparece no art. 37, § 6º, da Constituição.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O art. 40 divide as pessoas jurídicas em de direito público, **interno ou externo**, e de direito **privado**. Não existe \"direito privado interno ou externo\".\n- B) A **União** é pessoa jurídica de direito público **interno** (art. 41). Os **Estados estrangeiros** são de direito público **externo** (art. 42).\n- C) Os partidos políticos são pessoas jurídicas de direito **privado** (art. 44, V).\n- D) As organizações religiosas são de direito privado e têm criação e funcionamento livres. O poder público não pode negar-lhes reconhecimento ou registro (art. 44, § 1º).\n\n**Para lembrar:** direito público interno = União, Estados, DF, Municípios, autarquias. Direito público externo = Estados estrangeiros e organismos internacionais. Direito privado = associações, sociedades, fundações, organizações religiosas, partidos políticos."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q28",
+   "correct": "A",
+   "subject": "Legislação",
+   "topic": "Processo administrativo",
+   "explanation_md": "O art. 50 da Lei 9.784/1999 lista os atos que **devem ser motivados**, com indicação dos fatos e dos fundamentos jurídicos. Entre eles estão os que: neguem, limitem ou afetem direitos; imponham deveres ou sanções; decidam processos seletivos; dispensem ou declarem inexigível licitação; decidam recursos; **decorram de reexame de ofício** (inciso VI); deixem de aplicar jurisprudência ou discrepem de pareceres; e importem anulação, revogação, suspensão ou convalidação de ato.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) A motivação deve ser explícita, clara e congruente, mas **pode** consistir em declaração de concordância com pareceres anteriores (§ 1º). É a chamada motivação *aliunde*.\n- C) O meio mecânico que reproduza os fundamentos é **permitido** em assuntos da mesma natureza, desde que não prejudique direito ou garantia dos interessados (§ 2º).\n- D) A **convalidação** está expressamente na lista do inciso VIII: exige motivação.\n- E) A motivação de decisões de órgãos colegiados, comissões ou decisões orais deve constar da **respectiva ata ou de termo escrito** (§ 3º). Não tem nada de \"sentença transitada em julgado\".\n\n**Para lembrar:** art. 50 da Lei 9.784: motivação explícita, clara e congruente; pode remeter a pareceres anteriores; meio mecânico é permitido; decisões colegiadas e orais vão para ata ou termo escrito."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q29",
+   "correct": "B",
+   "subject": "Legislação",
+   "topic": "Código Penal",
+   "explanation_md": "O art. 324 do Código Penal tipifica o \"**exercício funcional ilegalmente antecipado ou prolongado**\": entrar no exercício da função pública antes de satisfeitas as exigências legais, ou continuar a exercê-la sem autorização depois de saber oficialmente que foi exonerado, removido, substituído ou suspenso. Ou seja, o crime pode ser cometido de modo **antecipado** ou **prolongado**.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) **Advocacia administrativa** (art. 321) é o funcionário público patrocinar, direta ou indiretamente, interesse privado perante a administração, valendo-se da sua condição de funcionário. Não tem relação com registro na OAB.\n- C) **Violência arbitrária** (art. 322) é praticar violência **no exercício da função ou a pretexto de exercê-la**, e não \"qualquer violência\" cometida por um funcionário.\n- D) **Prevaricação** (art. 319) é retardar ou deixar de praticar ato de ofício, ou praticá-lo contra a lei, para satisfazer interesse ou sentimento pessoal.\n- E) **Abandono de função** (art. 323) é abandonar cargo público **fora dos casos permitidos em lei**, e não \"em qualquer situação\".\n\n**Para lembrar:** prevaricação = interesse ou sentimento pessoal; corrupção passiva = vantagem indevida; concussão = exigir vantagem; advocacia administrativa = patrocinar interesse privado."
+  },
+  {
+   "external_id": "ufpr-tae-2024-comum-q30",
+   "correct": "E",
+   "subject": "Legislação",
+   "topic": "Constituição Federal",
+   "explanation_md": "O art. 206 da Constituição Federal lista os princípios do ensino:\n\nI – igualdade de condições para o acesso e permanência na escola;\nII – liberdade de aprender, ensinar, pesquisar e divulgar o pensamento, a arte e o saber;\nIII – pluralismo de ideias e de concepções pedagógicas, e coexistência de instituições públicas e privadas;\nIV – gratuidade do ensino público em estabelecimentos oficiais;\nV – valorização dos profissionais da educação escolar;\nVI – gestão democrática do ensino público;\nVII – **garantia de padrão de qualidade**;\nVIII – piso salarial profissional nacional;\nIX – **garantia do direito à educação e à aprendizagem ao longo da vida** (incluído pela EC 108/2020).\n\nA alternativa E altera o inciso IX: troca \"**ao longo da vida**\" por \"do Ensino Fundamental ao Ensino Superior\". Essa é a exceção.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Inciso I, literal.\n- B) Inciso II, literal.\n- C) Inciso III (primeira parte).\n- D) Inciso VII.\n\n**Para lembrar:** nas questões \"EXCETO\" de lei seca, a pegadinha costuma ser uma pequena troca de expressão. \"Aprendizagem ao longo da vida\" é a redação dada pela EC 108/2020."
+  }
+ ]
+}

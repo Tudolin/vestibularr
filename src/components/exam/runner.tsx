@@ -26,6 +26,7 @@ import { createClient } from "@/lib/supabase/client";
 import { useLocalPref } from "@/lib/use-local-pref";
 import { cn } from "@/lib/utils";
 import { ARR, ERR, pick } from "@/lib/pirata";
+import { languageLabel } from "@/lib/boards";
 
 export type RunnerQuestion = {
   id: string; number: number | null; year: number | null; area: string | null; subject: string | null;
@@ -521,7 +522,7 @@ export function ExamRunner({ initial, questions }: { initial: RunnerState; quest
                 {areaBadge(q.area)}
                 {q.subject && <Badge>{q.subject}</Badge>}
                 {q.year && <Badge>{q.year}{q.number ? ` · Q${q.number}` : ""}</Badge>}
-                {q.language && <Badge tone="primary">{q.language === "ingles" ? "Inglês" : "Espanhol"}</Badge>}
+                {q.language && <Badge tone="primary">{languageLabel(q.language)}</Badge>}
                 {q.section === "chefao" && <Badge tone="danger">⚔️ Chefão · XP em dobro</Badge>}
                 <div className="ml-auto flex gap-1">
                   <Button variant={highlighter ? "soft" : "ghost"} size="icon" aria-pressed={highlighter} aria-label="Marca-texto (H)" onClick={() => setHighlighter((h) => !h)}><Highlighter /></Button>

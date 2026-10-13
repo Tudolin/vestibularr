@@ -16,18 +16,19 @@ import { CoursesCard, type CourseOption, type CourseResult } from "./courses-car
 import { GoalsCard } from "./goals-card";
 import { NewAchievements } from "./new-achievements";
 import { TopicHeatmap } from "./topic-heatmap";
+import { type Board } from "@/lib/boards";
 
 const AREA_BAR: Record<string, string> = { linguagens: "bg-area-linguagens", humanas: "bg-area-humanas", natureza: "bg-area-natureza", matematica: "bg-area-matematica" };
 
 /** Painel de desempenho de um aluno. `userId` null = o próprio usuário logado. */
-export async function PerformanceDashboard({ userId, board, editable }: { userId: string | null; board: "ENEM" | "UFPR" | null; editable: boolean }) {
+export async function PerformanceDashboard({ userId, board, editable }: { userId: string | null; board: Board | null; editable: boolean }) {
   const supabase = await createClient();
   const [stats, enemStats, ufprStats, bands, enemFacts, facets] = await Promise.all([
     getStats(userId, board),
-    board === "UFPR" ? null : getStats(userId, "ENEM"),
-    board === "ENEM" ? null : getStats(userId, "UFPR"),
+    board && board !== "ENEM" ? null : getStats(userId, "ENEM"),
+    board && board !== "UFPR" ? null : getStats(userId, "UFPR"),
     getBands(),
-    board === "UFPR" ? [] : getFacts(userId, "ENEM"),
+    board && board !== "ENEM" ? [] : getFacts(userId, "ENEM"),
     bankFacets(),
   ]);
   const uid = stats.user_id;
@@ -116,7 +117,7 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
       <div className="grid gap-4 lg:grid-cols-2">
         {stats.by_area.length > 0 && (
           <Card>
-            <CardHeader><CardTitle>Por área{enem && board !== "UFPR" ? " e nota estimada (ENEM)" : ""}</CardTitle></CardHeader>
+            <CardHeader><CardTitle>Por área{enem && (!board || board === "ENEM") ? " e nota estimada (ENEM)" : ""}</CardTitle></CardHeader>
             <CardContent className="grid gap-3">
               {stats.by_area.map((b) => (
                 <div key={`${b.board}-${b.key}`} className="grid gap-1">
@@ -127,7 +128,7 @@ export async function PerformanceDashboard({ userId, board, editable }: { userId
                   <Progress value={pct(b.correct, b.answered)} label={`Acerto em ${b.key}`} barClassName={AREA_BAR[b.key]} />
                 </div>
               ))}
-              {enem?.average != null && board !== "UFPR" && (
+              {enem?.average != null && (!board || board === "ENEM") && (
                 <p className="flex gap-2 rounded-control bg-primary-soft p-3 text-xs text-primary-soft-foreground"><Info className="mt-0.5 size-3.5 shrink-0" aria-hidden /> <span>Média estimada ENEM: <strong>{enem.average}</strong>. {enem.official ? TRI_OFFICIAL_NOTICE : TRI_NOTICE}</span></p>
               )}
             </CardContent>

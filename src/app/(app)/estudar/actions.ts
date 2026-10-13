@@ -3,16 +3,17 @@
 import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { BOARDS, LANGUAGES } from "@/lib/boards";
 
 const txt = z.string().trim().min(1).max(120);
 const startSchema = z.object({
   mode: z.enum(["simulado", "custom", "treino", "revisao"]),
   exam_id: z.uuid().optional(),
   title: z.string().trim().max(80).optional(),
-  language: z.enum(["ingles", "espanhol"]).optional(),
+  language: z.enum(LANGUAGES).optional(),
   minutes: z.number().int().min(1).max(600).optional(),
   count: z.number().int().min(1).max(200).optional(),
-  board: z.enum(["ENEM", "UFPR"]).optional(),
+  board: z.enum(BOARDS).optional(),
   areas: z.array(z.enum(["linguagens", "humanas", "natureza", "matematica"])).max(4).optional(),
   subjects: z.array(txt).max(30).optional(),
   topics: z.array(txt).max(60).optional(),
@@ -29,7 +30,7 @@ const startSchema = z.object({
 export type StartResult = { ok: true; id: string } | { ok: false; error: string; code?: "language_required" | "no_questions" | "no_errors_due" | "plan_limit:simulado" };
 
 const MESSAGES: Record<string, string> = {
-  language_required: "Escolha o idioma da língua estrangeira (inglês ou espanhol).",
+  language_required: "Escolha o idioma da língua estrangeira.",
   no_questions: "Nenhuma questão encontrada com esses filtros. Tente ampliar a seleção.",
   no_errors_due: "Você não tem erros para revisar agora. Volte quando houver revisões vencidas.",
   "plan_limit:simulado": "Seu plano Grátis inclui 1 simulado por prova por mês, e ele já foi usado. Treino, personalizado e revisão continuam liberados.",

@@ -1,12 +1,13 @@
 import "server-only";
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
+import { BOARDS } from "@/lib/boards";
 
 export const PAGE_SIZE = 20;
 
 export const filtersSchema = z.object({
   q: z.string().trim().max(120).optional(),
-  board: z.enum(["ENEM", "UFPR"]).optional(),
+  board: z.enum(BOARDS).optional(),
   area: z.enum(["linguagens", "humanas", "natureza", "matematica"]).optional(),
   year: z.coerce.number().int().optional(),
   kind: z.enum(["objective", "discursive"]).optional(),

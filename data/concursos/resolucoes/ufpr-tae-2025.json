@@ -1,0 +1,347 @@
+{
+ "items": [
+  {
+   "external_id": "ufpr-tae-2025-501-q31",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Amplificador operacional",
+   "explanation_md": "No circuito, o sinal entra pela entrada **inversora (−)** através do resistor de 50 kΩ, a entrada não inversora (+) está aterrada e há realimentação de 150 kΩ da saída para a entrada (−). É o clássico **amplificador inversor**.\n\nGanho do inversor:\n- G = Vout/Vin = −Rf / Rin\n- G = −150 kΩ / 50 kΩ\n- G = **−3**\n\nO sinal negativo indica inversão de fase (a saída fica defasada 180° da entrada). O resistor de 200 kΩ na saída é apenas a carga e não entra no ganho, pois o amp-op ideal tem impedância de saída nula. A alimentação de ±10 V só limita a excursão máxima da saída.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) −1/3 seria Rin/Rf, fórmula invertida.\n- C) 1/3 inverte a fórmula e ainda perde o sinal.\n- D) +3 esquece a inversão de fase do amplificador inversor.\n- E) 4 é o ganho de um amplificador **não inversor** com esses resistores (1 + 150/50), configuração diferente da figura.\n\n**Para lembrar:** inversor: G = −Rf/Rin. Não inversor: G = 1 + Rf/Rin."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q32",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Máquinas elétricas",
+   "explanation_md": "A rede brasileira opera em **60 Hz**.\n\nVelocidade síncrona (do campo girante):\n- ns = 120 · f / p\n- ns = 120 · 60 / 2 = 3600 rpm\n\nO motor de indução gira um pouco abaixo da síncrona. O **escorregamento** s mede essa diferença:\n- n = ns · (1 − s)\n- n = 3600 · (1 − 0,05)\n- n = 3600 · 0,95 = **3420 rpm**\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 1800 rpm é a velocidade síncrona de um motor de **4 polos** em 60 Hz.\n- B) 2850 rpm seria 3000 · 0,95, ou seja, rede de **50 Hz** (padrão europeu).\n- C) 3000 rpm é a síncrona de 2 polos em 50 Hz.\n- E) 3600 rpm é a síncrona; o motor de indução nunca a atinge, porque precisa de escorregamento para gerar torque.\n\n**Para lembrar:** ns = 120f/p; n = ns(1 − s). No Brasil, f = 60 Hz."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q33",
+   "correct": "B",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Transferência de calor",
+   "explanation_md": "Potência útil entregue à água:\n- P = área · irradiação · eficiência\n- P = 5 · 600 · 0,6 = 1800 W (J/s)\n\nVazão em massa de água:\n- 2,4 L/min = 2,4 kg/min (densidade 1000 kg/m³ = 1 kg/L)\n- 2,4 ÷ 60 = 0,04 kg/s\n\nBalanço de energia em regime permanente (P = ṁ · c · ΔT):\n- ΔT = P / (ṁ · c)\n- ΔT = 1800 / (0,04 · 4200)\n- ΔT = 1800 / 168\n- ΔT ≈ **10,7 °C**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 0,2 °C aparece se usar a vazão por minuto (2,4 kg) com a potência em J/s, sem converter para kg/s: 1800 / (2,4 · 4200) ≈ 0,18.\n- C) 12,3 °C não resulta de uma conta coerente com os dados.\n- D) 17,9 °C seria o resultado **sem** a eficiência de 60% (3000/168).\n- E) 32,4 °C não corresponde aos dados.\n\n**Para lembrar:** em aquecimento contínuo, use potência = vazão mássica · c · ΔT, sempre com tempo em segundos."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q34",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Diagrama ladder (CLP)",
+   "explanation_md": "Leia o diagrama linha por linha.\n\n**Linha 1:** I1 (contato normalmente aberto, NA) em paralelo com Q1 (NA), tudo em série com I2 (normalmente fechado, NF), acionando a bobina Q1.\n- I1 = botão **liga**. Acionado, energiza Q1.\n- O contato Q1 em paralelo é o **selo (autorretenção)**: depois que Q1 liga, ele mesmo mantém o caminho fechado. Assim, se I1 for solto (abrir), o motor **continua ligado**.\n- I2 (NF) = botão **desliga**. Enquanto não é acionado, deixa passar. Quando o botão I2 é acionado, o contato abre e Q1 desliga.\n\n**Linha 2:** contato Q1 aciona um temporizador T (TON, 5 s) que liga Q2. Q2 liga **5 s depois** de Q1 ligar, e desliga **imediatamente** quando Q1 desliga (o temporizador perde a entrada e zera).\n\nA alternativa C descreve a autorretenção: soltando I1, o motor segue ligado até a entrada I2 ser acionada. A banca chama isso de \"fechar o contato I2\", no sentido de acionar o botão de desligar.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Q1 liga quando I1 **fecha** (botão pressionado), não quando abre.\n- B) Q2 não fica ligado \"por 5 segundos\": ele liga após 5 s e permanece ligado enquanto Q1 estiver ligado; e desliga junto com Q1, sem atraso.\n- D) Q1 é o selo, não o botão de ligar, e I2 é o botão de desligar, não \"saída do motor\".\n- E) O temporizador é de atraso na **ligação**: Q2 liga 5 s após Q1 ligar, não desliga.\n\n**Para lembrar:** contato da própria bobina em paralelo com o botão liga = selo (autorretenção). TON = atraso para ligar; desliga na hora em que a entrada cai."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q35",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Motores de combustão",
+   "explanation_md": "O rendimento teórico dos ciclos de combustão interna cresce com a **taxa de compressão**. No ciclo Otto, a taxa é limitada (cerca de 10:1 a 13:1) porque, comprimindo demais, a mistura ar-combustível detona antes da hora (batida de pino). No Diesel, só o **ar** é comprimido, então a taxa pode chegar a 15:1 a 22:1. O combustível é injetado no fim da compressão e inflama sozinho pelo calor do ar comprimido.\n\nAlém disso, o óleo diesel tem **maior densidade energética por litro** que gasolina e etanol, o que melhora o consumo por volume.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) O Diesel trabalha com **maiores** temperaturas e pressões, e os motores são geralmente mais robustos e pesados, não mais compactos.\n- C) A queima do diesel não é mais limpa: gera mais material particulado e NOx, por isso precisa de filtros e Arla 32.\n- D) O diesel é **menos** volátil que gasolina e etanol. Ele dispensa a faísca por ignição por **compressão**, não por volatilidade.\n- E) A injeção do Diesel (alta pressão, common rail) é até mais complexa; isso não explica a eficiência.\n\n**Para lembrar:** maior taxa de compressão → maior rendimento. O Diesel pode comprimir mais porque comprime só ar."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q36",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Máquinas de fluxo",
+   "explanation_md": "**Cavitação** é a formação de bolhas de vapor dentro do líquido quando a **pressão local cai abaixo da pressão de vapor** do fluido na temperatura de operação. Isso costuma acontecer na sucção da bomba e na entrada do rotor, onde a pressão é mínima.\n\nAs bolhas são arrastadas para regiões de pressão maior e **implodem**. Essas implosões geram microjatos e ondas de pressão que arrancam material do rotor (erosão), além de causar ruído, vibração e queda de rendimento.\n\nPara evitar, garante-se que o NPSH disponível seja maior que o NPSH requerido pela bomba.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) As ondas de choque são **consequência** da implosão das bolhas, não a definição de cavitação.\n- B) Não há essa regra geral; bombas centrífugas cavitam com frequência, e o risco depende do NPSH, não do tipo em si.\n- D) Impurezas podem até servir de núcleo para bolhas, mas a causa determinante é a pressão abaixo da de vapor; não é o que define o fenômeno.\n- E) É o contrário: rotação maior aumenta a velocidade e reduz a pressão na entrada do rotor, favorecendo a cavitação.\n\n**Para lembrar:** cavitação = pressão < pressão de vapor → bolhas → implosão → erosão. Prevenção: NPSH disponível > NPSH requerido."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q37",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Instalações elétricas",
+   "explanation_md": "As tabelas dão, para cada seção do condutor, o produto máximo **potência (W) × distância (m)** para uma dada queda de tensão. Para 5%, basta pegar a última coluna e dividir pela potência da carga (10 kW = 10.000 W) para achar a distância máxima.\n\nDistância máxima = valor da tabela ÷ 10.000\n\nTestando cada alternativa:\n- A) 1,5 mm², 127 V: 35.081 ÷ 10.000 ≈ 3,5 m. Não suporta 10 m.\n- B) 1,5 mm², 220 V: 105.270 ÷ 10.000 ≈ 10,5 m. Não suporta 50 m.\n- C) 2,5 mm², 220 V: 175.450 ÷ 10.000 ≈ **17,5 m**. Suporta 17 m ✓\n- D) 4 mm², 127 V: 93.548 ÷ 10.000 ≈ 9,4 m. Não suporta 12 m.\n- E) 6 mm², 220 V: 421.080 ÷ 10.000 ≈ 42,1 m. **Suporta** 40 m, então a afirmação \"não suporta\" é falsa.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O limite seria 3,5 m, bem menos que 10 m.\n- B) O limite seria cerca de 10,5 m, muito menos que 50 m.\n- D) O limite seria 9,4 m, menos que 12 m.\n- E) O condutor de 6 mm² em 220 V aguenta até cerca de 42 m, ou seja, suporta 40 m.\n\n**Para lembrar:** tabela \"W × m\": distância máxima = valor da tabela ÷ potência. Com tensão maior (220 V), a corrente é menor e o mesmo fio vence distâncias maiores."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q38",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Caldeiras",
+   "explanation_md": "Diferença básica:\n- **Flamotubular**: os gases quentes passam **dentro** dos tubos, e a água fica num grande casco (cilindro) em volta.\n- **Aquatubular**: a **água** circula dentro de tubos (paredes d'água), e os gases quentes passam por fora.\n\nA tensão na parede de um tubo ou vaso sob pressão é proporcional ao **diâmetro**:\n- σ = p · D / (2 · e)   (p = pressão, D = diâmetro, e = espessura)\n\nNa flamotubular, quem segura a pressão da água é o casco de grande diâmetro; para pressões altas, a espessura ficaria inviável. Na aquatubular, a pressão fica nos tubos de **pequeno diâmetro**, que aguentam pressões muito maiores com paredes finas. Por isso elas operam em altas pressões.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Volume maior não aumenta a resistência à pressão; pelo contrário, grandes cascos são o ponto fraco das flamotubulares.\n- B) O combustível influencia a geração de calor, não a pressão que o equipamento suporta.\n- C) Superaquecedor e reaquecedor elevam a temperatura do vapor; são acessórios, não a causa da resistência à pressão.\n- E) A pureza da água é importante para evitar incrustações e corrosão, mas não é o que permite pressões altas.\n\n**Para lembrar:** quanto menor o diâmetro, maior a pressão suportada com a mesma espessura (σ = pD/2e). Aquatubular = água nos tubos finos = alta pressão."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q39",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Refrigeração",
+   "explanation_md": "O evaporador retira calor do ar que passa entre suas aletas. Quando a superfície está abaixo de 0 °C, a umidade do ar congela e forma **geada**. Isso traz dois efeitos ruins:\n\n1. **Isolamento térmico**: o gelo conduz calor muito pior que o metal da serpentina. A camada vira uma barreira entre o ar e o refrigerante.\n2. **Obstrução do fluxo de ar**: o gelo preenche o espaço entre as aletas e reduz a vazão de ar.\n\nResultado: **menor transferência de calor e menor capacidade frigorífica**. A pressão e a temperatura de evaporação caem, o compressor trabalha mais e pode haver retorno de líquido. Por isso esses sistemas fazem **ciclos de degelo** periódicos.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) O gelo não melhora a troca; ele isola e entope as aletas, reduzindo a capacidade.\n- B) É justamente por isolar que a geada **exige** degelo; o efeito isolante é prejudicial aqui.\n- C) Com menos calor chegando ao refrigerante, a pressão de sucção **cai**, não aumenta.\n- D) Com pouca troca de calor, o refrigerante pode não evaporar todo, o superaquecimento cai e aumenta o risco de **retorno de líquido** ao compressor.\n\n**Para lembrar:** gelo no evaporador = isolante + bloqueio de ar = menos capacidade. Solução: degelo periódico."
+  },
+  {
+   "external_id": "ufpr-tae-2025-501-q40",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Industrial)",
+   "topic": "Refrigeração",
+   "explanation_md": "A **válvula de expansão termostática (VET/TXV)** dosa o refrigerante que entra no evaporador para manter um **superaquecimento** constante na saída dele.\n\nComo funciona:\n- Um **bulbo sensor**, preso à linha de sucção na saída do evaporador, contém um fluido que se expande com a temperatura. Ele empurra um **diafragma** para abrir a válvula.\n- Do outro lado, atuam a pressão do evaporador e uma **mola** de ajuste, que tendem a fechar.\n- Saída do evaporador muito quente (superaquecimento alto) → bulbo pressiona mais → válvula abre → entra mais refrigerante.\n- Superaquecimento baixo → válvula fecha → protege o compressor contra retorno de líquido.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Orifício fixo descreve o **tubo capilar** ou a placa de orifício, não a VET.\n- B) A VET não mede temperatura ambiente nem atua no condensador; ela sente a temperatura da saída do evaporador.\n- D) O *pump down* é feito por válvula solenoide e pressostato de baixa, não pela VET.\n- E) A VET não regula pela pressão do condensador. Uma válvula que reagisse à pressão de descarga seria outro tipo de dispositivo.\n\n**Para lembrar:** VET = bulbo + diafragma + mola, controlando o superaquecimento na saída do evaporador."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q31",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Funções orgânicas",
+   "explanation_md": "Olhe a estrutura da lobelina parte por parte:\n\n1. **HO–CH(fenil)–**: um grupo OH ligado a carbono saturado (sp³), que não pertence ao anel aromático. É um **álcool** (secundário). Não é fenol, porque o OH não está direto no anel benzênico.\n2. **Anel de seis membros com N–CH₃**: o nitrogênio está ligado a três carbonos (dois do anel e a metila), sem carbonila vizinha. É uma **amina** terciária (anel piperidínico, típico de alcaloide).\n3. **–CH₂–C(=O)–fenil**: carbonila ligada a dois carbonos (o CH₂ e o anel). É uma **cetona**.\n\nFunções: álcool, amina e cetona.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Não há ácido carboxílico (–COOH) nem amida (N ligado diretamente a C=O).\n- B) Não há –COOH, aldeído (C=O na ponta, com H) nem éter (C–O–C).\n- C) A carbonila está entre dois carbonos, então é cetona, não aldeído; e o N não está ligado a carbonila, então não é amida.\n- E) Não há amida nem éter; o oxigênio do OH é de álcool.\n\n**Para lembrar:** amida exige N ligado à carbonila; sem carbonila vizinha, é amina. C=O entre dois carbonos = cetona; na ponta da cadeia = aldeído."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q32",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Segurança em laboratório",
+   "explanation_md": "No diamante de Hommel (NFPA 704), cada cor indica um risco, numa escala de 0 (mínimo) a 4 (máximo):\n\n- **Azul (saúde) = 3**: pode causar danos sérios ou permanentes mesmo com exposição curta.\n- **Vermelho (inflamabilidade) = 0**: não queima.\n- **Amarelo (reatividade) = 0**: estável, inclusive sob aquecimento.\n- **Branco (riscos especiais) = OX**: **oxidante**, libera oxigênio e alimenta a combustão de outros materiais.\n\nJuntando: não inflamável, perigoso à saúde em exposição curta, oxidante e estável. É a descrição da alternativa A.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Descreve vermelho 2 (ponto de fulgor entre 38 e 93 °C costuma ser 2; 23–38 °C é 3), saúde 0 e reatividade 1. Nada bate com 3-0-0-OX.\n- C) Ponto de fulgor abaixo de 23 °C indicaria vermelho 3 ou 4, e a saúde está 0; a figura mostra o contrário.\n- D) Fala em inflamável e capaz de detonar (amarelo 4); a figura tem vermelho 0 e amarelo 0.\n- E) Diz que não há risco à saúde (o azul é 3) e que pode detonar (o amarelo é 0). \"Corrosivo\" seria \"COR\" no branco, não \"OX\".\n\n**Para lembrar:** azul = saúde; vermelho = fogo; amarelo = reatividade; branco = risco especial (OX = oxidante, W com traço = não usar água, COR = corrosivo)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q33",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Separação de misturas",
+   "explanation_md": "Siga o estado físico de cada mistura (é o processo Bayer em pequena escala, terminando na produção de alúmen).\n\n**Separação I:** a soda cáustica dissolve o alumínio como Al(OH)₄⁻ (solução). As impurezas da bauxita (óxidos de ferro, sílica etc., a \"lama vermelha\") ficam **sólidas**. Sólido insolúvel + solução → **filtração**.\n\n**Separação II:** com H₂SO₄, forma-se Al(OH)₃ **sólido**, um precipitado gelatinoso e fino que filtra mal. Para separá-lo do líquido usa-se **centrifugação seguida de decantação** (o sólido vai ao fundo e o sobrenadante é retirado).\n\n**Separação III:** o Al(OH)₃ é redissolvido com KOH e, ao acidificar com H₂SO₄ e **resfriar**, o KAl(SO₄)₂ (alúmen) sai da solução em cristais. Separar um sólido que se forma por resfriamento de uma solução → **cristalização**.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Destilação separa líquidos (ou solvente de soluto) por ebulição; flotação separa partículas por diferença de molhabilidade. Nenhuma se aplica a I e III.\n- B) Flotação não é usada para retirar a lama vermelha neste procedimento, e liofilização (secagem a frio sob vácuo) não separa um precipitado de sua solução.\n- C) Cristalização não serve para I (o sólido já existe; é impureza), e extração por partição exige dois líquidos imiscíveis.\n- E) Destilação não separa Al(OH)₃ sólido; extração por partição não isola o alúmen cristalino.\n\n**Para lembrar:** sólido já formado + líquido → filtração (ou centrifugação/decantação, se o sólido for fino). Sólido que sai da solução ao resfriar → cristalização."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q34",
+   "correct": "A",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Segurança em laboratório",
+   "explanation_md": "Os três pictogramas do GHS no rótulo são:\n\n1. **Chama sobre um círculo** → **oxidante** (fornece oxigênio e intensifica incêndios).\n2. **Gotas corroendo uma superfície e uma mão** → **corrosivo** (queima a pele, ataca metais).\n3. **Ponto de exclamação** → **irritante/nocivo** (irritação de pele e olhos, toxicidade aguda leve).\n\nO que isso exige:\n- **Luvas nitrílicas**: protegem a pele contra corrosivos e irritantes.\n- **Frasco de vidro**: inerte a corrosivos e oxidantes. Metal seria atacado pelo corrosivo; plástico (matéria orgânica) pode reagir com oxidante forte.\n- **Neutralizar ou inativar antes do descarte**: corrosivo e oxidante não podem ir direto para resíduo comum nem para o esgoto.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Nenhum pictograma indica gás tóxico (seria a caveira), e polietileno não é o mais indicado para oxidante forte.\n- C) Frasco metálico é atacado por corrosivo. Misturar oxidante com solventes orgânicos é perigoso: pode causar incêndio ou explosão.\n- D) Descartar corrosivo e oxidante no esgoto é proibido e perigoso.\n- E) Máscara para gases não é o principal, e misturar oxidante com solventes orgânicos é incompatível.\n\n**Para lembrar:** oxidante nunca junto de orgânicos; corrosivo nunca em metal; ambos devem ser neutralizados ou inativados antes do descarte."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q35",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Análise instrumental",
+   "explanation_md": "O pesquisador quer informação sobre a **estrutura eletrônica** e os **orbitais**. Quem responde isso é a técnica que mede **transições eletrônicas**: a **espectroscopia UV-vis**.\n\nNa faixa ultravioleta-visível, a energia da luz é suficiente para promover elétrons de um orbital ocupado para um vazio (por exemplo, π → π*). O comprimento de onda absorvido revela a diferença de energia entre esses orbitais (HOMO-LUMO).\n\nPoliinas (ligações triplas alternadas) e cumulenos (duplas acumuladas) são sistemas de ligações π conjugadas. Quanto maior a conjugação, menor o gap e maior o comprimento de onda absorvido. Por isso o UV-vis é ideal para estudá-los.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Polarimetria mede a rotação da luz polarizada por compostos quirais; não dá informação sobre orbitais.\n- B) HPLC separa e quantifica componentes de uma mistura; não caracteriza estrutura eletrônica.\n- D) RMN de ¹H informa o ambiente químico dos hidrogênios (conectividade). Além disso, poliinas e cumulenos têm poucos ou nenhum H na cadeia.\n- E) O infravermelho mede **vibrações** das ligações (grupos funcionais), não transições eletrônicas.\n\n**Para lembrar:** UV-vis = transições eletrônicas (orbitais, conjugação); IV = vibrações (grupos funcionais); RMN = ambiente dos núcleos (conectividade)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q36",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Química inorgânica",
+   "explanation_md": "O fósforo branco é formado por moléculas **P₄** (tetraedro de 4 átomos de fósforo). Ele queima espontaneamente no ar, e com oxigênio em quantidade suficiente forma o **pentóxido de fósforo**, cuja fórmula molecular real é **P₄O₁₀**:\n\n- P₄ + 5 O₂ → P₄O₁₀\n\nO fósforo tem 5 elétrons de valência e atinge o estado de oxidação +5. A fórmula mínima seria P₂O₅, mas a molécula real é o dímero P₄O₁₀: o tetraedro P₄ com oxigênios em ponte entre os fósforos e um oxigênio terminal em cada P.\n\n(Com pouco oxigênio, também se forma P₄O₆, mas essa opção não aparece.)\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) PO não é um óxido estável de fósforo.\n- B) PO₂ não é a fórmula do produto de combustão.\n- C) PO₄ é a fórmula do **íon fosfato** (PO₄³⁻), não um óxido.\n- D) P₄O não corresponde a nenhum estado de oxidação típico do fósforo.\n\n**Para lembrar:** fósforo branco = P₄; combustão completa → P₄O₁₀ (o \"P₂O₅\"), um forte desidratante que, com água, forma ácido fosfórico (H₃PO₄)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q37",
+   "correct": "B",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Titulação redox",
+   "explanation_md": "Pela equação, **2 mol de MnO₄⁻ reagem com 5 mol de H₂A**.\n\nPasso 1: mols de ácido ascórbico.\n- n(H₂A) = 0,5 g ÷ 176 g/mol\n- n(H₂A) ≈ 2,84 × 10⁻³ mol\n\nPasso 2: mols de permanganato (proporção 2 : 5).\n- n(MnO₄⁻) = (2/5) · 2,84 × 10⁻³\n- n(MnO₄⁻) ≈ 1,136 × 10⁻³ mol\n\nPasso 3: volume da solução 0,100 mol/L.\n- V = n ÷ C = 1,136 × 10⁻³ ÷ 0,100\n- V ≈ 1,136 × 10⁻² L ≈ **11,4 mL**\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 2,00 mL não sai da estequiometria; corresponde a erro de proporção ou de unidade.\n- C) 28,4 mL é o volume calculado com proporção 1 : 1 (2,84 × 10⁻³ ÷ 0,1).\n- D) 44,2 mL não corresponde à proporção correta.\n- E) 71,0 mL é o volume usando a proporção invertida (5/2 em vez de 2/5).\n\n**Para lembrar:** em titulação, converta massa em mol, aplique a proporção estequiométrica da equação e só então divida pela concentração do titulante."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q38",
+   "correct": "D",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Termoquímica",
+   "explanation_md": "O 1-etoxietil hidroperóxido é CH₃CH(OCH₂CH₃)OOH = **C₄H₁₀O₃** (M = 106 g/mol ✓).\n\nPasso 1: equação balanceada da decomposição em etanol (C₂H₆O) e formaldeído (CH₂O).\n- C₄H₁₀O₃ → C₂H₅OH + 2 CH₂O\n- Confere: C 4 = 2 + 2; H 10 = 6 + 4; O 3 = 1 + 2 ✓\n\nPasso 2: ΔH pela Lei de Hess (produtos − reagentes).\n- ΔH = [(−234,7) + 2 · (−115,9)] − (−547,8)\n- ΔH = (−234,7 − 231,8) + 547,8\n- ΔH = −466,5 + 547,8\n- ΔH = +81,3 kJ/mol\n\nPasso 3: energia para 1 g.\n- n = 1 ÷ 106 ≈ 9,43 × 10⁻³ mol\n- E = 81,3 kJ/mol · 9,43 × 10⁻³ mol ≈ 0,767 kJ ≈ **767 J**\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 186 J não sai de nenhuma combinação coerente das entalpias.\n- B) 354 J não corresponde à equação balanceada.\n- C) 516 J não corresponde ao cálculo com a equação balanceada (2 mol de formaldeído).\n- E) 8475 J é muito maior que a energia envolvida em apenas 1 g (1/106 mol); é erro de ordem de grandeza.\n\n**Para lembrar:** ΔH = Σ ΔfH(produtos) − Σ ΔfH(reagentes), sempre com a equação **balanceada** (coeficientes multiplicam as entalpias)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q39",
+   "correct": "E",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Solução-tampão",
+   "explanation_md": "O tampão é H₂PO₄⁻ (ácido) / HPO₄²⁻ (base conjugada). Use Henderson-Hasselbalch:\n- pH = pKa + log([HPO₄²⁻] / [H₂PO₄⁻])\n\nDados: pKa = −log(6,3 × 10⁻⁸) = 7,2. pH desejado = 6,8.\n- 6,8 = 7,2 + log(razão)\n- log(razão) = −0,4\n- razão = 0,4  (pois log 0,4 = −0,4)\n\nMols de HPO₄²⁻ na solução-estoque:\n- n = 0,200 L · 0,1 mol/L = 0,02 mol\n\nComo os dois estão no mesmo volume, a razão de concentrações é a razão de mols:\n- n(HPO₄²⁻) / n(H₂PO₄⁻) = 0,4\n- n(H₂PO₄⁻) = 0,02 ÷ 0,4 = 0,05 mol\n\nMassa molar do NaH₂PO₄·2H₂O:\n- Na 23 + H₂ 2 + P 31 + O₄ 64 = 120\n- 2 H₂O = 36\n- Total = 156 g/mol\n\nMassa:\n- m = 0,05 · 156 = **7,8 g**\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 0,96 g não sai da relação correta.\n- B) 1,25 g corresponde a errar a razão (usar 0,02 · 0,4 = 0,008 mol × 156).\n- C) 3,12 g seria 0,02 mol × 156, como se a razão fosse 1 (pH = pKa).\n- D) 6,00 g é 0,05 mol × 120, esquecendo as **duas águas de hidratação**.\n\n**Para lembrar:** pH < pKa → precisa de mais ácido que base (razão base/ácido < 1). E inclua a água de hidratação na massa molar do sal."
+  },
+  {
+   "external_id": "ufpr-tae-2025-502-q40",
+   "correct": "C",
+   "subject": "Técnico de Laboratório (Química)",
+   "topic": "Análise gravimétrica",
+   "explanation_md": "Na calcinação, todo o metal do oxalato vai para o óxido. Para fechar a fórmula M₃O₄, são precisos 3 MC₂O₄:\n- 3 MC₂O₄ → M₃O₄ (+ CO/CO₂)\n\nMassas molares, com M = massa do metal:\n- MC₂O₄ = M + 24 + 64 = M + 88\n- M₃O₄ = 3M + 64\n\nProporção em mols: 3 mol de oxalato → 1 mol de óxido.\n- mols de oxalato = 0,648 / (M + 88)\n- mols de óxido = 0,348 / (3M + 64)\n- 0,648 / (M + 88) = 3 · 0,348 / (3M + 64)\n\nResolvendo:\n- 0,648 · (3M + 64) = 1,044 · (M + 88)\n- 1,944M + 41,47 = 1,044M + 91,87\n- 0,900M = 50,40\n- M = **56 g/mol** → ferro (Fe)\n\nConferindo: FeC₂O₄ = 144 g/mol → 0,648/144 = 0,0045 mol; Fe₃O₄ = 232 g/mol → 0,0015 · 232 = 0,348 g ✓\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Sc (45): daria 0,648/133 · 1/3 · 199 ≈ 0,323 g de óxido, não 0,348 g. (E o escândio forma Sc₂O₃, não Sc₃O₄.)\n- B) Ti (48): ≈ 0,331 g de resíduo, não bate.\n- D) Co (59): ≈ 0,354 g. Perto, mas não 0,348 g (o Co₃O₄ existe, por isso é distrator).\n- E) Ga (70): ≈ 0,375 g, não bate.\n\n**Para lembrar:** em gravimetria, o elemento que se conserva (aqui, o metal) liga as duas massas: mol de M antes = mol de M depois."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q01",
+   "correct": "B",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "Primeiro, descubra a quem o pronome relativo se refere. O trecho é: \"inclusive a relevância das **questões** ligadas ao cuidado com o meio ambiente, ___1___ deixaram de estar restritas a grupos específicos\".\n\nQuem \"deixaram de estar restritas\"? As **questões** (feminino plural). O verbo \"deixaram\" está no plural, e \"restritas\" no feminino plural, o que confirma o antecedente.\n\nAgora veja a função do relativo: ele é o **sujeito** de \"deixaram\". Sujeito não leva preposição. Então precisamos de um relativo sem preposição, que concorde com \"questões\": **as quais** (ou simplesmente \"que\").\n\n\"...questões ligadas ao meio ambiente, as quais deixaram de estar restritas...\" → correto.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) \"na qual\" está no singular e traz a preposição \"em\", que ninguém exige aqui (\"deixaram\" não pede \"em\").\n- C) \"onde\" só se usa para lugar físico; \"questões\" não é lugar.\n- D) \"no que\" também traz preposição desnecessária e não retoma \"questões\" como sujeito.\n- E) \"em que\" tem a preposição \"em\", que o verbo \"deixar\" não rege.\n\n**Para lembrar:** antes de escolher o relativo, ache o antecedente e a função dele na oração seguinte. Se for sujeito, nada de preposição: \"que\" ou \"o qual/a qual/os quais/as quais\"."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q02",
+   "correct": "E",
+   "subject": "Língua Portuguesa",
+   "topic": "Concordância e regência",
+   "explanation_md": "Crase = preposição \"a\" + artigo \"a\". Teste cada lacuna perguntando: há preposição? há artigo feminino?\n\n**Lacuna 2:** \"o apoio aos seus direitos ___ terra\". Quem tem direito, tem direito **a** algo (preposição). E \"terra\" aqui é a terra específica dos povos, com artigo: \"a terra\". Preposição + artigo = **à**. Teste trocando por masculino: \"direitos **ao** território\". Deu \"ao\", então é **à**.\n\n**Lacuna 3:** \"pautar nas negociações ___ inclusão da NDC Indígena\". \"Pautar\" é verbo transitivo direto: pauta-se **algo**. Não há preposição, só o artigo: **a** inclusão. Teste: \"pautar **o** tema\" (e não \"ao tema\"). Sem crase.\n\n**Lacuna 4:** \"que leve ___ um compromisso global\". \"Levar a\" (conduzir a) tem preposição, mas a palavra seguinte é \"um\", masculino e indefinido; não há artigo \"a\". Então é só a preposição: **a**. Nunca há crase antes de \"um\".\n\nSequência: **à – a – a**.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Erra a 1ª lacuna: \"direitos a terra\" deixa sem crase onde há preposição + artigo.\n- B) Erra a 1ª (sem crase) e a 3ª (crase antes de \"um\" é impossível).\n- C) Erra a 3ª: crase antes de \"um compromisso\".\n- D) Erra a 1ª, que exige crase.\n\n**Para lembrar:** troque a palavra feminina por uma masculina. Se aparecer \"ao\", use \"à\". E nunca há crase antes de artigo indefinido (\"um\", \"uma\")."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q03",
+   "correct": "D",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "O texto é uma coluna publicada numa revista (Galileu), assinada, que usa dados (Censo, MapBiomas) para **sustentar uma tese**: os Povos Indígenas são protagonistas na proteção ambiental e no combate à crise climática.\n\nAs marcas de opinião são claras: \"inegavelmente as áreas mais bem preservadas\", \"o quanto temos a aprender com os mais eficazes defensores da natureza\", \"a relevância de apoiarmos essas comunidades\" e o fecho \"devemos estar todos acompanhando seus movimentos\". O autor toma posição e convoca o leitor. Isso é um **artigo de opinião**.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Não há narração ficcional nem personagem; é um texto argumentativo com dados reais.\n- B) A linguagem é objetiva e informativa; \"mãe-Terra\" aparece como descrição da cosmovisão indígena, não como recurso poético para emocionar.\n- C) Há estatísticas, mas não há método acadêmico, hipótese testada nem estrutura de artigo científico; os dados servem de argumento.\n- E) Editorial expressa a posição do veículo, e o texto não é neutro: defende claramente um lado.\n\n**Para lembrar:** dados não tornam um texto científico. Se o autor usa números para defender uma tese e chama o leitor à ação (\"devemos...\"), é texto argumentativo/opinativo."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q04",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Semântica e vocabulário",
+   "explanation_md": "\"Holístico\" vem do grego *holos*, \"todo, inteiro\". Uma visão holística enxerga o conjunto e as relações entre as partes, em vez de olhar cada parte isolada.\n\nO próprio texto explica a palavra logo em seguida: na abordagem indígena, \"a natureza não é um objeto inanimado\", os animais são \"seres dotados de consciência\" e a Terra é \"um ser vivo interconectado e interdependente de todos os outros seres, incluindo as pessoas\". Ou seja, tudo está ligado: seres humanos, animais e ambiente formam um todo.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O texto não fala de organização econômica de subsistência ao usar \"holística\".\n- B) É o contrário: a abordagem holística é indígena e busca **dialogar** com a ciência ocidental, não é a dela.\n- D) O texto mostra justamente uma relação prática com o ambiente (proteção da floresta, uso dos ecossistemas).\n- E) Não se trata de normas legais nem de fiscalização.\n\n**Para lembrar:** holístico = visão do todo, integrada. Quando a palavra for difícil, procure no texto a explicação que vem logo depois dela."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q05",
+   "correct": "B",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "A pergunta pede a característica que **demonstra** a efetividade das Terras Indígenas na conservação. A prova está no 4º parágrafo: \"um estudo do MapBiomas Brasil indica que as Terras Indígenas perderam apenas 1% de sua área de vegetação nativa em 30 anos, enquanto em áreas privadas a perda foi de 20,6%\".\n\nÉ uma comparação direta: 1% contra 20,6%. Isso mostra que o desmatamento nas TIs é muito menor. O texto reforça: elas \"são as barreiras mais eficientes contra o desmatamento\".\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) O texto não diz que não há atividade econômica; fala até em \"práticas de uso dos ecossistemas\" e \"economias comunitárias\".\n- C) Povos isolados não são mencionados.\n- D) O texto atribui a proteção aos próprios povos indígenas e a seus sistemas culturais, não a supervisão de governo e empresas.\n- E) Não há restrição ao uso dos recursos pelos indígenas; o que existe é um modo de uso que respeita a natureza.\n\n**Para lembrar:** em questões \"de acordo com o texto\", procure o trecho que comprova a afirmação. Alternativas com ideias que soam plausíveis, mas não aparecem no texto, estão erradas."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q06",
+   "correct": "A",
+   "subject": "Língua Portuguesa",
+   "topic": "Semântica e vocabulário",
+   "explanation_md": "O trecho é: \"80% da área coberta por lavouras e pastagens no Brasil depende das chuvas geradas pelas florestas **mantidas de pé** nas Terras Indígenas da Amazônia\".\n\nFloresta \"de pé\" é floresta que não foi derrubada. \"Mantidas de pé\" = que continuam em pé, não desmatadas, ou seja, **preservadas**. O contexto todo do parágrafo é de conservação (perda de apenas 1% da vegetação).\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) \"Elevadas\" sugere altura ou posição alta, sentido literal que não cabe.\n- C) \"Reerguidas\" pressupõe que as florestas caíram e foram levantadas de novo; o texto fala de floresta que nunca foi derrubada.\n- D) \"Plantadas\" indica reflorestamento, ideia que não aparece.\n- E) \"Desmatadas\" é o oposto do sentido da expressão.\n\n**Para lembrar:** \"floresta em pé\" é expressão comum no debate ambiental para floresta conservada, não derrubada."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q07",
+   "correct": "A",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Para achar o tema central, junte as ideias de cada parte do texto:\n\n- Introdução: da Rio 92 à COP30, um ator tem \"relevância crescente\": os Povos da Floresta.\n- Dados: população, TIs na Amazônia Legal, vegetação preservada, chuvas que abastecem a agricultura.\n- Explicação: a visão holística indígena explica essa proteção.\n- Campanha \"A resposta somos nós\" levada à COP30.\n- Conclusão: os indígenas seguirão como \"principais protagonistas nas negociações\".\n\nO fio condutor é a **importância crescente dos Povos Indígenas na proteção ambiental e no enfrentamento da crise climática**, com foco na Amazônia e na COP30. É exatamente o que diz a alternativa A.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Contraria o texto, que fala em protagonismo e influência crescente, não em participação limitada.\n- C) Inverte os dados: as TIs são \"as barreiras mais eficientes contra o desmatamento\".\n- D) O texto valoriza os modos de vida indígenas e propõe diálogo com a ciência ocidental, não incompatibilidade.\n- E) A campanha tem propostas climáticas concretas: desmatamento zero, fim dos combustíveis fósseis, NDC Indígena.\n\n**Para lembrar:** o tema central aparece no começo e é retomado na conclusão. Desconfie de alternativas que dizem o contrário do texto."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q08",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Interpretação de texto",
+   "explanation_md": "Confira cada alternativa com o texto.\n\nA alternativa C diz que a articulação dos Povos Originários mostra influência crescente nos debates ambientais globais e um legado de resistência ainda em expansão. O texto confirma isso no último parágrafo: a luta \"perdura há séculos\" (legado de resistência) e mostra \"a crescente organização dessas populações\" (expansão). As redes APIB, Coiab e GATC levando a campanha à COP30 mostram a influência nos debates globais.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) O Censo mostra 1,69 milhão de pessoas, mas o texto não fala em \"leve aumento\". E 98,25% da área das TIs está na **Amazônia Legal**, o contrário de \"majoritária fora da Amazônia\".\n- B) Errada: as TIs perderam 1% da vegetação, contra 20,6% nas áreas privadas. E o impacto nos serviços ecossistêmicos é enorme (80% das lavouras e pastagens dependem dessas chuvas).\n- D) A proteção vem dos sistemas culturais e conhecimentos **ancestrais** indígenas, não de políticas recentes. O diálogo com a ciência ocidental é algo que se busca, não a causa.\n- E) A campanha defende direitos territoriais, desmatamento zero, nenhuma mineração e financiamento direto aos povos; não fala em parcerias empresariais nem em \"uso regulado de recursos\".\n\n**Para lembrar:** em questões de informação do texto, procure o detalhe que entrega o erro: um número trocado, uma causa invertida, uma ideia que não aparece."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q09",
+   "correct": "E",
+   "subject": "Língua Portuguesa",
+   "topic": "Pontuação",
+   "explanation_md": "\"Nessa abordagem, os sistemas de conhecimento ancestral indígenas buscam um diálogo...\" (linha 24).\n\n\"Nessa abordagem\" é um **adjunto adverbial curto** deslocado para o início da oração. Quando o adjunto é curto, a vírgula é **facultativa**: \"Nessa abordagem os sistemas... buscam\" também está correto. Por isso E está certa.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) A vírgula da linha 1 abre o aposto \"marco na discussão sobre o desenvolvimento sustentável...\", que fica no meio da frase (\"separam a Rio 92, [aposto], e a COP30\"). Trocar por dois-pontos quebraria a estrutura \"separam X e Y\".\n- B) Depois de \"preservadas\" vem \"além de terem sido identificadas como áreas...\", um acréscimo deslocado no fim do período, que a banca tratou como isolamento necessário.\n- C) \"Atualmente, nos registros da Fundação... (Funai), existem 736 TIs\": há dois adjuntos seguidos antes do verbo (tempo e lugar), e a vírgula os separa. A banca considerou a vírgula necessária. Atenção: muitos gramáticos aceitariam a supressão por \"Atualmente\" ser um adjunto curto, então essa alternativa é discutível.\n- D) \"Um estudo do MapBiomas Brasil indica...\": \"Um estudo do MapBiomas Brasil\" é o **sujeito** e \"indica\" é o verbo. Nunca se separa sujeito de verbo com vírgula.\n\n**Para lembrar:** adjunto adverbial curto no início da frase → vírgula facultativa. Sujeito e verbo → nunca vírgula entre eles."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q10",
+   "correct": "C",
+   "subject": "Língua Portuguesa",
+   "topic": "Coesão e coerência",
+   "explanation_md": "A chave é o sentido de \"**a despeito de**\": é uma locução **concessiva**, igual a \"apesar de\", \"não obstante\". A ideia é: mesmo com 33 anos de distância, os indígenas continuam protagonistas. E \"por isso\" introduz a **conclusão**: devemos acompanhá-los.\n\nEntão a reescrita precisa manter:\n1. concessão: \"apesar de\";\n2. conclusão: \"por isso\" = \"motivo pelo qual\" / \"razão pela qual\".\n\nAlternativa C: \"**Apesar dos** 33 anos..., os Povos Indígenas continuarão a ocupar papel central nas negociações, **motivo pelo qual** devemos todos acompanhar seus movimentos\". Mantém as duas relações. \"Permanecerão como protagonistas\" = \"continuarão a ocupar papel central\".\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) \"Em razão dos 33 anos\" transforma a concessão em **causa**, mudando o sentido.\n- B) Mesmo erro: \"em razão dos 33 anos\" vira causa do protagonismo.\n- D) \"Diante dos 33 anos\" também dá ideia de circunstância/causa, não de concessão.\n- E) \"Devido aos 33 anos\" é causal. A frase passa a dizer que os indígenas são protagonistas por causa do tempo decorrido.\n\n**Para lembrar:** \"a despeito de\" = \"apesar de\" (concessão). Não confunda com \"em razão de\", \"devido a\", \"diante de\", que indicam causa."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q11",
+   "correct": "D",
+   "subject": "Raciocínio Matemático",
+   "topic": "Porcentagem",
+   "explanation_md": "Total: 150 consumidores.\n\n- Gostam de A: 40% de 150 = 60\n- \"Gostam de B\": 42% de 150 = 63\n- Nenhum: 18% de 150 = 27\n\nDos 60 que gostam de A, 75% não gostam de B:\n- Só A: 0,75 · 60 = 45\n- A e B: 60 − 45 = 15\n\nAqui aparece um problema: se 63 fosse o total de B, teríamos A ∪ B = 60 + 63 − 15 = 108 e \"nenhum\" seria 150 − 108 = 42, e não 27. Os dados só fecham se os 63 forem os que gostam **só** de B:\n\n- 45 (só A) + 15 (A e B) + 63 (só B) + 27 (nenhum) = 150 ✓\n\nQuem **não gosta de B** = só A + nenhum:\n- 45 + 27 = **72**\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 27 são só os que não gostam de nenhum; falta somar quem gosta só de A.\n- B) 45 são só os que gostam apenas de A; faltam os 27 que não gostam de nenhum.\n- C) 63 é o grupo que gosta (só) de B, o contrário do pedido.\n- E) 90 = 60% de 150, conta que trata \"não gostar de B\" como o complemento de 40%, sem sentido aqui.\n\n**Para lembrar:** desenhe o diagrama de Venn e preencha começando pela interseção. Confira se as regiões somam o total; se não somarem, reveja como interpretar cada dado."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q12",
+   "correct": "C",
+   "subject": "Raciocínio Matemático",
+   "topic": "Funções e equações",
+   "explanation_md": "Chame o x-burguer de x e o suco de s.\n\n- Amigo A: x + 2s = 37,80\n- Amigo B: 2x + s = 42,00\n\nO terceiro quer x + s. Não precisa achar cada preço: some as duas equações.\n\n- 3x + 3s = 37,80 + 42,00 = 79,80\n- x + s = 79,80 ÷ 3 = **26,60**\n\n(Se quiser conferir: subtraindo, x − s = 4,20; então x = 15,40 e s = 11,20. E 15,40 + 11,20 = 26,60 ✓.)\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) R$ 11,20 é só o suco.\n- B) R$ 15,40 é só o x-burguer.\n- D) R$ 37,80 é a conta do amigo A.\n- E) R$ 79,80 é a soma das duas contas, equivalente a 3 lanches completos.\n\n**Para lembrar:** quando o sistema é \"simétrico\" e a pergunta é a soma das incógnitas, somar as equações resolve direto."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q13",
+   "correct": "E",
+   "subject": "Raciocínio Matemático",
+   "topic": "Problemas aritméticos",
+   "explanation_md": "As cartas são: A = √3, B = √5, C = √2, D = ⁴√4, E = ⁴√3.\n\nRaízes com índices diferentes são difíceis de comparar. Truque: eleve todas à **4ª potência** (índice comum). Como todos os números são positivos, a ordem se mantém.\n\n- A: (√3)⁴ = 3² = 9\n- B: (√5)⁴ = 5² = 25\n- C: (√2)⁴ = 2² = 4\n- D: (⁴√4)⁴ = 4\n- E: (⁴√3)⁴ = **3**\n\nO menor resultado é 3, de E. Logo ⁴√3 é o menor número (≈ 1,32).\n\nRepare que C e D empatam: ⁴√4 = √(√4) = √2.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) √3 ≈ 1,73.\n- B) √5 ≈ 2,24, o maior de todos.\n- C) √2 ≈ 1,41, maior que ⁴√3.\n- D) ⁴√4 = √2 ≈ 1,41, igual a C e maior que E.\n\n**Para lembrar:** para comparar raízes de índices diferentes, leve todas a um índice comum (ou eleve todas à mesma potência). Com radicando maior que 1, quanto maior o índice, menor a raiz."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q14",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Razão e proporção",
+   "explanation_md": "O consumo está dado por **tempo**, então primeiro descubra quanto tempo o carro leva para rodar 90 km.\n\n- tempo = distância ÷ velocidade = 90 ÷ 60 = 1,5 h\n- 1,5 h = 90 minutos\n\nAgora o consumo: 1 litro a cada 12 minutos.\n\n- 90 ÷ 12 = **7,5 litros**\n\nOutro caminho: em 12 min a 60 km/h, o carro anda 12 km. Então faz 12 km por litro: 90 ÷ 12 = 7,5 L.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 9,0 sairia de 90 ÷ 10, sem relação com os dados.\n- C) 6,5 não corresponde a nenhuma conta coerente.\n- D) 6,0 seria o consumo em 72 minutos (72 km), não em 90 km.\n- E) 5,0 seria o consumo em 60 minutos (60 km).\n\n**Para lembrar:** quando o consumo vem por tempo, converta a distância em tempo antes (t = d/v). Atenção à conversão de horas para minutos."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q15",
+   "correct": "B",
+   "subject": "Raciocínio Matemático",
+   "topic": "Razão e proporção",
+   "explanation_md": "Mistura inicial: 5 L de gasolina + 0,2 L de óleo = 5,2 L (proporção 1 : 25, correta).\n\nEle usou 3,9 L. Sobrou:\n- 5,2 − 3,9 = 1,3 L\n\nA mistura é homogênea, então o que sobrou mantém a proporção. 1,3 L é que fração do total?\n- 1,3 ÷ 5,2 = 1/4\n\nLogo sobrou 1/4 de cada componente:\n- óleo: 0,2 ÷ 4 = 0,05 L\n- gasolina: 5 ÷ 4 = 1,25 L\n\nEle adicionou mais 1 L de gasolina:\n- gasolina: 1,25 + 1 = 2,25 L\n- óleo: 0,05 L\n\nNova proporção:\n- 2,25 ÷ 0,05 = **45**\n\n1 parte de óleo para 45 de gasolina.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) 55,25 não sai de nenhuma conta coerente com os dados.\n- C) 31,66 não sai de um cálculo coerente; a proporção piora muito mais que isso, porque restou pouquíssimo óleo (0,05 L).\n- D) 1 : 25 era a proporção antes de colocar a gasolina extra.\n- E) 10,50 não corresponde ao processo.\n\n**Para lembrar:** ao retirar parte de uma mistura homogênea, todos os componentes diminuem na mesma fração. Calcule o que sobrou de cada um antes de acrescentar algo."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q16",
+   "correct": "C",
+   "subject": "Raciocínio Matemático",
+   "topic": "Problemas aritméticos",
+   "explanation_md": "Passo 1: conte todos os múltiplos de 4 de 1584 a 2024 (é uma PA de razão 4).\n- n = (2024 − 1584) ÷ 4 + 1\n- n = 440 ÷ 4 + 1 = 110 + 1 = 111\n\nPasso 2: tire os múltiplos de 100 que **não** são múltiplos de 400. Os múltiplos de 100 no período são 1600, 1700, 1800, 1900 e 2000.\n- 1600 ÷ 400 = 4 → bissexto (fica)\n- 2000 ÷ 400 = 5 → bissexto (fica)\n- 1700, 1800, 1900 → não são múltiplos de 400 → **não** são bissextos\n\nPasso 3: descontar os 3 anos.\n- 111 − 3 = **108**\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) 106 desconta também 1600 e 2000, que são bissextos.\n- B) 107 desconta um ano a mais do que deveria.\n- D) 110 esquece de somar 1 na contagem da PA e não desconta nada (ou desconta só 1).\n- E) 111 conta todos os múltiplos de 4 e ignora a regra dos séculos.\n\n**Para lembrar:** número de termos de uma PA = (último − primeiro) ÷ razão + 1. Não esqueça o \"+1\"."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q17",
+   "correct": "D",
+   "subject": "Raciocínio Matemático",
+   "topic": "Funções e equações",
+   "explanation_md": "Escreva a PA com primeiro termo a e razão r: A = a, B = a + r, C = a + 2r, D = a + 3r.\n\nDiferença entre D e A:\n- (a + 3r) − a = 9\n- 3r = 9 → r = 3\n\nSoma igual a 66:\n- a + (a + 3) + (a + 6) + (a + 9) = 66\n- 4a + 18 = 66\n- 4a = 48 → a = 12\n\nNúmeros: **12, 15, 18 e 21**. Conferindo: 12 + 15 + 18 + 21 = 66 ✓ e 21 − 12 = 9 ✓.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 3, 12, 21, 30: razão 9 e soma 66, mas D − A = 27.\n- B) 9, 18, 27, 36: soma 90 e D − A = 27.\n- C) 10, 19, 28, 37: soma 94 e D − A = 27.\n- E) 14, 17, 20, 23: D − A = 9, mas a soma é 74.\n\n**Para lembrar:** numa PA de 4 termos, último − primeiro = 3r. Use isso para achar a razão rápido e depois a soma para achar o primeiro termo."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q18",
+   "correct": "A",
+   "subject": "Raciocínio Matemático",
+   "topic": "Funções e equações",
+   "explanation_md": "Sejam a e b as bolinhas de A e B.\n\nInformação 1: A tem uma bolinha a mais que B.\n- a = b + 1\n\nInformação 2: se B der 3 bolinhas a A, A fica com o dobro do que sobra para B.\n- a + 3 = 2(b − 3)\n\nSubstituindo a = b + 1:\n- b + 1 + 3 = 2b − 6\n- b + 4 = 2b − 6\n- b = 10\n- a = 11\n\nTotal: 11 + 10 = **21**.\n\nConferindo: B dá 3 → A fica com 14, B com 7. 14 = 2 · 7 ✓.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) 15 não satisfaz as duas condições ao mesmo tempo.\n- C) 11 é só a quantidade de A.\n- D) 10 é só a quantidade de B.\n- E) 9 não corresponde a nenhuma solução.\n\n**Para lembrar:** traduza cada frase em uma equação, com cuidado: quem dá perde (−3), quem recebe ganha (+3)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q19",
+   "correct": "E",
+   "subject": "Raciocínio Matemático",
+   "topic": "Problemas aritméticos",
+   "explanation_md": "A empresa precisa cobrir as despesas fixas e ainda sobrar R$ 3.500,00:\n- valor necessário = 4.500 + 3.500 = 8.000\n\nCada peça rende R$ 68,00. Número de peças:\n- 68 · n ≥ 8.000\n- n ≥ 8.000 ÷ 68 ≈ 117,6\n\nPeça não é fracionária. Com 117 peças: 117 · 68 = 7.956 (faltam R$ 44). Com 118: 118 · 68 = 8.024 ✓.\n\nMínimo: **118 peças**.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) 52 ≈ 3.500 ÷ 68, só cobre a sobra, sem as despesas.\n- B) 66 ≈ 4.500 ÷ 68 arredondado para baixo; nem as despesas cobre.\n- C) 67 cobre só as despesas fixas (67 · 68 = 4.556), sem a sobra de 3.500.\n- D) 117 dá 7.956, ainda abaixo de 8.000.\n\n**Para lembrar:** em \"no mínimo\" com quantidades inteiras, arredonde sempre **para cima**, mesmo que a parte decimal seja pequena."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q20",
+   "correct": "D",
+   "subject": "Raciocínio Matemático",
+   "topic": "Porcentagem",
+   "explanation_md": "O preço da caixa ficou igual, mas veio menos chocolate. O aumento \"escondido\" é no **preço por grama**.\n\n- Antes: 15 ÷ 250 = R$ 0,06 por grama\n- Depois: 15 ÷ 200 = R$ 0,075 por grama\n\nAumento percentual:\n- 0,075 ÷ 0,06 = 1,25 → aumento de **25%**\n\nAtalho: o preço por grama é inversamente proporcional ao peso. 250 ÷ 200 = 1,25 → +25%.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) 10% não corresponde a nenhuma conta com esses dados.\n- B) 15% também não tem relação com os números.\n- C) 20% é a **redução do peso** (50 g de 250 g), não o aumento do preço. Esse é o erro mais comum.\n- E) 30% superestima o aumento.\n\n**Para lembrar:** reduzir a quantidade em 20% mantendo o preço equivale a aumentar o preço unitário em 25% (1 ÷ 0,8 = 1,25). Redução e aumento percentuais não são simétricos."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q21",
+   "correct": "C",
+   "subject": "Informática",
+   "topic": "Sistema operacional e arquivos",
+   "explanation_md": "No Windows Explorer (Explorador de Arquivos), há duas teclas de seleção múltipla:\n\n- **Ctrl + clique**: adiciona ou remove itens um a um da seleção. Serve para itens **não adjacentes** (espalhados pela lista).\n- **Shift + clique**: seleciona um **intervalo contínuo**, do primeiro item clicado até o último.\n\nComo a pergunta pede arquivos não adjacentes, a resposta é segurar Ctrl e clicar em cada um.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) Clicar e arrastar desenha um retângulo de seleção, que pega itens vizinhos (adjacentes), não itens espalhados.\n- B) Shift seleciona o intervalo inteiro entre dois cliques, incluindo os do meio.\n- D) \"Selecionar tudo\" (Ctrl + A) pega todos os itens da pasta, não alguns específicos.\n- E) Ctrl + Shift + clique estende a seleção por intervalo mantendo a anterior; não é o método padrão para itens avulsos.\n\n**Para lembrar:** Ctrl = escolher \"a dedo\" (avulsos); Shift = \"do primeiro ao último\" (intervalo)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q22",
+   "correct": "E",
+   "subject": "Informática",
+   "topic": "Internet e e-mail",
+   "explanation_md": "HTTP (HyperText Transfer Protocol) é o protocolo que transfere páginas web. No HTTP comum, os dados trafegam em **texto puro**: quem interceptar a conexão consegue ler tudo.\n\nHTTPS é o HTTP com uma camada de segurança (**TLS**, antigo SSL). Ele:\n- **criptografa** os dados entre navegador e servidor;\n- verifica a identidade do site por meio de um **certificado digital** (o cadeado no navegador).\n\nPor isso é obrigatório para senhas, pagamentos e dados pessoais, e hoje é padrão em praticamente todos os sites.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) HTTPS não existe para ser mais rápido; a criptografia até adiciona um pequeno custo.\n- B) O tipo de conteúdo (texto ou imagem) não tem relação com o protocolo; os dois transmitem qualquer coisa.\n- C) Formulários funcionam em HTTP (de forma insegura); HTTPS não é exigência técnica para interatividade, e sim para segurança.\n- D) O \"www\" é só parte do nome do domínio, independente do protocolo.\n\n**Para lembrar:** o \"S\" de HTTPS é de *Secure*: conexão criptografada e site autenticado por certificado."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q23",
+   "correct": "D",
+   "subject": "Informática",
+   "topic": "Editores de texto",
+   "explanation_md": "No Word, o recurso que organiza um documento em níveis é o **Estilos** (guia Página Inicial): Título 1, Título 2, Título 3 etc.\n\nAo aplicar esses estilos aos títulos e subtítulos:\n- o Word entende a **hierarquia** (capítulo, seção, subseção);\n- o **Painel de Navegação** mostra a estrutura e permite pular para cada parte;\n- o **Sumário automático** (guia Referências) é gerado a partir desses títulos e atualizado com um clique.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) Quebra de página só separa visualmente; não cria hierarquia nem índice.\n- B) Mudar fonte e negrito na mão deixa o título \"parecido\" com título, mas o Word não o reconhece como título. Não gera sumário automático.\n- C) Tabela de conteúdo feita manualmente é o contrário de geração automática, e não se atualiza sozinha.\n- E) Caixas de texto agrupam conteúdo visualmente, sem estrutura de níveis.\n\n**Para lembrar:** sumário automático no Word depende de títulos formatados com os Estilos (Título 1, Título 2...)."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q25",
+   "correct": "A",
+   "subject": "Informática",
+   "topic": "Segurança da informação",
+   "explanation_md": "O enunciado descreve dois sintomas:\n\n1. **E-mails com links para sites desconhecidos que pedem senhas e cartão de crédito** → isso é **phishing**: a \"pescaria\" de dados pessoais por meio de mensagens e páginas falsas.\n2. **Lentidão e programas não autorizados instalados** → sinal de infecção por **malware** (vírus, trojans, spyware etc.).\n\nAs medidas adequadas atacam as duas frentes:\n- **educar os funcionários** (a principal defesa contra phishing é o usuário não clicar);\n- **antivírus/antimalware** (detecta e remove programas maliciosos);\n- **filtro de e-mails** (barra mensagens suspeitas antes de chegarem ao usuário).\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Força bruta é tentar adivinhar senhas por tentativa e erro; não envolve e-mails com links falsos.\n- C) Ransomware sequestra dados e exige resgate; o enunciado não fala em arquivos criptografados nem em pedido de pagamento.\n- D) Negação de serviço (DoS) derruba um serviço com excesso de requisições; não tem relação com e-mails pedindo senha.\n- E) *Man-in-the-middle* intercepta a comunicação entre duas partes; o cenário descrito é de engano do usuário e programas instalados.\n\n**Para lembrar:** phishing = isca (e-mail/site falso) para roubar dados; malware = programa malicioso instalado na máquina."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q26",
+   "correct": "A",
+   "subject": "Legislação",
+   "topic": "Código Penal",
+   "explanation_md": "Primeiro, a diferença básica:\n\n- **Descaminho (art. 334)**: a mercadoria é **permitida**, mas entra ou sai sem pagar o imposto devido.\n- **Contrabando (art. 334-A)**: a mercadoria é **proibida** (ou depende de autorização que não foi obtida).\n\nA alternativa A reproduz os dois artigos: o art. 334, § 3º, e o art. 334-A, § 4º, dizem que a pena aplica-se **em dobro** se o crime é praticado em **transporte aéreo, marítimo ou fluvial**.\n\n**Resposta: A**\n\n**Por que não as outras:**\n- B) Reinserir no Brasil mercadoria brasileira destinada à exportação é figura equiparada ao **contrabando** (art. 334-A, § 1º), não ao descaminho.\n- C) Importar ou exportar mercadoria **proibida** é a definição de **contrabando**.\n- D) Navegação de cabotagem fora dos casos permitidos é figura equiparada ao **descaminho** (art. 334, § 1º, I), não ao contrabando.\n- E) Exportar clandestinamente mercadoria que depende de registro em órgão público é **contrabando** (art. 334-A, § 1º).\n\n**Para lembrar:** proibida → contrabando; permitida sem pagar imposto → descaminho. Nos dois, transporte aéreo, marítimo ou fluvial dobra a pena."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q27",
+   "correct": "C",
+   "subject": "Legislação",
+   "topic": "Lei 8.112/1990",
+   "explanation_md": "A acumulação de cargos está nos arts. 118 a 120 da Lei 8.112/1990. A regra é a proibição, com as exceções da Constituição (art. 37, XVI).\n\nO **art. 118, § 1º** diz: \"A proibição de acumular estende-se a cargos, empregos e funções em autarquias, fundações públicas, empresas públicas, sociedades de economia mista da União, do Distrito Federal, dos Estados, dos Territórios e dos Municípios\". É o texto da alternativa C.\n\n**Resposta: C**\n\n**Por que não as outras:**\n- A) As exceções não se limitam a \"uma função de professor\". A Constituição permite: dois cargos de professor; um de professor com outro técnico ou científico; dois cargos ou empregos de profissionais de saúde regulamentados.\n- B) Inverte a regra. O art. 118, § 3º, diz que essa acumulação é **proibida**, salvo quando os cargos **forem** acumuláveis na atividade.\n- D) A compatibilidade de horários é sempre exigida (art. 118, § 2º); a lei não traz exceção para trabalho remoto.\n- E) O art. 120 manda o servidor que acumula licitamente dois cargos, ao assumir cargo em comissão, **afastar-se** de ambos (salvo compatibilidade de horário e local com um deles). Não pode acumular os três.\n\n**Para lembrar:** a proibição de acumular atinge toda a administração direta e indireta, de todos os entes federativos."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q28",
+   "correct": "B",
+   "subject": "Legislação",
+   "topic": "Processo administrativo",
+   "explanation_md": "A **decisão coordenada** foi incluída na Lei 9.784/1999 pela Lei 14.210/2021 (arts. 49-A a 49-G). Ela serve para decisões que exigem a participação de 3 ou mais setores, órgãos ou entidades, reunindo todos ao mesmo tempo para agilizar o processo.\n\nO **art. 49-A, § 6º** diz: \"A decisão coordenada obedecerá aos princípios da legalidade, da eficiência e da transparência, com utilização, sempre que necessário, da simplificação do procedimento e da concentração das instâncias decisórias\". É a alternativa B.\n\n**Resposta: B**\n\n**Por que não as outras:**\n- A) A participação na reunião, com possível direito a voz, é deferida por decisão **irrecorrível** (art. 49-A, § 4º), não recorrível.\n- C) A finalidade é **simplificar** o processo administrativo (art. 49-A, § 1º), não \"detalhá-lo pormenorizadamente\".\n- D) A decisão coordenada **não exclui** a responsabilidade originária de cada órgão ou autoridade (art. 49-A, § 7º).\n- E) A conclusão dos trabalhos é consolidada em **ata** (art. 49-G), não em \"sentença administrativa\" com recurso judicial.\n\n**Para lembrar:** decisão coordenada = simplificar, com participação simultânea; conclusão em ata; responsabilidade de cada órgão mantida."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q29",
+   "correct": "E",
+   "subject": "Legislação",
+   "topic": "Outras leis",
+   "explanation_md": "O **art. 5º, parágrafo único, I**, do Código Civil diz que a incapacidade dos menores cessa \"pela concessão dos pais, ou de um deles na falta do outro, mediante **instrumento público**, independentemente de homologação judicial\", se o menor tiver 16 anos completos. É a **emancipação voluntária**: a menoridade cessa antes dos 18 anos.\n\n**Resposta: E**\n\n**Por que não as outras:**\n- A) Viciados em tóxico são **relativamente** incapazes (art. 4º, II), não absolutamente.\n- B) Desde 2015 (Estatuto da Pessoa com Deficiência), só os **menores de 16 anos** são absolutamente incapazes (art. 3º). Entre 16 e 18, a incapacidade é relativa.\n- C) O art. 7º permite declarar a morte presumida **sem** decretação de ausência: quando for extremamente provável a morte de quem estava em perigo de vida, ou de quem desapareceu em campanha ou foi feito prisioneiro e não foi encontrado até 2 anos após o fim da guerra.\n- D) O **exercício de emprego público efetivo** é uma das hipóteses que **fazem cessar** a incapacidade (art. 5º, parágrafo único, III).\n\n**Para lembrar:** absolutamente incapaz hoje = só menor de 16. Emancipação pelos pais: instrumento público, menor com 16 anos, sem precisar de juiz."
+  },
+  {
+   "external_id": "ufpr-tae-2025-comum-q30",
+   "correct": "D",
+   "subject": "Legislação",
+   "topic": "Constituição Federal",
+   "explanation_md": "O **art. 5º, VII**, da Constituição diz: \"é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva\". Exemplos: hospitais, presídios, quartéis. É o texto exato da alternativa D.\n\nAs outras alternativas pegam incisos reais e mudam palavras. Esse é o tipo de \"pegadinha\" típica de lei seca.\n\n**Resposta: D**\n\n**Por que não as outras:**\n- A) O inciso XII fala em sigilo \"da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas\". Não menciona \"redes sociais\".\n- B) O inciso V diz \"direito de resposta, **proporcional** ao agravo, além da indenização por dano material, moral ou à imagem\".\n- C) O inciso VI garante a liberdade \"de consciência e de crença\". \"Sexo e gênero\" não estão nesse inciso.\n- E) O inciso XV diz que qualquer pessoa pode, \"nos termos da lei\", entrar, permanecer ou sair do país com seus bens. Não existe \"até mil dólares isentos\" na Constituição.\n\n**Para lembrar:** em lei seca, procure a palavra trocada ou acrescentada. Uma expressão \"moderna\" (redes sociais) ou um valor específico (mil dólares) costuma ser invenção."
+  }
+ ]
+}

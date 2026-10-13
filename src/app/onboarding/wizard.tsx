@@ -39,7 +39,7 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
 
   const next = () => {
     setError(null);
-    if (step === 0 && boards.length === 0) return setError("Escolha ao menos um vestibular.");
+    if (step === 0 && boards.length === 0) return setError("Escolha ao menos uma prova.");
     if (step < 3) return setStep(step + 1);
     start(async () => {
       const r = await finishOnboardingAction({ boards, courses: picked, questionsDay: meta, about });
@@ -61,8 +61,8 @@ export function OnboardingWizard({ name, courses }: { name: string; courses: Cou
       {step === 0 && (
         <section className="flex flex-col gap-3" aria-labelledby="t0">
           <h1 id="t0" className="font-brand text-3xl font-bold text-tinta">Oi, {name.split(" ")[0] || "pirata"}! Pra qual prova você está estudando?</h1>
-          <p className="text-tinta/70">Pode marcar os dois. Isso ajusta os simulados e a nota estimada.</p>
-          {[["ENEM", "ENEM", "Também vale para UTFPR e outras via Sisu"], ["UFPR", "UFPR 2027", "Fase única com 80 objetivas + discursivas"]].map(([v, t, d]) => (
+          <p className="text-tinta/70">Pode marcar mais de um. Isso ajusta os simulados, o desafio do dia e a nota estimada.</p>
+          {[["ENEM", "ENEM", "Também vale para UTFPR e outras via Sisu"], ["UFPR", "UFPR", "Provas oficiais desde 2020; a 1ª fase também é a do Cadete PM-PR"], ["CONCURSO", "Concursos públicos", "Nível médio: português, raciocínio matemático, informática e legislação"]].map(([v, t, d]) => (
             <button key={v} type="button" aria-pressed={boards.includes(v)} onClick={() => toggle(boards, v, setBoards)} className={choice(boards.includes(v))}>
               <span><span className="block font-brand text-xl">{t}</span><span className="block text-sm font-normal text-tinta/60">{d}</span></span>
               {boards.includes(v) && <Check className="text-cobalto" aria-hidden />}

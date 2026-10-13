@@ -8,6 +8,7 @@ import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { Input } from "@/components/ui/input";
 import { filterOptions, listQuestions, PAGE_SIZE, type Filters } from "@/lib/questions/queries";
+import { languageLabel, BOARD_OPTIONS } from "@/lib/boards";
 
 const selectCls = "h-11 w-full rounded-control border border-input bg-card px-3 text-base md:text-sm";
 
@@ -31,7 +32,7 @@ export async function QuestionBank({ filters: f, basePath, detailPath, admin = f
           <Search className="pointer-events-none absolute left-3 top-3.5 size-4 text-muted-foreground" aria-hidden />
           <Input name="q" defaultValue={f.q} placeholder="Buscar por palavra no enunciado, assunto…" aria-label="Buscar questões" className="pl-9" />
         </div>
-        <Select name="board" label="Vestibular" value={f.board} options={[["ENEM", "ENEM"], ["UFPR", "UFPR"]]} />
+        <Select name="board" label="Vestibular" value={f.board} options={BOARD_OPTIONS} />
         <Select name="area" label="Área" value={f.area} options={[["linguagens", "Linguagens"], ["humanas", "Humanas"], ["natureza", "Natureza"], ["matematica", "Matemática"]]} />
         <Select name="year" label="Ano" value={f.year?.toString()} options={opts.years.map((y) => [String(y), String(y)])} />
         <Select name="kind" label="Tipo" value={f.kind} options={[["objective", "Objetiva"], ["discursive", "Discursiva"]]} />
@@ -64,7 +65,7 @@ export async function QuestionBank({ filters: f, basePath, detailPath, admin = f
                     {q.year && <Badge tone="neutral">{q.year}</Badge>}
                     {areaBadge(q.area)}
                     {q.number != null && <span className="text-xs font-semibold text-muted-foreground">Q{q.number}</span>}
-                    {q.language && <Badge tone="primary">{q.language === "ingles" ? "Inglês" : "Espanhol"}</Badge>}
+                    {q.language && <Badge tone="primary">{languageLabel(q.language)}</Badge>}
                     {q.kind === "discursive" && <Badge tone="warning">Discursiva</Badge>}
                     {q.work && <Badge tone="primary">{q.work.title}</Badge>}
                     {!q.is_active && <Badge tone="danger">Desativada</Badge>}

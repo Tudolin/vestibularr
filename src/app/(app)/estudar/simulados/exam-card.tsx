@@ -10,15 +10,16 @@ import { Card } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { startAttemptAction } from "../actions";
 import { needsInternet } from "@/lib/use-online";
+import { LANGUAGE_LABEL, type Language } from "@/lib/boards";
 
-export type ExamItem = { id: string; name: string; year: number; board: string; minutes: number | null; count: number; pdf_url: string | null; openAttempt: string | null };
+export type ExamItem = { id: string; name: string; year: number; board: string; minutes: number | null; count: number; languages: Language[]; pdf_url: string | null; openAttempt: string | null };
 
 export function ExamCard({ exam }: { exam: ExamItem }) {
   const router = useRouter();
   const [pending, start] = useTransition();
   const [askLang, setAskLang] = useState(false);
 
-  function go(language?: "ingles" | "espanhol") {
+  function go(language?: Language) {
     start(async () => {
       if (needsInternet("Começar um simulado novo")) return;
       const r = await startAttemptAction({ mode: "simulado", exam_id: exam.id, language });
@@ -50,10 +51,11 @@ export function ExamCard({ exam }: { exam: ExamItem }) {
       <Dialog open={askLang} onOpenChange={setAskLang}>
         <DialogContent>
           <DialogTitle>Língua estrangeira</DialogTitle>
-          <DialogDescription>Esta prova tem 5 questões de língua estrangeira. Escolha qual você vai fazer (como na prova real).</DialogDescription>
-          <div className="grid gap-2">
-            <Button size="lg" disabled={pending} onClick={() => go("ingles")}>Inglês</Button>
-            <Button size="lg" variant="outline" disabled={pending} onClick={() => go("espanhol")}>Espanhol</Button>
+          <DialogDescription>Esta prova tem questões de língua estrangeira. Escolha qual você vai fazer (como na prova real).</DialogDescription>
+          <div className="grid grid-cols-2 gap-2">
+            {(exam.languages.length ? exam.languages : (["ingles", "espanhol"] as Language[])).map((l, i) => (
+              <Button key={l} size="lg" variant={i === 0 ? "primary" : "outline"} disabled={pending} onClick={() => go(l)}>{LANGUAGE_LABEL[l]}</Button>
+            ))}
           </div>
         </DialogContent>
       </Dialog>

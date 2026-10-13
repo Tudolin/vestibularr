@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { requireUser } from "@/lib/auth";
 import { getQuestion } from "@/lib/questions/queries";
+import { languageLabel } from "@/lib/boards";
 
 export const metadata: Metadata = { title: "Questão" };
 
@@ -30,7 +31,7 @@ export default async function QuestaoPage({ params }: { params: Promise<{ id: st
         {q.year && <Badge>{q.year}</Badge>}
         {areaBadge(q.area)}
         {q.number != null && <span className="text-sm font-semibold text-muted-foreground">Questão {q.number}</span>}
-        {q.language && <Badge tone="primary">{q.language === "ingles" ? "Inglês" : "Espanhol"}</Badge>}
+        {q.language && <Badge tone="primary">{languageLabel(q.language)}</Badge>}
         {q.work && <Badge tone="primary">{q.work.title}</Badge>}
         {q.exam?.name && <span className="text-sm text-muted-foreground">{q.exam.name}</span>}
       </header>

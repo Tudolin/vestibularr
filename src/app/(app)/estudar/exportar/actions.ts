@@ -5,18 +5,19 @@ import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import type { ActionResult } from "@/lib/validation";
+import { BOARDS, LANGUAGES } from "@/lib/boards";
 
 const txt = z.string().trim().min(1).max(120);
 const schema = z.object({
   source: z.enum(["banco", "erros", "tentativa"]),
   attempt_id: z.uuid().optional(),
   only_wrong: z.boolean().optional(),
-  board: z.enum(["ENEM", "UFPR"]).optional(),
+  board: z.enum(BOARDS).optional(),
   areas: z.array(z.enum(["linguagens", "humanas", "natureza", "matematica"])).max(4).optional(),
   subjects: z.array(txt).max(30).optional(),
   year_from: z.number().int().min(1990).max(2100).optional(),
   year_to: z.number().int().min(1990).max(2100).optional(),
-  language: z.enum(["ingles", "espanhol"]).optional(),
+  language: z.enum(LANGUAGES).optional(),
   count: z.number().int().min(1).max(200),
   order: z.enum(["assunto", "aleatoria"]),
   with_answers: z.boolean(),

@@ -2,6 +2,7 @@ import "server-only";
 import { createClient } from "@/lib/supabase/server";
 import type { Fact } from "@/lib/mastery";
 import type { Bands } from "@/lib/scoring/enem";
+import { type Board } from "@/lib/boards";
 
 export type Bucket = { key: string; board?: string; subject?: string; answered: number; correct: number };
 export type Stats = {
@@ -23,7 +24,7 @@ export type Stats = {
   };
 };
 
-export async function getStats(userId: string | null, board: "ENEM" | "UFPR" | null): Promise<Stats> {
+export async function getStats(userId: string | null, board: Board | null): Promise<Stats> {
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("student_stats", { p_user: userId, p_board: board });
   if (error) throw new Error(error.message);
@@ -39,7 +40,7 @@ export async function getBands(): Promise<Bands | undefined> {
 export const pct = (c: number, a: number) => (a ? Math.round((c / a) * 100) : 0);
 
 /** Respostas corrigidas com assunto e parâmetros TRI (motor de domínio, src/lib/mastery.ts). */
-export async function getFacts(userId: string | null, board: "ENEM" | "UFPR" | null): Promise<Fact[]> {
+export async function getFacts(userId: string | null, board: Board | null): Promise<Fact[]> {
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("answer_facts", { p_user: userId, p_board: board });
   if (error) throw new Error(error.message);

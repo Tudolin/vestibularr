@@ -6,9 +6,10 @@ import { requireUser } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import type { ActionResult } from "@/lib/validation";
 import { demographicsSchema } from "@/lib/demographics";
+import { BOARDS } from "@/lib/boards";
 
 const schema = z.object({
-  boards: z.array(z.enum(["ENEM", "UFPR"])).min(1, "Escolha ao menos um vestibular"),
+  boards: z.array(z.enum(BOARDS)).min(1, "Escolha ao menos uma prova"),
   courses: z.array(z.uuid()).max(6),
   questionsDay: z.coerce.number().int().min(5).max(200),
   about: demographicsSchema.optional(),
@@ -34,5 +35,6 @@ export async function finishOnboardingAction(input: unknown): Promise<ActionResu
   if (about && Object.values(about).some(Boolean)) {
     await supabase.from("profile_demographics").upsert({ user_id: me.id, ...about, updated_at: new Date().toISOString() });
   }
-  redirect("/triagem");
+  // a triagem é com questões do ENEM; quem estuda só para concurso vai direto aos simulados
+  redirect(p.data.boards.every((b) => b === "CONCURSO") ? "/estudar/simulados" : "/triagem");
 }
