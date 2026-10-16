@@ -31,7 +31,7 @@ export default async function TripulacaoPage({ searchParams }: { searchParams: P
       <div className="mx-auto flex w-full max-w-lg flex-col gap-6">
         <header className="flex flex-col gap-2">
           <h1 className="text-2xl font-extrabold md:text-3xl">Monte sua tripulação ⚓</h1>
-          <p className="text-muted-foreground">Estude com amigos: ranking da semana, ligas com divisões, "vento a favor" para dar força aos amigos e um mural para comemorar as conquistas. Primeiro, escolha como vão te chamar.</p>
+          <p className="text-muted-foreground">Estude com amigos: ranking da semana, ligas com divisões, “vento a favor” para dar força aos amigos e um mural para comemorar as conquistas. Primeiro, escolha como vão te chamar.</p>
         </header>
         <Card><CardContent className="pt-6"><ProfileSetup /></CardContent></Card>
       </div>

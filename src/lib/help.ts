@@ -90,6 +90,26 @@ export const HELP = {
       "Treino: sem pressa. Você vê se acertou e a resolução logo depois de cada questão.",
     ],
   },
+  // ---- admin
+  ritmo: {
+    title: "Ritmo de estudo",
+    body: [
+      "Conta em quantos dias diferentes o aluno respondeu questões nas últimas 4 semanas.",
+      "Constante: 12 dias ou mais. Regular: 5 a 11. Esporádico: 1 a 4. Parado: não estuda há mais de 7 dias. Não começou: nunca respondeu.",
+      "Estudar um pouco todo dia vale mais do que muito num dia só: por isso o ritmo olha os dias, não a quantidade.",
+    ],
+  },
+  atencao: {
+    title: "Precisam de atenção",
+    body: [
+      "Alunos ativos que parecem estar se afastando: pararam há mais de 7 dias, criaram a conta há 3 dias e não começaram, estudaram pelo menos 50% menos nesta semana ou estão com acerto abaixo de 40% no mês.",
+      "É um bom momento para mandar uma mensagem ou ver o painel do aluno.",
+    ],
+  },
+  turma_fracos: {
+    title: "Pontos fracos da turma",
+    body: ["Assuntos com pelo menos 10 respostas nos últimos 90 dias, do menor para o maior acerto. Mostram onde vale reforçar conteúdo, dicas ou resoluções para todo mundo."],
+  },
 } satisfies Record<string, Help>;
 
 export type HelpKey = keyof typeof HELP;

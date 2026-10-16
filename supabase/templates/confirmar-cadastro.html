@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>Confirme seu e-mail no Vestibularr</title>
+</head>
+<body style="margin:0;padding:0;background:#fff7ea;">
+<!-- Vestibularr: modelo de e-mail do Supabase Auth (confirmação de cadastro). Cole em Authentication > Emails > Confirm signup. -->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;">Falta um passo: confirme seu e-mail para zarpar.</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#fff7ea;">
+  <tr><td align="center" style="padding:32px 16px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:560px;">
+      <tr><td align="center" style="padding:0 0 20px;">
+        <a href="{{ .SiteURL }}" style="text-decoration:none;">
+          <img src="{{ .SiteURL }}/icons/icon-192.png" width="44" height="44" alt="" style="vertical-align:middle;border:0;border-radius:12px;">
+          <span style="font-family:'Fredoka','Trebuchet MS',Arial,sans-serif;font-size:28px;font-weight:700;color:#2f3cff;vertical-align:middle;letter-spacing:-0.5px;">&nbsp;vestibularr</span>
+        </a>
+      </td></tr>
+      <tr><td style="background:#ffffff;border:1px solid #f0e3c8;border-radius:24px;padding:36px 32px;">
+        <h1 style="margin:0 0 12px;font-family:'Fredoka','Trebuchet MS',Arial,sans-serif;font-size:26px;line-height:1.25;font-weight:700;color:#14123a;">Bem-vindo a bordo! ⚓</h1>
+        <p style="margin:0 0 12px;font-family:Inter,Arial,sans-serif;font-size:16px;line-height:1.6;color:#2b2950;">Sua conta no <strong>Vestibularr</strong> foi criada. Falta só confirmar que este e-mail é seu para liberar tudo: questões oficiais com resolução, simulados, redação com IA e o desafio do dia.</p><p style="margin:0 0 12px;font-family:Inter,Arial,sans-serif;font-size:16px;line-height:1.6;color:#2b2950;">É um clique só:</p>
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:28px 0 8px;">
+          <tr><td align="center" bgcolor="#2f3cff" style="border-radius:14px;border-bottom:4px solid #1d25a8;">
+            <a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email&next=/onboarding" style="display:inline-block;padding:15px 30px;font-family:'Fredoka','Trebuchet MS',Arial,sans-serif;font-size:18px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:14px;">Confirmar meu e-mail</a>
+          </td></tr>
+        </table>
+        <p style="margin:20px 0 0;font-family:Inter,Arial,sans-serif;font-size:13px;line-height:1.6;color:#5c5a78;">
+          Se o botão não funcionar, copie e cole este endereço no navegador:<br>
+          <a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email&next=/onboarding" style="color:#2f3cff;word-break:break-all;">{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email&next=/onboarding</a>
+        </p>
+      </td></tr>
+      <tr><td align="center" style="padding:24px 12px 0;font-family:Inter,Arial,sans-serif;font-size:12px;line-height:1.6;color:#7a7894;">
+        Você recebeu este e-mail porque alguém criou uma conta no Vestibularr com ele. Se não foi você, é só ignorar: sem a confirmação, nada acontece.<br>
+        Vestibularr · o app de estudo que cabe na sua rotina · Arr! 🏴‍☠️
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
+</body>
+</html>

@@ -70,10 +70,25 @@ para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e se
    - Com SMTP próprio configurado (item 4): ligue, para confirmar que o e-mail existe.
 2. *URL Configuration*: **Site URL** = a URL do site (ex.: `https://vestibularr.com.br`) e, em **Redirect URLs**,
    adicione `https://SEU-DOMINIO/auth/confirm` (e `http://localhost:3000/auth/confirm` para testar local).
-3. (Recomendado) *Emails → Confirm signup*: troque o link por
-   `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email&next=/onboarding` — funciona mesmo se a pessoa
-   abrir o e-mail em outro aparelho. O formato padrão do Supabase também é aceito.
+3. *Emails*: use os modelos com a identidade do app, em `supabase/templates/` (já trazem o link
+   `{{ .SiteURL }}/auth/confirm?token_hash=…`, que funciona mesmo se a pessoa abrir o e-mail em outro aparelho).
+   Em cada aba, cole o HTML do arquivo e troque o assunto:
+
+   | Aba do Supabase | Arquivo | Assunto |
+   |---|---|---|
+   | Confirm signup | `confirmar-cadastro.html` | `Confirme seu e-mail e zarpe no Vestibularr ⚓` |
+   | Change email address | `trocar-email.html` | `Confirme seu novo e-mail no Vestibularr` |
+   | Reset password | `redefinir-senha.html` | `Crie uma senha nova no Vestibularr` |
+   | Magic link | `link-de-acesso.html` | `Seu link para entrar no Vestibularr` |
+
+   O logo vem de `{{ .SiteURL }}/icons/icon-192.png`, então o **Site URL** (item 2) precisa ser o endereço público.
 4. Para volume real de cadastros, configure um SMTP próprio (o envio padrão do Supabase tem limite baixo por hora).
+
+**Vercel → Settings → Deployment Protection**: deixe a *Vercel Authentication* em "Standard Protection" (protege só
+os deploys de pré-visualização). O endereço de produção (ex.: `https://vestibularr.vercel.app`) tem de ser público, e é
+ele que deve ir para os alunos, para o `NEXT_PUBLIC_SITE_URL` e para o *Site URL* do Supabase. Os endereços de cada
+deploy (`vestibularr-<hash>-<time>.vercel.app`) pedem login do Vercel e mostram "Request Access" para quem não é do time.
+Sem `NEXT_PUBLIC_SITE_URL`, o app usa o domínio de produção do projeto (`VERCEL_PROJECT_PRODUCTION_URL`) nos links.
 
 **Variáveis novas** (`.env.local` e Vercel): `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_TURNSTILE_SITE_KEY` e
 `TURNSTILE_SECRET_KEY` (crie um widget gratuito em Cloudflare → Turnstile; sem as chaves, o anti-robô fica desligado).
@@ -202,6 +217,14 @@ correções, então rodar de novo não traz os defeitos de volta nem apaga resol
 ideia, melhoria ou problema (com nota opcional da experiência e a tela de origem) pelo menu, pelo cartão no Início, pelo
 Perfil ou pela tela de erro. O admin filtra por tipo e status, responde e marca como lido/resolvido; o aluno vê a
 resposta na mesma tela. Limite de 20 por aluno por dia.
+
+**Análise do admin** (migration `0023`): a **Visão geral** mostra a turma — quantos estudaram na semana, questões por
+dia (30 dias), horários e dias em que estudam, o **ritmo** de cada aluno (constante, regular, esporádico, parado, não
+começou), quem **precisa de atenção** (parou, não começou, caiu na semana ou acerto baixo) e o acerto por área,
+disciplina e assunto (os mais difíceis e os mais fáceis para a turma). A lista de alunos ordena por último estudo,
+questões na semana, menor acerto ou nome, e filtra por ritmo. No painel de cada aluno, a seção **Ritmo de estudo** traz
+o calendário de 12 semanas, horários, questões e minutos por dia de estudo, a semana comparada com a anterior e as
+matérias do mais fraco ao mais forte, com a tendência das últimas 2 semanas.
 
 **Ajuda "?"**: conceitos menos óbvios (TRI, escudo, sequência, liga, XP, caderno de erros, simulado × treino…) têm um
 botão "?" com explicação curta. Os textos ficam em `src/lib/help.ts` e o botão é `<HelpTip topic="…" />`.
