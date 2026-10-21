@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Vestibularr — ENEM e UFPR",
+    name: "Vestibularr — ENEM e vestibulares",
     short_name: "Vestibularr",
-    description: "Simulados, treino e redação para ENEM e Vestibular UFPR.",
+    description: "Simulados, treino e redação para o ENEM e os vestibulares das universidades públicas.",
     lang: "pt-BR",
     start_url: "/inicio",
     scope: "/",

@@ -13,7 +13,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
         <img src="/brand/grafite-rosto.svg" alt="" width={88} height={80} className="h-20 w-22" />
         <h1 className="font-brand text-4xl font-bold text-primary">vestibularr</h1>
         <p className="font-display text-lg font-semibold">Ahoy! Bem-vindo a bordo ⚓</p>
-        <p className="text-muted-foreground">Estude para ENEM e UFPR, no celular ou no computador.</p>
+        <p className="text-muted-foreground">Estude para o ENEM e os vestibulares, no celular ou no computador.</p>
       </div>
       {erro === "link" && (
         <p role="alert" className="rounded-control bg-warning-soft px-4 py-3 text-sm font-medium text-warning-soft-foreground">

@@ -13,7 +13,7 @@ export default function CadastroPage() {
           <Logo />
           <h1 className="font-brand text-5xl font-bold leading-[1.02] text-tinta">Bora começar? Leva menos de um minuto.</h1>
           <ul className="flex flex-col gap-3 text-lg text-tinta/80">
-            <li>✓ Questões oficiais do ENEM e da UFPR com resolução</li>
+            <li>✓ Questões oficiais do ENEM e de vestibulares com resolução</li>
             <li>✓ IA que ajuda na sua redação e mostra seus pontos fracos</li>
             <li>✓ 10 minutos por dia, do seu jeito, até sem internet</li>
           </ul>
