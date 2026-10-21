@@ -6,8 +6,8 @@ import { GUIDE_POSTER, GUIDE_VIDEO } from "@/lib/guide";
 import { brl, describeLimit, PLANS } from "@/lib/plans";
 
 export const metadata: Metadata = {
-  title: { absolute: "Vestibularr — sua vaga na federal não depende de quanto você pode pagar" },
-  description: "Questões oficiais do ENEM e da UFPR com resolução, simulados, IA que corrige a redação e um desafio de 10 minutos por dia. Grátis para começar; o completo por um valor simbólico.",
+  title: { absolute: "Vestibularr — sua vaga na universidade pública não depende de quanto você pode pagar" },
+  description: "Questões oficiais do ENEM e de vestibulares com resolução, simulados, IA que corrige a redação e um desafio de 10 minutos por dia. Grátis para começar; o completo por um valor simbólico.",
   alternates: { canonical: "/" },
 };
 
@@ -52,8 +52,8 @@ const MAIS = [
 ];
 
 const FAQ = [
-  ["As questões são oficiais?", "Sim. São das provas do ENEM (INEP) e da UFPR, com a fonte citada em cada questão. As resoluções comentadas são nossas e foram conferidas com o gabarito oficial."],
-  ["Serve para a UTFPR e outras federais?", "Sim. A UTFPR e muitas outras usam a nota do ENEM pelo Sisu. Para a UFPR 2027 temos o formato próprio da fase única."],
+  ["As questões são oficiais?", "Sim. São das provas do ENEM (INEP) e dos vestibulares (hoje, a UFPR), com a fonte citada em cada questão. As resoluções comentadas são nossas e foram conferidas com o gabarito oficial."],
+  ["Serve para outras universidades públicas?", "Sim. A maioria das federais usa a nota do ENEM pelo Sisu, e o treino de assuntos vale para qualquer vestibular. Das provas próprias, já temos a UFPR 2027 no formato da fase única; Fuvest, Unicamp e outras estão a caminho."],
   ["Funciona sem internet?", "Funciona. Instalado no celular, o simulado em andamento e a redação continuam offline; ao reconectar, tudo é enviado sozinho."],
   ["O Grátis é grátis mesmo?", "É, e vai continuar sendo: banco de questões e resoluções ilimitados, sem cartão. Estamos em beta e, por enquanto, todos os recursos estão liberados de graça para todo mundo."],
   ["Por que é tão barato?", "Porque esse é o motivo de o Vestibularr existir: a vaga na universidade pública não pode depender de quanto a família consegue pagar. Quando os planos pagos começarem, o completo vai custar R$ 9,90 por mês, e quem não puder pagar continua estudando no Grátis."],
@@ -89,12 +89,12 @@ export default function Landing() {
         <section className="relative">
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 md:grid-cols-[1.15fr_1fr] md:pt-16">
             <div className="flex flex-col gap-6">
-              <span className="inline-flex w-fit items-center gap-2 rounded-full bg-gema/30 px-3 py-1 text-sm font-bold text-tinta">ENEM · UFPR 2027 · UTFPR via Sisu</span>
+              <span className="inline-flex w-fit items-center gap-2 rounded-full bg-gema/30 px-3 py-1 text-sm font-bold text-tinta">ENEM · Sisu · Vestibulares das públicas</span>
               <h1 className="font-brand text-[2.6rem] font-bold leading-[1.02] tracking-tight sm:text-6xl">
-                Sua vaga na federal <span className="text-cobalto">não depende de quanto você pode pagar.</span>
+                Sua vaga na universidade pública <span className="text-cobalto">não depende de quanto você pode pagar.</span>
               </h1>
               <p className="max-w-xl text-lg text-tinta/75">
-                Um app para estudar do seu jeito, onde e quando quiser: questões oficiais do ENEM e da UFPR com resolução,
+                Um app para estudar do seu jeito, onde e quando quiser: questões oficiais do ENEM e de vestibulares com resolução,
                 simulados, IA que ajuda na estrutura da sua redação e mostra seus pontos fortes e fracos. Grátis para começar.
               </p>
               <div className="flex flex-wrap gap-3">
@@ -114,7 +114,7 @@ export default function Landing() {
         {/* ------------------------------------------------ números */}
         <section aria-label="Em números" className="bg-cobalto text-white">
           <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4">
-            {[["R$ 0", "para começar, com questões e resoluções ilimitadas"], ["1.850", "questões oficiais do ENEM e da UFPR com resolução comentada"], ["10 min", "por dia no desafio: o hábito que leva à vaga"], ["100%", "do progresso salvo sozinho, até sem internet"]].map(([n, d]) => (
+            {[["R$ 0", "para começar, com questões e resoluções ilimitadas"], ["1.850", "questões oficiais do ENEM e de vestibulares com resolução comentada"], ["10 min", "por dia no desafio: o hábito que leva à vaga"], ["100%", "do progresso salvo sozinho, até sem internet"]].map(([n, d]) => (
               <div key={n} className="flex flex-col gap-1">
                 <dt className="sr-only">{d}</dt>
                 <dd className="font-brand text-4xl font-bold sm:text-5xl">{n}</dd>

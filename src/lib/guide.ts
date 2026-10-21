@@ -6,7 +6,7 @@ export const GUIDE_PREF = "guide_dismissed";
 export type GuideChapter = { t: number; title: string; text: string; href?: string; cta?: string };
 
 export const GUIDE_CHAPTERS: GuideChapter[] = [
-  { t: 6, title: "Por que o Vestibularr existe", text: "Sua vaga na federal não depende de quanto você pode pagar. Um app para estudar do seu jeito, onde e quando quiser." },
+  { t: 6, title: "Por que o Vestibularr existe", text: "Sua vaga na universidade pública não depende de quanto você pode pagar. Um app para estudar do seu jeito, onde e quando quiser." },
   { t: 13, title: "O que tem a bordo", text: "Grátis para começar, 1.088 questões oficiais do ENEM com resolução, 10 minutos por dia e IA que ajuda na redação." },
   { t: 20, title: "Descubra seu nível", text: "A triagem adaptativa estima sua nota pela TRI oficial do INEP e mostra os assuntos onde focar.", href: "/triagem", cta: "Fazer a triagem" },
   { t: 28, title: "Desafio do dia", text: "7 questões escolhidas para você, com um chefão de XP em dobro no final. Sequência de dias e escudos para os dias difíceis.", href: "/inicio", cta: "Zarpar!" },

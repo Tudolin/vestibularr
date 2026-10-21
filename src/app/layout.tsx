@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: { type: "website", locale: "pt_BR", siteName: "Vestibularr" },
   twitter: { card: "summary_large_image" },
   title: { default: "Vestibularr", template: "%s · Vestibularr" },
-  description: "Estude para o ENEM e a UFPR com resolução comentada de cada questão, simulados no tempo oficial e IA que corrige sua redação.",
+  description: "Estude para o ENEM e os vestibulares das universidades públicas com resolução comentada de cada questão, simulados no tempo oficial e IA que corrige sua redação.",
   applicationName: "Vestibularr",
   appleWebApp: { capable: true, title: "Vestibularr", statusBarStyle: "default" },
   icons: { icon: "/icons/favicon-32.png", apple: "/icons/apple-touch-icon.png" },

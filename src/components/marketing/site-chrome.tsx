@@ -55,7 +55,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="flex flex-col gap-3">
           <Logo />
-          <p className="max-w-sm text-sm text-tinta/70">Estude para o ENEM e a UFPR com resolução comentada de cada questão, simulados no tempo oficial e IA que corrige sua redação.</p>
+          <p className="max-w-sm text-sm text-tinta/70">Estude para o ENEM e os vestibulares das universidades públicas com resolução comentada de cada questão, simulados no tempo oficial e IA que corrige sua redação.</p>
         </div>
         <nav aria-label="Produto" className="flex flex-col items-start text-sm">
           <span className="font-brand text-base font-bold text-tinta">Produto</span>
