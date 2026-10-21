@@ -2,6 +2,8 @@
  * Importa as provas do NC/UFPR extraídas do PDF oficial (scripts/ufpr-provas.py):
  *   data/ufpr/ufpr-<ano>.json            vestibular da UFPR (1ª fase, 7 línguas estrangeiras)
  *   data/concursos/<slug>.json           concursos de nível médio (questões comuns ligadas a todos os cargos)
+ *   data/fuvest/fuvest-<ano>.json        1ª fase da Fuvest (USP), 90 questões de A a E
+ *   data/unicamp/unicamp-<ano>.json      1ª fase da Unicamp (Comvest), 72 questões de A a D
  * junto com as resoluções comentadas e a classificação (matéria/assunto) de
  *   data/ufpr/resolucoes/ufpr-<ano>.json e data/concursos/resolucoes/<slug>.json
  * ({ items: [{ external_id, correct, area?, subject, topic, explanation_md }] }).
@@ -37,7 +39,7 @@ const fixFile = z.record(
   z.string(),
   z.object({
     statement_md: z.string().trim().min(1).max(60000).optional(),
-    alternatives: z.array(z.object({ label: z.enum(["A", "B", "C", "D", "E"]), text_md: z.string().max(5000), image_url: z.string().optional() })).length(5).optional(),
+    alternatives: z.array(z.object({ label: z.enum(["A", "B", "C", "D", "E"]), text_md: z.string().max(5000), image_url: z.string().optional() })).min(4).max(5).optional(),
     note: z.string().optional(),
   }),
 );
@@ -66,7 +68,7 @@ if (!url || !key) {
 const supabase = createClient(url, key, { auth: { persistSession: false } });
 
 const root = join(import.meta.dirname, "..", "data");
-const sources = ["ufpr", "concursos"].flatMap((dir) =>
+const sources = ["ufpr", "fuvest", "unicamp", "concursos"].filter((dir) => existsSync(join(root, dir))).flatMap((dir) =>
   readdirSync(join(root, dir))
     .filter((f) => f.endsWith(".json") && f !== "correcoes.json")
     .sort()

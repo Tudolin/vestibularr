@@ -13,6 +13,8 @@ export const metadata: Metadata = { title: "Simulados" };
 
 const NOTES: Record<string, string> = {
   UFPR: "Provas oficiais do Núcleo de Concursos (NC/UFPR), com o gabarito definitivo. A 1ª fase também é a prova do Cadete da PM-PR e do Corpo de Bombeiros do Paraná.",
+  FUVEST: "Provas oficiais da 1ª fase da Fuvest (USP), com o gabarito oficial: 90 questões de conhecimentos gerais, de A a E.",
+  UNICAMP: "Provas oficiais da 1ª fase da Unicamp (Comvest), com o gabarito oficial: 72 questões de conhecimentos gerais, de A a D.",
   CONCURSO: "Provas de nível médio aplicadas pelo NC/UFPR. Português, raciocínio matemático, informática e legislação são comuns aos cargos; as específicas mudam por cargo.",
 };
 

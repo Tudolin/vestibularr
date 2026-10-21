@@ -1,8 +1,8 @@
 /** Bancas (vestibulares e concursos) e línguas estrangeiras: a única lista do app. */
-export const BOARDS = ["ENEM", "UFPR", "CONCURSO"] as const;
+export const BOARDS = ["ENEM", "UFPR", "FUVEST", "UNICAMP", "CONCURSO"] as const;
 export type Board = (typeof BOARDS)[number];
 
-export const BOARD_LABEL: Record<Board, string> = { ENEM: "ENEM", UFPR: "UFPR", CONCURSO: "Concursos" };
+export const BOARD_LABEL: Record<Board, string> = { ENEM: "ENEM", UFPR: "UFPR", FUVEST: "Fuvest", UNICAMP: "Unicamp", CONCURSO: "Concursos" };
 export const BOARD_OPTIONS = BOARDS.map((b) => [b, BOARD_LABEL[b]] as [Board, string]);
 
 export const isBoard = (v: unknown): v is Board => typeof v === "string" && (BOARDS as readonly string[]).includes(v);
