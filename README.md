@@ -82,6 +82,11 @@ para **um único cadastro** e pode ser revogado. A pessoa cria nome, e-mail e se
    | Magic link | `link-de-acesso.html` | `Seu link para entrar no Vestibularr` |
 
    O logo vem de `{{ .SiteURL }}/icons/icon-192.png`, então o **Site URL** (item 2) precisa ser o endereço público.
+   **Esqueci minha senha**: o link "Esqueci minha senha" do login abre `/esqueci-senha`, que manda o e-mail de *Reset
+   password*. O link do e-mail passa por `/auth/confirm` (type=recovery), marca um cookie de 15 minutos e leva para
+   `/redefinir-senha`, onde a pessoa cria a senha nova sem precisar da atual; ao salvar, as outras sessões caem. A
+   resposta do pedido é a mesma com ou sem conta (não revela quem está cadastrado). Precisa do SMTP próprio (item 4)
+   para chegar a qualquer pessoa.
 4. Para volume real de cadastros, configure um SMTP próprio (o envio padrão do Supabase tem limite baixo por hora).
 
 **Vercel → Settings → Deployment Protection**: deixe a *Vercel Authentication* em "Standard Protection" (protege só

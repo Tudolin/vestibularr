@@ -52,3 +52,14 @@ export const signUpSchema = z
     terms: z.literal("on", { error: "Para criar a conta, aceite os Termos e a Política de Privacidade" }),
   })
   .refine((d) => d.password === d.confirm, { message: "As senhas não conferem", path: ["confirm"] });
+
+export const forgotPasswordSchema = z.object({
+  email: z.string().trim().toLowerCase().pipe(z.email("E-mail inválido")),
+});
+
+export const newPasswordSchema = z
+  .object({
+    password: z.string().min(8, "A senha precisa ter ao menos 8 caracteres").max(72),
+    confirm: z.string(),
+  })
+  .refine((d) => d.password === d.confirm, { message: "As senhas não conferem", path: ["confirm"] });

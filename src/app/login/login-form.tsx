@@ -1,6 +1,7 @@
 "use client";
 
 import { Loader2 } from "lucide-react";
+import Link from "next/link";
 import { startTransition, useActionState } from "react";
 import { Button } from "@/components/ui/button";
 import { FieldError, Input, Label } from "@/components/ui/input";
@@ -27,7 +28,10 @@ export function LoginForm({ next }: { next?: string }) {
         <FieldError id="email-err">{errors?.email?.[0]}</FieldError>
       </div>
       <div className="flex flex-col gap-1.5">
-        <Label htmlFor="password">Senha</Label>
+        <div className="flex items-baseline justify-between gap-2">
+          <Label htmlFor="password">Senha</Label>
+          <Link href="/esqueci-senha" className="text-sm font-semibold text-primary underline underline-offset-2">Esqueci minha senha</Link>
+        </div>
         <Input id="password" name="password" type="password" autoComplete="current-password" required aria-invalid={!!errors?.password} aria-describedby={errors?.password ? "pw-err" : undefined} />
         <FieldError id="pw-err">{errors?.password?.[0]}</FieldError>
       </div>
